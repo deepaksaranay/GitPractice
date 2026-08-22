@@ -6,8 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a personal Git/GitHub learning repository (`GitPractice`). It is not a single application — it's a
 collection of small, independent, single-file Python CLI programs, each added in its own commit to practice
-Git workflows. There is no shared package structure, build system, dependency manifest, test suite, or linter
-configured anywhere in the repo.
+Git workflows. There is no shared package structure, build system, or linter configured anywhere in the repo.
+Some scripts have accompanying `pytest` tests (see "Testing" below); there is otherwise nothing to build.
 
 ## Running the programs
 
@@ -31,8 +31,23 @@ a `while True` loop, read a choice via `input()`, and loop until the user select
 `calculator.py` prompts for two numbers and prints arithmetic results once, non-interactively. `hello.py` just
 prints fixed lines.
 
-There is no build step, no test suite, and no linter configured — there is nothing to run other than the
-scripts themselves. Do not invent test/lint/build commands for this repo.
+There is no build step and no linter configured — there is nothing to run other than the scripts themselves
+and their tests (see "Testing" below). Do not invent lint/build commands for this repo.
+
+## Testing
+
+A handful of scripts (e.g. `inventory_management.py`, `competitive_exam_portal.py`) have a matching
+`test_<script>.py` file that imports their pure functions and tests them with `pytest`. Install the test
+dependency and run the suite from the repo root:
+
+```bash
+pip install -r requirements-dev.txt
+python3 -m pytest
+```
+
+`pytest.ini` pins the rootdir and test file pattern (`test_*.py`); no other configuration exists. When a
+script is purely interactive with no extractable logic (e.g. `hello.py`, most menu-driven apps), it has no
+tests — don't add a test file that just exercises `input()`/`print()` menu plumbing.
 
 ## Code conventions used across the scripts
 
