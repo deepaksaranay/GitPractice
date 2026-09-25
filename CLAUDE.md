@@ -16,6 +16,7 @@ Python 3). Run any of them directly:
 
 ```bash
 python3 banking_system.py
+python3 bill_splitter.py
 python3 calculator.py
 python3 contact_book.py
 python3 expense_tracker.py
@@ -25,7 +26,7 @@ python3 student_management.py
 python3 todo.py
 ```
 
-Most of these (`banking_system.py`, `contact_book.py`, `expense_tracker.py`, `library_management.py`,
+Most of these (`banking_system.py`, `bill_splitter.py`, `contact_book.py`, `expense_tracker.py`, `library_management.py`,
 `student_management.py`, `todo.py`) are interactive, menu-driven console apps: they print a numbered menu in
 a `while True` loop, read a choice via `input()`, and loop until the user selects the "Exit"/"Goodbye" option.
 `calculator.py` prompts for two numbers and prints arithmetic results once, non-interactively. `hello.py` just
