@@ -1,0 +1,564 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Extra Course Planner</title>
+<meta name="description" content="Drag sliders to see how one more course changes your weekly hours, graduation term and cost to finish.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a registrar's worksheet — controls column on the left, the week and its consequences on the right. */
+:root {
+  --bg: #f3f4f1;
+  --surface: #fbfbf9;
+  --ink: #16181d;
+  --ink-2: #4c5058;
+  --muted: #7d828b;
+  --line: #dfe1dc;
+  --axis: #c3c5bf;
+  --accent: #2b4fb8;
+  --accent-soft: #e3e9f8;
+  --bar-muted: #c9cedb;
+
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300;
+  --good: #0a7d0a; --warn: #9a6a00; --bad: #c03131;
+  --good-bg: #e2f2e2; --warn-bg: #fbefd2; --bad-bg: #f9e0e0;
+
+  --f-display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111318; --surface: #1a1c21; --ink: #f2f3f5; --ink-2: #c1c5cd; --muted: #8b909a;
+    --line: #2b2e35; --axis: #3a3e46; --accent: #8aa6ff; --accent-soft: #232b44; --bar-muted: #3b4150;
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300;
+    --good: #4cc44c; --warn: #f0b43c; --bad: #ff7b7b;
+    --good-bg: #173017; --warn-bg: #33280d; --bad-bg: #3a1818;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111318; --surface: #1a1c21; --ink: #f2f3f5; --ink-2: #c1c5cd; --muted: #8b909a;
+  --line: #2b2e35; --axis: #3a3e46; --accent: #8aa6ff; --accent-soft: #232b44; --bar-muted: #3b4150;
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300;
+  --good: #4cc44c; --warn: #f0b43c; --bad: #ff7b7b;
+  --good-bg: #173017; --warn-bg: #33280d; --bad-bg: #3a1818;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 28px 56px; }
+
+header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 32px; margin-bottom: 24px; }
+.eyebrow { font-family: var(--f-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; }
+h1 { font-family: var(--f-display); font-weight: 700; font-size: clamp(30px, 4.4vw, 46px); line-height: 1.02; letter-spacing: -.02em; margin: 0; text-wrap: balance; }
+.lede { color: var(--ink-2); max-width: 58ch; margin: 10px 0 0; }
+h2 { font-family: var(--f-display); font-weight: 500; font-size: 20px; letter-spacing: -.01em; margin: 0; text-wrap: balance; }
+h3 { font-size: 12px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--ink-2); margin: 0; }
+
+.grid { display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); gap: 24px; align-items: start; }
+@media (max-width: 860px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+
+/* Controls */
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 22px; }
+@media (min-width: 861px) { .panel { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 16px); } }
+.group { display: flex; flex-direction: column; gap: 14px; }
+.group + .group { border-top: 1px solid var(--line); padding-top: 18px; }
+.ctl { display: flex; flex-direction: column; gap: 6px; }
+.ctl-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.ctl label, .ctl .lbl { font-weight: 500; font-size: 14px; }
+.ctl output { font-family: var(--f-mono); font-size: 14px; font-variant-numeric: tabular-nums; color: var(--accent); white-space: nowrap; }
+.hint { font-size: 12.5px; color: var(--muted); margin: 0; }
+input[type="range"] { width: 100%; accent-color: var(--accent); height: 22px; margin: 0; cursor: pointer; }
+input[type="range"]:focus-visible, button:focus-visible, .seg input:focus-visible + span, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.seg { display: flex; border: 1px solid var(--axis); border-radius: 8px; padding: 3px; gap: 3px; }
+.seg label { flex: 1; position: relative; cursor: pointer; }
+.seg input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.seg span { display: block; text-align: center; font-size: 13px; padding: 6px 8px; border-radius: 5px; color: var(--ink-2); }
+.seg input:checked + span { background: var(--accent); color: var(--surface); font-weight: 600; }
+
+.load-picker { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.load-picker label { position: relative; cursor: pointer; }
+.load-picker input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.load-picker span { display: flex; flex-direction: column; align-items: center; border: 1px solid var(--axis); border-radius: 8px; padding: 8px 4px; font-family: var(--f-display); font-size: 22px; line-height: 1; }
+.load-picker small { font-family: var(--f-body); font-size: 11px; color: var(--muted); margin-top: 4px; }
+.load-picker input:checked + span { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.load-picker input:checked + span small { color: var(--accent); }
+.load-picker input:focus-visible + span { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Results */
+.results { display: flex; flex-direction: column; gap: 24px; min-width: 0; }
+.verdict { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
+.pill { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; font-size: 13px; padding: 4px 10px 4px 8px; border-radius: 999px; }
+.pill svg { width: 14px; height: 14px; }
+.pill.good { background: var(--good-bg); color: var(--good); }
+.pill.warn { background: var(--warn-bg); color: var(--warn); }
+.pill.bad { background: var(--bad-bg); color: var(--bad); }
+.verdict p { margin: 0; color: var(--ink-2); flex: 1 1 280px; min-width: 0; }
+
+.tiles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+@media (max-width: 640px) { .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.tile { background: var(--surface); padding: 14px 16px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.tile .k { font-size: 12px; color: var(--muted); letter-spacing: .02em; }
+.tile .v { font-family: var(--f-display); font-weight: 500; font-size: 28px; line-height: 1.15; letter-spacing: -.01em; }
+.tile .d { font-family: var(--f-mono); font-size: 12px; color: var(--ink-2); min-height: 18px; }
+.d .up { color: var(--good); } .d .down { color: var(--bad); }
+
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.card-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 4px 16px; }
+.card-head p { margin: 0; font-size: 13px; color: var(--muted); }
+
+.wk-scale { display: flex; justify-content: space-between; font-family: var(--f-mono); font-size: 11px; color: var(--muted); margin-bottom: -8px; }
+.wk { position: relative; display: flex; gap: 2px; height: 44px; }
+.wk .seg-b { height: 100%; border-radius: 4px; min-width: 0; transition: flex-grow .25s ease; }
+.wk .over { position: absolute; top: -6px; bottom: -6px; border-left: 2px solid var(--bad); background: color-mix(in srgb, var(--bad) 18%, transparent); }
+.wk-note { font-family: var(--f-mono); font-size: 12px; color: var(--bad); margin: -4px 0 0; }
+@media (prefers-reduced-motion: reduce) { .wk .seg-b { transition: none; } }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0; padding: 0; list-style: none; font-size: 13px; }
+.legend li { display: inline-flex; align-items: center; gap: 7px; color: var(--ink-2); }
+.legend i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+.legend b { font-family: var(--f-mono); font-weight: 500; color: var(--ink); font-variant-numeric: tabular-nums; }
+
+.multiples { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+@media (max-width: 720px) { .multiples { grid-template-columns: minmax(0, 1fr); } }
+.mini { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.mini svg { display: block; width: 100%; height: auto; overflow: visible; }
+
+.axis-text { fill: var(--muted); font-family: var(--f-mono); font-size: 11px; }
+.val-text { fill: var(--ink); font-family: var(--f-mono); font-size: 11.5px; font-weight: 500; }
+.val-text.sel { fill: var(--accent); }
+.gridline { stroke: var(--line); stroke-width: 1; }
+.baseline { stroke: var(--axis); stroke-width: 1; }
+.hit { fill: transparent; cursor: default; }
+
+.compare-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+button { font: inherit; font-size: 13.5px; font-weight: 600; border-radius: 8px; padding: 8px 14px; cursor: pointer; border: 1px solid var(--accent); background: var(--accent); color: var(--surface); }
+button.ghost { background: transparent; color: var(--accent); }
+button:hover { filter: brightness(1.08); }
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; font-variant-numeric: tabular-nums; }
+th, td { text-align: right; padding: 8px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+thead th { font-size: 12px; font-weight: 600; color: var(--muted); letter-spacing: .03em; }
+td { font-family: var(--f-mono); }
+td:first-child { font-family: var(--f-body); }
+tr.sel td { background: var(--accent-soft); }
+.empty { color: var(--muted); font-size: 13.5px; margin: 0; }
+details summary { cursor: pointer; font-size: 13.5px; font-weight: 500; color: var(--accent); }
+details[open] summary { margin-bottom: 10px; }
+.foot { font-size: 12.5px; color: var(--muted); max-width: 80ch; margin: 0; }
+
+#tip { position: fixed; pointer-events: none; z-index: 10; background: var(--ink); color: var(--bg); font-size: 12.5px; padding: 7px 10px; border-radius: 6px; max-width: 240px; line-height: 1.4; }
+#tip b { font-weight: 600; }
+@media (prefers-reduced-motion: no-preference) { .seg-rect, .mbar { transition: x .25s ease, width .25s ease, y .25s ease, height .25s ease; } }
+</style>
+
+</head><body>
+<div class="wrap">
+  <header>
+    <div>
+      <p class="eyebrow">Spring 2027 registration · what-if worksheet</p>
+      <h1>Should I take the extra course?</h1>
+      <p class="lede">Pick a course load and set the facts of your week. The planner shows where your 168 hours go, when you graduate, and what finishing costs, so you can see the trade-off before you register.</p>
+    </div>
+  </header>
+
+  <div class="grid">
+    <form class="panel" id="controls" autocomplete="off">
+      <div class="group">
+        <div class="ctl">
+          <span class="lbl" id="load-lbl">Courses next term</span>
+          <div class="load-picker" role="radiogroup" aria-labelledby="load-lbl">
+            <label><input type="radio" name="load" id="load3" value="3"><span>3<small>light</small></span></label>
+            <label><input type="radio" name="load" id="load4" value="4" checked><span>4<small>usual</small></span></label>
+            <label><input type="radio" name="load" id="load5" value="5"><span>5<small>+1 extra</small></span></label>
+            <label><input type="radio" name="load" id="load6" value="6"><span>6<small>+2 extra</small></span></label>
+          </div>
+        </div>
+        <div class="ctl">
+          <span class="lbl" id="cr-lbl">Credits per course</span>
+          <div class="seg" role="radiogroup" aria-labelledby="cr-lbl">
+            <label><input type="radio" name="credits" id="cr3" value="3" checked><span>3 credits</span></label>
+            <label><input type="radio" name="credits" id="cr4" value="4"><span>4 credits</span></label>
+          </div>
+        </div>
+        <div class="ctl">
+          <div class="ctl-head"><label for="study">Study hours per credit</label><output for="study" id="study-o"></output></div>
+          <input type="range" id="study" min="1" max="3" step="0.25" value="2">
+          <p class="hint">The common rule of thumb is 2 hours outside class for every credit hour.</p>
+        </div>
+        <div class="ctl">
+          <div class="ctl-head"><label for="remaining">Credits left to graduate</label><output for="remaining" id="remaining-o"></output></div>
+          <input type="range" id="remaining" min="12" max="120" step="3" value="60">
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="ctl">
+          <div class="ctl-head"><label for="job">Paid work per week</label><output for="job" id="job-o"></output></div>
+          <input type="range" id="job" min="0" max="35" step="1" value="12">
+        </div>
+        <div class="ctl">
+          <div class="ctl-head"><label for="sleep">Sleep per night</label><output for="sleep" id="sleep-o"></output></div>
+          <input type="range" id="sleep" min="5" max="9" step="0.5" value="7.5">
+        </div>
+        <div class="ctl">
+          <span class="lbl" id="live-lbl">Where you live</span>
+          <div class="seg" role="radiogroup" aria-labelledby="live-lbl">
+            <label><input type="radio" name="commute" id="oncampus" value="0" checked><span>On campus</span></label>
+            <label><input type="radio" name="commute" id="commuter" value="6"><span>Commute (+6 h/wk)</span></label>
+          </div>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="ctl">
+          <span class="lbl" id="tuit-lbl">How tuition is billed</span>
+          <div class="seg" role="radiogroup" aria-labelledby="tuit-lbl">
+            <label><input type="radio" name="billing" id="flat" value="flat" checked><span>Flat rate 12–18 cr</span></label>
+            <label><input type="radio" name="billing" id="percredit" value="credit"><span>Per credit</span></label>
+          </div>
+        </div>
+        <div class="ctl">
+          <div class="ctl-head"><label for="rate">Tuition per credit</label><output for="rate" id="rate-o"></output></div>
+          <input type="range" id="rate" min="150" max="1500" step="25" value="450">
+          <p class="hint" id="rate-hint"></p>
+        </div>
+        <div class="ctl">
+          <div class="ctl-head"><label for="living">Rent, food &amp; fees per term</label><output for="living" id="living-o"></output></div>
+          <input type="range" id="living" min="0" max="12000" step="250" value="6000">
+        </div>
+      </div>
+    </form>
+
+    <main class="results">
+      <div class="verdict" aria-live="polite">
+        <span class="pill" id="pill"></span>
+        <p id="verdict-text"></p>
+      </div>
+
+      <section class="tiles" aria-label="Summary">
+        <div class="tile"><span class="k">Free hours per week</span><span class="v" id="t-free"></span><span class="d" id="d-free"></span></div>
+        <div class="tile"><span class="k">Terms left</span><span class="v" id="t-terms"></span><span class="d" id="d-terms"></span></div>
+        <div class="tile"><span class="k">Graduate in</span><span class="v" id="t-grad"></span><span class="d" id="d-grad"></span></div>
+        <div class="tile"><span class="k">Cost to finish</span><span class="v" id="t-cost"></span><span class="d" id="d-cost"></span></div>
+      </section>
+
+      <section class="card week">
+        <div class="card-head">
+          <h2>Your 168-hour week</h2>
+          <p id="week-sub"></p>
+        </div>
+        <div class="wk-scale"><span>0 h</span><span id="wk-end">168 h</span></div>
+        <div class="wk" id="week-bar" role="img" aria-label="Stacked bar of weekly hours"></div>
+        <ul class="legend" id="week-legend"></ul>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <h2>Every load, side by side</h2>
+          <p>Bars are grouped by number of courses (3–6). Your choice is highlighted; hover for details.</p>
+        </div>
+        <div class="multiples">
+          <div class="mini"><h3>Free hours / week</h3><svg id="m-free" viewBox="0 0 260 170"></svg></div>
+          <div class="mini"><h3>Terms to graduate</h3><svg id="m-terms" viewBox="0 0 260 170"></svg></div>
+          <div class="mini"><h3>Cost to finish</h3><svg id="m-cost" viewBox="0 0 260 170"></svg></div>
+        </div>
+        <details>
+          <summary>Show as a table</summary>
+          <div class="table-wrap"><table id="load-table"></table></div>
+        </details>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <h2>Compare scenarios</h2>
+          <p>Save a setup, change the sliders, and see the difference.</p>
+        </div>
+        <div class="compare-row">
+          <button type="button" id="save">Save current as Scenario A</button>
+          <button type="button" class="ghost" id="clear" hidden>Clear</button>
+        </div>
+        <div class="table-wrap" id="compare-wrap"><p class="empty" id="compare-empty">No scenario saved yet. The planner opens with an example student: 4 courses, a 12-hour job, 60 credits left.</p></div>
+      </section>
+
+      <p class="foot">Assumptions: 1 hour in class per credit per week, 3 hours a day for meals, hygiene and chores, terms run Spring and Fall only, and the final term is billed on the credits it actually needs. Flat-rate tuition charges 12 credits' worth for any load from 12 to 18 credits. These are planning estimates, not advice from your registrar.</p>
+    </main>
+  </div>
+</div>
+<div id="tip" hidden></div>
+
+<script>
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const form = $("controls");
+  const LOADS = [3, 4, 5, 6];
+  const ESSENTIALS = 21;
+  const CATS = [
+    { key: "sleep", name: "Sleep", color: "var(--s1)" },
+    { key: "cls", name: "Class", color: "var(--s2)" },
+    { key: "study", name: "Study", color: "var(--s3)" },
+    { key: "work", name: "Paid work", color: "var(--s4)" },
+    { key: "life", name: "Meals, chores, commute", color: "var(--s5)" },
+    { key: "free", name: "Free time", color: "var(--s6)" },
+  ];
+  let saved = null;
+
+  function read() {
+    const v = (n) => form.querySelector(`input[name="${n}"]:checked`).value;
+    return {
+      load: +v("load"), credits: +v("credits"), commute: +v("commute"), billing: v("billing"),
+      study: +$("study").value, remaining: +$("remaining").value, job: +$("job").value,
+      sleep: +$("sleep").value, rate: +$("rate").value, living: +$("living").value,
+    };
+  }
+
+  function termTuition(cr, s) {
+    if (s.billing === "flat" && cr >= 12 && cr <= 18) return 12 * s.rate;
+    if (s.billing === "flat" && cr > 18) return 12 * s.rate + (cr - 18) * s.rate;
+    return cr * s.rate;
+  }
+
+  function termName(i) {
+    // i = 0 is Spring 2027; alternate Spring / Fall.
+    const year = 2027 + Math.floor(i / 2);
+    return (i % 2 === 0 ? "Spring " : "Fall ") + year;
+  }
+
+  function compute(s, load) {
+    load = load ?? s.load;
+    const cr = load * s.credits;
+    const hours = {
+      sleep: s.sleep * 7,
+      cls: cr,
+      study: cr * s.study,
+      work: s.job,
+      life: ESSENTIALS + s.commute,
+    };
+    const used = Object.values(hours).reduce((a, b) => a + b, 0);
+    hours.free = 168 - used;
+    const terms = Math.ceil(s.remaining / cr);
+    let tuition = 0, left = s.remaining;
+    for (let i = 0; i < terms; i++) { const take = Math.min(cr, left); tuition += termTuition(take, s); left -= take; }
+    const cost = tuition + terms * s.living;
+    return { load, cr, hours, free: hours.free, terms, grad: termName(terms - 1), cost, tuition };
+  }
+
+  const fmtH = (h) => (Math.round(h * 10) / 10).toString().replace(/\.0$/, "");
+  const fmt$ = (n) => "$" + Math.round(n).toLocaleString("en-US");
+  const fmt$k = (n) => Math.abs(n) >= 1000 ? "$" + (n / 1000).toFixed(n >= 100000 ? 0 : 1).replace(/\.0$/, "") + "k" : fmt$(n);
+
+  function status(free) {
+    if (free < 0) return { cls: "bad", label: "Not possible", icon: "x" };
+    if (free < 12) return { cls: "bad", label: "Overloaded", icon: "x" };
+    if (free < 25) return { cls: "warn", label: "Tight", icon: "!" };
+    return { cls: "good", label: "Sustainable", icon: "ok" };
+  }
+  const ICONS = {
+    ok: '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    "!": '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="8" cy="12.5" r="1.2" fill="currentColor"/></svg>',
+    x: '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+  };
+
+  /* ---------- tooltip ---------- */
+  const tip = $("tip");
+  function showTip(e, html) {
+    tip.innerHTML = html; tip.hidden = false;
+    const r = tip.getBoundingClientRect();
+    let x = e.clientX + 14, y = e.clientY + 14;
+    if (x + r.width > innerWidth - 8) x = e.clientX - r.width - 14;
+    if (y + r.height > innerHeight - 8) y = e.clientY - r.height - 14;
+    tip.style.left = Math.max(8, x) + "px"; tip.style.top = Math.max(8, y) + "px";
+  }
+  const hideTip = () => { tip.hidden = true; };
+  function bindTip(el, html) {
+    el.addEventListener("pointermove", (e) => showTip(e, html));
+    el.addEventListener("pointerleave", hideTip);
+  }
+
+  const NS = "http://www.w3.org/2000/svg";
+  function el(tag, attrs, parent) {
+    const n = document.createElementNS(NS, tag);
+    for (const k in attrs) n.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(n);
+    return n;
+  }
+
+  /* ---------- week bar ---------- */
+  function drawWeek(r) {
+    const bar = $("week-bar");
+    bar.innerHTML = "";
+    const over = Math.max(0, -r.free);
+    const total = 168 + over;
+    CATS.forEach((c) => {
+      const h = Math.max(0, r.hours[c.key]);
+      if (h <= 0) return;
+      const d = document.createElement("div");
+      d.className = "seg-b";
+      d.style.flex = h + " 1 0";
+      d.style.background = c.color;
+      const share = Math.round((h / 168) * 100);
+      bindTip(d, `<b>${c.name}</b><br>${fmtH(h)} h/week · ${share}% of the week${c.key === "study" ? `<br>${fmtH(h / 7)} h a day` : ""}`);
+      bar.appendChild(d);
+    });
+    const old = bar.parentNode.querySelector(".wk-note"); if (old) old.remove();
+    if (over > 0) {
+      const o = document.createElement("div");
+      o.className = "over";
+      o.style.left = (168 / total * 100) + "%"; o.style.right = "0";
+      bar.appendChild(o);
+      const n = document.createElement("p"); n.className = "wk-note";
+      n.textContent = `Overbooked by ${fmtH(over)} h. Everything right of the red line does not fit in a week.`;
+      bar.after(n);
+      $("wk-end").textContent = fmtH(total) + " h";
+    } else $("wk-end").textContent = "168 h";
+
+    const lg = $("week-legend");
+    lg.innerHTML = CATS.map((c) => `<li><i style="background:${c.color}"></i>${c.name} <b>${fmtH(r.hours[c.key])} h</b></li>`).join("");
+    $("week-sub").textContent = `${r.cr} credits · ${fmtH(r.hours.cls + r.hours.study)} h of school per week`;
+  }
+
+  /* ---------- small multiples ---------- */
+  function drawMini(id, rows, cur, get, label, tipFn) {
+    const svg = $(id); svg.innerHTML = "";
+    const W = 260, H = 170, padL = 4, padR = 4, top = 22, bottom = 26;
+    const vals = rows.map(get);
+    const max = Math.max(...vals.map((v) => Math.max(v, 0)), 1);
+    const min = Math.min(0, ...vals);
+    const plotH = H - top - bottom;
+    const y = (v) => top + ((max - v) / (max - min)) * plotH;
+    const y0 = y(0);
+    // gridlines at half and full max
+    [max / 2, max].forEach((gv) => el("line", { x1: padL, x2: W - padR, y1: y(gv), y2: y(gv), class: "gridline" }, svg));
+    const bw = (W - padL - padR) / rows.length;
+    const barW = Math.min(38, bw * 0.55);
+    rows.forEach((r, i) => {
+      const v = get(r);
+      const cx = padL + bw * i + bw / 2;
+      const sel = r.load === cur;
+      const y1 = Math.min(y(v), y0), h = Math.max(Math.abs(y(v) - y0), 2);
+      const fill = sel ? "var(--accent)" : (v < 0 ? "var(--bad)" : "var(--bar-muted)");
+      if (v >= 0) {
+        // rounded top, square baseline
+        const p = `M${cx - barW / 2},${y0} V${y1 + 4} Q${cx - barW / 2},${y1} ${cx - barW / 2 + 4},${y1} H${cx + barW / 2 - 4} Q${cx + barW / 2},${y1} ${cx + barW / 2},${y1 + 4} V${y0} Z`;
+        el("path", { d: p, fill, opacity: v < 0 && !sel ? 0.5 : 1 }, svg);
+      } else {
+        el("rect", { x: cx - barW / 2, y: y0, width: barW, height: h, fill, opacity: sel ? 1 : 0.55 }, svg);
+      }
+      const vt = el("text", { x: cx, y: v >= 0 ? y1 - 6 : y0 + h + 13, "text-anchor": "middle", class: "val-text" + (sel ? " sel" : "") }, svg);
+      vt.textContent = label(v);
+      const lt = el("text", { x: cx, y: H - 6, "text-anchor": "middle", class: "axis-text" }, svg);
+      lt.textContent = r.load;
+      if (sel) lt.setAttribute("style", "fill: var(--accent); font-weight: 600");
+      const hit = el("rect", { x: padL + bw * i, y: 0, width: bw, height: H, class: "hit" }, svg);
+      bindTip(hit, tipFn(r));
+    });
+    el("line", { x1: padL, x2: W - padR, y1: y0, y2: y0, class: "baseline" }, svg);
+  }
+
+  function drawTable(rows, cur) {
+    $("load-table").innerHTML =
+      `<thead><tr><th>Load</th><th>Credits</th><th>School h/wk</th><th>Free h/wk</th><th>Terms</th><th>Graduate</th><th>Cost to finish</th></tr></thead><tbody>` +
+      rows.map((r) => `<tr class="${r.load === cur ? "sel" : ""}"><td>${r.load} courses</td><td>${r.cr}</td><td>${fmtH(r.hours.cls + r.hours.study)}</td><td>${fmtH(r.free)}</td><td>${r.terms}</td><td>${r.grad}</td><td>${fmt$(r.cost)}</td></tr>`).join("") +
+      `</tbody>`;
+  }
+
+  /* ---------- deltas vs. saved ---------- */
+  function delta(now, then, unit, goodIfUp) {
+    const d = now - then;
+    if (Math.abs(d) < 0.05) return "same as A";
+    const good = goodIfUp ? d > 0 : d < 0;
+    const txt = unit === "$" ? (d > 0 ? "+" : "−") + fmt$(Math.abs(d)) : (d > 0 ? "+" : "−") + fmtH(Math.abs(d)) + unit;
+    return `<span class="${good ? "up" : "down"}">${txt}</span> vs A`;
+  }
+
+  function describe(s) {
+    return `${s.load} × ${s.credits}-cr courses, ${s.job} h job, ${s.sleep} h sleep, ${s.billing === "flat" ? "flat-rate" : "per-credit"} tuition`;
+  }
+
+  function drawCompare(s, r) {
+    const wrap = $("compare-wrap");
+    $("clear").hidden = !saved;
+    if (!saved) { wrap.innerHTML = `<p class="empty">No scenario saved yet. The planner opens with an example student: 4 courses, a 12-hour job, 60 credits left.</p>`; return; }
+    const a = saved.r;
+    const row = (k, av, nv, dv) => `<tr><td>${k}</td><td>${av}</td><td>${nv}</td><td>${dv}</td></tr>`;
+    const dd = (n, t, u, up) => delta(n, t, u, up).replace(" vs A", "");
+    wrap.innerHTML = `<table><thead><tr><th></th><th>Scenario A</th><th>Now</th><th>Change</th></tr></thead><tbody>` +
+      row("Setup", `<span style="font-family:var(--f-body);white-space:normal">${describe(saved.s)}</span>`, `<span style="font-family:var(--f-body);white-space:normal">${describe(s)}</span>`, "") +
+      row("Free hours / week", fmtH(a.free), fmtH(r.free), dd(r.free, a.free, " h", true)) +
+      row("Study + class / week", fmtH(a.hours.cls + a.hours.study), fmtH(r.hours.cls + r.hours.study), dd(r.hours.cls + r.hours.study, a.hours.cls + a.hours.study, " h", false)) +
+      row("Terms left", a.terms, r.terms, dd(r.terms, a.terms, "", false)) +
+      row("Graduate in", a.grad, r.grad, "") +
+      row("Cost to finish", fmt$(a.cost), fmt$(r.cost), dd(r.cost, a.cost, "$", false)) +
+      `</tbody></table>`;
+  }
+
+  /* ---------- main render ---------- */
+  function render() {
+    const s = read();
+    $("study-o").textContent = s.study + " h";
+    $("remaining-o").textContent = s.remaining + " cr";
+    $("job-o").textContent = s.job + " h";
+    $("sleep-o").textContent = s.sleep + " h";
+    $("rate-o").textContent = fmt$(s.rate);
+    $("living-o").textContent = fmt$(s.living);
+    $("rate-hint").textContent = s.billing === "flat"
+      ? `Any term from 12 to 18 credits costs ${fmt$(12 * s.rate)}. Extra courses inside that band add no tuition.`
+      : `Every credit is billed, so total tuition barely changes with load. Fewer terms still saves living costs.`;
+
+    const rows = LOADS.map((l) => compute(s, l));
+    const r = rows.find((x) => x.load === s.load);
+    const base = rows.find((x) => x.load === s.load - 1);
+
+    const st = status(r.free);
+    const pill = $("pill");
+    pill.className = "pill " + st.cls;
+    pill.innerHTML = ICONS[st.icon] + st.label;
+
+    let msg;
+    if (r.free < 0) msg = `This week needs ${fmtH(-r.free)} more hours than exist. Drop a course, cut work hours, or lower study time.`;
+    else if (base) {
+      const lost = base.free - r.free, termsSaved = base.terms - r.terms, costDiff = base.cost - r.cost;
+      msg = `Compared with ${base.load} courses, this load costs you ${fmtH(lost)} free hours a week` +
+        (termsSaved > 0 ? `, finishes ${termsSaved} term${termsSaved > 1 ? "s" : ""} sooner (${r.grad} instead of ${base.grad})` : ` and does not move your graduation term`) +
+        (Math.abs(costDiff) >= 1 ? `, and ${costDiff > 0 ? "saves" : "adds"} ${fmt$(Math.abs(costDiff))} overall.` : ".");
+    } else msg = `The lightest load leaves ${fmtH(r.free)} free hours a week and graduates you in ${r.grad}.`;
+    $("verdict-text").textContent = msg;
+
+    $("t-free").textContent = fmtH(r.free) + " h";
+    $("t-terms").textContent = r.terms;
+    $("t-grad").textContent = r.grad;
+    $("t-cost").textContent = fmt$k(r.cost);
+    if (saved) {
+      $("d-free").innerHTML = delta(r.free, saved.r.free, " h", true);
+      $("d-terms").innerHTML = delta(r.terms, saved.r.terms, "", false);
+      $("d-grad").innerHTML = r.grad === saved.r.grad ? "same as A" : `A: ${saved.r.grad}`;
+      $("d-cost").innerHTML = delta(r.cost, saved.r.cost, "$", false);
+    } else {
+      $("d-free").textContent = `${fmtH(r.free / 7)} h a day`;
+      $("d-terms").textContent = `${r.cr} credits a term`;
+      $("d-grad").textContent = `${s.remaining} credits left`;
+      $("d-cost").textContent = `${fmt$k(r.tuition)} of it tuition`;
+    }
+
+    drawWeek(r);
+    drawMini("m-free", rows, s.load, (x) => x.free, (v) => fmtH(v),
+      (x) => `<b>${x.load} courses</b><br>${fmtH(x.free)} free h/week<br>${fmtH(x.hours.cls + x.hours.study)} h of class + study`);
+    drawMini("m-terms", rows, s.load, (x) => x.terms, (v) => v,
+      (x) => `<b>${x.load} courses</b><br>${x.terms} terms · graduate ${x.grad}`);
+    drawMini("m-cost", rows, s.load, (x) => x.cost, (v) => fmt$k(v),
+      (x) => `<b>${x.load} courses</b><br>${fmt$(x.cost)} to finish<br>${fmt$(x.tuition)} tuition + ${fmt$(x.cost - x.tuition)} living`);
+    drawTable(rows, s.load);
+    drawCompare(s, r);
+  }
+
+  form.addEventListener("input", render);
+  form.addEventListener("change", render);
+  form.addEventListener("submit", (e) => e.preventDefault());
+  $("save").addEventListener("click", () => { const s = read(); saved = { s, r: compute(s) }; render(); });
+  $("clear").addEventListener("click", () => { saved = null; render(); });
+  render();
+})();
+</script>
+</body></html>
