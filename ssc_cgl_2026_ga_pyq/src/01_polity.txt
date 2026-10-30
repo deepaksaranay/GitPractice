@@ -1,0 +1,94 @@
+# Polity – Reported Questions & Explanations
+
+## 1.1 Article 1 – Union and its Territory
+RQ: What does Article 1 of the Constitution say about India? [CGL 2026 · 1 Oct · Shift 1 · PW topic list]
+ANS: Article 1(1): 'India, that is Bharat, shall be a Union of States.' (verified)
+Explanation. Article 1 opens Part I (Articles 1–4, 'The Union and its Territory'). The Constitution calls India a 'Union of States', not a 'Federation of States'. Dr. Ambedkar explained the choice in the Constituent Assembly: the Indian federation is not the result of an agreement among states (unlike the USA), and no state has the right to secede. Article 1(2) says the states and territories are specified in the First Schedule. Article 1(3) says the territory of India comprises the territories of the states, the Union Territories, and any territories that may be acquired.
+F: Art 1 – Union of States (no right to secede) | Art 2 – admit/establish new states (from outside India) | Art 3 – form new states, alter areas/boundaries/names (simple majority; President's recommendation) | Art 4 – Art 2 & 3 laws are not Art 368 amendments
+- 'Territory of India' (states + UTs + acquired) is wider than 'Union of India' (states only).
+- Article 3 bills: introduced only on the President's recommendation; the President refers the bill to the affected state legislature, but its views are not binding on Parliament.
+PYQ-TREND: Article 1 wording; difference between Article 2 and Article 3; First Schedule lists states and UTs; Ambedkar's reason for 'Union'.
+
+## 1.2 Article 32 – Right to Constitutional Remedies
+RQ: Which Article gives the right to move the Supreme Court for enforcement of Fundamental Rights? [CGL 2026 · 1 Oct · Shift 1 · PW] and a question on Article 32 / Supreme Court writs [CGL 2026 · 5 Oct · Prepp memory-based paper]
+ANS: Article 32 (verified). Ambedkar called it the 'heart and soul of the Constitution'.
+Explanation. Article 32 is itself a Fundamental Right in Part III. It lets any person whose Fundamental Right is violated approach the Supreme Court directly. The SC can issue five writs: Habeas Corpus, Mandamus, Prohibition, Certiorari and Quo Warranto. High Courts issue writs under Article 226, which is wider because it covers Fundamental Rights and 'any other purpose' (legal rights). Parliament can empower other courts to issue writs (Art 32(3)). The right under Art 32 cannot be suspended except as provided by the Constitution (during a national emergency, by Presidential order under Art 359 – but Articles 20 and 21 can never be suspended after the 44th Amendment).
+| Writ | Meaning | Use |
+| Habeas Corpus | 'To have the body' | Against illegal detention; can be issued against private persons too |
+| Mandamus | 'We command' | Directs a public official/body to perform a public duty; not against the President, Governors or private persons |
+| Prohibition | 'To forbid' | Higher court stops a lower court/tribunal from exceeding jurisdiction (during proceedings) |
+| Certiorari | 'To be certified' | Higher court quashes the order of a lower court/tribunal (after decision); since 1991 also against administrative bodies affecting rights |
+| Quo Warranto | 'By what authority' | Against a person illegally holding a public office |
+F: Art 32 – SC writs ('heart and soul') | Art 226 – HC writs (wider scope) | Art 359 – suspension in emergency (not Art 20, 21)
+PYQ-TREND: Revise Articles 12–35 group-wise; writ meanings; difference between Art 32 and Art 226; 'heart and soul' quote.
+
+## 1.3 Article 131A (Omitted Article)
+RQ: Questions on Article 131A were reported (several items on Articles 243 and 131A in one shift). [CGL 2026 · 1 Oct · Shift 1 · Examshortcut, PW]
+ANS: Article 131A was inserted by the 42nd Amendment (1976) to give the Supreme Court exclusive jurisdiction over questions of the constitutional validity of central laws. It was omitted by the 43rd Amendment (1977). (verified)
+Explanation. During the Emergency, the 42nd Amendment tried to restrict High Courts' power of judicial review over central laws by inserting Article 131A (exclusive SC jurisdiction for validity of central laws), Article 144A (minimum number of judges to decide such questions) and Article 226A (HCs barred from deciding validity of central laws). The Janata government's 43rd Amendment (1977) repealed all three and restored the courts' powers; the 44th Amendment (1978) undid other Emergency-era changes.
+- Article 131 (still in force): original jurisdiction of the Supreme Court in disputes between the Centre and states, or between states. Private persons cannot file a suit under Art 131.
+F: Art 131 – SC original jurisdiction (Centre–state disputes) | Art 131A – inserted 42nd (1976), omitted 43rd (1977) | Art 143 – advisory jurisdiction | Art 141 – SC law binding on all courts
+PYQ-TREND: SC jurisdictions – original (131), writ (32), appellate (132–134), advisory (143), court of record (129), review (137), complete justice (142). What the 42nd, 43rd and 44th Amendments did.
+WARN: 'Omitted' Articles still get asked. 131A, 144A and 226A were all removed by the 43rd Amendment.
+
+## 1.4 Article 243 – Panchayats
+RQ: Questions on Article 243 (Panchayati Raj) were reported. [CGL 2026 · 1 Oct · Shift 1 · Examshortcut, PW]
+ANS: Article 243 contains definitions for Part IX (The Panchayats), inserted by the 73rd Amendment, 1992. (verified)
+Explanation. The 73rd Constitutional Amendment Act, 1992 (in force 24 April 1993 – National Panchayati Raj Day) added Part IX (Articles 243 to 243-O) and the Eleventh Schedule (29 subjects). Article 243 defines terms such as 'district', 'Gram Sabha', 'intermediate level', 'Panchayat', 'Panchayat area' and 'village'.
+| Article | Provision |
+| 243 | Definitions |
+| 243A | Gram Sabha |
+| 243B | Constitution of Panchayats – three tiers (village, intermediate, district); intermediate tier not compulsory if state population < 20 lakh |
+| 243C | Composition; direct elections |
+| 243D | Reservation – SCs/STs in proportion to population; not less than one-third seats (and chairpersons) for women |
+| 243E | Five-year term; fresh elections within six months of dissolution |
+| 243F | Disqualifications |
+| 243G | Powers – 29 subjects of the Eleventh Schedule |
+| 243H | Taxes and funds |
+| 243I | State Finance Commission every five years |
+| 243K | State Election Commission |
+| 243M | Not applicable to certain areas (Nagaland, Meghalaya, Mizoram, Sixth Schedule areas, hill areas of Manipur, Darjeeling) |
+| 243-O | Bar to interference by courts in electoral matters |
+- Municipalities: 74th Amendment, Part IX-A (Articles 243P–243ZG), Twelfth Schedule (18 subjects). Co-operatives: 97th Amendment, Part IX-B (Articles 243ZH–243ZT).
+- History: Balwant Rai Mehta Committee (1957) recommended three tiers; first implemented at Nagaur, Rajasthan, on 2 October 1959. Ashok Mehta Committee (1977) – two tiers. L.M. Singhvi Committee (1986) – constitutional status. Article 40 (DPSP) asks the state to organise village panchayats.
+F: 73rd (1992) – Part IX, Art 243–243-O, 11th Schedule (29) | 74th – Part IX-A, 12th Schedule (18) | Women ≥ 1/3 | Term 5 years | First PRI – Nagaur 1959
+PYQ-TREND: Article number for Gram Sabha (243A), State Election Commission (243K), State Finance Commission (243I); number of Eleventh-Schedule subjects; Balwant Rai Mehta; Article 40.
+
+## 1.5 97th Amendment – Co-operative Societies
+RQ: A question on the 97th Constitutional Amendment was reported. [CGL 2026 · 1 Oct · Shift 1 · Examshortcut]
+ANS: The 97th Amendment (2011, in force February 2012) gave constitutional status to co-operative societies. (verified)
+Explanation. It made three changes: (1) added 'co-operative societies' to Article 19(1)(c) – right to form associations, unions and co-operative societies (a Fundamental Right); (2) inserted Article 43B in DPSP – the state shall promote voluntary formation, autonomous functioning, democratic control and professional management of co-operatives; (3) added Part IX-B (Articles 243ZH–243ZT). In 2021 (Union of India v. Rajendra N. Shah) the Supreme Court struck down Part IX-B in so far as it applies to state co-operatives (it lacked ratification by half the states); it remains valid for multi-state co-operatives. Ministry of Co-operation created in 2021.
+F: 97th (2011) – Art 19(1)(c) co-operatives, Art 43B, Part IX-B | Part IX-B partly struck down 2021 (Rajendra Shah case)
+PYQ-TREND: Revise the important amendments table – 1st, 7th, 24th, 42nd, 44th, 52nd, 61st, 73rd, 74th, 86th, 91st, 97th, 101st, 103rd, 104th, 106th.
+
+## 1.6 Article 312 – All India Services
+RQ: Which Article lets the Rajya Sabha initiate the creation of new All India Services? [CGL 2026 · 5 Oct · Prepp memory-based paper]
+ANS: Article 312 (verified).
+Explanation. Under Article 312, if the Rajya Sabha passes a resolution supported by two-thirds of members present and voting, declaring it necessary in the national interest, Parliament may by law create new All India Services (common to the Union and states), including an All India Judicial Service. Existing AIS: IAS and IPS (deemed created by the Constitution), Indian Forest Service (1966). This is one of the special powers of the Rajya Sabha; the other is Article 249 (resolution to let Parliament legislate on a State List subject in the national interest). Sardar Patel is called the 'father of All India Services' (the 'steel frame').
+F: Art 312 – new AIS by RS 2/3 resolution | Art 249 – RS resolution for State List | Existing AIS – IAS, IPS, IFoS (1966) | Patel – father of AIS
+PYQ-TREND: Special powers of Rajya Sabha (249, 312); exclusive powers of Lok Sabha (money bill, no-confidence motion); UPSC (Art 315–323).
+
+## 1.7 Article 360 – Financial Emergency and the Governor's Discretion
+RQ: Topics reported: Financial Emergency (Article 360) and the Governor's discretionary powers. [CGL 2026 · 1 Oct · Shift 1 · PW topic list]
+ANS: Article 360 – financial emergency, declared by the President when the financial stability or credit of India is threatened; it has never been declared. (verified)
+Explanation. A financial emergency must be approved by both Houses within two months (simple majority) and then continues indefinitely until revoked. During it, the Centre can direct states to observe financial propriety, reduce salaries of state employees, and require money bills of states to be reserved for the President; salaries of Union employees and SC/HC judges can be reduced.
+| Emergency | Article | Approval | Used? |
+| National | 352 (war, external aggression, armed rebellion) | Within 1 month, special majority; renew every 6 months | 1962, 1971, 1975 |
+| State (President's Rule) | 356 (failure of constitutional machinery); 365 | Within 2 months, simple majority; max 3 years | Many times; first Punjab 1951 |
+| Financial | 360 | Within 2 months, simple majority; no maximum | Never |
+- Governor's discretionary powers (Art 163): reserving a bill for the President (Art 200); recommending President's Rule (Art 356); appointing the Chief Minister when no party has a clear majority; dismissing a ministry that has lost confidence; additional charge as administrator of a UT; seeking information from the CM (Art 167). The Governor's satisfaction on what is discretionary is final (Art 163(2)), but the Supreme Court (Nabam Rebia 2016, S.R. Bommai 1994) has limited arbitrary use.
+F: Art 352 national (used 3 times) | Art 356 President's Rule | Art 360 financial (never used) | Art 163 Governor's discretion | Art 200 reserve bill
+PYQ-TREND: Emergency Articles and their approval periods; grounds of national emergency (44th Amendment replaced 'internal disturbance' with 'armed rebellion'); Governor's discretionary powers; Sarkaria and Punchhi Commissions on Centre–state relations.
+
+## 1.8 BNS / BNSS and Zero FIR
+RQ: A question on Bharatiya Nyaya Sanhita / Bharatiya Nagarik Suraksha Sanhita and 'zero FIR' was reported. [CGL 2026 · 1 Oct · Shift 1 · Examshortcut, PW]
+ANS: Under the BNSS (2023, in force 1 July 2024), Section 173 provides for a zero FIR – information about a cognisable offence can be registered at any police station, irrespective of where the offence happened, and then transferred to the police station with jurisdiction. (verified)
+Explanation. Three new criminal laws came into force on 1 July 2024: Bharatiya Nyaya Sanhita (BNS) replaced the Indian Penal Code, 1860; Bharatiya Nagarik Suraksha Sanhita (BNSS) replaced the Code of Criminal Procedure, 1973; Bharatiya Sakshya Adhiniyam (BSA) replaced the Indian Evidence Act, 1872. Key features: e-FIR and zero FIR given statutory backing; mandatory videography of search and seizure; forensic investigation compulsory for offences punishable with seven years or more; community service as a punishment for petty offences; 'mob lynching' and 'organised crime' and 'terrorist act' defined; sedition (old Sec 124A) dropped and replaced by an offence against acts endangering sovereignty, unity and integrity of India (Sec 152 BNS); trials in absentia for proclaimed offenders; electronic records admissible as primary evidence (BSA).
+- The concept of zero FIR existed earlier through Justice J.S. Verma Committee recommendations (after 2012) and court rulings; the BNSS gave it statutory form.
+F: 1 July 2024 – BNS (IPC), BNSS (CrPC), BSA (Evidence Act) | Zero FIR – BNSS Sec 173 | Sedition removed; Sec 152 BNS
+PYQ-TREND: Which law replaced which; date of enforcement; zero FIR and e-FIR; community service; offences newly defined.
+
+## 1.9 Polity – Revise Next (Pattern From 2026 Shifts)
+- Every reported shift had Article-number questions. Make a 2-column list: Article → subject, for at least Articles 1–4, 12–35, 36–51A, 52–78, 79–122, 123, 124–147, 148, 153–167, 213, 214–231, 243 series, 249, 262–263, 266–267, 275, 280, 300A, 312, 315–323, 324–329, 330–342, 343–351, 352–360, 368.
+- Amendments: about 3–4 questions per shift came from the Constitution's Articles and amendments, according to one 2026 analysis. Revise the amendments table in the GS notes book (Chapter 6).
+PYQ-TREND: Articles with numbers, amendments with years, Supreme Court jurisdiction, emergency provisions, Panchayati Raj, new criminal laws (BNS/BNSS/BSA).

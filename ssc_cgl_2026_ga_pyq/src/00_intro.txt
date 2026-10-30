@@ -1,0 +1,46 @@
+# Read This First – 2026 Pattern, Sources and Trends
+
+## 0.1 Which 2026 Exams Are Covered
+As of 30 October 2026, the only SSC exam on the new pattern that has been held with GS questions reported is the Combined Graduate Level (CGL) 2026 Tier-1. Its CBT window was 30 September – late October 2026 (coaching sites give 28 or 30 October as the last date). Per the revised calendar reported by coaching sites, the other exams had not yet been held:
+| Exam | Status (as reported by coaching sites, Oct 2026) |
+| CGL 2026 Tier-1 | Held: 30 Sep – end Oct 2026 (covered in this book) |
+| JE 2026 Paper-I | Scheduled 2–6 Nov 2026 |
+| CPO 2026 Paper-I | Scheduled 20–28 Nov 2026 |
+| CHSL 2026 Tier-1 | Scheduled 30 Nov – 31 Dec 2026 |
+| GD Constable | Early 2027 |
+WARN: Calendars published by different coaching sites disagree. Confirm every date on ssc.gov.in.
+
+## 0.2 CGL 2026 Tier-1 – New Pattern
+| Section | Questions | Marks | Sectional time |
+| General Intelligence & Reasoning | 25 | 50 | 15 min |
+| General Awareness | 25 | 50 | 15 min |
+| Quantitative Aptitude | 25 | 50 | 15 min |
+| English Comprehension | 25 | 50 | 15 min |
+| Total | 100 | 200 | 60 min |
+- New in 2026: each section has its own 15-minute timer. Time left over in GA cannot be carried to another section, so GA must be finished (or abandoned) within 15 minutes.
+- Negative marking: 0.50 for each wrong answer (2 marks per correct answer).
+- Reported good attempts in GA: about 15–20 out of 25 across shifts; GA was rated Moderate in most shifts (Easy–Moderate in a few).
+
+## 0.3 What the 2026 GA Section Looked Like (Shift Analyses)
+Coaching-site analyses of 2026 shifts give this approximate break-up of the 25 GA questions:
+| Area | Questions per shift (approx.) |
+| General Science (Physics, Chemistry, Biology) | 5–7 |
+| Static GK (dances, festivals, books, sports, awards) | 5–7 |
+| Current Affairs | 3–5 |
+| Polity | 2–3 (constitutional articles and amendments ≈ 3–4 in some shifts) |
+| History | 2–3 |
+| Geography | 1–3 |
+| Economics | 1–2 |
+| Miscellaneous | 1–2 |
+- Main message: about 80% of the 2026 GA section was static GS. Current affairs was only 3–5 questions per shift.
+- Recurring themes across reported shifts: constitutional Articles (1, 32, 131A, 243, 312, 360) and amendments; 1991 reforms and Five-Year Plans; BNS/BNSS; folk dances and festivals of the North-East and Odisha; musicians and instruments; books and authors; sports firsts and terms.
+
+## 0.4 How This Book Was Compiled (Please Read)
+- Sources: memory-based papers and shift analyses published by Prepp, Examshortcut, Physics Wallah (PW), Career Power, Adda247, Testbook and Notifyhere (full list in the last chapter). These sites were consulted through web search summaries; their full PDFs could not be opened from this environment.
+- These are questions recalled by candidates, not the official SSC paper. Wording below is a reconstruction of the reported question, not the exact SSC text, and options are not reproduced.
+- Each question carries a tag: exam · date · shift · source. Where a source gave no shift, the tag says so.
+- Answers marked "(verified)" are standard facts I checked against my own knowledge. Where a source flagged doubt, this is noted.
+- Every explanation and every "revise next" list is original, written to help you answer any variation of the same question.
+- Coverage is partial: many shifts' GA questions had not been published at the time of compiling ("to be updated" on the sites). This book will grow when the full shift-wise papers become available.
+- Current-affairs questions are excluded as you asked; they are listed by name only in the second-last chapter.
+TIP: Use each reported question as a doorway into its topic. The question itself will not repeat word-for-word, but its neighbourhood (the same Article group, the same dance region, the same musician list) gets asked again in later shifts and later exams.

@@ -1,0 +1,22 @@
+# Sources
+
+## 8.1 Sources Used for the Reported Questions
+All items are candidate-recalled (memory-based) questions or topic lists published by these sites. They were consulted through web-search summaries on 30 October 2026. None is an official SSC document.
+| Source | Page |
+| Prepp – SSC CGL Tier 1 Question Paper 2026 (date-wise PDFs) | prepp.in/ssc-cgl-exam/question-paper-2026 |
+| Prepp – Memory Based Paper 30 Sep 2026 | cdn-images.prepp.in (SSC_CGL_Tier_1_Memory_Based_Paper_Sep_30_2026) |
+| Prepp – Memory Based Paper 1 Oct 2026 | cdn-images.prepp.in (SSC_CGL_Tier_1_2026_Memory_Based_Paper_PDF_Oct_01_2026) |
+| Prepp – Memory Based Paper 5 Oct 2026 | cdn-images.prepp.in (SSC_CGL_Tier_1_2026_Memory_Based_Paper_PDF_Oct_05_2026) |
+| Prepp – Exam analyses (30 Sep S1, S3; 1 Oct S1–S3; 3 Oct S1, S3) | prepp.in/news/e-514-ssc-cgl-tier-1-exam-analysis-2026-… |
+| Examshortcut – CGL 2026 Tier 1 analysis; 1 Oct Shift 1 | examshortcut.in/exam-analysis/ssc-cgl-2026/ |
+| Physics Wallah – CGL 2026 reviews (30 Sep S1; 1 Oct) | pw.live/ssc/exams/ssc-cgl-exam-review-2026-… |
+| Career Power – CGL Question Paper 2026; Exam Analysis 2026 | careerpower.in/blog/ssc-cgl-tier-1-question-paper-2026; …/ssc-cgl-exam-analysis-2026 |
+| Adda247 – CGL Question Paper 2026; Exam Analysis 2026 | adda247.com/exams/ssc/ssc-cgl-question-paper-2026/; …/ssc-cgl-exam-analysis-2026/ |
+| Testbook – CGL Question Paper 2026; Exam Analysis 2026 (28 Oct) | testbook.com/news/ssc-cgl-exam-question-paper-2026-out/; …/ssc-cgl-exam-analysis-2026/ |
+| Notifyhere – CGL 30 Sep, 1 Oct, 3 Oct analyses | notifyhere.com/ssc-cgl-… |
+| Testbook / Xylem / Adda247 – SSC Calendar 2026-27 | testbook.com/news/ssc-new-exam-calendar-2026-27-out/ |
+
+## 8.2 What Is Original in This Book
+- All explanations, tables, 'revise next' lists, key-fact strips and pattern analysis are written for this book and are not copied from the sources.
+- Answers were checked against standard facts. Where a source's answer pairing was unclear (stupa umbrella) or an item appeared in only one source (Kailasanatha temple, A Suitable Boy), this is stated next to the question.
+WARN: Verify everything against the official SSC answer key for CGL 2026 Tier-1 when it is published on ssc.gov.in.

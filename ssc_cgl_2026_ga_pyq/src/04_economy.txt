@@ -1,0 +1,64 @@
+# Economy – Reported Questions & Explanations
+
+## 4.1 Fiscal Deficit
+RQ: What does fiscal deficit indicate? [CGL 2026 · 30 Sep · Prepp memory-based paper (Q46)]
+ANS: Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts). It equals the total borrowing requirement of the government in a year. (verified)
+Explanation. The Union Budget has revenue receipts (taxes, non-tax revenue like dividends, fees) and capital receipts (borrowings, recovery of loans, disinvestment). Non-debt capital receipts are those that do not create a liability (loan recovery, disinvestment). Whatever the government spends beyond its revenue and non-debt receipts must be borrowed – that is the fiscal deficit. It is expressed as a percentage of GDP; the FRBM Act 2003 set the path for reducing it.
+F: Revenue deficit = revenue expenditure − revenue receipts
+F: Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts) = borrowings
+F: Primary deficit = fiscal deficit − interest payments
+F: Effective revenue deficit = revenue deficit − grants for creation of capital assets
+- Primary deficit shows borrowing for current needs excluding past interest. Zero primary deficit means borrowing only to pay interest on past loans.
+- Deficit financing: financing a deficit by borrowing from the RBI (printing money) – inflationary.
+- Budget = Annual Financial Statement (Article 112); presented on 1 February since 2017.
+PYQ-TREND: Definitions of the four deficits; FRBM Act; Article 112; capital vs revenue receipts examples.
+
+## 4.2 Net Domestic Product
+RQ: The relationship between GDP and NDP was reported (NDP = GDP − depreciation). [CGL 2026 · 1 Oct · Shift 1 · PW topic list]
+ANS: NDP = GDP − depreciation (consumption of fixed capital). (verified)
+Explanation. Depreciation is the wear and tear of capital goods during production. Gross figures include it; net figures subtract it. 'Domestic' measures production within the country's borders; 'National' adds net factor income from abroad (NFIA).
+F: GNP = GDP + NFIA | NDP = GDP − depreciation | NNP = GNP − depreciation | NNP at factor cost = National Income
+F: Market price − net indirect taxes (indirect taxes − subsidies) = factor cost
+- GDP measured three ways: production (value added), income, expenditure (C + I + G + (X − M)).
+- In India: National Statistics Office (NSO) under MoSPI estimates GDP; base year 2011–12 (a revision to 2022–23 has been planned).
+- Per capita income = national income ÷ population.
+PYQ-TREND: GDP/GNP/NDP/NNP definitions; factor cost vs market price; first national income estimate (Dadabhai Naoroji); Mahalanobis National Income Committee (1949).
+
+## 4.3 1991 Economic Reforms
+RQ: Questions on the 1991 economic reforms were reported in several shifts. [CGL 2026 · 1 Oct · Shift 1 · Examshortcut, PW; 28 Oct shift · Testbook analysis]
+ANS: The New Economic Policy of 1991 (LPG – Liberalisation, Privatisation, Globalisation) was introduced by the P.V. Narasimha Rao government with Dr. Manmohan Singh as Finance Minister, in response to a balance-of-payments crisis. (verified)
+Explanation. Causes: foreign exchange reserves fell to about two weeks of imports; Gulf War raised oil prices; high fiscal deficit; India pledged gold with the Bank of England and the Union Bank of Switzerland and took IMF assistance. Key measures:
+- Liberalisation: industrial licensing abolished for all but a few industries (Industrial Policy, 24 July 1991); MRTP limits relaxed (MRTP Act later replaced by the Competition Act 2002); reduced reservation for the public sector.
+- Privatisation: disinvestment of shares in public sector undertakings.
+- Globalisation: rupee devalued (July 1991) and later made convertible on the current account (1994); import tariffs cut; FDI up to 51% allowed automatically in priority industries; FERA replaced by FEMA (1999); India joined the WTO (1995).
+- Financial sector: Narasimham Committee (1991) reforms – lower CRR/SLR, entry of private banks; SEBI given statutory powers (1992).
+- Tax reforms: Raja Chelliah Committee.
+F: 1991 NEP – LPG | PM P.V. Narasimha Rao, FM Manmohan Singh | Industrial Policy 24 July 1991 | Narasimham Committee 1991 | FEMA 1999 | WTO 1995
+PYQ-TREND: Who launched reforms; BoP crisis; committees (Narasimham – banking, Chelliah – tax, Malhotra – insurance); FERA→FEMA; MRTP→Competition Act.
+
+## 4.4 Five-Year Plans (incl. the 10th Plan)
+RQ: Objectives and targets of the Tenth Five-Year Plan, and Five-Year Plans in general, were reported. [CGL 2026 · 1 Oct · Shift 1 · PW, Examshortcut; 28 Oct · Testbook]
+ANS: 10th Plan (2002–2007): target growth of 8% per year; aim to reduce poverty ratio by 5 percentage points by 2007; actual growth ≈ 7.6–7.8%. (verified)
+Explanation. The Tenth Plan was the first to set state-wise targets and monitorable targets for social indicators (literacy, infant mortality, forest cover, access to potable water, gender gaps). Each plan's 'theme' and 'model' is a favourite question:
+| Plan | Years | Focus / model | Note |
+| 1st | 1951–56 | Agriculture, irrigation; Harrod–Domar model | Successful (target 2.1%, achieved 3.6%) |
+| 2nd | 1956–61 | Heavy industry; Mahalanobis model | Bhilai, Durgapur, Rourkela steel plants |
+| 3rd | 1961–66 | Self-reliant economy (Gadgil-Mahalanobis) | Failed – wars (1962, 1965) & drought |
+| Plan holiday | 1966–69 | Three annual plans | Green Revolution started |
+| 4th | 1969–74 | Growth with stability; progressive self-reliance | Bank nationalisation (1969) |
+| 5th | 1974–78 | Garibi Hatao; poverty removal & self-reliance | Terminated a year early by Janata govt |
+| Rolling plan | 1978–80 | Janata government | – |
+| 6th | 1980–85 | Poverty eradication; IRDP, NREP | – |
+| 7th | 1985–90 | Food, work, productivity; Jawahar Rozgar Yojana (1989) | – |
+| Annual plans | 1990–92 | Political & BoP crisis | – |
+| 8th | 1992–97 | Human resource development; LPG; Rao–Manmohan model | First plan after reforms |
+| 9th | 1997–2002 | Growth with social justice and equality | – |
+| 10th | 2002–07 | 8% growth; monitorable targets | – |
+| 11th | 2007–12 | Faster and more inclusive growth (C. Rangarajan drafted) | – |
+| 12th | 2012–17 | Faster, more sustainable and more inclusive growth | Last Five-Year Plan |
+- After 2017: NITI Aayog replaced the plans with a 15-year vision, 7-year strategy and 3-year action agenda.
+F: 1st – agriculture (Harrod-Domar) | 2nd – industry (Mahalanobis) | Plan holiday 1966–69 | 10th – 8% target | 12th – last (2012–17)
+PYQ-TREND: Plan–model–focus matching; plan holiday; first plan after LPG (8th); last plan (12th); NITI Aayog (1 Jan 2015).
+
+## 4.5 Economy – Revise Next
+PYQ-TREND: Deficits and budget terms; national income aggregates; 1991 reforms; Five-Year Plans; RBI tools (repo, CRR, SLR); taxes (direct vs indirect; GST 2017).

@@ -1,0 +1,38 @@
+# Excluded Current Affairs & Shift Coverage
+
+## 7.1 Current-Affairs Items Reported (Not Explained Here)
+As requested, current affairs are left out of the explanations. These items were reported from 2026 shifts; read them from a monthly current-affairs source.
+| Reported item | Shift (source) |
+| IMEC (India–Middle East–Europe Economic Corridor) | 1 Oct, Shift 1 (Examshortcut) |
+| Appointment of the Chief of Naval Staff | 1 Oct, Shift 1 (PW topic list) |
+| Bank behind 'Project WAVE' | 1 Oct (Prepp memory-based paper, unconfirmed) |
+| Venue of the 2025 ASEAN Summit | 1 Oct (Prepp memory-based paper, unconfirmed) |
+| BRICS, NATO, G7, G20, SCO-related questions | 30 Sep, Shift 1 (PW) |
+| Summits, appointments, indices, brand ambassadors (Jan–Aug 2026) | Recommended revision area across shifts (PW) |
+TIP: Coaching analyses put current affairs at only 3–5 of the 25 GA questions per 2026 shift. Static GS (20+ questions) decides your GA score.
+
+## 7.2 Shift-by-Shift Coverage in This Book
+| Date & shift | What was available | Reported GA difficulty (sources) |
+| 30 Sep – Shift 1 | Topics + 3 questions (Prepp PDF, PW) | Moderate; 19–20 good attempts |
+| 30 Sep – Shift 2 | Not published at compilation time | – |
+| 30 Sep – Shift 3 | Topic counts only (Prepp) | Moderate |
+| 1 Oct – Shift 1 | Most detailed: ~25 items (Examshortcut, PW) | Moderate; 15–20 good attempts |
+| 1 Oct – Shift 2 | Topic list only (Prepp, Notifyhere) | Moderate; 15–18 |
+| 1 Oct – Shift 3 | Topic counts only (Prepp) | Easy–Moderate; 14–17 |
+| 1 Oct (shift unstated) | 4 items from Prepp memory-based PDF | – |
+| 3 Oct – Shift 1 | Topic counts only (Prepp) | Moderate; 19–20 |
+| 3 Oct – Shifts 2, 3 | 'To be updated' on sources | – |
+| 5 Oct (shift unstated) | ~12 items from Prepp memory-based PDF | – |
+| 8 Oct | Difficulty only (Career Power, Adda247) | Moderate; 19–20 |
+| 9 Oct – Shift 3 | Difficulty only (Examshortcut) | Difficult |
+| 22 Oct – Shift 3 | Difficulty only (Examshortcut) | Easy |
+| 28 Oct | Topics: Five-Year Plans, Articles, 1991 reforms (Testbook) | Moderate; ~15 doable |
+| Other shifts (to end Oct) | Memory-based PDFs exist on Career Power, Adda247, Testbook, Prepp but could not be opened from this environment | – |
+WARN: This book covers only a fraction of the roughly 75+ CGL 2026 Tier-1 shifts. When the full shift-wise papers can be read (network access or uploaded PDFs), every remaining static-GS question can be added chapter-wise in the same format.
+
+## 7.3 Pattern Lessons From 2026 (Useful for JE, CPO, CHSL 2026)
+- Constitutional Articles came in clusters (one shift had about five questions on Articles 243 and 131A). Learn Articles group-wise, including omitted ones (131A, 144A, 226A).
+- The economy section repeated 1991 reforms and Five-Year Plans across different dates (1 Oct and 28 Oct).
+- Culture questions favoured the North-East (Mizoram, Assam) and the East (Odisha, Bengal).
+- Books and authors, musicians and instruments, and sports firsts/terms formed most of 'static GK'.
+- General Science was the largest single block (5–7 questions), so do not skip it for current affairs.

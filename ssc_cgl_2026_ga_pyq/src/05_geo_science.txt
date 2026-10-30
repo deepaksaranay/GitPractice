@@ -1,0 +1,68 @@
+# Geography & General Science – Reported Questions & Explanations
+
+## 5.1 Digboi Refinery
+RQ: A question on the Digboi oil refinery was reported. [CGL 2026 · 1 Oct · Shift 1 · Examshortcut]
+ANS: Digboi (Tinsukia district, Assam) – India's oldest operating oil refinery, commissioned in 1901; oil was struck there in 1889. Now run by Indian Oil Corporation (Assam Oil Division). (verified)
+Explanation. Legend says oil was found when elephants of the Assam Railways and Trading Company came back with oily feet; engineers shouted 'Dig, boy, dig!' – the origin of the name, according to local lore. Digboi is called the 'Oil City of Assam' and has India's first oil museum (Centenary Museum). It is one of the oldest continuously operating refineries in the world.
+| Refinery / field | Fact |
+| Digboi (Assam) | Oldest refinery (1901) |
+| Jamnagar (Gujarat, Reliance) | World's largest refining complex at a single site |
+| Mumbai High | Largest offshore oil field (discovered 1974) |
+| Ankleshwar (Gujarat) | Onshore field |
+| Barauni (Bihar), Koyali (Gujarat), Mathura (UP), Panipat (Haryana), Bongaigaon & Numaligarh (Assam), Paradip (Odisha) | Indian Oil / other PSU refineries |
+| Kochi (Kerala) | BPCL refinery |
+F: Digboi – oldest refinery (1901, Assam) | Jamnagar – largest refining complex | Mumbai High – largest offshore field
+PYQ-TREND: Mineral & energy locations – Jharia (coking coal), Neyveli (lignite), Kolar/Hutti (gold), Khetri (copper), Jaduguda (uranium), Panna (diamonds), Singrauli, Talcher; nuclear plants (Tarapur first).
+
+## 5.2 Prime Meridian
+RQ: A question on latitudinal/longitudinal markers – the Prime Meridian – was reported. [CGL 2026 · 1 Oct · Shift 1 · PW topic list]
+ANS: The Prime Meridian is 0° longitude, passing through the Royal Observatory at Greenwich (London); fixed at the International Meridian Conference, Washington DC, 1884. (verified)
+Explanation. Longitudes (meridians) run pole to pole; 360 meridians; 1° = 4 minutes of time, 15° = 1 hour. East of Greenwich, local time is ahead; west, behind. The 180° meridian is roughly the International Date Line (crossing it westward adds a day). Latitudes (parallels) run east–west; the Equator (0°) is the longest parallel (a great circle); Tropic of Cancer 23½°N, Tropic of Capricorn 23½°S, Arctic Circle 66½°N, Antarctic Circle 66½°S. India's Standard Meridian 82½°E passes through Mirzapur (UP), so IST = GMT + 5:30.
+- Countries crossed by the Prime Meridian: UK, France, Spain, Algeria, Mali, Burkina Faso, Togo, Ghana (and Antarctica). The Equator and Prime Meridian meet in the Gulf of Guinea (Atlantic).
+- Tropic of Cancer in India: 8 states – Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram.
+F: Prime Meridian 0° – Greenwich (1884) | 1° = 4 min | 15° = 1 h | IST = GMT + 5:30 (82½°E, Mirzapur) | IDL ≈ 180°
+PYQ-TREND: Time calculation from longitude; states on the Tropic of Cancer; IST meridian; countries on the Equator.
+
+## 5.3 SI Unit of Flux
+RQ: SI unit of magnetic/electric flux was reported. [CGL 2026 · 1 Oct · Shift 1 · PW topic list]
+ANS: Magnetic flux – weber (Wb) = tesla·m² (= volt·second). Electric flux – volt·metre (V·m), equivalently N·m²/C. (verified)
+Explanation. Magnetic flux Φ = B·A·cosθ (number of magnetic field lines through an area). Magnetic field (flux density) B is measured in tesla (T = Wb/m²); CGS unit gauss (1 T = 10⁴ G). Faraday's law: induced emf = −dΦ/dt (Lenz's law gives the minus sign). Electric flux Φ_E = E·A·cosθ; Gauss's law: Φ_E = q/ε₀. Luminous flux (light) – lumen; illuminance – lux.
+| Quantity | SI unit |
+| Magnetic flux | weber (Wb) |
+| Magnetic flux density | tesla (T) |
+| Inductance | henry (H) |
+| Electric flux | V·m |
+| Electric charge | coulomb (C) |
+| Capacitance | farad (F) |
+| Conductance | siemens (S) |
+| Luminous flux | lumen (lm) |
+| Illuminance | lux (lx) |
+| Luminous intensity | candela (cd) – SI base unit |
+F: Magnetic flux – weber | Flux density – tesla | Electric flux – V·m | Luminous flux – lumen | 1 T = 10⁴ gauss
+PYQ-TREND: SI units of physical quantities; named units and scientists (weber, tesla, henry, farad, siemens).
+
+## 5.4 Lens Formula and Optics
+RQ: Optics – lens formula – was reported. [CGL 2026 · 1 Oct · Shift 1 · PW topic list]
+ANS: Lens formula: 1/f = 1/v − 1/u (Cartesian sign convention). Magnification m = v/u = h'/h. Power P = 1/f (f in metres), unit dioptre. (verified)
+Explanation. Mirror formula is 1/f = 1/v + 1/u (note the plus sign). For a convex lens f is positive (converging); concave lens f is negative (diverging). Power of combination of thin lenses in contact: P = P₁ + P₂. Example: a convex lens of focal length 50 cm has power +2 D; a concave lens of 25 cm has −4 D.
+| Situation | Lens/mirror |
+| Myopia | Concave lens |
+| Hypermetropia | Convex lens |
+| Presbyopia | Bifocal |
+| Astigmatism | Cylindrical lens |
+| Rear-view mirror | Convex mirror |
+| Shaving mirror, dentist | Concave mirror |
+| Magnifying glass | Convex lens |
+F: Lens 1/f = 1/v − 1/u | Mirror 1/f = 1/v + 1/u | P = 1/f (dioptre) | Convex +, concave −
+PYQ-TREND: Lens power calculations; eye defects and correction; uses of mirrors; refraction phenomena (twinkling, mirage, TIR in optical fibre).
+
+## 5.5 GSLV
+RQ: Satellite launch vehicles – GSLV – were reported. [CGL 2026 · 1 Oct · Shift 1 · PW topic list]
+ANS: GSLV – Geosynchronous Satellite Launch Vehicle (ISRO); a three-stage rocket whose third stage is a cryogenic upper stage (liquid hydrogen + liquid oxygen); used to place heavier satellites in geosynchronous transfer orbit. (verified)
+Explanation. ISRO's vehicles: SLV-3 (first, 1980, Rohini), ASLV, PSLV (polar/sun-synchronous orbits; four stages alternating solid–liquid; 'workhorse'; record 104 satellites in 2017; Chandrayaan-1, Mangalyaan, Aditya-L1), GSLV Mk II (indigenous cryogenic stage from 2014), LVM3/GSLV Mk III (heaviest; Chandrayaan-2 & 3; OneWeb; human-rated for Gaganyaan), SSLV (small satellites). Launch site: Satish Dhawan Space Centre, Sriharikota (Andhra Pradesh). Cryogenic engine technology was denied to India under the 1990s MTCR pressure, which led to the indigenous Cryogenic Upper Stage project.
+F: GSLV – cryogenic 3rd stage, GTO | PSLV – polar/SSO | LVM3 – heaviest (Chandrayaan-2/3) | Sriharikota – launch site
+PYQ-TREND: ISRO vehicle–mission pairs; full forms PSLV/GSLV; Chandrayaan-3 landing (23 Aug 2023, south pole); Aditya-L1 at L1.
+
+## 5.6 General Science – Revise Next
+- Shift analyses report 5–7 General Science questions per shift in 2026 – the single largest block in GA. Physics units and optics, chemistry (compounds, acids, metals) and biology (vitamins, diseases, cells, human body) all appear.
+PYQ-TREND: SI units; optics formulas; electricity basics; common chemical names; vitamins and deficiency diseases; human body facts; disease–pathogen pairs.
