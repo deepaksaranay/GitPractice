@@ -1,0 +1,59 @@
+# Part B – Physics Practice MCQs
+
+## 7.1 Units and Mechanics
+M: The SI unit of pressure is: || Newton || Pascal || Bar || Atmosphere || b || 1 Pa = 1 N/m²; 1 atm ≈ 1.013 × 10⁵ Pa.
+M: The SI unit of magnetic flux density is: || Weber || Tesla || Gauss || Henry || b || 1 T = 1 Wb/m² = 10⁴ gauss.
+M: Which is NOT an SI base unit? || Kelvin || Candela || Newton || Mole || c || Newton is derived (kg·m/s²). The seven base units: m, kg, s, A, K, mol, cd.
+M: The SI unit of luminous intensity is: || Lumen || Lux || Candela || Watt || c || Lumen – luminous flux; lux – illuminance.
+M: A light year is a unit of: || Time || Distance || Speed || Intensity of light || b || Distance light travels in one year ≈ 9.46 × 10¹² km.
+M: One nautical mile is equal to: || 1,609 m || 1,852 m || 1,000 m || 2,000 m || b || Used in sea and air navigation; speed in knots.
+M: At what temperature do the Celsius and Fahrenheit scales read the same? || 0° || −40° || 40° || −273° || b || °F = 1.8°C + 32 → x = 1.8x + 32 → x = −40.
+M: Which is a vector quantity? || Speed || Work || Momentum || Energy || c || Momentum has direction; speed, work and energy are scalars.
+M: A rocket works on the principle of conservation of: || Mass || Energy || Linear momentum || Angular momentum || c || Also Newton's third law.
+M: The value of g is maximum at the: || Equator || Poles || Centre of the Earth || Tropic of Cancer || b || Earth is flattened at the poles; g is zero at the centre.
+M: The escape velocity from the Earth's surface is about: || 7.9 km/s || 11.2 km/s || 15 km/s || 3 km/s || b || It does not depend on the mass of the escaping body; orbital velocity near Earth ≈ 7.9 km/s.
+M: The time period of a simple pendulum depends on: || Mass of the bob || Length of the pendulum || Amplitude (small) || Material of the bob || b || T = 2π√(l/g).
+M: If the velocity of a body is doubled, its kinetic energy becomes: || Double || Half || Four times || Unchanged || c || KE = ½mv².
+M: A geostationary satellite completes one revolution in: || 12 hours || 24 hours || 90 minutes || 365 days || b || At about 36,000 km above the equator, moving west to east.
+M: Hydraulic lifts and brakes work on: || Archimedes' principle || Pascal's law || Bernoulli's principle || Hooke's law || b || Pressure is transmitted equally in all directions.
+M: The lift of an aeroplane wing is explained by: || Pascal's law || Bernoulli's principle || Newton's first law || Archimedes' principle || b || Faster air over the wing → lower pressure above.
+M: A lactometer is used to test the: || Fat in milk || Purity of milk || Temperature of milk || Acidity of milk || b || Measures density (specific gravity) of milk.
+M: Soap and detergents clean clothes because they: || Increase surface tension || Reduce surface tension || Increase viscosity || Raise boiling point || b || Lower surface tension lets water wet fabric.
+
+## 7.2 Heat and Sound
+M: Water has maximum density at: || 0 °C || 4 °C || 100 °C || −4 °C || b || Anomalous expansion; lakes freeze from the top.
+M: Steam at 100 °C causes more severe burns than water at 100 °C because of: || Higher specific heat || Latent heat of vaporisation || Higher temperature || Higher density || b || About 540 cal/g extra released on condensation.
+M: A pressure cooker cooks food faster because: || It reduces pressure || It raises the boiling point of water || It lowers the boiling point || It increases heat conduction || b || Higher pressure → higher boiling point.
+M: Sea breeze blows: || From land to sea during the day || From sea to land during the day || From sea to land at night || Only in winter || b || Land heats faster by day, creating low pressure over land.
+M: Sound cannot travel through: || Water || Steel || Vacuum || Air || c || Sound is a mechanical wave and needs a medium.
+M: Sound travels fastest in: || Air || Water || Steel || Vacuum || c || Solids > liquids > gases.
+M: The audible range of human hearing is: || 2 Hz–2,000 Hz || 20 Hz–20,000 Hz || 200 Hz–200 kHz || 20 kHz–200 kHz || b || Below is infrasonic; above is ultrasonic.
+M: Bats navigate using: || Infrasonic waves || Ultrasonic waves || Radio waves || Infrared rays || b || Echolocation.
+M: The apparent change in frequency of a moving source of sound is called the: || Raman effect || Doppler effect || Tyndall effect || Compton effect || b || E.g., the pitch of an ambulance siren rises as it approaches.
+M: The pitch of a sound depends on its: || Amplitude || Frequency || Speed || Wavelength alone in vacuum || b || Loudness depends on amplitude.
+M: SONAR uses: || Radio waves || Microwaves || Ultrasonic waves || Infrared waves || c || Sound Navigation and Ranging – measures sea depth and detects submarines.
+
+## 7.3 Light and Optics
+M: The mirror used as a rear-view mirror in vehicles is: || Plane || Concave || Convex || Cylindrical || c || Gives a wider field of view with erect, diminished images.
+M: Dentists and shaving mirrors use: || Convex mirrors || Concave mirrors || Plane mirrors || Parabolic convex mirrors || b || Give an enlarged, erect image when the object is within focus.
+M: Myopia (short-sightedness) is corrected by a: || Convex lens || Concave lens || Cylindrical lens || Bifocal lens || b || The image forms in front of the retina; a diverging lens pushes it back.
+M: The power of a convex lens of focal length 50 cm is: || +0.5 D || +2 D || −2 D || +50 D || b || P = 1/f (in metres) = 1/0.5 = +2 D.
+M: The sky appears blue because of: || Reflection || Refraction || Scattering of light || Dispersion || c || Rayleigh scattering ∝ 1/λ⁴ – blue scatters more than red.
+M: The sparkling of a diamond is due to: || Dispersion only || Total internal reflection || Diffraction || Polarisation || b || Diamond has a very small critical angle (≈ 24°).
+M: Optical fibres work on the principle of: || Refraction || Total internal reflection || Diffraction || Interference || b || Used in telecommunication and endoscopy.
+M: Stars twinkle because of: || Reflection || Atmospheric refraction || Scattering || Dispersion || b || Changing air density bends starlight; planets twinkle less.
+M: Danger signals are red because red light: || Is scattered the most || Is scattered the least || Has the highest frequency || Is absorbed by fog || b || Longest wavelength in the visible range → travels farthest.
+M: The Raman Effect, discovered by C.V. Raman, is related to: || Reflection of sound || Scattering of light || Radioactivity || Magnetism || b || Nobel Prize 1930; National Science Day 28 February.
+
+## 7.4 Electricity and Modern Physics
+M: A fuse wire must have: || High resistance and high melting point || Low melting point || High melting point only || Low resistance and high melting point || b || Usually an alloy of tin and lead, connected in series.
+M: The filament of an electric bulb is made of: || Nichrome || Tungsten || Copper || Iron || b || Very high melting point (≈ 3,422 °C).
+M: Domestic electrical appliances are connected in: || Series || Parallel || Mixed || Either || b || Each appliance gets full voltage and can be switched independently.
+M: The frequency of AC mains supply in India is: || 50 Hz || 60 Hz || 100 Hz || 220 Hz || a || 230 V, 50 Hz. The USA uses 120 V, 60 Hz.
+M: A transformer works on: || DC only || AC only || Both AC and DC || Battery power || b || Principle of mutual induction.
+M: An electric motor converts: || Mechanical energy to electrical || Electrical energy to mechanical || Chemical energy to electrical || Heat to electrical || b || A generator does the reverse.
+M: The commercial unit of electrical energy is the: || Joule || Watt || Kilowatt-hour || Volt || c || 1 unit = 1 kWh = 3.6 × 10⁶ J.
+M: The neutron was discovered by: || J.J. Thomson || Rutherford || James Chadwick || Niels Bohr || c || 1932. Electron – Thomson (1897); nucleus – Rutherford (1911).
+M: The energy of the Sun is produced by: || Nuclear fission || Nuclear fusion || Combustion || Radioactive decay || b || Hydrogen nuclei fuse to form helium.
+M: X-rays were discovered by: || Henri Becquerel || Wilhelm Röntgen || Marie Curie || Max Planck || b || 1895; first Nobel in Physics (1901).
+M: TV remote controls generally use: || Ultraviolet rays || Infrared rays || X-rays || Microwaves || b || IR LEDs send coded pulses.

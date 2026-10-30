@@ -1,0 +1,74 @@
+# Part B – Biology Practice MCQs
+
+## 9.1 Cell and Classification
+M: The cell was first discovered by: || Robert Brown || Robert Hooke || Leeuwenhoek || Schleiden || b || 1665, in cork. Robert Brown discovered the nucleus (1831).
+M: Which organelle is called the 'powerhouse of the cell'? || Ribosome || Mitochondria || Golgi body || Lysosome || b || Produces ATP by aerobic respiration.
+M: Lysosomes are known as: || Protein factories || Suicide bags || Powerhouses || Post offices || b || Contain digestive enzymes.
+M: Protein synthesis takes place in the: || Mitochondria || Ribosomes || Lysosomes || Vacuoles || b || Ribosomes are non-membrane organelles.
+M: Which organelles contain their own DNA? || Ribosomes and lysosomes || Mitochondria and chloroplasts || Golgi body and ER || Nucleolus and vacuole || b || Called semi-autonomous organelles.
+M: The plant cell wall is made of: || Chitin || Cellulose || Peptidoglycan || Protein || b || Fungal walls – chitin; bacterial walls – peptidoglycan.
+M: The double-helix model of DNA was proposed by: || Mendel and Morgan || Watson and Crick || Darwin and Wallace || Hooke and Brown || b || 1953.
+M: The number of chromosomes in a normal human cell is: || 23 || 44 || 46 || 48 || c || 23 pairs: 22 autosomes + 1 pair of sex chromosomes.
+M: The 'Father of Taxonomy' is: || Darwin || Linnaeus || Mendel || Aristotle || b || Introduced binomial nomenclature.
+M: The five-kingdom classification was proposed by: || Linnaeus || R.H. Whittaker || Haeckel || Carl Woese || b || 1969: Monera, Protista, Fungi, Plantae, Animalia.
+M: The scientific name of the mango is: || Mangifera indica || Azadirachta indica || Ficus benghalensis || Oryza sativa || a || Neem – Azadirachta indica; banyan – Ficus benghalensis; rice – Oryza sativa.
+M: Which is a mammal? || Shark || Whale || Penguin || Crocodile || b || Whales breathe air through lungs and suckle their young.
+M: Which mammal lays eggs? || Kangaroo || Platypus || Bat || Dolphin || b || Platypus and echidna are monotremes.
+M: Which group of plants is called the 'amphibians of the plant kingdom'? || Algae || Bryophytes || Pteridophytes || Gymnosperms || b || They need water for fertilisation.
+
+## 9.2 Nutrition and Vitamins
+M: Night blindness is caused by deficiency of: || Vitamin A || Vitamin B1 || Vitamin C || Vitamin D || a || Retinol; needed for rhodopsin in rod cells.
+M: Scurvy is caused by deficiency of: || Vitamin A || Vitamin B12 || Vitamin C || Vitamin K || c || Ascorbic acid; bleeding gums. Amla is the richest natural source.
+M: Rickets is caused by deficiency of: || Vitamin A || Vitamin D || Vitamin E || Vitamin K || b || Calciferol; made in the skin by sunlight.
+M: Beriberi is caused by deficiency of: || Thiamine (B1) || Riboflavin (B2) || Niacin (B3) || Cobalamin (B12) || a || Affects nerves and heart.
+M: Pellagra is caused by deficiency of: || Vitamin B1 || Vitamin B3 (niacin) || Vitamin B6 || Vitamin C || b || The 3 Ds – dermatitis, diarrhoea, dementia.
+M: Which vitamin is essential for blood clotting? || Vitamin A || Vitamin C || Vitamin E || Vitamin K || d || Also synthesised by intestinal bacteria.
+M: Vitamin B12 contains which element? || Iron || Cobalt || Magnesium || Zinc || b || Cobalamin; deficiency causes pernicious anaemia.
+M: Which vitamins are fat-soluble? || B and C || A, D, E and K || A and C only || B-complex || b || B-complex and C are water-soluble.
+M: Goitre is caused by deficiency of: || Iron || Calcium || Iodine || Fluorine || c || Iodine is needed to make thyroxine.
+M: Kwashiorkor is caused by deficiency of: || Carbohydrates || Proteins || Fats || Vitamins || b || Marasmus is deficiency of both protein and calories.
+
+## 9.3 Human Body
+M: The largest gland in the human body is the: || Pancreas || Liver || Thyroid || Pituitary || b || Secretes bile; stores glycogen.
+M: The 'master gland' of the body is the: || Thyroid || Adrenal || Pituitary || Pineal || c || Controlled by the hypothalamus.
+M: Insulin is secreted by the: || Liver || Alpha cells of the pancreas || Beta cells of the pancreas || Adrenal gland || c || Lowers blood sugar. Glucagon (alpha cells) raises it.
+M: Which hormone is called the 'emergency' or 'fight or flight' hormone? || Thyroxine || Adrenaline || Insulin || Oxytocin || b || Secreted by the adrenal medulla.
+M: Bile is produced by the: || Gall bladder || Liver || Pancreas || Stomach || b || Stored in the gall bladder; emulsifies fats; contains no enzymes.
+M: The longest bone in the human body is the: || Tibia || Femur || Humerus || Fibula || b || The smallest is the stapes (middle ear).
+M: An adult human has how many bones? || 206 || 212 || 300 || 186 || a || A newborn has about 270–300.
+M: The lifespan of a red blood cell is about: || 30 days || 60 days || 120 days || 365 days || c || Made in red bone marrow; destroyed in the spleen and liver.
+M: The universal blood donor group is: || A || B || AB || O || d || O negative; AB positive is the universal recipient.
+M: Blood groups were discovered by: || William Harvey || Karl Landsteiner || Robert Koch || Louis Pasteur || b || 1900; Nobel Prize 1930.
+M: The functional unit of the kidney is the: || Neuron || Nephron || Alveolus || Villus || b || About a million per kidney.
+M: Which part of the brain controls balance and posture? || Cerebrum || Cerebellum || Medulla oblongata || Hypothalamus || b || Medulla controls involuntary actions like heartbeat and breathing.
+M: Normal blood pressure of a healthy adult is about: || 80/120 mm Hg || 120/80 mm Hg || 140/90 mm Hg || 100/60 mm Hg || b || Measured with a sphygmomanometer.
+M: The pacemaker of the heart is the: || AV node || SA node || Bundle of His || Purkinje fibres || b || Sino-atrial node.
+M: The largest organ of the human body is the: || Liver || Skin || Brain || Lungs || b || The liver is the largest internal organ (and gland).
+
+## 9.4 Diseases and Health
+M: Malaria is caused by: || A virus || A bacterium || Plasmodium (a protozoan) || A fungus || c || Spread by the female Anopheles mosquito.
+M: Dengue is spread by the mosquito: || Anopheles || Culex || Aedes aegypti || Mansonia || c || Day-biting; falling platelet count.
+M: Typhoid is diagnosed by the: || ELISA test || Widal test || Mantoux test || Schick test || b || ELISA – HIV; Mantoux – TB; Schick – diphtheria.
+M: Tuberculosis is caused by: || Vibrio cholerae || Mycobacterium tuberculosis || Salmonella typhi || Plasmodium || b || Discovered by Robert Koch (1882); BCG vaccine.
+M: Which disease is caused by a virus? || Cholera || Typhoid || Polio || Tuberculosis || c || The others are bacterial.
+M: The first vaccine (against smallpox) was developed by: || Louis Pasteur || Edward Jenner || Jonas Salk || Robert Koch || b || 1796. Pasteur developed the rabies vaccine (1885).
+M: HIV mainly attacks: || Red blood cells || Helper T-cells (CD4) || Platelets || B-cells only || b || Weakens the immune system.
+M: Kala-azar is transmitted by: || Housefly || Sandfly || Tsetse fly || Mosquito || b || Caused by Leishmania donovani. Tsetse fly spreads sleeping sickness.
+M: Down syndrome is due to trisomy of chromosome: || 13 || 18 || 21 || X || c || An extra copy of chromosome 21.
+M: Silicosis is an occupational disease of: || Coal miners || Stone and glass workers || Cotton textile workers || Painters || b || Byssinosis – cotton dust; anthracosis – coal dust.
+M: India was declared polio-free by WHO in: || 2011 || 2014 || 2016 || 2018 || b || The last case was in January 2011.
+
+## 9.5 Plants, Genetics, Ecology
+M: The edible part of the potato is a: || Root || Stem (tuber) || Leaf || Fruit || b || Underground stem with 'eyes' (nodes). Sweet potato is a root.
+M: Saffron is obtained from the: || Petal || Stigma || Seed || Root || b || Of the Crocus sativus flower; grown at Pampore, Kashmir.
+M: Clove is a dried: || Fruit || Flower bud || Seed || Bark || b || Black pepper is a fruit; cinnamon is a bark.
+M: The oxygen released during photosynthesis comes from: || Carbon dioxide || Water || Glucose || Chlorophyll || b || Photolysis of water.
+M: Which plant hormone is a gas? || Auxin || Gibberellin || Ethylene || Cytokinin || c || Promotes fruit ripening.
+M: Abscisic acid is known as the: || Growth hormone || Stress hormone || Ripening hormone || Flowering hormone || b || Causes stomatal closure and dormancy.
+M: Food is transported in plants by the: || Xylem || Phloem || Stomata || Root hairs || b || Xylem carries water and minerals.
+M: Rhizobium bacteria fix nitrogen in the root nodules of: || Wheat || Leguminous plants || Rice || Maize || b || Peas, beans, groundnut.
+M: Mendel conducted his experiments on: || Fruit fly || Garden pea || Maize || Tomato || b || The phenotypic ratio in a monohybrid cross is 3:1.
+M: 'Origin of Species' was written by: || Lamarck || Charles Darwin || Mendel || Hugo de Vries || b || 1859; theory of natural selection.
+M: The forelimbs of man, bat and whale are examples of: || Analogous organs || Homologous organs || Vestigial organs || Rudimentary organs || b || Same origin, different functions (divergent evolution).
+M: The 10% law of energy transfer in a food chain was given by: || Tansley || Lindeman || Odum || Haeckel || b || Only about 10% of energy passes to the next trophic level.
+M: The Chipko movement (1973) began in present-day: || Himachal Pradesh || Uttarakhand || Karnataka || Rajasthan || b || Leaders included Sunderlal Bahuguna and Gaura Devi.

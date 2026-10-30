@@ -1,0 +1,83 @@
+# Part B – Polity Practice MCQs
+
+## 2.1 Constitution Making, Preamble, Sources
+M: Who was the President of the Constituent Assembly? || B.R. Ambedkar || Rajendra Prasad || Jawaharlal Nehru || Sachchidananda Sinha || b || Rajendra Prasad was elected permanent President on 11 Dec 1946. Sachchidananda Sinha was the temporary President at the first meeting (9 Dec 1946). Ambedkar chaired the Drafting Committee.
+M: The Objectives Resolution was moved in the Constituent Assembly by: || Sardar Patel || Jawaharlal Nehru || B.N. Rau || K.M. Munshi || b || Nehru moved it on 13 Dec 1946; adopted 22 Jan 1947. It became the basis of the Preamble.
+M: The Constitution of India came into force on: || 15 August 1947 || 26 November 1949 || 26 January 1950 || 24 January 1950 || c || Adopted on 26 Nov 1949 (Constitution Day); enforced on 26 Jan 1950 (Republic Day), the anniversary of the 1930 Purna Swaraj Day.
+M: Which words were added to the Preamble by the 42nd Amendment? || Sovereign, Democratic || Socialist, Secular, Integrity || Republic, Justice || Liberty, Equality || b || The 42nd Amendment (1976) is the only amendment to the Preamble so far.
+M: In which case did the Supreme Court hold that the Preamble is a part of the Constitution? || Berubari Union (1960) || Golaknath (1967) || Kesavananda Bharati (1973) || Minerva Mills (1980) || c || Berubari said it was not a part; Kesavananda reversed this and propounded the basic structure doctrine.
+M: The idea of Directive Principles of State Policy was borrowed from the Constitution of: || USA || Ireland || Canada || Australia || b || Ireland also gave nomination of Rajya Sabha members and the method of electing the President.
+M: Fundamental Duties were borrowed from the Constitution of: || USA || Japan || erstwhile USSR || France || c || Added by the 42nd Amendment on the Swaran Singh Committee's recommendation.
+M: The Concurrent List was borrowed from: || Canada || Australia || Germany || South Africa || b || Australia also gave freedom of trade and commerce and the joint sitting of Parliament.
+M: The procedure for amendment of the Constitution was borrowed from: || USA || UK || South Africa || Ireland || c || South Africa also gave the method of election of Rajya Sabha members.
+M: Suspension of Fundamental Rights during an emergency was borrowed from: || Weimar Germany || USA || Canada || Japan || a || The Weimar Constitution of Germany.
+M: Residuary powers vested in the Centre is a feature borrowed from: || USA || Canada || Australia || Ireland || b || Canada – federation with a strong Centre; residuary powers with the Union (Entry 97, Union List; Article 248).
+M: How many Schedules did the original Constitution have? || 8 || 10 || 12 || 22 || a || Original: 395 Articles, 22 Parts, 8 Schedules. Now 12 Schedules.
+M: Which Schedule contains the anti-defection law? || Eighth || Ninth || Tenth || Eleventh || c || Added by the 52nd Amendment (1985). The 91st Amendment (2003) removed the 'split' exception.
+M: Which Schedule lists the languages recognised by the Constitution? || Seventh || Eighth || Ninth || Twelfth || b || 22 languages now; originally 14.
+M: The Ninth Schedule was added by: || 1st Amendment, 1951 || 7th Amendment, 1956 || 42nd Amendment, 1976 || 44th Amendment, 1978 || a || To protect land reform laws from judicial review. I.R. Coelho (2007): laws added after 24 April 1973 can be reviewed on basic structure grounds.
+M: Which Schedule contains the Union, State and Concurrent Lists? || Fifth || Sixth || Seventh || Eleventh || c || Union List – 100 entries now, State List – 61, Concurrent List – 52.
+
+## 2.2 Fundamental Rights and Duties
+M: Article 17 of the Constitution deals with: || Equality of opportunity || Abolition of untouchability || Abolition of titles || Protection of life || b || Untouchability abolished and its practice forbidden; Protection of Civil Rights Act 1955 enforces it.
+M: The Right to Education (Article 21A) was inserted by: || 42nd Amendment || 44th Amendment || 86th Amendment || 93rd Amendment || c || 86th Amendment (2002) – free and compulsory education for children aged 6–14; also changed Article 45 and added the 11th Fundamental Duty.
+M: The Right to Property was removed from Fundamental Rights by the: || 42nd Amendment || 44th Amendment || 52nd Amendment || 61st Amendment || b || 44th Amendment (1978); it is now a legal right under Article 300A.
+M: Which Article prohibits employment of children below 14 in factories and mines? || Article 21A || Article 23 || Article 24 || Article 39 || c || Article 23 – traffic in human beings and forced labour.
+M: The writ issued to release a person from illegal detention is: || Mandamus || Habeas Corpus || Certiorari || Prohibition || b || 'To have the body'. It can be issued against both public authorities and private individuals.
+M: Which writ is issued to an official to perform a public duty? || Quo Warranto || Mandamus || Prohibition || Certiorari || b || 'We command'. It cannot be issued against the President, a Governor or a private person.
+M: Which writ inquires into the legality of a person's claim to a public office? || Habeas Corpus || Certiorari || Quo Warranto || Mandamus || c || 'By what authority'. Any interested person can seek it.
+M: Which Fundamental Rights cannot be suspended even during a national emergency? || Articles 14 and 19 || Articles 20 and 21 || Articles 25 and 26 || Articles 29 and 30 || b || After the 44th Amendment, Articles 20 (protection in respect of conviction) and 21 (life and personal liberty) remain enforceable.
+M: How many freedoms are guaranteed under Article 19 today? || 5 || 6 || 7 || 8 || b || Speech & expression, peaceful assembly, associations (incl. co-operatives), movement, residence, profession. The seventh (property) was deleted in 1978.
+M: The right to privacy was declared a Fundamental Right in: || Maneka Gandhi case || K.S. Puttaswamy case || Shayara Bano case || Vishaka case || b || Puttaswamy (2017), 9-judge bench, under Article 21.
+M: How many Fundamental Duties are there at present? || 10 || 11 || 12 || 9 || b || 10 added by the 42nd Amendment (1976) + 1 by the 86th Amendment (2002); Article 51A.
+M: Which Article guarantees the right of minorities to establish and administer educational institutions? || Article 28 || Article 29 || Article 30 || Article 31 || c || Article 29 protects language, script and culture of any section of citizens.
+
+## 2.3 Directive Principles
+M: The Uniform Civil Code is mentioned in: || Article 39 || Article 44 || Article 48 || Article 51 || b || Article 44 – DPSP. Goa has a common civil code; Uttarakhand enacted a UCC in 2024.
+M: Organisation of village panchayats is a directive under: || Article 38 || Article 40 || Article 43 || Article 46 || b || A Gandhian principle; given constitutional form by the 73rd Amendment.
+M: Separation of judiciary from executive is directed by: || Article 48A || Article 49 || Article 50 || Article 51 || c || Article 49 – protection of monuments; Article 51 – international peace.
+M: Protection and improvement of the environment was added to DPSP as: || Article 47 || Article 48A || Article 51A(g) || Article 39A || b || Inserted by the 42nd Amendment; Article 51A(g) is the corresponding Fundamental Duty.
+M: Equal justice and free legal aid is provided under: || Article 39A || Article 41 || Article 42 || Article 43A || a || Inserted by the 42nd Amendment; implemented through NALSA (Legal Services Authorities Act 1987).
+M: Promotion of co-operative societies was added as a DPSP by the 97th Amendment as: || Article 43 || Article 43A || Article 43B || Article 47 || c || Article 43A – workers' participation in management (42nd Amendment).
+
+## 2.4 Union Executive and Parliament
+M: Who administers the oath of office to the President of India? || Vice-President || Prime Minister || Chief Justice of India || Speaker || c || In the CJI's absence, the senior-most Supreme Court judge.
+M: The President's resignation letter is addressed to the: || Prime Minister || Chief Justice of India || Vice-President || Speaker || c || The Vice-President then informs the Speaker of the Lok Sabha.
+M: The only ground for impeachment of the President is: || Misbehaviour || Incapacity || Violation of the Constitution || Corruption || c || Article 61; requires a two-thirds majority of the total membership of each House.
+M: Ordinance-making power of the President is given under: || Article 72 || Article 123 || Article 213 || Article 356 || b || Article 213 – Governor's ordinance. An ordinance lapses six weeks after Parliament reassembles unless approved.
+M: Pardoning power of the President is in: || Article 72 || Article 74 || Article 161 || Article 143 || a || Article 161 – Governor's pardoning power, which does not extend to death sentences.
+M: Which veto did President Giani Zail Singh use on the Indian Post Office (Amendment) Bill, 1986? || Absolute veto || Suspensive veto || Pocket veto || Qualified veto || c || Pocket veto – no time limit to decide on an ordinary bill.
+M: The ex-officio Chairman of the Rajya Sabha is the: || President || Vice-President || Speaker || Prime Minister || b || Article 64. He votes only in case of a tie.
+M: The size of the Council of Ministers is limited to 15% of the Lok Sabha by the: || 42nd Amendment || 61st Amendment || 91st Amendment || 97th Amendment || c || 91st Amendment (2003); in states, 15% of the assembly with a minimum of 12.
+M: Who decides whether a bill is a money bill? || President || Finance Minister || Speaker of Lok Sabha || Chairman of Rajya Sabha || c || The Speaker's decision is final (Article 110(3)).
+M: The Rajya Sabha can delay a money bill for a maximum of: || 7 days || 14 days || 30 days || 6 months || b || It can only make recommendations; there is no joint sitting on a money bill.
+M: A joint sitting of both Houses is presided over by the: || President || Vice-President || Speaker || Prime Minister || c || Article 108. Joint sittings have been held three times – 1961, 1978, 2002.
+M: Minimum age to be a member of the Rajya Sabha is: || 21 years || 25 years || 30 years || 35 years || c || Lok Sabha 25; President and Vice-President 35.
+M: How many members can the President nominate to the Rajya Sabha? || 2 || 10 || 12 || 14 || c || Persons with special knowledge of literature, science, art and social service (Article 80).
+M: 'Zero Hour' in Parliament is: || Mentioned in the Constitution || An Indian innovation not in the rules || Borrowed from the UK || The first hour of every sitting || b || It starts right after Question Hour and has been used informally since 1962.
+M: The Public Accounts Committee examines the reports of the: || Finance Commission || CAG || UPSC || Election Commission || b || 22 members (15 LS + 7 RS); its chairman is from the Opposition by convention.
+M: The quorum for a sitting of either House of Parliament is: || One-fourth of members || One-tenth of total members || One-third of members || Half of members || b || Article 100.
+
+## 2.5 Judiciary, States, Bodies, Amendments
+M: The retirement age of a Supreme Court judge is: || 60 years || 62 years || 65 years || 70 years || c || High Court judges retire at 62.
+M: Advisory jurisdiction of the Supreme Court is under: || Article 131 || Article 137 || Article 143 || Article 145 || c || The President may seek the Court's opinion; the opinion is not binding.
+M: The basic structure doctrine was laid down in: || Golaknath case || Kesavananda Bharati case || Minerva Mills case || Maneka Gandhi case || b || 1973, a 13-judge bench, the largest so far.
+M: Which High Court is the oldest in India? || Bombay || Madras || Calcutta || Allahabad || c || Calcutta HC was established on 1 July 1862; Bombay and Madras followed in August 1862.
+M: Who appoints the Governor of a state? || Chief Minister || President || Prime Minister || Chief Justice || b || The Governor holds office during the President's pleasure (Article 156).
+M: In how many states is there a Legislative Council at present? || 4 || 5 || 6 || 7 || c || Andhra Pradesh, Bihar, Karnataka, Maharashtra, Telangana, Uttar Pradesh.
+M: Panchayati Raj was first introduced in India at: || Anantapur, Andhra Pradesh || Nagaur, Rajasthan || Sabarmati, Gujarat || Wardha, Maharashtra || b || On 2 October 1959, by Nehru, following the Balwant Rai Mehta Committee.
+M: How many subjects are in the Eleventh Schedule? || 18 || 22 || 29 || 52 || c || Twelfth Schedule (Municipalities) has 18 subjects.
+M: Which Article deals with the Election Commission? || Article 315 || Article 324 || Article 330 || Article 280 || b || Multi-member since 1993; first CEC Sukumar Sen.
+M: The Comptroller and Auditor General is appointed under: || Article 76 || Article 148 || Article 280 || Article 315 || b || Called the 'guardian of the public purse'; term 6 years or age 65.
+M: The Finance Commission is constituted every: || 2 years || 4 years || 5 years || 10 years || c || Article 280. The 16th Finance Commission is chaired by Arvind Panagariya.
+M: The GST Council is provided for under: || Article 246A || Article 269A || Article 279A || Article 280 || c || Inserted by the 101st Amendment (2016); chaired by the Union Finance Minister.
+M: The voting age was reduced from 21 to 18 by the: || 42nd Amendment || 52nd Amendment || 61st Amendment || 73rd Amendment || c || 61st Amendment, 1989 (in force 28 March 1989).
+M: Which amendment is called the 'Mini Constitution'? || 24th || 42nd || 44th || 73rd || b || 42nd (1976) made sweeping changes to the Preamble, FDs, DPSPs, Seventh Schedule, tribunals, etc.
+M: The 103rd Amendment provides: || Women's reservation || 10% reservation for EWS || National Commission for Backward Classes || GST || b || 2019 – Articles 15(6) and 16(6). NCBC – 102nd; women's reservation – 106th.
+M: The Nari Shakti Vandan Adhiniyam (2023) relates to: || Reservation for women in local bodies || One-third reservation for women in Lok Sabha and state assemblies || Maternity benefits || Women's property rights || b || 106th Amendment; to take effect after the next census and delimitation.
+M: Sikkim became a full-fledged state of India through the: || 35th Amendment || 36th Amendment || 42nd Amendment || 53rd Amendment || b || 36th Amendment, 1975. The 35th had made it an 'associate state'.
+M: Which Article contains the procedure for amending the Constitution? || Article 352 || Article 360 || Article 368 || Article 370 || c || Special majority, with ratification by half the states for federal provisions.
+M: President's Rule in a state is imposed under: || Article 352 || Article 356 || Article 360 || Article 365 || b || Approval within 2 months; maximum 3 years; first imposed in Punjab (1951).
+M: The National Emergency has been proclaimed how many times? || Once || Twice || Thrice || Never || c || 1962 (China), 1971 (Pakistan), 1975 (internal disturbance).
+M: The Bharatiya Sakshya Adhiniyam replaced: || Indian Penal Code || Indian Evidence Act || Code of Civil Procedure || Code of Criminal Procedure || b || In force from 1 July 2024; electronic records treated as primary evidence.
+M: NITI Aayog came into existence on: || 15 March 1950 || 1 January 2015 || 26 January 2015 || 15 August 2014 || b || Replaced the Planning Commission; chaired by the Prime Minister; created by an executive resolution (non-constitutional).

@@ -1,0 +1,60 @@
+# Part B – Chemistry Practice MCQs
+
+## 8.1 Matter, Atoms, Periodic Table
+M: Which substance sublimes on heating? || Sodium chloride || Camphor || Sugar || Wax || b || Also naphthalene, iodine, dry ice and ammonium chloride.
+M: Milk is an example of: || True solution || Colloid (emulsion) || Suspension || Compound || b || Shows the Tyndall effect.
+M: Cream is separated from milk by: || Filtration || Centrifugation || Distillation || Sublimation || b || Spinning separates lighter fat.
+M: Isotopes have the same: || Mass number || Number of neutrons || Atomic number || Physical properties || c || E.g., protium, deuterium, tritium.
+M: The modern periodic law is based on: || Atomic mass || Atomic number || Number of neutrons || Valency || b || Henry Moseley. Mendeleev's table was based on atomic mass.
+M: The most electronegative element is: || Oxygen || Chlorine || Fluorine || Nitrogen || c || Electronegativity increases across a period and decreases down a group.
+M: Which metal is liquid at room temperature? || Sodium || Mercury || Gallium || Bromine || b || Bromine is the liquid non-metal.
+M: The lightest metal is: || Sodium || Lithium || Aluminium || Magnesium || b || Hydrogen is the lightest element.
+M: Which metal is stored in kerosene? || Iron || Sodium || Calcium || Aluminium || b || Sodium and potassium react vigorously with air and water.
+M: The best conductor of electricity among metals is: || Copper || Gold || Silver || Aluminium || c || Copper is used in wires because it is cheaper.
+M: Noble gases are in group: || 1 || 2 || 17 || 18 || d || Inert due to complete outer shells.
+M: Which gas is used in advertisement signs for a red glow? || Argon || Neon || Helium || Xenon || b || Helium is used in balloons and deep-sea diving.
+M: The most abundant element in the Earth's crust is: || Silicon || Oxygen || Aluminium || Iron || b || Aluminium is the most abundant metal in the crust.
+M: Avogadro's number is approximately: || 6.022 × 10²³ || 3 × 10⁸ || 1.6 × 10⁻¹⁹ || 9.1 × 10⁻³¹ || a || Particles in one mole.
+
+## 8.2 Acids, Bases, Salts
+M: The acid present in ant stings is: || Acetic acid || Formic acid || Citric acid || Lactic acid || b || Treated with baking soda.
+M: The acid present in tomato is: || Tartaric acid || Oxalic acid || Malic acid || Citric acid || b || Calcium oxalate forms kidney stones.
+M: The acid in curd is: || Lactic acid || Citric acid || Acetic acid || Butyric acid || a || Also produced in muscles during exercise.
+M: Tamarind contains: || Malic acid || Tartaric acid || Oxalic acid || Formic acid || b || Grapes also contain tartaric acid.
+M: Vinegar contains: || Citric acid || Acetic acid || Lactic acid || Hydrochloric acid || b || About 5–8% acetic acid.
+M: The pH of human blood is about: || 6.4 || 7.0 || 7.4 || 8.4 || c || Slightly basic.
+M: The acid present in the human stomach is: || Sulphuric acid || Nitric acid || Hydrochloric acid || Acetic acid || c || It kills germs and activates pepsin.
+M: Phenolphthalein turns pink in a: || Acidic solution || Basic solution || Neutral solution || Salt solution || b || It is colourless in acids.
+M: Aqua regia is a mixture of conc. HCl and conc. HNO₃ in the ratio: || 1:3 || 3:1 || 1:1 || 2:1 || b || It dissolves gold and platinum.
+M: The chemical name of baking soda is: || Sodium carbonate || Sodium bicarbonate || Sodium chloride || Sodium hydroxide || b || NaHCO₃; used in baking and as an antacid.
+M: Washing soda is: || NaHCO₃ || Na₂CO₃·10H₂O || NaOH || CaOCl₂ || b || Used to remove the permanent hardness of water.
+M: The chemical formula of Plaster of Paris is: || CaSO₄·2H₂O || CaSO₄·½H₂O || CaCO₃ || CaO || b || Gypsum is CaSO₄·2H₂O.
+M: Bleaching powder is chemically: || Calcium chloride || Calcium oxychloride || Calcium carbonate || Sodium hypochlorite || b || CaOCl₂; used to disinfect water.
+M: Laughing gas is: || Nitric oxide || Nitrous oxide || Nitrogen dioxide || Ammonia || b || N₂O; used as an anaesthetic.
+M: Dry ice is solid: || Water || Carbon dioxide || Nitrogen || Ammonia || b || Sublimes at −78.5 °C.
+M: Indelible ink used in elections contains: || Silver nitrate || Potassium permanganate || Copper sulphate || Sodium chloride || a || AgNO₃ stains the skin on exposure to light.
+M: Blue vitriol is: || Ferrous sulphate || Copper sulphate || Zinc sulphate || Magnesium sulphate || b || CuSO₄·5H₂O. Green vitriol – FeSO₄; white vitriol – ZnSO₄.
+M: Heavy water is used in nuclear reactors as a: || Fuel || Moderator || Coolant only || Control rod || b || D₂O slows down neutrons.
+
+## 8.3 Metals, Alloys, Everyday Chemistry
+M: Brass is an alloy of: || Copper and tin || Copper and zinc || Iron and carbon || Lead and tin || b || Bronze = copper + tin.
+M: Solder is an alloy of: || Lead and tin || Copper and zinc || Iron and nickel || Aluminium and copper || a || Low melting point; joins electrical wires.
+M: Stainless steel contains iron, carbon and: || Copper and zinc || Chromium and nickel || Lead and tin || Aluminium || b || Chromium forms a protective oxide layer.
+M: German silver contains: || Silver || Copper, zinc and nickel || Copper and silver || Silver and nickel || b || It contains no silver.
+M: Galvanisation is coating iron with: || Tin || Zinc || Chromium || Copper || b || Zinc protects iron from rusting even if scratched (sacrificial protection).
+M: Bauxite is the ore of: || Iron || Copper || Aluminium || Zinc || c || Al₂O₃·2H₂O; extracted by electrolysis (Hall–Héroult).
+M: Galena is the ore of: || Lead || Mercury || Zinc || Tin || a || PbS. Cinnabar – mercury (HgS).
+M: Pure gold is: || 18 carat || 22 carat || 24 carat || 20 carat || c || 22 carat = 22 parts gold + 2 parts other metal.
+M: The 'lead' in a pencil is: || Lead || Graphite || Charcoal || Carbon black || b || Graphite mixed with clay.
+M: The hardest natural substance is: || Graphite || Diamond || Quartz || Corundum || b || Each carbon is bonded to four others in a 3-D network.
+M: Vulcanisation of rubber involves heating it with: || Carbon || Sulphur || Phosphorus || Chlorine || b || Charles Goodyear; makes rubber harder and more elastic.
+M: The main constituent of LPG is: || Methane || Butane || Ethane || Hydrogen || b || Butane with propane; ethyl mercaptan added for smell.
+M: The main constituent of CNG and biogas is: || Methane || Ethane || Propane || Butane || a || Methane (marsh gas).
+M: The gas responsible for the Bhopal gas tragedy (1984) was: || Phosgene || Methyl isocyanate || Chlorine || Hydrogen cyanide || b || Leaked from the Union Carbide plant.
+M: Minamata disease is caused by: || Cadmium || Lead || Mercury || Arsenic || c || Itai-itai is caused by cadmium.
+M: Which gas is used for artificial ripening of fruits? || Methane || Ethylene || Acetylene only || Chlorine || b || Ethylene is the natural ripening hormone; calcium carbide (which releases acetylene) is banned for ripening.
+M: The non-stick coating on cookware is: || PVC || Teflon || Bakelite || Nylon || b || Polytetrafluoroethylene.
+M: Which polymer is thermosetting? || Polythene || PVC || Bakelite || Nylon || c || Thermosets cannot be remoulded on heating.
+M: The first fully synthetic fibre was: || Rayon || Nylon || Terylene || Acrylic || b || Wallace Carothers (DuPont). Rayon is semi-synthetic (artificial silk).
+M: Temporary hardness of water is due to: || Chlorides of Ca and Mg || Bicarbonates of Ca and Mg || Sulphates of Ca and Mg || Sodium chloride || b || Removed by boiling or Clark's method.
+M: Penicillin was discovered by: || Louis Pasteur || Alexander Fleming || Edward Jenner || Robert Koch || b || 1928.

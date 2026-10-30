@@ -1,0 +1,14 @@
+# How to Use This MCQ Book
+
+## How the Book Is Organised
+- Part A (Chapter 1): questions reported by candidates from SSC CGL 2026 Tier-1 shifts (30 Sep – Oct 2026), rewritten as MCQs. Each one is marked [CGL 2026 REPORTED] in orange, with the date, shift and source at the end of the question. The question wording and the options are reconstructions; the official SSC options are not available.
+- Part B (Chapters 2–10): original practice MCQs on the same static GS topics that SSC asked in 2026 (Articles and amendments, Five-Year Plans and 1991 reforms, North-East festivals, musicians, books, sports, units, optics, chemistry, biology). These are not previous-year questions.
+- Every MCQ has the answer and a short explanation that teaches the surrounding concept, so one question covers several possible variations.
+- Current affairs are excluded.
+
+## How to Practise
+- Cover the answer line, attempt a block of 25 in 15 minutes (the 2026 sectional timer), then check.
+- Mark the ones you got wrong and read only their explanations again after two days.
+- SSC CGL 2026 Tier-1 GA: 25 questions, 50 marks, 15 minutes, −0.50 per wrong answer.
+TIP: In the real exam, attempt only the questions where you can eliminate at least two options. With −0.50 per wrong answer, blind guesses lose marks on average.
+WARN: Part A items are memory-based (from Prepp, Examshortcut, PW, Career Power, Adda247, Testbook analyses). Check them against the official SSC answer key once it is released.

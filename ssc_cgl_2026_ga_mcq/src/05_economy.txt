@@ -1,0 +1,66 @@
+# Part B – Economy Practice MCQs
+
+## 5.1 Basic Concepts and National Income
+M: Who is known as the 'Father of Economics'? || J.M. Keynes || Adam Smith || Alfred Marshall || David Ricardo || b || 'The Wealth of Nations' (1776). Keynes is the father of modern macroeconomics.
+M: A market with a single buyer is called: || Monopoly || Monopsony || Oligopoly || Duopoly || b || Monopoly – one seller; oligopoly – few sellers; duopoly – two sellers.
+M: Goods whose demand rises when their price rises because they are inferior staples are: || Veblen goods || Giffen goods || Normal goods || Complementary goods || b || Veblen goods are luxury/prestige goods – another exception to the law of demand.
+M: GNP is equal to: || GDP − depreciation || GDP + net factor income from abroad || NNP + indirect taxes || GDP − subsidies || b || 'National' includes income of nationals abroad; 'Domestic' covers production within borders.
+M: National Income in India is measured as: || GDP at market price || NNP at factor cost || GNP at market price || NDP at market price || b || NNP at factor cost = NNP at market price − net indirect taxes.
+M: Who made the first estimate of India's national income? || V.K.R.V. Rao || Dadabhai Naoroji || P.C. Mahalanobis || R.C. Dutt || b || In 1867–68 (Poverty and Un-British Rule in India). V.K.R.V. Rao made the first scientific estimate (1931).
+M: The current base year for India's GDP series is: || 2004–05 || 2011–12 || 2015–16 || 2017–18 || b || A revision of the base year has been planned by MoSPI.
+M: The Human Development Index is published by: || World Bank || IMF || UNDP || WTO || c || Since 1990; developed by Mahbub ul Haq with Amartya Sen. Indicators: life expectancy, education, GNI per capita.
+M: A situation of high inflation together with stagnant growth is called: || Deflation || Stagflation || Disinflation || Reflation || b || Disinflation = falling rate of inflation; deflation = falling price level.
+M: The Consumer Price Index (CPI) in India is compiled by: || RBI || National Statistics Office || NITI Aayog || Finance Ministry || b || WPI is compiled by the Office of the Economic Adviser (DPIIT).
+M: RBI's inflation target under flexible inflation targeting is: || 2% ± 1% || 4% ± 2% || 5% ± 1% || 6% ± 2% || b || Measured on CPI (combined); set by the government in consultation with RBI.
+
+## 5.2 Planning and Reforms
+M: The Planning Commission was set up on: || 15 August 1947 || 26 January 1950 || 15 March 1950 || 1 April 1951 || c || By an executive resolution, with the PM as chairman. Replaced by NITI Aayog on 1 January 2015.
+M: The Second Five-Year Plan was based on the model of: || Harrod–Domar || P.C. Mahalanobis || Gadgil || Rao–Manmohan || b || Focus on heavy industry; steel plants at Bhilai, Durgapur, Rourkela.
+M: The First Five-Year Plan gave top priority to: || Heavy industry || Agriculture and irrigation || Poverty removal || Employment || b || Based on the Harrod–Domar model; exceeded its target.
+M: The period of 'Plan Holiday' was: || 1961–64 || 1966–69 || 1978–80 || 1990–92 || b || Three annual plans after the failure of the Third Plan.
+M: 'Garibi Hatao' was the slogan of the: || Fourth Plan || Fifth Plan || Sixth Plan || Seventh Plan || b || Fifth Plan (1974–78), terminated early by the Janata government.
+M: The 'Rolling Plan' concept was introduced by the: || Congress government (1969) || Janata government (1978) || NDA government (1999) || UPA government (2004) || b || 1978–80; concept from Gunnar Myrdal.
+M: The last Five-Year Plan was the: || Tenth || Eleventh || Twelfth || Thirteenth || c || 2012–17: 'faster, more inclusive and sustainable growth'.
+M: The 1991 economic reforms are summed up as: || PPP || LPG || MSP || FDI || b || Liberalisation, Privatisation, Globalisation.
+M: FERA was replaced by FEMA in: || 1991 || 1995 || 1999 || 2002 || c || Foreign Exchange Management Act, 1999 – civil rather than criminal law.
+M: The MRTP Act was replaced by the: || Competition Act, 2002 || FEMA, 1999 || Companies Act, 2013 || IBC, 2016 || a || Competition Commission of India enforces it.
+M: The Narasimham Committee (1991) was related to reforms in: || Taxation || Banking || Insurance || Agriculture || b || Raja Chelliah – tax reforms; Malhotra – insurance reforms.
+
+## 5.3 Banking and Money
+M: The Reserve Bank of India was established on: || 1 January 1949 || 1 April 1935 || 15 August 1947 || 1 July 1955 || b || Nationalised on 1 January 1949; HQ Mumbai.
+M: Who issues the one-rupee note in India? || RBI || Ministry of Finance || SBI || Security Printing Press || b || It bears the signature of the Finance Secretary; RBI issues all other notes.
+M: The rate at which RBI lends short-term funds to commercial banks is the: || Bank rate || Repo rate || Reverse repo rate || CRR || b || Reverse repo – rate at which RBI borrows from banks; bank rate – long-term lending.
+M: The portion of deposits that banks must keep with the RBI is the: || SLR || CRR || Repo || MSF || b || SLR is kept by banks themselves in cash, gold or approved securities.
+M: To control inflation, the RBI would generally: || Reduce repo rate || Increase repo rate || Reduce CRR || Buy government securities || b || Dear-money policy reduces liquidity. Buying securities injects money.
+M: The Monetary Policy Committee has how many members? || 4 || 5 || 6 || 7 || c || 3 from RBI (including the Governor, who has a casting vote) and 3 government nominees.
+M: Which is known as 'broad money'? || M1 || M2 || M3 || M4 || c || M3 = M1 + time deposits with banks; M1 is narrow money.
+M: Fourteen major banks were nationalised on: || 19 July 1969 || 15 April 1980 || 1 July 1955 || 26 January 1969 || a || Six more on 15 April 1980.
+M: State Bank of India was formed on 1 July 1955 from the: || Bank of Hindostan || Imperial Bank of India || Allahabad Bank || Punjab National Bank || b || Imperial Bank (1921) itself merged the three Presidency banks.
+M: NABARD was established in: || 1969 || 1975 || 1982 || 1990 || c || 12 July 1982, on the recommendation of the B. Sivaraman Committee; apex bank for agriculture and rural development.
+M: Regional Rural Banks were set up in: || 1969 || 1975 || 1982 || 1991 || b || 2 October 1975 (Narasimham Working Group).
+M: Which body regulates the securities market in India? || RBI || SEBI || IRDAI || PFRDA || b || SEBI – est. 1988, statutory powers 1992; HQ Mumbai.
+M: The SENSEX consists of how many companies? || 30 || 50 || 100 || 500 || a || BSE (1875, Asia's oldest exchange). NIFTY 50 is on the NSE.
+M: UPI is operated by: || RBI || NPCI || SBI || NABARD || b || National Payments Corporation of India (2008); UPI launched in 2016.
+
+## 5.4 Budget, Taxes and Trade
+M: Fiscal deficit minus interest payments equals: || Revenue deficit || Primary deficit || Effective revenue deficit || Budget deficit || b || Primary deficit shows borrowing for current needs excluding past interest.
+M: Which of these is a capital receipt? || Income tax || Dividends from PSUs || Disinvestment proceeds || Fees and fines || c || Capital receipts: borrowings, recovery of loans, disinvestment. Others are revenue receipts.
+M: The Union Budget is called the 'Annual Financial Statement' in: || Article 110 || Article 112 || Article 114 || Article 266 || b || Article 114 – Appropriation Bill; Article 266 – Consolidated Fund.
+M: Which is an example of a direct tax? || GST || Customs duty || Income tax || Excise duty || c || Direct tax burden cannot be shifted. GST is indirect.
+M: GST was introduced in India on: || 1 April 2017 || 1 July 2017 || 15 August 2017 || 1 January 2018 || b || 101st Amendment (2016); 'One Nation, One Tax'.
+M: Which state was the first to ratify the GST Constitutional Amendment Bill? || Bihar || Assam || Gujarat || Jharkhand || b || Assam, August 2016.
+M: The FRBM Act was enacted in: || 1991 || 2000 || 2003 || 2008 || c || Fiscal Responsibility and Budget Management – to cut fiscal and revenue deficits.
+M: The merger of the Railway Budget with the Union Budget took place in: || 2014 || 2016 || 2017 || 2019 || c || 2017; the separate railway budget dated from 1924 (Acworth Committee).
+M: The World Trade Organization came into existence on: || 1 January 1995 || 1 January 1948 || 15 April 1994 || 1 July 1997 || a || Replaced GATT; HQ Geneva.
+M: The 'soft-loan window' of the World Bank is: || IBRD || IDA || IFC || MIGA || b || International Development Association – interest-free/low-interest loans to poor countries.
+M: The Bretton Woods Conference (1944) led to the creation of: || WTO and UN || IMF and World Bank || ADB and AIIB || OECD and OPEC || b || Both are headquartered in Washington DC.
+
+## 5.5 Schemes, Census and Agriculture
+M: MGNREGA guarantees how many days of wage employment per household per year? || 50 || 100 || 150 || 200 || b || Enacted 2005; launched 2 February 2006 at Anantapur.
+M: Under PM-KISAN, eligible farmers receive per year: || ₹2,000 || ₹4,000 || ₹6,000 || ₹12,000 || c || In three instalments of ₹2,000 each; launched 2019.
+M: Pradhan Mantri Ujjwala Yojana provides: || Tap water || LPG connections || Electricity || Toilets || b || Launched 1 May 2016 at Ballia, UP, for BPL women.
+M: The sex ratio of India as per Census 2011 is: || 933 || 940 || 943 || 950 || c || Kerala highest (1084), Haryana lowest (879).
+M: Which state had the highest literacy rate in Census 2011? || Mizoram || Kerala || Goa || Tripura || b || Kerala ≈ 94%; Bihar lowest ≈ 61.8%.
+M: Operation Flood is related to: || Fisheries || Milk production || Flood control || Food grains || b || White Revolution, led by Verghese Kurien (NDDB, 1970).
+M: The Yellow Revolution is related to: || Eggs || Oilseeds || Honey || Fruits || b || Silver – eggs/poultry; Golden – horticulture/honey; Blue – fish.
+M: Which crop is a kharif crop? || Wheat || Mustard || Rice || Gram || c || Kharif crops are sown with the monsoon (rice, cotton, maize); wheat, mustard, gram are rabi.
