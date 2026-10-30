@@ -1,0 +1,101 @@
+# Refrigeration & Air Conditioning
+
+## 7.1 Fundamentals
+- Refrigeration: removing heat from a space/substance to keep it below the surrounding temperature.
+F: 1 TR (ton of refrigeration) = 3.5167 kW ≈ 211 kJ/min = 12,660 kJ/h (≈ 50 kcal/min)
+- 1 TR = heat to be removed to freeze 1 short ton (907 kg) of water at 0 °C into ice in 24 hours.
+F: COP_ref = Refrigerating effect / Work input;  Carnot COP = T_L/(T_H − T_L)
+F: Relative COP = actual COP / theoretical COP
+- Reversed Carnot cycle is the ideal but impractical (wet compression, isothermal heat transfer). Bell–Coleman (reversed Brayton/Joule) cycle is used in air refrigeration (aircraft cabins – light weight, but low COP).
+F: Bell–Coleman COP = 1/(rp^((γ−1)/γ) − 1)
+PYQ-TREND: 1 TR = 3.5 kW (211 kJ/min). Air refrigeration used in aircraft because of low weight per TR, despite low COP. Carnot COP decreases as the evaporator temperature decreases.
+
+## 7.2 Vapour Compression Refrigeration (VCR) System
+- Components & processes: compressor (isentropic compression, 1–2) → condenser (constant-pressure heat rejection, 2–3) → expansion device (throttling, isenthalpic, 3–4) → evaporator (constant-pressure heat absorption, 4–1).
+FIG: vcr
+F: Refrigerating effect RE = h₁ − h₄ (h₄ = h₃);  Work W = h₂ − h₁;  COP = (h₁ − h₄)/(h₂ − h₁)
+F: Heat rejected in condenser = h₂ − h₃ = RE + W
+F: Refrigerant mass flow ṁ = 211 × TR / RE  (kg/min, RE in kJ/kg)
+- p–h chart (Mollier chart for refrigerants) is used for VCR analysis; throttling is a vertical line on it.
+- Subcooling of liquid (after condenser): increases RE and COP (no change in work).
+- Superheating of vapour: increases RE but also work; COP may increase or decrease depending on refrigerant; useful superheat prevents liquid entering compressor (dry compression).
+- Effect of lowering evaporator pressure/temperature: RE decreases, work increases, COP decreases. Raising condenser pressure: COP decreases.
+- Compressors: reciprocating (small–medium), rotary, scroll (domestic AC), screw (large), centrifugal (very large capacity, > 200 TR). Hermetically sealed compressors in domestic refrigerators.
+- Expansion devices: capillary tube (domestic refrigerator, small units – no moving parts, constant restriction), thermostatic expansion valve (TEV – maintains constant superheat), automatic (constant pressure) expansion valve, float valve (flooded evaporators), electronic expansion valve.
+- Condensers: air-cooled (domestic), water-cooled (shell & tube), evaporative (cooling tower combination). Evaporators: flooded, dry expansion; bare tube, finned.
+- Domestic refrigerator: hermetic compressor, wire-and-tube condenser at the back, capillary tube, evaporator in the freezer.
+PYQ-TREND: Throttling in expansion valve is isenthalpic. Capillary tube in domestic refrigerators. Subcooling increases COP. Lowering evaporator temperature reduces COP. TEV maintains constant superheat. Centrifugal compressors for large capacity plants. COP from p–h chart values.
+TIP: In VCR numericals, h₄ = h₃ (throttling) always. Read h₁, h₂, h₃ from the given table and plug them into COP = (h₁ − h₃)/(h₂ − h₁).
+
+## 7.3 Refrigerants
+| Refrigerant | Formula/Code | Use / remark |
+| Ammonia | R-717 (NH₃) | Cold storage, ice plants; highest RE per kg; toxic, attacks copper (use steel) |
+| CO₂ | R-744 | Ships, dry ice; very high pressure; natural, ODP 0, GWP 1 |
+| Freon-12 | R-12 (CCl₂F₂) | Old domestic refrigerators; CFC – banned (ozone depletion) |
+| Freon-22 | R-22 (CHClF₂) | Old window/split ACs; HCFC – being phased out |
+| R-134a | CH₂F–CF₃ | Domestic refrigerators, car AC; HFC, ODP = 0, GWP high |
+| R-410A, R-32 | HFC blends | Modern ACs |
+| R-600a | Isobutane | Modern domestic refrigerators (HC, natural, flammable) |
+| R-290 | Propane | Natural refrigerant |
+| R-718 | Water | Absorption (LiBr–water), steam jet systems |
+| R-11 | CCl₃F | Centrifugal chillers (old) |
+- Numbering rule for halocarbons: R-(m−1)(n+1)(p) where m = C atoms, n = H atoms, p = F atoms. R-7xx: inorganic, xx = molecular weight (NH₃ = 17 → R-717; H₂O = 18 → R-718; CO₂ = 44 → R-744).
+- Desirable properties: low boiling point, high latent heat, low specific volume of vapour, high critical temperature, low freezing point, non-toxic, non-flammable, non-corrosive, chemically stable, zero ODP, low GWP, easy leak detection, good miscibility with oil (for small systems).
+- Leak detection: ammonia – sulphur candle (white fumes) or litmus; halocarbons – halide torch (green flame), electronic detector; soap solution for all.
+- Montreal Protocol (1987) – phase-out of ozone-depleting CFC/HCFC. Kyoto Protocol / Kigali Amendment (2016) – phasing down HFCs (GWP).
+PYQ-TREND: Refrigerant numbering (R-717 = NH₃, R-744 = CO₂, R-718 = water). Ammonia is used in cold storage, not with copper. R-134a has zero ODP. Halide torch for Freon leak. Montreal protocol relates to ozone.
+
+## 7.4 Vapour Absorption Refrigeration (VAR)
+- Compressor replaced by absorber + pump + generator (thermal compressor). Uses low-grade heat (waste heat, solar, steam). Pump work is very small.
+| System | Refrigerant | Absorbent | Use |
+| Aqua-ammonia | NH₃ | Water | Sub-zero (industrial, cold storage) |
+| LiBr–water | Water | LiBr | Above 0 °C (large AC chillers) |
+| Electrolux (3-fluid) | NH₃ | Water (+ H₂ to equalise pressure) | Domestic, no pump/moving parts |
+- Analyser and rectifier remove water vapour from ammonia in aqua-ammonia systems. Heat exchanger between absorber and generator improves COP.
+F: Max COP of VAR = [(T_g − T_o)/T_g] × [T_e/(T_o − T_e)]  (heat engine × refrigerator)
+- COP of VAR (≈ 0.5–0.7 single-effect) is lower than VCR but energy input is cheap heat.
+PYQ-TREND: Electrolux refrigerator uses hydrogen as a third fluid and has no moving parts. In LiBr–water system water is the refrigerant. Ideal COP of VAR formula. Generator replaces compressor's high-pressure side function.
+
+## 7.5 Other Refrigeration Systems
+- Steam jet refrigeration: water as refrigerant, flash cooling under vacuum; for chilled water above 0 °C.
+- Thermoelectric (Peltier effect): solid state, low COP – portable coolers, electronics.
+- Vortex tube (Ranque–Hilsch): compressed air splits into hot and cold streams; spot cooling.
+- Cryogenics (< −150 °C): Linde–Hampson (J-T throttling), Claude (expansion engine) systems for liquefying air/gases.
+- Dry ice = solid CO₂ (sublimes at −78.5 °C at 1 atm).
+PYQ-TREND: Peltier effect in thermoelectric refrigeration. Vortex tube has no moving parts. Dry ice temperature −78.5 °C.
+
+## 7.6 Psychrometry
+- Psychrometry: study of moist air (dry air + water vapour). Dalton's law: p = pa + pv.
+| Term | Definition |
+| Dry bulb temperature (DBT) | Temperature by ordinary thermometer |
+| Wet bulb temperature (WBT) | Temperature by thermometer with wetted wick, air moving over it |
+| Dew point temperature (DPT) | Temperature at which vapour starts condensing when cooled at constant pressure (saturation temp at pv) |
+| Wet bulb depression | DBT − WBT (zero for saturated air) |
+| Dew point depression | DBT − DPT |
+| Specific humidity (humidity ratio) ω | Mass of vapour per kg dry air |
+| Relative humidity φ | pv / ps (at same DBT) |
+| Degree of saturation μ | ω/ωs |
+F: ω = 0.622 pv/(p − pv)  kg/kg of dry air
+F: φ = pv/ps;  μ = φ(p − ps)/(p − pv)
+F: Enthalpy of moist air h = 1.005 t + ω(2500 + 1.88 t)  kJ/kg dry air
+- For saturated air: DBT = WBT = DPT. Otherwise DBT > WBT > DPT.
+- WBT ≈ adiabatic saturation temperature (thermodynamic WBT) for air–water mixtures (Lewis number ≈ 1).
+FIG: psychro
+| Process | On psychrometric chart |
+| Sensible heating / cooling | Horizontal line (ω constant) |
+| Humidification / dehumidification (pure) | Vertical line (DBT constant) |
+| Cooling & dehumidification | Down and to the left (summer AC) – towards ADP of coil |
+| Heating & humidification | Up and to the right (winter AC) |
+| Evaporative (adiabatic) cooling | Along constant WBT line (desert coolers) |
+| Chemical dehumidification (adsorption with silica gel) | Along constant enthalpy line, DBT increases |
+| Adiabatic mixing of two streams | Point on the straight line joining the two states (by mass ratio) |
+F: Sensible heat factor SHF = SH/(SH + LH);  bypass factor BPF = (t₂ − t_ADP)/(t₁ − t_ADP);  contact factor = 1 − BPF
+- Comfort conditions (human): DBT 21–25 °C, RH 40–60%, air velocity 6–9 m/min. Effective temperature: combined index of DBT, humidity, air motion.
+- Desert cooler: evaporative cooling – effective in hot dry climate, fails in humid climate.
+- Air-conditioning systems: window, split, packaged, central (all-air, all-water, air-water). Year-round AC includes heating & cooling.
+- Cooling load sources: sensible (walls, roof, glass via solar radiation, people, lights, equipment, infiltration) and latent (people, infiltration). A sitting person gives roughly 100–120 W total.
+PYQ-TREND: Order DBT > WBT > DPT; all equal at saturation. Specific humidity formula 0.622 pv/(p − pv). Sensible heating = horizontal line. Evaporative cooling follows constant WBT. Dew point definition. Comfort conditions. Bypass factor definition. Chemical dehumidification follows constant enthalpy.
+WARN: Relative humidity is not the same as specific humidity. RH falls during sensible heating although ω is unchanged.
+
+Q: Explain the working of a simple vapour compression refrigeration system with a p–h diagram and state the effect of subcooling and superheating.
+Low-pressure saturated (or slightly superheated) vapour enters the compressor and is compressed isentropically to condenser pressure, becoming superheated (1–2). In the condenser it rejects heat at constant pressure, is desuperheated and condensed to saturated or subcooled liquid (2–3). The liquid is throttled in the expansion valve at constant enthalpy to evaporator pressure, partly flashing to vapour (3–4). In the evaporator it absorbs heat from the space at constant pressure and evaporates (4–1). COP = (h₁ − h₄)/(h₂ − h₁). Subcooling moves point 3 to the left, increasing RE without extra work, so COP rises. Superheating in the evaporator increases RE and also compressor work; it protects the compressor from liquid slugging, and the net effect on COP depends on the refrigerant.

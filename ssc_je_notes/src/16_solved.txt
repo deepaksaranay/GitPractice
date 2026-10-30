@@ -1,0 +1,199 @@
+# Solved Concept Numericals (PYQ-Pattern)
+These problems use the numerical patterns SSC JE repeatedly sets. Each is solved step by step so you learn the method, not the option. Values are illustrative.
+
+## 16.1 Mechanics & SOM
+### Problem 1 – Resultant of two forces
+Two forces of 10 N and 10 N act at a point with 120° between them. Find the resultant.
+F: R = 2P cos(θ/2) = 2 × 10 × cos 60° = 10 N
+Concept: two equal forces at 120° give a resultant equal to either force. At 90°: R = P√2; at 60°: R = P√3.
+### Problem 2 – Lami's theorem
+A 100 N lamp hangs from two strings making 30° and 60° with the ceiling. Find the tensions.
+The angle between the strings is 90°. The angle between T₁ (30° string) and the weight is 120°; between T₂ and the weight, 150°.
+F: T₁/sin150° = T₂/sin120° = 100/sin90° → T₁ = 50 N, T₂ = 86.6 N
+Concept: the string closer to vertical (60° with ceiling) carries more tension.
+### Problem 3 – Projectile
+A ball is projected at 20 m/s at 30°. Find time of flight, max height and range (g = 10 m/s²).
+F: T = 2u sinθ/g = 2 s;  H = u² sin²θ/(2g) = 5 m;  R = u² sin2θ/g = 34.64 m
+### Problem 4 – Elongation of a bar
+A steel rod 2 m long, 20 mm diameter, carries 31.4 kN tension. E = 200 GPa. Find elongation.
+F: A = π/4 × 20² = 314 mm²;  σ = 31400/314 = 100 MPa;  δ = σL/E = 100 × 2000 / 200000 = 1 mm
+### Problem 5 – Thermal stress
+A steel rail 10 m long is fixed at both ends at 20 °C. Find the stress at 70 °C (α = 12 × 10⁻⁶ /°C, E = 200 GPa).
+F: σ = EαΔT = 200000 × 12 × 10⁻⁶ × 50 = 120 MPa (compressive)
+Concept: the answer does not depend on length; 10 m is a distractor.
+### Problem 6 – Elastic constants
+E = 200 GPa and G = 80 GPa. Find μ and K.
+F: μ = E/(2G) − 1 = 200/160 − 1 = 0.25;  K = E/(3(1 − 2μ)) = 200/1.5 = 133.3 GPa
+### Problem 7 – SS beam with UDL
+A simply supported beam of span 4 m carries a UDL of 10 kN/m. Find max BM and max SF.
+F: R_A = R_B = wL/2 = 20 kN = max SF;  M_max = wL²/8 = 10 × 16 / 8 = 20 kN·m (at mid-span, where SF = 0)
+### Problem 8 – Bending stress
+A rectangular beam 100 mm × 200 mm (deep) carries M = 20 kN·m. Find max bending stress.
+F: Z = bd²/6 = 100 × 200²/6 = 6.667 × 10⁵ mm³;  σ = M/Z = 20 × 10⁶ / 6.667 × 10⁵ = 30 MPa
+### Problem 9 – Shear stress in beam
+The same beam carries SF = 40 kN. Find max shear stress.
+F: τ_avg = V/A = 40000/20000 = 2 MPa;  τ_max = 1.5 × 2 = 3 MPa (at NA)
+### Problem 10 – Torsion & power
+A solid shaft transmits 50 kW at 300 rpm. Allowable τ = 60 MPa. Find diameter.
+F: T = 60P/(2πN) = 60 × 50000/(2π × 300) = 1591.5 N·m = 1.5915 × 10⁶ N·mm
+F: d³ = 16T/(πτ) = 16 × 1.5915 × 10⁶ / (π × 60) = 1.351 × 10⁵ → d ≈ 51.3 mm → adopt 55 mm
+### Problem 11 – Principal stresses
+σx = 80 MPa, σy = 20 MPa, τxy = 40 MPa. Find principal stresses and max shear stress.
+F: centre = 50;  radius = √(30² + 40²) = 50;  σ₁ = 100 MPa, σ₂ = 0, τ_max = 50 MPa
+### Problem 12 – Euler column
+A column (both ends hinged) has P_cr = 100 kN. Find P_cr if both ends are fixed, and if one end is fixed and the other free.
+F: fixed-fixed: Le = L/2 → 4 × 100 = 400 kN;  fixed-free: Le = 2L → 100/4 = 25 kN
+### Problem 13 – Thin cylinder
+A boiler shell of 1 m diameter has internal pressure 1.2 MPa. Allowable hoop stress 120 MPa. Find thickness.
+F: t = pd/(2σ) = 1.2 × 1000 / 240 = 5 mm  (longitudinal stress = 60 MPa)
+### Problem 14 – Spring stiffness
+Two springs of stiffness 20 N/mm and 30 N/mm. Find equivalent stiffness in series and in parallel.
+F: series k = (20 × 30)/(20 + 30) = 12 N/mm;  parallel k = 50 N/mm
+
+## 16.2 TOM & Machine Design
+### Problem 15 – Degrees of freedom
+A planar mechanism has 6 links, 7 lower pairs and no higher pair. Find DOF.
+F: F = 3(6 − 1) − 2 × 7 = 15 − 14 = 1 → constrained mechanism (e.g., Watt/Stephenson 6-bar)
+### Problem 16 – Belt tension ratio
+A flat belt has μ = 0.3 and angle of lap 180°. Find T₁/T₂.
+F: T₁/T₂ = e^(0.3π) = e^0.942 ≈ 2.57
+### Problem 17 – Max power belt
+The max allowable belt tension is 1500 N and the mass is 0.5 kg/m. Find the speed for max power.
+F: v = √(T_max/(3m)) = √(1500/1.5) = 31.6 m/s
+### Problem 18 – Gear train
+A compound train: driver A (20 T) meshes with B (60 T); C (25 T) on the same shaft as B meshes with D (75 T). A runs at 900 rpm. Find speed of D.
+F: N_D = 900 × (20/60) × (25/75) = 100 rpm
+### Problem 19 – Flywheel
+A flywheel has a mass of 500 kg and radius of gyration 1 m. Mean speed 300 rpm, Cs = 0.02. Find ΔE.
+F: ω = 2π × 300/60 = 31.42 rad/s;  ΔE = mk²ω²Cs = 500 × 1 × 987 × 0.02 = 9870 J ≈ 9.87 kJ
+### Problem 20 – Watt governor
+Find the height of a Watt governor at 60 rpm.
+F: h = 895/N² = 895/3600 = 0.249 m ≈ 249 mm
+### Problem 21 – Natural frequency
+A mass causes a static deflection of 2.5 mm on a spring. Find the natural frequency.
+F: fn = 0.4985/√0.0025 = 0.4985/0.05 = 9.97 Hz ≈ 10 Hz
+### Problem 22 – Bearing life
+A ball bearing has a rated life of 8000 h at load P. Find the life at load 2P.
+F: L ∝ 1/P³ → L = 8000/8 = 1000 h
+### Problem 23 – Rivet diameter
+Find the rivet diameter for a 16 mm plate by Unwin's formula.
+F: d = 6√16 = 24 mm
+
+## 16.3 Thermal Engineering
+### Problem 24 – Carnot engine
+An engine works between 527 °C and 27 °C. Find the Carnot efficiency.
+F: η = 1 − 300/800 = 0.625 = 62.5%
+### Problem 25 – Refrigerator / heat pump
+A Carnot refrigerator works between −23 °C and 27 °C. Find COP_R and COP_HP.
+F: COP_R = 250/(300 − 250) = 5;  COP_HP = 300/50 = 6 (= COP_R + 1)
+### Problem 26 – Otto cycle
+Find the air-standard efficiency of an Otto cycle with r = 8 (γ = 1.4).
+F: η = 1 − 1/8^0.4 = 1 − 1/2.297 = 0.5647 = 56.5%
+### Problem 27 – Isothermal work
+1 kg of air expands isothermally at 300 K from 1 m³ to 2 m³. Find work and heat.
+F: W = mRT ln(V₂/V₁) = 1 × 0.287 × 300 × 0.693 = 59.7 kJ = Q  (ΔU = 0)
+### Problem 28 – Nozzle velocity
+The enthalpy drop in a nozzle is 200 kJ/kg (inlet velocity negligible). Find exit velocity.
+F: V = 44.72√200 = 44.72 × 14.14 = 632.5 m/s
+### Problem 29 – Entropy change of mixing (heat transfer)
+1000 kJ of heat flows from a reservoir at 1000 K to one at 500 K. Find ΔS_universe.
+F: ΔS = −1000/1000 + 1000/500 = −1 + 2 = +1 kJ/K (irreversible, positive)
+### Problem 30 – IC engine power
+A 4-stroke single-cylinder engine: bore 100 mm, stroke 120 mm, IMEP 6 bar, 1500 rpm. Find IP.
+F: A = π/4 × 0.1² = 7.854 × 10⁻³ m²;  n = 1500/2 = 750 per min
+F: IP = pm L A n / 60 = 6 × 10⁵ × 0.12 × 7.854 × 10⁻³ × 750 / 60 = 7069 W ≈ 7.07 kW
+### Problem 31 – Mechanical efficiency
+IP = 50 kW, FP = 10 kW. Find BP and ηm.
+F: BP = 40 kW;  ηm = 40/50 = 80%
+### Problem 32 – Refrigeration capacity
+A VCR system has RE = 150 kJ/kg and 2 TR capacity. Find the refrigerant flow rate.
+F: ṁ = 2 × 211/150 = 2.81 kg/min
+### Problem 33 – Heat conduction through wall
+A wall 0.2 m thick, k = 1 W/mK, area 10 m², faces at 40 °C and 20 °C. Find heat flow.
+F: Q = kAΔT/L = 1 × 10 × 20/0.2 = 1000 W
+### Problem 34 – Critical radius
+A pipe is insulated with material of k = 0.1 W/mK; h = 10 W/m²K. Find the critical radius.
+F: r_c = k/h = 0.1/10 = 0.01 m = 10 mm
+### Problem 35 – LMTD
+In a counter-flow exchanger, hot fluid goes 150 → 90 °C and cold fluid 30 → 70 °C. Find LMTD.
+F: ΔT₁ = 150 − 70 = 80;  ΔT₂ = 90 − 30 = 60;  LMTD = 20/ln(80/60) = 20/0.2877 = 69.5 °C
+### Problem 36 – Radiation, Wien's law
+The sun's surface is at ~5800 K. Find the wavelength of maximum emission.
+F: λ_max = 2898/5800 = 0.5 μm (visible region)
+### Problem 37 – Compressor intermediate pressure
+A 2-stage compressor runs from 1 bar to 16 bar with perfect intercooling. Find intermediate pressure.
+F: p₂ = √(1 × 16) = 4 bar (ratio 4 per stage)
+
+## 16.4 Fluid Mechanics & Machines
+### Problem 38 – Pressure head conversion
+Find the pressure head of 1 atm in metres of water and of an oil (S = 0.8).
+F: water: 101325/9810 = 10.33 m;  oil: 10.33/0.8 = 12.9 m
+### Problem 39 – Capillary rise
+Find the capillary rise of water in a 1 mm glass tube (σ = 0.073 N/m, θ = 0).
+F: h = 4σ/(ρgd) = 4 × 0.073/(1000 × 9.81 × 0.001) = 0.0298 m ≈ 30 mm
+### Problem 40 – Total pressure on gate
+A vertical rectangular gate 2 m wide × 3 m deep has its top edge at the water surface. Find the total force and centre of pressure.
+F: F = ρg A h̄ = 9810 × 6 × 1.5 = 88.29 kN;  h* = 2h/3 = 2 m below surface
+### Problem 41 – Continuity & Bernoulli
+Water flows in a pipe that reduces from 200 mm to 100 mm diameter. Velocity in the larger section is 1 m/s. Find velocity in the smaller section.
+F: V₂ = V₁(D₁/D₂)² = 1 × 4 = 4 m/s
+### Problem 42 – Laminar flow head loss
+Oil (μ = 0.1 Pa·s, ρ = 900) flows at 1 m/s in a 50 mm pipe, 100 m long. Check the regime and find h_f.
+F: Re = 900 × 1 × 0.05/0.1 = 450 → laminar;  f = 64/450 = 0.142
+F: h_f = fLV²/(2gD) = 0.142 × 100 × 1/(2 × 9.81 × 0.05) = 14.5 m of oil
+### Problem 43 – Darcy friction loss
+Water flows at 2 m/s in a 0.2 m pipe, 500 m long, f = 0.02. Find h_f.
+F: h_f = 0.02 × 500 × 4 /(2 × 9.81 × 0.2) = 10.2 m
+### Problem 44 – Jet force
+A 50 mm water jet at 20 m/s strikes a fixed flat plate normally. Find the force.
+F: a = 1.963 × 10⁻³ m²;  F = ρaV² = 1000 × 1.963 × 10⁻³ × 400 = 785 N
+### Problem 45 – Specific speed of turbine
+A turbine develops 10,000 kW under 100 m head at 500 rpm. Find Ns and identify the type.
+F: Ns = N√P/H^(5/4) = 500 × 100 / 316.2 = 158 → Francis turbine (medium specific speed)
+### Problem 46 – Pelton jet velocity
+Find the jet velocity under a 400 m head (Cv = 0.98).
+F: V = 0.98 √(2 × 9.81 × 400) = 0.98 × 88.6 = 86.8 m/s;  bucket speed ≈ 0.46 × 88.6 ≈ 40.7 m/s
+### Problem 47 – Pump affinity
+A centrifugal pump delivers 100 L/s at 20 m head with 30 kW at 1000 rpm. Find Q, H and P at 1500 rpm.
+F: Q = 100 × 1.5 = 150 L/s;  H = 20 × 2.25 = 45 m;  P = 30 × 3.375 = 101 kW
+### Problem 48 – Reciprocating pump slip
+Single-acting: D = 150 mm, L = 300 mm, N = 50 rpm, actual Q = 4 L/s. Find % slip.
+F: Q_th = (π/4)(0.15)² × 0.3 × 50/60 = 4.42 L/s;  slip = (4.42 − 4)/4.42 = 9.5%
+
+## 16.5 Production & IE
+### Problem 49 – Chvorinov's rule
+A 100 mm cube solidifies in 6 min. Find the solidification time of a 200 mm cube of the same metal and mould.
+F: V/A ∝ side → (V/A) doubles → t ∝ (V/A)² → 4 × 6 = 24 min
+### Problem 50 – Blanking force
+Blank a 50 mm diameter disc from 2 mm sheet with τ = 300 MPa.
+F: F = π d t τ = π × 50 × 2 × 300 = 94.2 kN
+### Problem 51 – Max draft in rolling
+Roll radius is 300 mm and μ = 0.1. Find the maximum possible draft.
+F: Δh_max = μ²R = 0.01 × 300 = 3 mm
+### Problem 52 – Merchant shear angle
+Rake angle α = 10°, friction angle β = 40°. Find the shear angle.
+F: φ = 45 + α/2 − β/2 = 45 + 5 − 20 = 30°
+### Problem 53 – Taylor tool life
+For HSS, n = 0.125. Tool life is 60 min at 30 m/min. Find tool life at 40 m/min.
+F: T₂ = T₁(V₁/V₂)^(1/n) = 60 × (0.75)^8 = 60 × 0.1001 = 6 min
+### Problem 54 – Turning time
+Turn a 100 mm dia bar 200 mm long at 300 rpm with 0.2 mm/rev feed in one pass. Find the machining time.
+F: t = L/(fN) = 200/(0.2 × 300) = 3.33 min;  cutting speed V = π × 100 × 300/1000 = 94.2 m/min
+### Problem 55 – Indexing
+Find the indexing for 36 divisions on a 40:1 dividing head.
+F: 40/36 = 1 1/9 → 1 full turn + 2 holes in an 18-hole circle (or 3 in 27)
+### Problem 56 – EOQ
+Annual demand is 10,000 units, ordering cost Rs 200 per order, holding cost Rs 4 per unit per year. Find EOQ and the number of orders.
+F: Q* = √(2 × 10000 × 200/4) = √10⁶ = 1000 units;  orders = 10 per year
+### Problem 57 – PERT
+to = 4, tm = 6, tp = 14 days. Find te and σ.
+F: te = (4 + 24 + 14)/6 = 7 days;  σ = (14 − 4)/6 = 1.67 days
+### Problem 58 – Standard time
+Observed time 0.8 min, rating 125%, allowances 10%. Find standard time.
+F: NT = 0.8 × 1.25 = 1.0 min;  ST = 1.0 × 1.10 = 1.1 min
+### Problem 59 – Break-even
+Fixed cost Rs 1,00,000; selling price Rs 50; variable cost Rs 30 per unit. Find BEP.
+F: BEP = 100000/(50 − 30) = 5000 units
+### Problem 60 – Reliability
+Three components, each with R = 0.9. Find system reliability in series and in parallel.
+F: series: 0.9³ = 0.729;  parallel: 1 − 0.1³ = 0.999

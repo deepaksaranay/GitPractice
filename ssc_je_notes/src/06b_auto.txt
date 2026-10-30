@@ -1,0 +1,86 @@
+# Automobile Engineering Essentials
+
+## 6B.1 Vehicle Layout and Chassis
+- Chassis = frame + engine + transmission + suspension + steering + brakes + wheels (everything except the body). Frame types: conventional (ladder – trucks, SUVs), integral/unitised (monocoque – modern cars, body acts as frame), semi-integral.
+- Frame cross-sections: channel, box, tubular. Frames are made of low-carbon steel (pressed).
+- Drive layouts: front engine rear-wheel drive (FR – conventional), front engine front-wheel drive (FF – compact cars, transverse engine), rear engine rear-wheel drive (RR – some buses), four-wheel drive (4WD/AWD – transfer case).
+- Resistances to vehicle motion: rolling resistance (≈ μ_r W), air (aerodynamic) resistance (½ρC_dAV²), gradient resistance (W sinθ). Tractive effort must exceed their sum to accelerate.
+F: Total resistance R = μ_r W + ½ρC_d A V² + W sinθ
+F: Power required = R × V;  tractive effort = T_engine × G × η_t / r_wheel
+PYQ-TREND: Monocoque/integral construction for cars. Air resistance ∝ V². Components of the chassis. Ladder frame for heavy vehicles.
+
+## 6B.2 Clutch
+- Function: connect/disconnect engine from transmission smoothly; allow gear change; permit gradual engagement.
+- Requirements: torque capacity, gradual engagement, heat dissipation, low inertia of driven parts, damping of torsional vibration (torsional springs in clutch plate), ease of operation.
+- Types: single-plate (cars – dry), multi-plate (two-wheelers – wet, in oil; heavy vehicles), cone, centrifugal (mopeds, automatic engagement by speed), semi-centrifugal, diaphragm-spring clutch (modern cars – uniform pressure, fewer parts), fluid coupling (automatic).
+- Friction facings: asbestos (old), now organic/ceramic/sintered metal; μ ≈ 0.3–0.4.
+- Clutch free play (pedal free travel) ensures full engagement and avoids slipping and release-bearing wear.
+- Clutch slip causes: worn facing, oil on facing, weak springs, no free play. Clutch drag (spin): excessive free play, warped plate.
+PYQ-TREND: Diaphragm spring clutch in modern cars. Wet multi-plate clutch in motorcycles. Centrifugal clutch in mopeds. Torsional damper springs in the clutch plate. Purpose of pedal free play.
+
+## 6B.3 Gearbox (Transmission)
+- Purpose: vary torque and speed to suit the load (starting, gradients, high speed); provide reverse; provide neutral.
+- Sliding mesh (oldest – spur gears slide into mesh, noisy, double declutching), constant mesh (all gears always in mesh, dog clutches engage; helical gears – quieter), synchromesh (cone friction synchronisers equalise speeds before engagement – modern manual gearboxes), epicyclic (automatic transmissions – planetary sets with brake bands and clutches), CVT (continuously variable – belt & variable pulleys).
+- Overdrive: output speed > input (gear ratio < 1) – economy at cruising. Direct drive: ratio 1:1 (top gear in many gearboxes).
+- First gear gives maximum torque multiplication and lowest speed.
+- Automatic transmission: torque converter + epicyclic gear sets + hydraulic/electronic control. AMT (automated manual) – manual gearbox with actuators.
+- Transfer case in 4WD splits power to front and rear axles.
+PYQ-TREND: Synchromesh avoids gear clash using cone synchronisers. Constant mesh uses dog clutches. Epicyclic gears in automatic transmissions. Overdrive ratio < 1. Double declutching needed in sliding mesh.
+
+## 6B.4 Propeller Shaft, Differential and Axles
+- Propeller (drive) shaft: transmits torque from gearbox to rear axle in FR layouts; hollow tubular steel (high torsional stiffness, light); universal joints (Hooke's) at each end allow angular movement; slip joint (splines) allows length change with suspension movement.
+- For constant velocity in FWD drives: CV joints (Rzeppa – ball type, tripod).
+- Final drive: reduces speed and turns drive through 90° (bevel/hypoid gears – crown wheel & pinion). Hypoid allows lower propeller shaft (lower floor), but needs EP (extreme pressure) lubricant.
+- Differential: allows the outer wheel to rotate faster than the inner wheel on turns while transmitting equal torque. Sun (side) gears + planet (differential) pinions in a cage on the crown wheel. Limitation: if one wheel slips (mud), the other gets no torque → limited-slip differential (LSD) / differential lock.
+- Rear axles: semi-floating (cars – axle shaft supports vehicle weight + torque), three-quarter floating, full floating (trucks – axle shaft carries only torque; weight on axle housing).
+- Hotchkiss drive (leaf springs take torque reaction & driving thrust) vs torque tube drive.
+PYQ-TREND: Function of the differential. Slip joint on the propeller shaft. CV joints in FWD. Hypoid gear needs EP oil. Full-floating axle shafts carry only torque. Crown wheel & pinion in the final drive.
+
+## 6B.5 Steering System
+- Ackermann principle: for true rolling on turns, the axes of all wheels must meet at a common point (instantaneous centre) on the rear axle extension: cot φ − cot θ = c/b (c = pivot distance, b = wheelbase).
+- Steering gearboxes: rack & pinion (cars – direct, light), recirculating ball (heavy vehicles – low friction), worm & sector, worm & roller, cam & lever. Power steering: hydraulic or electric (EPS).
+- Steering ratio = steering wheel angle / road-wheel angle (cars 14–20:1).
+### Wheel alignment (steering geometry)
+| Angle | Definition / effect |
+| Camber | Inward/outward tilt of the wheel from vertical (front view); positive = top outward; affects tyre wear (one-side wear) |
+| Castor (caster) | Backward tilt of the king pin from vertical (side view); gives directional stability & self-centring (positive castor 2–8°) |
+| King pin inclination (KPI/SAI) | Inward tilt of king pin (front view); reduces steering effort, self-centring, reduces scrub radius |
+| Toe-in / toe-out | Front of wheels closer (toe-in) or farther apart than the rear (top view); toe-in compensates for positive camber/rolling forces – prevents tyre scuffing |
+| Toe-out on turns | Inner wheel turns more than outer (Ackermann) |
+| Included angle | Camber + KPI |
+| Scrub radius | Distance between the tyre contact centre and the KPI axis intersection with the ground |
+- Under-steer: front slip angle > rear (vehicle turns less than intended – safer). Over-steer: rear slip angle > front.
+PYQ-TREND: Castor gives directional stability & self-righting. Camber definition. Toe-in purpose. Rack & pinion in cars. Ackermann condition. Under-steer vs over-steer. KPI reduces steering effort.
+
+## 6B.6 Brakes
+- Function: retard/stop the vehicle by converting KE into heat. Stopping distance = v²/(2μg) (ideal).
+- Drum brakes (internal expanding shoes – leading & trailing shoes; leading shoe is self-energising) vs disc brakes (caliper & pads – better heat dissipation, less fade, self-adjusting, used on front wheels since ~60–70% of braking load shifts to the front).
+- Brake fade: reduction of braking effectiveness due to heat (μ drops).
+- Actuation: mechanical (handbrake/parking), hydraulic (Pascal's law – master cylinder & wheel cylinders; brake fluid glycol-based, high boiling point, non-corrosive to rubber), air/pneumatic (heavy vehicles – compressor, reservoir), vacuum servo (booster using intake manifold vacuum), electric/regenerative (EVs), exhaust & engine brakes, retarders (eddy-current) for heavy vehicles.
+- ABS (anti-lock braking system): prevents wheel lock-up by modulating brake pressure (wheel speed sensors, ECU, hydraulic modulator) → steerability maintained during hard braking.
+- Tandem master cylinder: dual circuit for safety.
+- Weight transfer during braking: load on front axle increases.
+PYQ-TREND: Disc brakes resist fade better. Hydraulic brakes work on Pascal's law. ABS prevents wheel locking and retains steering control. Air brakes for heavy vehicles. Leading shoe is self-energising. Brake fade definition.
+
+## 6B.7 Suspension, Wheels and Tyres
+- Suspension: isolates the body from road shocks, maintains tyre contact, supports weight, resists roll and pitch.
+- Springs: leaf (semi-elliptic – trucks, also locates the axle), coil (cars), torsion bar, air (buses – adjustable height), rubber, hydro-pneumatic (Citroën).
+- Shock absorber (damper): telescopic hydraulic – dissipates spring energy as heat (it is actually a damper, not a spring).
+- Independent suspension (each wheel moves independently): MacPherson strut (most common front suspension in cars), double wishbone, multi-link, trailing arm. Rigid (beam) axle for trucks.
+- Stabiliser (anti-roll) bar: torsion bar linking left & right suspension – reduces body roll on turns.
+- Sprung mass (body) vs unsprung mass (wheels, axles, brakes) – low unsprung mass improves ride & road holding.
+- Tyres: radial ply (plies at 90° to bead, steel belts – better grip, lower rolling resistance, longer life, standard today) vs cross/bias ply (plies at 30–40°, stiffer sidewall – cheaper, heavy duty). Tubeless tyres: self-sealing, safer on puncture.
+- Tyre designation 195/65 R15 91H: width 195 mm, aspect ratio 65%, radial, rim diameter 15 inch, load index 91, speed rating H.
+- Wheels: pressed steel disc, alloy (Al/Mg – light, better heat dissipation), wire spoke.
+PYQ-TREND: MacPherson strut for front suspension. Shock absorber dissipates energy. Anti-roll bar reduces body roll. Radial tyres have lower rolling resistance. Tyre designation decoding. Leaf springs in heavy vehicles.
+
+## 6B.8 Electrical, Electronic and Emission Systems
+- Battery: lead–acid, 12 V (6 cells × 2.1 V); electrolyte dilute H₂SO₄ (specific gravity ~1.28 fully charged, measured by hydrometer). Capacity in ampere-hours.
+- Charging system: alternator (AC generator with rectifier – diodes), voltage regulator. Starting: starter motor (DC series motor – high starting torque) with Bendix drive or solenoid-operated overrunning clutch engaging the flywheel ring gear.
+- Electronic fuel injection (MPFI) sensors: MAP/MAF (air flow), throttle position, coolant temperature, oxygen (λ) sensor, crank position, knock sensor. ECU controls injection timing & duration.
+- OBD (on-board diagnostics). CRDI in diesels.
+- Hybrid vehicles: series, parallel, series-parallel (power-split). EVs: Li-ion battery, BLDC/PMSM/induction motors, regenerative braking.
+PYQ-TREND: Starter motor is a DC series motor. Battery cell voltage 2 V (12 V = 6 cells). Hydrometer checks electrolyte specific gravity. Alternator needs rectifier diodes. Oxygen sensor for closed-loop A/F control. Regenerative braking in EVs.
+
+Q: Explain the need for a differential in an automobile and describe its working.
+On a turn the outer driving wheel covers a larger arc than the inner one in the same time, so it must rotate faster. A solid axle would force equal speeds, making one wheel slip, wearing tyres and stressing the axle. In a differential, the crown wheel (driven by the propeller-shaft pinion) carries a cage with planet pinions that mesh with two sun (side) gears splined to the axle half-shafts. Driving straight, the cage, pinions and both sun gears rotate as one unit (pinions do not spin on their axes). On a turn, the inner wheel's resistance slows its sun gear; the pinions then rotate on their own axes and speed up the other sun gear by the same amount. The average of the wheel speeds equals the cage speed and equal torque goes to both wheels. Its drawback is that a slipping wheel takes all the motion, which LSDs and differential locks overcome.

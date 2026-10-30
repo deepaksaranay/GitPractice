@@ -1,0 +1,116 @@
+# Engineering Thermodynamics
+
+## 5.1 Basic Concepts
+- System: quantity of matter or region under study. Closed (control mass – energy crosses, mass does not; piston-cylinder), Open (control volume – mass & energy cross; turbine, nozzle, compressor), Isolated (neither – universe, thermos flask approx.).
+- Property: macroscopic characteristic. Intensive – independent of mass (P, T, ρ, specific volume v, specific properties). Extensive – depends on mass (V, U, H, S, mass). Ratio of two extensive properties is intensive.
+- Property is a point function (exact differential). Heat and work are path functions (inexact differentials, δQ, δW).
+- State, process, cycle. Quasi-static process: infinitely slow, system passes through a series of equilibrium states – only these can be shown on property diagrams.
+- Thermodynamic equilibrium = thermal + mechanical + chemical equilibrium.
+- Zeroth law: if A and B are each in thermal equilibrium with C, then A and B are in thermal equilibrium with each other. It is the basis of temperature measurement (thermometers).
+F: T(K) = t(°C) + 273.15;  t(°F) = 1.8 t(°C) + 32;  −40 °C = −40 °F
+F: 1 bar = 10⁵ Pa = 100 kPa;  1 atm = 1.01325 bar = 760 mm Hg = 10.33 m of water
+F: Absolute pressure = gauge + atmospheric;  vacuum = atmospheric − absolute
+- Thermometric properties: length of mercury column, resistance (RTD), EMF (thermocouple – Seebeck effect), pressure of a constant-volume gas thermometer (most accurate, standard). Triple point of water = 273.16 K, 0.611 kPa (single fixed point of the international scale).
+PYQ-TREND: Intensive vs extensive identification. Heat & work as path functions. Zeroth law is the basis of temperature measurement. Temperature at which °C = °F (−40). Triple point of water 273.16 K. Turbine/compressor as open systems.
+
+## 5.2 Work and Heat
+F: Displacement work W = ∫p dV (only for quasi-static process in closed system)
+| Process | Law | Work W₁₋₂ (closed) | Heat Q |
+| Isochoric | V = c | 0 | m cv (T₂ − T₁) |
+| Isobaric | p = c | p(V₂ − V₁) | m cp (T₂ − T₁) |
+| Isothermal | pV = c | p₁V₁ ln(V₂/V₁) | Q = W |
+| Adiabatic (reversible) | pV^γ = c | (p₁V₁ − p₂V₂)/(γ − 1) | 0 |
+| Polytropic | pV^n = c | (p₁V₁ − p₂V₂)/(n − 1) | W(γ − n)/(γ − 1) |
+- Polytropic index n: n = 0 isobaric, n = 1 isothermal, n = γ adiabatic, n = ∞ isochoric.
+- Free expansion (unresisted, into vacuum): W = 0, Q = 0, ΔU = 0 → T constant for ideal gas; irreversible.
+- Sign convention (Clausius): heat supplied to system +ve, work done by system +ve.
+- Flow work (open system) = pv; shaft work in steady flow = −∫v dp.
+PYQ-TREND: Work in free expansion is zero. Work in isothermal process. Value of n for each process. Area under p–V curve = work; under T–s curve = heat. On p–V, the adiabatic curve is steeper than the isothermal (slope γ times).
+
+## 5.3 First Law of Thermodynamics
+- For a cycle: ∮δQ = ∮δW (Joule's experiment; J = 4.186 J/cal).
+- For a process: Q = ΔU + W. Internal energy U is a property. For an ideal gas U = f(T) only (Joule's law).
+- PMM-1 (perpetual motion machine of first kind) – produces work without energy input – violates the 1st law.
+F: Enthalpy H = U + pV;  dh = cp dT,  du = cv dT (ideal gas)
+F: cp − cv = R;  γ = cp/cv;  cv = R/(γ − 1);  cp = γR/(γ − 1)
+F: Air: R = 0.287 kJ/kg·K, cp = 1.005, cv = 0.718, γ = 1.4;  universal R̄ = 8.314 kJ/kmol·K
+- γ: monatomic 1.67, diatomic 1.4, triatomic ≈ 1.3.
+### Steady Flow Energy Equation (SFEE)
+F: h₁ + V₁²/2 + g z₁ + q = h₂ + V₂²/2 + g z₂ + w   (per kg)
+| Device | SFEE simplification |
+| Nozzle | V₂ = √(2(h₁ − h₂) + V₁²) ≈ 44.72√(Δh in kJ/kg) |
+| Turbine (adiabatic) | w = h₁ − h₂ |
+| Compressor/pump | w = −(h₂ − h₁) |
+| Throttling valve | h₁ = h₂ (isenthalpic) |
+| Boiler / condenser / heat exchanger | q = h₂ − h₁ (w = 0) |
+- Throttling: irreversible, enthalpy constant, pressure drops, ideal gas temperature unchanged. Joule-Thomson coefficient μJ = (∂T/∂p)h; for ideal gas μJ = 0. Below the inversion temperature real gases cool upon throttling (used in liquefaction).
+PYQ-TREND: Throttling is isenthalpic. Nozzle velocity 44.72√Δh. cp − cv = R. U of an ideal gas depends only on T. PMM-1 violates first law. Joule–Thomson coefficient zero for ideal gas.
+TIP: If the enthalpy drop is given in kJ/kg, the nozzle exit velocity in m/s is simply 44.72 × √Δh, assuming negligible inlet velocity.
+
+## 5.4 Second Law of Thermodynamics
+- Kelvin–Planck: it is impossible to construct a device operating in a cycle that produces work while exchanging heat with a single reservoir. (No 100% efficient heat engine; PMM-2 impossible.)
+- Clausius: it is impossible to construct a device that, operating in a cycle, transfers heat from a colder to a hotter body without external work. (Refrigerator needs work.)
+- Both statements are equivalent: violation of one implies violation of the other.
+F: Heat engine η = W/Q₁ = 1 − Q₂/Q₁;  Carnot η = 1 − T₂/T₁
+F: Refrigerator COP_R = Q₂/W = T₂/(T₁ − T₂);  Heat pump COP_HP = Q₁/W = T₁/(T₁ − T₂)
+F: COP_HP = COP_R + 1
+- Carnot cycle: two reversible isothermals + two reversible adiabatics. Most efficient between two given temperatures; efficiency depends only on reservoir temperatures, not on the working fluid.
+- Carnot theorem: no engine between two reservoirs can be more efficient than a reversible engine. Corollary: all reversible engines between the same reservoirs have equal efficiency.
+- Thermodynamic (Kelvin) temperature scale: Q₁/Q₂ = T₁/T₂ – independent of working substance.
+- Engines in series with equal work: T = (T₁ + T₂)/2. With equal efficiency: T = √(T₁T₂).
+- Sources of irreversibility: friction, free expansion, heat transfer through finite ΔT, mixing, unrestrained expansion, throttling, inelastic deformation, electric resistance.
+PYQ-TREND: Kelvin–Planck vs Clausius statements. Carnot efficiency depends only on temperatures. COP_HP − COP_R = 1. Intermediate temperature for equal efficiency √(T₁T₂). Carnot cycle not practical because isothermal heat transfer is too slow and adiabatic processes need very fast motion.
+WARN: Always use absolute temperature (K) in Carnot formulas. 1 − 27/327 is wrong; use 1 − 300/600 = 0.5.
+
+## 5.5 Entropy
+F: dS = δQ_rev/T;  Clausius inequality ∮δQ/T ≤ 0  (= 0 reversible, < 0 irreversible)
+F: ΔS = m cv ln(T₂/T₁) + m R ln(V₂/V₁) = m cp ln(T₂/T₁) − m R ln(p₂/p₁)
+F: Isothermal ΔS = mR ln(V₂/V₁);  Isochoric ΔS = m cv ln(T₂/T₁);  Isobaric ΔS = m cp ln(T₂/T₁)
+F: Polytropic: ΔS = m cn ln(T₂/T₁), where polytropic specific heat cn = cv (n − γ)/(n − 1)
+F: Mixing / heat transfer ΔS_universe = Q(1/T_cold − 1/T_hot) > 0
+- Principle of increase of entropy: ΔS_universe ≥ 0. Entropy of an isolated system never decreases.
+- Reversible adiabatic process = isentropic. An irreversible adiabatic process has ΔS > 0. (Isentropic need not be adiabatic only if heat removal exactly cancels generation – but usually treated as reversible adiabatic.)
+- On T–s diagram: constant-volume lines are steeper than constant-pressure lines (slope T/cv > T/cp).
+- Third law (Nernst): entropy of a perfect crystal at absolute zero is zero.
+PYQ-TREND: Reversible adiabatic = isentropic. Entropy of universe always increases for real processes. Slope of isochor vs isobar on T–s. Entropy change for isothermal expansion. Third law statement. Unit of entropy kJ/K.
+
+## 5.6 Availability (Exergy) and Irreversibility
+- Available energy (AE) = max work obtainable from heat Q at T with surroundings at T₀ = Q(1 − T₀/T). Unavailable energy = T₀ ΔS.
+- Availability of closed system: φ = (U − U₀) + p₀(V − V₀) − T₀(S − S₀). Open system (flow): ψ = (h − h₀) − T₀(s − s₀) + V²/2 + gz.
+- Gouy–Stodola theorem: Irreversibility I = T₀ ΔS_gen = W_rev − W_actual.
+- Second-law efficiency η_II = η_actual/η_rev.
+- Helmholtz function F = U − TS; Gibbs function G = H − TS (chemical equilibrium, phase change at constant T & p: dG = 0).
+PYQ-TREND: Unavailable energy = T₀ΔS. Gouy–Stodola theorem. Gibbs function used for chemical reactions at constant p, T.
+
+## 5.7 Properties of Pure Substances (Steam)
+- Pure substance: homogeneous and invariable chemical composition (water, steam-water mixture, air in single phase).
+- Sensible heat, latent heat. At 1 atm water boils at 100 °C with hfg = 2257 kJ/kg.
+- Critical point of water: 22.064 MPa (≈ 221.2 bar), 374.15 °C; hfg = 0 at critical point. Triple point: 0.01 °C, 0.611 kPa – solid, liquid and vapour coexist.
+F: Dryness fraction x = m_vapour/(m_vapour + m_liquid)
+F: h = hf + x hfg;  v = vf + x vfg ≈ x vg;  s = sf + x sfg
+F: Superheated: h = hg + cps (T_sup − T_sat);  degree of superheat = T_sup − T_sat
+- Measurement of dryness: barrel calorimeter, separating calorimeter, throttling calorimeter (needs fairly dry steam), combined separating & throttling (for very wet steam).
+- Mollier (h–s) diagram – used for steam turbine/nozzle calculations. On it, constant-pressure lines diverge and constant-temperature lines become horizontal in the superheated region far from saturation.
+- Gibbs phase rule: F = C − P + 2. Triple point of pure substance: F = 0.
+PYQ-TREND: Critical pressure 221.2 bar & temperature 374.15 °C. Latent heat zero at critical point. Throttling calorimeter for dryness. Triple point DOF = 0. Mollier = h–s chart.
+
+## 5.8 Ideal and Real Gases
+F: pV = mRT = nR̄T;  R = R̄/M
+F: Van der Waals: (p + a/v²)(v − b) = R̄T   (a – intermolecular attraction, b – finite molecular volume)
+F: Compressibility factor Z = pv/RT;  Z = 1 for ideal gas;  Zc ≈ 0.27 (most gases), vdW predicts 0.375
+- Law of corresponding states: all gases at the same reduced pressure and reduced temperature have the same Z (generalised compressibility chart).
+- Dalton's law of partial pressure: p = Σpᵢ; Amagat's law of partial volumes.
+- Avogadro: 1 kmol of any gas at NTP occupies 22.4 m³.
+- Real gas behaves ideally at low pressure and high temperature.
+PYQ-TREND: Van der Waals constants meaning. Ideal behaviour at low p, high T. Z for ideal gas = 1. Value of R for air 287 J/kg·K. Dalton's law.
+
+## 5.9 Thermodynamic Relations
+- Maxwell's relations: (∂T/∂v)s = −(∂p/∂s)v; (∂T/∂p)s = (∂v/∂s)p; (∂p/∂T)v = (∂s/∂v)T; (∂v/∂T)p = −(∂s/∂p)T.
+- Clausius–Clapeyron equation: dp/dT = hfg/(T vfg) – slope of the saturation curve; used to find hfg from p–T data.
+- cp − cv = −T(∂v/∂T)p²(∂p/∂v)T ≥ 0 → cp ≥ cv always; equal for incompressible substances and at 4 °C for water (max density).
+PYQ-TREND: Clausius–Clapeyron relates latent heat and saturation slope. Maxwell relations derived from Gibbs/Helmholtz functions. cp = cv for water at 4 °C.
+
+Q: Prove that the Kelvin–Planck and Clausius statements of the second law are equivalent.
+Suppose the Clausius statement is violated: a device transfers Q₂ from a cold reservoir to a hot one without work. Combine it with a heat engine that takes Q₁ from the hot reservoir, rejects Q₂ to the cold one and produces W = Q₁ − Q₂. The cold reservoir now has no net exchange. The composite device takes (Q₁ − Q₂) from the hot reservoir alone and converts it fully into work, which violates Kelvin–Planck. Conversely, a Kelvin–Planck violating engine (Q₁ → W) driving a refrigerator gives net heat transfer from cold to hot without external work, which violates Clausius. Hence the two statements are equivalent.
+Q: Show that the efficiency of a reversible engine operating between two reservoirs depends only on the reservoir temperatures.
+By Carnot's theorem all reversible engines between the same two reservoirs have the same efficiency, so η cannot depend on the working fluid or engine design. It must be a function of the reservoir temperatures only: Q₁/Q₂ = f(θ₁, θ₂). Using three reservoirs and composing engines gives f(θ₁, θ₂) = ψ(θ₁)/ψ(θ₂). Kelvin chose ψ(θ) = T, so Q₁/Q₂ = T₁/T₂ and η = 1 − T₂/T₁.

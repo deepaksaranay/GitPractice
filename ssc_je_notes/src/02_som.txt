@@ -1,0 +1,193 @@
+# Strength of Materials
+
+## 2.1 Stress and Strain
+- Normal stress σ = P/A (N/mm² = MPa). Tensile is +ve, compressive is −ve. Shear stress τ = Q/A.
+- Linear strain ε = δL/L (dimensionless). Shear strain γ = change in right angle (radians). Volumetric strain εv = δV/V.
+- Hooke's law: within the proportional limit, stress ∝ strain. σ = Eε, τ = Gγ.
+FIG: stress_strain
+### Stress–strain curve of mild steel (in order)
+- Proportional limit → elastic limit → upper yield point → lower yield point → strain hardening → ultimate stress (max load, necking begins) → fracture (breaking point).
+- Engineering stress uses original area, so the curve drops after ultimate point. True stress uses instantaneous area and keeps rising till fracture.
+- Ductile materials (mild steel, copper, aluminium): large plastic deformation, % elongation > 5%. Brittle materials (cast iron, glass, concrete): fracture with little deformation, no yield point.
+- Proof stress (0.2% offset) is used for materials without a clear yield point (aluminium, high-carbon steel).
+| Property | Meaning |
+| Ductility | Can be drawn into wire (tensile deformation) – measured by % elongation & % reduction in area |
+| Malleability | Can be hammered/rolled into sheets (compressive) – gold most malleable |
+| Toughness | Energy absorbed up to fracture – area under full σ–ε curve; Izod/Charpy test |
+| Resilience | Energy absorbed up to elastic limit – area under elastic part |
+| Hardness | Resistance to indentation/scratch – Brinell, Rockwell, Vickers, Mohs |
+| Creep | Slow permanent deformation under constant load at high temperature with time |
+| Fatigue | Failure under fluctuating/repeated loads below ultimate stress |
+| Stiffness | Resistance to deformation – measured by E |
+PYQ-TREND: Sequence of points on the stress–strain diagram. "Necking starts at ultimate stress". Toughness = area under the whole curve; resilience = area up to elastic limit. Lüders bands occur at yield in mild steel. Gold is the most malleable metal.
+
+## 2.2 Elastic Constants
+- Young's modulus E, shear (rigidity) modulus G, bulk modulus K, Poisson's ratio μ = −lateral strain/longitudinal strain.
+F: E = 2G(1 + μ)
+F: E = 3K(1 − 2μ)
+F: E = 9KG/(3K + G);   μ = (3K − 2G)/(6K + 2G)
+- Range of μ: 0 to 0.5 for ordinary materials. μ = 0.5 → incompressible (rubber ≈ 0.5, K → ∞). Cork ≈ 0. Steel ≈ 0.25–0.30. Cast iron ≈ 0.23–0.27. Concrete ≈ 0.1–0.2.
+- E for steel ≈ 200 GPa, cast iron ≈ 100–120 GPa, aluminium ≈ 70 GPa, copper ≈ 110 GPa.
+- An isotropic material has 2 independent elastic constants. Orthotropic: 9. Anisotropic: 21.
+F: Volumetric strain (rod, axial load): εv = ε(1 − 2μ);  (rectangular block) εv = εx + εy + εz
+F: Volumetric strain of a sphere = 3 × diametral strain; of a cylinder = 2εd + εL
+PYQ-TREND: E = 2G(1+μ) and E = 3K(1−2μ) are asked every cycle. Number of independent elastic constants for isotropic material = 2. If μ = 0.5, volume change is zero. Relation: when E = 2G, μ = 0; when K = E, μ = 1/3.
+TIP: For μ = 0.25, E = 2.5G; for μ = 0.3, E = 2.6G. Use these to verify options quickly.
+
+## 2.3 Axially Loaded Members
+F: Elongation δ = PL/(AE)
+F: Stepped bar: δ = (P/E) Σ(Lᵢ/Aᵢ)
+F: Tapered circular bar (d₁ to d₂): δ = 4PL/(π E d₁ d₂)
+F: Tapered flat bar (width b₁→b₂, thickness t): δ = PL ln(b₁/b₂) / [E t (b₁ − b₂)]
+F: Bar under self-weight (γ = weight density): δ = γL²/(2E) = WL/(2AE)  (half of equal end load)
+F: Cone under self-weight: δ = γL²/(6E)
+F: Bar of uniform strength: A = A₀ e^(γx/σ)
+- Composite bars (in parallel, same strain): P = P₁ + P₂; δ₁ = δ₂ → σ₁/E₁ = σ₂/E₂. Modular ratio m = E₁/E₂.
+- Principle of superposition: valid in linear elastic range with small deflections.
+### Thermal stresses
+F: Free expansion δ = αLΔT;  if fully restrained, σ = EαΔT (independent of length and area)
+F: Partial yielding of support by Δ: σ = E(αLΔT − Δ)/L
+F: Composite bar heated (α₁ > α₂): material 1 in compression, material 2 in tension; σ₁A₁ = σ₂A₂
+PYQ-TREND: Elongation due to self-weight is half that of the same load at the end. Thermal stress EαΔT does not depend on cross-section. In a steel–copper composite bar when heated, copper (higher α) is in compression. Elongation of a tapered rod 4PL/(πEd₁d₂).
+WARN: Students often use the average diameter in the tapered-rod formula. Use the product d₁d₂, not the square of the average.
+
+## 2.4 Strain Energy and Impact Loading
+F: Strain energy U = P²L/(2AE) = σ²/(2E) × Volume
+F: Modulus of resilience = σ_e²/(2E) (strain energy per unit volume at elastic limit)
+F: Shear strain energy = τ²/(2G) × Volume;  torsion U = T²L/(2GJ);  bending U = ∫M²dx/(2EI)
+F: Sudden load: σ = 2P/A (twice the gradual stress)
+F: Impact (falling from h): σ = (P/A)[1 + √(1 + 2AEh/(PL))]
+- Castigliano's theorem: δ = ∂U/∂P. Used for deflection of curved beams, springs and frames.
+- Maxwell's reciprocal theorem: deflection at A due to load at B equals deflection at B due to the same load at A.
+PYQ-TREND: Suddenly applied load gives double stress. Proof resilience vs modulus of resilience (per unit volume). Strain energy stored in solid shaft in torsion = (τ²/4G) × volume; hollow = (τ²/4G)(D²+d²)/D² × volume.
+
+## 2.5 Shear Force and Bending Moment
+- Sign convention: SF positive if it causes clockwise rotation (left upward); BM positive if sagging (concave up).
+- Relations: dM/dx = V; dV/dx = −w. Hence BM is maximum where SF = 0 or changes sign.
+- Point of contraflexure: where BM changes sign (BM = 0 inside the span). Occurs in overhanging and fixed beams, not in simply supported beams with downward loads.
+| Load on SF/BM | SFD shape | BMD shape |
+| No load | Constant (horizontal) | Linear (inclined) |
+| Point load | Sudden jump | Change in slope (kink) |
+| UDL | Linear (inclined) | Parabola (2nd degree) |
+| UVL (triangular) | Parabola (2nd degree) | Cubic (3rd degree) |
+| Pure couple | No change | Sudden jump |
+FIG: sfd_bmd
+| Beam & Load | Max BM | Max deflection |
+| Cantilever, point load W at free end | WL | WL³/(3EI) |
+| Cantilever, UDL w | wL²/2 | wL⁴/(8EI) |
+| Cantilever, UVL (zero at free end) | wL²/6 | wL⁴/(30EI) |
+| Cantilever, couple M at free end | M | ML²/(2EI) |
+| Simply supported, central point load | WL/4 | WL³/(48EI) |
+| Simply supported, UDL | wL²/8 | 5wL⁴/(384EI) |
+| SS, point load at a from A (b from B) | Wab/L | Wa²b²/(3EIL) under load |
+| Fixed–fixed, central point | WL/8 (at ends & centre) | WL³/(192EI) |
+| Fixed–fixed, UDL | wL²/12 (ends), wL²/24 (centre) | wL⁴/(384EI) |
+| Propped cantilever UDL | wL²/8 (fixed end) | wL⁴/(185EI) approx; prop reaction 3wL/8 |
+F: Slope at free end of cantilever: W at end θ = WL²/(2EI); UDL θ = wL³/(6EI)
+F: Slope at support of SS beam: point at centre θ = WL²/(16EI); UDL θ = wL³/(24EI)
+PYQ-TREND: SF/BM shapes for UDL & UVL. Max BM wL²/8 and deflection 5wL⁴/384EI for SS UDL. Ratio of central deflection of fixed to SS beam with UDL = 1:5; with central point load = 1:4. Prop reaction 3wL/8. Point of contraflexure in overhanging beam.
+TIP: Degree of BMD = degree of load + 2. Degree of SFD = degree of load + 1. A UDL (degree 0) gives a parabolic BMD (degree 2).
+
+## 2.6 Bending Stresses
+F: Bending equation: M/I = σ/y = E/R
+F: Section modulus Z = I/y_max;  σ_max = M/Z
+- Assumptions: plane sections remain plane; material homogeneous, isotropic, obeys Hooke's law; E same in tension & compression; radius of curvature large compared with depth; pure bending.
+- Neutral axis passes through the centroid; stress is zero there; it varies linearly with distance.
+| Section | Z |
+| Rectangle b×d | bd²/6 |
+| Circle d | πd³/32 |
+| Hollow circle | π(D⁴ − d⁴)/(32D) |
+| Square with diagonal vertical (side a) | a³/(6√2) = 0.1179a³ |
+| Triangle (base b, height h) about centroid | bh²/24 (top fibre) |
+- Strongest rectangular beam cut from a circular log of dia D: d/b = √2 (b = D/√3). Stiffest: d/b = √3.
+- Beam of uniform strength: depth or width varies so that σ_max is constant everywhere (e.g., leaf spring).
+- Flitched beam: two materials fastened together; use equivalent section with modular ratio m.
+PYQ-TREND: Strongest beam from a log: d/b = √2. Z for rectangular and circular sections. Neutral axis passes through centroid. A square beam with diagonal vertical is weaker (Z less) than with a side horizontal.
+
+## 2.7 Shear Stresses in Beams
+F: τ = V·A·ȳ/(I·b)   (A ȳ = first moment of area above the level)
+| Section | τ_max / τ_avg | Location |
+| Rectangle | 1.5 | Neutral axis |
+| Circle (solid) | 4/3 = 1.33 | Neutral axis |
+| Thin hollow circle | 2.0 | Neutral axis |
+| Triangle | 1.5 | At h/2 from apex (not NA) |
+| Triangle at NA | 4/3 (i.e., τ_NA = 1.33 τ_avg) | NA |
+| Square with diagonal vertical | 9/8 = 1.125 | At d/8 above/below NA |
+- Shear stress distribution in a rectangle is parabolic; in an I-section most of the shear is taken by the web (sudden jump at flange-web junction).
+PYQ-TREND: Ratio τ_max/τ_avg = 1.5 for rectangle and 4/3 for circle – asked repeatedly. In a triangular section max shear stress is at mid-height, not at the NA.
+
+## 2.8 Torsion of Shafts
+F: T/J = τ/r = Gθ/L
+F: Solid shaft: J = πd⁴/32;  T = (π/16) τ d³;  Z_p = πd³/16
+F: Hollow shaft: J = π(D⁴−d⁴)/32;  T = (π/16) τ (D⁴−d⁴)/D
+F: Power: P = 2πNT/60 (W, with N in rpm and T in N·m)
+F: Torsional stiffness = T/θ = GJ/L
+- Assumptions: circular section remains circular and plane; shear stress varies linearly from centre; material obeys Hooke's law.
+- Shafts in series (same torque): θ = θ₁ + θ₂. Shafts in parallel (same twist): T = T₁ + T₂.
+- For the same weight, length and material, a hollow shaft is stronger and stiffer than a solid shaft.
+F: Combined bending and torsion: equivalent torque Te = √(M² + T²);  equivalent BM Me = ½[M + √(M² + T²)]
+- Te is used with max shear stress theory (ductile); Me with max principal stress theory (brittle).
+F: Close-coiled helical spring: τ = 8WD/(πd³) × K_w;  deflection δ = 8WD³n/(Gd⁴);  stiffness k = Gd⁴/(8D³n)
+F: Wahl factor K_w = (4C−1)/(4C−4) + 0.615/C,  spring index C = D/d
+PYQ-TREND: Power transmitted 2πNT/60. Hollow shaft stronger than solid of same weight. Equivalent torque & bending moment. Torque transmission ratio of hollow to solid shafts. Spring stiffness ∝ d⁴/(D³n). Cutting a spring in half doubles stiffness.
+
+## 2.9 Principal Stresses and Mohr's Circle
+F: σ₁,₂ = (σx + σy)/2 ± √[((σx − σy)/2)² + τxy²]
+F: τ_max = √[((σx − σy)/2)² + τxy²] = (σ₁ − σ₂)/2
+F: Principal plane angle: tan 2θp = 2τxy/(σx − σy)
+F: Normal stress on oblique plane: σn = (σx+σy)/2 + (σx−σy)/2 cos2θ + τxy sin2θ
+- Principal planes have zero shear stress. Planes of max shear are at 45° to principal planes and carry normal stress (σ₁+σ₂)/2.
+- Mohr's circle: centre at ((σx+σy)/2, 0), radius = τ_max. An angle θ on the element is 2θ on the circle.
+- Pure shear: σ₁ = +τ, σ₂ = −τ at 45° (why brittle shafts fail along a 45° helix in torsion).
+- Uniaxial σ: τ_max = σ/2 on 45° plane (why ductile specimens show cup-and-cone fracture).
+- Hydrostatic (σx = σy = σ): Mohr's circle reduces to a point; no shear on any plane.
+PYQ-TREND: Angle between principal planes = 90°; between principal plane and max shear plane = 45°. Mohr's circle for pure shear has centre at origin. Brittle material in torsion fails on a 45° helicoidal surface; ductile fails on plane perpendicular to the axis.
+
+## 2.10 Theories of Failure
+| Theory | Proposed by | Criterion | Suited for |
+| Max principal stress | Rankine | σ₁ = σyt | Brittle |
+| Max shear stress | Tresca/Guest | σ₁ − σ₂ = σyt (τ_max = σyt/2) | Ductile (conservative) |
+| Max principal strain | St. Venant | σ₁ − μσ₂ = σyt | Not used much |
+| Max strain energy | Haigh | σ₁² + σ₂² − 2μσ₁σ₂ = σyt² | Ductile |
+| Max distortion energy (shear strain energy) | von Mises–Hencky | σ₁² + σ₂² − σ₁σ₂ = σyt² | Ductile (best) |
+- In pure shear: Tresca gives τy = 0.5σy; von Mises gives τy = 0.577σy.
+- Shape in σ₁–σ₂ plane: Rankine – square; Tresca – hexagon; von Mises – ellipse; Haigh – ellipse; St. Venant – rhombus.
+PYQ-TREND: Theory best for ductile = distortion energy (von Mises). Tresca hexagon, von Mises ellipse. Shear yield = 0.577 σy (von Mises).
+
+## 2.11 Columns and Struts
+F: Euler's critical load: P_cr = π² E I_min / Le²
+F: Slenderness ratio λ = Le/k_min
+| End condition | Effective length Le | P_cr relative to both-hinged |
+| Both ends hinged | L | 1 |
+| One fixed, other free | 2L | 1/4 |
+| Both ends fixed | L/2 | 4 |
+| One fixed, other hinged | L/√2 | 2 |
+- Euler's formula is valid for long columns (λ > ~80 for mild steel) and ignores direct crushing.
+F: Rankine–Gordon: 1/P = 1/Pc + 1/Pe  → P = σc A / (1 + a λ²);  a = σc/(π²E)
+- Buckling occurs about the axis with minimum moment of inertia.
+- Eccentric loading: secant formula. Core (kernel) of a section: load inside it causes no tension. Rectangle – rhombus with diagonals b/3 and d/3 (middle-third rule). Circle – concentric circle of dia d/4.
+PYQ-TREND: Le for four end conditions (most-repeated SOM question). Ratio of buckling loads of fixed-fixed to fixed-free = 16. Middle-third rule (e ≤ b/6). Core of a circular section d/4.
+TIP: P_cr ∝ 1/Le². Fixed-free Le = 2L → P = P₀/4; fixed-fixed Le = L/2 → 4P₀. Ratio between them = 16.
+
+## 2.12 Thin and Thick Cylinders
+F: Thin cylinder: hoop stress σh = pd/(2t);  longitudinal σl = pd/(4t)  (σh = 2σl)
+F: Thin sphere: σ = pd/(4t)
+F: Hoop strain εh = (pd/4tE)(2 − μ);  longitudinal strain εl = (pd/4tE)(1 − 2μ)
+F: Volumetric strain (cylinder) = (pd/4tE)(5 − 4μ);  sphere = (3pd/4tE)(1 − μ)
+F: Max in-plane shear (cylinder) = (σh − σl)/2 = pd/(8t)
+- Thin if d/t > 20 (t < d/20). Radial stress is neglected in thin shells.
+- Longitudinal joint carries hoop stress → design longitudinal joint for hoop stress (it is weaker); circumferential joint for longitudinal stress.
+- Thick cylinders – Lamé's equations: σr = A − B/r², σh = A + B/r²; hoop stress is maximum at the inner surface. Compounding (shrink fit) and autofrettage reduce the hoop stress variation.
+PYQ-TREND: Hoop stress is twice the longitudinal stress. Thin cylinder criterion d/t > 20. For a sphere, stress pd/4t. Lamé's theorem for thick cylinders. Volumetric strain (5−4μ) expression.
+
+## 2.13 Springs (Leaf) and Rotating Discs
+F: Leaf spring (semi-elliptic, n leaves): σ = 3WL/(2nbt²);  δ = 3WL³/(8Enbt³)
+F: Carriage spring with full-length leaves is a beam of uniform strength.
+- Springs in series: total deflection adds, 1/k = Σ1/kᵢ. Springs in parallel: stiffness adds.
+- Rotating thin ring: hoop stress σ = ρv² = ρω²r² (independent of cross-section).
+PYQ-TREND: Stiffness of springs in series/parallel; hoop stress in a rotating ring ρv².
+
+Q: Derive the relation E = 2G(1 + μ).
+Consider a square element ABCD of side a under pure shear τ. Diagonal BD elongates. Pure shear is equivalent to tension τ along one diagonal and compression τ along the other. Strain along the diagonal from shear deformation = γ/2 = τ/(2G). From the equivalent normal stresses, strain along the same diagonal = τ/E + μτ/E = (τ/E)(1+μ). Equating: τ/(2G) = (τ/E)(1+μ) → E = 2G(1 + μ).
+Q: State the assumptions in the theory of simple bending and derive M/I = σ/y = E/R.
+Consider a beam bent into an arc of radius R. A fibre at distance y from the neutral axis has strain ε = y/R, so σ = Ey/R, giving σ/y = E/R. The resultant force on the section is zero (∫σdA = 0), so the NA passes through the centroid. Moment of resistance M = ∫σy dA = (E/R)∫y²dA = EI/R. Hence M/I = σ/y = E/R. Assumptions: initially straight, homogeneous, isotropic beam; plane sections remain plane; Hooke's law; same E in tension and compression; large R compared with depth; pure bending.

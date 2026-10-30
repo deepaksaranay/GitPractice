@@ -1,0 +1,115 @@
+# Machine Design
+
+## 4.1 Design Philosophy and Factor of Safety
+- Factor of safety (FOS) = failure stress / working (allowable) stress. Ductile material under static load: FOS based on yield stress. Brittle: based on ultimate stress.
+- Typical FOS: steel under static load 2–4; cast iron 4–6; dynamic/shock loads higher.
+- Stress concentration: localised high stress near discontinuities (holes, notches, fillets, keyways). Theoretical stress concentration factor Kt = σ_max/σ_nominal. Plate with small circular hole in tension: Kt = 3. Elliptical hole: Kt = 1 + 2a/b.
+- Notch sensitivity q = (Kf − 1)/(Kt − 1). q = 0 → insensitive (cast iron, due to internal flakes); q = 1 → fully sensitive.
+- Reduce stress concentration: fillets, relief grooves, multiple small holes, gradual change in section.
+- Preferred numbers (Renard series): R5, R10, R20, R40 – geometric progressions with ratios ≈ 1.58, 1.26, 1.12, 1.06.
+PYQ-TREND: Kt = 3 for a small hole in an infinite plate. Notch sensitivity range 0–1. Cast iron is notch-insensitive. Renard series R10 ratio = 10^(1/10).
+
+## 4.2 Fatigue Design
+- Endurance limit Se: max stress amplitude that a polished standard specimen can withstand for infinite cycles (≈ 10⁶–10⁷). For steel Se' ≈ 0.5 Sut.
+- S–N curve: ferrous metals show a knee (endurance limit); non-ferrous (aluminium) do not – use fatigue strength at a given life.
+F: Se = ka·kb·kc·kd·ke·Se'  (Marin factors: surface, size, reliability, temperature, misc.)
+F: σ_mean = (σmax + σmin)/2;  σ_amp = (σmax − σmin)/2;  stress ratio R = σmin/σmax
+- Fully reversed: R = −1 (σm = 0). Repeated (pulsating): R = 0.
+| Criterion | Equation (FOS n) |
+| Soderberg (conservative, yield) | σa/Se + σm/Syt = 1/n |
+| Goodman (ultimate, linear) | σa/Se + σm/Sut = 1/n |
+| Gerber (parabolic) | nσa/Se + (nσm/Sut)² = 1 |
+- Fatigue strength improvement: shot peening, surface rolling (compressive residual stress), nitriding, carburising, polishing. Decarburisation, plating (Cr, Ni) and corrosion reduce it.
+- Miner's rule (cumulative damage): Σ nᵢ/Nᵢ = 1.
+PYQ-TREND: Soderberg is the most conservative line (joins Se and Syt). Goodman joins Se and Sut. Shot peening improves fatigue life. Endurance limit ≈ 0.5 × UTS for steels. Aluminium has no distinct endurance limit.
+
+## 4.3 Riveted Joints
+- Lap joint and butt joint (single/double strap). Chain riveting vs zig-zag (staggered) riveting.
+- Failures: tearing of plate between rivets, shearing of rivet, crushing of rivet/plate, tearing at margin.
+F: Tearing resistance Pt = (p − d) t σt
+F: Shearing resistance Ps = n (π/4) d² τ  (×2 for double shear; practice uses 1.875 for double shear in boiler code)
+F: Crushing resistance Pc = n d t σc
+F: Efficiency η = least of (Pt, Ps, Pc) / (p t σt)
+F: Unwin's formula: d = 6√t  (mm)
+F: Margin m = 1.5d;  pitch p ≥ 2d (min)
+- Caulking and fullering make riveted boiler joints leak-proof. Fullering uses a tool as thick as the plate (more effective).
+- Lozenge (diamond) joint used for structural butt joints in bridges – highest efficiency.
+PYQ-TREND: Unwin's formula d = 6√t. Efficiency definition. Caulking & fullering for leak-proofing. Margin = 1.5d. Double-shear area of rivet.
+
+## 4.4 Welded Joints
+- Butt weld (tension): P = σt·t·l. Fillet weld: throat t = 0.707 × leg size s.
+F: Transverse fillet (single): P = 0.707 s l σt;  double transverse: P = 1.414 s l σt
+F: Parallel fillet (shear): P = 1.414 s l τ (double)
+F: Eccentric weld: primary shear τ₁ = P/A, secondary τ₂ = P·e·r/J; resultant by vector addition
+- Advantages over riveting: lighter, leak-proof, no stress concentration from holes, 100% efficiency possible. Disadvantages: residual stresses, distortion, difficult inspection, brittle HAZ.
+PYQ-TREND: Throat = 0.707 × leg. Strength of fillet weld is based on throat area. Parallel fillet weld is designed for shear.
+
+## 4.5 Bolted / Threaded Joints
+- Thread terminology: major dia, minor (root) dia, pitch, lead = n × pitch (n = starts), helix angle tanα = l/(πd_m).
+- Thread forms: V/metric (fastening), square (power transmission, highest efficiency, screw jack), Acme (29°, lead screw of lathe), buttress (one-direction axial load – vice, gun breech), knuckle (rough use – railway coupling, bottle caps), whitworth (55°).
+- Metric thread angle 60°. ISO designation M20 × 1.5 → nominal dia 20 mm, pitch 1.5 mm (fine). Coarse if pitch omitted.
+F: Stress area: A = (π/4)·[(dp + dc)/2]²  ≈ (π/4)dc²
+F: Initial tightening load (Rotscher): Pi = 2840·d  (N, d in mm)
+F: Torque to tighten: T = 0.2 P d
+F: Bolt of uniform strength – shank dia reduced to core dia (or axial hole) to increase shock-absorbing capacity
+- Locking devices: jam/lock nut, castle nut with split pin, spring washer, Simmonds nut (nylon insert), set screw.
+- Bolt under eccentric load: shear at each bolt = direct + secondary (proportional to distance from CG of bolt group).
+PYQ-TREND: Square thread most efficient for power transmission; Acme used in lathe lead screw; buttress for one-way thrust. Metric thread angle 60°, Whitworth 55°. Designation M meaning. Initial tension 2840d.
+
+## 4.6 Keys and Couplings
+- Key: inserted between shaft and hub to prevent relative rotation; key is designed weaker than shaft so it fails first.
+| Key | Notes |
+| Sunk rectangular | w = d/4, t = 2w/3; taper 1:100 |
+| Sunk square | w = t = d/4 |
+| Gib-head | Taper key with head for easy removal |
+| Feather | Allows axial sliding of hub (gear shifting) |
+| Woodruff | Semicircular, self-aligning, automobile/machine tools, tapered shafts |
+| Saddle (flat / hollow) | Friction only, light loads |
+| Kennedy | Two square keys at 90° – heavy duty |
+| Splines | Integral keys, sliding + high torque (gearbox) |
+F: Key in shear: T = l w τ (d/2);  in crushing: T = l (t/2) σc (d/2)
+F: Square key: equal strength in shear and crushing if σc = 2τ;  length for equal strength to shaft ≈ 1.571d (≈1.5d)
+- Couplings: rigid (sleeve/muff, split-muff/clamp, flange) – for collinear shafts; flexible (bushed-pin, Oldham, universal) – for misalignment.
+- Bushed-pin type flexible coupling absorbs shock and misalignment through rubber bushes. Oldham – lateral misalignment. Hooke's – angular.
+- Flange coupling: bolts in shear on pitch circle: T = n (π/4)d_b² τ (D/2).
+PYQ-TREND: Woodruff key is self-aligning. Feather key allows axial movement. Key length ≈ 1.5d. Coupling for lateral misalignment = Oldham; angular = universal. Width of rectangular key = d/4.
+
+## 4.7 Shaft Design
+F: ASME code: d³ = (16/πτ) √[(Km M)² + (Kt T)²]
+F: Max shear stress theory: τ_max = (16/πd³) √(M² + T²)
+F: Max normal stress theory: σ_max = (16/πd³)[M + √(M² + T²)]
+- Shafts are designed on strength and rigidity (angle of twist typically ≤ 0.25°/m for line shafts; deflection limits for gears).
+- Axle: non-rotating or rotating, carries bending only. Spindle: short rotating shaft (machine tools). Countershaft, jack shaft, line shaft.
+PYQ-TREND: Axle subjected mainly to bending. ASME code combined shock factors. Equivalent torque concept.
+
+## 4.8 Bearings
+- Sliding contact (journal) bearings: full/partial journal, thrust (pivot/collar), hydrodynamic, hydrostatic. Rolling contact: ball, roller (cylindrical, tapered, spherical, needle).
+F: Sommerfeld number S = (r/c)² (μN/p)  (dimensionless; N in rps)
+F: Bearing characteristic number = μN/p;  Petroff's equation: f = 2π²(μN/p)(r/c)
+F: Rolling bearing life L₁₀ = (C/P)^k million rev; k = 3 (ball), 10/3 (roller)
+F: Equivalent load P = X V Fr + Y Fa
+- McKee curve: μ vs μN/p. Minimum point = boundary between thin-film and thick-film lubrication. Bearing modulus (μN/p at min friction) – operate at ~3× to stay in hydrodynamic region.
+- Hydrodynamic bearing needs: relative motion, wedge-shaped oil film (eccentricity), viscous fluid.
+- Bearing materials: Babbitt (white metal – tin/lead based), bronze, copper-lead, PTFE. Need low friction, conformability, embeddability, good thermal conductivity.
+- Rating life L₁₀: life that 90% of bearings attain (10% fail). Static load capacity C₀ (permanent deformation 0.0001 × ball dia).
+- Needle bearings: small radial space, oscillating loads (wrist pin). Taper roller bearings: combined radial + axial (car wheel hubs). Self-aligning ball bearings: shaft misalignment.
+PYQ-TREND: Life formula exponent 3 for ball bearing (life ∝ 1/P³). Sommerfeld number is dimensionless. Babbitt metal composition. Taper roller for combined loads. L₁₀ meaning (90% reliability).
+TIP: If load on a ball bearing doubles, life becomes 1/8. If it halves, life increases 8 times.
+
+## 4.9 Springs, Clutches, Brakes, Gears (Design Points)
+- Helical spring design: spring index C = D/d typically 4–12; Wahl factor accounts for curvature + direct shear. Surge: resonance of spring coils with valve frequency – avoid by choosing a natural frequency 15–20 times the operating frequency.
+- Spring ends: plain, plain-ground, squared, squared-ground. Active coils = total − inactive coils (squared & ground: n' = n + 2).
+- Gear tooth strength – Lewis equation: F = σb·b·m·Y (Y = Lewis form factor). Buckingham equation for dynamic load. Wear strength: Fw = d_p·b·Q·K.
+- Gear tooth failures: bending breakage, pitting (surface fatigue – most common in hardened gears), scoring (lubricant breakdown), abrasive wear.
+- Belt selection: flat belts (long distance), V-belts (short, high reduction), timing belts (positive drive).
+PYQ-TREND: Lewis equation assumes the tooth is a cantilever beam with full load at the tip. Pitting is surface fatigue. Spring index range. Surge in springs.
+
+## 4.10 Pressure Vessels, Cotter & Knuckle Joints, Power Screws
+- Cotter joint: connects two rods under axial tension/compression, no rotation (piston rod and crosshead, foundation bolt). Cotter taper 1 in 48 to 1 in 24. Types: socket & spigot, sleeve & cotter, gib & cotter.
+- Knuckle joint: connects two rods under tensile load with some angular flexibility (tie bars of roof truss, valve rod, link of cycle chain). Pin in double shear.
+- Power screw efficiency: η = tanα/tan(α + φ); self-locking if φ ≥ α. Square thread most efficient; for Acme/trapezoidal use μ' = μ/cos θ.
+- Overall efficiency of screw jack with collar friction is lower.
+PYQ-TREND: Cotter joint transmits axial load only and is used for piston rod & crosshead. Knuckle joint pin is in double shear. Taper of cotter. Self-locking condition φ > α.
+
+Q: Explain the difference between Soderberg and Goodman criteria with a sketch and state which is more conservative.
+Both are drawn on the σm–σa plane with endurance limit Se on the σa axis. Soderberg's line joins Se to the yield strength Syt on the σm axis. Goodman's line joins Se to the ultimate strength Sut. Since Syt < Sut, the Soderberg line lies inside the Goodman line, so it permits lower stresses and is more conservative (safer). It also guards against yielding. Goodman is closer to test data for ductile materials. Gerber's parabola lies outside both and best fits experimental points, but it is not used directly for design.

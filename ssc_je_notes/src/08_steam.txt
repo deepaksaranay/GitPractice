@@ -1,0 +1,118 @@
+# Steam Engineering, Power Plants & Compressors
+
+## 8.1 Rankine Cycle
+- Processes: pump (isentropic compression of liquid, 1–2) → boiler (constant-pressure heat addition, 2–3) → turbine (isentropic expansion, 3–4) → condenser (constant-pressure heat rejection, 4–1).
+F: η_Rankine = [(h₃ − h₄) − (h₂ − h₁)] / (h₃ − h₂)
+F: Pump work wp = v_f (p₂ − p₁)  (small; often neglected)
+F: Specific steam consumption SSC = 3600 / w_net  (kg/kWh, w_net in kJ/kg)
+F: Work ratio = w_net / w_turbine (close to 1 for Rankine – an advantage over gas cycles)
+- Rankine is preferred over Carnot for steam plants: Carnot needs compression of a wet mixture (difficult) and gives a low work ratio.
+- Methods to improve Rankine efficiency: raise boiler pressure (but increases moisture at exhaust), superheating (raises mean temperature and dryness), lower condenser pressure (more work but more moisture), reheating (mainly improves exhaust dryness; small gain in η), regeneration with feedwater heaters (raises mean temperature of heat addition – increases η, reduces work per kg and condenser size).
+- Feedwater heaters: open (direct contact, deaerator – mixing) and closed (shell & tube).
+- Exhaust dryness should not drop below ~0.88 to avoid blade erosion.
+- Binary vapour cycle (mercury–steam), combined cycle (Brayton topping + Rankine bottoming via HRSG – efficiency 55–60%), cogeneration (power + process heat).
+PYQ-TREND: Pump work is small due to low specific volume of water. Effect of superheat, reheat, regeneration on efficiency and dryness. Reheating mainly increases dryness of exhaust steam. Regeneration increases efficiency. SSC definition. Combined cycle uses HRSG.
+
+## 8.2 Boilers (Steam Generators)
+| Basis | Type A | Type B |
+| Contents in tube | Fire-tube (hot gases in tubes): Cochran, Cornish, Lancashire, Locomotive, Scotch marine | Water-tube: Babcock & Wilcox, Stirling, La Mont, Benson, Loeffler, Velox |
+| Circulation | Natural (density difference): B&W, Lancashire | Forced: La Mont, Benson, Loeffler |
+| Pressure | Sub-critical (most boilers) | Supercritical (Benson – above 221.2 bar, no drum) |
+| Axis | Vertical: Cochran, simple vertical | Horizontal: Lancashire, Cornish, B&W |
+| Firing | Internally fired: Cochran, Lancashire, Locomotive | Externally fired: Babcock & Wilcox |
+| Boiler | Key fact |
+| Cochran | Vertical, multi-tubular, fire-tube, internally fired, small capacity |
+| Cornish | Single flue tube, horizontal, fire-tube |
+| Lancashire | Two flue tubes, horizontal, fire-tube, internally fired; stationary, 15 bar |
+| Locomotive | Multi-tubular fire-tube, high steam rate, draught by exhaust steam blast |
+| Babcock & Wilcox | Horizontal straight-tube water-tube, externally fired, natural circulation |
+| La Mont | Forced circulation, high-pressure, water-tube |
+| Benson | Supercritical, once-through, drumless (no steam drum) |
+| Loeffler | Steam used to evaporate water (superheated steam circulated); avoids salt deposition in tubes |
+| Velox | Gas velocity exceeds sound velocity (supercharged combustion) – very high heat transfer |
+- Mountings (for safety & control – mounted on boiler): water level indicator (2 per boiler), pressure gauge (Bourdon), safety valves (2: dead-weight, lever, spring-loaded, high-steam low-water), fusible plug (melts if water level falls dangerously low – lead/tin alloy), steam stop valve, feed check valve, blow-off cock, manhole.
+- Accessories (for efficiency): economiser (heats feedwater using flue gases), air preheater (heats combustion air), superheater, feed pump, injector (feeds water using steam jet – locomotive), steam separator, steam trap.
+- Order of heat recovery in flue gas path: superheater → (reheater) → economiser → air preheater → chimney.
+- Draught: natural (chimney) and artificial – forced (fan at base, positive pressure), induced (fan at chimney base, negative pressure), balanced (both). Steam jet draught in locomotives.
+F: Chimney draught h_w = 353 H (1/T_a − ((m_a+1)/m_a)(1/T_g))  mm of water (H in m)
+F: Equivalent evaporation = m_s(h − h_f)/2257  (from and at 100 °C)
+F: Boiler efficiency = m_s(h − h_fw) / (m_f × CV)
+- Boiler (IBR) – Indian Boiler Regulations 1950; Indian Boilers Act 1923.
+PYQ-TREND: Fire-tube vs water-tube examples (B&W is water-tube; Cochran/Lancashire/Locomotive are fire-tube). Benson is supercritical and drumless. Fusible plug function. Mountings vs accessories (economiser is an accessory; safety valve is a mounting). Economiser heats feedwater; air preheater heats air. Loeffler avoids scale. Equivalent evaporation 2257 kJ/kg.
+TIP: Mountings = safety items mounted on the boiler. Accessories = efficiency boosters. If it saves fuel, it is an accessory.
+
+## 8.3 Steam Nozzles
+- Nozzle converts enthalpy into kinetic energy. Convergent (subsonic), convergent–divergent (supersonic exit), divergent (diffuser for subsonic is divergent).
+F: Exit velocity V = 44.72 √(h₁ − h₂)  (Δh in kJ/kg)
+F: Critical pressure ratio p_c/p₁ = (2/(n+1))^(n/(n−1))
+| Steam/gas | n | Critical pressure ratio |
+| Superheated steam | 1.3 | 0.546 |
+| Dry saturated steam | 1.135 | 0.577 |
+| Air (γ = 1.4) | 1.4 | 0.528 |
+- Choked flow: mass flow is maximum when throat pressure equals critical pressure; Mach number = 1 at the throat; reducing back pressure further does not increase flow.
+- Supersaturated (metastable) flow: steam expands too fast to condense; actual discharge more than theoretical (by 2–5%); Wilson line ≈ 0.96–0.97 dryness.
+- Nozzle efficiency = actual enthalpy drop / isentropic drop (0.90–0.95).
+PYQ-TREND: Critical pressure ratio values 0.528 (air), 0.546 (superheated), 0.577 (saturated). At throat Mach = 1. Supersaturated flow increases discharge. Velocity formula 44.72√Δh.
+
+## 8.4 Steam Turbines
+| Impulse turbine | Reaction turbine |
+| Pressure drop only in nozzles; constant pressure across moving blades | Pressure drops in both fixed and moving blades |
+| Blades symmetrical (profile) | Aerofoil blades |
+| De Laval (simple impulse), Curtis (velocity compounded), Rateau (pressure compounded) | Parsons (50% reaction) |
+| Partial admission possible | Full admission required |
+| Smaller size for same power, fewer stages | More stages, larger |
+| Efficiency lower | Efficiency higher |
+F: Blade (diagram) efficiency – impulse: η_b = 2(Vb/V₁)(cos α − Vb/V₁)(1 + k·cosβ₂/cosβ₁)
+F: Optimum blade speed ratio – single-stage impulse: Vb/V₁ = cos α/2;  max η = cos²α
+F: Parsons (50% reaction): Vb/V₁ = cos α;  max η = 2cos²α/(1 + cos²α)
+F: Degree of reaction R = Δh_moving / Δh_stage
+F: Work done per kg = Vb (Vw₁ ± Vw₂)  (+ when the whirl components are in opposite directions)
+- Compounding (reduces rotor speed): velocity compounding (Curtis – one nozzle set, several moving rows with guide blades), pressure compounding (Rateau – several nozzle-blade stages), pressure-velocity compounding.
+- De Laval simple impulse turbine runs at very high speed (~30,000 rpm) – needs gearing.
+- Governing: throttle governing, nozzle control governing, by-pass governing.
+- Losses: nozzle friction, blade friction, leakage, disc friction, residual velocity, wetness, partial admission.
+PYQ-TREND: Parsons turbine is 50% reaction. Optimum speed ratio cos α/2 for impulse, cos α for 50% reaction. Curtis = velocity compounded; Rateau = pressure compounded. De Laval is simple impulse. Degree of reaction definition.
+
+## 8.5 Steam Condensers and Cooling Towers
+- Purpose: lower exhaust pressure (increase work) and recover pure condensate. Types: jet (mixing – parallel, counter, ejector) and surface (shell & tube – condensate reused; used in large power plants).
+F: Vacuum efficiency = actual vacuum / ideal vacuum (barometric pressure − partial pressure of steam)
+F: Condenser efficiency = (t_w,out − t_w,in) / (t_sat − t_w,in)
+- Air leakage reduces vacuum; removed by air extraction pump/steam ejector. Dalton's law used for air + steam partial pressures.
+- Cooling towers: natural draught (hyperbolic – large plants), mechanical draught (forced/induced). Water cools by evaporation; approach = outlet water temp − WBT; range = inlet − outlet water temperature.
+PYQ-TREND: Surface condenser used in thermal power plants. Vacuum efficiency definition. Approach and range of cooling tower. Hyperbolic shape for natural draught.
+
+## 8.6 Power Plant Engineering Basics
+| Plant | Key points |
+| Thermal (coal) | Rankine cycle; pulverised coal; ESP removes fly ash; efficiency 33–40% |
+| Hydro | Renewable, low running cost, high initial cost; turbines by head |
+| Nuclear | Fission of U-235; moderator (heavy water, graphite) slows neutrons; control rods (cadmium, boron) absorb neutrons; coolant (water, CO₂, liquid sodium) |
+| Diesel | Quick start, small capacity, standby |
+| Gas turbine | Brayton; peak load; quick start; combined cycle for base load |
+- Indian nuclear reactors: mostly PHWR (pressurised heavy water reactor) using natural uranium and D₂O moderator. Fast breeder reactor uses liquid sodium coolant and no moderator.
+- Electrostatic precipitator (ESP): removes fly ash (> 99% efficiency). Cyclone separator for coarse particles. Coal handling: proximate analysis (moisture, volatile matter, fixed carbon, ash), ultimate analysis (C, H, O, N, S).
+- Load curve terms: load factor = average load/max demand; plant capacity factor = average load/rated capacity; diversity factor = sum of individual max demands/max demand of system (> 1); plant use factor.
+- Coal ranks (increasing carbon): peat → lignite → bituminous → anthracite (highest carbon, highest CV, burns with short smokeless flame).
+PYQ-TREND: Moderator & control rod materials. PHWR uses heavy water. ESP for fly ash. Load factor and diversity factor definitions (diversity factor > 1). Anthracite has the highest carbon content. Proximate analysis components.
+
+## 8.7 Air Compressors
+- Reciprocating (positive displacement; high pressure, low flow) and rotary (Roots blower, vane, screw – positive displacement; centrifugal & axial – dynamic; high flow).
+F: Work (single stage, polytropic, no clearance) W = (n/(n−1)) p₁V₁ [(p₂/p₁)^((n−1)/n) − 1]
+F: Isothermal work W_iso = p₁V₁ ln(p₂/p₁) (minimum work)
+F: Isothermal efficiency = isothermal work / actual work
+F: Volumetric efficiency ηv = 1 + C − C (p₂/p₁)^(1/n)  (C = clearance ratio Vc/Vs)
+F: Multistage with perfect intercooling: optimum intermediate pressure p₂ = √(p₁p₃) (2-stage);  pressure ratio per stage = (p_final/p₁)^(1/stages);  work equal in each stage
+- Volumetric efficiency decreases as clearance or pressure ratio increases. Max pressure ratio for zero ηv: (1 + 1/C)^n.
+- Multistaging advantages: less work (closer to isothermal), better ηv, lighter cylinders, lower delivery temperature, better lubrication.
+- Free air delivery (FAD): volume delivered referred to atmospheric (intake) conditions.
+- Centrifugal compressor: impeller + diffuser; slip factor, power input factor; surging (unstable flow at low mass flow) and choking (max flow when Mach = 1). Axial compressor: high efficiency, many stages, used in gas turbines/jet engines; degree of reaction usually 50%.
+- Roots blower: no internal compression (efficiency drops at high pressure ratio). Vane compressor has internal compression.
+PYQ-TREND: Isothermal compression requires minimum work. Intermediate pressure √(p₁p₃). Effect of clearance on volumetric efficiency. Surging and choking in centrifugal compressors. FAD definition. Roots blower has no internal compression.
+
+## 8.8 Gas Turbines & Jet Propulsion
+- Open cycle vs closed cycle gas turbines. Components: compressor, combustion chamber, turbine. Compressor consumes 50–60% of turbine work.
+- Turbojet, turbofan (bypass – higher propulsive efficiency, quieter – modern airliners), turboprop (low speed aircraft), ramjet (no compressor; needs initial velocity), pulsejet (V-1 bomb), rocket (carries its own oxidiser – works in vacuum).
+F: Thrust F = ṁ (Vj − Va);  propulsive efficiency ηp = 2Va/(Va + Vj)
+PYQ-TREND: Ramjet has no moving parts and cannot start from rest. Rocket carries oxidiser. Propulsive efficiency formula. Turbofan has higher propulsive efficiency.
+
+Q: Why is the Rankine cycle used in steam power plants instead of the Carnot cycle? Explain methods of improving Rankine efficiency.
+The Carnot cycle with wet steam needs compression of a two-phase mixture up to saturated liquid. This is difficult to control and needs a large compressor. Its work ratio is very low, and superheating at constant temperature is impractical. Rankine condenses the steam completely, so a small pump handles liquid; the work ratio is near 1 and the plant is simpler. Efficiency improves by raising the mean temperature of heat addition (higher boiler pressure, superheating, reheating, regenerative feed heating) or lowering the condenser temperature (better vacuum). Reheating mainly keeps the exhaust steam dry. Regeneration gives the biggest practical rise in cycle efficiency.

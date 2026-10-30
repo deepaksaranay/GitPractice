@@ -1,0 +1,143 @@
+# Manufacturing I – Casting, Welding, Forming
+
+## 12.1 Casting – Patterns
+- Casting: molten metal poured into a mould cavity and allowed to solidify. Sand casting is the most widely used process.
+- Pattern materials: wood (teak, pine – cheap, small runs), metal (aluminium, CI – mass production), plastic, wax (investment casting), plaster, polystyrene (full mould / lost foam).
+| Pattern allowance | Purpose / fact |
+| Shrinkage (contraction) | Liquid-to-solid and solid contraction; CI ≈ 10 mm/m (lowest due to graphite expansion), steel ≈ 20 mm/m, brass ≈ 15 mm/m. Pattern made larger |
+| Machining (finish) | Extra material for machining; more for CI & large castings |
+| Draft (taper) | 1–3° on vertical faces for easy withdrawal; more on inner surfaces |
+| Distortion (camber) | For U/V shaped castings that warp during cooling |
+| Shake (rapping) | Negative allowance – pattern made smaller as the cavity enlarges on rapping |
+- Only the shake allowance is negative.
+- Pattern types: single piece, split (two-piece – most common), loose piece, match plate (mass production with moulding machines), gated, sweep (large symmetrical – bells), skeleton (large castings), cope & drag, follow board, segmental.
+- Pattern colour code: black – surfaces to be left unmachined; red – to be machined; yellow – core prints; red stripes on yellow – loose pieces.
+- Core: placed in mould to form internal cavities. Core prints support cores. Chaplets support cores where prints are not possible (they fuse into casting). Chills increase cooling rate locally (directional solidification).
+- Core sand binders: linseed oil, dextrin, molasses, resin (CO₂ process uses sodium silicate hardened by CO₂ gas).
+PYQ-TREND: Shake allowance is negative. Draft allowance purpose. CI has the least shrinkage. Match-plate pattern for mass production. Chaplets support cores. Colour code of patterns. Sweep pattern for bells/large symmetrical castings.
+
+## 12.2 Moulding Sand and Gating
+- Green sand: silica sand + clay (bentonite 5–10%) + water (2–8%). Dry sand moulds baked for strength. Loam sand (50% clay) for large castings. Facing sand (in contact with casting), backing/floor sand, parting sand (to prevent sticking).
+- Properties: refractoriness, permeability (escape of gases), green & dry strength, cohesiveness, adhesiveness, flowability, collapsibility (for contraction of casting), thermal stability.
+F: Permeability number = V H / (p A t)  (V = 2000 cm³ air, H height of specimen, p pressure in g/cm², A area, t time in min)
+- AFS grain fineness number. Standard specimen 50.8 mm dia × 50.8 mm height (2 in × 2 in).
+- Gating system: pouring basin → sprue (tapered to avoid aspiration) → sprue well → runner → ingates → mould cavity. Riser supplies molten metal during solidification shrinkage.
+F: Sprue taper (continuity): A₁/A₂ = √(h₂/h₁)
+F: Gating ratio sprue : runner : ingate = 1:2:2 (unpressurised, Al) or 1:0.75:0.5 (pressurised, ferrous)
+F: Pouring time (top gate) t = A_m h_m / (A_g √(2g h_t));  bottom gate t = 2A_m(√h_t − √(h_t − h_m))/(A_g√(2g))
+F: Chvorinov's rule: solidification time t_s = B (V/A)^n, n ≈ 2
+- Riser must solidify after the casting: (V/A)_riser > (V/A)_casting. Optimum riser shape: cylinder with H = D (sphere best theoretically). Blind risers and open risers; exothermic sleeves/insulation help.
+- Directional solidification: from far end toward the riser – use chills, padding, correct riser location.
+- Top gate: fast filling, turbulence/erosion. Bottom gate: smooth but unfavourable temperature gradient. Parting-line gate: compromise.
+PYQ-TREND: Chvorinov's rule (t ∝ (V/A)²) – most frequent casting question. Riser with H = D. Sprue tapered to avoid aspiration. Bentonite as binder. Permeability number formula. Collapsibility prevents hot tears. Gating ratio pressurised vs unpressurised.
+
+## 12.3 Special Casting Processes
+| Process | Key features / products |
+| Shell moulding (Croning) | Resin-bonded sand shell on heated metal pattern; good finish & accuracy; crankshafts, camshafts |
+| Investment (lost wax) | Wax pattern + ceramic slurry; best finish, complex shapes, high melting alloys; turbine blades, jewellery, dental |
+| Permanent mould (gravity die) | Metal mould, non-ferrous; pistons |
+| Pressure die casting – hot chamber | Zn, Sn, Pb (low MP); fast; gooseneck |
+| Pressure die casting – cold chamber | Al, Mg, Cu alloys (higher MP) |
+| Centrifugal casting – true | Hollow symmetric parts without core: pipes, liners |
+| Semi-centrifugal | Symmetric solid parts – wheels, pulleys |
+| Centrifuge casting | Small non-symmetric parts arranged around a sprue |
+| Slush casting | Hollow decorative items – toys, lamp bases (low MP alloys) |
+| Continuous casting | Billets, slabs, blooms directly from molten steel |
+| CO₂ moulding | Sodium silicate + CO₂ hardening; cores and moulds |
+| Full mould / lost foam (EPC) | Polystyrene pattern vaporises; no parting line |
+| Squeeze casting | Combination of casting and forging |
+| Plaster mould | Non-ferrous, good finish |
+PYQ-TREND: Hot chamber for Zn (low MP), cold chamber for Al. Investment casting for turbine blades, best finish. True centrifugal casting for pipes (no core). Slush casting for hollow ornaments. Shell moulding (Croning process).
+
+## 12.4 Casting Defects
+| Defect | Cause / description |
+| Blow holes | Gas entrapment – low permeability, excess moisture; smooth rounded cavities below surface |
+| Pin holes | Small gas holes from dissolved gases (hydrogen) |
+| Porosity | Gas or shrinkage |
+| Shrinkage cavity | Insufficient feeding (riser) |
+| Hot tear (pull) | Restricted contraction (low collapsibility) while metal weak at high temperature |
+| Cold shut | Two streams of metal meeting without fusing (low fluidity/temperature) |
+| Misrun | Metal solidifies before filling cavity |
+| Scab / rat tail / buckle | Sand expansion – patch of sand breaks away |
+| Swell | Mould wall enlarges under metallostatic pressure (soft ramming) |
+| Drop | Portion of cope sand falls into cavity |
+| Mould shift / core shift | Misalignment of cope & drag / core |
+| Fins (flash) | Metal enters parting gaps |
+| Fusion | Sand fuses to casting (low refractoriness) |
+| Metal penetration | Metal enters sand grains (coarse sand, high permeability) |
+| Inclusions | Slag/sand particles |
+| Run out | Metal leaks out of mould |
+PYQ-TREND: Cold shut vs misrun. Blow hole due to low permeability/high moisture. Hot tear due to poor collapsibility. Scab from sand expansion. Swell due to soft ramming.
+
+## 12.5 Welding – Fundamentals and Arc Welding
+- Welding: permanent joining by heat with or without pressure and filler. Fusion welding (gas, arc, thermit, EB, laser) vs solid-state (forge, friction, ultrasonic, explosive, diffusion, cold).
+| Process | Key facts |
+| SMAW (MMA, stick) | Flux-coated consumable electrode; flux gives shielding gas + slag; most versatile |
+| GTAW (TIG) | Non-consumable tungsten electrode; inert gas (Ar/He); thin sheets, Al, Mg, stainless; DCSP for steel, AC for Al (cleaning action) |
+| GMAW (MIG/MAG) | Consumable bare wire electrode fed continuously; inert (MIG) or active CO₂ (MAG); DCRP |
+| SAW (submerged arc) | Arc under granular flux; deep penetration, high deposition, flat position only, thick plates, ship building |
+| Electroslag (ESW) | Vertical, very thick plates (>50 mm); resistance heating of molten slag |
+| Plasma arc (PAW) | Constricted arc, very high temperature (~33,000 °C), keyhole mode |
+| Atomic hydrogen | Arc between two tungsten electrodes in H₂; molecular H₂ dissociates and recombines releasing heat |
+| Stud welding | Studs to plates |
+- Polarity (DC): DCSP/DCEN (electrode −ve, work +ve) – 2/3 heat at work → deeper penetration, faster; DCRP/DCEP (electrode +ve) – more heat at electrode → used for thin sheets, non-ferrous, and gives cleaning action (oxide removal) in Al.
+F: Heat input H = η V I / v  (J/mm);  arc length ≈ electrode diameter
+F: Arc voltage V = a + b·l (Ayrton equation);  arc power maximum when the arc characteristic and power source characteristic are tangent
+- Power source characteristics: drooping/constant current (SMAW, TIG – arc length changes little affect current) and constant voltage/flat (MIG, SAW – self-regulating arc).
+- Electrode coating functions: arc stabilisation (potassium/sodium silicate), shielding gas (cellulose), slag formation (deoxidisers, ferro-manganese), alloying. Electrode classification E-6013: E – electrode, 60 – tensile strength 60 ksi, 1 – all positions, 3 – coating/current type.
+PYQ-TREND: TIG uses non-consumable tungsten electrode, MIG uses consumable wire. DCSP gives deeper penetration. AC used for aluminium in TIG. SAW only in flat position. Atomic hydrogen welding principle. Electrode coating functions.
+
+## 12.6 Gas, Resistance & Other Welding
+- Oxy-acetylene: hottest flame ≈ 3200–3300 °C (inner cone tip). Flames: neutral (O₂ : C₂H₂ = 1:1; steel, CI, Cu, Al), oxidising (excess O₂; brass, bronze – hottest), carburising/reducing (excess acetylene; high-carbon steel, Monel, non-ferrous like Ni, hard-facing).
+- Acetylene is stored dissolved in acetone in cylinders (porous filler); max pressure 15 psi (≈ 1 bar) free acetylene. Cylinder colours: oxygen black, acetylene maroon (India).
+- Leftward (forehand) welding for thin plates (< 5 mm); rightward (backhand) for thick.
+- Resistance welding: H = I²Rt; high current, low voltage; spot (sheet metal, car bodies), seam (leak-tight containers, fuel tanks), projection, butt, flash butt (rails, pipes), percussion. Electrodes of copper alloys (Cu–Cr, Cu–W).
+- Thermit welding: Al powder + iron oxide → exothermic (~2500 °C); repair of rails, heavy sections.
+- Solid-state: friction welding (rotating, dissimilar metals – aluminium to steel), friction stir welding (non-consumable rotating tool – Al alloys), ultrasonic (foils, wires, electronics), explosive (cladding), diffusion (aerospace), forge welding (blacksmith).
+- High energy: electron beam (vacuum needed, deep narrow welds, high depth-to-width ratio), laser beam (no vacuum, small HAZ).
+- Soldering (< 450 °C filler, Sn–Pb; base metal not melted), brazing (> 450 °C filler like brass, below base metal MP; capillary action), braze welding (filler deposited like welding, no capillary action).
+- Welding defects: porosity, slag inclusion, lack of fusion, incomplete penetration, undercut, overlap, cracks (hot & cold – hydrogen induced), spatter, distortion.
+- HAZ: region of base metal whose microstructure changes but does not melt.
+- Weldability: low-carbon steel best; high carbon/CI difficult (preheat). Carbon equivalent CE = C + Mn/6 + (Cr+Mo+V)/5 + (Ni+Cu)/15; CE < 0.4 → good weldability.
+PYQ-TREND: Neutral flame for most metals; oxidising for brass; carburising for high-carbon steel/Monel. Spot welding for car bodies; seam for tanks; flash butt for rails. Thermit welding for rails. Soldering vs brazing temperature 450 °C. Acetylene dissolved in acetone. Electron beam needs vacuum. Friction welding for dissimilar metals.
+
+## 12.7 Metal Forming
+- Hot working: above recrystallisation temperature (≈ 0.4–0.5 Tm in K) – no strain hardening, lower forces, poor finish & tolerance, oxidation, grain refinement. Cold working: below recrystallisation – strain hardening, better finish & accuracy, higher strength, needs more force, lower ductility. Warm working in between.
+- Recrystallisation temperature: lead and tin below room temperature (so working at room temperature is hot working for Pb); steel ≈ 500–700 °C.
+### Rolling
+F: Max reduction (draft) Δh_max = μ²R;  bite condition μ ≥ tan α;  contact length L = √(RΔh)
+F: Neutral (no-slip) point: roll velocity = strip velocity; forward slip ahead of it
+F: Roll separating force F ≈ L w σ_avg;  torque per roll T ≈ F·L/2;  power (both rolls) = 2 × T × ω
+- Mills: two-high, three-high, four-high (small work rolls backed by large backup rolls – reduce deflection), cluster (Sendzimir – very thin foils), tandem, planetary.
+- Ring rolling, thread rolling (stronger threads – grain flow), Mannesmann process (piercing seamless tubes).
+- Rolling defects: wavy edges (roll bending), zipper cracks, edge cracks, alligatoring.
+### Forging
+- Open die (smith), closed (impression) die, drop forging (hammer), press forging (slow squeeze – deeper penetration), upset forging (heading – bolts), roll forging, swaging, rotary swaging.
+- Forging operations: fullering (reduce cross-section, spreading), edging, drawing out, upsetting, bending, punching, cogging, swaging, flattening.
+- Flash and gutter in closed-die forging; flash ensures die filling.
+F: Forging force (cylinder, sticking/friction): F = σ_f π r² (1 + 2μr/(3h))
+### Extrusion
+- Direct (forward – billet moves with ram, more friction), indirect (backward – less force), impact (toothpaste tubes, collapsible tubes; Pb, Sn, Al), hydrostatic (brittle materials), cold extrusion.
+F: Extrusion force F = A₀ σ_f ln(A₀/A_f) × k (ideal);  extrusion ratio R = A₀/A_f
+- Defects: centre burst (chevron), piping (tailpipe/fishtailing), surface cracking (speckle).
+### Drawing
+- Wire drawing (pull through die), tube drawing (mandrel/plug), deep drawing (cup).
+F: Max reduction per pass in wire drawing (ideal, no friction): ln(A₀/A_f) = 1 → 63%
+- Lubricants: soap, borax; patenting heat treatment for high-carbon wire.
+### Sheet metal operations
+F: Blanking/punching force F = L t τ  (L = perimeter, τ = shear strength)
+F: Clearance (per side) c = 0.0032 t √τ  (Indian texts) – typically 2–8% of t
+- Blanking: die size = blank size, clearance on punch. Punching (piercing): punch size = hole size, clearance on die.
+- Shear provided on punch/die reduces force (punch for punching, die for blanking).
+F: Deep drawing: blank diameter D = √(d² + 4dh);  limiting draw ratio LDR ≈ 2 (max D/d)
+- Spring-back: elastic recovery after bending; compensated by overbending. Bending allowance BA = α(R + kt).
+- Other: coining (closed die, fine detail – coins, medals; no flash), embossing (raised design, thin sheet – both sides), lancing, notching, nibbling, perforating, trimming, shaving, spinning, hydroforming, stretch forming, explosive forming, electromagnetic forming.
+- Presses: progressive die (several operations at successive stations), compound die (several operations at one station, one stroke), combination die (cutting + non-cutting at one station).
+PYQ-TREND: Hot vs cold working definitions via recrystallisation temperature. Max draft μ²R. Four-high mill backup rolls. Mannesmann for seamless tubes. Clearance on punch for blanking and on die for punching – very frequent. Blanking force Ltτ. Compound vs progressive die. Impact extrusion for collapsible tubes. Coining vs embossing. Thread rolling gives stronger threads. Lead worked at room temperature is hot working.
+WARN: "Blanking – desired part is the blank, so die = blank size". "Punching – desired part is the sheet with hole, so punch = hole size". Students mix these up most often.
+
+## 12.8 Powder Metallurgy
+- Steps: powder production (atomisation – most common, reduction, electrolysis, crushing), blending, compacting (green compact), sintering (below melting point of main constituent, 70–90% of Tm, protective atmosphere), secondary operations (sizing, coining, infiltration, impregnation).
+- Products: self-lubricating porous bronze bearings (oil impregnated), cemented carbide tools (WC + Co binder), filters, friction materials, tungsten filaments, magnets.
+- Advantages: near net shape, minimal waste, controlled porosity, materials that can't be cast (refractory metals). Limitations: high powder cost, size limits, lower strength/ductility.
+PYQ-TREND: Sintering is done below melting point. Self-lubricating bearings by PM. Cemented carbide with cobalt binder. Atomisation for powder production.

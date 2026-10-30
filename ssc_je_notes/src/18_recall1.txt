@@ -1,0 +1,211 @@
+# PYQ Concept Recall Bank – Part A
+Each row is a concept SSC JE has examined repeatedly, written as a short question with a crisp answer. Cover the right column and test yourself. This is active recall, not MCQ practice.
+
+## A1. Engineering Mechanics
+| Concept question | Answer |
+| What is the principle of transmissibility? | A force can be shifted along its line of action without changing its external effect on a rigid body |
+| What is the resultant of two equal forces P at 120°? | P |
+| When is the resultant of two forces maximum? | When they are collinear and in the same direction (θ = 0°) |
+| What does Lami's theorem need? | Exactly three coplanar, concurrent forces in equilibrium |
+| What does Varignon's theorem state? | The moment of the resultant equals the sum of moments of the components |
+| Can a couple be balanced by a single force? | No – only by an equal and opposite couple |
+| What is the angle of repose? | Equal to the angle of friction φ |
+| Does friction depend on contact area? | No (dry friction is independent of apparent area) |
+| Least force to drag a body on a rough horizontal plane? | W sin φ, applied at angle φ to the horizontal |
+| Condition for a self-locking screw? | φ > α (friction angle exceeds helix angle); η < 50% |
+| Max efficiency of a screw jack? | (1 − sin φ)/(1 + sin φ) |
+| Centroid of a triangle from base? | h/3 |
+| Centroid of a semicircular area from diameter? | 4r/(3π) |
+| CG of a solid cone from base? | h/4 |
+| CG of a solid hemisphere from flat face? | 3r/8 |
+| MOI of a rectangle about base? | bd³/3 |
+| MOI of a triangle about centroidal axis ∥ base? | bh³/36 |
+| Polar MOI of a solid circle? | πd⁴/32 |
+| What is the perpendicular axis theorem valid for? | Plane laminae only: Izz = Ixx + Iyy |
+| Mass MOI of a solid sphere about diameter? | 2mR²/5 |
+| Projection angle for maximum range? | 45° |
+| Relation between H and R at θ = 45°? | H = R/4 |
+| Apparent weight in a lift accelerating upward? | m(g + a) |
+| Apparent weight in free fall? | Zero |
+| What does D'Alembert's principle introduce? | An inertia force (−ma) to convert dynamics into statics |
+| Coefficient of restitution for a perfectly plastic impact? | e = 0 |
+| Equal masses in elastic head-on collision? | They exchange velocities |
+| Bounce height for coefficient e? | e² × drop height |
+| Which rolls down an incline fastest? | Solid sphere (smallest k²/r²) |
+| Condition for a machine to be reversible? | η > 50% |
+| Velocity ratio of the 1st system of pulleys (n movable)? | 2ⁿ |
+| Velocity ratio of a Weston differential pulley? | 2D/(D − d) |
+| Unit of impulse? | N·s (same as momentum) |
+| Rotational KE? | ½ Iω² |
+| Equivalent stiffness of springs in series? | 1/k = 1/k₁ + 1/k₂ |
+
+## A2. Strength of Materials
+| Concept question | Answer |
+| Where does necking begin on the σ–ε curve? | At the ultimate stress point |
+| What is toughness? | Energy absorbed up to fracture (area under the full σ–ε curve) |
+| What is the modulus of resilience? | Strain energy per unit volume up to elastic limit, σ²/2E |
+| Relation between E, G and μ? | E = 2G(1 + μ) |
+| Relation between E, K and μ? | E = 3K(1 − 2μ) |
+| Max Poisson's ratio for isotropic materials? | 0.5 |
+| Poisson's ratio of cork? | ≈ 0 |
+| Independent elastic constants for an isotropic material? | 2 |
+| Elongation of a bar under self-weight? | WL/2AE (half that due to the same end load) |
+| Thermal stress in a fully restrained bar? | EαΔT, independent of length and area |
+| Stress under a suddenly applied load? | 2P/A |
+| Elongation of a tapered circular rod? | 4PL/(πEd₁d₂) |
+| BMD shape under UDL? | Parabolic |
+| SFD shape under UVL? | Parabolic |
+| Where is BM maximum? | Where SF is zero or changes sign |
+| What is a point of contraflexure? | Where BM changes sign |
+| Max BM, SS beam, UDL? | wL²/8 |
+| Max deflection, SS beam, central load? | WL³/48EI |
+| Max deflection of a cantilever with UDL? | wL⁴/8EI |
+| Deflection ratio fixed : SS beam under UDL? | 1 : 5 |
+| Prop reaction of a propped cantilever under UDL? | 3wL/8 |
+| Bending equation? | M/I = σ/y = E/R |
+| Section modulus of a rectangle? | bd²/6 |
+| Strongest rectangular beam from a log: d/b? | √2 |
+| τ_max/τ_avg for a rectangle? | 1.5 |
+| τ_max/τ_avg for a circle? | 4/3 |
+| Torsion equation? | T/J = τ/r = Gθ/L |
+| Power transmitted by a shaft? | 2πNT/60 |
+| Hollow vs solid shaft of the same weight? | Hollow is stronger and stiffer |
+| Equivalent torque under combined loading? | √(M² + T²) |
+| Planes of max shear relative to principal planes? | At 45° |
+| Mohr's circle for pure shear? | Centre at origin, radius τ |
+| Failure theory for ductile materials? | Distortion energy (von Mises) |
+| Shape of Tresca in σ₁–σ₂ space? | Hexagon |
+| Shear yield by von Mises? | 0.577 σy |
+| Le for a column with both ends fixed? | L/2 |
+| Buckling load ratio fixed-fixed : fixed-free? | 16 : 1 |
+| Middle-third rule? | Load within b/6 of the centroid causes no tension |
+| Core of a circular section? | Circle of diameter d/4 |
+| Hoop vs longitudinal stress in a thin cylinder? | Hoop = 2 × longitudinal |
+| Stress in a thin sphere? | pd/4t |
+| When is a cylinder thin? | d/t > 20 |
+| Where is hoop stress max in a thick cylinder? | At the inner surface |
+| Stiffness of a close-coiled spring? | Gd⁴/(8D³n) |
+| Stiffness when a spring is cut in half? | Doubles |
+| Stress in a leaf spring? | 3WL/(2nbt²) |
+
+## A3. Theory of Machines
+| Concept question | Answer |
+| Is a ball bearing a lower or higher pair? | Higher pair (point contact) |
+| Is a nut and bolt a lower or higher pair? | Lower pair (screw pair) |
+| What is a cam & follower pair? | Higher pair, force-closed |
+| Grübler's criterion for planar mechanisms? | 3n − 2j − 4 = 0 |
+| Kutzbach equation? | F = 3(n − 1) − 2j − h |
+| Grashof condition? | s + l ≤ p + q |
+| Inversions of a 4-bar chain? | Beam engine, coupling rod of locomotive, Watt's indicator |
+| Whitworth QRM is an inversion of? | Single slider crank chain (crank fixed) |
+| Elliptical trammel is an inversion of? | Double slider crank chain |
+| Scotch yoke produces? | Simple harmonic motion |
+| Oldham coupling is used for? | Parallel shafts with small lateral offset |
+| Exact straight-line mechanism? | Peaucellier, Hart, Scott-Russell |
+| Steering used in automobiles? | Ackermann |
+| Condition for correct steering? | cot φ − cot θ = c/b |
+| Number of I-centres for n links? | n(n − 1)/2 |
+| Kennedy's theorem? | Three I-centres of three bodies are collinear |
+| Coriolis component? | 2ωv (sliding on a rotating link) |
+| Which theory is used for clutch design? | Uniform wear |
+| Friction torque of a flat pivot (uniform wear)? | μWR/2 |
+| Belt tension ratio (flat)? | e^(μθ) |
+| Condition for max power in a belt drive? | Tc = T_max/3 |
+| Does centrifugal tension affect power? | No |
+| Crossed belt length depends on? | Sum of pulley radii |
+| What is creep in belts? | Relative motion due to unequal elastic stretching |
+| Law of gearing? | Common normal passes through the pitch point |
+| Module? | D/T |
+| Standard addendum? | 1 module |
+| Min teeth on pinion for a 20° involute (rack)? | 18 (17) |
+| Contact ratio requirement? | > 1 |
+| Gear to eliminate axial thrust? | Herringbone (double helical) |
+| Gear for non-intersecting perpendicular shafts with high reduction? | Worm & worm wheel |
+| Gear in automobile differential? | Hypoid / bevel (epicyclic train) |
+| Function of an idler? | Changes direction, not speed ratio |
+| Height of a Watt governor? | 895/N² m |
+| Isochronous governor? | Same speed at all radii – infinitely sensitive |
+| Hunting? | Continuous oscillation of speed due to over-sensitivity |
+| Spring-loaded governor? | Hartnell |
+| Flywheel controls? | Cyclic speed fluctuation within a cycle |
+| Max fluctuation of energy? | Iω²Cs |
+| Condition for dynamic balance? | Σmr = 0 and Σmrl = 0 |
+| Frequency of secondary unbalanced force? | Twice crank speed |
+| Effects of partial balancing of locomotives? | Hammer blow, swaying couple, variation of tractive effort |
+| Follower motion best for high speed? | Cycloidal |
+| Follower motion with infinite acceleration? | Uniform velocity |
+| Natural frequency from static deflection? | 0.4985/√δ Hz |
+| Critical damping coefficient? | 2√(km) |
+| Damping ratio used in gun recoil? | Critically damped (ζ = 1) |
+| Frequency ratio for isolation? | > √2 |
+| Whirling speed equals? | Natural transverse frequency of the shaft |
+
+## A4. Machine Design
+| Concept question | Answer |
+| FOS for ductile materials is based on? | Yield strength |
+| Kt for a small circular hole in a plate? | 3 |
+| Notch sensitivity of cast iron? | ≈ 0 (insensitive) |
+| Endurance limit of steel ≈? | 0.5 × UTS |
+| Most conservative fatigue line? | Soderberg |
+| Goodman line joins? | Se and Sut |
+| Process that improves fatigue life? | Shot peening |
+| Unwin's formula? | d = 6√t |
+| Riveting operations for leak-proofing? | Caulking and fullering |
+| Throat of a fillet weld? | 0.707 × leg |
+| Thread for power transmission with max efficiency? | Square |
+| Lead screw thread of a lathe? | Acme (29°) |
+| Thread for unidirectional thrust? | Buttress |
+| Metric thread angle? | 60° |
+| Initial bolt tension (Rotscher)? | 2840d N |
+| Key allowing axial movement? | Feather key |
+| Self-aligning key? | Woodruff key |
+| Width of a sunk key? | d/4 |
+| Length of key for strength equal to shaft? | ≈ 1.5d |
+| Coupling for angular misalignment? | Universal (Hooke's) |
+| What is an axle mainly subjected to? | Bending |
+| Ball bearing life equation? | L = (C/P)³ million rev |
+| L₁₀ means? | 90% bearings survive |
+| Bearing for combined radial + axial loads? | Taper roller |
+| Bearing metal of Sn–Sb–Cu? | Babbitt |
+| Is the Sommerfeld number dimensional? | No (dimensionless) |
+| Lewis equation assumption? | Tooth is a cantilever with load at tip |
+| Most common surface failure of gears? | Pitting |
+| Spring index range? | 4–12 |
+| What is surge in springs? | Resonance of coils with the exciting frequency |
+| Cotter joint used for? | Axial loads (piston rod & crosshead) |
+| Knuckle joint pin is in? | Double shear |
+| Preferred number series ratio R10? | 1.25 (10^(1/10)) |
+
+## A5. Thermodynamics
+| Concept question | Answer |
+| Is a turbine an open or closed system? | Open |
+| Is pressure intensive or extensive? | Intensive |
+| Is heat a property? | No – path function |
+| Basis of temperature measurement? | Zeroth law |
+| Temperature equal in °C and °F? | −40 |
+| Work done in free expansion? | Zero |
+| Polytropic index for an isothermal process? | n = 1 |
+| Which curve is steeper on p–V: isothermal or adiabatic? | Adiabatic (γ times) |
+| PMM-1 violates? | First law |
+| PMM-2 violates? | Second law (Kelvin–Planck) |
+| Internal energy of an ideal gas depends on? | Temperature only |
+| Throttling process? | Isenthalpic (h₁ = h₂) |
+| Joule–Thomson coefficient of an ideal gas? | Zero |
+| Carnot efficiency depends on? | Reservoir temperatures only |
+| COP_HP − COP_R? | 1 |
+| Reversible adiabatic process? | Isentropic |
+| Entropy of an isolated system? | Never decreases |
+| Which is steeper on T–s: isochor or isobar? | Isochor |
+| Unavailable energy? | T₀ΔS |
+| Gouy–Stodola theorem? | I = T₀ ΔS_gen |
+| Critical point of water? | 221.2 bar, 374.15 °C |
+| Latent heat at critical point? | Zero |
+| Dryness measurement for very wet steam? | Combined separating & throttling calorimeter |
+| Degrees of freedom at the triple point? | 0 |
+| Van der Waals constant 'a' accounts for? | Intermolecular attraction |
+| Compressibility factor for an ideal gas? | 1 |
+| Clausius–Clapeyron equation relates? | Saturation slope to latent heat |
+| Third law? | Entropy of a perfect crystal at 0 K is zero |
+| Intermediate temperature for equal efficiency of engines in series? | √(T₁T₂) |
+| cp − cv for an ideal gas? | R |
+| γ for monatomic gas? | 1.67 |

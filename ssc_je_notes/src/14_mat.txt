@@ -1,0 +1,121 @@
+# Engineering Materials & Heat Treatment
+
+## 14.1 Crystal Structure
+| Structure | Atoms/unit cell | Coordination no. | APF | Examples |
+| Simple cubic (SC) | 1 | 6 | 0.52 | Polonium |
+| BCC | 2 | 8 | 0.68 | α-Fe (ferrite), Cr, W, Mo, V, Na |
+| FCC | 4 | 12 | 0.74 | γ-Fe (austenite), Al, Cu, Ni, Ag, Au, Pb |
+| HCP | 6 | 12 | 0.74 | Zn, Mg, Ti (α), Cd, Be, Co |
+F: BCC: a = 4r/√3;  FCC: a = 2√2 r = 4r/√2
+- FCC metals are most ductile (12 slip systems on close-packed planes {111}). BCC has 48 slip systems but not close packed → ductile-to-brittle transition. HCP has few slip systems (3) → less ductile.
+- Miller indices: reciprocals of intercepts, cleared of fractions. Close-packed plane FCC {111}, BCC {110}.
+- Imperfections: point (vacancy, interstitial, substitutional, Frenkel, Schottky), line (edge & screw dislocations – Burgers vector perpendicular to line in edge, parallel in screw), surface (grain boundaries, twin boundaries, stacking faults), volume (voids, inclusions).
+- Plastic deformation occurs by slip (dislocation movement) and twinning. Strengthening: grain refinement (Hall–Petch σy = σ₀ + k d^(−1/2)), solid solution, strain hardening, precipitation hardening, dispersion.
+- Allotropy (polymorphism): iron – δ-Fe (BCC, 1394–1539 °C), γ-Fe (FCC, 910–1394 °C), α-Fe (BCC, < 910 °C). Curie temperature of iron 768 °C (magnetic change, no structure change).
+PYQ-TREND: APF of FCC/HCP 0.74, BCC 0.68. Number of atoms per unit cell. Coordination numbers. Examples of BCC/FCC/HCP metals. Allotropic temperatures of iron. Edge vs screw dislocation Burgers vector. Hall–Petch relation.
+
+## 14.2 Iron–Carbon Equilibrium Diagram
+FIG: fec
+| Reaction | Temp & %C | Equation |
+| Peritectic | 1495 °C, 0.16–0.18% C | L + δ → γ |
+| Eutectic | 1147 °C (1130–1148), 4.3% C | L → γ + Fe₃C (ledeburite) |
+| Eutectoid | 723 °C (727), 0.8% C (0.76–0.8) | γ → α + Fe₃C (pearlite) |
+- Max solubility of C: in α-ferrite 0.025% (at 723 °C), in austenite 2.0–2.11% (at 1147 °C), in δ-ferrite 0.1%.
+- Phases/micro-constituents: ferrite (soft, ductile, BCC), austenite (FCC, non-magnetic, stable above 723 °C in plain steel), cementite (Fe₃C, 6.67% C, hardest & brittle, orthorhombic), pearlite (lamellar ferrite + cementite – 87.5% ferrite), ledeburite (eutectic mixture).
+- Steels: < 2% C. Hypoeutectoid < 0.8% (ferrite + pearlite), eutectoid 0.8% (100% pearlite), hypereutectoid 0.8–2% (pearlite + cementite). Cast iron: 2–6.67% C (practically 2–4%).
+- Critical temperatures: A₁ (lower critical, 723 °C), A₃ (upper for hypoeutectoid), A_cm (for hypereutectoid).
+PYQ-TREND: Eutectoid at 723 °C & 0.8% C giving pearlite; eutectic at 1147 °C & 4.3% C giving ledeburite. Cementite 6.67% C. Max carbon in austenite 2%. Peritectic reaction equation. Steel/cast iron carbon limits. Austenite is FCC and non-magnetic. Lever rule for phase fractions.
+TIP: Lever rule: % pearlite in a 0.4% C steel ≈ (0.4 − 0.025)/(0.8 − 0.025) × 100 ≈ 48% (≈ 50%). For quick work, % pearlite ≈ (%C/0.8) × 100.
+
+## 14.3 Steels and Cast Irons
+- Plain carbon steels: dead mild (< 0.15% C – wires, sheets), low carbon/mild (0.15–0.3% C – structural, bolts), medium (0.3–0.6% – rails, axles, shafts, gears), high carbon (0.6–1.5% – tools, springs, files, razors).
+- Alloying effects: Ni – toughness, corrosion resistance, austenite stabiliser. Cr – hardness, corrosion resistance (> 12% stainless), carbide former. Mn – hardenability, deoxidiser, counters S (hot shortness); Hadfield steel 12–14% Mn (wear resistant – crusher jaws, rails crossings, work-hardening). Mo – reduces temper embrittlement, high-temp strength. W – hot hardness (tool steels). V – grain refinement, hot hardness. Si – deoxidiser, electrical (transformer) steel, spring steel. Co – only element that decreases hardenability (in HSS raises hot hardness). S & P – impurities (S → hot shortness, P → cold shortness); S & Pb added for free cutting.
+- Stainless steels: ferritic (Cr only, magnetic), martensitic (Cr + higher C, hardenable – cutlery, surgical), austenitic (18-8: 18% Cr, 8% Ni, non-magnetic, most corrosion resistant – kitchen, chemical), duplex, precipitation hardening (17-4 PH). Sensitisation (weld decay) – Cr carbide at grain boundaries in 18-8 steel at 500–800 °C; prevented with low C (304L) or stabilisers (Ti, Nb – 321, 347).
+- Designation IS: 40C8 → 0.40% C, 0.8% Mn (approx. 0.6–0.9). AISI 1040 → plain carbon 0.40% C. Alloy steel 35Ni1Cr60: 0.35% C, 1% Ni, 0.6% Cr.
+| Cast iron | Graphite form / properties / uses |
+| Grey CI | Graphite flakes; good damping & machinability, compressive strength, brittle; machine beds, engine blocks |
+| White CI | Carbon as cementite (fast cooling, low Si); very hard & brittle; wear parts; base for malleable |
+| Malleable CI | Temper carbon (rosettes) by annealing white CI; ductile; pipe fittings, chains |
+| Nodular (SG/ductile) CI | Spheroidal graphite by Mg/Ce; ductility & strength near steel; crankshafts |
+| Chilled CI | Hard white surface, grey core |
+| Alloy CI (Ni-hard, Ni-resist) | Abrasion/corrosion resistance |
+PYQ-TREND: 18-8 stainless composition (Cr-Ni). Hadfield manganese steel work-hardens. Mg/Ce for SG iron. Grey CI has flake graphite and best damping. Malleable CI by annealing white CI. Hot shortness by S, cold shortness by P. Cr > 12% for stainless. Co decreases hardenability. IS designation 40C8.
+
+## 14.4 Non-Ferrous Metals & Alloys
+| Alloy | Composition | Use |
+| Brass | Cu + Zn (yellow brass 70/30 – cartridge brass; Muntz metal 60/40) | Cartridges, fittings |
+| Bronze | Cu + Sn (phosphor bronze adds P; Al bronze; gun metal 88Cu-10Sn-2Zn) | Bearings, springs, gears |
+| German silver (nickel silver) | Cu + Zn + Ni (no silver) | Utensils, decorative |
+| Monel | Ni (~67%) + Cu (~30%) | Corrosion resistance – marine, chemical |
+| Inconel | Ni + Cr + Fe | High temperature – furnace, jet parts |
+| Nichrome | Ni 80 + Cr 20 | Heating elements |
+| Duralumin | Al + 4% Cu + Mg + Mn | Aircraft (age hardenable) |
+| Y-alloy | Al + Cu + Ni + Mg | Pistons, cylinder heads (high temp) |
+| Babbitt (white metal) | Sn + Sb + Cu (or Pb based) | Bearings |
+| Solder (soft) | Sn + Pb (63/37 eutectic) | Electrical joints |
+| Invar | Fe + 36% Ni | Near-zero thermal expansion – measuring tapes, clocks |
+| Constantan | Cu 55 + Ni 45 | Thermocouples, resistors |
+| Magnalium | Al + Mg | Light structures |
+| Stellite | Co + Cr + W | Cutting tools, valve seats |
+| Alnico | Al + Ni + Co + Fe | Permanent magnets |
+| Hindalium | Al + Mg + Mn + Cr + Si | Utensils |
+| Gun metal | Cu 88 + Sn 10 + Zn 2 | Bearings, valves |
+| Bell metal | Cu 80 + Sn 20 | Bells |
+PYQ-TREND: Brass = Cu + Zn; bronze = Cu + Sn – the most common facts question. Duralumin composition & aircraft use. German silver has no silver. Invar's low expansion. Monel = Ni + Cu. Babbitt for bearings. Y-alloy for pistons. Gun metal composition.
+
+## 14.5 Heat Treatment
+- Heat treatment: controlled heating & cooling of solid metal to alter properties without changing shape.
+| Process | Procedure | Purpose / result |
+| Full annealing | Heat 30–50 °C above A₃ (hypo) or A₁ (hyper), slow furnace cooling | Softening, ductility, machinability, relieve stresses, coarse pearlite |
+| Process annealing | Below A₁ (550–650 °C) | Restore ductility between cold-working operations (recrystallisation) |
+| Spheroidising | Long heating just below A₁ | Spheroidal cementite – best machinability of high-C steels |
+| Stress relieving | Below A₁, slow cooling | Remove residual stresses (welding/casting) |
+| Normalising | Heat above A₃/A_cm, air cooling | Grain refinement, uniform fine pearlite; stronger & harder than annealed |
+| Hardening | Heat above A₃ (hypo) or A₁ (hyper), quench in water/oil/brine | Martensite (BCT, hardest & brittle) |
+| Tempering | Reheat hardened steel below A₁ (150–650 °C), cool | Reduce brittleness, relieve stress, gain toughness; low (150–250 °C – tools), medium (350–450 °C – springs), high (500–650 °C – shafts, gears – sorbite) |
+| Austempering | Quench to above Ms, hold isothermally → bainite | Toughness without tempering, less distortion |
+| Martempering (marquenching) | Quench to just above Ms, hold till uniform, then air cool → martensite | Reduces cracking/distortion |
+| Patenting | Austenitise, quench in lead bath ~500 °C → fine pearlite | High-strength wire |
+- Martensite: supersaturated solid solution of carbon in α-iron; BCT structure; forms by diffusionless shear transformation; hardness depends mainly on carbon content.
+- TTT (isothermal transformation) diagram – C-curve; critical cooling rate = minimum rate to avoid nose and get 100% martensite. Products: coarse pearlite (high T) → fine pearlite → upper bainite → lower bainite → martensite (below Ms).
+- Quenching media (severity, decreasing): brine > water > oil > molten salt > air.
+- Hardenability: depth to which steel can be hardened – Jominy end-quench test. Increased by most alloying elements (Mn, Cr, Mo, Ni) and larger grain size; decreased by Co.
+- Retained austenite: reduced by sub-zero (cryogenic) treatment.
+### Surface hardening
+| Process | Medium / temp | Notes |
+| Pack carburising | Charcoal + BaCO₃ energiser, 900–950 °C | Low C steel; case 0.5–2 mm |
+| Gas carburising | CH₄/propane | Mass production |
+| Liquid carburising (cyaniding) | Sodium cyanide bath ~850 °C | C + N; thin case |
+| Carbonitriding | Gas: hydrocarbons + NH₃ (~850 °C) | Thin hard case |
+| Nitriding | NH₃ at 500–550 °C (below A₁); no quench needed | Hardest case, least distortion; alloy steels with Al, Cr, Mo (Nitralloy) |
+| Flame hardening | Oxy-acetylene flame + quench | Medium carbon steel; large parts |
+| Induction hardening | High-frequency current (skin effect) + quench | Medium carbon steel; gears, crankshafts; case depth ∝ 1/√f |
+PYQ-TREND: Normalising = air cooling; annealing = furnace cooling. Martensite is BCT and formed by diffusionless transformation. Jominy test for hardenability. Nitriding is done below the critical temperature with no quench and least distortion. Austempering produces bainite. Induction hardening depth decreases with frequency. Tempering reduces brittleness. Severity of quench order.
+WARN: Carburising adds carbon to low-carbon steel. Flame and induction hardening add nothing; they need a medium-carbon steel that already has enough carbon to harden.
+
+## 14.6 Mechanical Testing
+| Test | Notes |
+| Tensile (UTM) | Gauge length L₀ = 5.65√A₀ (IS); % elongation, % reduction in area |
+| Brinell hardness (BHN) | 10 mm hardened steel/carbide ball, 3000 kgf (steel), 500 kgf (soft); BHN = P/(curved area); UTS (MPa) ≈ 3.45 × BHN |
+| Rockwell | Depth of penetration; B scale (1/16" ball, 100 kgf – soft), C scale (diamond cone 120°, 150 kgf – hard steels); minor load 10 kgf |
+| Vickers (VHN/HV) | Square-based diamond pyramid 136°; all materials; micro-hardness |
+| Knoop | Elongated pyramid; micro-hardness, thin layers, brittle materials |
+| Shore scleroscope | Rebound height – dynamic hardness |
+| Mohs scale | Scratch, 1 (talc) to 10 (diamond) |
+| Izod impact | Cantilever specimen, V-notch facing striker; 2 mm notch; 120 J |
+| Charpy impact | Simply supported specimen, notch away from striker; U or V notch; 300 J |
+| Fatigue | R.R. Moore rotating beam – S–N curve |
+| Creep | Constant load at high temperature: primary, secondary (steady minimum rate – design), tertiary |
+| NDT | Dye penetrant (surface cracks – non-porous), magnetic particle (surface/subsurface – ferromagnetic only), eddy current (conductive), ultrasonic (internal flaws, thickness), radiography (X/γ rays – internal, porosity) |
+PYQ-TREND: Rockwell C uses diamond cone; Vickers 136° pyramid. Izod (cantilever) vs Charpy (simply supported). Creep stages – secondary used for design. NDT method selection (magnetic particle only for ferromagnetic). Mohs scale extremes. Brinell–UTS relation.
+
+## 14.7 Polymers, Ceramics and Composites
+- Thermoplastics (soften on heating, recyclable; linear chains): PE, PP, PVC, PS, nylon, PTFE (Teflon – lowest μ, non-stick), PMMA (acrylic/Perspex – transparent), PC, ABS. Thermosets (cross-linked, set permanently): Bakelite (phenol formaldehyde), epoxy, polyester, urea formaldehyde, melamine. Elastomers: natural rubber, neoprene, silicone; vulcanisation with sulphur.
+- Polymer processing: injection moulding (thermoplastics, mass production), extrusion (pipes, films), blow moulding (bottles), compression & transfer moulding (thermosets), thermoforming, calendering (sheets), rotational moulding (large hollow – tanks).
+- Glass transition temperature Tg: amorphous polymer changes from glassy to rubbery.
+- Ceramics: high hardness, high melting point, brittle, low conductivity: alumina, SiC, Si₃N₄, zirconia.
+- Composites: matrix (polymer, metal, ceramic) + reinforcement (fibres: glass, carbon, Kevlar; particles; laminates). Rule of mixtures: Ec = Ef Vf + Em Vm (longitudinal). Concrete (particulate), wood (natural fibre composite), RCC, GFRP, CFRP.
+PYQ-TREND: Bakelite is a thermoset. PTFE (Teflon) lowest friction. Vulcanisation adds sulphur. Injection moulding for thermoplastics, compression moulding for thermosets. Blow moulding for bottles. Rule of mixtures. Wood is a natural composite.
+
+Q: Draw the iron–carbon equilibrium diagram (steel portion) and explain the eutectoid reaction and microstructure of hypo- and hyper-eutectoid steels on slow cooling.
+On slow cooling, austenite (γ, FCC) of 0.8% C at 723 °C transforms by the eutectoid reaction γ → α + Fe₃C into pearlite, a lamellar mixture of ferrite and cementite. In a hypoeutectoid steel (< 0.8% C), proeutectoid ferrite starts to form at the A₃ line and grows until 723 °C. The remaining austenite, now at 0.8% C, transforms to pearlite, so the final structure is ferrite + pearlite. In a hypereutectoid steel (0.8–2% C), proeutectoid cementite precipitates along austenite grain boundaries from the A_cm line down to 723 °C, then the remaining austenite becomes pearlite. The final structure is pearlite + network of cementite, which is harder and more brittle. Phase proportions come from the lever rule.

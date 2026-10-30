@@ -1,0 +1,147 @@
+# Last-Minute Revision: High-Yield Facts
+
+## 17.1 Units, Constants & Conversions
+| Quantity | Value |
+| g | 9.81 m/s² |
+| Universal gas constant | 8.314 kJ/kmol·K |
+| R (air) | 0.287 kJ/kg·K |
+| cp / cv (air) | 1.005 / 0.718 kJ/kg·K, γ = 1.4 |
+| Stefan–Boltzmann σ | 5.67 × 10⁻⁸ W/m²K⁴ |
+| Wien's constant | 2898 μm·K |
+| Latent heat of steam at 1 atm | 2257 kJ/kg |
+| Latent heat of ice | 335 kJ/kg |
+| cp of water | 4.187 kJ/kg·K |
+| 1 TR | 3.5167 kW = 211 kJ/min |
+| 1 atm | 101.325 kPa = 760 mm Hg = 10.33 m water |
+| 1 hp | 746 W (British), 735.5 W (metric) |
+| 1 kWh | 3600 kJ |
+| 1 poise / 1 stoke | 0.1 Pa·s / 10⁻⁴ m²/s |
+| E steel / CI / Al | 200 / 100–120 / 70 GPa |
+| Critical point water | 221.2 bar, 374.15 °C |
+| Triple point water | 0.01 °C, 0.611 kPa |
+| Speed of sound in air (20 °C) | ≈ 343 m/s |
+| Density mercury | 13,600 kg/m³ |
+
+## 17.2 Number Facts SSC Loves
+| Fact | Value |
+| Le for fixed-free column | 2L |
+| τ_max/τ_avg rectangle / circle | 1.5 / 1.33 |
+| Hoop/longitudinal stress (thin cylinder) | 2 |
+| Critical Re (pipe / plate) | 2000 (2300) / 5 × 10⁵ |
+| Laminar f (Darcy) | 64/Re |
+| KE correction factor laminar pipe | 2 |
+| Max power transmission through pipe | h_f = H/3, η = 66.7% |
+| Max efficiency – jet on series of flat plates | 50% |
+| Pelton jet ratio / speed ratio | ≈ 12 / 0.46 |
+| Critical pressure ratio air / superheated / saturated steam | 0.528 / 0.546 / 0.577 |
+| Parsons turbine reaction | 50% |
+| CR SI / CI | 6–10 / 14–22 |
+| Stoichiometric A/F petrol | 14.7 |
+| Drill point angle | 118° |
+| Thread angle metric / Whitworth / Acme | 60° / 55° / 29° |
+| Pressure angle of gears | 14.5° / 20° |
+| Min teeth (no interference, 20°) | 18 (≈ 17) |
+| Eutectoid / eutectic carbon | 0.8% / 4.3% |
+| Eutectoid / eutectic temperature | 723 °C / 1147 °C |
+| APF of FCC / BCC | 0.74 / 0.68 |
+| Rockwell C indenter | 120° diamond cone, 150 kgf |
+| Vickers indenter | 136° diamond pyramid |
+| Six Sigma defects | 3.4 per million |
+| Control limits | ±3σ (99.73%) |
+| Lumped analysis valid | Bi < 0.1 |
+| Fin worthwhile | Effectiveness > 2 |
+| Vibration isolation | ω/ωn > √2 |
+| Self-locking machine/screw | η < 50% |
+| Max range of projectile | at 45° |
+| Grain size number of grinding wheel (coarse) | 10–24 |
+| Shrinkage allowance of CI | ~10 mm/m (least) |
+
+## 17.3 "Who Said What" (Laws & Persons)
+| Name | Associated with |
+| Hooke | Stress ∝ strain |
+| Euler | Column buckling; turbine equation |
+| Rankine | Column formula (Rankine–Gordon); max principal stress theory; Rankine cycle |
+| Tresca / Guest | Max shear stress theory |
+| von Mises / Hencky | Distortion energy theory |
+| Mohr | Stress circle |
+| Castigliano | Strain energy theorem for deflection |
+| Maxwell | Reciprocal deflection theorem; thermodynamic relations |
+| Grashof | Four-bar rotatability; Grashof number |
+| Kennedy (Aronhold) | Three I-centres theorem |
+| Kutzbach / Grübler | Mobility criterion |
+| Taylor (F.W.) | Tool life equation; scientific management |
+| Merchant | Shear angle relation & force circle |
+| Chvorinov | Solidification time |
+| Bernoulli | Energy equation in fluids |
+| Reynolds | Laminar/turbulent transition |
+| Darcy–Weisbach | Pipe friction loss |
+| Hagen–Poiseuille | Laminar pipe flow |
+| Pascal | Equal pressure transmission |
+| Archimedes | Buoyancy |
+| Prandtl | Boundary layer; mixing length |
+| Froude / Weber / Mach | Dimensionless numbers |
+| Buckingham | π-theorem |
+| Pelton / Francis / Kaplan | Turbines |
+| Carnot | Ideal heat engine cycle |
+| Clausius / Kelvin-Planck | Second law statements |
+| Joule | Mechanical equivalent of heat; free expansion experiment |
+| Otto / Diesel / Brayton | Cycles |
+| Fourier / Newton / Stefan–Boltzmann | Conduction / convection / radiation laws |
+| Kirchhoff / Wien / Planck | Radiation laws |
+| Nusselt / Prandtl / Biot | Dimensionless numbers in HT |
+| Gilbreth | Motion study, therbligs |
+| Gantt | Bar chart |
+| Wilson (Harris) | EOQ formula |
+| Johnson | Sequencing rule |
+| Deming / Juran / Ishikawa / Crosby | Quality gurus (PDCA / trilogy / fishbone / zero defects) |
+| Shewhart | Control charts |
+| Lami | Three concurrent forces in equilibrium |
+| Varignon | Principle of moments |
+| D'Alembert | Inertia force – dynamic equilibrium |
+| Unwin | Rivet diameter 6√t |
+| Lewis | Gear tooth bending strength |
+| Wahl | Spring curvature correction |
+| Soderberg / Goodman / Gerber | Fatigue criteria |
+| Stribeck / McKee | Bearing friction curves |
+| Sommerfeld / Petroff | Journal bearing equations |
+
+## 17.4 Paired Comparisons (Frequent Twisters)
+| A | B |
+| Governor – mean speed (long term) | Flywheel – cyclic fluctuation (within cycle) |
+| Toughness – area under whole curve | Resilience – area up to elastic limit |
+| Hot working – above recrystallisation T | Cold working – below recrystallisation T |
+| Blanking – clearance on punch | Punching – clearance on die |
+| TIG – non-consumable W electrode | MIG – consumable wire |
+| DCSP – deeper penetration | DCRP – cleaning action, thin sheet |
+| Annealing – furnace cooling | Normalising – air cooling |
+| Austempering – bainite | Martempering – martensite with less distortion |
+| Impulse turbine – pressure constant over moving blades | Reaction turbine – pressure drops in moving blades too |
+| Pelton – high head, low Ns | Kaplan – low head, high Ns |
+| Centrifugal pump – priming needed | Reciprocating pump – self-priming |
+| Pumps in series – head adds | Pumps in parallel – discharge adds |
+| Viscosity of liquid ↓ with T | Viscosity of gas ↑ with T |
+| Droplet Δp = 4σ/d | Soap bubble Δp = 8σ/d |
+| Streamline/pathline differ (unsteady) | Same (steady) |
+| Stream function – any 2D incompressible flow | Velocity potential – only irrotational flow |
+| Up milling – chip thickness 0 → max | Down milling – chip thickness max → 0 |
+| Jig – guides tool | Fixture – holds work only |
+| Hole basis – H (preferred) | Shaft basis – h |
+| PERT – probabilistic, event-oriented | CPM – deterministic, activity-oriented |
+| p chart – fraction defective | c chart – number of defects |
+| Producer's risk α – type I error | Consumer's risk β – type II error |
+| SI knocking – end of combustion | CI knocking – beginning of combustion |
+| Octane – iso-octane & n-heptane | Cetane – cetane & α-methyl naphthalene |
+| Quantity governing (SI) | Quality governing (CI) |
+| Fire-tube – Cochran, Lancashire, Locomotive | Water-tube – B&W, La Mont, Benson |
+| Mountings – safety (safety valve, fusible plug) | Accessories – efficiency (economiser, air preheater) |
+| Dropwise condensation – higher h | Filmwise – used for design |
+| Parallel flow HX | Counter flow HX – higher LMTD, more effective |
+| Brass – Cu + Zn | Bronze – Cu + Sn |
+| Thermoplastic – recyclable (PVC, PE) | Thermoset – permanent (Bakelite, epoxy) |
+
+## 17.5 Final 24-Hour Checklist
+- Revise every yellow formula box in Chapters 2, 5, 10 and 11 (highest yield).
+- Revise every blue PYQ-Trend box once, quickly.
+- Revise the tables of 17.2 and 17.4 twice.
+- Don't start new topics. Sleep 7+ hours. Carry admit card and ID, and reach the centre early.
+TIP: In the exam, attempt the facts-based questions first (≈ 30 s each), then formula plug-ins, then the lengthy numericals. With negative marking (−0.25 per wrong answer in recent SSC JE notifications – confirm in yours), skip only questions you have no idea about. Eliminating even two options makes a guess worthwhile.

@@ -1,0 +1,159 @@
+# Fluid Mechanics
+
+## 10.1 Fluid Properties
+- Fluid: a substance that deforms continuously under any shear stress, however small.
+F: Density ρ (kg/m³; water 1000);  specific weight w = ρg (water 9810 N/m³);  specific gravity S = ρ/ρ_water;  specific volume = 1/ρ
+F: Newton's law of viscosity: τ = μ (du/dy)
+F: Kinematic viscosity ν = μ/ρ (m²/s; stoke = 1 cm²/s = 10⁻⁴ m²/s)
+F: Dynamic viscosity unit: N·s/m² = Pa·s = 10 poise;  1 poise = 0.1 Pa·s;  water at 20 °C ≈ 1 cP = 10⁻³ Pa·s
+- Viscosity of liquids decreases with temperature (cohesion reduces). Viscosity of gases increases with temperature (molecular momentum exchange increases).
+| Fluid type | Behaviour (τ vs du/dy) | Example |
+| Ideal | No viscosity, incompressible | Hypothetical |
+| Newtonian | Linear through origin | Water, air, petrol, kerosene |
+| Non-Newtonian – pseudoplastic (shear-thinning) | n < 1 | Blood, paint, polymer solutions, milk |
+| Dilatant (shear-thickening) | n > 1 | Starch in water (oobleck), quicksand, rice starch |
+| Bingham plastic | Yield stress then linear | Toothpaste, sewage sludge, drilling mud |
+| Thixotropic | Viscosity decreases with time of shearing | Printer's ink, lipstick, some paints |
+| Rheopectic | Viscosity increases with time | Gypsum paste, bentonite |
+- Bulk modulus K = −dp/(dV/V); compressibility = 1/K. Water K ≈ 2.1–2.2 GPa. For isothermal gas K = p; adiabatic K = γp.
+F: Surface tension (N/m): pressure inside droplet Δp = 4σ/d;  soap bubble Δp = 8σ/d (two surfaces);  liquid jet Δp = 2σ/d
+F: Capillary rise h = 4σ cosθ/(ρgd)  (water–glass θ ≈ 0 → rise; mercury–glass θ ≈ 130–140° → depression)
+- Cohesion > adhesion → convex meniscus and capillary fall (mercury). Adhesion > cohesion → concave meniscus, capillary rise (water).
+- Vapour pressure: pressure at which liquid boils at a given temperature. Cavitation occurs if local pressure < vapour pressure. Mercury is used in barometers because of very low vapour pressure.
+PYQ-TREND: Viscosity variation with temperature for liquids vs gases (asked almost every year). Non-Newtonian examples (blood – shear-thinning, toothpaste – Bingham). Pressure in soap bubble 8σ/d vs droplet 4σ/d. Capillary rise formula and ∝ 1/d. Unit of kinematic viscosity stoke. Why mercury is used in barometers.
+
+## 10.2 Fluid Statics and Pressure Measurement
+- Pascal's law: pressure at a point in a static fluid is equal in all directions. Hydrostatic law: dp/dz = −ρg → p = ρgh.
+F: 1 atm = 101.325 kPa = 760 mm Hg = 10.33 m of water
+- Manometers: piezometer (cannot measure negative or high pressure, nor gas pressure), simple U-tube, single column (micromanometer), differential U-tube, inverted U-tube (small pressure difference of liquids), inclined manometer (small pressures – more sensitive).
+- Mechanical gauges: Bourdon tube (most common, gauge pressure), diaphragm, bellows, dead-weight gauge (calibration).
+- Barometer measures atmospheric (absolute) pressure; aneroid barometer has no liquid.
+### Hydrostatic forces on surfaces
+F: Total pressure on plane surface F = ρ g A h̄  (h̄ = depth of centroid)
+F: Centre of pressure (vertical/inclined): h* = h̄ + I_G sin²θ / (A h̄)
+- Centre of pressure always lies below the centroid (except for horizontal surfaces where they coincide). As depth increases, the centre of pressure approaches the centroid.
+- Vertical rectangle with top edge at free surface: h* = 2h/3. Triangle with apex at surface (base down): h* = 3h/4; base at surface: h* = h/2.
+- Curved surface: horizontal component = force on vertical projection; vertical component = weight of fluid above (real or imaginary).
+PYQ-TREND: Centre of pressure lies below centroid. Depth 2h/3 for a rectangular gate with top at surface. Piezometer limitations. Bourdon gauge measures gauge pressure. Inclined manometer for low pressures.
+
+## 10.3 Buoyancy and Stability of Floating Bodies
+- Archimedes' principle: buoyant force = weight of fluid displaced, acting through the centre of buoyancy (centroid of displaced volume).
+F: Metacentric height GM = I/V − BG   (I = least second moment of the waterplane area, V = displaced volume)
+F: Experimentally: GM = w x / (W tanθ)
+F: Time period of rolling: T = 2π √(k²/(g·GM))
+- Stability of floating bodies: M above G → stable; M at G → neutral; M below G → unstable. Submerged bodies: B above G → stable.
+- Large GM → stable but uncomfortable (rapid rolling) – cargo ships have small GM, warships larger GM.
+PYQ-TREND: Stability conditions for floating vs submerged bodies. Metacentric height formula I/V − BG. Larger GM means a shorter rolling period. Centre of buoyancy = centroid of displaced volume.
+
+## 10.4 Fluid Kinematics
+- Steady (∂/∂t = 0) vs unsteady; uniform (∂/∂s = 0) vs non-uniform; laminar vs turbulent; compressible vs incompressible; rotational vs irrotational; 1D/2D/3D.
+- Streamline: tangent gives the velocity direction at that instant. Pathline: actual path of a particle. Streakline: locus of particles passing through a fixed point (dye). Timeline. In steady flow streamline = pathline = streakline.
+F: Continuity (incompressible): A₁V₁ = A₂V₂;  3D: ∂u/∂x + ∂v/∂y + ∂w/∂z = 0
+F: Acceleration: a = ∂V/∂t (local) + V·∇V (convective)
+F: Rotation ωz = ½(∂v/∂x − ∂u/∂y);  vorticity = 2ω;  irrotational if ωz = 0
+F: Velocity potential φ: u = −∂φ/∂x, v = −∂φ/∂y (exists only for irrotational flow);  stream function ψ: u = −∂ψ/∂y, v = ∂ψ/∂x (sign convention varies; exists for any 2D incompressible flow)
+- φ = constant (equipotential) lines and ψ = constant (streamlines) are orthogonal → flow net. Laplace equation ∇²φ = 0 for irrotational incompressible flow.
+- Discharge between two streamlines = ψ₂ − ψ₁.
+- Free vortex: V·r = constant (irrotational) – whirlpool, flow in a sink. Forced vortex: V = ωr (rotational) – rotating cylinder of liquid; free surface is a paraboloid with rise h = ω²R²/(2g).
+PYQ-TREND: Streamline vs pathline vs streakline (equal in steady flow). Continuity equation for incompressible flow. Stream function exists for both rotational & irrotational flows; velocity potential exists only for irrotational. Free vs forced vortex examples. Paraboloid in forced vortex.
+
+## 10.5 Fluid Dynamics – Bernoulli and Momentum
+F: Bernoulli: p/(ρg) + V²/(2g) + z = constant  (pressure head + velocity head + datum head)
+- Assumptions: steady, incompressible, inviscid (frictionless), irrotational (or along a streamline), no shaft work/heat.
+- Euler's equation (along streamline): dp/ρ + V dV + g dz = 0. Integrating gives Bernoulli.
+- HGL (hydraulic gradient line) = p/ρg + z. TEL (total energy line) = HGL + V²/2g. TEL always slopes down in the flow direction for real fluids; HGL can rise if velocity decreases.
+- Kinetic energy correction factor α: laminar pipe flow 2.0; turbulent ≈ 1.03–1.1. Momentum correction factor β: laminar 4/3; turbulent ≈ 1.01–1.04.
+F: Momentum equation: ΣF = ṁ (V₂ − V₁)
+F: Force on pipe bend: Fx = ṁ(V₁ − V₂cosθ) + p₁A₁ − p₂A₂cosθ
+### Flow measurement
+| Device | Formula / Feature |
+| Venturimeter | Q = Cd A₁A₂√(2gh)/√(A₁² − A₂²); Cd ≈ 0.95–0.98; low head loss; convergent angle ~20°, divergent 5–7° |
+| Orificemeter | Same formula with Cd ≈ 0.6–0.65; cheap; high loss |
+| Flow nozzle | Cd between venturi & orifice |
+| Pitot tube | V = Cv√(2gh) – measures stagnation pressure; point velocity |
+| Pitot-static (Prandtl) tube | Velocity from stagnation – static |
+| Rotameter | Variable area meter, float, vertical tube |
+| Notch/weir (rectangular) | Q = (2/3)Cd L√(2g) H^(3/2) |
+| V-notch (triangular) | Q = (8/15)Cd √(2g) tan(θ/2) H^(5/2) – accurate for low discharge |
+| Cipolletti (trapezoidal, 1:4 side slope) | Compensates end contraction |
+| Hot-wire anemometer | Velocity fluctuations in gas flow (turbulence) |
+| Current meter | River/open-channel velocity |
+- Hydraulic coefficients of orifice: Cc = a_c/a (≈ 0.64), Cv = V_actual/V_th (≈ 0.97–0.99), Cd = Cc·Cv (≈ 0.62). Vena contracta: section of minimum jet area, about d/2 from the orifice.
+- Mouthpieces: external cylindrical Cd = 0.855; Borda's re-entrant (running free) Cd = 0.5, (running full) 0.707; convergent-divergent Cd = 1.
+F: Time to empty a tank through orifice (from H₁ to H₂): T = 2A(√H₁ − √H₂)/(Cd a √(2g))
+PYQ-TREND: Bernoulli assumptions. Venturimeter Cd > orificemeter Cd. Divergent cone angle of venturi 5–7° (to avoid separation). Pitot tube measures stagnation (total) pressure. Cd = Cc × Cv. V-notch discharge ∝ H^(5/2), rectangular ∝ H^(3/2). Borda mouthpiece Cd 0.5. KE correction factor = 2 for laminar.
+TIP: Error in Q due to error in H: rectangular notch dQ/Q = 1.5 dH/H; triangular dQ/Q = 2.5 dH/H.
+
+## 10.6 Viscous (Laminar) Flow
+F: Hagen–Poiseuille (pipe): Δp = 32μVL/D²;  head loss h_f = 32μVL/(ρgD²)
+F: Velocity profile parabolic: u = u_max (1 − r²/R²);  V_avg = u_max/2
+F: Shear stress varies linearly: τ = (−dp/dx) r/2 (zero at centre, max at wall)
+F: Friction factor f = 64/Re (Darcy);  f' = 16/Re (Fanning)
+F: Flow between fixed parallel plates: V_avg = (2/3) u_max;  Δp = 12μVL/t²
+F: Couette flow (one plate moving): linear velocity profile
+- Laminar pipe flow: Re < 2000 (2300); transitional 2000–4000; turbulent > 4000.
+- Measurement of viscosity: capillary tube (Poiseuille), falling sphere (Stokes' law F = 3πμDV), rotating cylinder, orifice-type (Saybolt, Redwood, Engler).
+F: Stokes' law terminal velocity: V = D²(ρs − ρ)g/(18μ)
+- Dashpot mechanism and lubrication theory are applications of laminar flow.
+PYQ-TREND: f = 64/Re for laminar flow (Darcy). V_avg = u_max/2 in pipe, (2/3)u_max between plates. Shear stress max at wall, zero at centre. Stokes' law drag 3πμDV. Critical Re 2000.
+
+## 10.7 Turbulent Flow and Pipe Losses
+F: Darcy–Weisbach: h_f = f L V²/(2gD) = f L Q²/(12.1 D⁵)
+F: Blasius (smooth pipe, Re < 10⁵): f = 0.316/Re^0.25
+F: Chezy: V = C√(m i);  hydraulic mean depth m = A/P (= D/4 for full pipe)
+- Moody diagram: f vs Re with relative roughness ε/D. Fully rough zone: f depends only on ε/D. Laminar: f independent of roughness.
+- Turbulent velocity profile flatter (1/7th power law); u_max ≈ 1.2 V.
+- Hydrodynamically smooth if roughness k < laminar sub-layer δ'.
+| Minor loss | Formula |
+| Sudden enlargement | h = (V₁ − V₂)²/(2g) |
+| Sudden contraction | h = (1/Cc − 1)² V₂²/(2g) ≈ 0.5 V₂²/(2g) |
+| Entrance (sharp) | 0.5 V²/(2g) |
+| Exit to reservoir | V²/(2g) |
+| Bend / fitting | k V²/(2g) |
+- Pipes in series: Q same, h_f add; equivalent pipe (Dupuit): L/D⁵ = Σ Lᵢ/Dᵢ⁵. Pipes in parallel: h_f same, Q add.
+F: Power transmitted through pipe P = ρgQ(H − h_f);  maximum when h_f = H/3 (η_max = 66.67%)
+F: Nozzle diameter for max power at end of pipe: d = (D⁵/(8fL))^(1/4)
+F: Water hammer pressure rise (sudden closure, rigid pipe): Δp = ρVC;  C = √(K/ρ);  critical time 2L/C
+- Siphon: summit pressure must stay above vapour pressure (practical limit ~7.6 m of water above the HGL).
+- Surge tank protects penstock against water hammer in hydro plants.
+PYQ-TREND: Darcy formula. Max power transmission when h_f = H/3 – asked very often. Loss at sudden enlargement formula. Pipes in series vs parallel. Water hammer and surge tank. Equivalent pipe (Dupuit equation). Exit loss = V²/2g. Hydraulic mean depth D/4.
+
+## 10.8 Boundary Layer, Drag and Lift
+- Boundary layer: thin region near a wall where velocity changes from zero (no-slip) to free stream; viscous effects confined to it.
+- Thickness definitions: δ (u = 0.99U), displacement thickness δ*, momentum thickness θ, energy thickness δ**. δ > δ* > θ. Shape factor H = δ*/θ (laminar Blasius ≈ 2.59; turbulent ≈ 1.3–1.4).
+F: Laminar (Blasius): δ = 5x/√Re_x;  δ* = 1.72x/√Re_x;  θ = 0.664x/√Re_x;  local Cf = 0.664/√Re_x
+F: Turbulent: δ = 0.37x/Re_x^(1/5)
+F: Linear velocity profile: δ*/δ = 1/2, θ/δ = 1/6
+- Separation occurs under adverse pressure gradient (dp/dx > 0) where ∂u/∂y at wall = 0. Control: suction, blowing, streamlining, rotating cylinder, slotted wings, vortex generators.
+F: Drag F_D = C_D (½ρV²) A;  Lift F_L = C_L (½ρV²) A
+- Drag = pressure (form) drag + skin-friction drag. Streamlined body: mostly friction drag. Bluff body: mostly pressure drag.
+- Magnus effect: lift on a rotating cylinder/ball in uniform flow (swing of cricket/tennis ball). Kutta–Joukowski: L = ρVΓ per unit span.
+- Golf ball dimples make the boundary layer turbulent earlier → delays separation → smaller wake → less drag.
+PYQ-TREND: Separation occurs with adverse pressure gradient. Displacement thickness definition. δ ∝ √x for laminar. Magnus effect. Bluff bodies – pressure drag dominates. Golf ball dimples reduce drag. Order δ > δ* > θ.
+
+## 10.9 Dimensional Analysis and Similitude
+- Methods: Rayleigh (≤ 3–4 variables), Buckingham π-theorem: number of π terms = n − m (n = variables, m = fundamental dimensions).
+| Number | Ratio | Significant in |
+| Reynolds | Inertia / viscous | Pipe flow, submarines, aircraft (subsonic), fully submerged bodies |
+| Froude | Inertia / gravity (V/√(gL)) | Open channels, ship models, spillways, free-surface flows |
+| Euler | Pressure / inertia | Cavitation, pressure-driven flows |
+| Weber | Inertia / surface tension | Droplets, capillary flows, thin films |
+| Mach | Inertia / elastic (V/C) | Compressible flow, high-speed aircraft |
+- Model laws: Reynolds model (Vr Lr/νr = 1), Froude model (Vr = √Lr → Qr = Lr^2.5, time ratio Tr = √Lr, force ratio Fr = Lr³).
+- Similitude: geometric, kinematic and dynamic similarity. Distorted models for rivers (different horizontal and vertical scales).
+- Mach number ranges: incompressible < 0.3, subsonic < 1, transonic ~0.8–1.2, supersonic > 1, hypersonic > 5.
+F: Speed of sound C = √(γRT) = √(K/ρ);  air at 20 °C ≈ 343 m/s;  Mach angle sin α = 1/M
+F: Stagnation temperature T₀ = T(1 + (γ−1)M²/2)
+- Normal shock: supersonic → subsonic; entropy increases; static pressure & temperature increase; stagnation pressure decreases; stagnation temperature constant.
+PYQ-TREND: Froude model law for ships/spillways; Reynolds for pipes/submarines. Discharge ratio Lr^2.5 in Froude models. Number of π-terms = n − m. Meaning of Weber and Mach numbers. Mach angle. Across normal shock stagnation temperature constant.
+
+## 10.10 Open Channel Flow (Basics)
+F: Chezy V = C√(mi);  Manning V = (1/n) R^(2/3) S^(1/2)
+F: Specific energy E = y + V²/(2g);  critical depth (rectangular) yc = (q²/g)^(1/3);  E_min = 1.5 yc
+F: Froude number Fr = V/√(gy): Fr < 1 subcritical, = 1 critical, > 1 supercritical
+- Most economical sections: rectangle b = 2y (m = y/2); trapezoid – half hexagon (sides inclined 60°), m = y/2; triangle – 90° vertex.
+- Hydraulic jump: supercritical → subcritical; energy dissipated (below spillways). Sequent depth y₂/y₁ = ½(−1 + √(1 + 8Fr₁²)).
+PYQ-TREND: Most economical rectangular channel b = 2y. Hydraulic jump converts supercritical to subcritical flow and dissipates energy. Critical depth relation.
+
+Q: State Bernoulli's theorem, list its assumptions and explain the working of a venturimeter.
+For steady, incompressible, frictionless flow along a streamline, the sum of pressure head, velocity head and datum head is constant: p/ρg + V²/2g + z = constant. A venturimeter has a convergent cone, a throat and a long divergent cone. Applying continuity (A₁V₁ = A₂V₂) and Bernoulli between inlet and throat, the drop in pressure head h (from a differential manometer) gives the theoretical discharge Q = A₁A₂√(2gh)/√(A₁² − A₂²). Multiply by Cd (0.95–0.98) for actual discharge. The divergent cone is made long (5–7° angle) to recover pressure gradually and avoid flow separation.

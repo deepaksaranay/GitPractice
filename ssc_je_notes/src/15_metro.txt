@@ -1,0 +1,127 @@
+# Metrology, Limits & Fits, Industrial Engineering
+
+## 15.1 Measurement Basics
+- Accuracy: closeness to the true value. Precision: repeatability (closeness among repeated readings). Sensitivity: output change per unit input. Resolution: smallest detectable change. Readability, range, span, hysteresis, drift, calibration, traceability.
+- Errors: gross (human), systematic (instrumental, environmental, observational – correctable), random (statistical – reduced by averaging).
+- Standard temperature for measurement: 20 °C. Line standard (scale, yard, metre bar) vs end standard (slip gauges, length bars) vs wavelength standard (metre defined by light: distance travelled by light in 1/299,792,458 s).
+- Abbe's principle: the measuring axis should be in line with the scale axis to avoid cosine/parallax errors (micrometer obeys; vernier caliper does not).
+F: Vernier least count = 1 MSD − 1 VSD = value of smallest main-scale division / number of vernier divisions
+F: Micrometer least count = pitch / number of circular scale divisions (0.5/50 = 0.01 mm)
+PYQ-TREND: Accuracy vs precision. Least count of vernier (0.02 mm) and micrometer (0.01 mm). Abbe's principle. Standard measuring temperature 20 °C. Systematic errors are correctable.
+
+## 15.2 Linear & Angular Measurement Instruments
+- Slip gauges (Johansson gauge blocks): wringing; grades 00 (calibration), 0 (inspection), 1, 2 (workshop); normal set M-87 or M-112; protector slips of 2.5 mm.
+- Dial gauge (dial indicator): comparative; rack & pinion.
+- Comparators: mechanical (Johansson Mikrokator – twisted strip; Sigma), optical, electrical (LVDT), pneumatic (Solex – high magnification, non-contact, bores), electronic.
+- Angular: sine bar (sin θ = h/L; not reliable > 45°; length between roller centres 100/200/250 mm), bevel protractor (least count 5'), angle gauges (13 pieces combine to measure in steps of 3"), autocollimator (small angular deviations, straightness, flatness), clinometer, spirit level.
+- Surface plate (CI or granite), V-block, height gauge, telescopic gauge, bore gauge.
+- Optical flat & monochromatic light: flatness by interference fringes; each fringe = λ/2 height difference.
+- CMM (coordinate measuring machine): 3D measurement with probe.
+PYQ-TREND: Sine bar unreliable above 45°. Wringing of slip gauges. Optical flat fringe = λ/2. Autocollimator for small angles and flatness. LVDT is an electrical comparator. Bevel protractor least count 5 minutes. Pneumatic comparator for bore measurement.
+
+## 15.3 Limits, Fits and Tolerances
+- Basic size, actual size, limits (max & min), tolerance = upper limit − lower limit, allowance = intentional difference between max material limits of mating parts (min clearance or max interference), deviation (upper/lower) from basic size, zero line.
+- Hole basis system (hole lower deviation = 0, H): preferred because holes are made with standard fixed-size tools (drills, reamers) and shafts are easier to vary. Shaft basis (h).
+- Unilateral tolerance (one direction – preferred for interchangeable manufacturing) vs bilateral (±).
+- Indian/ISO system: 18 (IT01, IT0, IT1–IT16) grades; 28 fundamental deviations (A–ZC for holes, a–zc for shafts).
+F: Standard tolerance unit i = 0.45 ∛D + 0.001 D (μm, D in mm = geometric mean of diameter step)
+F: IT7 = 16i, IT8 = 25i, IT9 = 40i, IT10 = 64i, IT11 = 100i (R5 series from IT6 = 10i)
+| Fit | Condition | Examples |
+| Clearance | Min shaft size < min hole size (always gap) | H7/g6 sliding, H8/f7 running, H11/c11 loose |
+| Transition | May give clearance or interference | H7/k6, H7/n6 – gears, pulleys on shafts with keys |
+| Interference | Max shaft > min hole (always overlap) | H7/p6 press fit, H7/s6 shrink fit – bushes, wheels on axles |
+- Selective assembly: parts graded into groups and matched – high accuracy at lower cost (ball bearings).
+- Interchangeability: any part from a lot fits the mating part without fitting/adjustment – essential for mass production.
+- Limit gauges (Taylor's principle): GO gauge checks maximum material condition with full form; NO-GO gauge checks the other limit with a single dimension (point contact). Plug gauge for holes, ring/snap gauge for shafts.
+- Gauge maker's tolerance ≈ 10% of work tolerance; wear allowance applied to GO gauge.
+PYQ-TREND: Hole basis is preferred. Taylor's principle of gauging. H7/p6 interference fit. Allowance vs tolerance definition. Number of IT grades (18) and fundamental deviations (28). Selective assembly. GO gauge checks the maximum metal limit.
+TIP: The hole always carries the capital letter. H is the basic hole (EI = 0). If the shaft letter comes earlier in the alphabet (a–h) the fit is clearance; js–n is transition; p–zc is interference (with H holes).
+
+## 15.4 Surface Finish, Screw Thread & Gear Measurement
+- Surface roughness parameters: Ra (CLA – centre line average, arithmetic mean deviation – most used), Rq (RMS), Rz (ten-point height), Rt/Rmax (peak to valley). Ra ≈ Rq/1.11 for sinusoid.
+- Lay: direction of predominant surface pattern; waviness (larger spacing) vs roughness (finer). Sampling length (cut-off) typically 0.8 mm.
+- Instruments: Taylor–Hobson Talysurf (stylus, electronic), Tomlinson surface meter (mechanical-optical), profilometer.
+- Screw thread: effective (pitch) diameter by two-wire/three-wire method (best wire size d = (p/2) sec(θ/2)); floating carriage micrometer; thread pitch by pitch measuring machine; tool maker's microscope; profile projector.
+- Gear: tooth thickness by gear tooth vernier caliper (chordal thickness at chordal addendum), constant chord method, base tangent (span) method (David Brown); Parkinson gear tester (composite rolling test).
+PYQ-TREND: CLA = Ra. Talysurf uses a stylus. Three-wire method for effective diameter; best wire size. Gear tooth vernier for chordal thickness. Profile projector & toolmaker's microscope for thread form.
+
+## 15.5 Production Planning, Forecasting & Inventory
+- Productivity = output/input. Production types: job (low volume, high variety, general-purpose machines, process layout), batch, mass/flow (high volume, special-purpose machines, product/line layout), continuous (process industries).
+- Plant layouts: process (functional – job shops), product (line – mass production), fixed-position (ships, aircraft – product remains stationary), cellular/group (GT), combination.
+- Forecasting: qualitative (Delphi – expert consensus, market survey) and quantitative (moving average, weighted moving average, exponential smoothing Ft+1 = Ft + α(Dt − Ft), regression/least squares). Smoothing constant α: high α → more responsive.
+- Production planning & control (PPC) functions: routing (path), scheduling (time), dispatching (release orders), follow-up/expediting, loading.
+- Sequencing: Johnson's rule (n jobs on 2 machines – minimise makespan): pick the smallest time; if on machine 1 place first, if on machine 2 place last. Priority rules: SPT (shortest processing time – minimises mean flow time), EDD (earliest due date – minimises max lateness), FCFS, critical ratio.
+### Inventory control
+F: EOQ (Wilson): Q* = √(2DC_o/C_h)
+F: At EOQ: ordering cost = holding cost;  total cost TC = √(2DC_oC_h);  number of orders N = D/Q*;  cycle time = Q*/D
+F: EPQ (production at rate p, demand rate d): Q* = √(2DC_o/(C_h(1 − d/p)))
+F: Reorder point ROP = demand during lead time + safety stock
+- ABC analysis: A – ~10% items, ~70% value (tight control); B – ~20% items, ~20% value; C – ~70% items, ~10% value. VED (vital, essential, desirable – criticality, spares). FSN (fast, slow, non-moving). XYZ (value of stock held). SDE (scarce, difficult, easy – procurement). HML (unit price).
+- MRP (material requirements planning) – dependent demand, uses BOM, MPS and inventory records. MRP-II (manufacturing resource planning), ERP. JIT (Just-in-time – Toyota, Kanban cards, zero inventory). Lean manufacturing, Kaizen (continuous improvement), Poka-yoke (mistake-proofing), 5S (Sort, Set in order, Shine, Standardise, Sustain), SMED (single minute exchange of dies).
+PYQ-TREND: EOQ formula & that at EOQ ordering cost equals carrying cost – very frequent. If demand is 4 times, EOQ doubles. ABC analysis is based on annual consumption value. VED for spare parts. Johnson's rule. Kanban relates to JIT. Fixed-position layout for ships. Process layout for job shops. Exponential smoothing formula.
+
+## 15.6 Work Study
+- Work study = method study (how – reduce work content; improve methods) + work measurement (how long – standard time).
+- Method study steps (SREDIM): Select, Record, Examine, Develop, Install (define), Maintain.
+- Recording techniques: outline process chart, flow process chart (man/material/equipment type), two-handed (operator) chart, multiple activity chart (man-machine), flow diagram, string diagram (movement of workers – distances), travel chart, SIMO chart (micro-motion, therbligs), cyclegraph & chronocyclegraph (light paths), memo-motion study.
+| Symbol | Activity |
+| ○ (circle) | Operation |
+| □ (square) | Inspection |
+| ⇒ (arrow) | Transport |
+| D | Delay (temporary storage) |
+| ▽ (triangle) | Storage (permanent) |
+- Therbligs (Gilbreth): 17/18 basic motion elements (search, select, grasp, transport empty/loaded, hold, release load, position, pre-position, inspect, assemble, disassemble, use, unavoidable delay, avoidable delay, plan, rest).
+- Principles of motion economy (Barnes): related to human body, workplace layout, tools & equipment.
+- Work measurement: time study (stopwatch – repetitive short cycle jobs), work sampling (activity sampling/ratio-delay – long cycle/group activities; Tippett), PMTS (predetermined motion time systems – MTM, work factor), standard data, analytical estimating.
+F: Normal time = observed time × rating factor (%/100)
+F: Standard time = normal time × (1 + allowance fraction)  (allowances: personal, fatigue, delay, contingency)
+F: Work sampling (95% confidence): N = 4p(1 − p)/L² for absolute accuracy L;  N = 4(1 − p)/(S²p) for relative accuracy S
+- Rating: comparing the worker's pace with the normal pace (Westinghouse system considers skill, effort, conditions, consistency). Normal pace benchmark: walking at 4.8 km/h (3 mph), dealing a pack of 52 cards in 0.5 min.
+- Ergonomics: fitting the job to the worker. Anthropometry.
+PYQ-TREND: SREDIM steps. Process chart symbols. Therblig developed by Gilbreth; father of scientific management F.W. Taylor. String diagram for movement. Standard time = normal time + allowances. Work sampling for long-cycle jobs. SIMO chart for micro-motion. Rating factor definition.
+
+## 15.7 Quality Control
+- SQC: process control (control charts) and acceptance sampling.
+| Chart | Type | For |
+| X̄ and R chart | Variables | Process mean and dispersion (small samples) |
+| X̄ and σ chart | Variables | Large samples |
+| p chart | Attributes | Fraction defective (variable sample size allowed) |
+| np chart | Attributes | Number defective (constant sample size) |
+| c chart | Attributes | Number of defects per unit (Poisson) – e.g., defects in cloth, castings |
+| u chart | Attributes | Defects per unit with variable size |
+F: Control limits: mean ± 3σ (99.73% of points within);  X̄ chart: UCL = X̿ + A₂R̄;  R chart: UCL = D₄R̄, LCL = D₃R̄
+F: p chart: p̄ ± 3√(p̄(1 − p̄)/n);  c chart: c̄ ± 3√c̄
+F: Process capability Cp = (USL − LSL)/(6σ);  Cpk = min[(USL − μ)/3σ, (μ − LSL)/3σ]
+- Acceptance sampling: OC curve (probability of acceptance vs lot quality); AQL (acceptable quality level – producer's risk α, type I error, usually 5%), LTPD (lot tolerance percent defective – consumer's risk β, type II error, usually 10%). Single, double, multiple, sequential sampling plans. AOQL – maximum average outgoing quality.
+- TQM, Deming's PDCA cycle (Plan-Do-Check-Act), Juran trilogy, Crosby (zero defects), Ishikawa (fishbone/cause & effect diagram), Pareto (80/20), Six Sigma (3.4 DPMO; DMAIC), ISO 9000 (quality management), ISO 14000 (environment), Quality circles (Japan).
+- Reliability: R(t) = e^(−λt) (constant failure rate); MTBF = 1/λ; series R = ΠRᵢ; parallel R = 1 − Π(1 − Rᵢ). Bath-tub curve: infant mortality (decreasing), useful life (constant), wear-out (increasing).
+PYQ-TREND: c-chart for number of defects; p-chart for fraction defective. ±3σ limits (99.73%). Producer's risk α (type I) vs consumer's risk β (type II). Six Sigma = 3.4 defects per million. Ishikawa diagram. PDCA by Deming. Bath-tub curve regions. Reliability of series/parallel systems.
+
+## 15.8 Operations Research & Project Management
+- Linear programming: objective function + constraints; graphical method (2 variables), simplex method (slack, surplus, artificial variables; Big-M, two-phase). Duality. Degeneracy, unbounded, infeasible, alternate optima.
+- Transportation problem: initial solution by NWCR (north-west corner rule), least cost, Vogel's approximation method (VAM – best initial); optimality by MODI (u-v) or stepping stone. Non-degenerate basic feasible solution needs m + n − 1 allocations. Balanced if supply = demand.
+- Assignment problem: Hungarian method (n × n); special case of transportation (highly degenerate).
+- Queuing (M/M/1): λ arrival rate, μ service rate, ρ = λ/μ < 1.
+F: Ls = λ/(μ − λ);  Lq = λ²/(μ(μ − λ));  Ws = 1/(μ − λ);  Wq = λ/(μ(μ − λ));  Little's law L = λW
+- Game theory: saddle point (maximin = minimax) → pure strategy; value of game. Simulation: Monte Carlo (random numbers).
+- Replacement: items deteriorating gradually (replace when average annual cost is minimum) vs sudden failure (group replacement).
+### PERT & CPM
+| CPM | PERT |
+| Deterministic, single time estimate | Probabilistic, three time estimates |
+| Activity oriented | Event oriented |
+| Repetitive projects (construction) | R&D, new projects |
+| Time–cost trade-off (crashing) | Probability of completion |
+F: PERT expected time te = (to + 4tm + tp)/6;  variance σ² = ((tp − to)/6)²  (β-distribution)
+F: Probability of completion: Z = (T_s − T_e)/σ_cp  (normal distribution along critical path)
+F: Total float = LS − ES = LF − EF;  free float = ES(succ) − EF;  independent float = ES(succ) − LF(pred) − duration
+- Critical path: longest path through the network; zero total float; determines project duration. Dummy activity: zero time, shows dependency only (dotted arrow).
+- Crashing: reduce project duration by spending more on critical activities with lowest cost slope (crash cost − normal cost)/(normal time − crash time).
+- Fulkerson's rule for numbering events. Gantt chart (bar chart) – Henry Gantt; Milestone chart.
+PYQ-TREND: PERT uses β-distribution & 3 time estimates; CPM deterministic. te formula. Critical path has zero float & is the longest path. Dummy activity. VAM gives the best initial solution. m + n − 1 rule. Hungarian method for assignment. Little's law. Crashing cost slope.
+
+## 15.9 Engineering Economics & Management Facts
+- Break-even analysis: BEP (units) = Fixed cost / (Selling price − Variable cost per unit) = F/contribution. Margin of safety = (actual sales − BEP sales)/actual sales. P/V ratio = contribution/sales.
+- Depreciation: straight line D = (C − S)/n; declining balance; sum-of-years' digits; sinking fund.
+- Value engineering/analysis (L.D. Miles, GE): value = function/cost.
+- Father of scientific management: F.W. Taylor (functional foremanship, time study). Henri Fayol: 14 principles of management (administrative management). Gilbreth: motion study. Elton Mayo: Hawthorne studies (human relations). Maslow: hierarchy of needs. Herzberg: two-factor theory. McGregor: Theory X & Y.
+PYQ-TREND: Break-even point formula. Value = function/cost. Taylor = scientific management; Fayol = 14 principles; Gilbreth = motion study & therbligs; Gantt chart by Henry Gantt.

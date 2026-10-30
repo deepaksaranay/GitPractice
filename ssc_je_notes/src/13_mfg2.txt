@@ -1,0 +1,130 @@
+# Manufacturing II – Machining & Machine Tools
+
+## 13.1 Mechanics of Metal Cutting
+- Orthogonal cutting: cutting edge perpendicular to cutting velocity (2D – shaping a wide plate with a straight tool). Oblique cutting: edge inclined (3D – most practical operations, e.g., turning).
+- Tool angles (ASA): back rake, side rake, end relief, side relief, end cutting edge angle, side cutting edge angle, nose radius → signature: αb–αs–θe–θs–Ce–Cs–R.
+- Positive rake: lower forces, weaker edge (HSS, ductile materials). Negative rake: strong edge, used for carbide/ceramic tools, hard materials, interrupted cuts.
+- Relief (clearance) angle prevents rubbing of the flank on the machined surface.
+F: Chip thickness ratio r = t/t_c = L_c/L = V_c/V  (< 1);  cutting ratio
+F: Shear angle: tan φ = r cos α / (1 − r sin α)
+F: Merchant's theory: 2φ + β − α = 90°  (β = friction angle)
+F: Shear strain γ = cot φ + tan(φ − α);  velocity of shear Vs = V cos α / cos(φ − α);  chip velocity Vc = V sin φ / cos(φ − α)
+F: Friction coefficient μ = (Fc tan α + Ft)/(Fc − Ft tan α)
+F: Cutting power P = Fc·V;  specific cutting energy u = Fc/(b·t)
+- Merchant's circle: forces – cutting force Fc, thrust Ft, shear force Fs, normal to shear Fn, friction F, normal N. All meet at the tool tip; resultant R is the diameter.
+- Lee–Shaffer: φ + β − α = 45°.
+| Chip type | Conditions |
+| Continuous | Ductile material, high speed, large rake, small feed, good lubrication – best finish |
+| Continuous with built-up edge (BUE) | Ductile, low speed, small rake, high friction, no coolant – poor finish |
+| Discontinuous (segmented) | Brittle materials (CI, brass), low speed, small/negative rake, large feed |
+| Serrated/saw-tooth | Low thermal conductivity hard metals (Ti alloys) |
+- Heat distribution: majority goes into chip (~80%), tool ~10%, work ~10% at normal speeds. Primary shear zone generates the most heat; max temperature on the rake face a little away from the edge (crater location).
+PYQ-TREND: Merchant's equation 2φ + β − α = 90° – asked every cycle. Chip thickness ratio < 1. BUE formation at low speed in ductile materials. Discontinuous chips in cast iron. Negative rake for carbide tools. Maximum heat goes to chips. Orthogonal vs oblique cutting difference.
+
+## 13.2 Tool Wear, Tool Life and Machinability
+- Flank wear (on clearance face; due to abrasion; decides tool life – VB criterion, e.g., 0.3 mm). Crater wear (on rake face; due to diffusion at high temperature; carbide tools at high speeds). Notch wear, chipping, plastic deformation.
+F: Taylor's tool life equation: V Tⁿ = C
+F: Extended Taylor: V Tⁿ f^a d^b = C
+- n values: HSS 0.08–0.2 (≈ 0.125), carbide 0.2–0.5 (≈ 0.25), ceramic 0.5–0.7.
+- Tool life is most affected by cutting speed, then feed, then depth of cut.
+F: Optimum tool life for min cost: T_o = (1/n − 1)(C_t/C_m + T_c);  for max production rate: T_o = (1/n − 1) T_c
+F: Optimum speed for minimum cost < optimum speed for maximum production (V_mc < V_mp)
+- Machinability: ease of machining – assessed by tool life, surface finish, cutting forces/power, chip form. Free-cutting steel contains S, Pb (MnS inclusions act as chip breakers). Machinability index of free-cutting steel AISI 1112 = 100%.
+| Tool material | Hot hardness / remark |
+| Plain carbon tool steel | Up to ~250 °C, low speeds |
+| HSS (18-4-1: W-Cr-V) | Up to ~600 °C; drills, taps, form tools |
+| Cast alloys (Stellite – Co-Cr-W) | Up to ~800 °C |
+| Cemented carbides (WC–Co) | Up to ~1000 °C; P (steel, blue), M (multi), K (CI, red) grades; inserts; coated (TiN, TiC, Al₂O₃) |
+| Ceramics (Al₂O₃, Si₃N₄) | Up to ~1200 °C; brittle; negative rake; high speeds |
+| CBN (cubic boron nitride) | Second hardest; hardened steels |
+| Diamond (PCD) | Hardest; non-ferrous, plastics; not for steel (carbon diffuses into iron) |
+| UCON | Refractory alloy (Nb-Ti-W) tool |
+- Order of hardness: diamond > CBN > ceramic > carbide > cast alloy > HSS > carbon steel.
+- Cutting fluids: cool, lubricate, flush chips, prevent corrosion. Water-soluble oils for high speed (cooling); straight oils for low speed (lubrication); dry cutting for CI (and ceramics).
+PYQ-TREND: Taylor's equation and n values for HSS vs carbide. Flank wear decides tool life; crater wear due to diffusion. Diamond not used for ferrous metals. HSS composition 18-4-1. Free-cutting steel contains S and Pb. Cutting speed most affects tool life. CI is machined dry.
+TIP: From V Tⁿ = C: if n = 0.5 and speed is doubled, tool life becomes 1/4. In general T₂/T₁ = (V₁/V₂)^(1/n).
+
+## 13.3 Lathe and Turning
+- Lathe parts: bed, headstock (spindle, back gears), tailstock (dead centre), carriage (saddle, cross-slide, compound rest, tool post, apron), lead screw (thread cutting only, Acme thread), feed rod.
+- Size of lathe: swing over bed and distance between centres (also bed length).
+- Work-holding: three-jaw (self-centring – round/hexagonal), four-jaw (independent – irregular), collet (bar stock, high precision), faceplate (irregular), centres with carrier/dog, mandrel (holding bored jobs), steady rest (long jobs, fixed to bed) & follower rest (moves with carriage).
+F: Cutting speed V = πDN/1000 (m/min)
+F: Machining time t = L/(fN) per pass
+F: Material removal rate MRR = π D_avg d f N ≈ V f d
+F: Taper turning: tan(α/2) = (D − d)/(2L);  tailstock set-over = L_total (D − d)/(2L)
+F: Thread cutting: change gear ratio = pitch of job / pitch of lead screw = driver/driven
+- Taper methods: form tool (short, steep), compound rest swivel (short, steep – internal & external), tailstock set-over (long, small taper, external only), taper turning attachment (long, internal & external), combined feed.
+- Operations: facing, turning, step turning, chamfering, knurling (rough grip – forming, not cutting), parting (grooving), boring, drilling, reaming, threading, eccentric turning.
+- Capstan & turret lathes: mass production; capstan (ram-type, light work, bar stock) vs turret (saddle-type, heavy chucking work). Automatic lathes; Swiss-type (sliding headstock). CNC lathes.
+F: Surface roughness (theoretical, nose radius r): h = f²/(8r)
+PYQ-TREND: Lead screw has Acme threads. Size of lathe specification. Tailstock set-over method for long tapers. Knurling is a forming operation. Peak-to-valley roughness f²/8r. Cutting speed formula. Steady rest vs follower rest. Four-jaw chuck for irregular jobs.
+
+## 13.4 Drilling, Boring, Reaming
+- Drill: twist drill (HSS, 118° point angle standard, helix angle 30°, lip clearance 8–12°). Chisel edge (dead centre) – does not cut, only extrudes → high thrust.
+F: Drilling time t = (L + 0.3D)/(fN);  MRR = (πD²/4) f N
+- Drilling machines: sensitive/bench (small holes, hand feed), upright, radial (large heavy jobs – arm swings), gang (several spindles in a row), multi-spindle, deep-hole (gun drill).
+- Operations: reaming (finishing a drilled hole, small allowance), boring (enlarging, correcting position), counterboring (stepped hole for bolt head), countersinking (conical for flat-head screw), spot facing (flat seat), tapping (internal thread), trepanning (large hole by removing annular ring).
+- Jig: holds work and guides tool (drill bushes). Fixture: holds/locates work only (milling). 3-2-1 principle of location: 6 points restrict 12 degrees of freedom (6 locators + clamps).
+PYQ-TREND: Point angle 118°. Radial drilling machine for heavy jobs. Countersinking vs counterboring. Jig guides tool, fixture does not. 3-2-1 principle. Chisel edge causes large thrust. Trepanning definition.
+
+## 13.5 Milling
+- Up (conventional) milling: cutter rotation opposite to feed; chip thickness zero → max; tends to lift work; suitable for older machines with backlash, castings with hard scale. Down (climb) milling: rotation along feed; chip max → zero; better finish & tool life; needs backlash eliminator; pushes work down.
+F: Feed per minute fm = fz × Z × N
+F: Approach (slab milling) = √(d(D − d));  machining time t = (L + approach)/fm
+F: Max chip thickness (up milling) ≈ 2fz √(d/D)
+- Cutters: plain/slab, side & face, staggered tooth, end mill, slot, T-slot, woodruff key-seat, form, fly cutter, angle, slitting saw, gang & straddle milling arrangements.
+- Indexing (dividing head, 40:1 worm ratio): simple indexing crank turns = 40/N. Differential indexing for numbers not available by simple. Plate holes: Brown & Sharpe plates.
+- Milling of gears: form milling with involute cutter (8 cutters per module set). Gear generation (hobbing – spur & helical, continuous, most productive; shaping – internal gears & clusters). Gear finishing: shaving (soft gears), grinding & lapping (hardened gears), burnishing.
+PYQ-TREND: Up vs down milling – climb milling gives better finish but needs backlash eliminator. Simple indexing 40/N. Hobbing cannot cut internal gears; gear shaping can. Straddle milling uses two side cutters. Number of cutters in a set = 8.
+
+## 13.6 Shaper, Planer, Slotter, Broaching
+- Shaper: tool reciprocates, work feeds; quick return mechanism (crank & slotted lever / Whitworth / hydraulic); small jobs. Planer: work reciprocates on table, tool feeds; large heavy jobs. Slotter: vertical shaper – keyways, internal splines.
+F: Shaper cutting time per stroke: L(1 + m)/(1000V) where m = return/cutting time ratio
+- Broaching: multi-tooth tool with progressively increasing teeth (rise per tooth); one stroke completes roughing, semi-finishing & finishing; keyways, splines, internal profiles; high production; costly tool. Pull and push broaches.
+PYQ-TREND: In a shaper the tool reciprocates; in a planer the workpiece reciprocates. Broaching for internal keyways and splines. Quick return ratio in shaper.
+
+## 13.7 Grinding and Finishing
+- Abrasives: aluminium oxide (A – for steels, high tensile materials), silicon carbide (C – for CI, non-ferrous, carbides, low tensile), CBN, diamond.
+- Grinding wheel designation (IS 551): 51 A 36 L 5 V 23 → manufacturer's symbol – abrasive type (A) – grain size (36, coarse 10–24, medium 30–60, fine 70–180, very fine 220–600) – grade (hardness A soft → Z hard; L medium) – structure (1 dense → 15 open) – bond (V vitrified, S silicate, B resinoid, R rubber, E shellac, M metal) – manufacturer's record.
+- Rule: hard material → soft wheel; soft material → hard wheel (to allow self-sharpening/self-dressing). Vitrified bond most common.
+- Glazing: wheel surface becomes smooth/shiny (dull grains not breaking – wheel too hard, speed high). Loading: chips clog pores (soft materials, wheel too fine). Remedy: dressing. Truing: restoring geometry/concentricity.
+- Grinding operations: cylindrical, surface, internal, centreless (no centres; regulating wheel rubber-bonded, inclined 2–8° gives axial feed; through-feed & in-feed).
+F: Specific energy in grinding is very high (due to size effect & ploughing, negative rake grits)
+- Finishing processes (increasing finish): honing (bores – abrasive sticks, cross-hatch – cylinder liners), lapping (loose abrasive, flat precise surfaces, gauges), superfinishing, buffing & polishing (lustre).
+- Surface finish Ra: rough turning 6–25 μm; grinding 0.1–1.6 μm; lapping 0.05–0.4 μm.
+PYQ-TREND: Grinding wheel marking order – almost every year. Soft wheel for hard material. SiC for cast iron, Al₂O₃ for steel. Glazing vs loading; dressing vs truing. Centreless grinding regulating wheel. Honing for engine cylinder bores. Lapping gives the best finish.
+
+## 13.8 Non-Traditional Machining (NTM)
+| Process | Mechanism / Medium | Applications / facts |
+| USM (ultrasonic) | Abrasive slurry hammered by tool vibrating at 20–30 kHz (magnetostrictive transducer) | Hard brittle: glass, ceramics, gems; MRR highest for brittle |
+| AJM (abrasive jet) | High velocity gas jet (150–300 m/s) with Al₂O₃/SiC; air, CO₂, N₂ (not O₂) | Deburring, cutting thin brittle sections, etching |
+| WJM / AWJM | Water jet ~ 400 MPa; with abrasive garnet | Soft materials (food, paper, rubber); AWJM for metals, composites |
+| ECM (electrochemical) | Anodic dissolution (Faraday's law); electrolyte NaCl/NaNO₃; tool cathode; no tool wear | Hard conductive alloys, turbine blades, complex shapes; highest MRR among NTM |
+| EDM (electric discharge) | Sparks in dielectric (kerosene, deionised water); tool = Cu/graphite; workpiece +ve usually | Dies, moulds, hard conductive materials; RC relaxation circuit; heat-affected recast layer |
+| Wire EDM | Moving brass wire, deionised water | Through-cut profiles, punches/dies |
+| LBM (laser) | Coherent light melts/vaporises (CO₂, Nd:YAG) | Fine holes, cutting, any material, no vacuum |
+| EBM (electron beam) | High-velocity electrons in vacuum | Micro holes, very fine cuts, high precision |
+| PAM (plasma arc) | Ionised gas at 10,000–30,000 °C | Cutting stainless, aluminium plates |
+| CHM (chemical milling) | Etchant with maskant | Aircraft panels (weight reduction), PCB |
+| ECG (electrochemical grinding) | ECM + grinding (90% electrochemical) | Carbide tools grinding |
+- EDM: MRR ∝ energy per spark ½CV²; tool wear ratio; surface finish depends on spark energy & frequency.
+- ECM: MRR = I·A/(Z·F·ρ) (Faraday) – independent of hardness; only conductive materials.
+- Electrically non-conductive materials: use USM, AJM, LBM, EBM (not EDM/ECM).
+PYQ-TREND: USM for glass/ceramics; ECM based on Faraday's law, no tool wear; EDM dielectric kerosene; EBM requires vacuum; LBM doesn't. AJM does not use oxygen (fire hazard). ECM highest MRR among NTMs. Non-conductive materials can't be machined by EDM/ECM. Magnetostriction in USM.
+
+## 13.9 CNC, CAD/CAM and Automation Basics
+- NC → CNC (computer) → DNC (direct, central computer controls many machines). Machining centre: ATC (automatic tool changer), multi-axis.
+- Axes: Z-axis along the spindle; X horizontal (largest travel); Y by right-hand rule.
+- Part programming codes: G-codes (preparatory): G00 rapid traverse, G01 linear interpolation, G02 circular CW, G03 circular CCW, G04 dwell, G20/G21 inch/mm, G90 absolute, G91 incremental, G41/G42 cutter radius compensation left/right, G40 cancel. M-codes (miscellaneous): M00 program stop, M02 end of program, M03 spindle CW, M04 CCW, M05 spindle stop, M06 tool change, M08 coolant on, M09 coolant off, M30 end & rewind.
+- Open loop (stepper motor) vs closed loop (servo with feedback – encoder/resolver). APT is a part-programming language.
+- FMS (flexible manufacturing system), CIM, group technology (GT – Opitz/MICLASS coding), rapid prototyping (SLA, SLS, FDM, 3D printing – additive manufacturing).
+PYQ-TREND: G02/G03 meanings, M03/M05/M06. Z-axis is along the spindle. DNC definition. FDM/SLA are additive manufacturing. Group technology coding systems.
+
+## 13.10 Machining Economics & Unconventional Notes
+- Total cost per piece = machining cost + tool cost + tool changing cost + non-productive cost.
+- Higher-efficiency approaches: high-speed machining, hard turning (with CBN), dry & MQL machining.
+- Cutting forces increase with feed and depth roughly linearly; with speed, decrease slightly (temperature softening).
+PYQ-TREND: Optimum speed for max production is higher than for minimum cost. Feed affects surface finish the most (h = f²/8r).
+
+Q: Explain Merchant's circle diagram and derive the relation 2φ + β − α = 90°.
+In orthogonal cutting the resultant force R on the chip is shown three ways on one circle of diameter R: (i) cutting force Fc and thrust Ft along and normal to the cutting velocity; (ii) shear force Fs and normal force Fn along and normal to the shear plane; (iii) friction force F and normal N along and normal to the rake face. Geometry gives Fs = R cos(φ + β − α). Shear stress on the shear plane τ = Fs sinφ/(bt) = R cos(φ + β − α) sinφ/(bt), and Fc = R cos(β − α). Merchant assumed the shear plane forms at the angle φ that minimises Fc for a given τ, i.e., maximises cos(φ + β − α) sinφ. Differentiating with respect to φ and setting the result to zero gives cos(2φ + β − α) = 0, so 2φ + β − α = 90°.

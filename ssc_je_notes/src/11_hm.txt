@@ -1,0 +1,101 @@
+# Hydraulic Machines
+
+## 11.1 Impact of Jets
+F: Force of jet on fixed vertical flat plate: F = ρaV²
+F: Moving vertical plate (single): F = ρa(V − u)²;  series of plates (wheel): F = ρaV(V − u)
+F: Fixed curved vane, jet deflected by angle: F = ρaV²(1 + cosθ)  (θ measured from opposite direction; for semicircular vane F = 2ρaV²)
+F: Efficiency of series of flat plates: η = 2u(V − u)/V²;  max η = 50% at u = V/2
+F: Series of curved vanes (Pelton bucket, 180°): max η = 100% at u = V/2 (theoretically); with deflection φ: η_max = (1 + cosφ)/2
+F: Single moving plate: max efficiency at u = V/3, η_max = 8/27 (29.6%)
+PYQ-TREND: Max efficiency of a series of flat plates = 50% at u = V/2. Single moving plate u = V/3. Force on fixed flat plate ρaV². Semicircular vane doubles force.
+
+## 11.2 Hydraulic Turbines – Classification
+| Basis | Types |
+| Energy at inlet | Impulse (Pelton – only KE) / Reaction (Francis, Kaplan, Propeller – KE + pressure) |
+| Direction of flow | Tangential (Pelton), Radial inward (old Francis, Thomson), Mixed (modern Francis), Axial (Kaplan, Propeller) |
+| Head | High (> 250 m: Pelton), Medium (60–250 m: Francis), Low (< 60 m: Kaplan/Propeller) |
+| Specific speed (SI, kW) | Pelton 8.5–30 (single jet), Francis 50–340, Kaplan 255–860 |
+F: Specific speed of turbine Ns = N√P / H^(5/4)
+F: Specific speed of pump Ns = N√Q / H^(3/4)
+F: Unit quantities: Nu = N/√H;  Qu = Q/√H;  Pu = P/H^(3/2)
+- Specific speed: speed of a geometrically similar turbine producing unit power under unit head. Low Ns → high head; high Ns → low head.
+- Efficiencies: hydraulic ηh = power developed by runner / water power (ρgQH); mechanical ηm = shaft power / runner power; volumetric ηv; overall ηo = ηh × ηm.
+PYQ-TREND: Pelton for high head, Kaplan for low head – the most asked HM question. Specific speed formula (with H^(5/4)). Specific speed ranges. Kaplan is axial-flow reaction. Modern Francis is mixed-flow.
+TIP: "Pelton → High Head → Low Ns; Kaplan → Low Head → High Ns". Head and Ns always move opposite.
+
+## 11.3 Pelton Wheel
+- Tangential flow impulse turbine; nozzle with spear (needle) valve regulates flow; buckets with splitter (double hemispherical cups) deflect jet by ~165°; casing only prevents splashing (no hydraulic function); breaking jet stops the wheel.
+F: Jet velocity V = Cv √(2gH)  (Cv ≈ 0.98)
+F: Bucket speed u = φ√(2gH),  speed ratio φ ≈ 0.43–0.47
+F: Jet ratio m = D/d (≈ 12 for good design, min 6);  number of buckets z = 15 + m/2 (Taygun)
+F: Work per kg = (V − u)(1 + k cosφ) u  (k = bucket friction factor)
+- Governing: spear (needle) valve + deflector (to avoid water hammer during sudden load reduction).
+- Pelton runs in air at atmospheric pressure; no draft tube.
+PYQ-TREND: Jet ratio ~12. Number of buckets formula. Splitter divides jet. Deflection angle 165°. Casing has no hydraulic function. Spear valve controls discharge.
+
+## 11.4 Francis and Kaplan Turbines
+- Francis: spiral casing (uniform velocity distribution), stay vanes, guide vanes (wicket gates – adjustable, regulate flow), runner (mixed flow), draft tube. Flow ratio ψ = Vf/√(2gH) ≈ 0.15–0.30; speed ratio 0.6–0.9.
+- Kaplan: axial flow propeller with adjustable runner blades (double regulation – guide vanes + runner blades) → high part-load efficiency. Propeller turbine has fixed blades. Hub-to-tip ratio ≈ 0.35–0.6. Few blades (3–8).
+- Bulb turbine: Kaplan variant for very low head tidal plants.
+- Euler's turbine equation: work per kg = Vw₁u₁ ± Vw₂u₂. Max work when outlet whirl is zero (radial discharge, Vw₂ = 0).
+### Draft tube
+- Function: allows the turbine to be placed above tail race without loss of head, and recovers part of the exit kinetic energy (converts it into pressure energy) – creates suction at runner outlet.
+- Types: conical (straight divergent, η ~90%, angle < 8°), simple elbow, elbow with varying cross-section, Moody spreading.
+F: Draft tube efficiency = (V₂² − V₃² − 2g·h_f)/V₂²
+- Cavitation: formation and collapse of vapour bubbles where local pressure < vapour pressure → pitting, noise, vibration, efficiency drop. Most likely at runner outlet of reaction turbines and inlet (eye) of centrifugal pumps. Thoma's cavitation factor σ = (H_atm − H_v − H_s)/H; σ > σ_critical to avoid cavitation. Use stainless steel/cavitation-resistant runners.
+PYQ-TREND: Kaplan has adjustable runner blades. Draft tube is used only in reaction turbines. Draft tube converts KE to pressure energy. Cavitation definition and Thoma's coefficient. Wicket gates regulate flow in Francis.
+
+## 11.5 Performance and Governing of Turbines
+- Characteristic curves: main (constant head), operating (constant speed), muhel (constant efficiency/iso-efficiency) curves.
+- Pelton efficiency curve is flat (good part-load efficiency); Francis steeper; Kaplan flat due to double regulation; Propeller poor part-load.
+- Governing: maintain constant speed (synchronous for generator). Oil pressure governor with servomotor, relief valve, deflector.
+- Runaway speed: max speed under no load with full gate opening (Pelton ~1.8 N, Kaplan ~2.5–3 N).
+- Synchronous speed N = 120f/p (p = number of poles).
+PYQ-TREND: Kaplan efficiency at part load is high. Synchronous speed formula. Iso-efficiency curves. Runaway speed definition.
+
+## 11.6 Centrifugal Pumps
+- Converts mechanical energy into pressure energy by centrifugal action (forced vortex). Components: impeller (closed, semi-open, open), casing (volute – gradually expanding; vortex; diffuser with guide blades), suction pipe with foot valve and strainer, delivery pipe with delivery valve.
+- Priming: filling the suction pipe, casing and impeller with liquid to remove air before starting – essential because the head developed depends on density (air head is useless).
+- Backward-curved blades (β₂ < 90°) are used: stable, non-overloading power characteristic, high efficiency.
+F: Work per kg (radial entry Vw₁ = 0): W = Vw₂ u₂ / g (head)
+F: Manometric efficiency ηmano = g Hm / (Vw₂ u₂)
+F: Minimum starting speed: N = 120 ηmano Vw₂ D₂ / (π (D₂² − D₁²))  (from u₂²/2g − u₁²/2g ≥ Hm)
+F: Static head Hs = hs + hd;  manometric head Hm = Hs + h_fs + h_fd + Vd²/2g
+F: NPSH = (p_atm/ρg) − hs − h_fs − (p_v/ρg)  (must exceed NPSH required to avoid cavitation)
+- Affinity (similarity) laws for same pump: Q ∝ N, H ∝ N², P ∝ N³; for geometrically similar pumps: Q ∝ ND³, H ∝ N²D², P ∝ N³D⁵.
+- Pumps in series → increase head (multistage); in parallel → increase discharge.
+- Characteristic curves: H–Q falls with Q; power rises; efficiency peaks at BEP (best efficiency point).
+- Specific speed: radial (low Ns 10–80), mixed (80–160), axial (> 160 – propeller pumps, high Q low H).
+- Shut-off head: head at zero discharge. Starting with delivery valve closed reduces starting power for centrifugal (radial) pumps; axial pumps are started with valve open.
+PYQ-TREND: Priming is needed for centrifugal pumps. Backward-curved vanes are used. Affinity laws (P ∝ N³). Pumps in series for head, parallel for discharge. Manometric efficiency formula. Cavitation & NPSH. Centrifugal pump started with delivery valve closed. Volute casing converts KE into pressure.
+WARN: Do not apply turbine specific speed (√P / H^(5/4)) to pumps. Pump Ns uses √Q / H^(3/4).
+
+## 11.7 Reciprocating Pumps
+- Positive displacement; suitable for high head, low discharge (oil drilling, boiler feed (older)). Single-acting: one delivery per revolution; double-acting: two.
+F: Theoretical discharge: single-acting Q = ALN/60;  double-acting Q = 2ALN/60
+F: Slip = Q_th − Q_act;  % slip = (1 − Cd) × 100. Negative slip occurs with long suction pipe, short delivery, high speed (Q_act > Q_th)
+F: Power = ρg Q (hs + hd)/1000 kW
+F: Pressure head due to acceleration: ha = (L/g)(A/a)ω²r cosθ
+- Air vessels (on suction & delivery sides near the cylinder): give uniform flow, reduce acceleration head, allow higher speed, save work (≈ 84.8% saving for single-acting, 39.2% for double-acting due to friction reduction), prevent separation (cavitation).
+- Indicator diagram: area ∝ work done; acceleration head tilts suction and delivery lines; friction gives a parabolic curve.
+- Separation in suction pipe occurs when pressure drops below ~2.5 m of water (abs) at the beginning of suction stroke.
+PYQ-TREND: Negative slip conditions. Purpose of air vessel. Reciprocating pump does not need priming (self-priming) but has pulsating flow. Discharge formula. Acceleration head max at start/end of stroke.
+
+## 11.8 Other Hydraulic Devices
+| Device | Principle / Use |
+| Hydraulic press | Pascal's law – small force on small plunger gives large force on ram; MA = A/a |
+| Hydraulic accumulator | Stores pressure energy (energy = pAL) for intermittent demand (lifts, cranes) |
+| Hydraulic intensifier | Increases pressure of liquid (p₂ = p₁ A/a) |
+| Hydraulic ram (hydram) | Uses water hammer of a large flow to lift a small quantity to a higher level; no external power; D'Aubuisson efficiency |
+| Hydraulic crane / lift | Uses jigger, direct acting ram |
+| Fluid coupling | Transmits torque between shafts; torque output = input; slip 2–3% |
+| Torque converter | Has stator (fixed guide) – output torque can exceed input (multiplication); used in automatic transmission |
+| Jet pump | Momentum transfer; no moving parts |
+| Air lift pump | Compressed air mixed with water in well; for oil/water wells |
+| Gear pump, vane pump, screw pump | Rotary positive displacement – lubrication & hydraulic systems |
+| Submersible pump | Multi-stage centrifugal pump with motor immersed – borewells |
+| Hydraulic coupling vs converter | Coupling: T_out = T_in. Converter: T_out ≠ T_in (stator reaction) |
+PYQ-TREND: Hydraulic ram works on water hammer. Accumulator stores energy. Intensifier increases pressure. Torque converter has a stator; fluid coupling has none. Gear pump is a positive displacement pump.
+
+Q: Explain why a draft tube is used in a reaction turbine and why it is not used in a Pelton wheel.
+In a reaction turbine water leaves the runner with appreciable velocity and the runner is completely filled with water under pressure. A draft tube is a gradually expanding pipe from the runner exit to below tail-race level. It produces a negative (suction) head at runner exit, so the turbine can be set above tail race without losing static head. It also recovers much of the exit KE as pressure energy, which raises the net head and the efficiency. In a Pelton wheel, the jet works at atmospheric pressure in open air and the buckets must be above tail-race water level, so a draft tube cannot create suction or recover energy and is not used. The small head between wheel and tail race is simply lost.

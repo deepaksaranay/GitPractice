@@ -1,0 +1,300 @@
+# PYQ Concept Recall Bank – Part B
+
+## B1. IC Engines & Gas Cycles
+| Concept question | Answer |
+| Otto cycle efficiency depends on? | Compression ratio only (for given γ) |
+| Order of efficiency for the same CR? | Otto > Dual > Diesel |
+| Order of efficiency for the same max pressure & temperature? | Diesel > Dual > Otto |
+| Effect of cut-off ratio on Diesel efficiency? | Efficiency decreases as cut-off increases |
+| Cycle with efficiency equal to Carnot? | Stirling and Ericsson (with regenerator) |
+| Gas turbine cycle? | Brayton (Joule) |
+| Effect of regeneration in a gas turbine? | Increases efficiency, not specific work |
+| Governing in SI engines? | Quantity governing |
+| Governing in CI engines? | Quality governing |
+| CR range of a diesel engine? | 14–22 |
+| Firing order of a 4-cylinder in-line engine? | 1-3-4-2 |
+| Most efficient scavenging? | Uniflow |
+| Friction power test for CI engines only? | Willan's line |
+| Friction power test for multi-cylinder engines? | Morse test |
+| Reference fuels for octane number? | Iso-octane (100) & n-heptane (0) |
+| Reference fuels for cetane number? | Cetane (100) & α-methyl naphthalene (0) |
+| Cause of diesel knock? | Long ignition delay |
+| Effect of high CR on knock in SI / CI? | Increases SI knock / reduces CI knock |
+| Stoichiometric A/F for petrol? | 14.7:1 |
+| Mixture needed at cold start? | Rich (choke) |
+| Purpose of the condenser in battery ignition? | Prevents arcing at contact breaker points |
+| Plug for high-compression engines? | Cold plug |
+| Two-stroke lubrication? | Petroil (oil mixed with petrol) |
+| Device that keeps engine temperature optimum? | Thermostat |
+| Pollutant reduced by EGR? | NOx |
+| Catalyst metals in a three-way converter? | Pt, Pd, Rh |
+| BS-VI implemented in India? | April 2020 |
+| Main constituent of CNG? | Methane |
+| Turbocharger is driven by? | Exhaust gases |
+| Supercharging is more suitable for? | CI engines |
+| Engine needing glow plugs? | IDI diesel (cold start) |
+| Ramjet can start from rest? | No |
+| Propulsion that works in vacuum? | Rocket |
+
+## B2. RAC
+| Concept question | Answer |
+| 1 TR equals? | 3.5 kW (211 kJ/min) |
+| Process in the expansion valve? | Throttling (isenthalpic) |
+| Effect of subcooling? | Increases RE and COP |
+| Effect of lowering evaporator temperature? | COP decreases |
+| Expansion device in domestic refrigerators? | Capillary tube |
+| Expansion valve maintaining constant superheat? | Thermostatic expansion valve |
+| Refrigerant R-717? | Ammonia |
+| Refrigerant R-744? | CO₂ |
+| Refrigerant used in LiBr–water systems? | Water |
+| Metal not to be used with ammonia? | Copper (and its alloys) |
+| ODP of R-134a? | Zero |
+| Halocarbon leak detection? | Halide torch |
+| Third fluid in an Electrolux refrigerator? | Hydrogen |
+| Air refrigeration cycle? | Bell–Coleman (reversed Brayton) |
+| Why is air refrigeration used in aircraft? | Low weight per TR (despite low COP) |
+| Thermoelectric refrigeration effect? | Peltier |
+| Saturated air: relation of DBT, WBT, DPT? | All equal |
+| Sensible heating on the psychrometric chart? | Horizontal line (ω constant) |
+| Evaporative cooling follows? | Constant WBT line |
+| Specific humidity formula? | 0.622 pv/(p − pv) |
+| Chemical dehumidification follows? | Constant enthalpy line (DBT rises) |
+| Comfort condition? | 21–25 °C DBT, 40–60% RH |
+| Bypass factor? | (t₂ − t_ADP)/(t₁ − t_ADP) |
+| Dry ice? | Solid CO₂ (−78.5 °C) |
+
+## B3. Steam, Power Plant & Compressors
+| Concept question | Answer |
+| Rankine pump work is small because? | Water has small specific volume |
+| Main purpose of reheating? | Increase dryness at turbine exhaust |
+| Regeneration increases? | Cycle efficiency (mean temperature of heat addition) |
+| Boiler that is supercritical and drumless? | Benson |
+| Babcock & Wilcox boiler type? | Water-tube, externally fired |
+| Cochran boiler type? | Vertical, fire-tube, multi-tubular |
+| Lancashire boiler? | Horizontal, two flue tubes, fire-tube |
+| Function of the fusible plug? | Melts to extinguish fire when water level falls too low |
+| Economiser heats? | Feedwater |
+| Air preheater heats? | Combustion air |
+| Is a safety valve a mounting or an accessory? | Mounting |
+| Equivalent evaporation is from and at? | 100 °C (2257 kJ/kg) |
+| Critical pressure ratio for superheated steam? | 0.546 |
+| Mach number at the throat of a choked nozzle? | 1 |
+| Effect of supersaturation on discharge? | Increases discharge |
+| Parsons turbine? | 50% reaction |
+| Curtis turbine? | Velocity compounded impulse |
+| Rateau turbine? | Pressure compounded impulse |
+| Optimum blade speed ratio for single-stage impulse? | cos α / 2 |
+| Condenser used in large power plants? | Surface condenser |
+| Moderator in Indian PHWRs? | Heavy water |
+| Control rod materials? | Cadmium, boron |
+| Device removing fly ash? | Electrostatic precipitator |
+| Coal with highest carbon? | Anthracite |
+| Compression process needing minimum work? | Isothermal |
+| Intermediate pressure in 2-stage compression? | √(p₁p₃) |
+| Effect of clearance on volumetric efficiency? | Decreases it |
+| Unstable low-flow phenomenon in centrifugal compressors? | Surging |
+| Compressor with no internal compression? | Roots blower |
+
+## B4. Heat Transfer
+| Concept question | Answer |
+| Metal with highest thermal conductivity? | Silver |
+| How does k of gases change with temperature? | Increases |
+| Thermal diffusivity? | k/(ρc) |
+| Critical radius of insulation for a cylinder? | k/h |
+| Critical radius for a sphere? | 2k/h |
+| Heat loss at critical radius? | Maximum |
+| Fins should be placed on which side? | The side with lower h |
+| Fin effectiveness for fins to be justified? | > 2 |
+| Lumped analysis valid when? | Bi < 0.1 |
+| Characteristic length of a sphere? | r/3 |
+| Nusselt number signifies? | Dimensionless convective heat transfer coefficient |
+| Prandtl number signifies? | Momentum diffusivity / thermal diffusivity |
+| Pr of liquid metals? | Very low (≈ 0.01) |
+| Natural convection is governed by? | Grashof (and Prandtl) number |
+| Nu for laminar flow, constant wall temperature? | 3.66 |
+| Nu for laminar flow, constant heat flux? | 4.36 |
+| Dittus–Boelter exponent of Pr for heating? | 0.4 |
+| Boiling regime with max h? | Nucleate boiling |
+| Condensation with higher h? | Dropwise |
+| Kirchhoff's law? | α = ε (at thermal equilibrium) |
+| Wien's law? | λ_max T = 2898 μm·K |
+| Effect of n radiation shields? | Heat transfer reduced to 1/(n + 1) |
+| View factor of a flat or convex surface to itself? | Zero |
+| More effective heat exchanger type? | Counter flow |
+| Effectiveness when one fluid changes phase? | 1 − e^(−NTU) |
+| Car radiator flow arrangement? | Cross flow |
+
+## B5. Fluid Mechanics
+| Concept question | Answer |
+| Viscosity of liquids with rising temperature? | Decreases |
+| Viscosity of gases with rising temperature? | Increases |
+| Example of a shear-thinning fluid? | Blood, paint |
+| Example of a Bingham plastic? | Toothpaste |
+| Example of a dilatant fluid? | Starch suspension, quicksand |
+| Pressure inside a soap bubble? | 8σ/d |
+| Capillary rise is proportional to? | 1/d |
+| Mercury in glass shows? | Capillary depression (convex meniscus) |
+| Why is mercury used in barometers? | High density, low vapour pressure |
+| Centre of pressure lies? | Below the centroid |
+| CP of a vertical rectangle with top at the surface? | 2h/3 depth |
+| Stability condition of a floating body? | M above G |
+| Stability condition of a submerged body? | B above G |
+| Metacentric height? | I/V − BG |
+| Streamline = pathline when? | Steady flow |
+| Velocity potential exists for? | Irrotational flow only |
+| Free vortex relation? | Vr = constant |
+| Free surface in a forced vortex? | Paraboloid |
+| Bernoulli assumptions? | Steady, incompressible, inviscid, along a streamline |
+| Cd of a venturimeter? | 0.95–0.98 |
+| Cd of an orifice? | ≈ 0.62 |
+| Pitot tube measures? | Stagnation pressure (point velocity) |
+| V-notch discharge ∝? | H^(5/2) |
+| Borda's mouthpiece (running free) Cd? | 0.5 |
+| Laminar friction factor? | 64/Re |
+| Avg/max velocity in laminar pipe flow? | 1/2 |
+| Shear stress in laminar pipe flow is max at? | Wall |
+| Critical Reynolds number for pipes? | 2000 |
+| Condition for max power through a pipe? | h_f = H/3 |
+| Loss at sudden enlargement? | (V₁ − V₂)²/2g |
+| Device protecting a penstock against water hammer? | Surge tank |
+| Boundary layer separation occurs with? | Adverse pressure gradient |
+| Laminar BL thickness growth? | δ ∝ √x |
+| Swing of a spinning ball is due to? | Magnus effect |
+| Model law for ships? | Froude |
+| Model law for pipe flow / submarines? | Reynolds |
+| Discharge scale in Froude models? | Lr^2.5 |
+| Number of π terms? | n − m |
+| Across a normal shock, what stays constant? | Stagnation temperature |
+| Most economical rectangular channel? | b = 2y |
+
+## B6. Hydraulic Machines
+| Concept question | Answer |
+| Turbine for high head? | Pelton |
+| Turbine for low head? | Kaplan |
+| Turbine for medium head? | Francis |
+| Specific speed of a turbine? | N√P/H^(5/4) |
+| Specific speed of a pump? | N√Q/H^(3/4) |
+| Turbine with adjustable runner blades? | Kaplan |
+| Is a draft tube used with a Pelton wheel? | No |
+| Function of a draft tube? | Recover exit KE and allow the turbine to sit above tail race |
+| Pelton jet ratio? | ≈ 12 |
+| Purpose of the Pelton bucket splitter? | Divides the jet into two halves |
+| Efficiency of jet on a series of flat plates? | 50% at u = V/2 |
+| Where does cavitation occur in reaction turbines? | Runner outlet (draft tube inlet) |
+| Where does cavitation occur in centrifugal pumps? | Impeller eye (inlet) |
+| Why is priming needed? | Head developed by air is negligible |
+| Vane shape used in centrifugal pumps? | Backward-curved |
+| Power vs speed (affinity law)? | P ∝ N³ |
+| Pumps in series give? | More head |
+| When can negative slip occur? | Long suction, short delivery, high speed |
+| Function of an air vessel? | Uniform flow, reduced acceleration head, saves work |
+| Hydraulic ram works on? | Water hammer |
+| Device that stores hydraulic energy? | Accumulator |
+| Device with a stator for torque multiplication? | Torque converter |
+| Synchronous speed? | 120f/p |
+
+## B7. Manufacturing
+| Concept question | Answer |
+| Negative pattern allowance? | Shake (rapping) allowance |
+| Metal with least shrinkage allowance? | Cast iron |
+| Pattern for mass production on machines? | Match plate |
+| Support for cores inside moulds? | Chaplets |
+| Chvorinov's rule? | t = B(V/A)² |
+| Optimum riser? | Cylinder with H = D |
+| Sprue is tapered to avoid? | Aspiration |
+| Casting for turbine blades? | Investment casting |
+| Die casting for Zn? | Hot chamber |
+| Die casting for Al? | Cold chamber |
+| Casting for pipes without cores? | True centrifugal |
+| Defect from two streams not fusing? | Cold shut |
+| Defect from low collapsibility? | Hot tear |
+| TIG electrode? | Non-consumable tungsten |
+| Polarity for deeper penetration? | DCSP (electrode −ve) |
+| Welding of rails? | Thermit / flash butt |
+| Welding of car bodies? | Spot welding |
+| Flame for brass? | Oxidising |
+| Max temperature of oxy-acetylene flame? | ≈ 3200 °C |
+| Acetylene is dissolved in? | Acetone |
+| Brazing filler melting temperature? | Above 450 °C |
+| Hot working is done above? | Recrystallisation temperature |
+| Max draft in rolling? | μ²R |
+| Mill using backup rolls? | Four-high |
+| Process for seamless tubes? | Mannesmann piercing |
+| Clearance in blanking is given on? | Punch |
+| Clearance in punching is given on? | Die |
+| Die doing several operations at one station? | Compound die |
+| Process for collapsible tubes? | Impact extrusion |
+| Merchant's equation? | 2φ + β − α = 90° |
+| Chip type with BUE? | Continuous with built-up edge (low speed, ductile) |
+| Chip from cast iron? | Discontinuous |
+| Taylor's equation? | VTⁿ = C |
+| n for HSS / carbide? | ≈ 0.125 / 0.25 |
+| Wear that decides tool life? | Flank wear |
+| Crater wear mechanism? | Diffusion |
+| HSS composition? | 18-4-1 (W-Cr-V) |
+| Why isn't diamond used on steel? | Carbon diffuses into iron |
+| Theoretical roughness? | f²/8r |
+| Lathe tapers by tailstock set-over are? | Long, small, external |
+| Twist drill point angle? | 118° |
+| Jig vs fixture? | Jig guides the tool; fixture only holds the work |
+| Location principle? | 3-2-1 |
+| Milling with better finish? | Down (climb) milling |
+| Simple indexing? | 40/N |
+| Gear hobbing cannot cut? | Internal gears |
+| Wheel for hard materials? | Soft grade |
+| Abrasive for cast iron? | Silicon carbide |
+| Process for cylinder bores? | Honing |
+| NTM for glass? | USM |
+| NTM based on Faraday's law? | ECM |
+| NTM needing vacuum? | EBM |
+| Dielectric in EDM? | Kerosene / deionised water |
+| G02 means? | Circular interpolation, clockwise |
+| M03 means? | Spindle on, clockwise |
+| Sintering temperature? | Below melting point of main constituent |
+
+## B8. Materials, Metrology & IE
+| Concept question | Answer |
+| APF of BCC? | 0.68 |
+| Austenite structure? | FCC |
+| Martensite structure? | BCT |
+| Eutectoid composition? | 0.8% C at 723 °C |
+| Cementite carbon content? | 6.67% |
+| Composition of 18-8 stainless steel? | 18% Cr, 8% Ni |
+| Hadfield steel contains? | 12–14% Mn |
+| Graphite in SG iron is produced by? | Mg or Ce addition |
+| Brass? | Cu + Zn |
+| Bronze? | Cu + Sn |
+| Alloy for measuring tapes? | Invar |
+| Cooling in normalising? | Air |
+| Product of austempering? | Bainite |
+| Test for hardenability? | Jominy end-quench |
+| Case hardening without quenching? | Nitriding |
+| Rockwell C indenter? | Diamond cone |
+| Izod specimen is? | Cantilever |
+| NDT only for ferromagnetic materials? | Magnetic particle |
+| Is Bakelite a thermoplastic or thermoset? | Thermoset |
+| Least count of a micrometer? | 0.01 mm |
+| Sine bar is unreliable above? | 45° |
+| Preferred fit system? | Hole basis |
+| Taylor's principle of gauging? | GO checks max material with full form; NO-GO checks the other limit, single element |
+| H7/p6 is? | Interference fit |
+| Ra is also called? | CLA (centre line average) |
+| EOQ? | √(2DCo/Ch) |
+| At EOQ? | Ordering cost = carrying cost |
+| ABC analysis is based on? | Annual consumption value |
+| VED analysis is used for? | Spare parts (criticality) |
+| Method study steps? | SREDIM |
+| Standard time? | Normal time + allowances |
+| Developer of therbligs? | Gilbreth |
+| Chart for number of defects? | c-chart |
+| Control limits? | ±3σ |
+| Producer's risk? | α (type I error) |
+| Six Sigma DPMO? | 3.4 |
+| PERT distribution? | β-distribution |
+| PERT expected time? | (to + 4tm + tp)/6 |
+| Float on the critical path? | Zero |
+| Best initial solution for the transportation problem? | Vogel's approximation method |
+| Method for the assignment problem? | Hungarian method |
+| Little's law? | L = λW |
+| Break-even point? | F/(S − V) |
+| Father of scientific management? | F.W. Taylor |

@@ -1,0 +1,183 @@
+# Theory of Machines
+
+## 3.1 Mechanisms – Basic Definitions
+- Kinematic link (element): a resistant body that is part of a machine and has relative motion. Types: rigid, flexible (belt, rope, chain), fluid (hydraulic press).
+- Kinematic pair: two links in contact with relative motion that is completely or successfully constrained.
+- Constrained motion: completely constrained (piston in cylinder), incompletely constrained (shaft in round hole with free axial motion), successfully constrained (footstep bearing held by load, cam–follower held by spring, IC engine valve).
+| Pair by type of contact | Examples |
+| Lower pair (surface contact) | Sliding pair, turning pair, screw pair, spherical pair, nut & bolt |
+| Higher pair (point/line contact) | Cam–follower, gears, ball & roller bearings, wheel on rail |
+| Wrapping pair | Belt–pulley, chain–sprocket |
+| Pair by relative motion | Sliding, turning (revolute), rolling, screw (helical), spherical |
+| Pair by mechanical closure | Self-closed (lower pair) / force-closed (cam with spring) |
+- Kinematic chain: links connected so that the motion of each relative to the others is definite. Mechanism: a chain with one link fixed. Machine: a mechanism that transmits force/work. Structure: no relative motion.
+- Inversion: different mechanisms obtained by fixing different links of the same chain. A chain with n links gives n inversions (some may be identical).
+### Degrees of freedom (mobility)
+F: Kutzbach (planar): F = 3(n − 1) − 2j − h   (j = lower pairs, h = higher pairs)
+F: Grübler (F = 1, only lower pairs): 3n − 2j − 4 = 0
+F: Kinematic chain relation: l = 2p − 4;  j = (3/2)l − 2
+- F = 0 → structure (frame); F < 0 → statically indeterminate (super-structure); F = 1 → constrained mechanism; F > 1 → unconstrained.
+- Grashof's law (4-bar): s + l ≤ p + q for continuous rotation of at least one link. Shortest link fixed → double-crank; adjacent to shortest fixed → crank-rocker; opposite to shortest fixed → double-rocker.
+PYQ-TREND: Lower vs higher pair examples (ball bearing is a higher pair; nut & bolt is a lower pair). Number of inversions. Grübler/Kutzbach DOF calculation. Grashof condition. A cam & follower is a higher, force-closed pair.
+
+## 3.2 Inversions of Standard Chains
+| Chain | Inversions |
+| Four-bar chain | Beam engine (crank & lever), coupling rod of locomotive (double crank), Watt's indicator (double lever), pantograph, Ackermann steering (double rocker) |
+| Single slider crank | Reciprocating engine/compressor (I), rotary/Gnome engine (II – crank fixed), Whitworth quick return (II), oscillating cylinder engine (III), crank & slotted lever QR (III), hand pump/pendulum pump (IV – slider fixed) |
+| Double slider crank | Elliptical trammel, Scotch yoke, Oldham's coupling |
+F: Quick-return ratio = time of cutting / time of return = (360° − α)/α  (α = return-stroke crank angle)
+F: Crank & slotted lever: stroke length = 2 × slotted lever length × (crank radius / distance between centres)
+- Elliptical trammel: a point on the link (not midpoint) traces an ellipse; midpoint traces a circle.
+- Oldham coupling connects two parallel shafts with small lateral offset; max sliding speed of the intermediate piece = ωδ (δ = offset).
+- Scotch yoke produces simple harmonic motion of the slider.
+- Pantograph: used to copy drawings to enlarged/reduced scale.
+- Exact straight-line mechanisms: Peaucellier, Hart, Scott-Russell. Approximate: Watt, Grasshopper, Tchebicheff, Robert.
+- Steering gears: Davis (exact, sliding pairs, wear more) and Ackermann (approximate, turning pairs, used in vehicles). Condition of correct steering: cot φ − cot θ = c/b.
+- Hooke's (universal) joint connects two intersecting shafts. Velocity ratio ω_B/ω_A = cosα/(1 − cos²θ sin²α). Speed fluctuation is eliminated by a double Hooke's joint.
+PYQ-TREND: Whitworth & crank-slotted lever QRM are inversions of the single slider crank chain. Elliptical trammel, Scotch yoke, Oldham coupling come from double slider chain. Peaucellier gives exact straight line. Ackermann steering condition. Hooke's joint used for intersecting shafts.
+
+## 3.3 Velocity and Acceleration Analysis
+- Instantaneous centre (I-centre): a point about which a link has pure rotation at an instant. Number of I-centres N = n(n − 1)/2.
+- Aronhold–Kennedy theorem: three bodies with relative motion have three I-centres lying on a straight line.
+- Types: fixed, permanent, neither fixed nor permanent.
+F: Velocity of a point = ω × distance from I-centre
+F: Acceleration components: centripetal (radial) a_r = ω²r = v²/r;  tangential a_t = αr
+F: Coriolis component = 2ωv (v = sliding velocity of slider on rotating link); direction: rotate v by 90° in the sense of ω
+- Coriolis component appears only when a point slides on a rotating link (crank & slotted lever, Whitworth).
+### Slider-crank kinematics (n = l/r)
+F: Piston velocity vp ≈ ωr(sinθ + sin2θ/(2n))
+F: Piston acceleration ap ≈ ω²r(cosθ + cos2θ/n)
+F: Angular velocity of connecting rod ωc = ω cosθ/n
+- Klein's construction gives the velocity and acceleration diagrams of the slider crank graphically.
+PYQ-TREND: Number of I-centres for a 4-bar = 6, 6-link = 15. Kennedy's theorem (three centres collinear). Coriolis component 2ωv appears in quick-return mechanisms. Direction of Coriolis.
+
+## 3.4 Friction Devices: Pivots, Collars, Clutches
+| Device | Uniform pressure (new) | Uniform wear (worn, used for design) |
+| Flat pivot | T = (2/3)μWR | T = (1/2)μWR |
+| Flat collar / single-plate clutch (per surface) | T = (2/3)μW(R₁³−R₂³)/(R₁²−R₂²) | T = μW(R₁+R₂)/2 |
+| Conical pivot | T = (2/3)μWR cosec α | T = (1/2)μWR cosec α |
+- Uniform wear theory gives lower torque → safer, used for clutch design. Uniform wear: p·r = constant (max pressure at inner radius).
+- Multi-plate clutch: T = n μ W R_mean, n = number of pairs of contact surfaces = n₁ + n₂ − 1.
+- Cone clutch: T = μW R_m / sinα. Centrifugal clutch engages automatically by speed.
+PYQ-TREND: Uniform wear vs uniform pressure torque; uniform wear used for design since it is conservative. Number of friction surfaces in a multi-plate clutch.
+
+## 3.5 Belt, Rope and Chain Drives
+F: Velocity ratio N₂/N₁ = d₁/d₂  (with thickness t: (d₁+t)/(d₂+t);  with slip s%: × (1 − s/100))
+F: Ratio of tensions (flat belt): T₁/T₂ = e^(μθ)
+F: V-belt / rope (groove angle 2β): T₁/T₂ = e^(μθ cosec β)
+F: Power P = (T₁ − T₂)v
+F: Centrifugal tension Tc = m v²  (m = mass per metre)
+F: Max power condition: Tc = T_max/3,  v_opt = √(T_max/(3m))
+F: Initial tension T₀ = (T₁ + T₂)/2 (neglecting Tc);  with Tc: (T₁ + T₂ + 2Tc)/2
+F: Open belt length L = π(r₁+r₂) + 2x + (r₁−r₂)²/x;  Crossed belt L = π(r₁+r₂) + 2x + (r₁+r₂)²/x
+- Crossed belt length depends only on the sum of radii → stepped cone pulleys with crossed belt need r₁ + r₂ = constant.
+- Angle of contact for open belt is decided by the smaller pulley (θ = 180° − 2α). Tight side should be the lower side in horizontal drives (to increase angle of wrap).
+- Creep: unequal stretching of belt on tight and slack sides causes relative motion between belt and pulley – reduces speed slightly.
+- Slip vs creep: slip is due to insufficient friction; creep is due to elasticity of the belt.
+- Chain drive: positive drive, no slip. Chordal action (polygon effect) causes speed fluctuation; reduced by more teeth. Minimum teeth on small sprocket ~17. Silent (inverted tooth) chain for high speed.
+PYQ-TREND: Max power transmitted when Tc = T_max/3. Centrifugal tension does not affect power. Crossed belt length depends on sum of radii. Creep definition. T₁/T₂ for V-belt is greater than flat belt (wedge action). Initial tension formula.
+WARN: In e^(μθ), θ must be in radians, not degrees.
+
+## 3.6 Brakes and Dynamometers
+- Brakes absorb KE/PE and dissipate it as heat. Types: shoe (block), band, band & block, internal expanding shoe, disc.
+- Single block brake: self-energising if the friction moment assists the applied force; self-locking if no external force is needed (undesirable).
+- Band brake: braking torque = (T₁ − T₂)r; T₁/T₂ = e^(μθ). Simple band brake is self-locking when T₂·b = T₁·a.
+- Effective μ for pivoted long shoe: μ' = 4μ sinθ/(2θ + sin2θ).
+- Absorption dynamometers: Prony brake, rope brake, hydraulic, eddy current. Transmission dynamometers: epicyclic train, belt transmission (Froude-Thornycroft), torsion dynamometer.
+PYQ-TREND: Self-energising vs self-locking brakes. Prony and rope brake are absorption type. Torsion dynamometer is transmission type.
+
+## 3.7 Gears
+- Law of gearing: the common normal at the point of contact must always pass through the pitch point so that the angular velocity ratio stays constant.
+- Involute profile: pressure angle constant (14.5° or 20°), centre distance can vary slightly without affecting velocity ratio, single curvature, easy to manufacture (rack). Cycloidal: no interference, less wear, stronger, used in watches/clocks; exact centre distance required.
+F: Module m = D/T (mm);  circular pitch pc = πm;  diametral pitch Pd = T/D = 1/m (per mm or per inch)
+F: Addendum = 1m;  dedendum = 1.25m (20° full depth);  clearance = 0.25m;  whole depth = 2.25m
+F: Velocity ratio = ω₁/ω₂ = T₂/T₁ = D₂/D₁
+F: Path of contact = √(Ra² − R²cos²φ) + √(ra² − r²cos²φ) − (R + r) sinφ
+F: Arc of contact = path of contact / cos φ;  contact ratio = arc of contact / circular pitch
+F: Min teeth on pinion to avoid interference (rack): T_min = 2a_w / sin²φ  → 32 for 14.5°, 18 for 20° (≈17)
+- Interference occurs when the tip of one gear tooth contacts the non-involute flank of the other. Remedies: increase pressure angle, undercut, stub teeth, increase number of teeth, profile modification.
+- Contact ratio should be > 1 (typically 1.2–1.6) for continuous transmission.
+| Gear type | Shafts | Remarks |
+| Spur | Parallel | Straight teeth, noisy at high speed |
+| Helical | Parallel (or crossed) | Gradual engagement, axial thrust, quieter |
+| Herringbone (double helical) | Parallel | Axial thrusts cancel |
+| Bevel / Mitre (VR 1, 90°) | Intersecting | Mitre = equal bevel at 90° |
+| Spiral (crossed helical) | Non-parallel non-intersecting | Point contact |
+| Worm & worm wheel | Non-intersecting perpendicular | High reduction, can be self-locking |
+| Hypoid | Non-intersecting | Automobile differential |
+| Rack & pinion | Rotary ↔ linear | Rack = gear of infinite radius |
+PYQ-TREND: Module definition and standard addendum (1 module). Minimum teeth to avoid interference (32 & 18). Contact ratio > 1. Herringbone eliminates axial thrust. Hypoid used in differential. Cycloidal teeth used in watches.
+
+## 3.8 Gear Trains
+- Simple train: VR = T_driven/T_driver; idlers do not change VR but change direction. Compound train: VR = product of driven teeth / product of driver teeth.
+- Reverted train: first and last gears co-axial (clock hands, lathe back gear). Condition r₁ + r₂ = r₃ + r₄ (same module → T₁ + T₂ = T₃ + T₄).
+- Epicyclic train: axis of at least one gear moves (planet on arm). Large speed ratio in compact space – automobile differential, wristwatch, hoists, Humpage's reduction gear.
+F: Epicyclic tabular method: arm fixed → give +1 rotation to sun; add y to all, x to sun.
+F: For sun–planet–ring: T_ring = T_sun + 2T_planet
+F: Torque balance: T_in + T_out + T_fixed = 0
+- Differential of an automobile allows the outer wheel to rotate faster on a turn.
+PYQ-TREND: Purpose of idler gear. Reverted train condition. Epicyclic train applications (differential). Ring teeth relation.
+
+## 3.9 Governors
+- Function: control the mean speed of the engine over long periods by regulating fuel supply according to load. (Flywheel controls speed fluctuation within a cycle.)
+| Governor | Height / Feature |
+| Watt (simple conical) | h = 895/N² m (N rpm); suits slow speeds only |
+| Porter (loaded, central dead weight M) | h = (m + M)/m × 895/N² (for equal arms) |
+| Proell | Like Porter, balls fixed to extension of lower arms – more sensitive |
+| Hartnell | Spring-loaded, centrifugal; can run at high speeds and in any position |
+| Wilson-Hartnell, Pickering | Other spring-loaded types; Pickering for gramophones |
+- Sensitiveness = (N₂ − N₁)/N_mean (smaller range → more sensitive).
+- Stability: radius of rotation increases with speed. Isochronous: equilibrium speed constant for all radii (infinitely sensitive, practically unstable) – Porter with equal arms can't be isochronous but Hartnell can be designed so.
+- Hunting: continuous fluctuation of speed above/below mean due to too sensitive a governor.
+- Effort: mean force on the sleeve for a given % change of speed. Power: work done at sleeve for a given % change. Controlling force curve: Fc vs radius – stable if Fc/r increases with r (line meets y-axis below origin).
+- Coefficient of insensitiveness = (N₁ − N₂)/N (due to friction).
+PYQ-TREND: Height of Watt governor ∝ 1/N². Isochronous governor is infinitely sensitive. Hunting definition. Hartnell is spring loaded. Governor controls mean speed, flywheel controls cyclic fluctuations – favourite comparison question.
+
+## 3.10 Flywheel and Turning Moment Diagram
+- Flywheel stores energy when supply > demand and releases it when supply < demand; reduces fluctuation of speed within a cycle. It does not control mean speed.
+F: Coefficient of fluctuation of speed Cs = (ω₁ − ω₂)/ω_mean
+F: Max fluctuation of energy ΔE = I ω² Cs = m k² ω² Cs = 2E·Cs
+F: Coefficient of fluctuation of energy Ce = ΔE / (work done per cycle)
+F: Rim stress in flywheel σ = ρv²  (v = peripheral speed)
+- Turning moment diagram (crank effort diagram): torque vs crank angle. Four-stroke single-cylinder has the largest fluctuation; multi-cylinder engines give smoother torque and need a smaller flywheel.
+- Cs values: punching press ~0.1–0.2; IC engine ~0.003–0.03; generator drive ~0.002.
+PYQ-TREND: ΔE = Iω²Cs. Function of flywheel vs governor. Four-stroke engine needs a heavier flywheel than two-stroke. Rim stress ρv².
+
+## 3.11 Balancing
+- Static balance: Σmr = 0 (CG on axis). Dynamic balance: Σmr = 0 and Σmrl = 0 (no resultant couple). At least two balancing masses in different planes are required for dynamic balancing of a rotating shaft.
+- Reciprocating masses: primary force = m ω² r cosθ; secondary force = m ω² r cos2θ / n. Secondary force has frequency twice the crank speed.
+- Partial balancing of locomotives: fraction c (usually 2/3 or 3/4) of reciprocating mass balanced. Unbalanced effects: variation of tractive effort, swaying couple, hammer blow.
+- In-line engines: 4-cylinder (in-line, 180° crank) – primary forces and couples balanced, secondary forces not. 6-cylinder in-line – completely balanced for primary & secondary forces and couples.
+- V-twin, radial engines: use direct & reverse crank method.
+PYQ-TREND: Conditions for static vs dynamic balance. Hammer blow, swaying couple, tractive effort variation. Secondary force frequency = 2ω. Complete reciprocating balance is impossible by rotating masses.
+
+## 3.12 Cams and Followers
+- Cam: rotating machine element giving reciprocating/oscillating motion to the follower by direct contact (higher pair).
+- Followers: knife-edge (high wear), roller (most used, less wear), flat-faced/mushroom (used where space limited – automobile valves), spherical-faced. In-line (radial) or offset.
+- Terms: base circle (smallest circle from cam centre to profile), prime circle, pitch curve, pressure angle (angle between direction of follower motion and common normal; keep < 30°), lift/stroke, dwell.
+| Follower motion | Characteristics |
+| Uniform velocity | Infinite acceleration at start/end – not used without modification |
+| Simple harmonic (SHM) | v_max = πhω/(2θ₀); a_max = π²hω²/(2θ₀²); finite but sudden jerk at ends |
+| Uniform acceleration & retardation (parabolic) | Min a for given lift; a = 4hω²/θ₀² |
+| Cycloidal | Zero acceleration at start/end – best for high speeds, no jerk |
+- Undercutting of cam occurs when the radius of curvature of pitch curve is less than the roller radius.
+PYQ-TREND: Cycloidal motion has no abrupt acceleration change → used at high speeds. Uniform velocity gives infinite acceleration. Pressure angle definition. Mushroom follower used in IC engine valves.
+
+## 3.13 Vibrations
+F: Natural frequency (undamped, longitudinal): ωn = √(k/m);  fn = (1/2π)√(g/δ) = 0.4985/√δ  (δ in m)
+F: Simple pendulum T = 2π√(L/g);  compound pendulum T = 2π√((k_G² + h²)/(gh))
+F: Damping ratio ζ = c/c_c;  critical damping c_c = 2√(km) = 2mωn
+F: Damped frequency ωd = ωn √(1 − ζ²)
+F: Logarithmic decrement δ = ln(x₁/x₂) = 2πζ/√(1 − ζ²)
+F: Transmissibility: isolation only when ω/ωn > √2
+F: Whirling (critical) speed of shaft = natural transverse frequency;  Nc = 60/(2π)·√(g/δ)
+F: Torsional vibration: ωn = √(q/I), q = GJ/L
+F: Two-rotor system: node located such that l_A·I_A = l_B·I_B
+- ζ > 1 overdamped (no oscillation), ζ = 1 critically damped (fastest return without oscillation – used in gun recoil), ζ < 1 underdamped.
+- Resonance: forcing frequency = natural frequency → amplitude very large (limited by damping).
+- Rayleigh's method (energy), Dunkerley's method (lower bound, 1/f² = Σ1/fᵢ) for transverse vibrations.
+PYQ-TREND: fn = 0.4985/√δ. Critical damping definition and its use in recoil mechanisms. Vibration isolation requires frequency ratio > √2. Log decrement. Whirling speed equals natural transverse frequency.
+TIP: Static deflection δ in mm → fn ≈ 15.76/√δ Hz. Example: δ = 1 mm → ~15.8 Hz.
+
+Q: Differentiate between a governor and a flywheel.
+A governor controls the mean speed over a long period by regulating fuel supply to match the load. It acts intermittently, only when the load changes, and is essential for engines with varying loads. A flywheel controls cyclic speed fluctuation within one cycle by storing and releasing kinetic energy. It works continuously, does not control fuel supply, and is needed even at constant load (e.g., punching press, IC engines). So a flywheel gives smoothness within a cycle and a governor gives regulation between cycles.

@@ -1,0 +1,42 @@
+# How to Use These Notes & Exam Blueprint
+
+## SSC JE Mechanical – Exam Structure
+SSC JE (Junior Engineer) is conducted by the Staff Selection Commission for posts in CPWD, MES, BRO, CWC, Farakka Barrage, Naval/Defence establishments and others. Mechanical candidates take Paper-I (objective, computer-based) and Paper-II (now also objective in recent cycles; earlier conventional/descriptive). Always confirm the current notification, because SSC changes the pattern from cycle to cycle.
+| Paper | Part | Subject | Marks (typical) |
+| Paper-I | A | General Intelligence & Reasoning | 50 |
+| Paper-I | B | General Awareness | 50 |
+| Paper-I | C | Mechanical Engineering | 100 |
+| Paper-II | – | Mechanical Engineering (full syllabus, higher depth) | 300 |
+
+## Official Syllabus Map (Mechanical)
+- Theory of Machines & Machine Design: concept of simple machine, four-bar linkage, link motion, flywheels, governors, balancing, cams, gears & gear trains, belts & ropes, brakes, clutches, bearings, keys, couplings, joints (riveted/welded/bolted), shafts.
+- Engineering Mechanics & Strength of Materials: equilibrium of forces, Newton's laws, friction, centroid & moment of inertia, work-energy, impulse-momentum, stress-strain, elastic constants, SFD & BMD, bending & shear stress, torsion, columns, thin cylinders, strain energy, principal stresses, springs.
+- Thermal Engineering: properties of pure substances, 1st & 2nd laws, entropy, availability, air-standard cycles (Otto, Diesel, Dual, Brayton), IC engines (combustion, performance, cooling, lubrication), Rankine cycle, boilers, steam turbines, nozzles, condensers, refrigeration (VCR, VAR), psychrometry, air compressors, heat transfer basics.
+- Fluid Mechanics & Machinery: properties of fluids, pressure measurement, hydrostatic forces, buoyancy, fluid kinematics, Bernoulli, flow measurement, viscous flow, pipe flow losses, dimensional analysis, impact of jets, hydraulic turbines, centrifugal & reciprocating pumps.
+- Production Engineering: classification of steels, cast iron, heat treatment, casting, welding, metal forming, machining (lathe, milling, drilling, grinding), tool wear & life, non-traditional machining, metrology, limits-fits-tolerances, industrial engineering basics.
+
+## Weightage Pattern (from past papers – approximate)
+| Area | Paper-I share (of 100) | Priority |
+| Thermal Engg (Thermo + IC + RAC + Steam + HT) | 25–30 | Very High |
+| Fluid Mechanics & Machinery | 15–20 | Very High |
+| SOM + Engg Mechanics | 15–20 | Very High |
+| Theory of Machines + Machine Design | 12–18 | High |
+| Production / Manufacturing + Materials | 15–20 | High |
+
+## How the Notes Are Organised
+- Each chapter = theory in compact points → formula box (yellow) → PYQ-Trend box (blue) → Topper Trick (green) → Common Mistake (red) → Descriptive Q (purple) for Paper-II style answers.
+- PYQ-Trend boxes list the concepts SSC JE asks again and again (2007–2024 papers). They tell you what is examined. They are not reproduced questions.
+- Read the chapter once. Make a one-page summary of each box. Revise only the boxes in the last 15 days.
+
+## 90-Day Topper Plan
+| Days | Target |
+| 1–15 | Engg Mechanics + SOM (build the base for TOM/MD) |
+| 16–25 | Thermodynamics + IC Engines |
+| 26–35 | Fluid Mechanics + Hydraulic Machines |
+| 36–45 | TOM + Machine Design |
+| 46–55 | RAC + Steam/Power Plant + Heat Transfer |
+| 56–68 | Production + Materials + Metrology + IE |
+| 69–80 | Formula sheet revision + PYQ concept boxes + mock tests |
+| 81–90 | Weak areas, last-minute facts chapter, sleep well |
+TIP: SSC JE repeats concepts heavily. A student who knows every PYQ-Trend box in this book perfectly usually scores more than one who has read five reference books halfway.
+WARN: Don't ignore "facts" questions (inventor names, units, default values like the COP of the Carnot cycle or the compression ratio range of a diesel engine). They are 20–25% of the paper and the fastest marks.

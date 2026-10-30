@@ -1,0 +1,119 @@
+# Air-Standard Cycles & IC Engines
+
+## 6.1 Air-Standard Cycles
+Assumptions: working fluid is air (ideal gas, constant specific heats); closed cycle; combustion replaced by heat addition; exhaust replaced by heat rejection; all processes internally reversible.
+FIG: cycles
+| Cycle | Processes | Efficiency |
+| Carnot | 2 isothermal + 2 isentropic | 1 − T₂/T₁ |
+| Otto (SI) | 2 isentropic + 2 constant-volume | 1 − 1/r^(γ−1) |
+| Diesel (CI) | 2 isentropic + const-p addition + const-v rejection | 1 − (1/r^(γ−1))·(ρ^γ − 1)/(γ(ρ − 1)) |
+| Dual (limited pressure) | 2 isentropic + const-v & const-p addition + const-v rejection | 1 − (1/r^(γ−1))·(αρ^γ − 1)/[(α − 1) + γα(ρ − 1)] |
+| Brayton/Joule (gas turbine) | 2 isentropic + 2 constant-pressure | 1 − 1/rp^((γ−1)/γ) |
+| Stirling | 2 isothermal + 2 constant-volume (with regenerator) | = Carnot |
+| Ericsson | 2 isothermal + 2 constant-pressure (with regenerator) | = Carnot |
+| Atkinson | 2 isentropic + const-v addition + const-p rejection | Higher than Otto (longer expansion) |
+| Lenoir | No compression; const-v addition, isentropic expansion, const-p rejection | Low (pulse jet) |
+- r = compression ratio V₁/V₂; ρ = cut-off ratio V₃/V₂; α = pressure ratio (explosion ratio) p₃/p₂; rp = pressure ratio of Brayton.
+- Otto efficiency depends only on r (and γ). Increasing r is limited by knocking in SI engines (r = 6–10). CI engines: r = 14–22.
+- Diesel efficiency decreases as cut-off ratio increases (more load → lower efficiency). Diesel efficiency → Otto efficiency as ρ → 1.
+### Comparison (very frequently asked)
+| Basis of comparison | Order of efficiency |
+| Same compression ratio & heat input | Otto > Dual > Diesel |
+| Same max pressure & temperature (and heat rejection) | Diesel > Dual > Otto |
+| Same max pressure and heat input | Diesel > Dual > Otto |
+F: Mean effective pressure (Otto): MEP = p₁ r [(α − 1)(r^(γ−1) − 1)] / [(γ − 1)(r − 1)]
+F: MEP = net work / swept volume
+F: Brayton: optimum rp for max work = (T_max/T_min)^(γ/(2(γ−1)));  then T₂ = T₄ = √(T₁T₃)
+F: Work ratio (Brayton) = 1 − (T₁/T₃)·rp^((γ−1)/γ)
+- Gas turbine improvements: regeneration (increases η, not W; effective only at low rp), reheating (increases W, reduces η unless with regeneration), intercooling (reduces compressor work, increases W). Back-work ratio in gas turbines is high (40–80%).
+PYQ-TREND: Otto efficiency formula and its dependence only on r. Order of efficiencies for same r and for same max pressure. Stirling/Ericsson efficiency equals Carnot (with regenerator). Brayton cycle for gas turbines. Optimum pressure ratio for max work. Regeneration effect.
+TIP: For r = 8, γ = 1.4: r^0.4 = 2.297 → η_Otto = 56.5%. For r = 10: 60.2%. Remember 2^0.4 ≈ 1.32 for fast calculation.
+
+## 6.2 IC Engine Classification and Working
+| Basis | SI engine | CI engine |
+| Cycle | Otto | Diesel (practically dual) |
+| Fuel | Petrol (high volatility, high SIT) | Diesel (low volatility, low SIT ~ 250 °C) |
+| Charge introduction | Air–fuel mixture via carburettor / MPFI | Air only; fuel injected at end of compression |
+| Ignition | Spark plug | Self-ignition by hot compressed air |
+| Compression ratio | 6–10 (12 for modern GDI) | 14–22 |
+| Load control | Quantity governing (throttle) | Quality governing (fuel quantity) |
+| Weight & cost | Lighter, cheaper | Heavier (higher pressure), costlier |
+| Thermal efficiency | Lower | Higher |
+| Knocking cause | Late-stage auto-ignition of end charge | Long ignition delay |
+- Four-stroke: one power stroke per 2 revolutions; valves; better volumetric efficiency and fuel economy, heavier flywheel needed.
+- Two-stroke: one power stroke per revolution; ports (inlet/transfer/exhaust); scavenging; theoretically double power; higher fuel loss, lower thermal efficiency, more lubricating oil consumption; used in mopeds, large marine diesels.
+- Scavenging types: cross, loop (reverse), uniflow (most efficient).
+- Valve timing (4S SI typical): IVO 10–20° bTDC, IVC 30–50° aBDC, EVO 40–50° bBDC, EVC 10–15° aTDC. Valve overlap = both open near TDC (larger in CI and high-speed engines).
+- Firing order: 4-cylinder in-line 1-3-4-2 (or 1-2-4-3); 6-cylinder 1-5-3-6-2-4.
+PYQ-TREND: SI uses quantity governing, CI uses quality governing. CR ranges for SI & CI. Valve overlap meaning. Firing order of 4-cylinder engine 1-3-4-2. Two-stroke engine needs a lighter flywheel. Uniflow scavenging most efficient.
+
+## 6.3 Engine Performance Parameters
+F: Indicated power IP = pm L A n k / 60   (n = N/2 for 4-stroke, N for 2-stroke; k = cylinders)
+F: Brake power BP = 2πNT/60
+F: Friction power FP = IP − BP;  mechanical efficiency ηm = BP/IP
+F: Brake thermal efficiency ηbth = BP/(ṁf × CV);  indicated thermal ηith = IP/(ṁf × CV)
+F: Volumetric efficiency ηv = actual volume of air inducted / swept volume (at intake conditions)
+F: bsfc = ṁf / BP (kg/kWh)
+F: Swept volume Vs = (π/4)D²L;  clearance volume Vc;  r = (Vs + Vc)/Vc
+F: Mean piston speed = 2LN/60
+- Measurement of friction power: Willan's line (CI engines only – fuel consumption vs BP extrapolated to zero), Morse test (multi-cylinder engines, cut out one cylinder at a time), motoring test, retardation test.
+- Heat balance sheet: BP ≈ 25–35%, cooling ≈ 25–35%, exhaust ≈ 30–40%, unaccounted the rest.
+- Engine characteristic: bsfc minimum near full load; volumetric efficiency of NA engines 75–90%; superchargers increase density → power.
+PYQ-TREND: Willan's line for CI engines; Morse test for multi-cylinder SI engines. IP formula with n = N/2 for four-stroke. Definitions of ηm, ηv. bsfc units. Supercharging increases power and is more suitable for CI engines (SI gets detonation).
+
+## 6.4 Combustion in SI Engines
+- Stages (Ricardo): ignition lag (preparation phase, chemical), flame propagation (rapid), after-burning.
+- Detonation/knocking in SI: auto-ignition of end-gas ahead of flame front → pressure waves, pinging noise, damage.
+| Factor | Effect on SI knock | Effect on CI knock |
+| Compression ratio ↑ | Increases knock | Reduces knock |
+| Inlet temperature ↑ | Increases | Reduces |
+| Engine speed ↑ | Reduces | Increases (delay covers more crank angle) |
+| Cylinder size ↑ | Increases | Reduces |
+| Fuel self-ignition temp ↑ | Reduces (good) | Increases (bad) |
+| Spark advance ↑ | Increases | – |
+| Turbulence ↑ | Reduces | Reduces |
+- Antiknock rating SI: Octane number – % iso-octane (ON 100) in mixture with n-heptane (ON 0). Antiknock additives: TEL (banned), MTBE, ethanol.
+- CI rating: Cetane number – % cetane (n-hexadecane, CN 100) in a mixture with α-methyl naphthalene (CN 0). Cetane improvers: amyl nitrate, ethyl nitrate. Diesel CN ≈ 40–55.
+- Good SI fuel = high octane (paraffins (iso), aromatics). Good CI fuel = high cetane (straight-chain paraffins) – opposite characteristics.
+- SI combustion chambers: T-head, L-head, I-head (overhead valve – best), F-head; aim for compact chamber, spark plug centrally placed, squish turbulence.
+- Pre-ignition: ignition by hot spots before the spark. Run-on (dieseling): engine continues after switching off.
+- Air–fuel ratio: stoichiometric for petrol ≈ 14.7:1. Max power at slightly rich (~12.5:1), max economy at slightly lean (~16:1). Cold start & idling need rich mixture.
+PYQ-TREND: Octane number reference fuels (iso-octane & n-heptane), cetane number (cetane & α-methyl naphthalene). Factors which reduce knocking in SI increase it in CI. Stoichiometric A/F 14.7. Detonation in SI occurs at the end of combustion; diesel knock occurs at the start.
+
+## 6.5 Combustion in CI Engines
+- Stages: ignition delay (physical + chemical), period of rapid (uncontrolled) combustion, controlled combustion, after-burning.
+- Diesel knock: due to long ignition delay – excessive fuel accumulates and burns suddenly. Reduce delay: high CR, high cetane fuel, high intake temperature, good atomisation.
+- CI chambers: open (direct injection, quiescent – large engines), swirl chamber (Ricardo Comet), pre-combustion chamber, air-cell, energy cell (Lanova). Indirect injection chambers need glow plugs for cold starting.
+- Fuel injection systems: air injection (obsolete), solid injection – individual pump, common rail (CRDI – high pressure 1500–2500 bar, electronic control), distributor type. Injection pressure ~100–300 bar in older systems.
+- Nozzles: pintle (IDI), single-hole, multi-hole (DI).
+PYQ-TREND: Delay period causes diesel knock. Glow plug used in IDI engines. CRDI full form. Higher CR used to reduce delay.
+
+## 6.6 Fuel Supply, Ignition, Cooling, Lubrication
+- Simple carburettor: float chamber, venturi, fuel jet, throttle valve, choke (rich mixture for cold start). Mixture gets richer at high speeds in simple carburettor – compensating devices (compensating jet, air bleed, emulsion tube). MPFI replaced carburettors for emission control.
+- Ignition systems: battery (coil) ignition – battery, ignition coil, contact breaker, condenser (to prevent arcing), distributor, spark plug; magneto ignition – used in two-wheelers/racing (better at high speed); electronic ignition (CDI, transistorised).
+- Spark plug gap ≈ 0.6–0.9 mm; voltage 10,000–25,000 V. Hot plug for low-speed engines, cold plug for high-speed/high CR engines.
+- Cooling: air cooling (fins – motorcycles, aircraft) and water cooling (thermosyphon, pump circulation, pressurised radiator). Thermostat keeps engine at optimum temperature (opens ~70–85 °C). Antifreeze: ethylene glycol.
+- Lubrication systems: petroil (two-stroke – oil mixed with petrol ~3–5%), splash, pressure (forced) feed, dry sump & wet sump. Viscosity index (VI): change of viscosity with temperature; high VI oils preferred. SAE grading (e.g., 20W-40 multi-grade; W = winter).
+- Governing: quantity (SI), quality (CI), hit-and-miss (gas engines).
+PYQ-TREND: Purpose of condenser in battery ignition (prevents arcing at contact points). Choke gives rich mixture during cold start. Petroil lubrication in two-stroke engines. Magneto ignition is better at high speed. Thermostat function. SAE 20W meaning. Cold plug for high-compression engines.
+
+## 6.7 Emissions and Alternative Fuels
+| Pollutant | Cause | Control |
+| CO | Incomplete combustion, rich mixture | Catalytic converter (oxidation) |
+| HC (unburnt) | Flame quenching at walls, crevices, misfire | Catalytic converter |
+| NOx | High combustion temperature | EGR, catalytic converter (reduction), retarding timing |
+| Particulates/soot (CI) | Rich zones, incomplete combustion | DPF, high injection pressure |
+- Three-way catalytic converter (Pt, Pd, Rh): oxidises CO & HC and reduces NOx; works efficiently only near stoichiometric A/F ratio (closed-loop control with λ (oxygen) sensor). Lead poisons it.
+- EGR reduces NOx by lowering peak temperature. SCR with urea (AdBlue) for diesel NOx.
+- Bharat Stage norms: BS-VI implemented in India from April 2020 (BS-V skipped).
+- Alternative fuels: CNG (methane, ON ≈ 120), LPG (propane + butane), ethanol (ON ≈ 108), methanol, biodiesel (transesterified vegetable oil – esters), hydrogen. Biogas ≈ 55–65% methane.
+PYQ-TREND: EGR controls NOx. Three-way catalyst metals. Main constituent of CNG = methane, LPG = propane + butane. BS-VI from 2020. Biodiesel is produced by transesterification.
+
+## 6.8 Supercharging and Turbocharging
+- Supercharging: increases density of intake charge with a compressor driven from crankshaft (Roots blower, vane, centrifugal). Turbocharging uses an exhaust-driven turbine – recovers exhaust energy, better efficiency, turbo lag.
+- Intercooler (aftercooler) cools compressed air to raise density further and to limit knock.
+- Benefits: higher power per unit weight, compensates altitude loss (aircraft engines), better combustion in CI.
+PYQ-TREND: Turbocharger is driven by exhaust gases. Supercharging is more suitable for CI engines. Roots blower is a positive displacement supercharger.
+
+Q: Compare SI and CI engines on the basis of cycle, fuel, ignition, compression ratio, governing and efficiency.
+SI engines work on the Otto cycle with petrol. The air–fuel mixture is prepared outside (carburettor/port injection) and ignited by a spark. CR is limited to 6–10 by knock, and power is controlled by quantity governing through a throttle. CI engines work on the Diesel (practically dual) cycle. Only air is compressed (CR 14–22) and diesel is injected near TDC, so it self-ignites. Power is controlled by quality governing, varying fuel quantity per cycle. CI engines have higher thermal efficiency, are heavier and costlier, run at lower speeds and have higher torque. They are noisier and produce more NOx and particulates; SI engines produce more CO and HC.

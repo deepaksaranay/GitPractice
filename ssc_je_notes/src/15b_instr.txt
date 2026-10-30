@@ -1,0 +1,64 @@
+# Mechanical Measurements & Instrumentation
+
+## 15B.1 Generalised Measurement System
+- Elements: primary sensing element (transducer/sensor) → variable conversion element → variable manipulation element → data transmission → data presentation (indicator/recorder).
+- Static characteristics: accuracy, precision, sensitivity, linearity, hysteresis, threshold, resolution, dead zone, drift, static error, repeatability, range & span.
+- Dynamic characteristics: speed of response, measuring lag, fidelity, dynamic error. Zero-order (potentiometer – instantaneous), first-order (thermometer – time constant τ; reaches 63.2% of step in τ), second-order (spring-mass-damper instruments – natural frequency, damping ratio ~0.6–0.7 optimal).
+- Transducers: active (self-generating – thermocouple, piezoelectric, photovoltaic, tachogenerator) vs passive (need external power – strain gauge, RTD, thermistor, LVDT, capacitive). Primary vs secondary; analog vs digital.
+- Null-type instruments (more accurate, e.g., potentiometer, Wheatstone bridge balance) vs deflection type (faster, e.g., PMMC meter).
+PYQ-TREND: First-order system reaches 63.2% in one time constant. Thermocouple and piezoelectric are active transducers. Optimal damping ratio ~0.7 for second-order instruments. Null method is more accurate.
+
+## 15B.2 Temperature Measurement
+| Instrument | Principle | Range / notes |
+| Liquid-in-glass (mercury) | Thermal expansion | −39 to 357 °C (alcohol for low temps) |
+| Bimetallic strip | Differential expansion of two metals | Thermostats, −30 to 550 °C |
+| Pressure thermometer | Expansion of gas/liquid/vapour in a bulb | Remote indication |
+| Thermocouple | Seebeck effect (EMF from junctions at different T) | Type K (chromel–alumel) up to ~1250 °C; J (iron–constantan); T (copper–constantan, cryogenic); S/R (Pt–Rh, up to 1600 °C); B up to 1800 °C |
+| RTD | Resistance increases with T (platinum Pt-100: 100 Ω at 0 °C) | −200 to 850 °C; most accurate, linear |
+| Thermistor | Semiconductor; NTC – resistance falls with T | High sensitivity, non-linear, narrow range |
+| Optical pyrometer | Brightness comparison with a filament (disappearing filament) | > 700 °C; furnaces |
+| Radiation pyrometer | Total radiation (Stefan–Boltzmann) focused on thermopile | High temperatures, non-contact |
+| Infrared thermometer | IR emission | Non-contact |
+- Thermocouple laws: law of intermediate metals (a third metal at the same temperature adds no EMF – allows meters in circuit), law of intermediate temperatures (E(T₁,T₃) = E(T₁,T₂) + E(T₂,T₃)), law of homogeneous circuit. Cold-junction compensation required.
+- Thermopile: thermocouples in series for higher output.
+- Peltier effect (heat absorbed/evolved at a junction when current flows) and Thomson effect (along a conductor with temperature gradient) are related thermoelectric effects.
+PYQ-TREND: Thermocouple works on the Seebeck effect. Pt-100 RTD is the most accurate & linear. Thermistor has NTC and high sensitivity. Optical pyrometer for very high temperatures, non-contact. Law of intermediate metals. Chromel–alumel is type K.
+
+## 15B.3 Pressure Measurement
+- Manometers (U-tube, inclined, well-type, micromanometer) – low pressures, primary standards.
+- Elastic gauges: Bourdon tube (C-type, spiral, helical – most common, gauge pressure), diaphragm (corrosive/low pressure), bellows (low pressure, differential).
+- Dead-weight piston gauge – primary calibration standard for pressure gauges.
+- Electrical: strain-gauge pressure transducers, piezoelectric (dynamic/rapidly varying pressure – engine combustion), capacitive, LVDT-based.
+- Vacuum (low-pressure) gauges: McLeod gauge (compression type – standard for calibrating others, ~10⁻⁴ mm Hg), Pirani gauge (thermal conductivity of gas – hot wire resistance), thermocouple gauge, ionisation gauge (very high vacuum ~10⁻¹⁰ mm Hg), Knudsen gauge (molecular momentum).
+- High pressure: Bridgman gauge (resistance of manganin wire changes with pressure).
+PYQ-TREND: McLeod gauge used for calibrating vacuum gauges. Pirani works on thermal conductivity. Ionisation gauge for very low pressures. Bridgman gauge for very high pressures. Piezoelectric transducers for dynamic pressure. Dead-weight tester for calibration.
+
+## 15B.4 Flow, Level, Speed and Force Measurement
+- Flow (obstruction type): orifice, venturi, flow nozzle, Dall tube – Q ∝ √Δp. Variable area: rotameter (float in tapered tube – Q ∝ height). Velocity type: Pitot tube, hot-wire/hot-film anemometer (King's law – turbulence measurement), laser Doppler anemometer (LDA – non-intrusive), cup anemometer (wind), current meter (rivers).
+- Other flow meters: turbine (rotor speed ∝ Q), positive displacement (domestic water/gas meters – nutating disc, lobed rotor), electromagnetic (Faraday's law – conductive liquids, no obstruction, slurries), ultrasonic (transit-time & Doppler), vortex-shedding (Strouhal number), Coriolis mass flow meter (true mass flow).
+- Level: sight glass, float, displacer, bubbler (purge), capacitance, ultrasonic, radar, differential pressure, radioactive (nucleonic).
+- Speed: tachometers – mechanical (centrifugal, revolution counter), electrical (DC/AC tachogenerator, eddy-current drag cup as in speedometers), contactless (stroboscope – flashes synchronised to make rotating object appear stationary; photoelectric/optical; magnetic pickup).
+- Force/torque: load cells (strain gauge, hydraulic, pneumatic), proving ring (calibration standard), dynamometers (absorption: Prony brake, eddy current, hydraulic; transmission: torsion meter), spring balance.
+- Displacement: LVDT (linear variable differential transformer – AC excitation, two secondaries in series opposition; output ∝ displacement; null at centre), RVDT (rotary), potentiometer, capacitive, optical encoders (incremental/absolute).
+- Vibration: accelerometers (piezoelectric – natural frequency much higher than measured; seismic instruments), vibrometer (natural frequency much lower than measured).
+PYQ-TREND: Electromagnetic flowmeter works on Faraday's law and needs conductive fluid. Hot-wire anemometer for turbulence. Rotameter is a variable-area meter. Stroboscope for contactless speed. LVDT principle (mutual induction, differential output). Proving ring calibrates force. Accelerometer natural frequency ≫ measured; vibrometer ≪ measured. Coriolis meter gives mass flow.
+
+## 15B.5 Strain Measurement
+- Electrical resistance strain gauge: R = ρL/A; under strain both L and A change. Gauge factor GF = (ΔR/R)/ε ≈ 2 for metallic foil gauges (constantan), 50–200 for semiconductor gauges (high sensitivity but temperature sensitive).
+F: ΔR/R = GF × ε;  bridge output (quarter bridge) ≈ (V/4) × GF × ε
+- Wheatstone bridge configurations: quarter (1 active), half (2 active – temperature compensation with dummy gauge), full (4 active – max sensitivity, 4× quarter bridge output).
+- Rosettes (rectangular 0–45–90°, delta 0–60–120°) measure strains in three directions to compute principal strains when directions are unknown.
+- Temperature compensation: dummy gauge in adjacent bridge arm; self-temperature-compensated gauges.
+- Other: photoelasticity (birefringent models under polarised light – fringe patterns show stress), brittle coatings, Moiré, digital image correlation.
+PYQ-TREND: Gauge factor of metallic gauges ≈ 2. Strain rosette needed when principal directions are unknown. Dummy gauge for temperature compensation. Full bridge gives max output. Photoelasticity uses polarised light.
+
+## 15B.6 Control Systems Basics
+- Open-loop (no feedback – washing machine timer, traffic lights) vs closed-loop (feedback – thermostat AC, cruise control, governor).
+- Controller actions: on-off (two position), proportional (P – offset error remains), integral (I – eliminates steady-state error, may cause oscillation), derivative (D – anticipates, improves stability/damping), PID combined.
+- Transfer function: Laplace output/input with zero initial conditions. First-order: K/(τs + 1). Second-order: ωn²/(s² + 2ζωn s + ωn²).
+- Stability: all poles in the left half of the s-plane. Routh–Hurwitz criterion, root locus, Bode plot (gain & phase margins), Nyquist.
+- Hydraulic & pneumatic systems: actuators (cylinders single/double acting, motors), valves (directional control 4/3, 5/2 etc., pressure relief, flow control), accumulators, FRL unit (filter–regulator–lubricator) in pneumatics.
+PYQ-TREND: Feedback distinguishes closed-loop systems. Integral action removes steady-state error. Derivative action improves stability. FRL unit in pneumatics. A 4/3 valve has 4 ports & 3 positions.
+
+Q: Explain the working of an LVDT with a neat sketch and list its advantages.
+An LVDT has one primary coil and two identical secondary coils wound symmetrically on a hollow former, with a movable soft-iron core attached to the object whose displacement is measured. The primary is excited by AC (1–10 kHz). At the null position the core couples equally to both secondaries. They are connected in series opposition, so the induced EMFs cancel and the output is zero. When the core moves one way, coupling with one secondary rises and with the other falls. The differential output voltage then increases linearly with displacement, and its phase (0° or 180°) shows direction. Advantages: frictionless (no contact) so long life and infinite resolution, high sensitivity and linearity over the range, rugged, low hysteresis, electrical isolation. Limitations: sensitive to stray magnetic fields, needs AC excitation and demodulation, and has limited dynamic response due to core mass.

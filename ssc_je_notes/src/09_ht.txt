@@ -1,0 +1,100 @@
+# Heat Transfer
+
+## 9.1 Modes of Heat Transfer
+| Mode | Law | Medium needed |
+| Conduction | Fourier: q = −kA dT/dx | Yes (solid/fluid at rest) |
+| Convection | Newton's law of cooling: q = hA(Ts − T∞) | Yes (moving fluid) |
+| Radiation | Stefan–Boltzmann: q = εσA(T₁⁴ − T₂⁴) | No (fastest – speed of light) |
+F: σ = 5.67 × 10⁻⁸ W/m²·K⁴
+- Thermal conductivity k (W/m·K): silver 429 > copper 386 > gold 317 > aluminium 237 > iron 80 > steel ~45 > stainless ~16 > glass ~1 > water 0.6 > wood ~0.15 > air 0.026. Diamond ≈ 2000+ (highest of solids).
+- k of metals decreases with temperature (mostly); k of gases increases with temperature; k of liquids decreases (except water up to ~150 °C).
+- Thermal diffusivity α = k/(ρc) m²/s – rate of heat diffusion in transient conduction.
+PYQ-TREND: Units of k, h, σ. Highest conductivity metal = silver. Fourier's law. k of gases increases with temperature. Radiation needs no medium. Thermal diffusivity definition.
+
+## 9.2 Steady One-Dimensional Conduction
+F: Plane wall: Q = kA(T₁ − T₂)/L;  thermal resistance R = L/(kA)
+F: Convection resistance R = 1/(hA);  radiation equivalent h_r = εσ(T₁² + T₂²)(T₁ + T₂)
+F: Composite wall (series): Q = ΔT_overall / ΣR
+F: Cylinder: R = ln(r₂/r₁)/(2πkL);  Sphere: R = (r₂ − r₁)/(4πk r₁ r₂)
+F: Overall heat transfer coefficient: 1/U = 1/h₁ + Σ(L/k) + 1/h₂
+F: Critical radius of insulation: cylinder r_c = k/h;  sphere r_c = 2k/h
+- Adding insulation to a pipe with r < r_c increases heat loss (until r = r_c, where loss is maximum). Electric cables are deliberately kept near r_c to dissipate heat.
+- Variable conductivity k = k₀(1 + βT): use mean k at mean temperature for plane wall.
+- Heat generation in plane wall (thickness 2L, both faces at Ts): T_max = Ts + qL²/(2k). Cylinder: T_max = Ts + qR²/(4k).
+PYQ-TREND: Critical radius k/h (cylinder) and 2k/h (sphere) – very frequently asked. At critical radius heat loss is maximum. Series/parallel resistance concept. Overall U formula.
+WARN: Insulating a small wire can increase heat loss. Insulation reduces heat loss only after the outer radius exceeds r_c.
+
+## 9.3 Fins (Extended Surfaces)
+F: m = √(hP/(kA_c))
+F: Infinitely long fin: Q = √(hPkA_c) θ₀
+F: Insulated tip: Q = √(hPkA_c) θ₀ tanh(mL)
+F: Fin efficiency η_f = actual heat transfer / heat transfer if entire fin were at base temperature;  long fin η = 1/(mL)
+F: Fin effectiveness ε = Q_with fin / Q_without fin = √(kP/(hA_c));  use fins only if ε > 2
+- Fins are most effective with high k material, low h (gas side), thin & closely spaced. Fins on the side of lower h (air side of radiator).
+- Corrected length for convective tip: Lc = L + t/2 (rectangular), L + D/4 (pin fin).
+PYQ-TREND: Fins placed on the side with lower heat transfer coefficient. Fin effectiveness should be > 2. Long fin heat flow formula. Corrected length.
+
+## 9.4 Transient Conduction
+F: Biot number Bi = hL_c/k_solid  (L_c = V/A_s);  lumped analysis valid if Bi < 0.1
+F: Lumped: (T − T∞)/(T₀ − T∞) = exp(−hA_s t/(ρVc)) = exp(−Bi·Fo)
+F: Fourier number Fo = αt/L_c² (dimensionless time)
+F: Time constant τ = ρVc/(hA_s)
+- L_c: plane wall half-thickness L; cylinder r/2; sphere r/3.
+- Heisler charts for Bi > 0.1. Thermocouple response time (time constant) small for small bead and high h.
+PYQ-TREND: Lumped capacity valid for Bi < 0.1. Biot number uses solid k; Nusselt uses fluid k. Characteristic length of sphere r/3.
+
+## 9.5 Convection
+| Dimensionless number | Expression | Meaning |
+| Reynolds Re | ρVL/μ | Inertia / viscous force |
+| Prandtl Pr | μcp/k = ν/α | Momentum diffusivity / thermal diffusivity |
+| Nusselt Nu | hL/k_fluid | Convective / conductive heat transfer (dimensionless h) |
+| Grashof Gr | gβΔT L³/ν² | Buoyancy / viscous (free convection) |
+| Stanton St | Nu/(Re·Pr) = h/(ρVcp) | Heat transferred / thermal capacity of fluid |
+| Peclet Pe | Re·Pr | Advection / diffusion |
+| Rayleigh Ra | Gr·Pr | Free convection onset |
+| Lewis Le | α/D = Sc/Pr | Heat / mass diffusivity |
+| Biot Bi | hL/k_solid | Internal conduction / surface convection resistance |
+- Pr: liquid metals ≪ 1 (0.01), gases ~0.7, water ~7 (at 20 °C), oils 100–10⁵. Pr = 1 → hydrodynamic & thermal boundary layers equal thickness; δ_t/δ ≈ Pr^(−1/3).
+- Forced convection: Nu = f(Re, Pr). Free (natural) convection: Nu = f(Gr, Pr).
+F: Laminar flow in a tube, fully developed: Nu = 3.66 (constant wall temperature), 4.36 (constant heat flux)
+F: Dittus–Boelter (turbulent tube flow): Nu = 0.023 Re^0.8 Pr^n;  n = 0.4 heating, 0.3 cooling
+F: Flat plate laminar: Nu_x = 0.332 Re_x^0.5 Pr^(1/3);  δ = 5x/√Re_x;  average Nu = 0.664 Re^0.5 Pr^(1/3)
+F: Critical Re: flat plate 5 × 10⁵;  pipe 2300
+- Reynolds analogy: St = f/2 (for Pr = 1). Colburn analogy: St·Pr^(2/3) = f/2.
+- Typical h (W/m²K): free convection gases 2–25; forced gases 25–250; forced liquids 50–20,000; boiling/condensation 2,500–100,000.
+PYQ-TREND: Physical meaning of Nu, Pr, Gr, St (very frequently asked). Pr of liquid metals very low. Nu = 3.66/4.36. Grashof number in natural convection. Dittus-Boelter exponent n = 0.4 for heating. Prandtl number of air ≈ 0.7.
+
+## 9.6 Boiling and Condensation
+- Pool boiling curve (Nukiyama): natural convection → nucleate boiling (most efficient, up to critical heat flux / burnout point) → transition boiling (unstable) → film boiling (Leidenfrost point – vapour film insulates).
+- Critical heat flux: max heat flux in nucleate boiling; exceeding it in heat-flux-controlled systems can melt the surface (burnout).
+- Condensation: filmwise (Nusselt theory) and dropwise (5–10 times higher h; promoted by coatings, oils on surface). Condensers are designed for filmwise (conservative).
+PYQ-TREND: Dropwise condensation gives higher h than filmwise. Nucleate boiling regime has max h. Leidenfrost point marks start of stable film boiling. Burnout point = critical heat flux.
+
+## 9.7 Radiation
+- Black body: absorbs all incident radiation (α = 1), ideal emitter; emissivity ε = 1. Grey body: ε < 1 constant over wavelengths. White body: reflects all (ρ = 1). Opaque: τ = 0 → α + ρ = 1.
+F: α + ρ + τ = 1
+F: Kirchhoff's law: at thermal equilibrium α = ε
+F: Wien's displacement law: λ_max T = 2898 μm·K
+F: Planck's law gives spectral distribution; total emissive power E_b = σT⁴
+F: Two infinite parallel plates: q = σ(T₁⁴ − T₂⁴)/(1/ε₁ + 1/ε₂ − 1)
+F: Small body in large enclosure: q = ε₁σA₁(T₁⁴ − T₂⁴)
+F: n radiation shields (all same ε) between plates: heat transfer reduced to 1/(n + 1)
+- Shape (view) factor F₁₂: fraction of radiation leaving surface 1 that reaches 2. Reciprocity: A₁F₁₂ = A₂F₂₁. Summation: ΣF₁ⱼ = 1. Flat or convex surface F₁₁ = 0; concave F₁₁ > 0. Small sphere inside large sphere F₁₂ = 1.
+- Gases: CO₂ and H₂O emit/absorb in bands; O₂, N₂ are transparent. Greenhouse effect: glass transmits short-wave solar radiation and blocks long-wave re-radiation.
+- Solar radiation is short-wave (λ_max ≈ 0.5 μm); radiation from earth/room objects is long-wave (~10 μm).
+PYQ-TREND: Kirchhoff's law α = ε. Wien's law constant 2898 μm·K. Radiation shields reduce heat flow to 1/(n+1). Shape factor reciprocity and summation rules. Black body emissivity 1. Stefan constant value.
+
+## 9.8 Heat Exchangers
+- Types: parallel flow, counter flow (most effective – outlet of cold can exceed outlet of hot), cross flow (car radiator), shell & tube, plate, regenerators (rotary).
+F: Q = U A ΔT_LMTD;  LMTD = (ΔT₁ − ΔT₂)/ln(ΔT₁/ΔT₂)
+- For same terminal temperatures LMTD(counter) > LMTD(parallel) → counter flow needs less area.
+- If ΔT₁ = ΔT₂ (counter flow with equal capacity rates), LMTD = ΔT (constant).
+- Condensers/evaporators (one fluid changes phase, C_max → ∞): LMTD same for parallel & counter flow; ε = 1 − e^(−NTU).
+F: Effectiveness ε = Q_actual/Q_max;  Q_max = C_min (T_h,in − T_c,in)
+F: NTU = UA/C_min;  capacity ratio C = C_min/C_max
+F: Parallel flow: ε = [1 − e^(−NTU(1+C))]/(1 + C);  Counter flow: ε = [1 − e^(−NTU(1−C))]/[1 − C e^(−NTU(1−C))]
+- Fouling factor (scale resistance) reduces U over time.
+PYQ-TREND: Counter flow is more effective. LMTD formula. Effectiveness ε = 1 − e^(−NTU) when one fluid changes phase. NTU definition. Radiator of a car is a cross-flow heat exchanger.
+
+Q: Explain the concept of critical thickness of insulation for a cylinder and derive r_c = k/h.
+Heat loss from an insulated pipe: Q = 2πL(Ti − T∞) / [ln(r/r₁)/k + 1/(hr)]. Adding insulation raises the conduction resistance (ln r/k) but increases the outer surface area, which lowers the convection resistance 1/(hr). Setting dQ/dr = 0 means minimising the denominator: d/dr[ln(r/r₁)/k + 1/(hr)] = 1/(kr) − 1/(hr²) = 0 → r = k/h. The second derivative shows the denominator is a minimum, so Q is a maximum at r_c = k/h. Insulation added below r_c increases heat loss. Above r_c it decreases. For a sphere the same method gives r_c = 2k/h.

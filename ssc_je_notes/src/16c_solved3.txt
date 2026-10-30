@@ -1,0 +1,191 @@
+# Solved Concept Numericals – Set 3 (Concept Twisters)
+These are "ratio and proportion" twisters. SSC likes them because they test understanding, not plug-in. Each one shows the shortcut a topper uses.
+
+## 16C.1 Ratio-Type Twisters – SOM & TOM
+### Problem 121 – Doubling diameter of a rod
+If a rod's diameter is doubled with load and length unchanged, what happens to stress and elongation?
+F: σ ∝ 1/d² → σ becomes 1/4;  δ ∝ 1/d² → δ becomes 1/4
+### Problem 122 – Beam depth doubled
+How does the bending strength of a rectangular beam change if its depth is doubled? Its stiffness?
+F: Z = bd²/6 → strength ×4;  I = bd³/12 → stiffness ×8, deflection becomes 1/8
+### Problem 123 – Span doubled
+For a SS beam with UDL (same w), what happens to max BM and max deflection if the span doubles?
+F: M ∝ L² → ×4;  δ ∝ L⁴ → ×16
+### Problem 124 – Shaft diameter doubled
+How do torque capacity and torsional stiffness change if the shaft diameter doubles?
+F: T ∝ d³ → ×8;  GJ/L ∝ d⁴ → ×16
+### Problem 125 – Hollow vs solid shaft (same outer diameter)
+A hollow shaft has d/D = 0.5. Compare its strength and weight with a solid shaft of the same D.
+F: Strength ratio = 1 − (d/D)⁴ = 1 − 0.0625 = 0.9375 (only 6.25% less)
+F: Weight ratio = 1 − (d/D)² = 0.75 (25% lighter) → this is why hollow shafts are preferred
+### Problem 126 – Column length doubled
+What happens to the Euler load if the length of a column doubles?
+F: P ∝ 1/L² → becomes 1/4
+### Problem 127 – Column diameter doubled
+What happens to the Euler load if a circular column's diameter doubles?
+F: P ∝ I ∝ d⁴ → ×16
+### Problem 128 – Spring wire diameter doubled
+For a close-coiled spring with D and n fixed, what happens to stiffness if the wire diameter doubles?
+F: k ∝ d⁴ → ×16
+### Problem 129 – Spring coils halved
+What happens to stiffness if the number of coils is halved?
+F: k ∝ 1/n → ×2
+### Problem 130 – Natural frequency with mass quadrupled
+How does the natural frequency change if the mass becomes 4 times?
+F: ωn ∝ 1/√m → becomes 1/2
+### Problem 131 – Governor speed doubled
+How does the height of a Watt governor change if speed doubles?
+F: h ∝ 1/N² → becomes 1/4
+### Problem 132 – Flywheel speed doubled
+For the same Cs and I, how does ΔE change if the speed doubles?
+F: ΔE ∝ ω² → ×4  (so a flywheel at higher speed can be lighter: I ∝ 1/ω²)
+### Problem 133 – Centrifugal tension
+How does centrifugal tension change if belt speed doubles?
+F: Tc = mv² → ×4
+### Problem 134 – Bearing load reduced
+If the load on a roller bearing halves, how does its life change?
+F: L ∝ (1/P)^(10/3) → ×2^(3.33) ≈ ×10
+
+## 16C.2 Ratio-Type Twisters – Thermal & HT
+### Problem 135 – Carnot with both temperatures raised
+A Carnot engine works between 600 K and 300 K. Both temperatures rise by 100 K. New efficiency?
+F: Old: 1 − 300/600 = 50%;  New: 1 − 400/700 = 42.9% → efficiency falls
+TIP: Lowering the sink temperature by ΔT raises η more than raising the source temperature by the same ΔT, because ∂η/∂T₂ = −1/T₁ is larger in magnitude than ∂η/∂T₁ = T₂/T₁².
+### Problem 136 – Refrigerator COP with smaller temperature lift
+A Carnot refrigerator works between 250 K and 300 K. The condenser temperature drops to 275 K. New COP?
+F: Old COP = 250/50 = 5;  New = 250/25 = 10 (doubles)
+### Problem 137 – Otto efficiency for r = 4 and 16
+Compare Otto efficiencies (γ = 1.4) for r = 4 and r = 16.
+F: r = 4: 1 − 1/4^0.4 = 1 − 1/1.741 = 42.6%;  r = 16: 1 − 1/3.031 = 67%
+### Problem 138 – Ideal gas heated at constant pressure
+Air is heated at constant pressure from 300 K to 600 K. How do volume and density change?
+F: V ∝ T → doubles;  ρ ∝ 1/T → halves
+### Problem 139 – Heat flow when thickness doubles
+Steady conduction through a slab: how does Q change if thickness doubles and k halves?
+F: Q ∝ k/L → (1/2)/(2) = 1/4
+### Problem 140 – Radiation when T doubles
+How does a black body's emissive power change when absolute temperature doubles?
+F: E ∝ T⁴ → ×16;  λ_max halves (Wien)
+### Problem 141 – Fin with longer length
+For an infinitely long fin, does doubling the length change heat transfer?
+F: No – Q = √(hPkA)θ₀ is independent of length for a long fin (tanh(mL) → 1)
+### Problem 142 – Critical radius check
+A wire of 2 mm radius is covered with insulation (k = 0.2 W/mK, h = 20 W/m²K). Will adding insulation increase heat loss?
+F: r_c = k/h = 0.01 m = 10 mm > 2 mm → yes, heat loss increases until the outer radius reaches 10 mm
+### Problem 143 – Rankine with lower condenser pressure
+State qualitatively what happens to turbine work, η, exhaust dryness and heat rejected when condenser pressure is lowered.
+F: W_T ↑, η ↑, dryness ↓ (more moisture), heat rejected per kg ↑ only slightly (temperature of rejection ↓)
+### Problem 144 – Nozzle exit velocity with double enthalpy drop
+If the enthalpy drop doubles, what is the new velocity?
+F: V ∝ √Δh → ×√2 = ×1.414
+
+## 16C.3 Ratio-Type Twisters – Fluids & Machines
+### Problem 145 – Pipe diameter doubled (same Q, turbulent, Darcy)
+For the same discharge and f, how does head loss change if pipe diameter doubles?
+F: h_f ∝ Q²/D⁵ → becomes 1/32
+### Problem 146 – Laminar flow, diameter doubled (same Q)
+How does the pressure drop in laminar flow change if diameter doubles at the same discharge?
+F: Δp ∝ Q/D⁴ (Hagen–Poiseuille) → becomes 1/16
+### Problem 147 – Capillary tube diameter halved
+What happens to capillary rise when tube diameter halves?
+F: h ∝ 1/d → doubles
+### Problem 148 – Notch head doubled
+How does discharge change when head doubles over a rectangular weir and over a V-notch?
+F: Rectangular: Q ∝ H^1.5 → ×2.83;  V-notch: Q ∝ H^2.5 → ×5.66
+### Problem 149 – Pump speed increased by 20%
+How do Q, H and P change if pump speed increases by 20%?
+F: Q ×1.2;  H ×1.44;  P ×1.728
+### Problem 150 – Turbine head doubled (same turbine)
+For the same turbine, how do speed, discharge and power change if head doubles (unit quantities constant)?
+F: N ∝ √H → ×1.414;  Q ∝ √H → ×1.414;  P ∝ H^1.5 → ×2.83
+### Problem 151 – Jet velocity doubled
+How does the force of a jet on a fixed plate change if jet velocity doubles?
+F: F = ρaV² → ×4
+### Problem 152 – Reynolds model of a pipe
+A 1:10 model of a pipe uses the same fluid. Find the velocity ratio Vm/Vp for Reynolds similarity.
+F: VmLm = VpLp → Vm/Vp = 10 (model runs 10 times faster)
+### Problem 153 – Froude model time scale
+For a 1:100 spillway model, a flood rises in 1 hour in the prototype. How long does it take in the model?
+F: Tr = √Lr → Tm = 60/10 = 6 min
+### Problem 154 – Drag at double speed
+For constant C_D, how does drag change when speed doubles? Power?
+F: Drag ∝ V² → ×4;  power = D·V ∝ V³ → ×8
+
+## 16C.4 Ratio-Type Twisters – Production & IE
+### Problem 155 – Taylor equation with n = 0.5
+How does tool life change if cutting speed doubles (n = 0.5)?
+F: T ∝ V^(−1/n) = V^(−2) → becomes 1/4
+### Problem 156 – Surface roughness with feed doubled
+How does peak-to-valley roughness change if feed doubles?
+F: h = f²/(8r) → ×4
+### Problem 157 – Nose radius doubled
+How does roughness change if nose radius doubles?
+F: h ∝ 1/r → halves
+### Problem 158 – Casting size doubled
+How does solidification time change if all dimensions of a casting double?
+F: V/A doubles → t ∝ (V/A)² → ×4
+### Problem 159 – Blanking force for double thickness
+How does blanking force change if sheet thickness doubles?
+F: F = Ltτ → doubles
+### Problem 160 – EOQ with demand ×4
+How does EOQ change if annual demand becomes 4 times?
+F: Q* ∝ √D → doubles
+### Problem 161 – EOQ with holding cost ×4
+How does EOQ change if holding cost becomes 4 times?
+F: Q* ∝ 1/√Ch → halves
+### Problem 162 – Reliability of a 2-out-of-2 vs 1-out-of-2 system
+Two units each have R = 0.8. Compare series and parallel.
+F: Series: 0.64;  Parallel: 1 − 0.04 = 0.96
+### Problem 163 – Work sampling accuracy
+How many times the observations are needed if the required accuracy is halved (made twice as tight)?
+F: N ∝ 1/S² → ×4
+### Problem 164 – Rolling – roll radius doubled
+How does maximum draft change if roll radius doubles (same μ)?
+F: Δh_max = μ²R → doubles
+### Problem 165 – Welding heat input
+How does heat input per unit length change if travel speed doubles at the same V and I?
+F: H = ηVI/v → halves
+
+## 16C.5 Multi-Step Numericals (Paper-II Style)
+### Problem 166 – Beam design
+A simply supported timber beam of 4 m span carries 6 kN/m UDL. σ_allow = 10 MPa and d = 2b. Find b and d.
+F: M = wL²/8 = 6 × 16/8 = 12 kN·m = 12 × 10⁶ N·mm
+F: Z = M/σ = 1.2 × 10⁶ mm³;  bd²/6 = b(2b)²/6 = 2b³/3 = 1.2 × 10⁶ → b³ = 1.8 × 10⁶ → b = 121.6 mm, d = 243 mm
+### Problem 167 – Shaft under bending and torsion
+A shaft carries M = 3 kN·m and T = 4 kN·m. τ_allow = 50 MPa. Find d by maximum shear stress theory.
+F: Te = √(3² + 4²) = 5 kN·m = 5 × 10⁶ N·mm
+F: d³ = 16Te/(πτ) = 16 × 5 × 10⁶/(π × 50) = 5.093 × 10⁵ → d = 79.9 ≈ 80 mm
+### Problem 168 – Engine test
+A 4-stroke, 4-cylinder petrol engine (bore 80 mm, stroke 100 mm) at 3000 rpm has BP = 30 kW and fuel consumption 9 kg/h (CV 44 MJ/kg). Find bsfc and brake thermal efficiency.
+F: bsfc = 9/30 = 0.3 kg/kWh
+F: Heat input = 9 × 44000/3600 = 110 kW;  ηbth = 30/110 = 27.3%
+### Problem 169 – Swept volume and CR
+A cylinder has bore 100 mm, stroke 120 mm and clearance volume 120 cc. Find swept volume and compression ratio.
+F: Vs = (π/4) × 10² × 12 = 942.5 cc;  r = (942.5 + 120)/120 = 8.85
+### Problem 170 – Heat exchanger outlet
+Hot oil (C_h = 2000 W/K) enters at 150 °C and cold water (C_c = 4000 W/K) at 30 °C, ε = 0.6. Find Q and outlet temperatures.
+F: C_min = 2000;  Q_max = 2000 × 120 = 240 kW;  Q = 0.6 × 240 = 144 kW
+F: T_h,out = 150 − 144000/2000 = 78 °C;  T_c,out = 30 + 144000/4000 = 66 °C
+### Problem 171 – Pipe network (series)
+Two pipes in series: 1000 m of 0.3 m diameter and 500 m of 0.2 m diameter. Find the equivalent length of 0.3 m pipe (same f).
+F: Le = L₁ + L₂(D₁/D₂)⁵ = 1000 + 500 × (1.5)⁵ = 1000 + 500 × 7.594 = 4797 m
+### Problem 172 – Turbine selection
+A site has 30 m head and 20 m³/s flow. η = 0.9 and N = 150 rpm. Find power and Ns, and select the turbine.
+F: P = 0.9 × 9810 × 20 × 30 = 5297 kW;  Ns = 150√5297/30^1.25 = 150 × 72.8/70.2 = 155.5
+F: Ns ≈ 155 → Francis turbine (medium specific speed)
+### Problem 173 – Pump power
+A pump lifts 50 L/s through a total head of 30 m with overall efficiency 75%. Find the input power.
+F: P = ρgQH/η = 9810 × 0.05 × 30/0.75 = 19.6 kW
+### Problem 174 – Merchant force analysis
+Orthogonal cutting: Fc = 1200 N, Ft = 500 N, α = 10°, φ = 30°. Find friction force, normal force and μ.
+F: F = Fc sinα + Ft cosα = 208.4 + 492.4 = 700.8 N
+F: N = Fc cosα − Ft sinα = 1181.8 − 86.8 = 1095 N;  μ = 0.64
+F: Fs = Fc cosφ − Ft sinφ = 1039 − 250 = 789 N
+### Problem 175 – EOQ with total cost
+D = 12000/yr, Co = Rs 150, unit cost Rs 20, carrying 15% per year. Find EOQ and total inventory cost (excluding purchase).
+F: Ch = 0.15 × 20 = 3;  Q* = √(2 × 12000 × 150/3) = √1.2 × 10⁶ = 1095 units
+F: TC = √(2 × 12000 × 150 × 3) = Rs 3286 per year
+### Problem 176 – CPM network
+Activities (duration): A(3), B(4) after A, C(2) after A, D(5) after B and C, E(1) after C. Find the critical path and duration.
+Paths: A–B–D = 3 + 4 + 5 = 12;  A–C–D = 3 + 2 + 5 = 10;  A–C–E = 6.
+F: Critical path A–B–D, duration 12 days. Total float of C = LF − EF = 7 − 5 = 2 days
