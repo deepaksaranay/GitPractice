@@ -1,0 +1,72 @@
+# Important MCQs – Polity
+
+## 4.1 Articles You Must Know (Cluster Practice)
+M: Article 2 of the Constitution deals with: || Formation of new states within India || Admission or establishment of new states || Citizenship at commencement || Names of states || b || Article 3 deals with forming new states and altering boundaries.
+M: Which Article defines 'the State' for the purpose of Fundamental Rights? || Article 12 || Article 13 || Article 36 || Article 52 || a || Includes Government and Parliament of India, state governments and legislatures, local and other authorities.
+M: Article 13 is related to: || Judicial review of laws inconsistent with Fundamental Rights || Right to equality || Abolition of titles || Writs || a || Laws violating FRs are void to that extent.
+M: Article 15 prohibits discrimination on grounds of: || Religion, race, caste, sex or place of birth || Language only || Property || Occupation || a || Article 16 – equality of opportunity in public employment.
+M: Article 18 deals with: || Abolition of untouchability || Abolition of titles || Protection of life || Freedom of speech || b || Military and academic distinctions are exempt.
+M: Article 22 provides protection against: || Double jeopardy || Arbitrary arrest and detention || Forced labour || Religious instruction || b || Arrested person must be produced before a magistrate within 24 hours.
+M: Article 25 guarantees: || Freedom of conscience and free profession, practice and propagation of religion || Right to education || Right to property || Equality before law || a || Articles 25–28 form the right to freedom of religion.
+M: Article 39(d) directs the state to secure: || Free legal aid || Equal pay for equal work for men and women || Uniform civil code || Living wage || b || A DPSP.
+M: Article 45, after the 86th Amendment, provides for: || Free education for 6–14 || Early childhood care and education for children below 6 || Adult education || Higher education || b || Education for 6–14 moved to Article 21A.
+M: Article 48 directs the state to: || Protect environment || Organise agriculture and animal husbandry, prohibit cow slaughter || Promote international peace || Separate judiciary || b || Article 48A – environment.
+M: Article 51A contains: || Directive Principles || Fundamental Duties || Emergency provisions || Official language || b || Part IV-A.
+M: Article 72 gives the President power to: || Issue ordinances || Grant pardons || Dissolve the Lok Sabha || Appoint the CJI || b || Includes commuting death sentences and court-martial sentences.
+M: Article 75(3) provides that the Council of Ministers is collectively responsible to the: || President || Rajya Sabha || Lok Sabha || Parliament as a whole || c || Basis of the no-confidence motion.
+M: Article 79 states that Parliament consists of: || Lok Sabha and Rajya Sabha || President, Lok Sabha and Rajya Sabha || PM and Council of Ministers || Lok Sabha only || b || The President is an integral part of Parliament.
+M: Article 110 defines: || Ordinary bill || Money bill || Financial bill || Constitutional amendment bill || b || Article 117 – financial bills.
+M: Article 124 deals with the: || Establishment and constitution of the Supreme Court || High Courts || Attorney General || CAG || a || Article 214 – High Courts.
+M: Article 129 declares the Supreme Court a: || Court of appeal || Court of record || Federal court || Constitutional bench || b || It can punish for its own contempt; Article 215 does the same for HCs.
+M: Article 142 empowers the Supreme Court to: || Hear appeals || Pass orders for 'complete justice' || Review its judgments || Give advisory opinions || b || Used in many landmark cases.
+M: Article 164 deals with the appointment of the: || Governor || Chief Minister and other ministers || Advocate General || State Election Commissioner || b || Ministers hold office during the pleasure of the Governor.
+M: Article 214 provides for: || The Supreme Court || High Courts for each state || District courts || Tribunals || b || Article 231 – common High Court for two or more states.
+M: Article 263 provides for the: || Finance Commission || Inter-State Council || Zonal Councils || GST Council || b || Set up in 1990 on the Sarkaria Commission's recommendation.
+M: Article 266 deals with the: || Contingency Fund || Consolidated Fund and Public Accounts || Grants-in-aid || Finance Commission || b || Article 267 – Contingency Fund.
+M: Article 300A provides that: || No person shall be deprived of property save by authority of law || Property is a Fundamental Right || The state shall acquire land || Right to work || a || Inserted by the 44th Amendment.
+M: Article 343 declares the official language of the Union to be: || English || Hindi in Devanagari script || Hindi and English equally || Sanskrit || b || With international form of Indian numerals.
+M: Article 350A provides for: || Official language of states || Instruction in mother tongue at primary stage || Special Officer for linguistic minorities || Hindi promotion || b || Article 350B – Special Officer for Linguistic Minorities.
+M: Article 351 directs the Union to: || Promote the spread of Hindi || Protect minorities || Conduct elections || Form Finance Commission || a || Directive for development of the Hindi language.
+
+## 4.2 Bodies, Officials and Procedures
+M: The Speaker of the Lok Sabha addresses his resignation to the: || President || Deputy Speaker || Prime Minister || Chief Justice || b || The Deputy Speaker resigns to the Speaker.
+M: Who presides over the Lok Sabha when both the Speaker and Deputy Speaker are absent? || Senior-most member || A member from the Panel of Chairpersons || Vice-President || Pro-tem Speaker always || b || Nominated by the Speaker.
+M: The Pro-tem Speaker is appointed by the: || Speaker || President || Prime Minister || Chief Justice || b || Administers oaths to new members.
+M: The first Speaker of the Lok Sabha was: || M.A. Ayyangar || G.V. Mavalankar || Hukam Singh || Neelam Sanjiva Reddy || b || 1952–56.
+M: A no-confidence motion requires the support of at least how many members to be admitted in the Lok Sabha? || 25 || 50 || 100 || 1/10 of members || b || Can be moved only in the Lok Sabha.
+M: The Estimates Committee has how many members? || 15 || 22 || 30 || 45 || c || All from the Lok Sabha; called the 'continuous economy committee'.
+M: Which committee is called the 'twin sister' of the Public Accounts Committee? || Estimates Committee || Committee on Public Undertakings || Business Advisory Committee || Rules Committee || a || Both deal with public expenditure.
+M: The Chairman of the UPSC is appointed by the: || Prime Minister || President || Parliament || Chief Justice || b || Term 6 years or age 65.
+M: The National Human Rights Commission was set up in: || 1990 || 1993 || 1995 || 2005 || b || Protection of Human Rights Act, 1993; chaired by a retired CJI or SC judge.
+M: The Central Information Commission was established under the: || IT Act 2000 || RTI Act 2005 || Lokpal Act 2013 || CVC Act 2003 || b || Hears appeals under the Right to Information Act.
+M: The first Lokpal of India was: || Justice J.S. Verma || Justice Pinaki Chandra Ghose || Justice A.M. Khanwilkar || Justice R.M. Lodha || b || Appointed in 2019 under the Lokpal and Lokayuktas Act, 2013.
+M: Which body conducts elections to Panchayats? || Election Commission of India || State Election Commission || District Collector || State Government || b || Article 243K.
+M: Which Article provides for the State Finance Commission for panchayats? || Article 243G || Article 243I || Article 243K || Article 280 || b || Reviewed every five years.
+M: Who decides disputes regarding disqualification of MPs under the Tenth Schedule? || President || Speaker / Chairman || Election Commission || Supreme Court directly || b || Subject to judicial review (Kihoto Hollohan, 1992).
+M: Disqualification of an MP on other grounds (Article 102) is decided by the President on the advice of the: || Speaker || Election Commission || Attorney General || Supreme Court || b || Article 103.
+
+## 4.3 Amendments, Cases and New Laws
+M: The 1st Amendment (1951) added which Schedule? || Eighth || Ninth || Tenth || Eleventh || b || To protect land reform laws; also added reasonable restrictions on free speech.
+M: Privy purses of former princes were abolished by the: || 24th Amendment || 26th Amendment || 42nd Amendment || 44th Amendment || b || 1971.
+M: The 69th Amendment gave Delhi the status of: || A state || National Capital Territory with a legislative assembly || UT without a legislature || Metropolitan region || b || Article 239AA (1991).
+M: The 104th Amendment ended: || EWS reservation || Nomination of Anglo-Indians to the Lok Sabha || Article 370 || Privy purses || b || Also extended SC/ST seat reservation in legislatures to 2030.
+M: The 'Golaknath case' (1967) held that: || Parliament can amend Fundamental Rights || Parliament cannot amend Fundamental Rights || Preamble is not part of the Constitution || Right to property is basic structure || b || Reversed by the 24th Amendment and Kesavananda (1973).
+M: The 'Maneka Gandhi case' (1978) expanded the scope of: || Article 14 || Article 19 || Article 21 || Article 32 || c || 'Procedure established by law' must be fair, just and reasonable.
+M: The 'Indra Sawhney case' (1992) is related to: || Reservation for OBCs (Mandal Commission) || Anti-defection || Sexual harassment || Privacy || a || 50% ceiling and creamy-layer exclusion.
+M: The 'Vishaka guidelines' (1997) dealt with: || Custodial deaths || Sexual harassment at the workplace || Child labour || Environment || b || Later replaced by the POSH Act, 2013.
+M: The 'S.R. Bommai case' (1994) is related to: || Article 356 (President's Rule) || Article 370 || Article 21 || Article 32 || a || Floor test; secularism is part of the basic structure.
+M: The 'Shayara Bano case' (2017) declared which practice unconstitutional? || Polygamy || Instant triple talaq || Nikah halala || Dowry || b || Muslim Women (Protection of Rights on Marriage) Act, 2019 followed.
+M: The three new criminal laws came into force on: || 1 January 2024 || 1 July 2024 || 15 August 2024 || 26 January 2025 || b || BNS, BNSS, BSA.
+M: Under the new criminal laws, which offence (of the old IPC) was removed and replaced by a new provision on acts endangering sovereignty? || Dowry death || Sedition (Sec 124A) || Defamation || Criminal conspiracy || b || Section 152 BNS covers acts endangering sovereignty, unity and integrity.
+M: Which new punishment was introduced for petty offences under the BNS? || Fine only || Community service || House arrest || Probation || b || A first for Indian criminal law.
+M: Article 370 provisions regarding Jammu & Kashmir were made inoperative in: || 2017 || 2019 || 2020 || 2021 || b || 5 August 2019; the Supreme Court upheld it in December 2023.
+
+## 4.4 Local Government and Citizenship
+M: The Ashok Mehta Committee (1977) recommended a: || Three-tier panchayat system || Two-tier panchayat system || Single-tier system || Four-tier system || b || District and mandal levels.
+M: Which committee recommended constitutional status for Panchayati Raj institutions? || Balwant Rai Mehta || L.M. Singhvi || G.V.K. Rao || Ashok Mehta || b || 1986.
+M: The Panchayats (Extension to Scheduled Areas) Act, PESA, was passed in: || 1992 || 1996 || 2006 || 2009 || b || Extends Part IX to Fifth Schedule areas with special powers for Gram Sabhas.
+M: Reservation of seats for women in Panchayats under Article 243D is: || One-fourth || Not less than one-third || One-half compulsory everywhere || 40% || b || Many states provide 50% by state law.
+M: Indian citizenship can be acquired by all EXCEPT: || Birth || Descent || Registration || Dual nationality || d || India does not allow dual citizenship; OCI is not citizenship.
+M: The Citizenship Act was enacted in: || 1950 || 1955 || 1962 || 1976 || b || Amended several times (1986, 2003, 2019).
+M: Which part of the Constitution deals with citizenship? || Part I || Part II || Part III || Part IV || b || Articles 5–11.
+M: Single citizenship in India is borrowed from: || USA || UK || Canada || Ireland || b || Along with parliamentary government and rule of law.

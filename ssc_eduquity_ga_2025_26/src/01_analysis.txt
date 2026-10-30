@@ -1,0 +1,51 @@
+# Eduquity Era (2025–26): Exams, Pattern & GS Trend Analysis
+
+## 1.1 What Changed in 2025
+- From July 2025, SSC moved its computer-based test delivery from TCS to Eduquity Career Technologies. Eduquity handles test delivery, centres, logistics and biometric checks for CGL, CHSL, MTS, GD and other SSC exams.
+- The first exam under the new vendor, Selection Post Phase-XIII (24 July – early August 2025), faced server failures and centre cancellations; SSC held a re-exam on 29 August 2025 for more than 55,000 affected candidates, and CGL 2025 was postponed from its August schedule. There were protests and tens of thousands of grievances.
+- Coaching-site reports say SSC discouraged public sharing of exam analyses and questions for some 2025–26 exams (for example, CHSL 2025). As a result, shift-wise memory-based question lists are much thinner than in earlier years, and most analyses describe only topics and difficulty.
+WARN: Reports on whether Eduquity's role was later curtailed are conflicting. Check ssc.gov.in for the current position; it does not change how you prepare.
+
+## 1.2 Exams Held in the Eduquity Era (as Reported)
+| Exam | Window (reported) | GA format | GA difficulty / good attempts (reported) |
+| Selection Post Phase-XIII | 24 Jul – 2 Aug 2025; re-exam 29 Aug 2025 | 25 Q (Matric / HS / Graduate levels) | Moderate; static GK + recent current affairs |
+| CGL 2025 Tier-1 | 12 – 26 Sep 2025 (some sources list later shifts too; ~45–46 shifts) | 25 Q, 50 marks | Moderate (varied by shift) |
+| CHSL 2025 Tier-1 | 12 – 30 Nov 2025 | 25 Q, 50 marks, 15-min sectional time | Moderate to Difficult (12 Nov); 16–18 good attempts |
+| MTS 2025 (CBE) | Early Feb 2026 | GA section (check notification for count) | Moderate; ~13–17 good attempts |
+| GD Constable 2026 | Reported shifts around April 2026 | 20 Q, 40 marks | Moderate; ~10–12 good attempts of 20 |
+| CGL 2026 Tier-1 | 30 Sep – end Oct 2026 | 25 Q, 50 marks, 15 min | Moderate; 15–20 good attempts |
+| JE / CPO / CHSL 2026 | Nov – Dec 2026 (scheduled) | – | Not yet held at the time of compiling |
+
+## 1.3 The New Tier-1 Pattern (CGL/CHSL Model)
+| Section | Questions | Marks | Time |
+| General Intelligence & Reasoning | 25 | 50 | 15 min |
+| General Awareness | 25 | 50 | 15 min |
+| Quantitative Aptitude | 25 | 50 | 15 min |
+| English Comprehension | 25 | 50 | 15 min |
+| Total | 100 | 200 | 60 min |
+- Sectional timing: each section is locked for 15 minutes; you cannot carry spare GA time to Quant.
+- Negative marking: 0.50 per wrong answer.
+- Normalisation across shifts continues, so a 'difficult' GA shift is not a disaster – everyone in that shift faced it.
+- CPO 2026 is reported to adopt a shorter Paper-1 with sectional timing as well (GA ≈ 25 questions in 15 minutes) – confirm in the notification.
+TIP: GA is the only section where you either know the answer or you don't. Spend 8–10 minutes answering what you know, use the rest for elimination on doubtful ones, and leave blind guesses (−0.50).
+
+## 1.4 Topic Trends Across 2025–26 Analyses
+Putting together analyses for Selection Post XIII, CGL 2025, CHSL 2025, MTS 2025, GD 2026 and CGL 2026, these patterns stand out:
+| Area | Approx. share of 25 | What kept coming |
+| Static GK – Art & Culture | 4–7 | Folk and classical dances (state matching), festivals (North-East, Odisha, Assam), musicians and instruments, UNESCO heritage |
+| General Science | 5–7 | SI units, optics formulas, electricity basics, chemical names and acids, vitamins, diseases, human body |
+| Polity | 2–4 | Article numbers (often in clusters), amendments, Panchayati Raj, writs, emergencies, new criminal laws (BNS/BNSS/BSA) |
+| History | 2–3 | Medieval India (reported in GD 2026), Mughal books/laws, ancient founders, social reform laws |
+| Economy | 1–3 | Five-Year Plans, 1991 reforms, national income terms, deficits, banking |
+| Geography | 1–3 | Latitudes/longitudes, rivers, refineries/minerals, national parks |
+| Sports | 1–3 | Olympics, Youth Games / Khelo India, firsts, terms, measurements |
+| Books & Awards | 1–2 | Booker/International Booker, Indian English novels, national awards |
+| Current affairs | 3–6 | Summits, appointments, schemes, sports events of the last 8–12 months |
+- Common thread: about 75–80% of GA in this period was static GS. Current affairs alone cannot carry the section.
+- Repeat behaviour: the same topic reappears across shifts and exams in a different form (e.g., Article 32 asked on two different dates of CGL 2026; 1991 reforms and Five-Year Plans asked on 1 Oct and 28 Oct 2026).
+
+## 1.5 How to Use This Book
+- Chapter 2: questions reported from CGL 2026 shifts, as MCQs with date/shift/source tags. (Few verified 2025 items were found publicly, for the reason in 1.1, so they are not padded with unconfirmed ones.)
+- Chapters 3–10: important-question MCQs, written fresh for the trend areas above, weighted the way the 2025–26 papers were. These are practice questions, not previous-year questions. They differ from the MCQs in the earlier CGL 2026 MCQ book.
+- Chapter 11: five mixed 25-question sets in the sectional-timing format.
+WARN: Verify reported items against official SSC answer keys/response sheets once you can access them on ssc.gov.in.

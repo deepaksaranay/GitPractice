@@ -1,0 +1,66 @@
+# Important MCQs – Economy
+
+## 6.1 Concepts and National Income
+M: Which sector of the Indian economy contributes the most to GDP? || Primary || Secondary || Tertiary (services) || Quaternary || c || Services ≈ 55%; agriculture employs the largest share of workers.
+M: 'Disguised unemployment' is most common in: || Manufacturing || Agriculture || IT services || Banking || b || Marginal productivity of extra workers is near zero.
+M: 'Frictional unemployment' refers to: || Unemployment during job change || Seasonal unemployment || Unemployment due to technology || Unemployment of educated youth || a || Short-term, while moving between jobs.
+M: Which survey measures employment in India regularly? || NFHS || Periodic Labour Force Survey || Census || ASI || b || PLFS by NSO; quarterly urban and annual estimates.
+M: GDP deflator is the ratio of: || Real GDP to nominal GDP || Nominal GDP to real GDP (×100) || GNP to GDP || NNP to GDP || b || A broad measure of inflation.
+M: Per capita income is: || National income ÷ population || GDP ÷ workforce || GNP × population || Savings ÷ population || a || A rough indicator of average living standard.
+M: When the general price level falls continuously, it is called: || Inflation || Deflation || Disinflation || Stagflation || b || Disinflation means inflation is slowing.
+M: The Wholesale Price Index in India is compiled by the: || RBI || Office of the Economic Adviser, DPIIT || NSO || CSO alone || b || Base year 2011–12.
+M: The 'Laffer Curve' shows the relationship between: || Inflation and unemployment || Tax rates and tax revenue || Money supply and prices || Savings and investment || b || The Phillips curve relates inflation and unemployment.
+M: The 'Phillips Curve' shows the relationship between: || Tax and revenue || Inflation and unemployment || Demand and supply || Income and consumption || b || Short-run trade-off.
+
+## 6.2 Planning, Reforms, Institutions
+M: The Bombay Plan (1944) was prepared by: || INC || Leading industrialists || M.N. Roy || Gandhians || b || Including J.R.D. Tata and G.D. Birla.
+M: Who prepared the 'People's Plan'? || M.N. Roy || S.N. Agarwal || M. Visvesvaraya || Nehru || a || S.N. Agarwal – Gandhian Plan; Visvesvaraya – 'Planned Economy for India' (1934).
+M: The National Development Council was set up in: || 1950 || 1952 || 1965 || 2015 || b || Approved Five-Year Plans; chaired by the PM.
+M: The Sixth Five-Year Plan focused on: || Heavy industry || Poverty eradication || Agriculture only || Exports || b || IRDP and NREP were key programmes.
+M: The Eighth Five-Year Plan (1992–97) is associated with: || Garibi Hatao || LPG reforms and human development || Plan holiday || Rolling plan || b || First plan after the 1991 reforms.
+M: The Eleventh Five-Year Plan's theme was: || Growth with social justice || Faster and more inclusive growth || Self-reliance || Food, work and productivity || b || 2007–12.
+M: Which Five-Year Plan's theme was 'Growth with social justice and equality'? || Eighth || Ninth || Tenth || Twelfth || b || 1997–2002.
+M: India's rupee was devalued as part of the 1991 reforms in: || January 1991 || July 1991 || March 1992 || April 1993 || b || Two-step devaluation in early July 1991.
+M: The Industrial Policy Resolution that abolished licensing for most industries was announced on: || 6 April 1948 || 30 April 1956 || 24 July 1991 || 1 January 1995 || c || Part of the New Economic Policy.
+M: Which committee recommended reforms in the insurance sector? || Narasimham || Malhotra || Chelliah || Rangarajan || b || R.N. Malhotra Committee (1993); IRDA set up in 1999.
+M: The Competition Commission of India was established under the: || MRTP Act || Competition Act, 2002 || FEMA || Companies Act || b || Replaced the MRTP Commission.
+M: The Insolvency and Bankruptcy Code was enacted in: || 2014 || 2016 || 2018 || 2020 || b || Time-bound resolution of insolvency.
+M: Demonetisation of ₹500 and ₹1,000 notes was announced on: || 8 November 2016 || 1 July 2017 || 15 August 2016 || 31 March 2017 || a || New ₹2,000 and ₹500 notes were introduced.
+
+## 6.3 Banking and Financial Markets
+M: The first Governor of the RBI was: || C.D. Deshmukh || Osborne Smith || James Taylor || B. Rama Rau || b || C.D. Deshmukh was the first Indian Governor (1943).
+M: Which is a qualitative tool of monetary policy? || CRR || Repo rate || Moral suasion || Open market operations || c || Also margin requirements and credit rationing.
+M: Buying government securities in the open market by RBI will: || Reduce money supply || Increase money supply || Not affect liquidity || Raise CRR || b || RBI pays money into the system.
+M: The Marginal Standing Facility (MSF) allows banks to borrow from RBI: || Overnight, above repo rate || For one year || At reverse repo rate || Only from NABARD || a || An emergency window.
+M: Payments Banks can NOT: || Accept deposits || Issue debit cards || Give loans || Offer remittance services || c || Recommended by the Nachiket Mor Committee.
+M: SIDBI provides finance to: || Agriculture || Micro, small and medium enterprises || Housing || Exports only || b || Set up in 1990; HQ Lucknow.
+M: The National Housing Bank was established in: || 1982 || 1988 || 1990 || 1999 || b || Regulates and refinances housing finance companies; wholly owned by the Government of India since 2019 (earlier by RBI).
+M: The NIFTY 50 index belongs to the: || BSE || NSE || MCX || NCDEX || b || National Stock Exchange (1992).
+M: IRDAI regulates: || Banking || Insurance || Pensions || Stock markets || b || HQ Hyderabad. PFRDA regulates pensions.
+M: Which instrument is used for cheque processing through magnetic ink? || OMR || MICR || OCR || RFID || b || Magnetic Ink Character Recognition.
+M: The Pradhan Mantri Jan Dhan Yojana was launched on: || 15 August 2014 || 28 August 2014 || 2 October 2014 || 1 May 2016 || b || Financial inclusion; Guinness record for accounts opened in a week.
+M: MUDRA loans under 'Shishu' category go up to: || ₹50,000 || ₹1 lakh || ₹5 lakh || ₹10 lakh || a || Kishore up to ₹5 lakh; Tarun up to ₹10 lakh (Tarun Plus up to ₹20 lakh from 2024).
+
+## 6.4 Public Finance and Trade
+M: Which of the following is a revenue expenditure? || Construction of a dam || Purchase of machinery || Interest payments || Loan to a state || c || It does not create assets.
+M: The Contingency Fund of India is placed at the disposal of the: || Finance Minister || President || Prime Minister || CAG || b || Article 267.
+M: GST is a: || Origin-based tax || Destination-based tax || Wealth tax || Direct tax || b || Revenue goes to the state where goods/services are consumed.
+M: Which tax is levied on inter-state supply under GST? || CGST || SGST || IGST || UTGST || c || Collected by the Centre and apportioned.
+M: Which of these is kept outside GST at present? || Gold || Petrol || Mobile phones || Restaurant services || b || Petroleum crude, petrol, diesel, ATF, natural gas and alcohol for human consumption.
+M: 'Balance of Payments' includes the: || Current account and capital account || Only trade balance || Only foreign loans || Budget deficit || a || Current account: goods, services, income, transfers.
+M: India receives the largest amount of: || FDI in the world || Remittances in the world || Foreign aid in the world || Gold imports || b || World Bank data.
+M: Special Drawing Rights are issued by the: || World Bank || IMF || WTO || ADB || b || Basket: US dollar, euro, yuan, yen, pound.
+M: The New Development Bank (BRICS Bank) is headquartered in: || New Delhi || Shanghai || Moscow || Johannesburg || b || Its first president was K.V. Kamath of India.
+M: The International Finance Corporation (IFC) is part of the: || IMF || World Bank Group || WTO || UN Secretariat || b || Lends to the private sector.
+
+## 6.5 Schemes and Social Sector
+M: Ayushman Bharat – PMJAY provides health cover of: || ₹1 lakh || ₹2 lakh || ₹5 lakh || ₹10 lakh || c || Per family per year; launched 23 September 2018.
+M: The Swachh Bharat Mission was launched on: || 15 August 2014 || 2 October 2014 || 26 January 2015 || 21 June 2015 || b || Gandhi Jayanti.
+M: 'Beti Bachao Beti Padhao' was launched at: || Panipat || Jhunjhunu || Varanasi || Patna || a || 22 January 2015.
+M: Jal Jeevan Mission aims to provide: || Irrigation canals || Functional tap water connections to rural households || Rainwater harvesting in cities || Clean rivers || b || 'Har Ghar Jal', launched 2019.
+M: The National Food Security Act was passed in: || 2005 || 2013 || 2016 || 2019 || b || Covers about two-thirds of the population with subsidised grains.
+M: The SVAMITVA scheme uses drones to: || Monitor crops || Map rural residential land and issue property cards || Spray pesticides || Survey forests || b || Launched April 2020.
+M: Atal Pension Yojana targets workers in the: || Organised sector || Unorganised sector || Defence services || Government only || b || Guaranteed pension of ₹1,000–5,000 per month after 60.
+M: The 'Stand-Up India' scheme supports loans to: || Exporters || SC/ST and women entrepreneurs || Farmers || Students || b || ₹10 lakh to ₹1 crore for greenfield enterprises.
+M: Census 2011 literacy rate of India was about: || 64.8% || 69.3% || 74.04% || 80.0% || c || Male 82.14%, female 65.46%.
+M: As per Census 2011, the state with the highest population density was: || West Bengal || Bihar || Kerala || Uttar Pradesh || b || 1,106 per km²; Arunachal Pradesh lowest.

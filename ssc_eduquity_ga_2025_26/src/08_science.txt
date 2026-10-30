@@ -1,0 +1,113 @@
+# Important MCQs – General Science
+
+## 8.1 Physics
+M: One kilowatt-hour equals: || 3.6 × 10³ J || 3.6 × 10⁶ J || 1,000 J || 3,600 J || b || 1 kW × 3,600 s.
+M: One horsepower is approximately: || 500 W || 746 W || 1,000 W || 100 W || b || British hp; metric hp ≈ 735.5 W.
+M: The SI unit of frequency is: || Second || Hertz || Decibel || Watt || b || One cycle per second.
+M: The unit of sound intensity level is: || Hertz || Decibel || Newton || Pascal || b || Logarithmic scale.
+M: The SI unit of inductance is: || Weber || Henry || Farad || Tesla || b || Farad – capacitance.
+M: The unit of radioactivity is: || Becquerel || Gray || Sievert || Tesla || a || Curie = 3.7 × 10¹⁰ Bq.
+M: A parsec is a unit of: || Time || Distance || Mass || Energy || b || About 3.26 light years.
+M: Normal human body temperature on the Kelvin scale is about: || 273 K || 300 K || 310 K || 373 K || c || 37 °C + 273.
+M: Newton's first law of motion is also called the law of: || Acceleration || Inertia || Action and reaction || Gravitation || b || A bus passenger jerks forward when the bus stops suddenly.
+M: Catching a cricket ball by moving the hands backward reduces the force because it: || Reduces momentum || Increases the time of impact || Increases mass || Reduces velocity to zero instantly || b || Impulse = force × time.
+M: The weight of a body on the Moon is about: || Same as on Earth || One-sixth of that on Earth || Six times that on Earth || Zero || b || Mass remains the same.
+M: A person in a freely falling lift experiences: || Double weight || Weightlessness || Normal weight || Increased mass || b || Apparent weight becomes zero.
+M: Work done is zero when the force and displacement are: || In the same direction || Perpendicular || Opposite || Parallel || b || W = F·s·cos 90° = 0.
+M: The pressure exerted by a liquid increases with: || Depth || Surface area || Volume of container || Shape of container || a || That is why dams are thicker at the base.
+M: Ice floats on water because: || Ice is heavier || Ice is less dense than water || Water has surface tension || Ice is a solid || b || Density of ice ≈ 0.92 g/cm³.
+M: Rise of oil in a lamp wick is due to: || Viscosity || Capillary action || Diffusion || Gravity || b || Surface tension effect.
+M: The viscosity of liquids, with an increase in temperature: || Increases || Decreases || Remains the same || First increases then decreases || b || The viscosity of gases increases.
+M: Woollen clothes keep us warm because: || Wool produces heat || Trapped air is a poor conductor || Wool absorbs sunlight || Wool is waterproof || b || Air is an insulator.
+M: A thermos flask reduces heat loss by: || Conduction only || Convection only || Conduction, convection and radiation || Radiation only || c || Vacuum + silvered walls.
+M: Echo is heard clearly when the reflecting surface is at least: || 5 m away || 17 m away || 50 m away || 100 m away || b || Persistence of hearing ≈ 0.1 s; speed of sound ≈ 340 m/s.
+M: Speed of sound in air increases with: || Increase in pressure || Increase in temperature || Decrease in humidity || Decrease in temperature || b || Independent of pressure at constant temperature.
+M: Infrasonic sounds are produced by: || Bats || Earthquakes and elephants || Dog whistles || Dolphins || b || Below 20 Hz.
+M: The image formed by a plane mirror is: || Real and inverted || Virtual, erect, laterally inverted || Real and magnified || Virtual and diminished || b || Same size as the object.
+M: The phenomenon responsible for a mirage is: || Diffraction || Total internal reflection (refraction in hot air) || Scattering || Dispersion || b || Hot air near the ground bends light.
+M: The splitting of white light into seven colours is called: || Reflection || Refraction || Dispersion || Scattering || c || Newton's prism experiment; violet deviates most.
+M: A rainbow is formed due to: || Dispersion, refraction and total internal reflection in raindrops || Scattering only || Diffraction || Polarisation || a || Seen opposite to the Sun.
+M: Hypermetropia is corrected by a: || Concave lens || Convex lens || Cylindrical lens || Plane glass || b || The image forms behind the retina.
+M: The least distance of distinct vision for a normal eye is: || 10 cm || 25 cm || 50 cm || 1 m || b || The far point is at infinity.
+M: The resistance of a conductor increases with: || Increase in area || Increase in length || Decrease in temperature (metals) || Decrease in length || b || R = ρL/A.
+M: The device that converts AC into DC is a: || Transformer || Rectifier || Inverter || Generator || b || An inverter converts DC to AC.
+M: An ammeter is connected in a circuit in: || Parallel || Series || Either || Neither || b || A voltmeter is connected in parallel.
+M: The magnetic effect of electric current was discovered by: || Faraday || Oersted || Ampere || Maxwell || b || 1820.
+M: Electromagnetic induction was discovered by: || Oersted || Michael Faraday || Tesla || Edison || b || Basis of generators and transformers.
+M: Which rays have the shortest wavelength? || X-rays || Gamma rays || Ultraviolet || Microwaves || b || Most energetic EM waves.
+M: Microwave ovens heat food by agitating: || Fat molecules || Water molecules || Salt || Proteins only || b || Microwaves are absorbed by water.
+M: LASER stands for Light Amplification by Stimulated Emission of: || Rays || Radiation || Rotation || Resonance || b || Produces coherent, monochromatic light.
+M: Carbon-14 dating is used to find the age of: || Rocks billions of years old || Fossils and archaeological remains || Stars || Meteorites || b || Half-life ≈ 5,730 years.
+M: Control rods in a nuclear reactor are made of: || Graphite || Cadmium or boron || Uranium || Heavy water || b || They absorb neutrons; graphite and heavy water are moderators.
+
+## 8.2 Chemistry
+M: The fourth state of matter is: || Bose–Einstein condensate || Plasma || Colloid || Liquid crystal || b || Found in the Sun, lightning and neon signs.
+M: Which of these shows the Tyndall effect? || Salt solution || Sugar solution || Milk || Pure water || c || Colloids scatter light.
+M: Which method is used to separate the components of petroleum? || Crystallisation || Fractional distillation || Sublimation || Filtration || b || Different boiling points.
+M: Chromatography is used to separate: || Cream from milk || Dyes and pigments || Salt from sea water || Iron from sand || b || Based on different adsorption.
+M: Elements with the same mass number but different atomic numbers are called: || Isotopes || Isobars || Isotones || Allotropes || b || E.g., ⁴⁰Ar and ⁴⁰Ca.
+M: Who is known as the father of the periodic table? || Moseley || Mendeleev || Dalton || Newlands || b || Moseley gave the modern periodic law.
+M: Which element has the highest melting point among metals? || Iron || Tungsten || Platinum || Osmium || b || About 3,422 °C.
+M: Which is the densest naturally occurring element? || Gold || Lead || Osmium || Mercury || c || Iridium is a close second.
+M: Halogens belong to group: || 1 || 2 || 16 || 17 || d || Fluorine, chlorine, bromine, iodine, astatine.
+M: Which gas is used in balloons and by deep-sea divers? || Hydrogen || Helium || Neon || Argon || b || Non-flammable; mixed with oxygen for divers.
+M: Which gas is filled in electric bulbs? || Oxygen || Argon || Hydrogen || Carbon dioxide || b || Inert; prevents filament oxidation.
+M: The reaction of an acid with a base is called: || Oxidation || Neutralisation || Hydrolysis || Saponification || b || Produces salt and water.
+M: Saponification is the process of making: || Glass || Soap || Cement || Paper || b || Fat + alkali (NaOH) → soap + glycerol.
+M: Which acid is known as the 'King of Chemicals'? || Hydrochloric acid || Sulphuric acid || Nitric acid || Acetic acid || b || Also called oil of vitriol.
+M: Milk of magnesia is used as an: || Antiseptic || Antacid || Antibiotic || Analgesic || b || Magnesium hydroxide.
+M: Rusting of iron requires: || Only oxygen || Only water || Oxygen and water || Carbon dioxide || c || Forms hydrated ferric oxide.
+M: Which catalyst is used in the hydrogenation of vegetable oils? || Iron || Nickel || Platinum || Vanadium pentoxide || b || Produces vanaspati ghee.
+M: The Haber process manufactures: || Sulphuric acid || Ammonia || Nitric acid || Urea || b || Iron catalyst.
+M: Epsom salt is: || Sodium sulphate || Magnesium sulphate || Calcium sulphate || Zinc sulphate || b || Used as a laxative.
+M: Gypsum is added to cement to: || Increase strength || Slow down setting || Change colour || Make it waterproof || b || Calcium sulphate dihydrate.
+M: Which gas is responsible for acid rain? || Nitrogen || Sulphur dioxide || Oxygen || Helium || b || Along with nitrogen oxides; damages the Taj Mahal ('marble cancer').
+M: Carbon monoxide is poisonous because it: || Destroys lungs || Combines with haemoglobin || Lowers blood sugar || Damages kidneys || b || Binds about 200 times more strongly than oxygen.
+M: Itai-itai disease is caused by poisoning from: || Mercury || Cadmium || Lead || Arsenic || b || Minamata – mercury.
+M: Which glass is used in laboratory apparatus because it resists heat? || Soda-lime glass || Pyrex (borosilicate) || Flint glass || Crown glass || b || Low thermal expansion.
+M: Which oxide gives glass a blue colour? || Chromium oxide || Cobalt oxide || Manganese dioxide || Cuprous oxide || b || Chromium – green; manganese – violet; cuprous – red.
+M: Urea contains about what percent nitrogen? || 21% || 35% || 46% || 82% || c || Highest among common solid fertilisers.
+M: 'Rayon' is also called: || Artificial wool || Artificial silk || Synthetic rubber || Glass fibre || b || Made from cellulose.
+M: Kevlar is used in: || Non-stick pans || Bulletproof vests || Water pipes || Electrical switches || b || Very strong aramid fibre.
+
+## 8.3 Biology
+M: The longest cell in the human body is the: || Muscle cell || Nerve cell (neuron) || Ovum || Red blood cell || b || The ovum is the largest human cell.
+M: Mature mammalian red blood cells lack a: || Cell membrane || Nucleus || Haemoglobin || Cytoplasm || b || More room for haemoglobin.
+M: Mitosis results in: || Four haploid cells || Two identical diploid cells || Two haploid cells || Gametes || b || Meiosis produces four haploid gametes.
+M: Which of the following is a prokaryote? || Yeast || Amoeba || Bacteria || Mushroom || c || No membrane-bound nucleus.
+M: The first virus discovered was the: || Influenza virus || Tobacco mosaic virus || HIV || Poliovirus || b || Ivanovsky, 1892.
+M: The largest phylum of the animal kingdom is: || Chordata || Arthropoda || Mollusca || Annelida || b || Insects, spiders, crustaceans.
+M: Which of these is NOT a true fish? || Seahorse || Shark || Starfish || Rohu || c || Starfish is an echinoderm.
+M: Which vitamin is called 'anti-sterility vitamin'? || Vitamin A || Vitamin C || Vitamin E || Vitamin K || c || Tocopherol.
+M: Riboflavin is vitamin: || B1 || B2 || B3 || B12 || b || Deficiency – cracked lips (cheilosis).
+M: Folic acid deficiency during pregnancy can cause: || Rickets || Neural tube defects || Scurvy || Night blindness || b || Vitamin B9.
+M: Iodised salt helps prevent: || Anaemia || Goitre || Rickets || Scurvy || b || Iodine for thyroxine.
+M: Fluorosis is caused by excess of: || Iron || Fluoride || Arsenic || Nitrate || b || Mottled teeth and bone problems.
+M: The enzyme in saliva that digests starch is: || Pepsin || Ptyalin (salivary amylase) || Trypsin || Lipase || b || Starch → maltose.
+M: Most digestion and absorption of food takes place in the: || Stomach || Small intestine || Large intestine || Mouth || b || Villi increase the absorbing area.
+M: Gas exchange in lungs takes place in the: || Trachea || Bronchi || Alveoli || Larynx || c || Millions of tiny air sacs.
+M: The thickest wall in the heart is that of the: || Right atrium || Left atrium || Right ventricle || Left ventricle || d || It pumps blood to the whole body.
+M: Which blood vessel carries oxygenated blood from the lungs to the heart? || Pulmonary artery || Pulmonary vein || Aorta || Vena cava || b || Exception to the rule that veins carry deoxygenated blood.
+M: Which white blood cells produce antibodies? || Neutrophils || Lymphocytes || Eosinophils || Basophils || b || B-lymphocytes.
+M: Haemophilia is a disorder in which: || Blood fails to clot properly || RBCs are sickle-shaped || Blood sugar rises || Bones become weak || a || X-linked recessive.
+M: Rh factor was discovered in: || Humans first || Rhesus monkeys || Mice || Guinea pigs || b || Landsteiner and Wiener.
+M: Which hormone controls the body's metabolic rate? || Insulin || Thyroxine || Adrenaline || Oestrogen || b || From the thyroid gland.
+M: Diabetes insipidus is caused by deficiency of: || Insulin || ADH (vasopressin) || Thyroxine || Glucagon || b || Excess dilute urine.
+M: The hormone that helps in childbirth (uterine contraction) is: || Prolactin || Oxytocin || Progesterone || Testosterone || b || Also helps milk ejection.
+M: Which part of the eye is transplanted to restore vision in corneal blindness? || Retina || Cornea || Lens || Iris || b || Eye donation provides corneas.
+M: Rods in the retina help in: || Colour vision || Vision in dim light || Focusing || Controlling pupil size || b || Cones help colour vision.
+M: Cholera is caused by: || Virus || Vibrio cholerae (bacterium) || Protozoan || Fungus || b || Treated with ORS.
+M: The BCG vaccine protects against: || Polio || Tuberculosis || Measles || Tetanus || b || Bacillus Calmette–Guérin.
+M: Filariasis (elephantiasis) is spread by the: || Anopheles mosquito || Culex mosquito || Aedes mosquito || Housefly || b || Caused by Wuchereria bancrofti.
+M: Ringworm is caused by a: || Worm || Fungus || Virus || Bacterium || b || Despite its name.
+M: The polio vaccine given orally was developed by: || Jonas Salk || Albert Sabin || Edward Jenner || Louis Pasteur || b || Salk developed the injectable vaccine.
+M: Which is a fat-soluble vitamin stored in the liver? || Vitamin C || Vitamin B1 || Vitamin A || Vitamin B12 only || c || Also D, E and K.
+M: C₄ plants such as maize and sugarcane are: || Less efficient in photosynthesis || More efficient in hot conditions || Unable to fix CO₂ || Night-photosynthesising only || b || CAM plants (cactus) open stomata at night.
+M: Ginger is a modified: || Root || Stem (rhizome) || Leaf || Fruit || b || Turmeric is also a rhizome.
+M: Cauliflower's edible part is the: || Leaf || Inflorescence || Root || Stem only || b || Cabbage – leaves.
+M: Pitcher plant (Nepenthes) traps insects to obtain: || Water || Nitrogen || Carbon || Oxygen || b || Grows in nitrogen-poor soil.
+M: Touch-me-not (Mimosa pudica) shows: || Phototropism || Seismonasty (touch response) || Geotropism || Hydrotropism || b || A nastic movement.
+M: The theory of 'inheritance of acquired characters' was given by: || Darwin || Lamarck || Mendel || de Vries || b || Darwin – natural selection; de Vries – mutation.
+M: Which organ in humans is vestigial? || Heart || Appendix || Liver || Kidney || b || Also wisdom teeth and coccyx.
+M: DNA fingerprinting in India was pioneered by: || Har Gobind Khorana || Lalji Singh || M.S. Swaminathan || C.N.R. Rao || b || 'Father of Indian DNA fingerprinting'.
+M: The first cloned mammal was: || Dolly the sheep || Garima the buffalo || Laika the dog || Snuppy the dog || a || 1996, Roslin Institute, Scotland.

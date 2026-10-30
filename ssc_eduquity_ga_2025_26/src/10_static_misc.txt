@@ -1,0 +1,82 @@
+# Important MCQs – Days, Organisations, Space, Defence, Computers
+
+## 10.1 Days and National Symbols
+M: National Youth Day (12 January) marks the birth anniversary of: || Subhas Chandra Bose || Swami Vivekananda || Bhagat Singh || Rabindranath Tagore || b || Parakram Diwas (23 Jan) – Subhas Bose.
+M: Army Day is observed on: || 15 January || 26 January || 4 December || 8 October || a || Field Marshal K.M. Cariappa took over as the first Indian C-in-C in 1949.
+M: Martyrs' Day (30 January) marks the death anniversary of: || Bhagat Singh || Mahatma Gandhi || Lal Bahadur Shastri || Indira Gandhi || b || 1948.
+M: World Environment Day is observed on: || 22 April || 5 June || 16 September || 22 March || b || Earth Day is 22 April; Ozone Day 16 September; Water Day 22 March.
+M: National Doctors' Day (1 July) honours: || C.V. Raman || Dr. B.C. Roy || Dr. Rajendra Prasad || Dr. Zakir Hussain || b || Born and died on 1 July.
+M: Kargil Vijay Diwas is observed on: || 26 July || 16 December || 15 January || 8 October || a || 1999 Kargil war victory. 16 December is Vijay Diwas (1971).
+M: Rashtriya Ekta Diwas (31 October) commemorates: || Indira Gandhi || Sardar Vallabhbhai Patel || Lal Bahadur Shastri || Rajendra Prasad || b || His birth anniversary.
+M: National Education Day (11 November) honours: || Sarvepalli Radhakrishnan || Maulana Abul Kalam Azad || Zakir Hussain || Savitribai Phule || b || India's first Education Minister.
+M: Constitution Day (Samvidhan Divas) is observed on: || 26 January || 26 November || 15 August || 24 January || b || Adoption of the Constitution, 1949.
+M: Good Governance Day (25 December) honours: || Atal Bihari Vajpayee || Madan Mohan Malaviya || Charan Singh || Narasimha Rao || a || His birth anniversary.
+M: Hindi Divas is observed on: || 14 September || 21 February || 10 January || 2 October || a || World Hindi Day is 10 January.
+M: The National Song 'Vande Mataram' is taken from: || Gitanjali || Anandamath || Durgeshnandini || Gora || b || By Bankim Chandra Chatterjee.
+M: The National Emblem of India is adopted from the: || Sanchi Stupa || Lion Capital of Sarnath || Ajanta caves || Iron Pillar || b || Adopted on 26 January 1950.
+M: The ₹ symbol was designed by: || Pingali Venkayya || D. Udaya Kumar || Nandalal Bose || Raja Ravi Varma || b || Adopted in 2010.
+M: The National Flag was designed based on the design of: || Bhikaji Cama || Pingali Venkayya || Sister Nivedita || Rabindranath Tagore || b || Adopted 22 July 1947.
+M: The national bird of India is the: || Indian Peacock || Great Indian Bustard || Sarus crane || Hornbill || a || Declared in 1963.
+
+## 10.2 Organisations and Headquarters
+M: The headquarters of the International Atomic Energy Agency is in: || Geneva || Vienna || Paris || New York || b || OPEC and UNIDO are also in Vienna.
+M: The United Nations Environment Programme is headquartered in: || Geneva || Nairobi || Rome || New York || b || Founded in 1972.
+M: The Food and Agriculture Organization is headquartered in: || Rome || Geneva || Paris || Washington || a || World Food Day, 16 October.
+M: Interpol is headquartered in: || Paris || Lyon || Brussels || The Hague || b || France.
+M: The headquarters of SAARC is in: || New Delhi || Kathmandu || Dhaka || Colombo || b || Founded 1985 at Dhaka.
+M: The headquarters of ASEAN is in: || Bangkok || Jakarta || Singapore || Kuala Lumpur || b || Founded 1967 (Bangkok Declaration).
+M: The headquarters of BIMSTEC is in: || Kathmandu || Dhaka || Colombo || Bangkok || b || Founded 1997.
+M: NATO is headquartered in: || Washington || Brussels || London || Paris || b || Founded 1949.
+M: The World Wide Fund for Nature (WWF) is headquartered in: || Gland, Switzerland || Geneva || London || Washington || a || Panda logo.
+M: Amnesty International is headquartered in: || Geneva || London || New York || Paris || b || Human rights organisation.
+M: The International Red Cross (ICRC) was founded by: || Florence Nightingale || Henry Dunant || Jean Pictet || Clara Barton || b || 1863; World Red Cross Day 8 May.
+M: The UN has how many official languages? || 4 || 5 || 6 || 7 || c || English, French, Spanish, Russian, Chinese, Arabic.
+M: The first Secretary-General of the UN was: || Dag Hammarskjöld || Trygve Lie || U Thant || Kurt Waldheim || b || Norway.
+M: The Botanical Survey of India is headquartered in: || Dehradun || Kolkata || Lucknow || Pune || b || Survey of India – Dehradun.
+M: The Central Rice Research Institute is located at: || Cuttack || Hyderabad || Kolkata || Patna || a || Odisha.
+M: The National Dairy Research Institute is located at: || Anand || Karnal || Bengaluru || Pune || b || Haryana. NDDB is at Anand.
+M: The Forest Research Institute is located at: || Dehradun || Shimla || Bhopal || Jabalpur || a || Uttarakhand.
+M: The Indian Institute of Science is in: || Chennai || Bengaluru || Mumbai || Kanpur || b || Founded 1909 (J.N. Tata).
+
+## 10.3 Space and Defence
+M: India's first indigenous satellite launch vehicle was: || PSLV || SLV-3 || ASLV || GSLV || b || Launched Rohini in 1980; project led by A.P.J. Abdul Kalam.
+M: The first Indian rocket was launched in 1963 from: || Sriharikota || Thumba || Chandipur || Balasore || b || TERLS, Kerala.
+M: Chandrayaan-1 is credited with the discovery of: || Ice on Mars || Water molecules on the Moon || Helium-3 on the Moon || Methane on Mars || b || Launched 22 October 2008.
+M: Mangalyaan made India the first country to reach Mars orbit: || In its first attempt || With a manned mission || Using a nuclear engine || From the Moon || a || Reached Mars on 24 September 2014.
+M: Aditya-L1 studies the: || Moon || Sun || Mars || Venus || b || Placed at Lagrange point L1, about 1.5 million km away.
+M: The rover of Chandrayaan-3 was named: || Vikram || Pragyan || Aryabhata || Kalpana || b || The lander was Vikram.
+M: NavIC is India's: || Weather satellite || Regional navigation satellite system || Space station || Launch vehicle || b || Navigation with Indian Constellation.
+M: The first Indian to travel to space was: || Kalpana Chawla || Rakesh Sharma || Ravish Malhotra || Sunita Williams || b || 1984, Soyuz T-11.
+M: The first human in space was: || Neil Armstrong || Yuri Gagarin || Alan Shepard || John Glenn || b || 12 April 1961.
+M: The first artificial satellite of the world was: || Explorer 1 || Sputnik 1 || Vostok 1 || Luna 1 || b || USSR, 4 October 1957.
+M: Agni series missiles are: || Surface-to-air || Ballistic missiles || Anti-tank missiles || Air-to-air missiles || b || Agni-V is an ICBM-class missile.
+M: BrahMos is a joint venture of India and: || France || Israel || Russia || USA || c || Named after Brahmaputra and Moskva rivers.
+M: Nag is an: || Anti-tank missile || Ballistic missile || Cruise missile || Air-to-air missile || a || Third-generation fire-and-forget.
+M: INS Vikrant (2022) is India's first indigenous: || Submarine || Aircraft carrier || Destroyer || Frigate || b || Built by Cochin Shipyard.
+M: The National Defence Academy is located at: || Dehradun || Khadakwasla (Pune) || Chennai || Wellington || b || IMA is at Dehradun.
+M: The Indian Air Force was established on: || 1 April 1933 || 8 October 1932 || 15 August 1947 || 26 January 1950 || b || Air Force Day is 8 October.
+M: Which force guards India's border with China? || BSF || ITBP || SSB || Assam Rifles || b || Indo-Tibetan Border Police (1962).
+M: Which force guards India's borders with Nepal and Bhutan? || BSF || ITBP || SSB || CRPF || c || Sashastra Seema Bal.
+M: The 'Malabar' naval exercise involves India, USA, Japan and: || France || Australia || UK || Russia || b || A Quad navies exercise.
+
+## 10.4 Computers and Internet
+M: ENIAC, an early electronic computer, used: || Transistors || Vacuum tubes || ICs || Microprocessors || b || First generation (1946).
+M: The first microprocessor was the: || Intel 8085 || Intel 4004 || Pentium || Motorola 6800 || b || 1971.
+M: India's first supercomputer was: || PARAM 8000 || Pratyush || AIRAWAT || Mihir || a || 1991, C-DAC Pune; Vijay Bhatkar.
+M: 1 kilobyte equals: || 1,000 bytes || 1,024 bytes || 1,024 bits || 8 bytes || b || 1 byte = 8 bits.
+M: Which memory is the fastest? || RAM || Cache || Hard disk || ROM || b || After CPU registers.
+M: An EPROM chip can be erased using: || Electric current || Ultraviolet light || Magnetism || Heat || b || EEPROM is erased electrically.
+M: Which device converts digital signals to analog and back? || Router || Modem || Switch || Hub || b || Modulator–demodulator.
+M: Which protocol is used to receive email? || SMTP || POP3 || FTP || HTTP || b || SMTP sends email; IMAP is another receiving protocol.
+M: The DNS translates: || IP addresses to MAC addresses || Domain names to IP addresses || Emails to text || Files to packets || b || Domain Name System.
+M: IPv6 addresses are: || 32-bit || 64-bit || 128-bit || 256-bit || c || IPv4 is 32-bit.
+M: A program that replicates itself across a network without a host file is a: || Virus || Worm || Trojan horse || Spyware || b || A virus attaches to a host program.
+M: 'Phishing' refers to: || Hacking through hardware || Fraudulent messages to steal personal information || Encrypting files for ransom || Overloading servers || b || Ransomware encrypts files; DDoS overloads servers.
+M: The shortcut key Ctrl + Z is used to: || Redo || Undo || Save || Zoom || b || Ctrl + Y redoes.
+M: In MS Word, F7 is used for: || Save As || Spelling and grammar check || Print || Find || b || F12 – Save As.
+M: Linux is an example of: || Proprietary software || Open-source operating system || Application software || Programming language || b || Created by Linus Torvalds (1991).
+M: Java was developed by: || Dennis Ritchie || James Gosling || Bjarne Stroustrup || Guido van Rossum || b || Sun Microsystems; C – Ritchie; C++ – Stroustrup; Python – van Rossum.
+M: The term 'Artificial Intelligence' was coined by: || Alan Turing || John McCarthy || Marvin Minsky || Charles Babbage || b || 1956, Dartmouth conference.
+M: The IT Act of India was passed in: || 1998 || 2000 || 2005 || 2008 || b || Amended in 2008.
+M: 5G services were launched in India on: || 15 August 2022 || 1 October 2022 || 26 January 2023 || 1 April 2023 || b || At the India Mobile Congress.
+M: UPI was launched in: || 2014 || 2016 || 2018 || 2020 || b || By NPCI.
