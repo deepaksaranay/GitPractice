@@ -1,0 +1,115 @@
+# World & Physical Geography
+
+## 8.1 Universe and Solar System
+- Universe origin: Big Bang theory (Georges Lemaître; expansion – Edwin Hubble). Milky Way – our galaxy (spiral); nearest large galaxy – Andromeda. Light year = distance light travels in one year (≈ 9.46 × 10¹² km) – a unit of distance. Nearest star after the Sun: Proxima Centauri (≈ 4.24 light years). Brightest star in the night sky: Sirius (Dog Star).
+- Sun: ≈ 73% hydrogen, ≈ 25% helium; energy by nuclear fusion; light takes ≈ 8 min 20 s to reach Earth; surface (photosphere) ≈ 5,500–6,000 °C; corona visible during a total solar eclipse; sunspots are cooler regions.
+| Planet | Remember for |
+| Mercury | Smallest, closest to Sun, fastest orbit (88 days), no moon |
+| Venus | Hottest planet; brightest; rotates clockwise (east to west); 'Earth's twin'; morning/evening star; no moon |
+| Earth | Only planet known with life; densest planet; 'Blue Planet'; 1 moon |
+| Mars | 'Red Planet' (iron oxide); Olympus Mons – highest volcano in the solar system; moons Phobos & Deimos |
+| Jupiter | Largest; Great Red Spot; Ganymede – largest moon in solar system; fastest rotation (~10 h) |
+| Saturn | Prominent rings; least dense (would float on water); Titan – moon with thick atmosphere; most moons (count keeps rising) |
+| Uranus | Rotates on its side ('rolling planet'); greenish (methane); discovered by William Herschel (1781); also rotates east to west |
+| Neptune | Farthest planet; strongest winds; discovered by mathematical prediction (1846) |
+- Inner (terrestrial) planets: Mercury, Venus, Earth, Mars. Outer (Jovian/gas giants): Jupiter, Saturn, Uranus, Neptune. Asteroid belt between Mars and Jupiter. Pluto reclassified as a dwarf planet (IAU, 2006).
+- Moon: ≈ 3,84,400 km away; light takes ≈ 1.3 s; same side always faces Earth (synchronous rotation); no atmosphere; first man on Moon – Neil Armstrong (Apollo 11, 20 July 1969). Solar eclipse: Moon between Sun and Earth (on new moon day). Lunar eclipse: Earth between Sun and Moon (full moon). Tides due to Moon's gravity (spring tides at full/new moon; neap tides at quarter moon).
+F: Largest planet – Jupiter | Smallest – Mercury | Hottest – Venus | Red – Mars | Largest moon – Ganymede | Dwarf planet – Pluto (2006) | Sunlight to Earth ≈ 8 min 20 s
+PYQ-TREND: Hottest planet Venus (not Mercury). Planets rotating clockwise (Venus, Uranus). Largest moon Ganymede. Red planet. Pluto's reclassification. Light year as distance. Brightest star Sirius. Solar vs lunar eclipse positions.
+WARN: Light year is a unit of distance, not time. Mercury is closest to the Sun but Venus is the hottest because of its thick CO₂ greenhouse atmosphere.
+
+## 8.2 The Earth – Motions, Latitudes and Time
+- Shape: oblate spheroid/geoid. Equatorial radius ≈ 6,378 km; polar ≈ 6,357 km. Rotation (west to east, ≈ 23 h 56 min) → day and night, Coriolis force. Revolution ≈ 365¼ days → seasons (due to 23.5° tilt of axis), leap year.
+- Perihelion (closest to Sun, ≈ 3 January); Aphelion (farthest, ≈ 4 July). Equinoxes (equal day and night): 21 March (vernal) and 23 September (autumnal). Solstices: 21 June (summer, longest day in N. hemisphere; Sun over Tropic of Cancer) and 22 December (winter, shortest day; Sun over Tropic of Capricorn).
+- Latitudes: Equator 0°, Tropic of Cancer 23.5°N, Tropic of Capricorn 23.5°S, Arctic Circle 66.5°N, Antarctic Circle 66.5°S. Longitude: Prime Meridian 0° (Greenwich); 1° longitude = 4 minutes of time; 15° = 1 hour. International Date Line ≈ 180° (zigzag; crossing westward adds a day).
+- Equator passes through 13 countries including Ecuador, Colombia, Brazil, Gabon, Congo, DR Congo, Uganda, Kenya, Somalia, Indonesia, Maldives (waters), Kiribati. Tropic of Cancer passes through India, Mexico, Egypt, Saudi Arabia, Bangladesh, China, Myanmar etc. Tropic of Capricorn through Brazil, Argentina, Chile, South Africa, Australia, Madagascar, Mozambique etc. Both tropics and the Equator cross Africa; only the Equator and Capricorn cross South America; Brazil is crossed by both Equator and Tropic of Capricorn.
+F: 1° longitude = 4 min | 21 June – longest day (N) | 22 Dec – shortest day (N) | Equinoxes 21 Mar & 23 Sep | Perihelion ~3 Jan
+PYQ-TREND: Longest day 21 June. Equinox dates. Time-longitude relation. Countries on the Equator and tropics. Seasons due to axial tilt. International Date Line.
+
+## 8.3 Earth's Interior, Rocks, Landforms
+- Layers: crust (SIAL – silica + aluminium, continental; SIMA – silica + magnesium, oceanic), mantle (Moho discontinuity between crust and mantle; asthenosphere – source of magma), core (NIFE – nickel + iron; outer liquid, inner solid; Gutenberg discontinuity between mantle and core). Most abundant element in crust: oxygen (≈ 46.6%), then silicon, aluminium, iron. In Earth as a whole: iron.
+- Rocks: igneous (primary; granite – intrusive, basalt – extrusive), sedimentary (layers, fossils; sandstone, limestone, shale, coal), metamorphic (limestone → marble, sandstone → quartzite, shale → slate, granite → gneiss, coal → graphite/diamond under pressure).
+- Plate tectonics (continental drift – Alfred Wegener 1912; Pangaea, Panthalassa; Laurasia & Gondwana). Fold mountains (Himalayas, Alps, Andes, Rockies – young), block mountains (Vosges, Black Forest), volcanic mountains (Fujiyama, Kilimanjaro, Vesuvius).
+- Volcanoes: Pacific 'Ring of Fire' (≈ 75% of active volcanoes); Mauna Loa (Hawaii – largest active), Ojos del Salado (highest volcano), Stromboli ('lighthouse of the Mediterranean'), Kilimanjaro (Tanzania – highest in Africa, dormant), Krakatoa, Vesuvius (destroyed Pompeii).
+- Earthquakes: focus/hypocentre (point of origin), epicentre (on the surface above it). Seismic waves: P (primary – fastest, longitudinal, through solids & liquids), S (secondary – transverse, only solids – their absence shows the outer core is liquid), L/surface waves (most destructive). Measured on the Richter scale (magnitude, logarithmic) and Mercalli scale (intensity). Seismograph records them. Tsunami – seismic sea wave (Japanese word).
+F: Moho – crust/mantle | Gutenberg – mantle/core | Crust – oxygen most abundant | Limestone → marble | P waves fastest; S waves not through liquid | Richter scale
+PYQ-TREND: Most abundant element in crust (oxygen) and metal (aluminium). SIAL/SIMA/NIFE. Metamorphic rock examples (marble, slate, quartzite). P and S waves. Ring of Fire. Wegener's continental drift. Richter scale.
+
+## 8.4 Atmosphere
+- Composition (dry air by volume): nitrogen 78.08%, oxygen 20.95%, argon 0.93%, CO₂ ≈ 0.04%. Water vapour variable.
+| Layer | Height (approx.) | Features |
+| Troposphere | 0–8 km (poles) to 18 km (equator) | All weather; temperature falls ~6.5 °C per km (lapse rate); tropopause |
+| Stratosphere | Up to ~50 km | Ozone layer (15–35 km) absorbs UV; jet aircraft fly in lower part (calm) |
+| Mesosphere | Up to ~80–85 km | Coldest layer; meteors burn up |
+| Thermosphere (incl. ionosphere) | 80–400+ km | Reflects radio waves; aurora; temperature rises |
+| Exosphere | Outermost | Merges with space; satellites |
+- Ozone depletion by CFCs; ozone hole over Antarctica; measured in Dobson units; Montreal Protocol (1987); International Ozone Day 16 September (Vienna Convention 1985).
+- Pressure belts and winds: Equatorial low (doldrums), sub-tropical highs (horse latitudes, 30°), sub-polar lows (60°), polar highs. Planetary winds: trade winds (sub-tropical high → equator; easterlies), westerlies (30–60°; 'Roaring Forties', 'Furious Fifties', 'Shrieking Sixties' in the Southern Hemisphere), polar easterlies. Coriolis force deflects winds to the right in the Northern Hemisphere (Ferrel's law).
+- Local winds: Chinook (Rockies – 'snow eater', warm), Foehn (Alps – warm, dry), Sirocco (Sahara → Italy, hot), Harmattan (West Africa – 'the doctor', dry), Mistral (France – cold), Bora (Adriatic – cold), Khamsin (Egypt), Santa Ana (California), Zonda (Argentina), Loo (India), Brickfielder (Australia), Pampero (Argentina), Blizzard (polar).
+- Cyclones: tropical cyclones are called hurricanes (Atlantic, Caribbean), typhoons (China Sea/Pacific), cyclones (Indian Ocean), willy-willies (Australia), tornadoes (USA – small, most violent). Eye of a cyclone is calm. Anticlockwise in the Northern Hemisphere.
+- Clouds: cirrus (high, feathery), cumulus (fair weather, puffy), stratus (layered, low), nimbus/cumulonimbus (rain, thunderstorms).
+F: N₂ 78% | O₂ 21% | Ar 0.93% | CO₂ 0.04% | Ozone – stratosphere | Weather – troposphere | Meteors burn – mesosphere | Radio reflection – ionosphere
+PYQ-TREND: Layer with ozone (stratosphere) and weather (troposphere). Ionosphere reflects radio waves. Composition percentages. Local winds and their regions (Chinook, Foehn, Sirocco, Harmattan, Mistral). Cyclone names by region. Roaring Forties. Ozone Day.
+
+## 8.5 Hydrosphere – Oceans
+- About 71% of Earth's surface is water; ≈ 97% of it is in oceans. Five oceans: Pacific (largest, deepest – Mariana Trench, Challenger Deep ≈ 10,994 m), Atlantic (second largest; S-shaped; busiest for trade; Puerto Rico Trench), Indian (only ocean named after a country; Java/Sunda Trench), Southern (Antarctic), Arctic (smallest, shallowest).
+- Ocean currents: warm – Gulf Stream (keeps NW Europe warm), Kuroshio (Japan), Brazil, Agulhas, East Australian; cold – Labrador, Humboldt/Peru (rich fishing; El Niño reverses it), California, Canaries, Benguela, Oyashio, West Australian. Meeting of warm & cold currents creates fishing grounds (Grand Banks off Newfoundland – Gulf Stream + Labrador).
+- Salinity: average ≈ 35‰ (parts per thousand). Highest: Lake Van (Turkey) and Dead Sea (≈ 340‰ – lowest point on land, ≈ −430 m); Great Salt Lake (USA). Among seas: Red Sea highest; Baltic Sea low.
+- Coral reefs: Great Barrier Reef (Australia – largest living structure). Atolls (Lakshadweep, Maldives).
+F: Largest & deepest ocean – Pacific | Deepest point – Mariana Trench (Challenger Deep) | Smallest ocean – Arctic | Gulf Stream – warm | Humboldt – cold | Dead Sea – lowest land point
+PYQ-TREND: Deepest trench. Warm vs cold currents. Gulf Stream effect on Europe. Grand Banks fishing ground. Ocean named after a country (Indian). Saltiest water bodies. Great Barrier Reef.
+
+## 8.6 Continents and Countries – Key Facts
+| Continent | Facts |
+| Asia | Largest & most populous; Mount Everest (8,849 m, Nepal–China; height revised 2020); Dead Sea; Caspian Sea (largest lake, saline); Lake Baikal (deepest, oldest freshwater lake, Siberia); Yangtze (longest in Asia); Gobi desert |
+| Africa | Second largest; Nile (longest river in the world ≈ 6,650 km); Sahara (largest hot desert); Kilimanjaro; Lake Victoria (largest in Africa, source of White Nile); Victoria Falls (Zambezi); crossed by Equator and both tropics; 54 countries |
+| North America | Lake Superior (largest freshwater lake by area); Mississippi–Missouri; Rockies; Niagara Falls (USA–Canada); Death Valley; Greenland (largest island – Denmark) |
+| South America | Amazon (largest by volume/discharge; 'lungs of the world'); Andes (longest mountain range); Angel Falls (Venezuela – highest waterfall); Atacama (driest desert); Lake Titicaca (highest navigable lake) |
+| Europe | Volga (longest in Europe); Alps (Mont Blanc); Danube flows through most countries (10); Vatican City (smallest country) |
+| Australia | Smallest continent; Great Barrier Reef; Murray–Darling; 'island continent'; Great Artesian Basin |
+| Antarctica | Coldest, highest average elevation; Vinson Massif; India's stations Dakshin Gangotri (1983, first), Maitri (1989), Bharati (2012) |
+- Largest countries by area: Russia, Canada, USA/China, Brazil, Australia, India (7th). Most populous: India, China, USA, Indonesia, Pakistan. Smallest: Vatican City; Monaco second.
+- Deserts: Sahara (Africa – largest hot), Arabian, Gobi (Mongolia–China), Kalahari (Botswana), Namib (oldest), Atacama (Chile – driest), Thar (India–Pakistan), Great Victoria (Australia), Patagonian (Argentina), Antarctica (largest cold desert).
+- Grasslands: Prairies (N. America), Pampas (Argentina), Steppes (Eurasia), Veld (South Africa), Downs (Australia), Savanna (Africa), Llanos (Venezuela), Campos (Brazil), Selvas (Amazon rainforest).
+- Important straits: Strait of Gibraltar (Atlantic–Mediterranean; Spain–Morocco), Bosphorus & Dardanelles (Turkey; Black Sea–Mediterranean), Strait of Hormuz (Persian Gulf–Gulf of Oman; oil route), Bab-el-Mandeb (Red Sea–Gulf of Aden), Strait of Malacca (Indonesia–Malaysia; Indian–Pacific Oceans), Palk Strait (India–Sri Lanka), Bering Strait (Asia–North America; Russia–USA), English Channel/Strait of Dover (UK–France), Cook Strait (NZ islands), Bass Strait (Australia–Tasmania), Florida Strait, Sunda Strait (Java–Sumatra), Korea Strait, Magellan Strait (S. America).
+- Canals: Suez (1869; Mediterranean–Red Sea; Egypt), Panama (1914; Atlantic–Pacific), Kiel (North Sea–Baltic; Germany).
+- Lines: Mason-Dixon (historical US), 38th Parallel (North–South Korea), 49th Parallel (USA–Canada), 17th Parallel (old N–S Vietnam), Durand (Pak–Afghan), McMahon (India–China), Radcliffe, Oder-Neisse (Germany–Poland), Hindenburg (Germany–Poland WWI), Maginot (France–Germany), Siegfried (Germany fortification).
+F: Longest river – Nile | Largest by volume – Amazon | Largest lake – Caspian | Deepest lake – Baikal | Highest waterfall – Angel | Driest – Atacama | Largest hot desert – Sahara | Largest island – Greenland
+PYQ-TREND: Strait–countries matching (Gibraltar, Hormuz, Malacca, Bering, Dover). Boundary lines (38th parallel, 49th parallel, Durand). Grasslands names. Highest waterfall and longest river. Suez/Panama. Indian Antarctic stations. Lake Baikal deepest. Everest revised height.
+
+## 8.7 Countries, Capitals, Parliaments and Currencies (Neighbours & Key)
+| Country | Capital | Parliament | Currency |
+| Nepal | Kathmandu | Federal Parliament | Nepalese Rupee |
+| Bhutan | Thimphu | Parliament (Tshogdu/National Assembly) | Ngultrum |
+| Bangladesh | Dhaka | Jatiya Sangsad | Taka |
+| Pakistan | Islamabad | Majlis-e-Shoora | Pakistani Rupee |
+| Sri Lanka | Sri Jayawardenepura Kotte (legislative), Colombo (commercial) | Parliament | Sri Lankan Rupee |
+| Myanmar | Naypyidaw | Pyidaungsu Hluttaw | Kyat |
+| Afghanistan | Kabul | – | Afghani |
+| Maldives | Malé | People's Majlis | Rufiyaa |
+| China | Beijing | National People's Congress | Renminbi (Yuan) |
+| Japan | Tokyo | Diet | Yen |
+| Russia | Moscow | Federal Assembly (Duma) | Ruble |
+| USA | Washington DC | Congress | Dollar |
+| UK | London | Parliament | Pound Sterling |
+| Israel | Jerusalem (claimed) | Knesset | Shekel |
+| Iran | Tehran | Majlis | Rial |
+| Germany | Berlin | Bundestag | Euro |
+| Norway | Oslo | Storting | Krone |
+| Denmark | Copenhagen | Folketing | Krone |
+| Sweden | Stockholm | Riksdag | Krona |
+| Spain | Madrid | Cortes Generales | Euro |
+| Switzerland | Bern | Federal Assembly | Swiss Franc |
+| Netherlands | Amsterdam (seat of govt – The Hague) | States General | Euro |
+| Turkey (Türkiye) | Ankara | Grand National Assembly | Lira |
+| South Africa | Pretoria (exec.), Cape Town (leg.), Bloemfontein (jud.) | Parliament | Rand |
+| Brazil | Brasília | National Congress | Real |
+| Australia | Canberra | Parliament | Australian Dollar |
+| Saudi Arabia | Riyadh | Majlis al-Shura | Riyal |
+| UAE | Abu Dhabi | Federal National Council | Dirham |
+| Indonesia | Jakarta (moving to Nusantara) | People's Consultative Assembly | Rupiah |
+| South Korea | Seoul | National Assembly | Won |
+| Egypt | Cairo | House of Representatives | Egyptian Pound |
+| Iceland | Reykjavik | Althing (oldest parliament) | Krona |
+PYQ-TREND: Parliament names (Diet – Japan, Knesset – Israel, Majlis – Iran/Maldives, Jatiya Sangsad – Bangladesh, Storting – Norway, Riksdag – Sweden, Folketing – Denmark, Bundestag – Germany, Duma – Russia). Currencies of neighbours (Ngultrum, Taka, Kyat, Rufiyaa). Capitals of Myanmar (Naypyidaw) and Sri Lanka. Three capitals of South Africa.
+TIP: Neighbours' currency chain: "Nepal Rupee – Bhutan Ngultrum – Bangladesh Taka – Myanmar Kyat – Maldives Rufiyaa – Afghanistan Afghani".

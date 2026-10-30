@@ -1,0 +1,134 @@
+# Ancient Indian History
+
+## 1.1 Prehistoric Period
+- Palaeolithic (Old Stone Age): hunter-gatherers; quartzite tools; Bhimbetka rock shelters (Madhya Pradesh) have paintings (UNESCO site). Soan valley (Pakistan), Belan valley (UP), Attirampakkam (Tamil Nadu).
+- Mesolithic (Middle Stone Age): microliths; first domestication of animals (Adamgarh in MP, Bagor in Rajasthan).
+- Neolithic (New Stone Age): agriculture and settled life; polished tools. Mehrgarh (Baluchistan) – earliest evidence of agriculture (wheat, barley) in the subcontinent. Burzahom (Kashmir) – pit dwellings and burial of dogs with masters. Chirand (Bihar) – bone tools. Koldihwa (UP) – early rice.
+- Chalcolithic (Copper-Stone Age): first use of copper; Ahar (Banas culture), Jorwe, Malwa, Kayatha cultures; Inamgaon, Navdatoli.
+F: Bhimbetka – rock paintings (MP, UNESCO) | Mehrgarh – earliest agriculture | Burzahom – pit houses, dog burials | Koldihwa – early rice
+PYQ-TREND: Bhimbetka location and its rock paintings. Mehrgarh as earliest farming site. Burzahom pit dwellings. Microliths belong to the Mesolithic age.
+
+## 1.2 Indus Valley (Harappan) Civilisation
+- Period ≈ 2500–1750 BCE (mature phase). Bronze Age civilisation. Discovered in 1921 at Harappa (Daya Ram Sahni) and 1922 at Mohenjo-daro (R.D. Banerji). John Marshall was Director-General of ASI then. Named Harappan after the first site found.
+- Features: town planning with grid streets, covered drains, burnt bricks (standard ratio 1:2:4), citadel and lower town, granaries, no temples found, script undeciphered (boustrophedon in part; mostly right to left), seals mainly of steatite, standard weights (binary/16 multiples).
+- Crops: wheat, barley, peas, sesame; cotton was first grown here (Greeks called it Sindon). Rice husk at Lothal and Rangpur. No iron. Horse remains doubtful (Surkotada).
+| Site | Location (today) | Remember for |
+| Harappa | Ravi, Punjab (Pakistan) | First excavated; granaries, cemetery R-37 |
+| Mohenjo-daro | Indus, Sindh (Pakistan) | Great Bath, Great Granary, bronze dancing girl, priest-king bust; 'mound of the dead' |
+| Lothal | Bhogavo, Gujarat | Dockyard (earliest), rice husk, bead-making |
+| Kalibangan | Ghaggar, Rajasthan | Ploughed field, fire altars, 'black bangles' |
+| Dholavira | Rann of Kutch, Gujarat | Water reservoirs, 3-part city, signboard; UNESCO site (2021) |
+| Rakhigarhi | Haryana | Largest Harappan site in India |
+| Chanhudaro | Sindh | Only city without a citadel; bead factory |
+| Banawali | Haryana | Toy plough, barley |
+| Surkotada | Gujarat | Horse bones (disputed) |
+| Ropar | Punjab (India) | Dog buried with human; first site excavated after independence |
+| Alamgirpur | UP | Easternmost site |
+| Sutkagendor | Baluchistan | Westernmost site; trade post |
+| Manda | J&K | Northernmost site |
+| Daimabad | Maharashtra | Southernmost site; bronze chariot |
+- Religion: Mother Goddess, Pashupati seal (proto-Shiva with animals: elephant, tiger, rhinoceros, buffalo; deer below), worship of trees (peepal) and animals (humped bull / unicorn on seals).
+PYQ-TREND: Great Bath at Mohenjo-daro, dockyard at Lothal, ploughed field at Kalibangan, Dholavira's water management and UNESCO status, Rakhigarhi largest Indian site, discoverers of Harappa and Mohenjo-daro, Pashupati seal animals, cotton first grown here.
+TIP: "Lothal = Loading port (dockyard)". "Kalibangan = Kali (black) bangles + ploughed field".
+WARN: There is no evidence of temples, iron, or a deciphered script in the Harappan civilisation. Options with these are wrong.
+
+## 1.3 Vedic Period
+- Aryans; Early (Rig) Vedic ≈ 1500–1000 BCE in Sapta Sindhu region; Later Vedic ≈ 1000–600 BCE in the Ganga plains.
+- Four Vedas: Rigveda (oldest; 10 mandalas, 1028 hymns; Gayatri Mantra in 3rd mandala addressed to Savitri; Purusha Sukta in 10th mandala mentions four varnas), Samaveda (melodies – origin of Indian music), Yajurveda (sacrificial formulae; prose and verse), Atharvaveda (magic, charms, medicine).
+- Other texts: Brahmanas (rituals), Aranyakas (forest texts), Upanishads (philosophy; 108; 'Satyameva Jayate' from Mundaka Upanishad). Vedangas: 6 (Shiksha, Kalpa, Vyakarana, Nirukta, Chhanda, Jyotisha).
+- Rig Vedic gods: Indra (most hymns, 'Purandara'), Agni, Varuna (cosmic order 'rita'), Soma. Later Vedic: Prajapati, Vishnu, Rudra rose in importance.
+- Polity: tribal (jana), assemblies Sabha (elders) and Samiti (people), Vidatha. Battle of Ten Kings (Dasharajna) on the Parushni (Ravi) – Sudas of the Bharata clan won.
+- Economy: Rig Vedic – pastoral (cattle = wealth, 'gavishti' = war for cows). Later Vedic – agriculture, iron (shyama ayas / krishna ayas), Painted Grey Ware.
+- Rivers in Rigveda: Sindhu most mentioned; Saraswati 'best of rivers' (naditama). Vitasta = Jhelum, Asikni = Chenab, Parushni = Ravi, Vipasha = Beas, Shutudri = Sutlej.
+- Six schools of philosophy (Shad Darshana): Samkhya (Kapila), Yoga (Patanjali), Nyaya (Gautama), Vaisheshika (Kanada – atom theory), Purva Mimamsa (Jaimini), Uttara Mimamsa/Vedanta (Badarayana).
+F: Rigveda – oldest, 10 mandalas, 1028 hymns | Gayatri Mantra – Rigveda 3rd mandala | Satyameva Jayate – Mundaka Upanishad | Samaveda – music
+PYQ-TREND: Satyameva Jayate source (Mundaka Upanishad). Samaveda linked to music. Gayatri Mantra in Rigveda. Ancient names of Punjab rivers. Founders of the six schools of philosophy (Kanada – Vaisheshika, Kapila – Samkhya).
+
+## 1.4 Mahajanapadas and Rise of Magadha
+- Anguttara Nikaya (Buddhist) lists 16 Mahajanapadas in the 6th century BCE. Only Assaka (Ashmaka) lay in South India (on the Godavari). Vajji and Malla were republics (ganas).
+| Mahajanapada | Capital |
+| Magadha | Rajagriha (Girivraja), later Pataliputra |
+| Kosala | Shravasti |
+| Vatsa | Kaushambi |
+| Avanti | Ujjain (north), Mahishmati (south) |
+| Anga | Champa |
+| Kashi | Varanasi |
+| Vajji | Vaishali (Lichchhavis) |
+| Malla | Kushinagar, Pava |
+| Gandhara | Taxila |
+| Kamboja | Rajapura |
+| Kuru | Indraprastha |
+| Panchala | Ahichchhatra, Kampilya |
+| Chedi | Shuktimati |
+| Matsya | Viratnagar |
+| Surasena | Mathura |
+| Assaka | Potali / Paithan |
+- Magadha dynasties: Haryanka (Bimbisara – contemporary of Buddha, matrimonial alliances; Ajatashatru – killed his father, First Buddhist Council; Udayin – founded Pataliputra), Shishunaga (Shishunaga; Kalashoka – Second Buddhist Council at Vaishali), Nanda (Mahapadma Nanda – 'first empire builder', 'Ekarat'; Dhanananda – contemporary of Alexander).
+- Alexander invaded in 326 BCE; Battle of Hydaspes (Jhelum) with Porus.
+PYQ-TREND: Capitals of Mahajanapadas (especially Avanti–Ujjain, Kosala–Shravasti, Vatsa–Kaushambi, Anga–Champa). Only southern Mahajanapada = Assaka. Udayin founded Pataliputra. Battle of Hydaspes.
+
+## 1.5 Buddhism and Jainism
+### Buddhism
+- Gautama Buddha (Siddhartha), born 563 BCE (traditional) at Lumbini (Nepal), Shakya clan; father Suddhodana, mother Mahamaya; wife Yashodhara, son Rahul. Charioteer Channa, horse Kanthaka.
+| Event | Place | Symbol |
+| Birth | Lumbini | Lotus and bull |
+| Great Renunciation (Mahabhinishkramana) | – | Horse |
+| Enlightenment (Nirvana) | Bodh Gaya, under peepal tree, river Niranjana | Bodhi tree |
+| First sermon (Dharmachakra-pravartana) | Sarnath (Deer Park) | Wheel |
+| Death (Mahaparinirvana) | Kushinagar, 483 BCE | Stupa |
+- Teachings: Four Noble Truths, Eightfold Path (Ashtangika Marga), Middle Path. Tripitaka (Pali): Vinaya (monastic rules), Sutta (discourses), Abhidhamma (philosophy).
+| Buddhist council | Year | Place | King | Chair |
+| First | 483 BCE | Rajagriha (Saptaparni cave) | Ajatashatru | Mahakassapa |
+| Second | 383 BCE | Vaishali | Kalashoka | Sabakami |
+| Third | 250 BCE | Pataliputra | Ashoka | Moggaliputta Tissa |
+| Fourth | 72 CE (approx.) | Kundalvana, Kashmir | Kanishka | Vasumitra (Ashvaghosha vice) – split into Hinayana & Mahayana |
+### Jainism
+- 24 Tirthankaras. First – Rishabhanatha (Adinath); 23rd – Parshvanatha (four vows); 24th – Vardhamana Mahavira.
+- Mahavira: born 540 BCE at Kundagrama (near Vaishali), Jnatrika clan; father Siddhartha, mother Trishala; attained Kaivalya at Jrimbhikagrama on the Rijupalika river; died at Pavapuri (527 BCE traditional, aged 72).
+- Mahavira added the fifth vow, Brahmacharya, to Parshvanatha's four (non-violence, truth, non-stealing, non-possession). Three jewels (Triratna): right faith, right knowledge, right conduct.
+- Councils: first at Pataliputra (Sthulabhadra, c. 300 BCE), second at Vallabhi (Devardhi Kshamasramana, 5th century CE) – texts compiled in Prakrit (Ardhamagadhi). Sects: Digambara (sky-clad; Bhadrabahu) and Shvetambara (white-clad; Sthulabhadra).
+- Chandragupta Maurya embraced Jainism and died at Shravanabelagola (Karnataka). Gomateshwara (Bahubali) statue at Shravanabelagola built by Chamundaraya (Ganga minister).
+F: Buddha: Lumbini birth – Bodh Gaya enlightenment – Sarnath first sermon – Kushinagar death | Mahavira: Kundagrama – Jrimbhikagrama – Pavapuri
+PYQ-TREND: Place of first sermon (Sarnath). Fourth council under Kanishka and the Hinayana–Mahayana split. Third council under Ashoka. Mahavira added Brahmacharya. 23rd and 24th Tirthankaras. Tripitaka components. Shravanabelagola and Gomateshwara.
+TIP: Buddhist councils by place: "Raja-Vai-Pata-Kash" (Rajagriha, Vaishali, Pataliputra, Kashmir) in order.
+
+## 1.6 Mauryan Empire (321–185 BCE)
+- Chandragupta Maurya founded it with Chanakya (Kautilya/Vishnugupta – author of Arthashastra, on statecraft). Defeated Seleucus Nikator (305 BCE); Megasthenes (Seleucus's ambassador) wrote Indica.
+- Bindusara ('Amitraghata'); sent for sweet wine, dried figs and a philosopher from Antiochus.
+- Ashoka (273–232 BCE): Kalinga war 261 BCE (in 8th regnal year) changed him; adopted Buddhism under Upagupta/Nigrodha; Dhamma policy; sent son Mahendra and daughter Sanghamitra to Sri Lanka.
+- Ashokan edicts: deciphered by James Prinsep (1837) in Brahmi script. Scripts used: Brahmi (most), Kharosthi (north-west; right to left), Greek and Aramaic (Afghanistan). Major Rock Edict XIII – Kalinga war. Names 'Devanampiya Piyadasi'; the name 'Ashoka' appears in Maski and Gujarra edicts. Lion capital of Sarnath = national emblem (four lions; 'Satyameva Jayate' added below).
+- Administration: highly centralised; officials – Samaharta (revenue collector), Sannidhata (treasurer), Dhamma Mahamattas (Ashoka). Megasthenes described seven castes and Pataliputra's administration by six committees of five members each.
+- Last ruler Brihadratha killed by Pushyamitra Shunga (185 BCE).
+F: Arthashastra – Kautilya | Indica – Megasthenes | Kalinga war 261 BCE | Edicts deciphered by James Prinsep 1837 | Rock Edict XIII – Kalinga
+PYQ-TREND: Author of Arthashastra and Indica. Kalinga war and Rock Edict XIII. Decipherment by James Prinsep. Script of most edicts (Brahmi). Sarnath lion capital as national emblem. Ashoka's children sent to Sri Lanka.
+
+## 1.7 Post-Mauryan Period
+- Shungas (Pushyamitra – performed Ashvamedha; Patanjali wrote Mahabhashya), Kanvas.
+- Satavahanas (Deccan): founder Simuka; Gautamiputra Satakarni greatest; capital Pratishthana (Paithan); matronymics; first to grant land to Brahmins/monks; Prakrit; Karle and Nasik caves.
+- Indo-Greeks: first to issue gold coins in India and coins with the king's image; Menander (Milinda) – 'Milindapanho' dialogue with Nagasena.
+- Shakas: Rudradaman – Junagadh (Girnar) inscription (first long Sanskrit inscription), repaired Sudarshana lake. Vikram Samvat (57 BCE) started by Vikramaditya after defeating Shakas; Shaka Samvat (78 CE) – India's national calendar (Chaitra 1 = March 22).
+- Kushanas: Kanishka (began Shaka era 78 CE), capital Purushapura (Peshawar) and Mathura; patron of Mahayana; court – Ashvaghosha (Buddhacharita), Nagarjuna ('Indian Einstein', Madhyamika), Vasumitra, Charaka (physician). Gandhara art (Greco-Roman influence, grey stone) and Mathura art (red sandstone, indigenous).
+- Sangam Age (Tamil): three Sangams at Madurai under the Pandyas; Cheras (Vanji/Karur; Senguttuvan – Pattini/Kannagi cult), Cholas (Uraiyur, Puhar; Karikala – Kallanai dam on Kaveri), Pandyas (Madurai). Texts: Tolkappiyam (grammar), Tirukkural (Thiruvalluvar – 'Tamil Veda'), epics Silappatikaram (Ilango Adigal) and Manimekalai (Sattanar).
+F: Shaka Samvat 78 CE = national calendar | Vikram Samvat 57 BCE | Junagadh inscription – Rudradaman (first Sanskrit) | Tirukkural – Thiruvalluvar
+PYQ-TREND: Kanishka and Shaka era; Fourth Buddhist Council. Gandhara vs Mathura art. Rudradaman's Junagadh inscription. Indo-Greeks first gold coins. Silappatikaram and Manimekalai authors. Karikala Chola built Kallanai.
+
+## 1.8 Gupta Age (c. 319–550 CE) – 'Golden Age'
+- Sri Gupta (founder), Chandragupta I (Gupta era 319–320 CE; married Lichchhavi princess Kumaradevi), Samudragupta ('Napoleon of India' – V.A. Smith; Allahabad Pillar inscription/Prayag Prashasti by Harisena; played veena on coins), Chandragupta II 'Vikramaditya' (defeated Shakas; Fa-Hien visited; Navaratnas including Kalidasa; Mehrauli iron pillar), Kumaragupta I (founded Nalanda University), Skandagupta (repelled Hunas).
+- Navaratnas: Kalidasa (Abhijnanashakuntalam, Meghaduta, Raghuvamsha, Kumarasambhava), Amarasimha (Amarakosha), Varahamihira (Brihat Samhita, Panchasiddhantika), Dhanvantari (medicine), Vetala Bhatta, Shanku, Ghatakarpara, Kshapanaka, Vararuchi.
+- Science: Aryabhata (Aryabhatiya; earth rotates on its axis; value of π; zero/place value), Brahmagupta (Brahmasphutasiddhanta – gravity hint, zero rules), Sushruta (surgery – Sushruta Samhita; 'father of surgery'), Charaka (Kushana period – medicine).
+- Art: Ajanta caves (mostly Gupta-Vakataka paintings), Dashavatara temple at Deogarh (early stone temple, Nagara), Sarnath Buddha. Gold coins (dinara) most numerous.
+- Harsha (606–647 CE): Pushyabhuti dynasty, capital Thanesar then Kannauj; Hiuen Tsang (Xuanzang) visited ('prince of pilgrims', Si-Yu-Ki); Banabhatta wrote Harshacharita and Kadambari; Harsha wrote Ratnavali, Nagananda, Priyadarshika; held assemblies at Kannauj and Prayag; defeated by Pulakeshin II (Chalukya) on the Narmada.
+F: Prayag Prashasti – Harisena (Samudragupta) | Nalanda – Kumaragupta I | Fa-Hien – Chandragupta II | Hiuen Tsang – Harsha | Harshacharita – Banabhatta
+PYQ-TREND: Samudragupta 'Napoleon of India'. Kalidasa's works. Aryabhata's Aryabhatiya. Nalanda founder. Chinese travellers and their kings (Fa-Hien–Chandragupta II, Hiuen Tsang–Harsha). Harsha defeated by Pulakeshin II.
+
+## 1.9 Early Medieval South & Regional Kingdoms
+| Dynasty | Capital | Key facts |
+| Pallavas | Kanchipuram | Mahabalipuram rathas & Shore temple (Narasimhavarman II/Rajasimha); Narasimhavarman I 'Mamalla' defeated Pulakeshin II; Kailasanathar temple, Kanchi |
+| Chalukyas of Badami | Vatapi (Badami) | Pulakeshin II – Aihole inscription by Ravikirti; temples at Aihole ('cradle of Indian temple architecture'), Badami, Pattadakal (UNESCO) |
+| Rashtrakutas | Manyakheta | Dantidurga founder; Krishna I built Kailasa temple (Ellora, cave 16, monolithic); Amoghavarsha wrote Kavirajamarga (Kannada) |
+| Cholas (imperial) | Thanjavur, Gangaikonda Cholapuram | Vijayalaya founder; Rajaraja I built Brihadeshwara temple; Rajendra I conquered up to Ganga & Srivijaya ('Gangaikondachola'); Uttaramerur inscriptions – village self-government (Ur, Sabha) |
+| Palas (Bengal) | – | Gopala (elected) founder; Dharmapala founded Vikramashila university |
+| Pratiharas | Kannauj | Tripartite struggle for Kannauj (Palas, Pratiharas, Rashtrakutas) |
+| Senas | Bengal | Lakshmana Sena; Jayadeva wrote Gita Govinda |
+F: Kailasa temple Ellora – Krishna I | Brihadeshwara – Rajaraja I | Aihole inscription – Ravikirti (Pulakeshin II) | Vikramashila – Dharmapala
+PYQ-TREND: Builder of Kailasa temple at Ellora and Brihadeshwara temple. Tripartite struggle participants. Uttaramerur inscription on local self-government. Mahabalipuram under Pallavas. Vikramashila founder.

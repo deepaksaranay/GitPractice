@@ -1,0 +1,84 @@
+# Medieval Indian History
+
+## 2.1 Arab and Turkish Invasions
+- Muhammad bin Qasim conquered Sindh in 712 CE, defeating Raja Dahir – the first Arab conquest.
+- Mahmud of Ghazni raided India 17 times (1000–1027 CE); plundered Somnath temple (1025). Court scholar Al-Biruni wrote Kitab-ul-Hind (Tahqiq-i-Hind); poet Firdausi wrote Shahnama.
+- Muhammad Ghori: First Battle of Tarain (1191) – Prithviraj Chauhan won; Second Battle of Tarain (1192) – Ghori won, laying the foundation of Turkish rule. Battle of Chandawar (1194) – defeated Jaichand of Kannauj. Prithviraj's court poet Chand Bardai wrote Prithviraj Raso.
+F: 712 – Sindh (Qasim) | 1025 – Somnath raid (Mahmud) | 1191/1192 – Tarain I/II | 1194 – Chandawar
+PYQ-TREND: Battles of Tarain and their winners. Al-Biruni's Kitab-ul-Hind. Muhammad bin Qasim and Sindh. Prithviraj Raso by Chand Bardai.
+
+## 2.2 Delhi Sultanate (1206–1526)
+| Dynasty | Period | Founder |
+| Slave (Mamluk/Ilbari) | 1206–1290 | Qutbuddin Aibak |
+| Khilji | 1290–1320 | Jalaluddin Khilji |
+| Tughlaq | 1320–1414 | Ghiyasuddin Tughlaq |
+| Sayyid | 1414–1451 | Khizr Khan |
+| Lodi (first Afghan dynasty) | 1451–1526 | Bahlul Lodi |
+### Slave dynasty
+- Qutbuddin Aibak: 'Lakh Bakhsh' (giver of lakhs); started Qutub Minar (completed by Iltutmish; repaired by Firoz Tughlaq); built Quwwat-ul-Islam mosque (Delhi) and Adhai-din-ka-Jhonpra (Ajmer); died falling from a horse playing chaugan (polo) at Lahore.
+- Iltutmish: real founder/consolidator; capital Delhi; introduced silver tanka and copper jital; Iqta system; 'Turkan-i-Chahalgani' (Group of Forty); obtained investiture from the Abbasid Caliph.
+- Razia Sultan (1236–40): first and only woman ruler of the Delhi Sultanate.
+- Balban: theory of kingship (divine right, 'Zil-i-Ilahi' – shadow of God), Sijda and Paibos customs, crushed the Forty, Diwan-i-Arz (military department).
+### Khilji dynasty
+- Alauddin Khilji: market control (price regulation), Dagh (branding horses) and Huliya/Chehra (descriptive rolls of soldiers), standing army paid in cash, Alai Darwaza, Siri fort, Hauz-i-Alai; general Malik Kafur conquered the Deccan; Amir Khusrau ('Parrot of India', invented sitar/tabla per tradition, Khazain-ul-Futuh) at his court; Chittor siege 1303 (Padmavati legend by Jayasi's Padmavat, 1540).
+### Tughlaq dynasty
+- Ghiyasuddin Tughlaq built Tughlaqabad; Muhammad bin Tughlaq: transferred capital from Delhi to Daulatabad (Devagiri) in 1327, token currency of copper/brass, Khurasan and Qarachil expeditions, taxation in the Doab; Ibn Battuta (Moroccan traveller) visited and wrote Rehla; called 'mixture of opposites' and 'wise fool'.
+- Firoz Shah Tughlaq: imposed jizya on Brahmins, built canals, towns (Firozabad, Hisar, Jaunpur), brought two Ashokan pillars (Topra and Meerut) to Delhi, Diwan-i-Khairat (charity) and Diwan-i-Bandagan (slaves). Timur invaded Delhi in 1398 (during Nasiruddin Mahmud).
+### Lodi dynasty
+- Sikandar Lodi founded Agra (1504), introduced Gaz-i-Sikandari (measuring yard), wrote poetry as 'Gulrukhi'. Ibrahim Lodi lost the First Battle of Panipat (1526) to Babur.
+F: Qutub Minar – Aibak began, Iltutmish completed | Market reforms – Alauddin | Capital to Daulatabad, token currency – Muhammad bin Tughlaq | Agra founded – Sikandar Lodi (1504)
+PYQ-TREND: Muhammad bin Tughlaq's experiments (capital shift, token currency). Alauddin's market control and Dagh system. Iltutmish's tanka and jital. Razia only woman ruler. Ibn Battuta. Amir Khusrau. Founder of Agra. Balban's theory of kingship (Sijda, Paibos).
+WARN: Agra was founded by Sikandar Lodi, not by Akbar. Akbar built the Agra Fort; Fatehpur Sikri was his new capital.
+
+## 2.3 Vijayanagara and Bahmani Kingdoms
+- Vijayanagara founded in 1336 by Harihara I and Bukka I (Sangama dynasty) with guidance of Vidyaranya; capital Hampi (on the Tungabhadra; UNESCO site). Dynasties: Sangama, Saluva, Tuluva, Aravidu.
+- Krishnadeva Raya (Tuluva, 1509–29): greatest ruler; wrote Amuktamalyada (Telugu); court had Ashtadiggajas (eight poets) including Tenali Ramakrishna and Allasani Peddana ('Andhra Kavita Pitamaha'); built Vitthala and Hazara Rama temples. Portuguese travellers Domingo Paes and Fernao Nuniz described the city; also Abdur Razzaq (Persian) and Nicolo Conti (Italian, Devaraya I).
+- Battle of Talikota (Rakshasi-Tangadi), 1565: Deccan Sultanates defeated Rama Raya; Hampi destroyed.
+- Bahmani kingdom: founded 1347 by Alauddin Hasan Bahman Shah (Hasan Gangu); capital Gulbarga, later Bidar; minister Mahmud Gawan (madrasa at Bidar). Split into five Deccan Sultanates: Bijapur (Adil Shahi – Gol Gumbaz), Golconda (Qutb Shahi – Charminar built by Muhammad Quli Qutb Shah, founder of Hyderabad), Ahmednagar (Nizam Shahi), Berar (Imad Shahi), Bidar (Barid Shahi).
+F: Vijayanagara 1336 (Harihara & Bukka) | Talikota 1565 | Bahmani 1347 (Hasan Gangu) | Gol Gumbaz – Bijapur | Charminar – Golconda/Hyderabad
+PYQ-TREND: Founders of Vijayanagara and Bahmani. Krishnadeva Raya's Amuktamalyada and Ashtadiggajas. Battle of Talikota 1565. Gol Gumbaz location. Foreign travellers to Vijayanagara.
+
+## 2.4 Bhakti and Sufi Movements
+| Saint | Key facts |
+| Alvars (12, Vishnu) & Nayanars (63, Shiva) | Tamil Bhakti saints, 6th–9th century; Andal – woman Alvar |
+| Adi Shankaracharya | Advaita; four mathas – Sringeri (S), Dwarka (W), Puri (E), Badrinath/Joshimath (N); born Kaladi, Kerala |
+| Ramanuja | Vishishtadvaita (qualified monism) |
+| Madhvacharya | Dvaita (dualism) |
+| Nimbarka | Dvaitadvaita |
+| Vallabhacharya | Shuddhadvaita; Pushti Marga; Krishna worship |
+| Ramananda | Brought Bhakti to the north; disciples Kabir, Ravidas, Dhanna, Sena, Pipa |
+| Kabir | Nirguna; dohas in Bijak; weaver; Hindu–Muslim unity |
+| Guru Nanak | Founder of Sikhism; born Talwandi (Nankana Sahib), 1469 |
+| Chaitanya Mahaprabhu | Bengal; Krishna kirtan; Gaudiya Vaishnavism |
+| Mirabai | Rajput princess, devotee of Krishna |
+| Surdas | Sursagar; blind poet of Krishna |
+| Tulsidas | Ramcharitmanas (Awadhi) in Akbar's time |
+| Namdev, Jnaneshwar, Eknath, Tukaram, Ramdas | Maharashtra; Jnaneshwari (Gita commentary); Ramdas – guru of Shivaji, Dasbodh |
+| Shankardev | Assam; Ekasarana dharma; Sattriya dance, Namghar |
+| Basavanna | Lingayat (Virashaiva) movement, Karnataka; Anubhava Mantapa |
+- Sufi orders (silsilas): Chishti (Moinuddin Chishti – Ajmer; Nizamuddin Auliya – Delhi; Bakhtiyar Kaki; Baba Farid – verses in Guru Granth Sahib; Salim Chishti – Fatehpur Sikri), Suhrawardi (Multan – Bahauddin Zakariya), Naqshbandi (orthodox; Sheikh Ahmad Sirhindi), Qadiri, Firdausi.
+PYQ-TREND: Philosophies of Ramanuja (Vishishtadvaita), Madhva (Dvaita), Shankara (Advaita). Shankara's four mathas. Disciples of Ramananda. Founder of Chishti order in India (Moinuddin Chishti, Ajmer). Shankardev and Sattriya. Basavanna and Lingayats.
+
+## 2.5 Mughal Empire
+| Ruler | Period | Key facts |
+| Babur | 1526–30 | First Battle of Panipat 1526 (Ibrahim Lodi; first use of artillery/'Tulughma'); Khanwa 1527 (Rana Sanga); Chanderi 1528 (Medini Rai); Ghaghra 1529 (Afghans); autobiography Tuzuk-i-Baburi (Baburnama) in Turkish |
+| Humayun | 1530–40, 1555–56 | Lost Chausa (1539) and Kannauj/Bilgram (1540) to Sher Shah; returned 1555; died falling from library stairs (Din-panah/Sher Mandal); Humayunnama by sister Gulbadan Begum |
+| Sher Shah Suri (interlude) | 1540–45 | Rupiya (silver coin), Grand Trunk Road (Sadak-e-Azam), sarais, land survey, Dak chowki; tomb at Sasaram; died at Kalinjar |
+| Akbar | 1556–1605 | Second Panipat 1556 (Hemu; regent Bairam Khan); Haldighati 1576 (Maharana Pratap; Mughal side led by Man Singh); Mansabdari system; Din-i-Ilahi 1582; abolished jizya 1564 and pilgrim tax; Ibadat Khana at Fatehpur Sikri (1575); Buland Darwaza (Gujarat victory); Todar Mal's Zabti/Dahsala revenue system; Navaratnas |
+| Jahangir | 1605–27 | Chain of justice; Nur Jahan; Captain William Hawkins (1608) and Sir Thomas Roe (1615) came; executed Guru Arjan Dev (1606); Tuzuk-i-Jahangiri |
+| Shah Jahan | 1628–58 | Golden age of architecture: Taj Mahal (Agra, for Mumtaz Mahal; architect Ustad Ahmad Lahori), Red Fort Delhi, Jama Masjid Delhi, Moti Masjid (Agra), Peacock Throne; capital Shahjahanabad; imprisoned by Aurangzeb |
+| Aurangzeb | 1658–1707 | 'Zinda Pir'; reimposed jizya (1679); executed Guru Tegh Bahadur (1675); Bibi ka Maqbara (Aurangabad) – 'Taj of the Deccan' (built by his son Azam Shah); died at Ahmednagar |
+- Akbar's Navaratnas: Birbal (Mahesh Das), Abul Fazl (Akbarnama, Ain-i-Akbari), Faizi (brother of Abul Fazl, poet), Tansen (musician, born Gwalior), Todar Mal (finance), Man Singh (general), Abdul Rahim Khan-i-Khanan (poet, translated Baburnama into Persian), Fakir Aziao-Din, Mulla Do Piaza.
+- Later Mughals: Bahadur Shah I; Farrukhsiyar's farman of 1717 gave the East India Company duty-free trade in Bengal; Nadir Shah's invasion (1739, under Muhammad Shah 'Rangila') took the Peacock Throne and Kohinoor; Third Battle of Panipat (1761) – Ahmad Shah Abdali defeated the Marathas; Bahadur Shah Zafar – last Mughal, exiled to Rangoon after 1857.
+F: Panipat I 1526 (Babur v Ibrahim Lodi) | Panipat II 1556 (Akbar v Hemu) | Panipat III 1761 (Abdali v Marathas) | Haldighati 1576 | Khanwa 1527
+PYQ-TREND: Three battles of Panipat with year and combatants – asked very often. Haldighati 1576. Akbar's Din-i-Ilahi, Mansabdari, Ibadat Khana. Sher Shah's Rupiya and GT Road. Shah Jahan's buildings. Bibi ka Maqbara. Thomas Roe at Jahangir's court. Baburnama language (Turkish). Humayunnama by Gulbadan Begum.
+TIP: Panipat years: 1526 → 1556 (+30) → 1761 (+205). "26–56–61".
+
+## 2.6 Marathas and Sikhs
+- Shivaji (1630–80), born at Shivneri fort; coronation at Raigad 1674 ('Chhatrapati'); Ashtapradhan council (Peshwa – PM, Amatya – finance, Senapati, etc.); revenue taxes Chauth (1/4) and Sardeshmukhi (1/10 extra); killed Afzal Khan (1659); Treaty of Purandar (1665) with Jai Singh; escaped from Agra (1666).
+- Peshwas: Balaji Vishwanath (first powerful Peshwa), Baji Rao I (expansion north – 'Hindu Pad Padshahi'), Balaji Baji Rao (Nana Saheb; Panipat III loss), Madhav Rao I, Baji Rao II (Treaty of Bassein 1802 – subsidiary alliance; last Peshwa).
+- Anglo-Maratha wars: First (1775–82; Treaty of Salbai), Second (1803–05), Third (1817–18; end of Peshwaship).
+- Sikh Gurus: Nanak (1st), Angad (Gurmukhi script), Amar Das (Manji system, langar strengthened), Ram Das (founded Amritsar; land from Akbar), Arjan Dev (compiled Adi Granth 1604, built Harmandir Sahib; executed by Jahangir), Hargobind (Akal Takht; militarisation), Har Rai, Har Krishan (youngest), Tegh Bahadur (executed by Aurangzeb 1675), Gobind Singh (10th; Khalsa founded 1699 at Anandpur Sahib; last human guru; Guru Granth Sahib declared eternal Guru).
+- Banda Bahadur – first Sikh political leader after Gobind Singh. Maharaja Ranjit Singh – Sikh empire, capital Lahore; Treaty of Amritsar (1809) with the British; Koh-i-noor. Anglo-Sikh wars 1845–46 and 1848–49 → Punjab annexed by Dalhousie (1849).
+F: Shivaji coronation 1674 Raigad | Khalsa 1699 (Guru Gobind Singh) | Adi Granth 1604 (Guru Arjan Dev) | Amritsar founded – Guru Ram Das
+PYQ-TREND: Shivaji's Ashtapradhan and Chauth–Sardeshmukhi. Founder of Khalsa and year. Guru who compiled Adi Granth; Guru who founded Amritsar; Guru who introduced Gurmukhi. Treaty of Bassein. Maharaja Ranjit Singh's capital.

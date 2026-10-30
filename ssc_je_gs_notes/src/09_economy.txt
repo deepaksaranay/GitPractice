@@ -1,0 +1,120 @@
+# Indian Economy
+
+## 9.1 Basic Concepts
+- Economics: Adam Smith ('father of economics'; Wealth of Nations, 1776); J.M. Keynes (macroeconomics; General Theory, 1936); Alfred Marshall (welfare, Principles of Economics). Micro vs macroeconomics (Ragnar Frisch coined terms).
+- Sectors: Primary (agriculture, mining, fishing), Secondary (manufacturing, construction, electricity), Tertiary (services). India's GDP: services ≈ 55%, industry ≈ 25–30%, agriculture ≈ 17–18%; agriculture employs ≈ 45% of workers.
+- Economic systems: capitalist (market), socialist (state), mixed (India).
+- Demand and supply: Law of demand – price ↑, quantity demanded ↓ (inverse). Exceptions: Giffen goods (inferior staples), Veblen goods (luxury/prestige). Law of diminishing marginal utility. Elasticity of demand. Market types: perfect competition, monopoly (single seller), duopoly (two), oligopoly (few sellers), monopsony (single buyer), monopolistic competition (many sellers, differentiated products).
+F: Adam Smith – Wealth of Nations 1776 | Keynes – General Theory 1936 | Giffen & Veblen – exceptions to law of demand | Monopsony – one buyer
+PYQ-TREND: Father of economics. Market forms (monopsony, oligopoly, duopoly). Giffen goods. Law of demand. Sector classification of activities.
+
+## 9.2 National Income
+- GDP: market value of final goods and services produced within a country's borders in a year. GNP = GDP + net factor income from abroad. NNP = GNP − depreciation. National Income = NNP at factor cost.
+- GDP at market price − indirect taxes + subsidies = GDP at factor cost. Real GDP (constant prices; base year 2011–12) vs nominal GDP (current prices). GDP deflator = nominal/real × 100.
+- Per capita income = national income / population. First estimate of national income: Dadabhai Naoroji (1867–68, 'Poverty and Un-British Rule'); first scientific estimate – V.K.R.V. Rao (1931). After independence: National Income Committee (P.C. Mahalanobis, 1949). Now National Statistics Office (NSO, merged CSO & NSSO in 2019) under MoSPI.
+- Measurement methods: product/value-added, income, expenditure.
+- Human Development Index (UNDP since 1990): life expectancy, education, per capita income (GNI); devised by Mahbub ul Haq with Amartya Sen.
+- Inflation: rise in general price level. Demand-pull vs cost-push. Measured by WPI (Office of Economic Adviser, DPIIT; base 2011–12) and CPI (NSO; base 2012; RBI targets CPI inflation 4% ± 2%). Stagflation = inflation + stagnation; deflation = falling prices; disinflation = falling rate of inflation; hyperinflation; skewflation.
+F: GNP = GDP + NFIA | NNP = GNP − depreciation | Base year 2011–12 | Inflation target CPI 4% ± 2% | First NI estimate – Dadabhai Naoroji
+PYQ-TREND: GDP vs GNP definitions. First person to estimate national income (Naoroji). HDI components and founder (Mahbub ul Haq). CPI and WPI agencies. Inflation target. Stagflation meaning.
+
+## 9.3 Planning in India
+- Planning Commission set up on 15 March 1950 (executive resolution; chairman PM). National Development Council (1952). Replaced by NITI Aayog on 1 January 2015 (National Institution for Transforming India; 'think tank'; bottom-up approach; Governing Council includes CMs).
+- Earlier plans: Bombay Plan (1944, industrialists), Gandhian Plan (S.N. Agarwal), People's Plan (M.N. Roy), M. Visvesvaraya's Planned Economy for India (1934), National Planning Committee (INC, 1938, Nehru).
+| Plan | Period | Model / focus |
+| First | 1951–56 | Harrod–Domar; agriculture, irrigation; successful |
+| Second | 1956–61 | P.C. Mahalanobis; heavy industry; steel plants |
+| Third | 1961–66 | Self-reliance; failed (China & Pakistan wars, drought) |
+| Plan holiday | 1966–69 | Three annual plans; Green Revolution began |
+| Fourth | 1969–74 | Growth with stability; Gadgil formula; bank nationalisation 1969 |
+| Fifth | 1974–79 (ended 1978) | Garibi Hatao; poverty removal; D.P. Dhar |
+| Rolling Plan | 1978–80 | Janata govt (Gunnar Myrdal concept) |
+| Sixth | 1980–85 | Poverty eradication; IRDP |
+| Seventh | 1985–90 | Food, work, productivity |
+| Annual plans | 1990–92 | Economic crisis |
+| Eighth | 1992–97 | LPG reforms; Rao–Manmohan model; human development |
+| Ninth | 1997–2002 | Growth with social justice |
+| Tenth | 2002–07 | 8% growth target |
+| Eleventh | 2007–12 | Faster and more inclusive growth |
+| Twelfth (last) | 2012–17 | Faster, more inclusive and sustainable growth |
+F: Planning Commission 15 Mar 1950 | NITI Aayog 1 Jan 2015 | 2nd Plan – Mahalanobis | Plan holiday 1966–69 | 12th Plan – last
+PYQ-TREND: Second Plan's Mahalanobis model. First Plan – Harrod-Domar, agriculture. Plan holiday years. Rolling plan concept. NITI Aayog date and chairman. Bombay Plan.
+
+## 9.4 Money, Banking and RBI
+- Reserve Bank of India: established 1 April 1935 (Hilton Young Commission / RBI Act 1934); nationalised 1 January 1949; HQ Mumbai (initially Calcutta); first Governor Sir Osborne Smith; first Indian Governor C.D. Deshmukh. Functions: monetary policy, issue of currency (except ₹1 notes and coins – Government of India/Finance Ministry; RBI distributes), banker to the government, banker's bank, lender of last resort, custodian of forex reserves.
+- Monetary Policy Committee (2016): 6 members (3 RBI incl. Governor with casting vote, 3 government nominees); meets at least four times a year.
+- Instruments: quantitative – Repo rate (RBI lends to banks), Reverse repo, CRR (cash reserve ratio, kept with RBI), SLR (statutory liquidity ratio, kept by banks themselves in gold, cash, approved securities), Bank rate (long-term lending), Open Market Operations, MSF (Marginal Standing Facility), SDF (Standing Deposit Facility, 2022 – floor of LAF corridor); qualitative – margin requirements, moral suasion, credit rationing, direct action.
+- To control inflation, RBI raises repo/CRR/SLR (contractionary/dear money). To boost growth, it lowers them (cheap money).
+- Money supply: M0 (reserve money), M1 (narrow money = currency + demand deposits + other deposits with RBI), M2, M3 (broad money = M1 + time deposits; most commonly used), M4.
+- Banking history: first bank – Bank of Hindostan (1770); oldest existing – State Bank of India (originally Bank of Calcutta 1806 → Imperial Bank 1921 → SBI 1 July 1955); first purely Indian bank – Punjab National Bank (1894/95, Lala Lajpat Rai among founders). Bank nationalisation: 14 banks (19 July 1969), 6 more (1980). Lead Bank Scheme 1969. Regional Rural Banks (2 Oct 1975; Narasimham Committee). NABARD (12 July 1982; agriculture & rural credit). SIDBI (1990; MSMEs). EXIM Bank (1982). NHB (1988; housing).
+- Payments: NPCI (2008) runs UPI (2016), RuPay, IMPS, NACH, FASTag (NETC), BHIM app. Payments banks (Nachiket Mor committee; e.g., India Post Payments Bank). Small finance banks. Mudra Yojana (2015; Shishu/Kishore/Tarun loans). Jan Dhan Yojana (28 Aug 2014; financial inclusion).
+- Committees: Narasimham (banking reforms, 1991 & 1998), Raja Chelliah (tax reforms), Tarapore (capital account convertibility), Malhotra (insurance reforms), Kelkar (fiscal/tax), Urjit Patel (monetary policy framework, inflation targeting), Rangarajan (poverty), Tendulkar (poverty line), Y.V. Reddy (14th FC), Abid Hussain (small industries), Bimal Jalan (RBI reserves).
+- Other regulators: SEBI (1988; statutory 1992; securities market; HQ Mumbai), IRDAI (insurance, Hyderabad), PFRDA (pensions), FSSAI (food safety), TRAI (telecom), CCI (competition).
+- Stock exchanges: BSE (1875, oldest in Asia; Sensex – 30 stocks), NSE (1992; Nifty – 50 stocks).
+F: RBI 1 Apr 1935, nationalised 1949 | ₹1 note issued by GoI | MPC – 6 members | SBI 1 Jul 1955 | 14 banks nationalised 19 Jul 1969 | NABARD 1982 | Sensex 30, Nifty 50
+PYQ-TREND: RBI establishment and nationalisation years. Who issues ₹1 note (Finance Ministry). Repo/CRR/SLR definitions and their effect on inflation. Bank nationalisation dates. NABARD functions. SEBI as market regulator. Sensex/Nifty composition. Narasimham committee. UPI and NPCI. First Indian bank (PNB). M3 as broad money.
+WARN: Repo rate is the rate at which RBI lends to commercial banks; reverse repo is the rate at which RBI borrows from them. Don't swap them.
+
+## 9.5 Public Finance – Budget and Taxes
+- Union Budget: Annual Financial Statement (Art 112); presented on 1 February since 2017 (railway budget merged with the general budget in 2017, ending a practice since 1924 – Acworth Committee). First budget of independent India – R.K. Shanmukham Chetty (26 Nov 1947). First budget in British India – James Wilson (1860). Most budgets – Morarji Desai (10). First woman to present – Indira Gandhi (1970); first full-time woman FM – Nirmala Sitharaman.
+- Receipts: revenue receipts (tax + non-tax) and capital receipts (borrowings, disinvestment, loan recovery). Expenditure: revenue (salaries, interest, subsidies) and capital (asset creation).
+F: Revenue deficit = revenue expenditure − revenue receipts
+F: Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts) = total borrowings
+F: Primary deficit = fiscal deficit − interest payments
+F: Effective revenue deficit = revenue deficit − grants for creation of capital assets
+- FRBM Act 2003 (fiscal discipline). Outcome budget (2005), gender budget (2005–06). Zero-based budgeting.
+- Taxes: direct (burden cannot be shifted – income tax, corporation tax, wealth tax (abolished 2015)) and indirect (burden shifted – GST, customs, excise on some goods). Progressive (rate rises with income), regressive, proportional.
+- GST: launched 1 July 2017 (101st Amendment 2016); 'One Nation One Tax'; destination-based; CGST, SGST, IGST (inter-state), UTGST; slabs 0, 5, 12, 18, 28% (with cess) – rationalisation announced in 2025 to mainly 5% and 18% plus a 40% special rate; check the latest; GST Council (Art 279A) chaired by Union FM; GSTN for IT backbone; first state to ratify – Assam. Petroleum crude, diesel, petrol, ATF, natural gas and alcohol for human consumption are outside GST for now.
+- Laffer curve: relation between tax rates and revenue. Fiscal policy (government – tax & spending) vs monetary policy (RBI – money & interest).
+F: GST 1 July 2017 (101st Amdt) | Budget date 1 Feb since 2017 | First budget of free India – R.K. Shanmukham Chetty | FRBM 2003
+PYQ-TREND: Fiscal deficit definition (= borrowings). Primary deficit. Direct vs indirect tax examples. GST launch date, amendment, first state to ratify. Rail budget merger 2017. First budget presenter. Laffer curve. FRBM Act.
+
+## 9.6 Economic Reforms, Trade and International Organisations
+- 1991 New Economic Policy: LPG – Liberalisation, Privatisation, Globalisation (PM P.V. Narasimha Rao; FM Manmohan Singh); balance of payments crisis; gold pledged; rupee devalued; licence raj dismantled; MRTP diluted (replaced by Competition Act 2002); FEMA 1999 replaced FERA 1973.
+- Balance of payments: current account (trade in goods & services, remittances) + capital account (FDI, FPI, loans). India is the largest recipient of remittances.
+- International bodies: IMF & World Bank (Bretton Woods Conference 1944; HQ Washington DC); World Bank group includes IBRD, IDA (soft loans), IFC, MIGA, ICSID. WTO (1 Jan 1995; replaced GATT 1947; HQ Geneva). AIIB (Beijing), New Development Bank (BRICS; Shanghai), ADB (Manila, 1966). UNCTAD (Geneva). OPEC (Vienna). OECD (Paris).
+- Special Drawing Rights (SDR): IMF reserve asset; basket of USD, Euro, Yuan, Yen, Pound.
+- Make in India (25 Sept 2014), Startup India (2016), Digital India (2015), Atmanirbhar Bharat (2020), PLI schemes (2020), Insolvency & Bankruptcy Code (2016), demonetisation of ₹500 and ₹1000 notes (8 Nov 2016).
+F: LPG 1991 | WTO 1 Jan 1995 (Geneva) | IMF & World Bank – Bretton Woods 1944 | FEMA 1999 | IBC 2016 | Demonetisation 8 Nov 2016
+PYQ-TREND: 1991 reforms (LPG) and leaders. WTO formation and HQ. Bretton Woods institutions. FEMA replaced FERA. IDA as soft-loan window. HQs of ADB, AIIB, NDB. SDR basket.
+
+## 9.7 Poverty, Employment and Government Schemes
+- Poverty line committees: Alagh (1979), Lakdawala (1993), Tendulkar (2009 – 37.2% poverty, 2004–05), Rangarajan (2014). Multidimensional Poverty Index (NITI Aayog/UNDP-OPHI; health, education, standard of living).
+- Unemployment types: disguised (agriculture – marginal productivity zero), seasonal, structural, frictional, cyclical, educated. Periodic Labour Force Survey (PLFS) measures employment.
+| Scheme | Year | Purpose |
+| MGNREGA | 2005 (Act); launched 2 Feb 2006 (Anantapur) | 100 days of guaranteed wage employment for rural households |
+| Pradhan Mantri Jan Dhan Yojana | 2014 | Bank accounts for all |
+| Swachh Bharat Mission | 2 Oct 2014 | Sanitation, ODF |
+| Beti Bachao Beti Padhao | 2015 (Panipat) | Child sex ratio & girls' education |
+| Pradhan Mantri Ujjwala Yojana | 1 May 2016 (Ballia) | LPG connections to BPL women |
+| PM-KISAN | 2019 | ₹6,000 per year income support to farmers in 3 instalments |
+| Ayushman Bharat – PMJAY | 23 Sept 2018 (Ranchi) | Health cover ₹5 lakh per family per year |
+| Atal Pension Yojana | 2015 | Pension for unorganised sector |
+| PM Jeevan Jyoti / Suraksha Bima | 2015 | Life (₹2 lakh) / accident insurance |
+| Pradhan Mantri Awas Yojana | 2015 | Housing for all |
+| Saubhagya | 2017 | Household electrification |
+| Jal Jeevan Mission | 2019 | Tap water to every rural household (Har Ghar Jal) |
+| PM Garib Kalyan Anna Yojana | 2020 | Free food grains |
+| Stand-Up India | 2016 | Loans to SC/ST & women entrepreneurs |
+| Sukanya Samriddhi Yojana | 2015 | Savings for girl child |
+| SVAMITVA | 2020 | Property cards in rural areas via drones |
+| PM Vishwakarma | 2023 | Support to artisans |
+| National Food Security Act | 2013 | Subsidised grains to ~2/3 population |
+| One Nation One Ration Card | 2019–20 | Portability of PDS |
+F: MGNREGA – 100 days | PM-KISAN ₹6,000/yr | Ayushman Bharat ₹5 lakh | Jan Dhan 2014 | Ujjwala 2016 | Swachh Bharat 2 Oct 2014
+PYQ-TREND: Scheme–purpose matching (MGNREGA days, Ujjwala LPG, PM-KISAN amount, Ayushman Bharat cover, Jal Jeevan). Tendulkar committee on poverty. Disguised unemployment in agriculture. Launch places (Beti Bachao – Panipat).
+WARN: Scheme amounts and coverage get revised. Note the version given in the official notification year you are preparing for.
+
+## 9.8 Census and Demography (Census 2011)
+- Census: first non-synchronous 1872 (Mayo); first synchronous 1881 (Ripon); 2011 – 15th census, 7th after independence. 2021 census postponed (to be conducted with caste enumeration; check updates).
+| Indicator (2011) | Value |
+| Population | 121.09 crore (≈ 17.5% of world) |
+| Decadal growth | 17.7% |
+| Sex ratio | 943 females per 1000 males (highest Kerala 1084; lowest Haryana 879; UT lowest Daman & Diu 618) |
+| Child sex ratio (0–6) | 919 |
+| Literacy | 74.04% (male 82.14%, female 65.46%); highest Kerala (94%), lowest Bihar (61.8%) |
+| Density | 382 per km² (highest Bihar 1106; lowest Arunachal 17) |
+| Most populous state | Uttar Pradesh; least – Sikkim |
+| Urban population | 31.1% |
+F: Census 2011: 121 crore | sex ratio 943 | literacy 74.04% | density 382 | Kerala highest sex ratio & literacy | Bihar highest density
+PYQ-TREND: Census 2011 sex ratio, literacy, density, highest/lowest states. First synchronous census 1881. Most and least populous states.

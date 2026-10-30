@@ -1,0 +1,137 @@
+# Indian Polity I – Constitution and Rights
+
+## 5.1 Making of the Constitution
+- Constituent Assembly formed under the Cabinet Mission Plan (1946); members indirectly elected by provincial assemblies; total 389 (after partition 299). Idea first proposed by M.N. Roy (1934); INC formally demanded it in 1935.
+- First meeting: 9 December 1946 (Dr. Sachchidananda Sinha – temporary president). Dr. Rajendra Prasad elected permanent president (11 Dec 1946); vice-presidents H.C. Mookerjee and V.T. Krishnamachari. Constitutional adviser B.N. Rau.
+- Objectives Resolution moved by Nehru on 13 December 1946 (adopted 22 January 1947) – became the Preamble.
+- Drafting Committee (29 August 1947): chairman Dr. B.R. Ambedkar ('father/chief architect of the Constitution'); members N. Gopalaswami Ayyangar, Alladi Krishnaswamy Ayyar, K.M. Munshi, Syed Mohammad Saadullah, N. Madhava Rau (replaced B.L. Mitter), T.T. Krishnamachari (replaced D.P. Khaitan).
+- Other committees: Union Powers, Union Constitution and States Committees – Nehru; Provincial Constitution Committee and Advisory Committee on Fundamental Rights & Minorities – Sardar Patel; Rules of Procedure and Steering Committees – Rajendra Prasad; Ad hoc Committee on the National Flag – Rajendra Prasad.
+- Constitution adopted on 26 November 1949 (Constitution/Samvidhan Divas since 2015); came into force on 26 January 1950 (Republic Day; chosen because Purna Swaraj Day was 26 Jan 1930). Took 2 years, 11 months, 18 days; 11 sessions.
+- Original Constitution: 395 Articles, 22 Parts, 8 Schedules. Hand-written by Prem Behari Narain Raizada (calligraphy); illustrated by Nandalal Bose and Beohar Rammanohar Sinha.
+- National Anthem adopted 24 January 1950; National Song same day; Rajendra Prasad elected first President on 24 Jan 1950. National Flag adopted 22 July 1947 (designed on Pingali Venkayya's design). Emblem adopted 26 January 1950.
+F: First meeting 9 Dec 1946 | Objectives Resolution 13 Dec 1946 | Adopted 26 Nov 1949 | In force 26 Jan 1950 | Original: 395 Articles, 22 Parts, 8 Schedules
+PYQ-TREND: Chairman of Drafting Committee (Ambedkar), President of Constituent Assembly (Rajendra Prasad), temporary president (Sachchidananda Sinha). Adoption and enforcement dates. Objectives Resolution by Nehru. Constitutional adviser B.N. Rau. Flag adoption date.
+
+## 5.2 Borrowed Features (Sources)
+| Source | Features borrowed |
+| Government of India Act 1935 | Federal scheme, office of Governor, judiciary, Public Service Commissions, emergency provisions, administrative details (largest source) |
+| Britain | Parliamentary government, rule of law, legislative procedure, single citizenship, cabinet system, prerogative writs, bicameralism, Speaker |
+| USA | Fundamental Rights, independence of judiciary, judicial review, impeachment of President, removal of SC/HC judges, Vice-President post, Preamble |
+| Ireland | Directive Principles, nomination of Rajya Sabha members, method of election of President |
+| Canada | Federation with a strong Centre, residuary powers with Centre, appointment of Governors by Centre, advisory jurisdiction of Supreme Court |
+| Australia | Concurrent List, freedom of trade and commerce, joint sitting of Parliament |
+| USSR (erstwhile) | Fundamental Duties, ideals of justice (social, economic, political) in Preamble |
+| France | Republic, Liberty, Equality, Fraternity in the Preamble |
+| Germany (Weimar) | Suspension of Fundamental Rights during Emergency |
+| South Africa | Procedure for amendment, election of Rajya Sabha members |
+| Japan | Procedure established by law |
+TIP: "DIR" – Directive principles from IReland; "FD from USSR"; "Emergency suspension of FR from Germany (Weimar)"; "Amendment from South Africa".
+PYQ-TREND: Source of DPSP (Ireland), Fundamental Duties (USSR), Concurrent List (Australia), Fundamental Rights and judicial review (USA), amendment procedure (South Africa), residuary powers (Canada), Emergency suspension (Germany). GoI Act 1935 as the main source.
+
+## 5.3 Preamble
+- 'We, the people of India, having solemnly resolved to constitute India into a Sovereign Socialist Secular Democratic Republic and to secure to all its citizens: Justice – social, economic and political; Liberty of thought, expression, belief, faith and worship; Equality of status and of opportunity; and to promote among them all Fraternity assuring the dignity of the individual and the unity and integrity of the Nation…'
+- 42nd Amendment (1976) added 'Socialist', 'Secular' and 'Integrity' – the only amendment to the Preamble so far.
+- Berubari Union case (1960): Preamble not part of the Constitution. Kesavananda Bharati case (1973): Preamble is part of the Constitution and can be amended (without altering the basic structure). LIC case (1995): part of the Constitution.
+- Preamble is non-justiciable. Called 'identity card of the Constitution' (N.A. Palkhivala), 'political horoscope' (K.M. Munshi), 'soul of the Constitution' (Thakurdas Bhargava).
+F: 42nd Amendment 1976 – Socialist, Secular, Integrity | Kesavananda 1973 – Preamble is part, basic structure
+PYQ-TREND: Words added by the 42nd Amendment. Preamble part of the Constitution per Kesavananda Bharati. Source of liberty-equality-fraternity (France). Order of words in Preamble (Sovereign Socialist Secular Democratic Republic).
+
+## 5.4 Parts and Schedules (Current)
+| Part | Subject | Articles |
+| I | Union and its territory | 1–4 |
+| II | Citizenship | 5–11 |
+| III | Fundamental Rights | 12–35 |
+| IV | Directive Principles | 36–51 |
+| IV-A | Fundamental Duties | 51A |
+| V | The Union (President, Parliament, SC, CAG) | 52–151 |
+| VI | The States | 152–237 |
+| VIII | Union Territories | 239–242 |
+| IX | Panchayats | 243–243O |
+| IX-A | Municipalities | 243P–243ZG |
+| IX-B | Co-operative societies | 243ZH–243ZT |
+| X | Scheduled and Tribal Areas | 244–244A |
+| XI | Centre–State relations | 245–263 |
+| XII | Finance, property, contracts | 264–300A |
+| XIV | Services (UPSC, PSCs) | 308–323 |
+| XIV-A | Tribunals | 323A–323B |
+| XV | Elections | 324–329A |
+| XVII | Official language | 343–351 |
+| XVIII | Emergency provisions | 352–360 |
+| XX | Amendment | 368 |
+| XXI | Temporary, transitional and special provisions | 369–392 |
+
+| Schedule | Content |
+| 1 | States and Union Territories |
+| 2 | Emoluments of President, Governors, Speaker, judges, CAG |
+| 3 | Forms of oaths and affirmations |
+| 4 | Allocation of Rajya Sabha seats |
+| 5 | Administration of Scheduled Areas and Tribes |
+| 6 | Tribal areas of Assam, Meghalaya, Tripura, Mizoram |
+| 7 | Union, State and Concurrent Lists |
+| 8 | Languages (22) |
+| 9 | Laws protected from judicial review (added by 1st Amendment 1951; land reforms) |
+| 10 | Anti-defection (added by 52nd Amendment 1985) |
+| 11 | Panchayats – 29 subjects (73rd Amendment 1992) |
+| 12 | Municipalities – 18 subjects (74th Amendment 1992) |
+- Seventh Schedule: Union List (originally 97, now 100 entries – defence, foreign affairs, railways, banking, atomic energy), State List (originally 66, now 61 – police, public order, health, agriculture, local government), Concurrent List (originally 47, now 52 – education, forests, marriage, criminal law, electricity). 42nd Amendment moved education, forests, weights & measures, protection of wild animals and birds, and administration of justice to the Concurrent List.
+F: Schedules: 7th – lists | 8th – languages | 9th – 1st Amdt | 10th – anti-defection (52nd) | 11th – Panchayats (29) | 12th – Municipalities (18)
+PYQ-TREND: Schedule contents (especially 7th, 8th, 9th, 10th, 11th). Subjects moved to Concurrent List by the 42nd Amendment. Number of subjects in the 11th and 12th schedules. Part III and IV article ranges.
+
+## 5.5 Union, Territory and Citizenship
+- Article 1: 'India, that is Bharat, shall be a Union of States'. Article 3: Parliament can form new states and alter boundaries (simple majority; President's recommendation; state legislature's view not binding).
+- States reorganisation: Andhra State (1953) first on linguistic basis after Potti Sriramulu's death; States Reorganisation Commission – Fazl Ali (1953), Act 1956 (14 states, 6 UTs). Newer states: Gujarat & Maharashtra (1960), Nagaland (1963), Haryana (1966), HP (1971), Manipur, Tripura, Meghalaya (1972), Sikkim (1975, 36th Amendment), Mizoram, Arunachal, Goa (1987), Chhattisgarh, Uttarakhand, Jharkhand (2000), Telangana (2 June 2014 – 29th state). J&K reorganised into two UTs (J&K and Ladakh) on 31 October 2019. Dadra & Nagar Haveli and Daman & Diu merged in 2020. Now 28 states and 8 UTs.
+- Citizenship: Articles 5–11; Citizenship Act 1955 – acquisition by birth, descent, registration, naturalisation, incorporation of territory; loss by renunciation, termination, deprivation. Single citizenship (from Britain). Overseas Citizenship of India (OCI). Citizenship (Amendment) Act 2019.
+F: 28 states + 8 UTs | Telangana – 29th state, 2014 | J&K and Ladakh UTs – 31 Oct 2019 | Sikkim – 36th Amendment 1975
+PYQ-TREND: Article 1 wording; Article 3 for new states. First linguistic state (Andhra). Fazl Ali Commission. Newest state (Telangana). Number of states and UTs. Sikkim's merger amendment.
+
+## 5.6 Fundamental Rights (Part III)
+| Right | Articles |
+| Right to Equality | 14–18 |
+| Right to Freedom | 19–22 |
+| Right against Exploitation | 23–24 |
+| Right to Freedom of Religion | 25–28 |
+| Cultural and Educational Rights | 29–30 |
+| Right to Constitutional Remedies | 32 |
+- Article 14: equality before law (British) and equal protection of laws (American). 15: no discrimination on religion, race, caste, sex, place of birth. 16: equality of opportunity in public employment. 17: abolition of untouchability (Protection of Civil Rights Act 1955). 18: abolition of titles (except military and academic).
+- Article 19: six freedoms – speech & expression, assemble peaceably without arms, form associations/unions/co-operatives, move freely, reside and settle, profession/occupation/trade. (Right to property in 19(1)(f) was removed by the 44th Amendment 1978.)
+- Article 20: protection in respect of conviction (no ex-post-facto law, no double jeopardy, no self-incrimination). 21: protection of life and personal liberty (widest; includes privacy – Puttaswamy 2017, clean environment, livelihood, speedy trial, dignity). 21A: right to education for 6–14 years (86th Amendment 2002). 22: protection against arbitrary arrest (produce before magistrate within 24 hours); preventive detention.
+- Article 23: prohibition of traffic in human beings and forced labour (begar). 24: no child below 14 in factories, mines or hazardous work.
+- Articles 25–28: freedom of conscience and religion; manage religious affairs; no tax for promotion of a religion; no religious instruction in State-funded institutions.
+- Articles 29–30: protection of interests of minorities; right of minorities to establish and administer educational institutions.
+- Article 32: Right to constitutional remedies – 'heart and soul of the Constitution' (Ambedkar). Writs (SC under Art 32, HC under Art 226 – HC's power wider): Habeas Corpus ('to have the body' – against illegal detention), Mandamus ('we command' – to a public official to perform duty; not against President/Governor), Prohibition (higher court to lower court to stop proceeding), Certiorari ('to be certified' – quash order of lower court/tribunal), Quo Warranto ('by what authority' – against unlawful holding of public office).
+- Right to property: now a legal right under Article 300A (44th Amendment 1978).
+- FRs suspended during national emergency: Article 19 suspended automatically in war/external aggression (Art 358); others via Presidential order (Art 359), except Articles 20 and 21 (44th Amendment).
+F: Art 14 equality | 17 untouchability | 19 six freedoms | 21 life & liberty | 21A education (86th, 2002) | 32 remedies ('heart & soul') | Property → 300A (44th, 1978)
+PYQ-TREND: Article 32 'heart and soul'. Writs and their meanings (Habeas Corpus, Mandamus, Quo Warranto). Article 17 untouchability, Article 21A education, Article 24 child labour. Right to property removal (44th Amendment) and new Art 300A. Articles 20 and 21 cannot be suspended in emergency. Privacy as FR (2017).
+TIP: Writs memory: "Habeas = Body; Mandamus = Must do duty; Prohibition = Pre-stop; Certiorari = Correct after decision (quash); Quo Warranto = Which warrant/authority".
+
+## 5.7 Directive Principles of State Policy (Part IV, Articles 36–51)
+- Non-justiciable but 'fundamental in the governance of the country' (Art 37). Idea from the Irish Constitution. 'Novel feature' (Ambedkar).
+| Article | Directive |
+| 38 | Social order with justice; minimise inequalities |
+| 39 | Adequate livelihood, equal pay for equal work, prevent concentration of wealth, protect children |
+| 39A | Equal justice and free legal aid (42nd Amendment) |
+| 40 | Organise village panchayats (Gandhian) |
+| 41 | Right to work, education, public assistance |
+| 42 | Just and humane conditions of work, maternity relief |
+| 43 | Living wage; promote cottage industries (Gandhian) |
+| 43A | Workers' participation in management (42nd) |
+| 43B | Co-operative societies (97th, 2011) |
+| 44 | Uniform Civil Code |
+| 45 | Early childhood care and education below 6 (changed by 86th Amendment) |
+| 46 | Educational & economic interests of SCs, STs, weaker sections (Gandhian) |
+| 47 | Nutrition, public health; prohibition of intoxicating drinks (Gandhian) |
+| 48 | Organise agriculture & animal husbandry; prohibit cow slaughter (Gandhian) |
+| 48A | Protect environment, forests, wildlife (42nd) |
+| 49 | Protect monuments of national importance |
+| 50 | Separate judiciary from executive |
+| 51 | Promote international peace and security |
+- Classification: socialist, Gandhian, liberal-intellectual. Minerva Mills case (1980): Constitution is founded on balance between FRs and DPSPs.
+F: Art 40 – village panchayats | 44 – Uniform Civil Code | 45 – early childhood care | 48A – environment | 50 – separation of judiciary | 51 – international peace
+PYQ-TREND: Article 44 (UCC), Article 40 (panchayats), Article 48A (environment), Article 50 (separation of judiciary from executive), Article 39A (free legal aid). DPSP source (Ireland). Non-justiciable nature.
+
+## 5.8 Fundamental Duties (Part IV-A, Article 51A)
+- Added by the 42nd Amendment (1976) on the recommendation of the Swaran Singh Committee; originally 10; 11th duty added by the 86th Amendment (2002) – parents/guardians to provide education to children aged 6–14. Idea from the USSR. Non-justiciable.
+- Duties include: abide by the Constitution, respect the National Flag and Anthem; cherish ideals of the freedom struggle; uphold sovereignty, unity and integrity; defend the country; promote harmony and renounce practices derogatory to women; preserve composite culture; protect environment including forests, lakes, rivers, wildlife; develop scientific temper, humanism, spirit of inquiry; safeguard public property and abjure violence; strive towards excellence.
+F: Fundamental Duties – 42nd Amdt 1976, Swaran Singh Committee, 10 + 1 (86th, 2002) = 11
+PYQ-TREND: Committee recommending Fundamental Duties (Swaran Singh). Number of duties (11). 11th duty added by 86th Amendment. Article 51A.

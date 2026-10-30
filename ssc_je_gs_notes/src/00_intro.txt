@@ -1,0 +1,35 @@
+# How to Use These Notes & GA Blueprint
+
+## What Part-B (General Awareness) Tests
+In SSC JE Paper-I (CBT-1), General Awareness carries 50 questions of 1 mark each (−0.25 for a wrong answer in recent notifications; confirm in yours). Questions are short factual recalls: one line, one concept. SSC repeats the same concepts across years with the wording changed, so knowing a concept well covers several possible questions.
+| Area | Typical questions (out of 50) | Nature |
+| History (Ancient + Medieval + Modern) | 6–9 | Rulers, battles, movements, sessions of INC, Governors-General |
+| Art & Culture | 3–5 | Dances, festivals, musicians, temples, paintings |
+| Polity | 5–8 | Articles, schedules, amendments, bodies, Parliament |
+| Geography (India + World) | 5–8 | Rivers, passes, national parks, soils, latitudes, straits |
+| Economy | 3–5 | Banking, RBI, budget, taxes, five-year plans, schemes |
+| Physics | 3–5 | Units, laws, optics, sound, electricity |
+| Chemistry | 3–5 | Elements, compounds, acids, metals, common names |
+| Biology | 4–6 | Cells, vitamins, diseases, human body, plants |
+| Static GK (sports, books, awards, days, organisations) | 5–8 | Pure memory facts |
+| Current affairs & Science-Tech | 3–6 | Recent events (read monthly separately) |
+
+## How Each Chapter Is Built
+- Concept points in compact bullets, with tables for lists that SSC loves (rulers, dances, rivers, vitamins).
+- Yellow strips = key facts to memorise exactly (dates, numbers, names). They are collected again in Appendix A.
+- Blue PYQ-TREND boxes = concepts SSC has asked repeatedly in past papers. They are collected again in Appendix B. They describe what gets asked; they are not reproduced questions.
+- Green TOPPER TRICK boxes = memory tricks. Red COMMON MISTAKE boxes = traps where students lose marks.
+- No MCQs are included. Test yourself with the recall bank near the end instead.
+
+## 45-Day GA Plan (1–1.5 hours a day)
+| Days | Target |
+| 1–8 | History (Ancient, Medieval, Modern) |
+| 9–11 | Art & Culture |
+| 12–17 | Polity |
+| 18–23 | Geography (India + World) |
+| 24–26 | Economy |
+| 27–34 | General Science (Physics, Chemistry, Biology) |
+| 35–39 | Static GK + Science-Tech + Computers |
+| 40–45 | Recall bank, appendices, last-minute facts, plus current affairs of the last 6–8 months |
+TIP: GA is the fastest section in the exam: 50 questions can be finished in 10–12 minutes. The time you save goes to reasoning and the technical part. Attempt GA first, answer what you know, and don't stare at unknown questions.
+WARN: Static facts that change (office holders, latest award winners, record holders, rankings) must be checked against a current-affairs source. These notes deliberately focus on stable facts.

@@ -20,6 +20,7 @@ PYQ-TREND: Pump work is small due to low specific volume of water. Effect of sup
 | Pressure | Sub-critical (most boilers) | Supercritical (Benson – above 221.2 bar, no drum) |
 | Axis | Vertical: Cochran, simple vertical | Horizontal: Lancashire, Cornish, B&W |
 | Firing | Internally fired: Cochran, Lancashire, Locomotive | Externally fired: Babcock & Wilcox |
+
 | Boiler | Key fact |
 | Cochran | Vertical, multi-tubular, fire-tube, internally fired, small capacity |
 | Cornish | Single flue tube, horizontal, fire-tube |

@@ -1,0 +1,192 @@
+# Indian Geography
+
+## 7.1 India – Location and Size
+- Latitudes 8°4'N to 37°6'N; longitudes 68°7'E to 97°25'E. Tropic of Cancer (23.5°N) passes through 8 states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram.
+- Area 3.287 million km² – 7th largest country (2.4% of world area); population most populous in the world (overtook China in 2023, UN estimate). N–S extent ≈ 3,214 km; E–W ≈ 2,933 km. Land frontier ≈ 15,200 km; coastline ≈ 7,516.6 km (mainland ≈ 6,100 km).
+- Standard Meridian 82°30'E passes through Mirzapur (UP); IST = GMT + 5:30. Time difference between Arunachal and Gujarat ≈ 2 hours.
+- Southernmost point: Indira Point (Great Nicobar; earlier Pygmalion Point); mainland southernmost – Kanyakumari (Cape Comorin). Northernmost: Indira Col (Siachen). Easternmost: Kibithu (Arunachal). Westernmost: Guhar Moti (Gujarat).
+- Neighbours by length of border: Bangladesh (longest, ≈ 4,096 km), China, Pakistan, Nepal, Myanmar, Bhutan, Afghanistan (≈ 106 km, shortest). States touching Bangladesh: West Bengal (longest), Assam, Meghalaya, Tripura, Mizoram. States bordering Nepal: Uttarakhand, UP, Bihar, West Bengal, Sikkim. States bordering China: Ladakh (UT), HP, Uttarakhand, Sikkim, Arunachal.
+- Boundary lines: Radcliffe (India–Pakistan, India–Bangladesh), McMahon (India–China in the east, 1914 Simla), Durand (Pakistan–Afghanistan, 1893). Palk Strait separates India and Sri Lanka (Adam's Bridge/Ram Setu, Gulf of Mannar). Ten Degree Channel separates Andaman and Nicobar; Eight Degree Channel separates Minicoy and Maldives; Nine Degree Channel separates Lakshadweep (Kavaratti) and Minicoy.
+- Largest state by area: Rajasthan; smallest: Goa. Most populous: Uttar Pradesh. Largest UT: Ladakh. Smallest UT: Lakshadweep. Longest coastline state: Gujarat (≈ 1,600 km); Andhra Pradesh is second.
+F: Tropic of Cancer – 8 states | Standard meridian 82°30'E (Mirzapur) | Longest border – Bangladesh | Largest state – Rajasthan | Smallest – Goa | Longest coastline – Gujarat
+PYQ-TREND: States crossed by Tropic of Cancer. Standard meridian city. Neighbour with longest/shortest border. Ten Degree Channel. McMahon/Durand/Radcliffe lines. Southernmost point Indira Point. Palk Strait.
+
+## 7.2 Physiographic Divisions
+- The Himalayas: Trans-Himalaya (Karakoram, Ladakh, Zaskar); Greater Himalaya/Himadri (highest peaks, avg 6,000 m; Kangchenjunga 8,586 m – highest peak in India; K2/Godwin Austen 8,611 m in PoK claimed territory), Lesser Himalaya/Himachal (Pir Panjal, Dhauladhar, Mahabharat; hill stations Shimla, Mussoorie, Nainital, Darjeeling), Outer Himalaya/Shiwaliks (youngest; duns like Dehradun; Kosi-Teesta). Purvanchal (Patkai, Naga, Mizo/Lushai hills).
+- Important passes: Karakoram (Ladakh–China, highest motorable route region), Zoji La (Srinagar–Leh; Zojila tunnel), Banihal (Jawahar tunnel, Jammu–Srinagar), Khardung La (Ladakh; among the highest motorable passes), Rohtang (HP – Manali–Lahaul; Atal Tunnel 2020), Shipki La (HP–Tibet; Sutlej enters India), Lipulekh (Uttarakhand; Kailash Mansarovar route), Mana (Uttarakhand), Nathu La (Sikkim–Tibet; trade route reopened 2006), Jelep La (Sikkim–Tibet), Bomdi La (Arunachal), Diphu (Arunachal–Myanmar), Bara-lacha La (HP; Manali–Leh), Palakkad Gap (Kerala–TN, Western Ghats), Thal Ghat & Bhor Ghat (Western Ghats, Maharashtra).
+- Northern Plains: Bhabar (pebbles, streams disappear), Terai (marshy), Bhangar (old alluvium; kankar), Khadar (new alluvium; fertile, floodplains).
+- Peninsular Plateau: Central Highlands (Malwa, Bundelkhand, Chota Nagpur – 'mineral heartland'), Deccan Plateau. Aravallis – oldest fold mountains; Guru Shikhar (Mount Abu) highest. Vindhyas and Satpuras (Dhupgarh highest peak of Satpura in Pachmarhi). Western Ghats (Sahyadri – continuous; Anamudi 2,695 m – highest peak of South India, in Kerala; Doddabetta – Nilgiris), Eastern Ghats (discontinuous; Mahendragiri; Jindhagada/Arma Konda highest). Nilgiris – meeting point of Western and Eastern Ghats.
+- Indian Desert (Thar): mostly in Rajasthan; Luni the only significant river.
+- Coastal plains: West – Konkan (Mumbai–Goa), Kanara, Malabar (Kerala; backwaters/kayals, Vembanad lake). East – Northern Circars (Odisha–AP), Coromandel (TN). Chilika lake (Odisha – largest brackish lagoon in India), Pulicat (AP–TN), Kolleru (freshwater, AP).
+- Islands: Andaman & Nicobar (572 islands; Barren Island – only active volcano of India; Saddle Peak highest; capital Sri Vijaya Puram, earlier Port Blair) and Lakshadweep (coral; 36 islands; capital Kavaratti).
+F: Highest peak in India – Kangchenjunga | South India – Anamudi | Aravalli – oldest fold mountains (Guru Shikhar) | Barren Island – only active volcano | Chilika – largest brackish lagoon
+PYQ-TREND: Pass–state matching (Zoji La, Nathu La, Shipki La, Rohtang, Bomdi La, Lipulekh). Highest peaks (Kangchenjunga, Anamudi, Guru Shikhar, Dhupgarh). Bhabar/Terai/Bhangar/Khadar. Barren Island volcano. Chilika and Wular lakes. Nilgiris junction of Ghats.
+
+## 7.3 Drainage – Rivers
+| River | Origin | Key facts / tributaries |
+| Indus | Near Mansarovar (Bokhar Chu glacier, Tibet) | Enters India in Ladakh; Jhelum, Chenab, Ravi, Beas, Sutlej (Panjnad); Indus Waters Treaty 1960 (India uses Ravi, Beas, Sutlej fully) |
+| Jhelum | Verinag spring | Flows through Wular lake; Srinagar on its banks |
+| Chenab | Bara-lacha La (Chandra + Bhaga) | Largest Indus tributary in India; Chenab bridge (highest railway bridge) |
+| Ravi | Rohtang (Kullu) | Lahore on its banks |
+| Beas | Beas Kund near Rohtang | Joins Sutlej at Harike; Pong dam |
+| Sutlej | Rakas Tal (Tibet) | Enters via Shipki La; Bhakra Nangal dam (Gobind Sagar) |
+| Ganga | Gangotri glacier (Gaumukh) as Bhagirathi; joins Alaknanda at Devprayag | Longest river of India (≈ 2,525 km); national river (2008); Farakka barrage; enters Bangladesh as Padma |
+| Yamuna | Yamunotri glacier | Longest tributary of Ganga; joins at Prayagraj (Triveni Sangam); Chambal, Betwa, Ken, Sind tributaries |
+| Chambal | Janapao hills (MP, Vindhyas) | Badlands/ravines; Gandhi Sagar, Rana Pratap Sagar, Jawahar Sagar dams; gharial sanctuary |
+| Son | Amarkantak | Right-bank tributary of Ganga |
+| Gandak, Kosi, Ghaghara | Nepal Himalaya | Kosi – 'Sorrow of Bihar' |
+| Damodar | Chota Nagpur | 'Sorrow of Bengal'; Damodar Valley Corporation (1948, on TVA model) |
+| Brahmaputra | Chemayungdung glacier (Tibet) as Tsangpo | Enters Arunachal as Siang/Dihang; Majuli (largest river island); Bangladesh – Jamuna; Teesta, Subansiri, Manas tributaries |
+| Narmada | Amarkantak (MP) | West-flowing; rift valley; Dhuandhar falls (Jabalpur); Sardar Sarovar dam; forms estuary |
+| Tapi (Tapti) | Multai (Betul, MP) | West-flowing rift valley; Surat; Ukai dam |
+| Mahi, Sabarmati, Luni | – | West-flowing; Luni ends in Rann of Kutch |
+| Godavari | Trimbakeshwar (Nashik) | Longest peninsular river ('Dakshin Ganga', ≈ 1,465 km); Penganga, Wardha, Wainganga, Indravati, Manjira |
+| Krishna | Mahabaleshwar | Tungabhadra, Bhima, Koyna; Nagarjuna Sagar, Srisailam dams |
+| Kaveri (Cauvery) | Talakaveri (Brahmagiri, Kodagu) | 'Dakshin Ganga'; Shivasamudram falls; Krishnaraja Sagar, Mettur dams; Kabini, Hemavati |
+| Mahanadi | Sihawa (Chhattisgarh) | Hirakud dam (one of the longest dams); Odisha delta |
+| Periyar | Sivagiri hills | Longest river of Kerala; Idukki dam |
+| Sharavati | Western Ghats | Jog Falls (Gersoppa) – one of the highest plunge falls |
+- East-flowing peninsular rivers form deltas (Mahanadi, Godavari, Krishna, Kaveri); west-flowing (Narmada, Tapi) form estuaries.
+- Waterfalls: Kunchikal (Karnataka, highest), Jog (Sharavati), Dudhsagar (Mandovi, Goa), Athirappilly (Kerala), Chitrakote ('Niagara of India', Indravati, Chhattisgarh), Hundru (Subarnarekha, Ranchi), Nohkalikai (Meghalaya), Shivasamudram (Kaveri).
+- Lakes: Wular (largest freshwater, J&K), Dal (Srinagar), Loktak (Manipur – phumdis, Keibul Lamjao floating national park), Sambhar (largest inland saline, Rajasthan), Pangong Tso (Ladakh), Vembanad (longest lake, Kerala), Chilika (brackish), Kolleru (AP), Hussain Sagar (Hyderabad), Lonar (crater lake, Maharashtra).
+| Dam | River | State |
+| Tehri (highest dam in India) | Bhagirathi | Uttarakhand |
+| Bhakra Nangal (gravity) | Sutlej | Himachal Pradesh–Punjab |
+| Hirakud | Mahanadi | Odisha |
+| Sardar Sarovar | Narmada | Gujarat |
+| Nagarjuna Sagar | Krishna | Telangana–AP |
+| Mettur | Kaveri | Tamil Nadu |
+| Krishnaraja Sagar | Kaveri | Karnataka |
+| Idukki (arch) | Periyar | Kerala |
+| Indira Sagar | Narmada | MP |
+| Koyna | Koyna | Maharashtra |
+| Rihand (Govind Ballabh Pant Sagar) | Rihand | UP |
+| Tungabhadra | Tungabhadra | Karnataka |
+| Ukai | Tapi | Gujarat |
+| Gandhi Sagar | Chambal | MP |
+| Salal | Chenab | J&K |
+| Farakka barrage | Ganga | West Bengal |
+F: Longest river – Ganga | Longest peninsular – Godavari | Highest dam – Tehri | Largest freshwater lake – Wular | Largest saline lake – Sambhar | Largest river island – Majuli
+PYQ-TREND: River origins (Narmada & Son – Amarkantak; Godavari – Trimbakeshwar; Kaveri – Talakaveri; Krishna – Mahabaleshwar). West-flowing rivers through rift valleys (Narmada, Tapi). 'Sorrow of Bihar' (Kosi) and 'Sorrow of Bengal' (Damodar). Dam–river matching (Hirakud, Tehri, Bhakra, Sardar Sarovar). Majuli. Waterfalls (Jog, Chitrakote, Dudhsagar). Loktak floating park. Indus Waters Treaty year.
+
+## 7.4 Climate
+- Tropical monsoon climate. Seasons (IMD): winter (Dec–Feb), summer (Mar–May), south-west monsoon (Jun–Sep), retreating/north-east monsoon (Oct–Nov).
+- South-west monsoon onset over Kerala ≈ 1 June; covers India by ≈ 8 July (earlier 15 July). Two branches: Arabian Sea branch and Bay of Bengal branch.
+- Mawsynram (Meghalaya) – highest average rainfall in the world (Cherrapunji/Sohra nearby). Least rainfall – Leh, Jaisalmer region.
+- Western disturbances bring winter rain to north-west India (good for rabi wheat). Tamil Nadu (Coromandel) gets most rain in winter from the north-east (retreating) monsoon.
+- Local winds: Loo (hot dry, north India, summer), Mango showers (Kerala & Karnataka – pre-monsoon, help mango ripening), Cherry blossoms/Coffee showers (Karnataka), Nor'westers / Kalbaisakhi (Bengal–Assam; 'tea showers' in Assam), Bardoli Chheerha (Assam).
+- El Niño weakens the Indian monsoon; La Niña strengthens it. Indian Ocean Dipole (IOD) positive phase helps the monsoon.
+F: Monsoon onset Kerala ~1 June | Highest rainfall – Mawsynram | Kalbaisakhi – Bengal | Mango showers – Kerala/Karnataka | NE monsoon – Tamil Nadu winter rain
+PYQ-TREND: Local winds (Loo, Mango showers, Kalbaisakhi). Mawsynram highest rainfall. Tamil Nadu's winter rainfall from NE monsoon. Western disturbances and rabi crops. El Niño effect.
+
+## 7.5 Soils and Natural Vegetation
+| Soil | Region | Features |
+| Alluvial | Northern plains, deltas | Most widespread (≈ 43%); rich in potash, poor in nitrogen; khadar & bhangar |
+| Black (regur) | Deccan trap – Maharashtra, Gujarat, MP | Best for cotton; high moisture retention; rich in iron, lime, magnesia; self-ploughing (cracks) |
+| Red & yellow | Eastern & southern Deccan, Odisha, Chhattisgarh | Red due to iron oxide (ferric); yellow when hydrated |
+| Laterite | High rainfall: Western Ghats, Kerala, Karnataka, Odisha hills | Leaching; good for tea, coffee, cashew; used as bricks |
+| Arid (desert) | Rajasthan | Sandy, saline; low humus |
+| Saline & alkaline (usar, reh, kallar) | Dry areas, Punjab–Haryana–UP | Treated with gypsum |
+| Peaty / marshy | Kerala (Kuttanad), Sundarbans | High organic matter |
+| Forest / mountain | Himalayas | Acidic at heights |
+- ICAR classified 8 major soil groups. Soil erosion control: contour ploughing, terrace farming, shelter belts, strip cropping.
+- Forest cover (India State of Forest Report 2021): forest cover ≈ 21.7% of geographical area; forest + tree cover ≈ 24.6%. Largest forest cover by area – Madhya Pradesh; by percentage – Mizoram.
+- Forest types: tropical evergreen (Western Ghats, NE; >200 cm rain; ebony, mahogany, rosewood), tropical deciduous/monsoon (most widespread; teak, sal, sandalwood), thorn (Rajasthan; babul, khejri), montane, mangrove/tidal (Sundarbans – sundari tree; largest mangrove forest; Bhitarkanika in Odisha).
+F: Black soil – cotton | Laterite – leaching, tea/coffee/cashew | Alluvial – most widespread | Largest forest area – MP | Highest % forest – Mizoram
+PYQ-TREND: Black soil and cotton (regur). Laterite soil formed by leaching. Red colour due to iron oxide. Gypsum for alkaline soil. Sundarbans mangroves and sundari tree. State with largest forest cover (MP).
+
+## 7.6 National Parks, Tiger Reserves, Biosphere Reserves
+| Park / sanctuary | State | Famous for |
+| Jim Corbett (1936, first NP as Hailey NP) | Uttarakhand | Tigers; Project Tiger launched here (1973) |
+| Kaziranga | Assam | One-horned rhinoceros (UNESCO) |
+| Gir | Gujarat | Only home of Asiatic lions |
+| Kanha | Madhya Pradesh | Barasingha (hard-ground swamp deer); Jungle Book inspiration |
+| Bandhavgarh | MP | Highest tiger density; white tigers |
+| Sundarbans | West Bengal | Royal Bengal tigers, mangroves |
+| Periyar | Kerala | Elephants, tigers |
+| Silent Valley | Kerala | Lion-tailed macaque; tropical evergreen |
+| Eravikulam | Kerala | Nilgiri tahr; Neelakurinji blooms every 12 years |
+| Keoladeo Ghana (Bharatpur) | Rajasthan | Birds; Siberian crane (UNESCO) |
+| Ranthambore | Rajasthan | Tigers |
+| Sariska | Rajasthan | Tigers (relocated) |
+| Dachigam | J&K | Hangul (Kashmir stag) |
+| Hemis | Ladakh | Snow leopard (largest NP of India) |
+| Great Himalayan | HP | UNESCO |
+| Valley of Flowers & Nanda Devi | Uttarakhand | UNESCO |
+| Manas | Assam | Pygmy hog, golden langur; UNESCO |
+| Keibul Lamjao | Manipur | Floating park; Sangai deer |
+| Namdapha | Arunachal | Four big cats (tiger, leopard, snow leopard, clouded leopard) |
+| Kuno | Madhya Pradesh | Cheetahs reintroduced from Namibia (17 Sept 2022) and South Africa |
+| Bandipur & Nagarhole | Karnataka | Tigers, elephants |
+| Dudhwa | UP | Swamp deer, rhino |
+| Simlipal | Odisha | Melanistic tigers |
+| Bhitarkanika | Odisha | Saltwater crocodiles, mangroves |
+| Gahirmatha | Odisha | Olive Ridley turtles (marine sanctuary) |
+| Rann of Kutch (Wild Ass Sanctuary) | Gujarat | Indian wild ass (ghudkhur) |
+| Desert NP | Rajasthan | Great Indian Bustard |
+| Mudumalai | Tamil Nadu | Elephants, tigers |
+| Pench | MP–Maharashtra | Tigers |
+| Tadoba-Andhari | Maharashtra | Tigers |
+| Nagarjunsagar-Srisailam | AP–Telangana | Largest tiger reserve |
+- Project Tiger 1973 (Jim Corbett first), Project Elephant 1992, Project Crocodile 1975, Project Cheetah 2022. NTCA (National Tiger Conservation Authority) 2006. India has over 55 tiger reserves.
+- Biosphere reserves: 18 in India; first – Nilgiri (1986). Largest – Gulf of Kachchh/Rann of Kutch area; 12 are in UNESCO's MAB network (Nilgiri first, 2000). Others: Nanda Devi, Gulf of Mannar, Sundarbans, Nokrek, Pachmarhi, Simlipal, Achanakmar-Amarkantak, Great Nicobar, Agasthyamala, Khangchendzonga, Panna.
+- Ramsar sites: India has 80+ (as of 2024); first – Chilika and Keoladeo (1981). Tamil Nadu has the most. Ramsar Convention 1971 (Iran); World Wetlands Day 2 February.
+F: First NP – Jim Corbett | Rhino – Kaziranga | Asiatic lion – Gir | Hangul – Dachigam | Sangai – Keibul Lamjao | Cheetah – Kuno | First biosphere reserve – Nilgiri | First Ramsar – Chilika & Keoladeo
+PYQ-TREND: National park–state–animal matching (very frequent): Kaziranga, Gir, Dachigam, Keibul Lamjao, Silent Valley, Eravikulam, Hemis, Kuno. Project Tiger year and first reserve. Ramsar first sites. First biosphere reserve Nilgiri. Largest tiger reserve.
+WARN: Ramsar sites and tiger reserves increase almost every year. Revise the latest count from current affairs.
+
+## 7.7 Agriculture
+- Crop seasons: Kharif (sown June–July with monsoon, harvested Sept–Oct; rice, maize, jowar, bajra, cotton, groundnut, soybean, jute, sugarcane), Rabi (sown Oct–Dec, harvested Mar–Apr; wheat, barley, gram, mustard, peas), Zaid (summer; watermelon, cucumber, muskmelon, fodder).
+| Crop | Leading state(s) |
+| Rice | West Bengal (largest producer), UP, Punjab |
+| Wheat | Uttar Pradesh, MP, Punjab |
+| Sugarcane | Uttar Pradesh, Maharashtra |
+| Cotton | Gujarat, Maharashtra |
+| Jute | West Bengal ('golden fibre') |
+| Tea | Assam, West Bengal (Darjeeling) |
+| Coffee | Karnataka (≈ 70%), Kerala |
+| Rubber | Kerala |
+| Spices | Kerala ('spice garden of India'); cardamom – Kerala; saffron – J&K (Pampore) |
+| Coconut | Kerala, Karnataka, Tamil Nadu |
+| Tobacco | Gujarat, Andhra Pradesh |
+| Groundnut | Gujarat |
+| Soybean | Madhya Pradesh ('soya state'), Maharashtra |
+| Pulses | Madhya Pradesh, Rajasthan |
+| Millets (bajra) | Rajasthan |
+| Mustard | Rajasthan |
+| Maize | Karnataka, MP |
+- Revolutions: Green (food grains; M.S. Swaminathan, Norman Borlaug – HYV seeds), White (milk; Verghese Kurien – Operation Flood 1970, Amul, NDDB), Blue (fish), Yellow (oilseeds; Sam Pitroda), Golden (horticulture/honey), Silver (eggs/poultry), Pink (onion, pharma, prawns), Red (meat/tomato), Grey (fertilisers), Brown (leather/cocoa), Round (potato), Black (petroleum).
+- India: largest producer of milk, pulses, jute; second in rice, wheat, sugarcane, fruits and vegetables, cotton (top two). International Year of Millets – 2023 (India's proposal).
+F: Kharif – monsoon (rice, cotton) | Rabi – winter (wheat, mustard) | White revolution – Verghese Kurien | Green – Swaminathan | Coffee – Karnataka | Rubber – Kerala | Jute – West Bengal
+PYQ-TREND: Kharif vs rabi crop identification. Leading producer states (coffee, rubber, jute, tea, sugarcane). Revolutions and their products/fathers. Operation Flood. International Year of Millets 2023.
+
+## 7.8 Minerals, Energy and Industries
+| Mineral | Leading area / mine |
+| Iron ore | Odisha (largest producer), Chhattisgarh (Bailadila), Jharkhand (Noamundi), Karnataka (Kudremukh) |
+| Coal | Jharkhand (Jharia – largest coking coal), Odisha (Talcher), Chhattisgarh (Korba), West Bengal (Raniganj – first coal mine 1774); Neyveli (lignite, TN) |
+| Petroleum | Mumbai High (offshore, largest), Digboi (Assam – oldest refinery, 1901), Ankleshwar (Gujarat) |
+| Manganese | Odisha, MP, Maharashtra |
+| Mica | Jharkhand (Koderma), Andhra (Nellore), Rajasthan |
+| Bauxite | Odisha (Panchpatmali – NALCO) |
+| Copper | Rajasthan (Khetri), Jharkhand (Singhbhum), MP (Malanjkhand) |
+| Gold | Karnataka (Kolar – closed 2001; Hutti active) |
+| Zinc & lead | Rajasthan (Zawar) |
+| Uranium | Jharkhand (Jaduguda), Andhra (Tummalapalle) |
+| Thorium (monazite) | Kerala beach sands |
+| Diamond | Madhya Pradesh (Panna) |
+| Limestone | MP, Rajasthan |
+- Iron & steel plants: TISCO Jamshedpur (1907, Tata; Subarnarekha–Kharkai), Bhilai (Chhattisgarh – USSR help), Rourkela (Odisha – West Germany), Durgapur (West Bengal – UK), Bokaro (Jharkhand – USSR), Visakhapatnam (first shore-based integrated plant), Salem, Bhadravati (Vishvesvaraya Iron & Steel).
+- Industrial cities: Kanpur ('Manchester of UP'), Ahmedabad ('Manchester of India'), Mumbai (Cottonopolis), Coimbatore ('Manchester of South India'), Bengaluru (Silicon Valley), Ludhiana (hosiery), Firozabad (glass/bangles), Moradabad (brass), Jalandhar (sports goods), Panipat (handloom, 'city of weavers'), Surat (diamond cutting & textiles), Sivakasi (fireworks, matches).
+- Nuclear power plants: Tarapur (Maharashtra, first, 1969), Rawatbhata (Rajasthan), Kalpakkam (TN), Narora (UP), Kakrapar (Gujarat), Kaiga (Karnataka), Kudankulam (TN, Russia's help; largest). Bhabha Atomic Research Centre (Trombay).
+- Renewable: Bhadla Solar Park (Rajasthan, among the world's largest), Pavagada (Karnataka), Muppandal wind farm (TN). Largest wind power state – Gujarat / Tamil Nadu (close).
+F: Oldest refinery – Digboi | Largest coking coal – Jharia | First nuclear plant – Tarapur | Jaduguda – uranium | Panna – diamonds | TISCO 1907
+PYQ-TREND: Mineral–location matching (Jharia, Kolar, Khetri, Jaduguda, Panna, Mumbai High, Digboi). Steel plants and foreign collaboration (Bhilai–USSR, Rourkela–Germany, Durgapur–UK). Nuclear plants. Industrial city nicknames.
+
+## 7.9 Transport and Communication
+- Railways: first train Bombay (Bori Bunder) – Thane, 16 April 1853 (34 km). 17 zones (+ South Coast Railway announced) – largest zone by route length Northern Railway; headquarters: Northern – New Delhi; Central – Mumbai CST; Western – Churchgate; Eastern – Kolkata; Southern – Chennai; East Central – Hajipur; North Eastern – Gorakhpur; Northeast Frontier – Maligaon (Guwahati); South Central – Secunderabad; South Western – Hubballi; East Coast – Bhubaneswar; North Western – Jaipur; West Central – Jabalpur; North Central – Prayagraj; South East Central – Bilaspur; South Eastern – Kolkata (Garden Reach); Metro Railway Kolkata – Kolkata.
+- Longest railway platform: Hubballi (Karnataka, ~1.5 km), then Gorakhpur. Konkan Railway (Roha–Thokur). Vande Bharat (first 2019, Delhi–Varanasi). Dedicated freight corridors. First metro: Kolkata (1984).
+- Roads: NH-44 longest national highway (Srinagar–Kanyakumari, ≈ 4,112 km; old NH-7). Golden Quadrilateral (Delhi–Mumbai–Chennai–Kolkata), North-South (Srinagar–Kanyakumari) and East-West (Silchar–Porbandar) corridors. Bharatmala. Atal Tunnel (Rohtang, 9.02 km – longest highway tunnel above 10,000 ft).
+- Ports: Kandla/Deendayal (Gujarat – tidal port, largest by cargo among major ports), Mumbai (natural harbour), JNPT/Jawaharlal Nehru (Nhava Sheva – largest container port), Mormugao (Goa – iron ore), New Mangalore, Kochi (natural harbour), Tuticorin/V.O. Chidambaranar, Chennai (oldest artificial harbour), Ennore/Kamarajar (first corporate port), Visakhapatnam (deepest landlocked natural harbour), Paradip (Odisha), Kolkata–Haldia (riverine port). Vadhavan (Maharashtra) under construction.
+- Inland waterways: NW-1 Ganga (Prayagraj–Haldia, longest), NW-2 Brahmaputra (Sadiya–Dhubri), NW-3 West Coast Canal (Kerala). 111 national waterways declared (2016 Act).
+F: First train 16 Apr 1853 | NH-44 longest | NW-1 Ganga | JNPT – largest container port | Kandla – tidal | Visakhapatnam – deepest landlocked harbour
+PYQ-TREND: First train date and route. Railway zone headquarters. Longest NH. Port characteristics (Kandla tidal, Visakhapatnam deepest, Kolkata riverine, Mormugao iron ore). National waterways. Atal tunnel.

@@ -1,0 +1,119 @@
+# Last-Minute Revision: Tables & Traps
+
+## 17.1 State-Wise Quick Map (Capital • Dance • Festival • Park)
+| State | Capital | Folk dance | Festival | Famous park / site |
+| Andhra Pradesh | Amaravati | Kuchipudi (classical), Burrakatha | Ugadi | Papikonda NP; Tirupati |
+| Arunachal Pradesh | Itanagar | Bardo Chham | Losar, Solung | Namdapha NP |
+| Assam | Dispur | Bihu, Sattriya (classical) | Bihu | Kaziranga, Manas |
+| Bihar | Patna | Jat-Jatin, Bidesia | Chhath | Valmiki NP; Bodh Gaya, Nalanda |
+| Chhattisgarh | Raipur (Nava Raipur) | Panthi, Raut Nacha | Bastar Dussehra | Indravati NP; Chitrakote falls |
+| Goa | Panaji | Dekhni, Fugdi | Carnival, Shigmo | Bhagwan Mahavir WLS; Dudhsagar |
+| Gujarat | Gandhinagar | Garba, Dandiya | Navratri, Uttarayan | Gir; Rani ki Vav; Statue of Unity |
+| Haryana | Chandigarh | Phag, Saang | Lohri, Teej | Sultanpur NP; Rakhigarhi |
+| Himachal Pradesh | Shimla (winter – Dharamshala) | Nati | Kullu Dussehra | Great Himalayan NP |
+| Jharkhand | Ranchi | Chhau, Karma | Sarhul | Betla NP; Hundru falls |
+| Karnataka | Bengaluru | Yakshagana | Mysuru Dasara | Bandipur, Nagarhole; Hampi |
+| Kerala | Thiruvananthapuram | Kathakali, Mohiniyattam, Theyyam | Onam | Periyar, Silent Valley, Eravikulam |
+| Madhya Pradesh | Bhopal | Matki, Tertali | Khajuraho Dance Festival | Kanha, Bandhavgarh, Kuno; Sanchi |
+| Maharashtra | Mumbai (winter – Nagpur) | Lavani, Tamasha | Ganesh Chaturthi, Gudi Padwa | Tadoba; Ajanta, Ellora |
+| Manipur | Imphal | Manipuri (classical), Thang-Ta | Sangai, Lai Haraoba | Keibul Lamjao |
+| Meghalaya | Shillong | Shad Suk Mynsiem, Wangala | Wangala | Nokrek; Mawsynram |
+| Mizoram | Aizawl | Cheraw | Chapchar Kut | Dampa Tiger Reserve |
+| Nagaland | Kohima | Chang Lo, Zeliang | Hornbill | Intanki NP |
+| Odisha | Bhubaneswar | Odissi (classical), Chhau | Rath Yatra, Nuakhai | Simlipal, Bhitarkanika; Konark |
+| Punjab | Chandigarh | Bhangra, Giddha | Baisakhi, Lohri | Harike wetland; Golden Temple |
+| Rajasthan | Jaipur | Ghoomar, Kalbelia | Pushkar Fair, Teej | Ranthambore, Keoladeo, Sariska |
+| Sikkim | Gangtok | Singhi Chham | Losar, Saga Dawa | Khangchendzonga NP |
+| Tamil Nadu | Chennai | Bharatanatyam (classical), Kummi | Pongal | Mudumalai; Mahabalipuram |
+| Telangana | Hyderabad | Perini | Bathukamma, Bonalu | Ramappa temple |
+| Tripura | Agartala | Hojagiri | Kharchi Puja | Clouded Leopard NP |
+| Uttar Pradesh | Lucknow | Kathak (classical), Nautanki | Kumbh (Prayagraj) | Dudhwa; Taj Mahal |
+| Uttarakhand | Dehradun (summer – Gairsain) | Chholiya | Kumbh (Haridwar) | Jim Corbett, Valley of Flowers |
+| West Bengal | Kolkata | Gambhira, Baul (music) | Durga Puja | Sundarbans; Santiniketan |
+
+| UT | Capital / note |
+| Andaman & Nicobar | Sri Vijaya Puram (Port Blair) |
+| Chandigarh | Shared capital of Punjab & Haryana |
+| Dadra & Nagar Haveli and Daman & Diu | Daman |
+| Delhi (NCT) | New Delhi |
+| Jammu & Kashmir | Srinagar (summer), Jammu (winter) |
+| Ladakh | Leh (also Kargil) |
+| Lakshadweep | Kavaratti |
+| Puducherry | Puducherry |
+PYQ-TREND: State-linked dance/festival/park questions combine these columns. Capitals with two seats (HP, Maharashtra, Uttarakhand, J&K). Andhra Pradesh capital Amaravati.
+
+## 17.2 Commonly Confused Pairs
+| A | B |
+| Kalinga war – Ashoka (Rock Edict XIII) | Kalinga's Kharavela – Hathigumpha inscription |
+| Fa-Hien – Chandragupta II | Hiuen Tsang – Harsha |
+| Al-Biruni – Mahmud of Ghazni | Ibn Battuta – Muhammad bin Tughlaq |
+| Panipat I 1526 | Panipat II 1556 |
+| Plassey 1757 – Siraj | Buxar 1764 – Mir Qasim + Shuja + Shah Alam |
+| Ryotwari – Munro | Mahalwari – Holt Mackenzie |
+| First GG of Bengal – Warren Hastings | First GG of India – William Bentinck |
+| Brahmo Samaj – Ram Mohan Roy | Prarthana Samaj – Atmaram Pandurang |
+| Surat split – 1907 | Lucknow Pact – 1916 |
+| Habeas Corpus – illegal detention | Quo Warranto – illegal office holding |
+| Article 352 – national emergency | Article 356 – President's Rule |
+| 73rd – Panchayats (29 subjects) | 74th – Municipalities (18 subjects) |
+| Speaker – certifies money bill | Chairman RS – Vice-President |
+| Repo – RBI lends | Reverse repo – RBI borrows |
+| CRR – kept with RBI | SLR – kept by banks themselves |
+| Direct tax – income tax | Indirect tax – GST |
+| Kharif – rice, cotton | Rabi – wheat, mustard |
+| Wular – largest freshwater lake | Sambhar – largest saline lake |
+| Kosi – Sorrow of Bihar | Damodar – Sorrow of Bengal |
+| Convex mirror – vehicles | Concave mirror – shaving/dentist |
+| Myopia – concave lens | Hypermetropia – convex lens |
+| Fission – reactors, atom bomb | Fusion – Sun, hydrogen bomb |
+| Baking soda – NaHCO₃ | Washing soda – Na₂CO₃·10H₂O |
+| POP – CaSO₄·½H₂O | Gypsum – CaSO₄·2H₂O |
+| Brass – Cu + Zn | Bronze – Cu + Sn |
+| Malaria – Anopheles | Dengue – Aedes; Filaria – Culex |
+| Vitamin A – night blindness | Vitamin D – rickets |
+| Insulin – lowers sugar (β cells) | Glucagon – raises sugar (α cells) |
+| RAM – volatile | ROM – non-volatile |
+| Virus – needs host program | Worm – self-replicating over network |
+| SMTP – sending mail | POP3 – receiving mail |
+| Thomas Cup – men's badminton | Uber Cup – women's badminton |
+| Davis Cup – men's tennis | Billie Jean King Cup – women's tennis |
+| Ramon Magsaysay – Asia's Nobel | Jnanpith – Indian literature |
+| WHO – Geneva | UNESCO – Paris; UNEP – Nairobi |
+
+## 17.3 Numbers to Remember
+| Fact | Number |
+| States / UTs | 28 / 8 |
+| Scheduled languages | 22 |
+| Classical languages | 11 (after Oct 2024) |
+| Classical dances (SNA) | 8 |
+| Fundamental Duties | 11 |
+| Fundamental Rights (categories) | 6 |
+| Schedules of the Constitution | 12 |
+| Lok Sabha elected seats | 543 |
+| Rajya Sabha max / nominated | 250 / 12 |
+| Supreme Court judges (max) | 34 |
+| High Courts | 25 |
+| UN members | 193 |
+| UNESCO sites in India | 43 (2024) |
+| Bones in adult human | 206 |
+| Human chromosomes | 46 |
+| Teeth (adult / milk) | 32 / 20 |
+| Ashoka Chakra spokes | 24 |
+| Flag ratio | 3:2 |
+| Anthem duration | 52 seconds |
+| Olympic hockey golds | 8 |
+| Players: kabaddi / kho-kho / polo / volleyball | 7 / 9 / 4 / 6 |
+| Speed of light | 3 × 10⁸ m/s |
+| Speed of sound in air | ≈ 343 m/s |
+| Escape velocity | 11.2 km/s |
+| Normal BP / heartbeat | 120/80 mm Hg / 72 per min |
+| RBC lifespan | 120 days |
+| Census 2011 sex ratio / literacy | 943 / 74.04% |
+
+## 17.4 Exam-Day Strategy for GA
+- Do GA first; spend at most 10–12 minutes. Answer what you know immediately; mark doubtful questions and come back only if time remains.
+- Eliminate options. If two options remain and you know the concept area, a guess is reasonable; if you have no idea, skip (negative marking).
+- Watch for word traps: 'first' vs 'last', 'largest' vs 'longest', 'founded' vs 'built', 'Governor-General of Bengal' vs 'of India', 'oldest' vs 'first'.
+- Read current affairs of the last 6–8 months separately: awards, sports winners, appointments, summits, schemes, space missions, indices and rankings.
+TIP: Revise this book with the "three-pass" method: pass 1 – full chapters; pass 2 – only yellow strips and blue boxes (Appendices A & B); pass 3 – the recall bank and this chapter on the last two days.
+WARN: Do not learn shaky "facts" from unverified social-media PDFs in the last week. If two sources disagree, prefer NCERT, official government websites and the Constitution's text.

@@ -1,0 +1,160 @@
+# General Science – Biology
+
+## 12.1 Cell – The Unit of Life
+- Cell discovered by Robert Hooke (1665, cork – dead cells; book Micrographia). Living cells first seen by Anton van Leeuwenhoek (father of microbiology). Nucleus discovered by Robert Brown (1831). Cell theory: Schleiden (plants) & Schwann (animals), 1838–39; Rudolf Virchow – 'omnis cellula e cellula' (cells arise from pre-existing cells).
+- Prokaryotes (no true nucleus/membrane-bound organelles; bacteria, cyanobacteria) vs eukaryotes (true nucleus). Largest cell: ostrich egg; smallest: Mycoplasma (PPLO); longest human cell: neuron; largest human cell: ovum; smallest human cell: sperm (by volume); RBCs lack nuclei in mammals.
+| Organelle | Function / fact |
+| Cell membrane (plasma membrane) | Selectively permeable; fluid mosaic model (Singer & Nicolson) |
+| Cell wall | Plants (cellulose), fungi (chitin), bacteria (peptidoglycan); absent in animal cells |
+| Nucleus | Control centre; contains DNA/chromosomes; nucleolus makes ribosomes |
+| Mitochondria | 'Powerhouse of the cell'; ATP via aerobic respiration; own DNA & ribosomes (semi-autonomous); maternal inheritance |
+| Chloroplast | Photosynthesis; chlorophyll (Mg at centre); own DNA; only in plants & algae |
+| Ribosome | Protein synthesis; non-membranous; 70S (prokaryotes) / 80S (eukaryotes) |
+| Endoplasmic reticulum | Rough (protein synthesis, with ribosomes), smooth (lipid synthesis, detoxification) |
+| Golgi apparatus | Packaging & secretion ('post office'); forms lysosomes, acrosome of sperm; Camillo Golgi |
+| Lysosome | 'Suicide bags' – digestive enzymes (Christian de Duve) |
+| Vacuole | Storage; large central vacuole in plant cells (tonoplast) |
+| Centrosome | Cell division (spindle) in animal cells |
+| Plastids | Chloroplast (green), chromoplast (colour – tomato, carrot), leucoplast (storage – starch) |
+- Cell division: mitosis (somatic cells; two identical diploid daughter cells; growth & repair) and meiosis (germ cells; four haploid gametes; reduction division; crossing over → variation).
+- DNA: double helix (Watson & Crick, 1953, with Rosalind Franklin's X-ray data); bases A–T, G–C; sugar deoxyribose. RNA: single strand, uracil instead of thymine, ribose sugar. Gene – unit of heredity (term by Johannsen). Human chromosomes: 46 (23 pairs; 22 autosomes + XX/XY).
+F: Cell – Robert Hooke 1665 | Nucleus – Robert Brown | Powerhouse – mitochondria | Suicide bag – lysosome | Protein factory – ribosome | DNA double helix – Watson & Crick 1953 | 46 chromosomes
+PYQ-TREND: Discoverer of cell and nucleus. Powerhouse (mitochondria), suicide bags (lysosomes), protein synthesis (ribosomes). Organelles with own DNA. Cell wall material. Mitosis vs meiosis. Watson & Crick. Number of human chromosomes. Largest/longest human cell.
+
+## 12.2 Classification of Living Beings
+- Carl Linnaeus – father of taxonomy; binomial nomenclature (genus + species, e.g., Homo sapiens, Panthera tigris, Mangifera indica). Hierarchy: Kingdom → Phylum/Division → Class → Order → Family → Genus → Species.
+- Whittaker's five kingdoms (1969): Monera (bacteria, cyanobacteria – prokaryotes), Protista (unicellular eukaryotes – Amoeba, Paramecium, Euglena, Plasmodium), Fungi (heterotrophs; chitin walls; yeast, mushroom, Penicillium), Plantae, Animalia. (Carl Woese's three domains: Bacteria, Archaea, Eukarya.)
+- Viruses: acellular, crystallisable, living only inside host cells (link between living and non-living); DNA or RNA; first discovered – Tobacco Mosaic Virus (Ivanovsky 1892; named by Beijerinck). Viroids (RNA only), prions (proteins – mad cow disease).
+- Plant kingdom: thallophyta (algae), bryophyta ('amphibians of the plant kingdom' – mosses, liverworts), pteridophyta (ferns – first vascular plants), gymnosperms (naked seeds – pine, cycas, deodar; Sequoia – tallest tree), angiosperms (flowering; seeds in fruits; monocots – one cotyledon, parallel veins, fibrous roots – rice, wheat, maize, banana, coconut, grasses; dicots – two cotyledons, reticulate veins, tap roots – pea, mango, neem).
+- Animal kingdom: Porifera (sponges, pores), Coelenterata/Cnidaria (Hydra, jellyfish, corals), Platyhelminthes (flatworms – tapeworm, liver fluke), Nematoda (roundworms – Ascaris, filarial worm), Annelida (segmented – earthworm, leech; earthworm 'farmer's friend'), Arthropoda (largest phylum – insects, spiders, crabs, prawns; jointed legs; open circulation), Mollusca (snail, octopus, Pila; octopus/squid – 'devil fish'), Echinodermata (starfish, sea urchin – all marine; water vascular system), Chordata (notochord).
+- Vertebrate classes: Pisces (gills; 2-chambered heart; cold-blooded), Amphibia (frog, toad, salamander; 3-chambered heart; live on land and water), Reptilia (lizards, snakes, crocodiles – 4-chambered heart in crocodiles; cold-blooded), Aves (birds; warm-blooded; hollow bones; 4-chambered heart), Mammalia (mammary glands, hair, external ears; 4-chambered heart; warm-blooded; egg-laying mammals – platypus, echidna).
+- Odd facts: whale, dolphin, bat are mammals; seahorse, shark are fish; starfish, jellyfish, silverfish, cuttlefish are not fish; penguins are birds; kiwi, ostrich, emu – flightless birds; ostrich lays the largest egg; hummingbird – smallest bird; blue whale – largest animal.
+F: Father of taxonomy – Linnaeus | Five kingdoms – Whittaker 1969 | TMV – first virus | Largest phylum – Arthropoda | Bryophytes – amphibians of plant kingdom | Platypus – egg-laying mammal
+PYQ-TREND: Binomial nomenclature and Linnaeus. Five-kingdom classification. Scientific names of common organisms (Homo sapiens, Panthera leo/tigris, Mangifera indica, Oryza sativa, Triticum aestivum, Azadirachta indica – neem, Ficus benghalensis – banyan). Viruses as a link. Animals wrongly called fish. Heart chambers by class. Bryophytes/pteridophytes characteristics.
+
+## 12.3 Human Nutrition – Food and Vitamins
+- Nutrients: carbohydrates (main energy source; 4 kcal/g), proteins (body building; 4 kcal/g; amino acids – 20 types, 9 essential), fats (concentrated energy; 9 kcal/g), vitamins, minerals, water, roughage (fibre – prevents constipation).
+| Vitamin | Chemical name | Deficiency disease | Sources |
+| A (fat-soluble) | Retinol | Night blindness, xerophthalmia | Carrot, milk, liver, fish oil, mango, papaya |
+| D (fat-soluble) | Calciferol | Rickets (children), osteomalacia (adults) | Sunlight (skin), fish oil, egg yolk |
+| E (fat-soluble) | Tocopherol | Infertility/reproductive issues ('anti-sterility vitamin') | Vegetable oils, nuts, green leaves |
+| K (fat-soluble) | Phylloquinone | Delayed blood clotting, haemorrhage | Green leafy vegetables; made by gut bacteria |
+| B1 | Thiamine | Beriberi | Whole grains, yeast, pulses |
+| B2 | Riboflavin | Ariboflavinosis – cracked lips/tongue (cheilosis) | Milk, eggs, green vegetables |
+| B3 | Niacin (nicotinic acid) | Pellagra (3 Ds – dermatitis, diarrhoea, dementia) | Meat, groundnut, cereals |
+| B5 | Pantothenic acid | Burning feet syndrome | Widespread |
+| B6 | Pyridoxine | Anaemia, convulsions | Cereals, meat |
+| B7 | Biotin (vitamin H) | Dermatitis, hair loss | Egg yolk, liver |
+| B9 | Folic acid | Megaloblastic anaemia, neural tube defects | Leafy vegetables |
+| B12 | Cobalamin (contains cobalt) | Pernicious anaemia | Animal products only (meat, milk, egg) |
+| C (water-soluble) | Ascorbic acid | Scurvy (bleeding gums) | Citrus fruits, amla (richest), guava, tomato |
+- Fat-soluble vitamins: A, D, E, K (stored in liver/fat). Water-soluble: B-complex and C (not stored; excreted; vitamin C destroyed by heating).
+| Mineral | Role | Deficiency |
+| Iron | Haemoglobin | Anaemia |
+| Iodine | Thyroxine | Goitre; cretinism in children |
+| Calcium | Bones, teeth, clotting | Rickets, osteoporosis |
+| Phosphorus | Bones, ATP | Weak bones |
+| Sodium & potassium | Nerve impulses, fluid balance | Muscle cramps |
+| Fluorine | Tooth enamel | Dental caries (excess → fluorosis) |
+| Zinc | Enzymes, immunity | Growth retardation |
+| Magnesium | Chlorophyll, enzymes | – |
+| Cobalt | Vitamin B12 | Anaemia |
+- Protein–energy malnutrition: kwashiorkor (protein deficiency – swollen belly, oedema), marasmus (protein + calorie deficiency – wasting).
+F: A – night blindness | B1 – beriberi | B3 – pellagra | B12 – pernicious anaemia (cobalt) | C – scurvy | D – rickets | K – clotting | Iodine – goitre | Fat-soluble: A, D, E, K
+PYQ-TREND: Vitamin–deficiency disease matching is one of the most frequent GA questions. Chemical names (retinol, calciferol, ascorbic acid, tocopherol). Fat- vs water-soluble vitamins. Vitamin made in skin by sunlight (D). Vitamin by gut bacteria (K). Mineral in B12 (cobalt). Iodine and goitre. Kwashiorkor vs marasmus. Richest source of vitamin C (amla).
+
+## 12.4 Human Body Systems
+### Digestive system
+- Mouth (saliva – salivary amylase/ptyalin digests starch), oesophagus, stomach (HCl kills germs & activates pepsin; pepsin – proteins; renin – milk protein in infants), small intestine (longest part ≈ 6–7 m; duodenum receives bile & pancreatic juice; villi absorb nutrients), large intestine (absorbs water; caecum & vestigial appendix), rectum, anus.
+- Liver: largest gland (≈ 1.5 kg); secretes bile (stored in gall bladder; emulsifies fats; no enzymes); stores glycogen; detoxification; makes urea. Pancreas: both exocrine (pancreatic juice – trypsin, lipase, amylase) and endocrine (islets of Langerhans – insulin (β cells, lowers sugar), glucagon (α cells, raises sugar)).
+- Digestion end products: carbohydrates → glucose; proteins → amino acids; fats → fatty acids & glycerol.
+### Respiratory system
+- Nose → pharynx → larynx (voice box) → trachea → bronchi → bronchioles → alveoli (gas exchange). Diaphragm helps breathing. Normal breathing rate ≈ 12–18 per minute (adult). Tidal volume ≈ 500 mL; vital capacity ≈ 3.5–4.5 L.
+- Aerobic respiration: glucose + O₂ → CO₂ + H₂O + energy (38 ATP theoretically); anaerobic in muscles → lactic acid (fatigue/cramps); in yeast → ethanol + CO₂ (fermentation). Glycolysis in cytoplasm; Krebs cycle in mitochondria.
+### Circulatory system
+- Discovered by William Harvey (1628). Heart: 4 chambers (2 atria, 2 ventricles); left ventricle thickest wall (pumps to whole body); pacemaker – SA node; heartbeat ≈ 72/min; normal BP 120/80 mm Hg (measured by sphygmomanometer). Arteries carry blood away from heart (oxygenated except pulmonary artery); veins carry towards heart (deoxygenated except pulmonary vein). Aorta – largest artery; vena cava – largest vein. Capillaries – exchange. First heart transplant – Christiaan Barnard (South Africa, 1967).
+- Blood (≈ 5–6 litres in adults; ≈ 7% of body weight; pH 7.4): plasma (≈ 55%; 90% water) and cells: RBCs (erythrocytes – haemoglobin carries O₂; no nucleus in mammals; lifespan ≈ 120 days; made in red bone marrow; destroyed in spleen – 'graveyard of RBCs'), WBCs (leucocytes – immunity; neutrophils most abundant, lymphocytes make antibodies), platelets (thrombocytes – clotting; fall in dengue). Clotting needs vitamin K, calcium, fibrinogen → fibrin. Haemophilia – bleeder's disease (X-linked). Anticoagulant: heparin.
+- Blood groups (Karl Landsteiner, 1900): A, B, AB, O. Universal donor O (negative), universal recipient AB (positive). Rh factor (Landsteiner & Wiener, Rhesus monkey); Rh incompatibility – erythroblastosis fetalis. ABO is an example of multiple alleles and codominance.
+- Lymphatic system: lymph nodes, spleen, thymus (T-cell maturation), tonsils.
+### Excretory system
+- Kidneys (≈ 1 million nephrons each – functional unit; Bowman's capsule, glomerulus). Urine: water, urea, uric acid, creatinine, salts; yellow colour from urochrome. Dialysis for kidney failure. Kidney stones – calcium oxalate. Other excretory organs: skin (sweat), lungs (CO₂), liver (urea formation – ornithine cycle).
+### Nervous system
+- Brain (≈ 1.35 kg; protected by skull & meninges; cerebrospinal fluid): cerebrum (largest; intelligence, memory, thinking, voluntary actions), cerebellum (balance, posture, coordination – affected by alcohol), medulla oblongata (involuntary actions – heartbeat, breathing, vomiting, sneezing), hypothalamus (body temperature, hunger, thirst, controls pituitary), thalamus (relay). Spinal cord – reflex actions. Neuron – structural & functional unit; synapse – junction. 12 pairs of cranial nerves, 31 pairs of spinal nerves.
+### Endocrine system (hormones)
+| Gland | Hormone | Function / disorder |
+| Pituitary ('master gland'; at base of brain) | Growth hormone, TSH, ACTH, FSH, LH, prolactin, ADH (vasopressin), oxytocin | GH excess – gigantism/acromegaly; deficiency – dwarfism; ADH deficiency – diabetes insipidus |
+| Thyroid (neck; largest endocrine gland) | Thyroxine (needs iodine), calcitonin | Goitre, cretinism (children), myxoedema (adults), hyperthyroidism – Graves' disease |
+| Parathyroid | Parathormone | Blood calcium (raises) |
+| Adrenal (on kidneys) | Adrenaline ('fight or flight', emergency hormone), cortisol, aldosterone | Addison's disease (cortex deficiency) |
+| Pancreas (islets) | Insulin, glucagon | Diabetes mellitus (insulin deficiency) |
+| Thymus | Thymosin | Immunity (T cells); shrinks in adults |
+| Pineal | Melatonin | Sleep–wake cycle (biological clock) |
+| Testes / ovaries | Testosterone / oestrogen, progesterone | Secondary sexual characters; pregnancy |
+### Skeletal and muscular system
+- Adult human: 206 bones (newborn ≈ 270–300). Largest/longest bone – femur (thigh); smallest – stapes (in middle ear); strongest – femur; hardest substance – tooth enamel. Skull 22 bones; vertebral column 33 vertebrae (26 in adults after fusion); ribs 12 pairs (floating ribs – last 2 pairs). Joints: ball-and-socket (shoulder, hip), hinge (knee, elbow), pivot (neck – atlas & axis), gliding (wrist). Largest muscle – gluteus maximus; smallest – stapedius.
+- Sense organs: eye (cornea – transplanted; iris gives colour; retina – rods & cones; blind spot – no receptors; yellow spot – sharpest vision), ear (hearing & balance; ossicles – malleus, incus, stapes; cochlea – hearing; semicircular canals – balance), tongue, nose, skin (largest organ).
+- Teeth: 32 in adults (dental formula 2123), 20 milk teeth. Enamel hardest substance in body.
+F: Largest gland – liver | Master gland – pituitary | Largest organ – skin | 206 bones; femur longest; stapes smallest | RBC life 120 days | Universal donor O, recipient AB | BP 120/80 | Insulin – β cells | Graveyard of RBCs – spleen
+PYQ-TREND: Largest gland, master gland, largest organ. Blood groups – universal donor/recipient and Landsteiner. Hormone–gland–disorder matching (insulin – diabetes, thyroxine – goitre, ADH – diabetes insipidus, adrenaline – emergency). Function of cerebellum and medulla. Number of bones; smallest and largest bones. RBC lifespan, site of formation and destruction. Bile has no enzymes. HCl in stomach. Heart chambers and pacemaker. Nephron as kidney unit. Haemophilia.
+
+## 12.5 Diseases, Immunity and Health
+| Disease | Pathogen | Notes |
+| Tuberculosis | Bacterium – Mycobacterium tuberculosis (Robert Koch, 1882) | Lungs; BCG vaccine; DOTS; World TB Day 24 March |
+| Cholera | Vibrio cholerae (bacterium) | Water-borne; ORS treatment |
+| Typhoid | Salmonella typhi (bacterium) | Widal test; intestine |
+| Tetanus | Clostridium tetani | Lockjaw; DPT vaccine |
+| Diphtheria | Corynebacterium diphtheriae | Throat; DPT |
+| Whooping cough (pertussis) | Bordetella pertussis | DPT |
+| Leprosy | Mycobacterium leprae (Hansen) | Skin & nerves; MDT; Anti-Leprosy Day 30 Jan |
+| Plague | Yersinia pestis | Rat flea; 'Black Death' |
+| Pneumonia | Streptococcus pneumoniae (also viral) | Lungs (alveoli) |
+| Anthrax | Bacillus anthracis | Cattle |
+| Leptospirosis, botulism, gonorrhoea, syphilis | Bacteria | – |
+| Common cold, influenza | Viruses (rhinovirus, influenza virus) | – |
+| Polio | Poliovirus | Paralysis; OPV (Sabin) and IPV (Salk); India declared polio-free 2014 |
+| Measles, mumps, rubella | Viruses | MMR vaccine |
+| Chickenpox | Varicella-zoster virus | – |
+| Smallpox | Variola virus | First vaccine – Edward Jenner (1796); eradicated 1980 |
+| Rabies | Rabies virus (dog bite) | Hydrophobia; vaccine by Louis Pasteur (1885) |
+| Hepatitis | Hepatitis A–E viruses | Liver; jaundice |
+| AIDS | HIV (retrovirus) | Attacks helper T-cells (CD4); ELISA test; World AIDS Day 1 Dec |
+| Dengue | Dengue virus | Aedes aegypti mosquito (day-biting); falling platelets; 'break-bone fever' |
+| Chikungunya, Zika, yellow fever | Viruses | Aedes mosquito |
+| Japanese encephalitis | Virus | Culex mosquito |
+| COVID-19 | SARS-CoV-2 (coronavirus) | Pandemic declared by WHO March 2020 |
+| Ebola, Nipah, mpox | Viruses | Nipah – fruit bats (Kerala outbreaks) |
+| Malaria | Protozoan – Plasmodium (vivax, falciparum – most severe) | Female Anopheles mosquito; Ronald Ross (Nobel 1902, discovered in Secunderabad); quinine/chloroquine/artemisinin |
+| Amoebic dysentery | Entamoeba histolytica (protozoan) | – |
+| Kala-azar | Leishmania donovani (protozoan) | Sandfly |
+| Sleeping sickness | Trypanosoma | Tsetse fly |
+| Filariasis (elephantiasis) | Wuchereria bancrofti (worm) | Culex mosquito |
+| Ringworm, athlete's foot, dandruff | Fungi | – |
+- Non-communicable/deficiency/genetic: diabetes, hypertension, cancer (carcinoma – epithelial, sarcoma – connective tissue, leukaemia – blood 'blood cancer', lymphoma), haemophilia, colour blindness, sickle-cell anaemia (abnormal haemoglobin; resistance to malaria), Down syndrome (trisomy 21), Turner's syndrome (XO), Klinefelter's (XXY), thalassaemia. Occupational: silicosis (stone/glass workers), asbestosis, byssinosis (cotton dust), black lung/anthracosis (coal miners).
+- Organs affected: jaundice/hepatitis – liver; pneumonia/TB/asthma/bronchitis – lungs; glaucoma/trachoma/conjunctivitis/cataract – eyes; pyorrhoea/gingivitis – gums; arthritis/gout – joints; meningitis/encephalitis – brain; eczema/psoriasis – skin; goitre – thyroid; diabetes – pancreas.
+- Immunity: innate vs acquired; active (vaccines, infection) vs passive (antibodies from mother via colostrum/placenta, antiserum). Antibodies (immunoglobulins: IgG – crosses placenta, most abundant; IgA – colostrum; IgM – first/largest; IgE – allergy). Vaccine: weakened/killed pathogen; Edward Jenner – father of immunology. Louis Pasteur – pasteurisation, rabies & anthrax vaccines, germ theory. Antibiotic – penicillin (Fleming, 1928).
+- Universal Immunisation Programme (1985); Mission Indradhanush (2014). India's COVID vaccines: Covishield (Serum Institute/Oxford–AstraZeneca), Covaxin (Bharat Biotech – indigenous). Vaccination drive began 16 January 2021.
+- Tests: Widal – typhoid; ELISA & Western Blot – HIV; Mantoux & sputum test – TB; Schick test – diphtheria; Dick test – scarlet fever; Tourniquet test – dengue; PCR/RT-PCR – COVID.
+F: Malaria – Plasmodium via female Anopheles | Dengue – Aedes | Filaria – Culex | TB – Koch | Smallpox vaccine – Jenner | Rabies vaccine – Pasteur | Penicillin – Fleming 1928 | Widal – typhoid | ELISA – HIV
+PYQ-TREND: Disease–pathogen–vector matching (malaria, dengue, kala-azar, sleeping sickness, filaria). Bacterial vs viral diseases. Tests (Widal, ELISA, Mantoux). Vaccine pioneers (Jenner, Pasteur, Salk). Polio-free India 2014. HIV attacks T-helper cells. Occupational diseases (silicosis, byssinosis). Genetic disorders (Down syndrome trisomy 21). Ronald Ross and malaria.
+WARN: Only the female Anopheles mosquito transmits malaria (males feed on nectar). Dengue's Aedes bites by day.
+
+## 12.6 Plant Biology
+- Photosynthesis: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (light, chlorophyll). Oxygen released comes from water (photolysis). Light reaction in grana (thylakoids), dark reaction (Calvin cycle) in stroma. Red and blue light most effective; green least (reflected). C₃ plants (wheat, rice) vs C₄ plants (maize, sugarcane – more efficient). CAM plants (cactus, pineapple – stomata open at night).
+- Transpiration: loss of water vapour through stomata (guard cells); cools the plant, aids water ascent. Xylem conducts water & minerals (dead tissue mostly – vessels, tracheids); phloem conducts food (sieve tubes, companion cells; living). Annual rings in trees (dendrochronology – estimating age).
+- Plant hormones: auxins (growth, apical dominance, phototropism; IAA; rooting of cuttings), gibberellins (stem elongation, bolting, seedless fruits; first found in rice 'foolish seedling' disease), cytokinins (cell division; delay ageing), abscisic acid ('stress hormone'; dormancy; stomatal closure), ethylene (only gaseous hormone; fruit ripening).
+- Tropisms: phototropism (light – shoots +ve), geotropism (gravity – roots +ve), hydrotropism (water), thigmotropism (touch – tendrils). Nastic movements: Mimosa pudica (touch-me-not) folds leaves – seismonasty.
+- Reproduction: vegetative propagation – potato (stem tuber), ginger (rhizome), onion (bulb), sweet potato & dahlia (root tuber), Bryophyllum (leaf buds), grafting (mango, rose), layering, tissue culture (micropropagation). Pollination by wind (anemophily – grasses, maize), insects (entomophily), water (hydrophily – Vallisneria), birds (ornithophily). Double fertilisation unique to angiosperms (Nawaschin).
+- Edible parts: potato – stem; carrot, radish, beetroot, sweet potato – root; onion, garlic – bulb (leaves/stem); ginger, turmeric – rhizome (stem); cauliflower – inflorescence; cabbage, lettuce, spinach – leaves; saffron – stigma; clove – flower bud; black pepper – fruit; coconut water – liquid endosperm; apple – thalamus (false fruit); mango – mesocarp; banana – parthenocarpic fruit.
+- Nitrogen fixation: Rhizobium in root nodules of legumes (peas, beans, groundnut); Azotobacter (free-living); cyanobacteria (Anabaena, Nostoc – paddy fields); Azolla (fern with Anabaena) – biofertiliser.
+- Economic plants: rubber (Hevea brasiliensis), quinine (Cinchona bark – malaria), morphine (opium poppy), cocaine (coca), tea (Camellia sinensis), coffee (Coffea arabica), neem (Azadirachta indica – natural pesticide), Bt cotton (Bacillus thuringiensis gene – pest resistant; India's only approved GM crop for cultivation), golden rice (vitamin A).
+F: O₂ in photosynthesis from water | Ethylene – ripening (gaseous) | ABA – stress | Gibberellin – stem elongation | Potato – stem | Ginger – rhizome | Saffron – stigma | Clove – flower bud | Rhizobium – legumes
+PYQ-TREND: Edible parts of plants (potato stem, carrot root, ginger rhizome, saffron stigma, clove bud, cauliflower inflorescence, apple thalamus). Plant hormones and functions (ethylene ripening, auxin phototropism, ABA stress). Source of oxygen in photosynthesis. Xylem vs phloem. Rhizobium and legumes. Mimosa movement. Bt cotton. Annual rings for age. Insectivorous plants (Nepenthes – pitcher plant, Drosera, Venus flytrap) grow in nitrogen-poor soil.
+
+## 12.7 Genetics, Evolution, Ecology
+- Gregor Mendel – father of genetics; experiments on garden pea (Pisum sativum), 7 traits; laws of dominance, segregation, independent assortment. Monohybrid ratio 3:1 (phenotype), 1:2:1 (genotype); dihybrid 9:3:3:1. Rediscovered in 1900 (de Vries, Correns, Tschermak). T.H. Morgan – fruit fly (Drosophila), linkage. Sex of child determined by father's chromosome (X or Y). Human Genome Project completed in 2003.
+- Biotechnology: recombinant DNA (Cohen & Boyer); first cloned mammal – Dolly the sheep (1996, Ian Wilmut); DNA fingerprinting (Alec Jeffreys; in India – Lalji Singh, 'father of Indian DNA fingerprinting'); CRISPR-Cas9 gene editing (Nobel 2020 – Charpentier & Doudna); first transgenic animal; insulin by genetically engineered bacteria; stem cells; Flavr Savr tomato (first GM food).
+- Evolution: Lamarck (inheritance of acquired characters; 'use and disuse'), Darwin (natural selection; 'Origin of Species' 1859; 'survival of the fittest' – phrase by Herbert Spencer), Hugo de Vries (mutation theory). Homologous organs (same origin, different function – forelimbs of man, bat, whale; divergent evolution) vs analogous organs (different origin, same function – wings of bird & insect; convergent evolution). Vestigial organs: appendix, wisdom teeth, coccyx, nictitating membrane. Archaeopteryx – connecting link between reptiles and birds.
+- Ecology: ecosystem (biotic + abiotic; term by A.G. Tansley), food chain (producers → herbivores → carnivores → decomposers); 10% law of energy transfer (Lindeman); pyramid of energy always upright; pyramid of numbers inverted in a tree ecosystem; biomass pyramid inverted in the ocean. Biomagnification (DDT, mercury increase along the food chain). Keystone species. Biodiversity hotspots in India: Himalaya, Indo-Burma, Western Ghats & Sri Lanka, Sundaland (Nicobar).
+- IUCN Red List: critically endangered, endangered, vulnerable. Great Indian Bustard – critically endangered (state bird of Rajasthan). Ex-situ (zoos, seed banks, botanical gardens) vs in-situ (national parks, sanctuaries, biosphere reserves) conservation. Environment Protection Act 1986; Wildlife Protection Act 1972; Forest Conservation Act 1980; Biological Diversity Act 2002. Chipko movement (1973, Uttarakhand – Sunderlal Bahuguna, Gaura Devi; earlier Bishnoi sacrifice – Amrita Devi, 1730); Appiko movement (Karnataka); Narmada Bachao Andolan (Medha Patkar); Silent Valley movement (Kerala).
+F: Father of genetics – Mendel (pea) | 3:1 and 9:3:3:1 | Dolly – 1996 | Origin of Species – Darwin 1859 | 10% law – Lindeman | Ecosystem – Tansley | Chipko – 1973
+PYQ-TREND: Mendel's ratios and pea plant. Darwin vs Lamarck. Homologous vs analogous organs. Vestigial organs. 10% law of energy transfer. Biomagnification. Biodiversity hotspots of India. Chipko and Bishnoi movements. Dolly the sheep. DNA fingerprinting in India (Lalji Singh). Sex determination by father.

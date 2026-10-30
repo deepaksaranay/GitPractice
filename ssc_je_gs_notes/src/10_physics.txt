@@ -1,0 +1,150 @@
+# General Science – Physics
+
+## 10.1 Units and Measurements
+- Seven SI base units: metre (length), kilogram (mass), second (time), ampere (current), kelvin (temperature), mole (amount of substance), candela (luminous intensity). Supplementary: radian, steradian. SI redefined on 20 May 2019 using fundamental constants (kilogram via Planck's constant).
+| Quantity | SI unit | Note |
+| Force | newton (N) | kg·m/s² |
+| Work / energy | joule (J) | 1 kWh = 3.6 × 10⁶ J; 1 calorie = 4.186 J; 1 eV = 1.6 × 10⁻¹⁹ J |
+| Power | watt (W) | 1 hp = 746 W |
+| Pressure | pascal (Pa) | 1 atm = 1.013 × 10⁵ Pa; bar = 10⁵ Pa; torr |
+| Frequency | hertz (Hz) | – |
+| Charge | coulomb (C) | – |
+| Potential difference | volt (V) | – |
+| Resistance | ohm (Ω) | – |
+| Capacitance | farad (F) | – |
+| Inductance | henry (H) | – |
+| Magnetic flux | weber (Wb) | – |
+| Magnetic field | tesla (T) | 1 T = 10⁴ gauss |
+| Luminous flux | lumen | Illuminance – lux |
+| Radioactivity | becquerel (Bq) | curie = 3.7 × 10¹⁰ Bq |
+| Absorbed radiation dose | gray (Gy) | sievert (Sv) for equivalent dose |
+| Power of lens | dioptre (D) | P = 1/f (m) |
+| Sound intensity level | decibel (dB) | – |
+| Viscosity | Pa·s (poise in CGS) | – |
+- Large/small distance units: light year (≈ 9.46 × 10¹⁵ m), parsec (3.26 light years), astronomical unit (Sun–Earth ≈ 1.5 × 10¹¹ m), angstrom (10⁻¹⁰ m), fermi (10⁻¹⁵ m), nautical mile (1,852 m – sea and air navigation), knot (speed, nautical mile per hour), fathom (depth of water, 6 ft).
+- Temperature: °F = (9/5)°C + 32; K = °C + 273.15; −40 °C = −40 °F; normal body temperature 37 °C = 98.6 °F = 310 K. Absolute zero 0 K = −273.15 °C.
+- Scalars: mass, speed, distance, time, work, energy, power, temperature, pressure, current (treated as scalar). Vectors: displacement, velocity, acceleration, force, momentum, torque, weight, electric & magnetic field.
+F: 7 base SI units | 1 kWh = 3.6 MJ | 1 hp = 746 W | 1 nautical mile = 1,852 m | −40 °C = −40 °F | Body temp 98.6 °F
+PYQ-TREND: SI units of physical quantities (pressure – pascal, power – watt, magnetic field – tesla, radioactivity – becquerel, luminous intensity – candela). Light year/parsec as distance. Nautical mile and knot usage. Temperature conversion −40. Scalar vs vector identification. Unit of power of lens.
+
+## 10.2 Motion, Force and Gravitation
+- Newton's laws: 1st – inertia (Galileo's concept; e.g., passengers jerk forward when a bus stops); 2nd – F = ma (rate of change of momentum); 3rd – action-reaction (rocket propulsion, recoil of gun, swimming, walking).
+- Momentum p = mv; conservation of momentum (rocket, gun recoil). Impulse = force × time (catching a ball by moving hands back increases time, reducing force; airbags, shock absorbers).
+- Friction: static > kinetic > rolling. Lubricants and ball bearings reduce friction.
+- Circular motion: centripetal force mv²/r towards the centre (centrifugal is a pseudo force; cream separator, washing machine dryer). Banking of roads and bending of cyclist.
+- Gravitation: F = Gm₁m₂/r²; G = 6.67 × 10⁻¹¹ N·m²/kg² (universal constant, measured by Cavendish). g = 9.8 m/s²; g is maximum at poles, minimum at the equator; decreases with height and depth; zero at Earth's centre. g on Moon ≈ 1/6 of Earth's (weight 1/6; mass unchanged).
+- Weight in a lift: increases when accelerating up, decreases when accelerating down, zero in free fall (weightlessness in an orbiting satellite).
+- Escape velocity from Earth ≈ 11.2 km/s (independent of mass of the body); orbital velocity near Earth ≈ 7.9 km/s. Geostationary satellite: ≈ 35,786 km above the equator (≈ 36,000 km), period 24 h, moves west to east. Kepler's laws (elliptical orbits; T² ∝ r³).
+- Simple pendulum: T = 2π√(l/g) – independent of mass; longer at the Moon; increases with length; a pendulum clock runs slow in summer (length increases) and at hills.
+- Work = F·s cos θ (zero if force ⟂ displacement, e.g., coolie carrying load horizontally, satellite in circular orbit). Energy forms: KE = ½mv² (doubling speed → 4× KE), PE = mgh. Law of conservation of energy.
+F: F = ma | g = 9.8 m/s² (max at poles) | Escape velocity 11.2 km/s | Geostationary ≈ 36,000 km, 24 h | T = 2π√(l/g) | KE ∝ v²
+PYQ-TREND: Examples of Newton's laws (rocket – 3rd law; inertia examples). g at poles vs equator. Weightlessness in satellites. Escape velocity value and its independence from mass. Pendulum period independent of mass. Work done zero when force ⟂ displacement. Doubling velocity quadruples KE.
+
+## 10.3 Properties of Matter and Fluids
+- Elasticity: Hooke's law (stress ∝ strain). Steel is more elastic than rubber (higher Young's modulus).
+- Pressure = force/area (sharp knives, wide straps of bags, broad tyres for tractors). Pressure in liquids increases with depth (dams thicker at the base). Atmospheric pressure decreases with altitude (nose bleeding at heights; pressure cooker needed at hills because water boils below 100 °C). Barometer (Torricelli) measures atmospheric pressure; sudden fall indicates storm; gradual fall – rain; rise – fair weather.
+- Pascal's law – hydraulic lift, hydraulic brakes, hydraulic press.
+- Archimedes' principle: buoyant force = weight of liquid displaced. Floatation: a body floats if its density is less than the liquid's. Ships float due to large displaced volume; ice floats (density 0.92); a person floats more easily in sea water (higher density) and in the Dead Sea. Hydrometer/lactometer (milk purity) use floatation.
+- Surface tension: spherical drops, rise of oil in a lamp wick (capillarity), insects walking on water; detergents/soap reduce surface tension; hot soup tastes better (lower surface tension spreads it). Capillarity – blotting paper, rise of water in plants (partly), towel drying.
+- Viscosity: liquids' viscosity decreases with temperature; gases' increases. Honey more viscous than water.
+- Bernoulli's principle: faster flow → lower pressure (aeroplane lift, roof blown off in storms, atomiser/sprayer, spinning ball swing).
+F: Pascal – hydraulic lift/brakes | Archimedes – buoyancy, ships | Lactometer – milk | Bernoulli – aeroplane lift | Water boils below 100 °C at hills
+PYQ-TREND: Pascal's law applications. Archimedes' principle and floatation. Why it's easier to swim in sea water. Surface tension examples (soap reduces it). Bernoulli examples (aeroplane, roof blown off). Pressure cooker cooks faster (raises boiling point). Barometer reading and weather.
+
+## 10.4 Heat and Thermodynamics
+- Heat is energy in transit (joule; calorie). Temperature measures hotness (thermometer: mercury used because of uniform expansion, high boiling point, shines/opaque, doesn't wet glass; clinical thermometer range 35–42 °C/94–108 °F; pyrometer for very high temperatures; thermocouple; bolometer).
+- Specific heat: water has a very high specific heat (4.186 kJ/kg·K) – used as a coolant in radiators, moderates coastal climates, hot water bottles. Land heats and cools faster than sea → land & sea breezes (sea breeze by day, land breeze at night).
+- Latent heat: of fusion of ice 336 J/g (80 cal/g); of vaporisation of water 2,260 J/g (540 cal/g). Steam at 100 °C burns more than water at 100 °C (extra latent heat). Ice at 0 °C cools more than water at 0 °C.
+- Anomalous expansion of water: maximum density at 4 °C – lakes freeze from the top; aquatic life survives below. Water expands on freezing (pipes burst in winter).
+- Heat transfer: conduction (solids; metals good conductors; wood, air poor – woollen clothes trap air, double walls), convection (fluids; sea breeze, monsoon, boiling water), radiation (no medium; Sun's heat; black surfaces absorb and emit best; white reflects – white clothes in summer). Thermos flask reduces all three (vacuum stops conduction & convection, silvered walls reduce radiation).
+- Boiling point rises with pressure (pressure cooker) and with dissolved impurities (salt); melting point of ice falls with pressure (regelation – skating) and with impurities (salt on icy roads).
+- Evaporation causes cooling (earthen pot/surahi, sweating, desert cooler); faster with higher temperature, larger surface area, wind, lower humidity.
+- Thermodynamics laws: zeroth (thermal equilibrium – temperature), first (energy conservation), second (heat flows from hot to cold; no 100% efficient engine), third (absolute zero unattainable). Refrigerator transfers heat from cold to hot using work.
+F: Max density of water at 4 °C | Latent heat of ice 80 cal/g; steam 540 cal/g | Sea breeze by day, land breeze at night | Thermos – vacuum + silvered walls
+PYQ-TREND: Anomalous expansion of water (4 °C). Steam burns more than boiling water (latent heat). Pressure cooker principle. Salt raises boiling point and lowers melting point. Sea/land breeze timing. Earthen pot cooling by evaporation. Thermos flask design. Why mercury in thermometers. White clothes in summer. Woollen clothes keep warm (trapped air).
+
+## 10.5 Sound
+- Sound: mechanical longitudinal wave; needs a medium (cannot travel in vacuum – no sound on the Moon). Speed: solids > liquids > gases; in air ≈ 330–343 m/s (increases with temperature and humidity; independent of pressure); in water ≈ 1,480 m/s; in steel ≈ 5,000–6,000 m/s.
+- Audible range: 20 Hz–20 kHz. Infrasonic (< 20 Hz – earthquakes, elephants, whales). Ultrasonic (> 20 kHz – bats (echolocation), dolphins, dogs hear up to ~45 kHz; used in SONAR, ultrasound scanning, cleaning, detecting flaws, killing bacteria).
+- Characteristics: pitch (depends on frequency; women/children have higher pitch), loudness (amplitude; decibel), quality/timbre (waveform).
+- Echo: reflected sound heard separately; minimum distance ≈ 17 m (persistence of hearing 0.1 s). Reverberation – multiple reflections (reduced by soft absorbing materials in halls). SONAR (sound navigation and ranging) uses ultrasonic echoes to find ocean depth and submarines.
+- Doppler effect: apparent change in frequency due to relative motion (siren pitch rising as an ambulance approaches; used in radar speed guns, astronomy – red shift).
+- Resonance: forced vibration at natural frequency (soldiers break step on bridges; tuning a radio). Beats: interference of slightly different frequencies.
+- Supersonic speed: faster than sound (Mach > 1); sonic boom.
+F: Sound needs medium | v: solid > liquid > gas | Air ≈ 343 m/s | Audible 20 Hz–20 kHz | Echo min distance ≈ 17 m | Bats – ultrasonic
+PYQ-TREND: Sound cannot travel in vacuum. Speed of sound highest in solids. Audible range. Bats and dolphins use ultrasound. SONAR principle. Doppler effect example. Pitch depends on frequency. Decibel unit. Soldiers break step on bridges (resonance).
+
+## 10.6 Light and Optics
+- Light: electromagnetic transverse wave; speed in vacuum ≈ 3 × 10⁸ m/s (fastest); slower in glass/water. Dual nature (wave–particle). Sunlight takes ≈ 8 min 20 s to reach Earth.
+- Reflection: angle of incidence = angle of reflection. Plane mirror image: virtual, erect, same size, laterally inverted (AMBULANCE written in reverse). Concave mirror: converging; used in shaving mirrors, dentist's mirror, torch/headlight reflectors, solar furnaces, satellite dishes. Convex mirror: diverging, wider field of view, virtual diminished image – rear-view mirrors of vehicles, street lights.
+- Refraction: bending of light when it changes medium. Examples: pool appears shallower, stick appears bent in water, twinkling of stars (atmospheric refraction), sun visible ≈ 2 min before actual sunrise and after sunset, mirage (in deserts and on hot roads – total internal reflection).
+- Total internal reflection (light from denser to rarer, angle > critical angle): sparkling diamond (critical angle ≈ 24°), optical fibres (communication, endoscopy), mirage, looming.
+- Dispersion: white light splits into VIBGYOR through a prism (Newton); violet deviates most, red least. Rainbow – dispersion + refraction + total internal reflection in raindrops; seen opposite to the Sun.
+- Scattering (Rayleigh: ∝ 1/λ⁴): sky looks blue (blue scattered most); sun reddish at sunrise/sunset; danger signals are red (least scattered, travels farthest); clouds white (large particles scatter all colours); sky appears black to astronauts. Tyndall effect – scattering by colloids. Raman effect – change in wavelength on scattering (C.V. Raman, Nobel 1930; National Science Day 28 February).
+- Lenses: convex (converging) and concave (diverging). Power P = 1/f (dioptre); convex +ve, concave −ve.
+| Eye defect | Cause | Correction |
+| Myopia (short-sightedness) | Eyeball elongated; image before retina; can't see far | Concave lens |
+| Hypermetropia (long-sightedness) | Eyeball short; image behind retina; can't see near | Convex lens |
+| Presbyopia | Ageing; weak ciliary muscles | Bifocal lens |
+| Astigmatism | Irregular cornea | Cylindrical lens |
+| Cataract | Lens becomes opaque | Surgery (lens replacement) |
+- Human eye: image formed on the retina (real and inverted); rods (dim light, black & white; rhodopsin needs vitamin A), cones (colour; bright light); least distance of distinct vision 25 cm; persistence of vision ≈ 1/16 s (basis of motion pictures). Colour blindness – inability to distinguish red & green (X-linked).
+- Optical instruments: microscope (convex lenses), telescope (astronomical – convex; Galileo), periscope (two plane mirrors/prisms – submarines), kaleidoscope (multiple reflections from inclined mirrors), binoculars (prisms), spectrometer.
+- Primary colours of light: red, green, blue (RGB); secondary: yellow, cyan, magenta. Red + green + blue = white. An object appears in the colour it reflects (a red rose in green light looks black).
+F: c = 3 × 10⁸ m/s | Rear-view mirror – convex | Shaving/dentist mirror – concave | Myopia – concave lens | Hypermetropia – convex | Blue sky – scattering | Diamond sparkle – TIR | Raman effect – 28 Feb
+PYQ-TREND: Mirror used in vehicles (convex), shaving (concave). Correction lenses for eye defects. Blue sky and red sunset (scattering). Twinkling of stars (refraction). Diamond's brilliance and optical fibres (total internal reflection). Rainbow formation. Mirage. Raman effect and National Science Day. Lateral inversion. Danger lights red. Power of lens in dioptre.
+
+## 10.7 Electricity and Magnetism
+- Current I = Q/t (ampere). Ohm's law V = IR. Resistance R = ρL/A (increases with length, decreases with area; metals' resistance rises with temperature; semiconductors' falls). Conductors (silver best, copper used for wires), insulators, semiconductors (silicon, germanium), superconductors (zero resistance at very low temperature).
+- Series: R = R₁ + R₂ (same current; one bulb fails → all go off; decorative lights). Parallel: 1/R = 1/R₁ + 1/R₂ (same voltage; household wiring – each appliance gets full voltage and can be switched independently).
+- Power P = VI = I²R = V²/R. Commercial unit: kilowatt-hour (1 unit = 1 kWh). Heating effect (Joule's law H = I²Rt): electric heater, iron, bulb (tungsten filament – high melting point ≈ 3,422 °C; bulb filled with argon/nitrogen), fuse (low melting point alloy of tin and lead – connected in series; protects against overload/short circuit). Heating elements use nichrome (high resistivity, doesn't oxidise).
+- Household supply in India: 220–230 V AC, 50 Hz (USA: 120 V, 60 Hz). Wires: live (red/brown), neutral (black/blue), earth (green). Earthing protects against shocks. MCB (miniature circuit breaker) replaces fuse.
+- Electric cell: chemical → electrical energy. Dry cell (Leclanché; zinc container, carbon rod; 1.5 V). Lead–acid battery (car; rechargeable). Lithium-ion (phones, EVs – Nobel 2019). Solar cell: light → electricity (silicon).
+- Magnetism: like poles repel; magnetic field lines from N to S outside. Earth behaves like a giant magnet (geographic north near magnetic south pole). Compass. Electromagnet (soft iron core) – cranes, electric bell. Ferromagnetic: iron, cobalt, nickel. Oersted discovered magnetic effect of current.
+- Electromagnetic induction (Faraday): changing magnetic flux induces current – generator/dynamo (mechanical → electrical), transformer (changes AC voltage; works only on AC; step-up at power stations, step-down near homes), induction cooktop. Electric motor: electrical → mechanical (Fleming's left-hand rule). Generator – Fleming's right-hand rule.
+- AC vs DC: AC can be transformed and transmitted efficiently over long distances at high voltage. Devices: rectifier (AC → DC), inverter (DC → AC), galvanometer (detects small current), ammeter (current; in series; low resistance), voltmeter (voltage; in parallel; high resistance), rheostat (variable resistance).
+F: V = IR | P = VI | 1 unit = 1 kWh | India 230 V, 50 Hz AC | Fuse – low melting point, in series | Filament – tungsten | Heater – nichrome | Transformer – AC only
+PYQ-TREND: Household wiring is parallel. Fuse wire properties. Tungsten in bulbs; nichrome in heaters. Commercial unit of energy (kWh). Transformer works on AC only and principle of mutual induction. Generator vs motor energy conversion. Ammeter in series, voltmeter in parallel. Frequency of AC in India (50 Hz). Silver best conductor.
+
+## 10.8 Modern Physics and Electronics
+- Atom: electron (J.J. Thomson, 1897; cathode rays), proton (Goldstein/Rutherford), neutron (James Chadwick, 1932), nucleus (Rutherford's gold-foil experiment, 1911). Bohr's model of orbits (1913).
+- Radioactivity: discovered by Henri Becquerel (1896); Marie & Pierre Curie (polonium, radium). Alpha (helium nucleus, least penetrating), beta (electrons), gamma (electromagnetic, most penetrating, no charge). Half-life. Carbon-14 dating (age of fossils/archaeological samples); uranium/potassium-argon dating (rocks). Geiger–Müller counter detects radiation.
+- Nuclear fission (heavy nucleus splits – U-235; atom bomb; nuclear reactors; chain reaction controlled by cadmium/boron rods; moderators – heavy water, graphite slow neutrons). Nuclear fusion (light nuclei combine – Sun's energy, hydrogen bomb; very high temperature needed).
+- Einstein: E = mc² (mass-energy equivalence); photoelectric effect (Nobel 1921) – basis of solar cells, photocells.
+- Electromagnetic spectrum (increasing wavelength): gamma rays < X-rays < ultraviolet < visible < infrared < microwaves < radio waves. Uses: gamma – cancer treatment, sterilisation; X-rays (Röntgen 1895) – bone imaging; UV – sterilising water, vitamin D synthesis, causes sunburn (ozone absorbs); IR – night vision, TV remote, heat therapy; microwaves – ovens, radar, satellite communication; radio waves – broadcasting.
+- Semiconductors: p-type (doped with trivalent – boron, gallium; holes), n-type (pentavalent – phosphorus, arsenic; electrons). Diode (rectifier), transistor (amplifier/switch; Bardeen, Brattain, Shockley 1947), LED, integrated circuit (Jack Kilby). Logic gates: NAND and NOR are universal gates.
+- LASER: Light Amplification by Stimulated Emission of Radiation (monochromatic, coherent). RADAR: Radio Detection And Ranging (radio waves/microwaves). MRI uses strong magnetic fields and radio waves (no ionising radiation). CT scan uses X-rays.
+F: Electron – Thomson | Neutron – Chadwick | Nucleus – Rutherford | Radioactivity – Becquerel | Fission – reactors/atom bomb | Fusion – Sun/H-bomb | X-rays – Röntgen | E = mc²
+PYQ-TREND: Discoverers of electron, proton, neutron, X-rays, radioactivity. Fission vs fusion. Energy source of the Sun (fusion). Carbon dating. Order of electromagnetic spectrum. TV remote uses infrared. Microwave oven principle. LASER full form. Moderator and control rods. Universal gates. Photoelectric effect and Einstein's Nobel.
+
+## 10.9 Instruments and Inventions (Physics)
+| Instrument | Measures / use |
+| Ammeter | Electric current |
+| Altimeter | Altitude (aircraft) |
+| Anemometer | Wind speed |
+| Audiometer | Sound intensity / hearing |
+| Barometer | Atmospheric pressure |
+| Bolometer | Heat radiation |
+| Calorimeter | Quantity of heat |
+| Cardiograph (ECG) | Heart activity |
+| Chronometer | Accurate time on ships (longitude) |
+| Dynamo | Converts mechanical to electrical energy |
+| Galvanometer | Small electric currents |
+| Hydrometer | Specific gravity/density of liquids |
+| Hygrometer | Relative humidity |
+| Lactometer | Purity (density) of milk |
+| Manometer | Gas pressure |
+| Odometer | Distance travelled by vehicle |
+| Pyrometer | Very high temperatures |
+| Seismograph | Earthquakes |
+| Sphygmomanometer | Blood pressure |
+| Tachometer | Speed of rotation (rpm) |
+| Ondometer | Frequency of electromagnetic waves |
+| Hypsometer | Boiling point of water / altitude |
+| Rain gauge (udometer) | Rainfall |
+| Spectrometer | Spectra / wavelength |
+| Stethoscope | Heart and lung sounds (Laennec) |
+| Fathometer | Ocean depth (sonar) |
+| Saccharimeter | Sugar concentration |
+F: Hygrometer – humidity | Anemometer – wind | Sphygmomanometer – BP | Lactometer – milk | Seismograph – earthquakes | Fathometer – sea depth | Pyrometer – high temperature
+PYQ-TREND: Instrument–quantity matching is asked in almost every SSC paper (hygrometer, anemometer, altimeter, pyrometer, tachometer, sphygmomanometer, lactometer, fathometer).

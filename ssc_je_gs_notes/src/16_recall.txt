@@ -1,0 +1,251 @@
+# PYQ Concept Recall Bank
+Each row is a concept SSC has examined repeatedly, written as a short question with a crisp answer. Cover the answer column and test yourself. This is active recall, not MCQ practice.
+
+## R1. History
+| Concept question | Answer |
+| Largest Harappan site in India? | Rakhigarhi (Haryana) |
+| Harappan site with a dockyard? | Lothal |
+| Who discovered Harappa? | Daya Ram Sahni (1921) |
+| Oldest Veda? | Rigveda |
+| Source of 'Satyameva Jayate'? | Mundaka Upanishad |
+| Veda linked to music? | Samaveda |
+| Only Mahajanapada in South India? | Assaka (Ashmaka) |
+| Where did Buddha give his first sermon? | Sarnath |
+| Fourth Buddhist Council was held under? | Kanishka (Kashmir) |
+| 24th Tirthankara? | Mahavira |
+| Who added Brahmacharya to Jain vows? | Mahavira |
+| Author of Arthashastra? | Kautilya (Chanakya) |
+| Who deciphered Ashokan edicts? | James Prinsep (1837) |
+| Which edict describes the Kalinga war? | Major Rock Edict XIII |
+| Who is called the 'Napoleon of India'? | Samudragupta |
+| Founder of Nalanda University? | Kumaragupta I |
+| Chinese traveller in Harsha's time? | Hiuen Tsang |
+| Builder of Kailasa temple, Ellora? | Krishna I (Rashtrakuta) |
+| Builder of Brihadeshwara temple? | Rajaraja Chola I |
+| Year of the Second Battle of Tarain? | 1192 |
+| Who began Qutub Minar? | Qutbuddin Aibak |
+| Who shifted the capital to Daulatabad? | Muhammad bin Tughlaq |
+| Who introduced market control? | Alauddin Khilji |
+| Who founded Agra? | Sikandar Lodi |
+| Founders of Vijayanagara? | Harihara and Bukka (1336) |
+| Battle that destroyed Vijayanagara? | Talikota (1565) |
+| Gol Gumbaz is in? | Bijapur |
+| First Battle of Panipat fought between? | Babur and Ibrahim Lodi (1526) |
+| Third Battle of Panipat winner? | Ahmad Shah Abdali (1761) |
+| Battle of Haldighati year? | 1576 |
+| Who introduced the Rupiya? | Sher Shah Suri |
+| Akbar's new religion? | Din-i-Ilahi (1582) |
+| Taj Mahal built by? | Shah Jahan |
+| Founder of Khalsa? | Guru Gobind Singh (1699) |
+| Guru who compiled Adi Granth? | Guru Arjan Dev |
+| First European to arrive by sea route? | Vasco da Gama (Calicut, 1498) |
+| Battle of Plassey year? | 1757 |
+| Battle that gave Diwani rights? | Buxar (1764), Treaty of Allahabad 1765 |
+| Subsidiary Alliance introduced by? | Lord Wellesley |
+| Doctrine of Lapse introduced by? | Lord Dalhousie |
+| Permanent Settlement introduced by? | Lord Cornwallis (1793) |
+| Sati abolished by? | Lord William Bentinck (1829) |
+| First railway line in India? | Bombay–Thane, 1853 |
+| Father of Local Self-Government? | Lord Ripon |
+| Partition of Bengal by? | Lord Curzon (1905) |
+| Where did the Revolt of 1857 begin? | Meerut |
+| Leader of 1857 at Lucknow? | Begum Hazrat Mahal |
+| Founder of Brahmo Samaj? | Raja Ram Mohan Roy |
+| Founder of Arya Samaj? | Swami Dayanand Saraswati |
+| First INC president? | W.C. Bonnerjee |
+| INC session of Purna Swaraj? | Lahore 1929 |
+| First woman INC president? | Annie Besant (1917) |
+| Gandhi's first satyagraha in India? | Champaran (1917) |
+| Date of Jallianwala Bagh massacre? | 13 April 1919 |
+| Incident that ended Non-Cooperation? | Chauri Chaura (1922) |
+| Dandi March started on? | 12 March 1930 |
+| Round Table Conference attended by Gandhi? | Second (1931) |
+| 'Do or Die' slogan movement? | Quit India (1942) |
+| Who wrote Hind Swaraj? | Mahatma Gandhi |
+| Who founded the Azad Hind government? | Subhas Chandra Bose (Singapore, 1943) |
+| Last Viceroy of India? | Lord Mountbatten |
+
+## R2. Polity
+| Concept question | Answer |
+| President of the Constituent Assembly? | Dr. Rajendra Prasad |
+| Chairman of the Drafting Committee? | Dr. B.R. Ambedkar |
+| Constitution adopted on? | 26 November 1949 |
+| Source of DPSP? | Ireland |
+| Source of Fundamental Duties? | USSR |
+| Source of the Concurrent List? | Australia |
+| Words added to the Preamble in 1976? | Socialist, Secular, Integrity |
+| Article for the right to constitutional remedies? | Article 32 |
+| Article abolishing untouchability? | Article 17 |
+| Article for the right to education? | Article 21A (86th Amendment) |
+| Writ against illegal detention? | Habeas Corpus |
+| Writ to prevent unlawful holding of public office? | Quo Warranto |
+| Article for Uniform Civil Code? | Article 44 |
+| Article for village panchayats (DPSP)? | Article 40 |
+| Committee for Fundamental Duties? | Swaran Singh Committee |
+| Number of Fundamental Duties? | 11 |
+| Schedule with anti-defection law? | Tenth Schedule |
+| Minimum age for President? | 35 years |
+| Who administers oath to the President? | Chief Justice of India |
+| Article for the President's ordinance power? | Article 123 |
+| Article for national emergency? | Article 352 |
+| Ex-officio chairman of Rajya Sabha? | Vice-President |
+| Who certifies a money bill? | Speaker of Lok Sabha |
+| Who presides over a joint sitting? | Speaker of Lok Sabha |
+| Max nominated members in Rajya Sabha? | 12 |
+| Minimum age for Rajya Sabha? | 30 years |
+| Retirement age of SC judges? | 65 years |
+| Article for SC's advisory jurisdiction? | Article 143 |
+| Case that gave the basic structure doctrine? | Kesavananda Bharati (1973) |
+| First state to adopt Panchayati Raj? | Rajasthan (Nagaur, 1959) |
+| Amendment for Panchayati Raj? | 73rd (1992) |
+| Article for the Election Commission? | Article 324 |
+| Article for the CAG? | Article 148 |
+| Article for the Finance Commission? | Article 280 |
+| 'Mini Constitution' amendment? | 42nd (1976) |
+| Amendment that lowered voting age to 18? | 61st (1989) |
+| GST amendment? | 101st (2016) |
+| Women's reservation amendment? | 106th (2023) |
+| NITI Aayog established on? | 1 January 2015 |
+| First Chief Election Commissioner? | Sukumar Sen |
+
+## R3. Geography
+| Concept question | Answer |
+| How many states does the Tropic of Cancer cross? | 8 |
+| Standard meridian of India passes through? | Mirzapur (82°30'E) |
+| Country sharing longest border with India? | Bangladesh |
+| Strait between India and Sri Lanka? | Palk Strait |
+| Channel separating Andaman and Nicobar? | Ten Degree Channel |
+| Highest peak in India? | Kangchenjunga |
+| Highest peak in South India? | Anamudi |
+| Oldest fold mountains in India? | Aravallis |
+| India's only active volcano? | Barren Island |
+| Pass connecting Srinagar and Leh? | Zoji La |
+| Pass in Sikkim on the old silk route? | Nathu La |
+| Origin of Narmada? | Amarkantak |
+| Longest peninsular river? | Godavari |
+| 'Sorrow of Bihar'? | Kosi |
+| Highest dam in India? | Tehri |
+| Hirakud dam is on? | Mahanadi |
+| Largest freshwater lake in India? | Wular |
+| Largest saline lake in India? | Sambhar |
+| Floating national park? | Keibul Lamjao (Loktak, Manipur) |
+| Place with highest rainfall? | Mawsynram |
+| Best soil for cotton? | Black (regur) soil |
+| National park for one-horned rhino? | Kaziranga |
+| Only home of Asiatic lions? | Gir |
+| First national park of India? | Jim Corbett (Hailey NP, 1936) |
+| Where were cheetahs reintroduced? | Kuno National Park |
+| First biosphere reserve? | Nilgiri |
+| Largest coffee producer state? | Karnataka |
+| Oldest oil refinery? | Digboi |
+| Largest coking coal field? | Jharia |
+| Hottest planet? | Venus |
+| Largest planet? | Jupiter |
+| Layer containing the ozone layer? | Stratosphere |
+| Deepest point of the oceans? | Mariana Trench (Challenger Deep) |
+| Longest river in the world? | Nile |
+| Strait between Spain and Morocco? | Strait of Gibraltar |
+| Parliament of Japan? | Diet |
+| Parliament of Israel? | Knesset |
+| Currency of Bhutan? | Ngultrum |
+| Capital of Myanmar? | Naypyidaw |
+| Grassland of Argentina? | Pampas |
+
+## R4. Economy
+| Concept question | Answer |
+| Father of economics? | Adam Smith |
+| GNP = ? | GDP + net factor income from abroad |
+| Who first estimated India's national income? | Dadabhai Naoroji |
+| Model of the Second Five-Year Plan? | P.C. Mahalanobis |
+| When was RBI established? | 1 April 1935 |
+| Who issues the ₹1 note? | Ministry of Finance (Government of India) |
+| Rate at which RBI lends to banks? | Repo rate |
+| Inflation target of RBI? | CPI 4% ± 2% |
+| When were 14 banks nationalised? | 19 July 1969 |
+| Regulator of securities market? | SEBI |
+| Number of stocks in Sensex? | 30 |
+| GST launch date? | 1 July 2017 |
+| Fiscal deficit equals? | Total borrowings of the government |
+| Year of LPG reforms? | 1991 |
+| WTO HQ? | Geneva |
+| Days of guaranteed work under MGNREGA? | 100 |
+| PM-KISAN yearly support? | ₹6,000 |
+| Census 2011 sex ratio? | 943 |
+| State with highest literacy (2011)? | Kerala |
+
+## R5. Science
+| Concept question | Answer |
+| SI unit of pressure? | Pascal |
+| Unit of power of a lens? | Dioptre |
+| Instrument measuring humidity? | Hygrometer |
+| Instrument measuring blood pressure? | Sphygmomanometer |
+| Escape velocity of Earth? | 11.2 km/s |
+| Mirror used as a rear-view mirror? | Convex |
+| Lens for myopia? | Concave |
+| Why is the sky blue? | Scattering of light |
+| Why does a diamond sparkle? | Total internal reflection |
+| Speed of sound is maximum in? | Solids |
+| Frequency used by bats? | Ultrasonic |
+| Water's maximum density temperature? | 4 °C |
+| Fuse wire property? | Low melting point |
+| Filament metal in bulbs? | Tungsten |
+| Household wiring connection? | Parallel |
+| Discoverer of the neutron? | James Chadwick |
+| Energy source of the Sun? | Nuclear fusion |
+| Chemical name of baking soda? | Sodium bicarbonate |
+| Formula of Plaster of Paris? | CaSO₄·½H₂O |
+| Acid in ant sting? | Formic acid |
+| Acid in tomato? | Oxalic acid |
+| pH of human blood? | ≈ 7.4 |
+| Main gas in LPG? | Butane (with propane) |
+| Gas in Bhopal tragedy? | Methyl isocyanate |
+| Brass is an alloy of? | Copper and zinc |
+| Liquid non-metal? | Bromine |
+| Most electronegative element? | Fluorine |
+| Powerhouse of the cell? | Mitochondria |
+| Who discovered the cell? | Robert Hooke |
+| Vitamin causing scurvy when deficient? | Vitamin C |
+| Vitamin for blood clotting? | Vitamin K |
+| Vitamin made by sunlight in the skin? | Vitamin D |
+| Largest gland? | Liver |
+| Master gland? | Pituitary |
+| Universal blood donor? | O (negative) |
+| Smallest bone? | Stapes |
+| Malaria is caused by? | Plasmodium (via female Anopheles) |
+| Test for typhoid? | Widal test |
+| Father of genetics? | Gregor Mendel |
+| Edible part of potato? | Stem (tuber) |
+| Hormone for fruit ripening? | Ethylene |
+
+## R6. Static GK & Technology
+| Concept question | Answer |
+| Number of spokes in the Ashoka Chakra? | 24 |
+| Playing time of the national anthem? | ≈ 52 seconds |
+| National aquatic animal? | Ganges river dolphin |
+| National Science Day? | 28 February |
+| Engineers' Day? | 15 September |
+| First Indian individual Olympic gold? | Abhinav Bindra (2008) |
+| Players in a kabaddi team on court? | 7 |
+| Ranji Trophy sport? | Cricket |
+| Thomas Cup sport? | Badminton |
+| 'Flying Sikh'? | Milkha Singh |
+| First Indian woman to climb Everest? | Bachendri Pal |
+| First Bharat Ratna recipients? | Rajagopalachari, Radhakrishnan, C.V. Raman (1954) |
+| First Dadasaheb Phalke awardee? | Devika Rani |
+| First Indian Nobel laureate? | Rabindranath Tagore (1913) |
+| Author of Rajatarangini? | Kalhana |
+| Author of Wings of Fire? | A.P.J. Abdul Kalam |
+| UN founded on? | 24 October 1945 |
+| UNESCO HQ? | Paris |
+| HQ of International Solar Alliance? | Gurugram |
+| First Indian satellite? | Aryabhata (1975) |
+| Chandrayaan-3 landed on? | 23 August 2023 |
+| Father of Indian space programme? | Vikram Sarabhai |
+| Father of the computer? | Charles Babbage |
+| Inventor of the World Wide Web? | Tim Berners-Lee |
+| 1 byte = ? | 8 bits |
+| Volatile memory? | RAM |
+| Protocol for sending email? | SMTP |
+| India's cyber law? | IT Act 2000 |
+| Inventor of the telephone? | Alexander Graham Bell |
+| Inventor of dynamite? | Alfred Nobel |

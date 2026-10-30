@@ -1,0 +1,131 @@
+# Indian Polity II – Institutions
+
+## 6.1 President (Articles 52–62)
+- Art 52: there shall be a President; Art 53: executive power of the Union vested in him; Supreme Commander of the defence forces.
+- Election (Art 54–55): indirectly, by an electoral college of elected members of both Houses of Parliament and elected members of state Legislative Assemblies (including Delhi and Puducherry, 70th Amendment). Nominated members and Legislative Councils do not vote. Proportional representation by single transferable vote; secret ballot. Disputes decided by the Supreme Court.
+- Qualifications: citizen, 35 years, qualified for Lok Sabha, no office of profit. Term 5 years; eligible for re-election. Oath administered by the Chief Justice of India. Resignation addressed to the Vice-President.
+- Impeachment (Art 61): only ground 'violation of the Constitution'; in either House; 14 days' notice signed by 1/4 members; passed by 2/3 of total membership of each House. Nominated members participate; state legislatures do not.
+- Powers: appoints PM, ministers, CJI & judges, Governors, CAG, CEC, Attorney General, UPSC chairman; summons and prorogues Parliament, dissolves Lok Sabha; addresses first session each year (Art 87); nominates 12 members to Rajya Sabha (Art 80) – (Anglo-Indian nomination to Lok Sabha ended by the 104th Amendment 2019).
+- Ordinance (Art 123): when Parliament is not in session; must be approved within 6 weeks of reassembly.
+- Pardoning power (Art 72): pardon, commutation, remission, respite, reprieve; including death sentences and court-martial.
+- Veto: absolute, suspensive (return once, except money bills), pocket (no time limit – used by Giani Zail Singh on the Indian Post Office (Amendment) Bill 1986). Money bills: cannot return; Constitutional amendment bills: must assent (24th Amendment).
+- Emergency powers: Art 352 (national – war, external aggression, armed rebellion; 'internal disturbance' replaced by 'armed rebellion' by 44th Amendment), Art 356 (President's Rule – failure of constitutional machinery; first in Punjab 1951), Art 360 (financial emergency – never imposed).
+- National emergencies proclaimed thrice: 1962 (China war), 1971 (Pakistan war), 1975 (internal disturbance, by Fakhruddin Ali Ahmed on Indira Gandhi's advice).
+| President | Note |
+| Dr. Rajendra Prasad | First; only one elected twice (1950–62) |
+| Dr. S. Radhakrishnan | Teachers' Day (5 Sept) on his birthday |
+| Dr. Zakir Hussain | First to die in office (1969); first Muslim President |
+| V.V. Giri | First acting President; elected as independent (second-preference count) |
+| Fakhruddin Ali Ahmed | Declared 1975 Emergency; died in office |
+| Neelam Sanjiva Reddy | Elected unopposed; also Lok Sabha Speaker |
+| Giani Zail Singh | Pocket veto; first Sikh President |
+| K.R. Narayanan | First Dalit President |
+| A.P.J. Abdul Kalam | 'Missile Man'; first scientist President |
+| Pratibha Patil | First woman President |
+| Ram Nath Kovind | 14th President |
+| Droupadi Murmu | 15th President (2022); first tribal woman President |
+F: Art 52 President | Art 61 impeachment | Art 72 pardon | Art 123 ordinance | Art 352/356/360 emergencies | Min age 35
+PYQ-TREND: Electoral college composition (who votes, who doesn't). Oath by CJI; resignation to VP. Impeachment ground. Art 123 ordinance, Art 72 pardon. Pocket veto (Zail Singh). Emergency articles. First woman / Dalit / tribal President. Rajendra Prasad only President elected twice.
+
+## 6.2 Vice-President, PM and Council of Ministers
+- Vice-President (Art 63–71): ex-officio Chairman of Rajya Sabha (Art 64); elected by members (elected + nominated) of both Houses of Parliament; age 35; qualified for Rajya Sabha; term 5 years; removed by Rajya Sabha resolution (effective majority) agreed by Lok Sabha (simple majority), 14 days' notice. First VP: S. Radhakrishnan.
+- Prime Minister (Art 74–75): Art 74 – Council of Ministers headed by PM to aid and advise the President (advice binding after 42nd & 44th Amendments; President can return once). Art 75 – PM appointed by President; ministers on PM's advice; collectively responsible to Lok Sabha; size limited to 15% of Lok Sabha strength (91st Amendment 2003).
+- Art 78: duty of PM to communicate decisions to the President.
+- Prime Ministers: Jawaharlal Nehru (first, longest), Gulzarilal Nanda (acting twice), Lal Bahadur Shastri (Tashkent, 1966), Indira Gandhi (first woman PM), Morarji Desai (first non-Congress PM; only Indian with Bharat Ratna and Nishan-e-Pakistan), Charan Singh (never faced Parliament), V.P. Singh, Chandra Shekhar, P.V. Narasimha Rao (1991 reforms), Atal Bihari Vajpayee, H.D. Deve Gowda, I.K. Gujral, Manmohan Singh, Narendra Modi.
+- Attorney General (Art 76): highest law officer; qualified to be SC judge; right to speak in Parliament but not vote; holds office during the pleasure of the President. Solicitor General is not a constitutional post. Advocate General – state (Art 165).
+F: Art 63 VP | Art 64 VP = RS Chairman | Art 74 CoM aids President | Art 75 PM appointment, 15% cap (91st) | Art 76 Attorney General
+PYQ-TREND: VP is ex-officio Chairman of Rajya Sabha. 15% limit on ministry size (91st Amendment). Attorney General can speak but not vote. Art 74 and 75. First non-Congress PM (Morarji Desai).
+
+## 6.3 Parliament (Articles 79–122)
+- Art 79: Parliament = President + Rajya Sabha + Lok Sabha.
+| Feature | Lok Sabha (House of the People) | Rajya Sabha (Council of States) |
+| Max strength | 552 (530 states + 20 UTs + 2 Anglo-Indian earlier; nomination ended 2020) | 250 (238 elected + 12 nominated) |
+| Present seats | 543 elected | 245 (233 + 12) |
+| Election | Direct, FPTP | By elected MLAs (STV); UT members by electoral college |
+| Minimum age | 25 | 30 |
+| Term | 5 years (can be dissolved) | Permanent; 1/3 retire every 2 years; member's term 6 years |
+| Presiding officer | Speaker (elected by members) | Chairman (VP, ex officio) |
+- Speaker: elected from members; resigns to the Deputy Speaker; casting vote only in a tie; certifies money bills (decision final); presides over joint sittings (Art 108); removed by effective majority resolution with 14 days' notice. First Speaker G.V. Mavalankar; first woman Speaker Meira Kumar. Pro-tem Speaker administers oaths to new members.
+- Sessions: at most 6 months between two sessions (Art 85) → at least two sessions a year; normally Budget, Monsoon and Winter sessions. Quorum: 1/10 of total membership (Art 100).
+- Bills: Ordinary bill – either House; deadlock → joint sitting (Art 108; held only 3 times: 1961 Dowry Prohibition, 1978 Banking Service Commission (Repeal), 2002 POTA). Money bill (Art 110) – only in Lok Sabha with President's recommendation; Rajya Sabha can delay 14 days only; no joint sitting. Financial bills (Art 117). Constitutional amendment bills – no joint sitting.
+- Budget: 'Annual Financial Statement' (Art 112); Consolidated Fund (Art 266), Contingency Fund (Art 267 – at President's disposal), Public Account. Appropriation Bill (Art 114), Finance Bill. Vote on Account; Cut motions (Policy Cut – reduce to ₹1; Economy Cut; Token Cut – reduce by ₹100).
+- Devices: Question Hour (first hour), Zero Hour (Indian innovation, from 1962; not in rules), adjournment motion (LS only), no-confidence motion (LS only; 50 members' support; Art 75 basis), censure motion, calling attention motion (Indian innovation), privilege motion.
+- Committees: Public Accounts Committee (22 members – 15 LS + 7 RS; chairman from Opposition by convention since 1967; examines CAG reports; 'twin sister' of Estimates Committee), Estimates Committee (30, all LS; 'continuous economy committee'), Committee on Public Undertakings (22).
+- Rajya Sabha's special powers: Art 249 (legislate on State List in national interest by 2/3 resolution), Art 312 (create new All-India Services).
+F: LS max 552, RS max 250 | Ages 25/30 | Art 108 joint sitting | Art 110 money bill | Art 112 budget | Quorum 1/10 | RS 12 nominated (Art 80)
+PYQ-TREND: Who certifies money bill (Speaker). Joint sitting presided by Speaker; held thrice. RS can hold money bill for 14 days. Zero Hour is an Indian innovation. PAC composition and chairman. RS powers under Art 249 and 312. First Speaker G.V. Mavalankar. Minimum ages. Members nominated to RS (12).
+WARN: The Vice-President chairs the Rajya Sabha but is not its member, so he cannot vote except in a tie.
+
+## 6.4 Judiciary
+- Supreme Court (Art 124–147): established 28 January 1950; originally CJI + 7 judges; now CJI + 33 (34 total, 2019 Act). Judges appointed by President via the collegium system (Second Judges case 1993, Third 1998; NJAC struck down in 2015). Age limit 65 years. Removal (Art 124(4)) by Parliament on proved misbehaviour or incapacity – special majority in each House (no judge has been removed; V. Ramaswami faced first motion, 1993).
+- Jurisdiction: original (Art 131 – Centre–State disputes), writ (Art 32), appellate (Art 132–134), advisory (Art 143 – President seeks opinion; not binding), court of record (Art 129), review (Art 137), complete justice (Art 142). Law declared by SC binding on all courts (Art 141).
+- High Courts (Art 214–231): judges retire at 62; Art 226 writs (wider than SC's); common HC for two or more states (Art 231). 25 HCs now; oldest Calcutta (1862), along with Bombay and Madras (1862); Allahabad (1866) is the largest. Telangana and Andhra HCs separated in 2019.
+- Lok Adalats: statutory under Legal Services Authorities Act 1987 (NALSA); first held at Junagadh, Gujarat (1982). Public Interest Litigation introduced by Justices P.N. Bhagwati and V.R. Krishna Iyer.
+- Landmark cases: Golaknath (1967 – Parliament can't amend FRs), Kesavananda Bharati (1973 – basic structure doctrine; 13-judge bench, largest), Minerva Mills (1980), Maneka Gandhi (1978 – Art 21 expanded, 'procedure established by law' must be fair), Indra Sawhney (1992 – OBC reservation, 50% ceiling, creamy layer), S.R. Bommai (1994 – President's Rule limits, secularism basic structure), Vishaka (1997 – sexual harassment guidelines), K.S. Puttaswamy (2017 – privacy), Shayara Bano (2017 – triple talaq).
+F: SC judges retire 65, HC judges 62 | Art 32 & 226 writs | Art 131 original | Art 143 advisory | Kesavananda 1973 – basic structure | Lok Adalat Act 1987
+PYQ-TREND: Retirement ages of SC and HC judges. Art 143 advisory jurisdiction. Basic structure doctrine case. Oldest High Court. Collegium and NJAC. First Lok Adalat at Junagadh. PIL originators. Removal procedure of judges.
+
+## 6.5 States, Local Government and Union Territories
+- Governor (Art 153–162): appointed by President; holds office during the pleasure of the President; age 35; one person can be Governor of two or more states (7th Amendment 1956). Can reserve bills for President (Art 200–201). Ordinance power (Art 213). Pardon (Art 161) – but not for death sentences.
+- Chief Minister appointed by Governor (Art 164). Legislative Councils (Art 169 – created/abolished by Parliament on the Assembly's resolution); currently in 6 states: Andhra Pradesh, Bihar, Karnataka, Maharashtra, Telangana, Uttar Pradesh. Assembly size 60–500 (exceptions: Sikkim 32, Goa 40, Mizoram 40, Puducherry 33).
+- Panchayati Raj: Balwant Rai Mehta Committee (1957) recommended three-tier system; first introduced at Nagaur, Rajasthan (2 October 1959) by Nehru; then Andhra Pradesh. Ashok Mehta Committee (1977) – two-tier. L.M. Singhvi – constitutional status. 73rd Amendment (1992; in force 24 April 1993 – National Panchayati Raj Day): Part IX, 11th Schedule (29 subjects), three tiers, 1/3 seats for women, 5-year term, State Election Commission, State Finance Commission (every 5 years), Gram Sabha.
+- Urban local bodies: 74th Amendment (1992): Part IX-A, 12th Schedule (18 subjects); Nagar Panchayat, Municipal Council, Municipal Corporation; first municipal corporation – Madras (1688).
+- Delhi: National Capital Territory (69th Amendment 1991, Art 239AA). Puducherry also has an assembly. J&K UT has an assembly; Ladakh does not.
+F: Panchayati Raj first – Nagaur, 2 Oct 1959 | 73rd (Panchayat, 29 subjects) & 74th (Municipal, 18 subjects) Amendments 1992 | Legislative Councils in 6 states
+PYQ-TREND: Balwant Rai Mehta Committee and three tiers. First state with Panchayati Raj (Rajasthan, Nagaur). 73rd/74th Amendments details. Women's reservation 1/3 in local bodies. States having Legislative Councils. Governor's pardon power excludes death sentence. Art 239AA Delhi.
+
+## 6.6 Constitutional and Other Bodies
+| Body | Article / basis | Key facts |
+| Election Commission | Art 324 | Multi-member since 1993 (CEC + 2 ECs); first CEC Sukumar Sen; CEC removed like an SC judge |
+| UPSC | Art 315–323 | Chairman & members appointed by President; term 6 years or age 65; annual report to President |
+| Finance Commission | Art 280 | Every 5 years; chairman + 4 members; centre–state tax sharing; 1st chaired by K.C. Neogy; 15th by N.K. Singh; 16th by Arvind Panagariya |
+| CAG | Art 148–151 | 'Guardian of the public purse'; 6 years or 65; removed like SC judge; reports to President → Parliament (PAC) |
+| Attorney General | Art 76 | – |
+| National Commission for SCs | Art 338 | Separate from STs after 89th Amendment (2003) |
+| National Commission for STs | Art 338A | 89th Amendment |
+| National Commission for Backward Classes | Art 338B | 102nd Amendment (2018) |
+| GST Council | Art 279A | 101st Amendment (2016); chaired by Union Finance Minister |
+| Inter-State Council | Art 263 | Sarkaria Commission recommendation; set up 1990 |
+| Special Officer for Linguistic Minorities | Art 350B | 7th Amendment |
+- Non-constitutional (statutory/executive) bodies: NITI Aayog (1 January 2015; replaced Planning Commission of 1950; chairman PM; executive resolution), National Human Rights Commission (1993, Protection of Human Rights Act; chairman a retired CJI or SC judge), Central Information Commission (RTI Act 2005), Central Vigilance Commission (Santhanam Committee; statutory 2003), CBI (1963; Delhi Special Police Establishment Act 1946), Lokpal (Act 2013; first Lokpal Justice P.C. Ghose, 2019), National Commission for Women (1992), National Green Tribunal (2010).
+F: Art 148 CAG | Art 280 Finance Commission | Art 315 UPSC | Art 324 Election Commission | Art 279A GST Council | NITI Aayog 1 Jan 2015
+PYQ-TREND: Articles for CAG, Finance Commission, Election Commission, UPSC. First CEC Sukumar Sen. NITI Aayog date and nature (non-constitutional). NHRC year. GST Council article and chairman. CAG called guardian of public purse.
+
+## 6.7 Important Constitutional Amendments
+| Amendment | Year | Key change |
+| 1st | 1951 | Ninth Schedule; restrictions on free speech; special provisions for backward classes |
+| 7th | 1956 | Reorganisation of states (A, B, C, D categories abolished) |
+| 10th | 1961 | Dadra & Nagar Haveli |
+| 12th | 1962 | Goa, Daman & Diu |
+| 21st | 1967 | Sindhi language |
+| 24th | 1971 | Parliament can amend any part including FRs; President must assent to amendment bills |
+| 26th | 1971 | Abolished privy purses |
+| 31st | 1973 | Lok Sabha seats raised to 545 |
+| 36th | 1975 | Sikkim became a full state |
+| 42nd | 1976 | 'Mini Constitution' – Socialist, Secular, Integrity; Fundamental Duties; 5 subjects to Concurrent List; tribunals; CoM advice binding |
+| 44th | 1978 | Right to property removed from FR; 'armed rebellion' for 'internal disturbance'; Arts 20–21 not suspendable |
+| 52nd | 1985 | Anti-defection law (10th Schedule) |
+| 61st | 1989 | Voting age lowered from 21 to 18 |
+| 69th | 1991 | Delhi as National Capital Territory |
+| 73rd / 74th | 1992 | Panchayats / Municipalities |
+| 86th | 2002 | Art 21A (education 6–14); Art 45 changed; 11th Fundamental Duty |
+| 91st | 2003 | Ministry size limited to 15%; defection by splits ended |
+| 92nd | 2003 | Bodo, Dogri, Maithili, Santhali |
+| 97th | 2011 | Co-operative societies (Art 19(1)(c), Part IX-B, Art 43B) |
+| 99th | 2014 | NJAC (struck down 2015) |
+| 100th | 2015 | Land Boundary Agreement with Bangladesh |
+| 101st | 2016 | GST |
+| 102nd | 2018 | National Commission for Backward Classes |
+| 103rd | 2019 | 10% EWS reservation |
+| 104th | 2020 | SC/ST reservation in legislatures extended to 2030; Anglo-Indian nomination ended |
+| 106th | 2023 | Nari Shakti Vandan Adhiniyam – 1/3 seats for women in Lok Sabha and Assemblies (after delimitation) |
+- Article 368: amendment procedure – simple majority (outside 368, e.g., new states), special majority (2/3 present and voting + majority of total membership), special majority + ratification by half the states (federal provisions, e.g., GST, election of President, judiciary).
+F: 42nd – mini constitution | 44th – property removed | 52nd – anti-defection | 61st – voting age 18 | 73rd/74th – local bodies | 101st – GST | 103rd – EWS | 106th – women's reservation
+PYQ-TREND: 42nd as 'mini constitution'. 61st lowered voting age to 18. 52nd anti-defection. 86th education. 101st GST. 103rd EWS 10%. 106th women's reservation. 24th assent compulsory. 36th Sikkim. Article 368.
+
+## 6.8 Elections and Political Parties
+- Representation of the People Acts 1950 (electoral rolls, seat allocation) and 1951 (conduct of elections). First general election 1951–52 (Oct 1951 – Feb 1952). EVMs first used in Paravur (Kerala) in 1982; VVPAT first in Noksen (Nagaland) 2013. NOTA introduced 2013 (PUCL case). National Voters' Day 25 January (EC founded 25 Jan 1950).
+- Delimitation Commission (Art 82, 170); seat allocation frozen on 1971 census until after 2026 (84th Amendment).
+- Recognition as national party by Election Commission based on vote share/seats in Lok Sabha or state recognition in 4 states.
+F: First general election 1951–52 | EVM – Paravur 1982 | NOTA 2013 | National Voters' Day 25 Jan
+PYQ-TREND: First use of EVM. NOTA year. National Voters' Day date. Articles 324–329 on elections. Voting age 18 (61st Amendment).

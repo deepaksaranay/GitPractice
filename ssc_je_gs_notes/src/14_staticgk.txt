@@ -1,0 +1,407 @@
+# Static GK II – Books, Awards, Days, Firsts, Organisations
+
+## 14.1 National Symbols of India
+| Symbol | Fact |
+| National Flag | Tiranga; ratio 3:2; saffron (courage), white (peace, truth), green (faith, fertility); Ashoka Chakra navy blue with 24 spokes; designed by Pingali Venkayya; adopted 22 July 1947; Flag Code 2002 (amended 2022 – polyester/machine-made allowed, 'Har Ghar Tiranga') |
+| National Emblem | Lion Capital of Ashoka at Sarnath; adopted 26 Jan 1950; 'Satyameva Jayate' (Mundaka Upanishad) in Devanagari; 4 lions (3 visible), bull (left), horse (right), wheel |
+| National Anthem | Jana Gana Mana – Rabindranath Tagore; adopted 24 Jan 1950; first sung 27 Dec 1911 (Calcutta INC); playing time ≈ 52 seconds (short version ≈ 20 s); originally in Bengali (Bharoto Bhagyo Bidhata) |
+| National Song | Vande Mataram – Bankim Chandra Chatterjee, from Anandamath (1882); first sung by Tagore at 1896 Calcutta INC session; equal status with anthem |
+| National Calendar | Saka calendar (from 22 March 1957); Chaitra first month |
+| National Animal | Tiger (Panthera tigris), since 1973 (earlier lion) |
+| National Heritage Animal | Elephant (2010) |
+| National Bird | Indian Peacock (Pavo cristatus), 1963 |
+| National Flower | Lotus (Nelumbo nucifera) |
+| National Tree | Banyan (Ficus benghalensis) |
+| National Fruit | Mango |
+| National Aquatic Animal | Ganges river dolphin (2009) |
+| National River | Ganga (2008) |
+| National Reptile | King cobra |
+| National Currency symbol | ₹ – designed by D. Udaya Kumar (2010) |
+| National Micro-organism | Lactobacillus delbrueckii (2012) |
+| Pledge | Written by P.V. Subba Rao (1962, Telugu) |
+F: Flag 3:2, 24 spokes, 22 July 1947 | Anthem 24 Jan 1950 (52 s) | Emblem – Sarnath, 26 Jan 1950 | National calendar – Saka (22 Mar 1957) | Tiger 1973 | Dolphin 2009 | ₹ symbol 2010
+PYQ-TREND: Flag ratio and spokes, designer Pingali Venkayya. Anthem duration (52 s) and first singing. Source of 'Satyameva Jayate'. National aquatic animal (dolphin), heritage animal (elephant). ₹ symbol designer. Vande Mataram source (Anandamath).
+
+## 14.2 Important Days
+| Date | Day |
+| 9 January | Pravasi Bharatiya Divas (Gandhi's return 1915) |
+| 12 January | National Youth Day (Vivekananda's birthday) |
+| 15 January | Army Day (K.M. Cariappa took over 1949) |
+| 23 January | Parakram Divas (Subhas Chandra Bose) |
+| 24 January | National Girl Child Day |
+| 25 January | National Voters' Day; National Tourism Day |
+| 26 January | Republic Day; International Customs Day |
+| 30 January | Martyrs' Day (Shaheed Diwas); Anti-Leprosy Day |
+| 4 February | World Cancer Day |
+| 13 February | World Radio Day; National Women's Day (Sarojini Naidu's birthday) |
+| 21 February | International Mother Language Day |
+| 24 February | Central Excise Day |
+| 28 February | National Science Day (Raman effect, 1928) |
+| 8 March | International Women's Day |
+| 15 March | World Consumer Rights Day |
+| 21 March | World Forestry Day; International Day of Forests |
+| 22 March | World Water Day |
+| 23 March | World Meteorological Day; Shaheed Diwas (Bhagat Singh, Rajguru, Sukhdev) |
+| 24 March | World TB Day |
+| 7 April | World Health Day (WHO founded 1948) |
+| 13 April | Jallianwala Bagh Day |
+| 14 April | Ambedkar Jayanti |
+| 18 April | World Heritage Day |
+| 21 April | Civil Services Day |
+| 22 April | Earth Day |
+| 23 April | World Book & Copyright Day |
+| 24 April | National Panchayati Raj Day |
+| 1 May | International Labour Day; Maharashtra & Gujarat Day |
+| 3 May | World Press Freedom Day |
+| 8 May | World Red Cross Day (Henry Dunant's birthday) |
+| 11 May | National Technology Day (Pokhran-II, 1998) |
+| 15 May | International Day of Families |
+| 21 May | Anti-Terrorism Day (Rajiv Gandhi's death anniversary) |
+| 22 May | International Day for Biological Diversity |
+| 31 May | World No Tobacco Day |
+| 1 June | World Milk Day |
+| 5 June | World Environment Day |
+| 8 June | World Oceans Day |
+| 12 June | World Day Against Child Labour |
+| 14 June | World Blood Donor Day |
+| 21 June | International Yoga Day (from 2015) |
+| 1 July | National Doctors' Day (B.C. Roy); GST Day; CA Day |
+| 11 July | World Population Day |
+| 26 July | Kargil Vijay Diwas (1999) |
+| 29 July | International Tiger Day |
+| 7 August | National Handloom Day (Swadeshi movement 1905) |
+| 9 August | Quit India Day; International Day of the World's Indigenous Peoples |
+| 12 August | International Youth Day; World Elephant Day |
+| 15 August | Independence Day |
+| 29 August | National Sports Day (Dhyan Chand) |
+| 5 September | Teachers' Day (S. Radhakrishnan) |
+| 8 September | International Literacy Day |
+| 14 September | Hindi Divas |
+| 15 September | Engineers' Day (M. Visvesvaraya) |
+| 16 September | World Ozone Day |
+| 27 September | World Tourism Day |
+| 1 October | International Day of Older Persons |
+| 2 October | Gandhi Jayanti; International Day of Non-Violence |
+| 8 October | Indian Air Force Day |
+| 10 October | World Mental Health Day; National Postal Day (9 Oct World Post Day) |
+| 16 October | World Food Day (FAO) |
+| 24 October | United Nations Day |
+| 31 October | Rashtriya Ekta Diwas (Sardar Patel) |
+| 11 November | National Education Day (Maulana Azad) |
+| 14 November | Children's Day (Nehru); World Diabetes Day |
+| 19 November | International Men's Day; World Toilet Day |
+| 26 November | Constitution Day (Samvidhan Divas); National Milk Day (Verghese Kurien) |
+| 1 December | World AIDS Day |
+| 2 December | National Pollution Control Day (Bhopal) |
+| 3 December | International Day of Persons with Disabilities |
+| 4 December | Indian Navy Day |
+| 7 December | Armed Forces Flag Day |
+| 10 December | Human Rights Day |
+| 14 December | National Energy Conservation Day |
+| 16 December | Vijay Diwas (1971 war) |
+| 22 December | National Mathematics Day (Ramanujan) |
+| 23 December | Kisan Diwas (Charan Singh) |
+| 24 December | National Consumer Day |
+| 25 December | Good Governance Day (Vajpayee) |
+F: 28 Feb – Science | 5 Jun – Environment | 21 Jun – Yoga | 1 Jul – Doctors | 29 Aug – Sports | 5 Sep – Teachers | 15 Sep – Engineers | 31 Oct – Ekta | 26 Nov – Constitution | 22 Dec – Mathematics
+PYQ-TREND: National Science Day reason, Engineers' Day (Visvesvaraya), Teachers' Day, National Sports Day, Constitution Day, Yoga Day, World Environment Day, Kargil Vijay Diwas, Army/Navy/Air Force days, National Youth Day, Good Governance Day, Rashtriya Ekta Diwas.
+
+## 14.3 Famous Books and Authors
+| Book | Author |
+| Arthashastra | Kautilya |
+| Indica | Megasthenes |
+| Abhijnanashakuntalam, Meghaduta, Raghuvamsha | Kalidasa |
+| Mudrarakshasa | Vishakhadatta |
+| Mrichchhakatika | Shudraka |
+| Panchatantra | Vishnu Sharma |
+| Kamasutra | Vatsyayana |
+| Rajatarangini | Kalhana (history of Kashmir; first historical chronicle) |
+| Gita Govinda | Jayadeva |
+| Prithviraj Raso | Chand Bardai |
+| Ain-i-Akbari, Akbarnama | Abul Fazl |
+| Baburnama (Tuzuk-i-Baburi) | Babur |
+| Humayunnama | Gulbadan Begum |
+| Padmavat | Malik Muhammad Jayasi |
+| Ramcharitmanas | Tulsidas |
+| Gitanjali, Gora, Ghare Baire, Kabuliwala | Rabindranath Tagore |
+| Anandamath, Durgeshnandini | Bankim Chandra Chatterjee |
+| Devdas, Parineeta, Srikanta | Sarat Chandra Chattopadhyay |
+| Godan, Gaban, Nirmala, Rangbhoomi, Kafan | Munshi Premchand |
+| Madhushala | Harivansh Rai Bachchan |
+| Kamayani | Jaishankar Prasad |
+| Rashmirathi, Urvashi | Ramdhari Singh 'Dinkar' |
+| Hind Swaraj, My Experiments with Truth | Mahatma Gandhi |
+| Discovery of India, Glimpses of World History, An Autobiography | Jawaharlal Nehru |
+| Annihilation of Caste, Who Were the Shudras | B.R. Ambedkar |
+| Wings of Fire, Ignited Minds, India 2020 | A.P.J. Abdul Kalam (Wings of Fire with Arun Tiwari) |
+| Poverty and Un-British Rule in India | Dadabhai Naoroji |
+| India Wins Freedom | Maulana Abul Kalam Azad |
+| Unhappy India | Lala Lajpat Rai |
+| The Indian Struggle | Subhas Chandra Bose |
+| Gita Rahasya | Bal Gangadhar Tilak |
+| Why I Am an Atheist | Bhagat Singh |
+| Train to Pakistan, Delhi | Khushwant Singh |
+| Malgudi Days, The Guide, Swami and Friends | R.K. Narayan |
+| Untouchable, Coolie | Mulk Raj Anand |
+| The God of Small Things | Arundhati Roy (Booker 1997) |
+| Midnight's Children | Salman Rushdie (Booker 1981, Booker of Bookers) |
+| The White Tiger | Aravind Adiga (Booker 2008) |
+| The Inheritance of Loss | Kiran Desai (Booker 2006) |
+| Tomb of Sand (Ret Samadhi) | Geetanjali Shree (International Booker 2022; translated by Daisy Rockwell) |
+| A Suitable Boy | Vikram Seth |
+| The Argumentative Indian, Development as Freedom, Idea of Justice | Amartya Sen |
+| India Divided | Rajendra Prasad |
+| The Last Mughal, White Mughals | William Dalrymple |
+| A Passage to India | E.M. Forster |
+| The Jungle Book, Kim | Rudyard Kipling (Nobel 1907; born in Bombay) |
+| War and Peace, Anna Karenina | Leo Tolstoy |
+| Das Kapital, Communist Manifesto (with Engels) | Karl Marx |
+| The Republic | Plato |
+| Politics | Aristotle |
+| The Prince | Niccolò Machiavelli |
+| Origin of Species | Charles Darwin |
+| Hamlet, Macbeth, Othello, Romeo and Juliet | William Shakespeare |
+| Mein Kampf | Adolf Hitler |
+| A Brief History of Time | Stephen Hawking |
+| Long Walk to Freedom | Nelson Mandela |
+| The Old Man and the Sea | Ernest Hemingway |
+| Harry Potter series | J.K. Rowling |
+| Gulliver's Travels | Jonathan Swift |
+| Don Quixote | Miguel de Cervantes |
+| 1984, Animal Farm | George Orwell (born Motihari, Bihar) |
+| Dreams from My Father, A Promised Land | Barack Obama |
+| Playing It My Way | Sachin Tendulkar |
+| The Test of My Life | Yuvraj Singh |
+| Unbreakable | Mary Kom |
+| The Race of My Life | Milkha Singh |
+| Ace Against Odds | Sania Mirza |
+| Straight from the Heart | Kapil Dev |
+| Sunny Days | Sunil Gavaskar |
+| 281 and Beyond | V.V.S. Laxman |
+| The Insider | P.V. Narasimha Rao |
+| Exam Warriors | Narendra Modi |
+PYQ-TREND: Book–author matching (very frequent): Rajatarangini, Gita Govinda, Anandamath, Godan, Discovery of India, Wings of Fire, Midnight's Children, Tomb of Sand, India Wins Freedom, Untouchable. Sports autobiographies (Playing It My Way, Unbreakable, Race of My Life). Booker-winning Indians.
+
+## 14.4 Awards and Honours
+- Bharat Ratna (instituted 2 January 1954): highest civilian award; maximum 3 per year (exceeded in 2024 with 5). First recipients (1954): C. Rajagopalachari, S. Radhakrishnan, C.V. Raman. First posthumous – Lal Bahadur Shastri (1966); first woman – Indira Gandhi (1971); first foreigner – Khan Abdul Ghaffar Khan (1987, 'Frontier Gandhi'); Nelson Mandela (1990); first sportsperson – Sachin Tendulkar (2014); 2024 awardees – Karpoori Thakur, L.K. Advani, P.V. Narasimha Rao, Chaudhary Charan Singh, M.S. Swaminathan. It is a medallion shaped like a peepal leaf.
+- Padma awards (1954): Padma Vibhushan > Padma Bhushan > Padma Shri; announced on Republic Day eve.
+- Gallantry (wartime): Param Vir Chakra (highest; first – Major Somnath Sharma, 1947, posthumous; designed by Savitri Khanolkar), Maha Vir Chakra, Vir Chakra. Peacetime: Ashoka Chakra, Kirti Chakra, Shaurya Chakra.
+- Literature: Jnanpith (1961; first awarded 1965 – G. Sankara Kurup, Malayalam, 'Odakkuzhal'; first woman – Ashapurna Devi, 1976, Bengali); Sahitya Akademi Award (1954); Saraswati Samman (K.K. Birla Foundation, 1991); Vyas Samman (Hindi); Booker Prize (UK); Pulitzer Prize (USA, journalism & literature).
+- Cinema: Dadasaheb Phalke Award (1969; highest in Indian cinema; first – Devika Rani, 'First Lady of Indian Cinema'); National Film Awards; Oscars (Academy Awards, USA – first Indian winner Bhanu Athaiya, costume design, Gandhi 1983; Satyajit Ray honorary Oscar 1992; A.R. Rahman – 2 Oscars (Slumdog Millionaire, 2009); 'Naatu Naatu' (RRR) – best original song 2023; 'The Elephant Whisperers' – documentary short 2023).
+- Nobel Prize (1901; Alfred Nobel – inventor of dynamite; awarded in Stockholm, Peace Prize in Oslo; economics added 1968 (Sveriges Riksbank prize)). Indians/Indian-origin laureates: Rabindranath Tagore (Literature 1913 – first Indian & first Asian), C.V. Raman (Physics 1930), Har Gobind Khorana (Medicine 1968), Mother Teresa (Peace 1979), S. Chandrasekhar (Physics 1983), Amartya Sen (Economics 1998), V.S. Naipaul (Literature 2001), Venkatraman Ramakrishnan (Chemistry 2009), Kailash Satyarthi (Peace 2014, with Malala Yousafzai), Abhijit Banerjee (Economics 2019).
+- Ramon Magsaysay Award (Philippines; 'Asia's Nobel'): Vinoba Bhave (first Indian, 1958), Mother Teresa, Kiran Bedi, Arvind Kejriwal, Ravish Kumar, etc.
+- Other: Templeton Prize (religion), Pritzker (architecture; B.V. Doshi first Indian, 2018), Abel Prize & Fields Medal (mathematics; Fields every 4 years, under 40 – Manjul Bhargava, Indian-origin, 2014), Kalinga Prize (UNESCO, popularisation of science; instituted by Biju Patnaik), Gandhi Peace Prize (1995; first – Julius Nyerere), Indira Gandhi Peace Prize, Shanti Swarup Bhatnagar Prize (science; now replaced by Rashtriya Vigyan Puraskar from 2023, highest – Vigyan Ratna), Borlaug Award (agriculture), Tansen Samman (music), Kalidas Samman (MP), Lal Bahadur Shastri award, Hoover Medal (engineering for humanity).
+F: Bharat Ratna 1954 (first: Rajaji, Radhakrishnan, Raman) | Jnanpith first – G. Sankara Kurup 1965 | Phalke first – Devika Rani 1969 | First Indian Nobel – Tagore 1913 | First Oscar – Bhanu Athaiya | Param Vir Chakra first – Somnath Sharma
+PYQ-TREND: First Bharat Ratna recipients, first woman/foreigner/sportsperson. Jnanpith first recipient and language. Dadasaheb Phalke first recipient. Indian Nobel laureates with fields and years. Magsaysay as Asia's Nobel. Fields medal field (mathematics). Pritzker (architecture). Gallantry awards order. Recent Bharat Ratna (2024).
+WARN: Every year new Padma, Phalke, Jnanpith, Nobel and Booker winners are announced. Check the last year's list from current affairs.
+
+## 14.5 Indian Firsts
+| First | Person |
+| President | Dr. Rajendra Prasad |
+| Vice-President | Dr. S. Radhakrishnan |
+| Prime Minister | Jawaharlal Nehru |
+| Governor-General of free India | Lord Mountbatten (Indian: C. Rajagopalachari) |
+| Chief Justice of India | H.J. Kania |
+| Woman President | Pratibha Patil |
+| Woman PM | Indira Gandhi |
+| Woman Governor | Sarojini Naidu (UP, 1947) |
+| Woman CM | Sucheta Kripalani (UP, 1963) |
+| Woman Union Minister | Rajkumari Amrit Kaur (Health) |
+| Woman Supreme Court judge | Fathima Beevi (1989) |
+| Woman Speaker of Lok Sabha | Meira Kumar |
+| Woman IPS officer | Kiran Bedi (1972) |
+| Woman IAS officer | Anna Rajam Malhotra |
+| Woman astronaut (Indian-origin) | Kalpana Chawla (Columbia, 1997; died 2003) |
+| Indian in space | Rakesh Sharma (Soyuz T-11, 1984; 'Saare Jahan Se Achha') |
+| Indian on the ISS | Shubhanshu Shukla (Axiom-4 mission, 2025) |
+| Woman to climb Everest | Bachendri Pal |
+| Miss Universe | Sushmita Sen (1994) |
+| Miss World | Reita Faria (1966) |
+| Woman to win Nobel (in India) | Mother Teresa |
+| Muslim President | Dr. Zakir Hussain |
+| Chief Election Commissioner | Sukumar Sen |
+| Field Marshal | Sam Manekshaw (1973); second – K.M. Cariappa |
+| Commander-in-Chief (Indian) | K.M. Cariappa |
+| Indian to swim English Channel | Mihir Sen |
+| Indian Grandmaster | Viswanathan Anand |
+| Indian ICS officer | Satyendranath Tagore (1863/64) |
+| Woman doctor (Western medicine) | Anandi Gopal Joshi / Kadambini Ganguly |
+| Woman teacher | Savitribai Phule |
+| Woman pilot | Sarla Thakral (1936) |
+| Woman fighter pilots | Avani Chaturvedi, Bhawana Kanth, Mohana Singh (2016) |
+| Indian woman in Antarctica | Mehar Moosa (1976) |
+| Indian woman to win Olympic medal | Karnam Malleswari |
+| Indian talkie film | Alam Ara (1931; Ardeshir Irani) |
+| Indian feature film | Raja Harishchandra (1913; Dadasaheb Phalke) |
+| Indian colour film | Kisan Kanya (1937) |
+| Indian satellite | Aryabhata (19 April 1975, Soviet rocket) |
+| Indian-built launch from India (satellite) | Rohini (SLV-3, 1980) |
+| Nuclear test | Pokhran, 18 May 1974 ('Smiling Buddha'); Pokhran-II 11 & 13 May 1998 (Operation Shakti) |
+| Indian bank | Bank of Hindostan (1770) |
+| Newspaper | Hicky's Bengal Gazette (1780; James Augustus Hicky) |
+| Indian university (modern) | Calcutta, Bombay, Madras (1857) |
+| Railway | Bombay–Thane (1853) |
+| Metro | Kolkata (1984) |
+| Airline | Tata Airlines (1932; J.R.D. Tata first licensed pilot) |
+| Telegraph line | Calcutta–Diamond Harbour (1851) |
+| Television | Delhi (1959) |
+| Indian woman to preside over the UN General Assembly | Vijaya Lakshmi Pandit (1953) |
+F: First Indian in space – Rakesh Sharma 1984 | First satellite – Aryabhata 1975 | First talkie – Alam Ara 1931 | First film – Raja Harishchandra 1913 | First woman CM – Sucheta Kripalani | First woman Governor – Sarojini Naidu | First Field Marshal – Manekshaw
+PYQ-TREND: Women firsts (CM, Governor, SC judge, IPS, Union minister). First Indian in space. First talkie and feature film. First satellite. Field Marshals. First CJI. Pokhran tests. First newspaper.
+
+## 14.6 International Organisations
+| Organisation | HQ | Key facts |
+| United Nations | New York | Founded 24 Oct 1945; 193 members; Charter signed in San Francisco (June 1945); six principal organs; Security Council – 15 members (5 permanent with veto: USA, UK, France, Russia, China); India founding member |
+| International Court of Justice | The Hague | 15 judges, 9-year term |
+| UNESCO | Paris | Education, science, culture; World Heritage |
+| UNICEF | New York | Children (1946); Nobel 1965 |
+| WHO | Geneva | 7 April 1948 |
+| ILO | Geneva | 1919; Nobel 1969 |
+| WTO | Geneva | 1 Jan 1995 |
+| FAO | Rome | Food & agriculture (16 Oct) |
+| IFAD, WFP | Rome | Agriculture development; World Food Programme (Nobel 2020) |
+| IMF, World Bank | Washington DC | Bretton Woods 1944 |
+| IAEA | Vienna | Atomic energy ('Atoms for Peace') |
+| UNIDO, OPEC | Vienna | – |
+| UNEP | Nairobi | Environment (1972) |
+| UN-Habitat | Nairobi | – |
+| UNHCR | Geneva | Refugees (Nobel twice) |
+| Red Cross (ICRC) | Geneva | Henry Dunant, 1863; Nobel three times |
+| Interpol | Lyon (France) | Police cooperation |
+| Amnesty International | London | Human rights |
+| WWF | Gland (Switzerland) | Panda logo |
+| Greenpeace | Amsterdam | Environment |
+| IUCN | Gland | Red List |
+| NATO | Brussels | 1949; military alliance; latest members Finland (2023), Sweden (2024) |
+| European Union | Brussels | Euro currency |
+| ASEAN | Jakarta | 1967 (Bangkok Declaration); 10 long-standing members, Timor-Leste being admitted as the 11th |
+| SAARC | Kathmandu | 1985 (Dhaka); 8 members (Afghanistan joined 2007) |
+| BIMSTEC | Dhaka | 1997; 7 members |
+| SCO | Beijing | 2001; India joined 2017 |
+| BRICS | – (NDB in Shanghai) | Brazil, Russia, India, China, South Africa + new members (Egypt, Ethiopia, Iran, UAE, Indonesia) |
+| G20 | No permanent HQ | India presided 2023 (New Delhi summit; African Union admitted as member) |
+| Commonwealth | London | 56 members |
+| African Union | Addis Ababa | – |
+| APEC | Singapore | India not a member |
+| OECD | Paris | – |
+| OIC | Jeddah | – |
+| Asian Development Bank | Manila | 1966 |
+| AIIB | Beijing | 2016 |
+| International Solar Alliance | Gurugram (India) | 2015; India–France initiative; first international body with HQ in India |
+| International Big Cat Alliance | India | 2023 |
+| World Economic Forum | Cologny/Geneva | Davos meetings |
+| FATF | Paris | Money laundering |
+| International Olympic Committee | Lausanne | – |
+| FIFA | Zurich | – |
+| ICC (cricket) | Dubai | – |
+| International Criminal Court | The Hague | – |
+- UN Secretaries-General: Trygve Lie (first), Dag Hammarskjöld, U Thant, Kurt Waldheim, Javier Pérez de Cuéllar, Boutros Boutros-Ghali, Kofi Annan, Ban Ki-moon, António Guterres (term to 2026).
+- UN official languages (6): English, French, Spanish, Russian, Chinese, Arabic.
+F: UN 24 Oct 1945 (193 members) | P5 – USA, UK, France, Russia, China | ICJ – The Hague | WHO, ILO, WTO – Geneva | UNESCO – Paris | FAO – Rome | IAEA – Vienna | UNEP – Nairobi | ISA – Gurugram
+PYQ-TREND: HQ of organisations (WHO, UNESCO, UNEP, IAEA, FAO, Interpol, Amnesty, WWF, ASEAN, SAARC). UN Security Council P5. UN founding date. First international organisation with HQ in India (ISA). SAARC members. G20 presidency of India. UN official languages.
+
+## 14.7 Indian Organisations, HQs and Defence
+| Organisation | HQ |
+| ISRO | Bengaluru |
+| DRDO | New Delhi |
+| BARC | Mumbai (Trombay) |
+| RBI, SEBI, NABARD, BSE, NSE | Mumbai |
+| SIDBI | Lucknow |
+| NITI Aayog, ICAR, ICMR, CSIR | New Delhi |
+| Indian Institute of Science | Bengaluru |
+| Botanical Survey of India | Kolkata |
+| Zoological Survey of India | Kolkata |
+| Geological Survey of India | Kolkata |
+| Survey of India | Dehradun |
+| Archaeological Survey of India | New Delhi |
+| Forest Research Institute | Dehradun |
+| Central Rice Research Institute | Cuttack |
+| Central Drug Research Institute | Lucknow |
+| National Dairy Research Institute | Karnal |
+| Central Potato Research Institute | Shimla |
+| National Institute of Oceanography | Goa |
+| Indian Institute of Astrophysics | Bengaluru |
+| Physical Research Laboratory | Ahmedabad |
+| National Remote Sensing Centre | Hyderabad |
+| Vikram Sarabhai Space Centre | Thiruvananthapuram |
+| Satish Dhawan Space Centre (launch site) | Sriharikota, Andhra Pradesh |
+| Indian Meteorological Department | New Delhi (founded 1875, Calcutta) |
+| Coal India Ltd. | Kolkata |
+| ONGC | New Delhi (registered), Dehradun |
+| BHEL, GAIL, NTPC, SAIL | New Delhi |
+| HAL | Bengaluru |
+| Bharat Electronics | Bengaluru |
+| Indian Railways zones | – (see Geography) |
+- Defence: Army (HQ New Delhi; 7 commands), Navy (Indian Navy Day 4 Dec – Operation Trident 1971), Air Force (founded 8 October 1932). President is the Supreme Commander. Chief of Defence Staff post created 2019 (first – Gen. Bipin Rawat, 1 Jan 2020). Department of Military Affairs (2020).
+- Training: National Defence Academy (Khadakwasla, Pune), Indian Military Academy (Dehradun), Air Force Academy (Dundigal, Hyderabad), Indian Naval Academy (Ezhimala, Kerala), Officers Training Academy (Chennai), Defence Services Staff College (Wellington), National Defence College (New Delhi), High Altitude Warfare School (Gulmarg), Counter Insurgency & Jungle Warfare School (Vairengte, Mizoram).
+- Paramilitary/CAPFs: BSF (1965; borders with Pakistan, Bangladesh), ITBP (1962; China border), SSB (Nepal & Bhutan borders), Assam Rifles (oldest – 1835; Myanmar border; 'Sentinels of the North-East'), CRPF (largest CAPF; 1939), CISF (industrial security, airports, metros), NSG ('Black Cats', 1984), Coast Guard (1977; under Ministry of Defence).
+- Missiles (IGMDP – Dr. Kalam): Prithvi (surface-to-surface), Agni (ballistic; Agni-V ICBM range > 5,000 km; MIRV test 'Mission Divyastra' 2024), Trishul, Akash (surface-to-air), Nag (anti-tank), BrahMos (supersonic cruise – India–Russia; Brahmaputra + Moskva), Astra (air-to-air), Nirbhay (subsonic cruise), Dhanush (ship-launched), K-series (submarine-launched). Rafale (France), Tejas (indigenous Light Combat Aircraft – HAL), Sukhoi-30 MKI (Russia). Aircraft carriers: INS Vikramaditya, INS Vikrant (first indigenous, commissioned 2022). Nuclear submarines: INS Arihant (first indigenous SSBN), INS Arighaat.
+- Military exercises (examples): Malabar (India–USA–Japan–Australia), Yudh Abhyas (USA), Garuda & Shakti (France), Indra (Russia), Hand-in-Hand (China, earlier), Mitra Shakti (Sri Lanka), Surya Kiran (Nepal), Sampriti (Bangladesh), Nomadic Elephant (Mongolia), SIMBEX (Singapore), Varuna (France – navy), Dharma Guardian (Japan), AUSINDEX (Australia), Ekuverin (Maldives), Tarang Shakti (multinational air exercise hosted by India, 2024).
+F: ISRO – Bengaluru | BARC – Mumbai | Sriharikota – launch site | IAF founded 8 Oct 1932 | First CDS – Bipin Rawat | Assam Rifles – oldest CAPF | BSF 1965 | INS Vikrant – first indigenous carrier | BrahMos – India + Russia
+PYQ-TREND: HQs of Indian institutes (ISRO, BARC, CRRI Cuttack, NDRI Karnal, Survey of India Dehradun, BSI/ZSI Kolkata). Defence academies' locations. Missile types (Prithvi, Agni, Akash, Nag, BrahMos). Military exercise partners (Malabar, Yudh Abhyas, Surya Kiran, Mitra Shakti, Sampriti). CAPF border responsibilities. First CDS.
+
+## 14.8 Inventions and Discoveries
+| Invention / discovery | Inventor / discoverer |
+| Telephone | Alexander Graham Bell (1876) |
+| Electric bulb, phonograph, motion-picture camera | Thomas Alva Edison |
+| Radio | Guglielmo Marconi (also J.C. Bose – wireless demonstration) |
+| Television | John Logie Baird |
+| Aeroplane | Wright brothers (1903) |
+| Steam engine (improved) | James Watt (Thomas Newcomen earlier) |
+| Railway locomotive | George Stephenson |
+| Printing press (movable type) | Johannes Gutenberg |
+| Dynamite | Alfred Nobel |
+| Computer (analytical engine) | Charles Babbage ('father of computer') |
+| World Wide Web | Tim Berners-Lee (1989) |
+| Penicillin | Alexander Fleming (1928) |
+| Vaccination (smallpox) | Edward Jenner |
+| Pasteurisation, rabies vaccine | Louis Pasteur |
+| Polio vaccine | Jonas Salk (injectable), Albert Sabin (oral) |
+| X-rays | Wilhelm Röntgen |
+| Radioactivity | Henri Becquerel |
+| Radium, polonium | Marie & Pierre Curie (Marie – Nobel in Physics & Chemistry) |
+| Electron | J.J. Thomson |
+| Neutron | James Chadwick |
+| Proton / nucleus | Rutherford |
+| Theory of relativity | Albert Einstein |
+| Law of gravitation, laws of motion | Isaac Newton |
+| Telescope (astronomical use) | Galileo Galilei |
+| Microscope | Zacharias Janssen; Leeuwenhoek improved |
+| Thermometer | Galileo; mercury thermometer – Fahrenheit |
+| Barometer | Evangelista Torricelli |
+| Dynamo / electromagnetic induction | Michael Faraday |
+| AC motor, Tesla coil | Nikola Tesla |
+| Diesel engine | Rudolf Diesel |
+| Petrol car (motor car) | Karl Benz |
+| Bicycle | Kirkpatrick Macmillan |
+| Sewing machine | Elias Howe (Thimonnier earlier) |
+| Safety lamp (miners) | Humphry Davy |
+| Lift (safety elevator) | Elisha Otis |
+| Ballpoint pen | László Bíró |
+| Revolver | Samuel Colt |
+| Machine gun | Richard Gatling (Gatling gun); Hiram Maxim |
+| Refrigerator | Jacob Perkins / Carl von Linde |
+| Air conditioner | Willis Carrier |
+| Mobile phone | Martin Cooper (Motorola, 1973) |
+| Electric battery | Alessandro Volta |
+| Periodic table | Dmitri Mendeleev |
+| Oxygen | Joseph Priestley / Carl Scheele |
+| Hydrogen | Henry Cavendish |
+| Insulin (discovery) | Frederick Banting & Charles Best |
+| Blood circulation | William Harvey |
+| Blood groups | Karl Landsteiner |
+| Cholera & TB bacteria | Robert Koch |
+| Malaria parasite in mosquito | Ronald Ross |
+| DNA structure | Watson & Crick |
+| Laws of heredity | Gregor Mendel |
+| Zero, decimal system (concept) | Ancient Indian mathematicians (Aryabhata, Brahmagupta) |
+| Raman effect | C.V. Raman |
+| Crescograph (plant growth) | Jagadish Chandra Bose |
+| Bose–Einstein statistics | Satyendra Nath Bose (boson named after him) |
+| Chandrasekhar limit | S. Chandrasekhar |
+| Shampoo (introduced in Britain) | Sake Dean Mahomed |
+| Optical fibre pioneer | Narinder Singh Kapany |
+| USB co-inventor | Ajay Bhatt |
+| Pentium chip | Vinod Dham |
+| Hotmail | Sabeer Bhatia (with Jack Smith) |
+PYQ-TREND: Inventor matching (telephone – Bell, radio – Marconi, television – Baird, WWW – Berners-Lee, dynamite – Nobel, printing press – Gutenberg, barometer – Torricelli, penicillin – Fleming, crescograph – J.C. Bose). Indian scientists and their contributions (Raman, J.C. Bose, S.N. Bose, Chandrasekhar).

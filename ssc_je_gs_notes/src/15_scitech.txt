@@ -1,0 +1,148 @@
+# Science & Technology, Space and Computers
+
+## 15.1 Indian Space Programme
+- INCOSPAR set up in 1962 (Vikram Sarabhai – 'father of the Indian space programme'); ISRO formed 15 August 1969; Department of Space 1972. First rocket launched from Thumba (TERLS, Kerala) on 21 November 1963 (Nike-Apache). Satish Dhawan Space Centre, Sriharikota – main launch site (SHAR). A second spaceport is being built at Kulasekarapattinam (Tamil Nadu) for SSLV.
+- Launch vehicles: SLV-3 (1980, Rohini – first Indian launch from Indian soil; project director A.P.J. Abdul Kalam), ASLV, PSLV ('workhorse'; polar & sun-synchronous orbits; record 104 satellites in one launch, Feb 2017; launched Chandrayaan-1 and Mangalyaan), GSLV (geosynchronous; cryogenic upper stage), GSLV Mk III / LVM3 ('Bahubali'; heaviest; launched Chandrayaan-2 & 3; OneWeb satellites), SSLV (small satellites, 2022–23). Agnibaan & Vikram-S – private rockets (Skyroot's Vikram-S – first private launch, Nov 2022).
+| Mission | Year | Key fact |
+| Aryabhata | 1975 | First Indian satellite (Soviet Kosmos rocket) |
+| Bhaskara-I | 1979 | Earth observation |
+| Rohini | 1980 | First launched by an Indian rocket (SLV-3) |
+| APPLE | 1981 | First experimental communication satellite |
+| INSAT-1B | 1983 | Multipurpose (communication, weather) |
+| IRS-1A | 1988 | First indigenous remote-sensing satellite |
+| Chandrayaan-1 | 22 Oct 2008 | First lunar mission; discovered water molecules on the Moon (Moon Impact Probe); PSLV-C11 |
+| Mangalyaan (Mars Orbiter Mission) | Launched 5 Nov 2013; reached Mars 24 Sept 2014 | India first Asian nation to reach Mars orbit and first in the world on maiden attempt; cheapest |
+| Astrosat | 2015 | First dedicated multi-wavelength space observatory |
+| NavIC (IRNSS) | 2013–18 | Indian regional navigation system (7 satellites; now NVS series) |
+| GSAT-11 | 2018 | Heaviest Indian satellite (launched by Ariane-5) |
+| Chandrayaan-2 | 22 July 2019 | Orbiter works; Vikram lander crash-landed |
+| Chandrayaan-3 | Launched 14 July 2023; landed 23 August 2023 | First soft landing near the lunar south pole; lander Vikram, rover Pragyan; landing site 'Shiv Shakti point'; 23 August = National Space Day |
+| Aditya-L1 | Launched 2 Sept 2023; reached L1 Jan 2024 | First Indian solar observatory at Lagrange point L1 (≈ 1.5 million km) |
+| XPoSat | 1 Jan 2024 | X-ray polarimetry of cosmic sources |
+| SpaDeX | Dec 2024 – Jan 2025 | Space docking experiment; India fourth country to dock satellites |
+| Gaganyaan | Upcoming | First Indian human spaceflight; crew module tests; astronaut-designates trained (Shubhanshu Shukla flew to the ISS on Axiom-4 in 2025) |
+| Bharatiya Antariksh Station | Planned (~2035) | Indian space station |
+- NISAR – NASA–ISRO SAR satellite (2025). Shukrayaan (Venus orbiter) planned. Chandrayaan-4 (sample return) planned.
+- Satellites types: geostationary (≈ 36,000 km, 24 h – communication, weather: INSAT/GSAT), polar/sun-synchronous (≈ 500–900 km – remote sensing, mapping: IRS, Cartosat, Oceansat, RISAT).
+- ISRO chairmen: Vikram Sarabhai (first), M.G.K. Menon, Satish Dhawan, U.R. Rao, K. Kasturirangan, G. Madhavan Nair, K. Radhakrishnan, A.S. Kiran Kumar, K. Sivan, S. Somanath, V. Narayanan (from January 2025).
+- World space firsts: Sputnik-1 (USSR, 4 Oct 1957 – first artificial satellite); Laika (first animal in orbit, 1957); Yuri Gagarin (first human in space, 12 April 1961, Vostok-1); Valentina Tereshkova (first woman, 1963); Alexei Leonov (first spacewalk, 1965); Neil Armstrong & Buzz Aldrin (Moon, Apollo 11, 1969); Hubble Space Telescope (1990); James Webb Space Telescope (2021, at L2). International Space Station (1998 onwards). Sunita Williams – Indian-origin astronaut with long stays on ISS.
+F: ISRO 15 Aug 1969 | Father – Vikram Sarabhai | Aryabhata 1975 | Chandrayaan-1 2008 – water on Moon | Mangalyaan 2014 | Chandrayaan-3 landing 23 Aug 2023 (south pole) | Aditya-L1 – Sun, L1 | NavIC – navigation
+PYQ-TREND: First Indian satellite and rocket. Father of Indian space programme. Chandrayaan-1/2/3 achievements and dates; Vikram & Pragyan; National Space Day. Mangalyaan's distinction. Aditya-L1 destination. NavIC as regional navigation. PSLV 104 satellites record. Sputnik, Gagarin, Tereshkova firsts. Launch site Sriharikota and first launch from Thumba.
+
+## 15.2 Defence & Nuclear Science
+- Indian atomic programme: Homi J. Bhabha ('father of Indian nuclear programme'; TIFR 1945; Atomic Energy Commission 1948; BARC). Three-stage nuclear programme: PHWR (natural uranium) → fast breeder reactors (plutonium; Kalpakkam PFBR) → thorium-based reactors (India has large thorium reserves in monazite sands of Kerala).
+- Pokhran-I (18 May 1974, 'Smiling Buddha'); Pokhran-II (11 & 13 May 1998, 'Operation Shakti'; Kalam & R. Chidambaram). India's nuclear doctrine: No First Use, credible minimum deterrence. Nuclear triad completed with INS Arihant (2018).
+- Integrated Guided Missile Development Programme (IGMDP, 1983) led by A.P.J. Abdul Kalam ('Missile Man of India').
+- Anti-satellite missile test – Mission Shakti (27 March 2019); India fourth country with ASAT capability.
+F: Bhabha – nuclear programme | Pokhran-I 1974, Pokhran-II 1998 | Mission Shakti ASAT 2019 | Three-stage programme ends with thorium
+PYQ-TREND: Father of Indian nuclear programme. Pokhran test code names and years. Thorium-based third stage. Mission Shakti (ASAT). Kalam and IGMDP.
+
+## 15.3 Computer Fundamentals
+- Charles Babbage – 'father of the computer' (Difference Engine, Analytical Engine); Ada Lovelace – first programmer. Alan Turing – father of theoretical computer science/AI (Turing machine). John von Neumann – stored-program architecture.
+| Generation | Technology | Example |
+| First (1940–56) | Vacuum tubes | ENIAC (first general-purpose electronic computer, 1946), UNIVAC |
+| Second (1956–63) | Transistors | IBM 1401 |
+| Third (1964–71) | Integrated circuits | IBM 360 |
+| Fourth (1971–present) | Microprocessors (VLSI) | Intel 4004 (first microprocessor, 1971), PCs |
+| Fifth (present & beyond) | AI, ULSI, parallel processing, quantum | – |
+- India's first computer: TIFRAC (1960, TIFR, Mumbai); first computer installed – HEC-2M at ISI Kolkata (1956). India's first supercomputer: PARAM 8000 (1991, C-DAC Pune; Vijay Bhatkar – father of Indian supercomputers). National Supercomputing Mission; AIRAWAT (AI supercomputer).
+- Types: supercomputer (fastest; weather forecasting), mainframe (large organisations, banks), mini, micro (PC), embedded. Analog, digital, hybrid computers.
+- Hardware: Input devices (keyboard, mouse – Douglas Engelbart, scanner, joystick, light pen, microphone, webcam, OMR, OCR, MICR – cheques, barcode reader, biometric sensor), output devices (monitor – VDU, printer – impact (dot matrix) & non-impact (laser, inkjet), plotter, speaker, projector), CPU (ALU – arithmetic & logic; CU – control unit; registers). Motherboard. SMPS – power. UPS – backup.
+- Memory: primary – RAM (volatile; SRAM faster used in cache, DRAM main memory) and ROM (non-volatile; PROM, EPROM – erased by UV, EEPROM – electrically, flash); cache (fastest after registers). Secondary – HDD, SSD, CD (700 MB), DVD (4.7 GB), Blu-ray (25 GB per layer), pen drive. Memory hierarchy (fastest to slowest): registers > cache > RAM > SSD > HDD > optical.
+| Unit | Equals |
+| Bit | Binary digit (0 or 1) |
+| Nibble | 4 bits |
+| Byte | 8 bits |
+| Kilobyte (KB) | 1,024 bytes |
+| Megabyte (MB) | 1,024 KB |
+| Gigabyte (GB) | 1,024 MB |
+| Terabyte (TB) | 1,024 GB |
+| Petabyte (PB) | 1,024 TB |
+| Exabyte, Zettabyte, Yottabyte | Next in order |
+- Number systems: binary (base 2), octal (8), decimal (10), hexadecimal (16; digits 0–9, A–F). ASCII (7-bit, 128 characters), Unicode (all scripts). 1's & 2's complement.
+- Software: system software (operating systems – Windows (Microsoft – Bill Gates & Paul Allen), Linux (Linus Torvalds; open source), macOS, Android (Google; Linux-based), iOS, Unix (Ken Thompson & Dennis Ritchie), MS-DOS (CLI)), utility software (antivirus, compression), application software (MS Office – Word, Excel (spreadsheet – cells, formulas), PowerPoint (slides), Access (database)). Firmware (BIOS). Compiler (whole program at once), interpreter (line by line), assembler (assembly → machine code). Booting: cold boot / warm boot.
+- Languages: machine language (binary), assembly (low-level), high-level – FORTRAN (first high-level, 1957; scientific), COBOL (business), BASIC, C (Dennis Ritchie, Bell Labs), C++ (Bjarne Stroustrup), Java (James Gosling, Sun Microsystems; 'write once, run anywhere'), Python (Guido van Rossum), HTML (web pages, Tim Berners-Lee), SQL (databases), JavaScript.
+- Shortcut keys (Windows/MS Office): Ctrl+C copy, Ctrl+X cut, Ctrl+V paste, Ctrl+Z undo, Ctrl+Y redo, Ctrl+S save, Ctrl+P print, Ctrl+A select all, Ctrl+F find, Ctrl+H replace, Ctrl+B bold, Ctrl+I italic, Ctrl+U underline, Ctrl+N new, Ctrl+O open, Ctrl+W/Ctrl+F4 close document, Alt+F4 close window, F1 help, F2 rename, F5 refresh/slide show, F7 spell check (Word), F12 save as, Ctrl+Alt+Del task manager/security, Windows+D desktop, Windows+L lock, Ctrl+Home – beginning of document, Shift+F3 change case.
+F: Father of computer – Babbage | First programmer – Ada Lovelace | ENIAC 1946 | Intel 4004 – first microprocessor 1971 | PARAM 8000 – 1991 | 1 byte = 8 bits; 1 KB = 1,024 B | RAM volatile, ROM non-volatile | Cache – fastest memory after registers
+PYQ-TREND: Father of computer. Computer generations and technologies. RAM vs ROM. Memory units conversion. Input vs output devices (MICR for cheques, OMR for answer sheets). Compiler vs interpreter. First supercomputer of India. Shortcut keys (Ctrl+Z, F7, F12, Alt+F4). Linux open-source. Inventors of C, Java, Python. Binary base. MS Excel/PowerPoint usage.
+
+## 15.4 Internet, Networks and Cyber Security
+- ARPANET (1969, USA) – precursor of the internet. TCP/IP – Vint Cerf & Bob Kahn ('fathers of the internet'). World Wide Web – Tim Berners-Lee (1989, CERN). First web browser – WorldWideWeb/Nexus; Mosaic – first popular graphical browser. Internet in India: VSNL launched public internet on 15 August 1995.
+- Networks: LAN (building), MAN (city), WAN (country/world; internet is the largest WAN), PAN (personal, Bluetooth). Topologies: bus, star (most common; central hub/switch), ring, mesh, tree. Devices: hub, switch, router (connects networks), modem (modulator–demodulator; digital ↔ analog), gateway, repeater, bridge, NIC. Wi-Fi (IEEE 802.11), Bluetooth (short range, Ericsson), NFC, Li-Fi (light; Harald Haas).
+- Protocols: HTTP/HTTPS (web; S = secure, SSL/TLS), FTP (file transfer), SMTP (sending email), POP3/IMAP (receiving email), DNS (domain name → IP address), DHCP (assigns IP), TCP (reliable) and UDP (fast, connectionless), IP address – IPv4 (32-bit), IPv6 (128-bit). URL – Uniform Resource Locator. Domains: .com (commercial), .org, .edu, .gov, .in (India), .net.
+- Email: first sent by Ray Tomlinson (1971; chose @). CC (carbon copy), BCC (blind carbon copy). Spam – unsolicited bulk email.
+- Cyber threats: virus (attaches to programs; needs host), worm (self-replicating, spreads over network), Trojan horse (disguised as useful software), ransomware (encrypts data and demands ransom – WannaCry 2017), spyware, adware, phishing (fraudulent emails/sites to steal details), vishing (voice), smishing (SMS), keylogger, botnet, DDoS (denial of service), hacking (white hat – ethical; black hat), cookies (small data files stored by websites), firewall (blocks unauthorised access), antivirus, encryption, two-factor authentication, CAPTCHA (distinguishes humans from bots). First computer virus – Creeper (1971); first PC virus – Brain (1986, Pakistan).
+- India: IT Act 2000 (cyber law; amended 2008); CERT-In (national cyber security agency, 2004); Digital Personal Data Protection Act 2023; Aadhaar (UIDAI, 2009; 12 digits; first issued to Ranjana Sonawane, 2010); DigiLocker, UPI (2016), BHIM, CoWIN, ONDC, Bharat Net (rural broadband), 5G launch in India (1 October 2022).
+- Emerging tech: AI (term coined by John McCarthy, 1956), machine learning, blockchain (cryptocurrency – Bitcoin by 'Satoshi Nakamoto', 2009), Internet of Things, cloud computing (SaaS, PaaS, IaaS), quantum computing (qubits; National Quantum Mission 2023), 3D printing, augmented & virtual reality, metaverse, Large Language Models (ChatGPT, 2022), semiconductor fabs (India Semiconductor Mission).
+F: ARPANET 1969 | WWW – Berners-Lee 1989 | Internet in India – 15 Aug 1995 (VSNL) | IPv4 32-bit, IPv6 128-bit | IT Act 2000 | 5G India – 1 Oct 2022 | Email – Ray Tomlinson 1971 | AI term – John McCarthy 1956
+PYQ-TREND: Full forms (HTTP, URL, DNS, LAN, WAN, ISP, Wi-Fi, PDF, CAPTCHA, UPS). Inventor of WWW. Email protocols (SMTP send, POP3 receive). Virus vs worm vs Trojan. Phishing. Firewall role. IT Act year. Network topologies and devices (router, modem). IPv4/IPv6 size. Father of AI.
+
+## 15.5 Important Full Forms
+| Abbreviation | Full form |
+| ISRO | Indian Space Research Organisation |
+| DRDO | Defence Research and Development Organisation |
+| NASA | National Aeronautics and Space Administration |
+| PSLV / GSLV | Polar / Geosynchronous Satellite Launch Vehicle |
+| GPS | Global Positioning System |
+| NavIC | Navigation with Indian Constellation |
+| LASER | Light Amplification by Stimulated Emission of Radiation |
+| RADAR | Radio Detection and Ranging |
+| SONAR | Sound Navigation and Ranging |
+| MRI | Magnetic Resonance Imaging |
+| CT scan | Computed Tomography |
+| ECG | Electrocardiogram |
+| DNA / RNA | Deoxyribonucleic acid / Ribonucleic acid |
+| AIDS / HIV | Acquired Immuno Deficiency Syndrome / Human Immunodeficiency Virus |
+| BCG | Bacillus Calmette–Guérin |
+| ORS | Oral Rehydration Solution |
+| CFC | Chlorofluorocarbon |
+| LPG / CNG / PNG | Liquefied Petroleum Gas / Compressed Natural Gas / Piped Natural Gas |
+| LED / LCD | Light Emitting Diode / Liquid Crystal Display |
+| CPU / ALU | Central Processing Unit / Arithmetic Logic Unit |
+| RAM / ROM | Random Access Memory / Read Only Memory |
+| BIOS | Basic Input Output System |
+| USB | Universal Serial Bus |
+| PDF | Portable Document Format |
+| HTML | HyperText Markup Language |
+| HTTP / HTTPS | HyperText Transfer Protocol (Secure) |
+| URL | Uniform Resource Locator |
+| ISP | Internet Service Provider |
+| Wi-Fi | Wireless Fidelity |
+| OTP | One Time Password |
+| ATM | Automated Teller Machine |
+| PIN | Personal Identification Number |
+| IFSC | Indian Financial System Code |
+| NEFT / RTGS / IMPS | National Electronic Funds Transfer / Real Time Gross Settlement / Immediate Payment Service |
+| UPI | Unified Payments Interface |
+| KYC | Know Your Customer |
+| GDP / GNP | Gross Domestic / National Product |
+| GST | Goods and Services Tax |
+| FDI / FII | Foreign Direct Investment / Foreign Institutional Investor |
+| SEBI | Securities and Exchange Board of India |
+| NABARD | National Bank for Agriculture and Rural Development |
+| MGNREGA | Mahatma Gandhi National Rural Employment Guarantee Act |
+| NITI | National Institution for Transforming India |
+| CAG | Comptroller and Auditor General |
+| UPSC / SSC | Union Public Service Commission / Staff Selection Commission |
+| CBI / NIA / RAW | Central Bureau of Investigation / National Investigation Agency / Research and Analysis Wing |
+| NSG / BSF / CRPF / CISF / ITBP / SSB | National Security Guard / Border Security Force / Central Reserve Police Force / Central Industrial Security Force / Indo-Tibetan Border Police / Sashastra Seema Bal |
+| NDRF | National Disaster Response Force |
+| UNESCO | United Nations Educational, Scientific and Cultural Organization |
+| UNICEF | United Nations International Children's Emergency Fund (now United Nations Children's Fund) |
+| WHO / ILO / WTO | World Health / International Labour / World Trade Organization |
+| SAARC | South Asian Association for Regional Cooperation |
+| ASEAN | Association of Southeast Asian Nations |
+| BRICS | Brazil, Russia, India, China, South Africa |
+| BIMSTEC | Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation |
+| NATO | North Atlantic Treaty Organization |
+| OPEC | Organization of the Petroleum Exporting Countries |
+| FIFA | Fédération Internationale de Football Association |
+| PIL | Public Interest Litigation |
+| FIR | First Information Report |
+| EVM / VVPAT | Electronic Voting Machine / Voter Verifiable Paper Audit Trail |
+| NOTA | None of the Above |
+| IPC / BNS | Indian Penal Code (replaced by Bharatiya Nyaya Sanhita, 1 July 2024) |
+| CrPC / BNSS | Code of Criminal Procedure (replaced by Bharatiya Nagarik Suraksha Sanhita, 2024) |
+| Evidence Act / BSA | Indian Evidence Act (replaced by Bharatiya Sakshya Adhiniyam, 2024) |
+F: BNS, BNSS, BSA replaced IPC, CrPC, Evidence Act on 1 July 2024
+PYQ-TREND: Full forms are asked in nearly every shift (LASER, RADAR, SONAR, ISRO, NABARD, SEBI, MGNREGA, UPI, NEFT, RTGS, BIOS, HTML, URL). New criminal laws replacing IPC/CrPC/Evidence Act (2024).

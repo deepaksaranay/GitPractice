@@ -1,0 +1,119 @@
+# General Science – Chemistry
+
+## 11.1 Matter and Atomic Structure
+- States: solid, liquid, gas, plasma (fourth state – Sun, lightning, neon signs), Bose–Einstein condensate (fifth; S.N. Bose & Einstein; near absolute zero).
+- Sublimation (solid → gas directly): camphor, naphthalene (mothballs), iodine, dry ice (solid CO₂), ammonium chloride. Deposition is the reverse.
+- Pure substances: elements and compounds. Mixtures: homogeneous (solutions – air, brass, salt water) and heterogeneous (sand + water, milk is colloidal). Colloids show Tyndall effect: milk, fog, smoke, blood, butter, jelly, ink. Emulsion: milk, butter (liquid in liquid). Aerosol: fog, mist (liquid in gas), smoke (solid in gas). Foam: shaving cream. Gel: jelly, cheese.
+- Separation: distillation (liquids with different boiling points; fractional distillation for petroleum and liquid air), chromatography (dyes, pigments), centrifugation (cream from milk, blood tests), sublimation, crystallisation (salt from sea water; purification of alum/copper sulphate), evaporation, filtration, decantation, separating funnel (oil and water), magnetic separation.
+- Atomic number (Z) = number of protons; mass number (A) = protons + neutrons. Isotopes: same Z, different A (protium, deuterium, tritium; C-12/C-14; U-235/U-238). Isobars: same A, different Z (Ar-40/Ca-40). Isotones: same number of neutrons. Isoelectronic species: same number of electrons.
+- Dalton's atomic theory (1808). Avogadro number 6.022 × 10²³ per mole. Molar volume of gas at STP 22.4 L.
+- Valency and electronic configuration (K, L, M, N shells hold 2, 8, 18, 32 = 2n²).
+F: Plasma – 4th state | BEC – 5th | Sublimation – camphor, naphthalene, iodine, dry ice | Isotopes – same Z | Avogadro 6.022 × 10²³ | 2n² rule
+PYQ-TREND: Examples of sublimation. Colloids and Tyndall effect (milk, fog). Separation techniques (cream from milk – centrifugation; petroleum – fractional distillation; dyes – chromatography). Isotopes vs isobars. Avogadro number. Plasma state.
+
+## 11.2 Periodic Table
+- Dobereiner's triads, Newlands' law of octaves, Mendeleev's periodic table (atomic mass; left gaps for gallium & germanium – eka-aluminium, eka-silicon), Moseley's modern periodic law (atomic number). Modern table: 7 periods, 18 groups; 118 elements (Oganesson, 118, heaviest).
+- Groups: 1 alkali metals (Li, Na, K, Rb, Cs, Fr – very reactive, stored in kerosene), 2 alkaline earth metals (Be, Mg, Ca, Sr, Ba, Ra), 13 boron family, 14 carbon family, 15 nitrogen family (pnictogens), 16 oxygen family (chalcogens), 17 halogens (F, Cl, Br, I, At), 18 noble gases (He, Ne, Ar, Kr, Xe, Rn; inert; complete octet).
+- Trends: across a period – atomic size decreases, electronegativity and ionisation energy increase; down a group – size increases, electronegativity decreases, metallic character increases.
+- Extremes: most electronegative – fluorine; most reactive non-metal – fluorine; most reactive metal – caesium/francium; lightest element – hydrogen; lightest metal – lithium; heaviest naturally occurring – uranium; densest – osmium; most abundant in universe – hydrogen; in Earth's crust – oxygen (metal – aluminium); in atmosphere – nitrogen; in human body – oxygen (by mass; carbon second); hardest natural substance – diamond; liquid metal – mercury (also caesium, gallium, francium near room temperature); liquid non-metal – bromine; best conductor – silver; poorest conductor metal – lead/bismuth; highest melting metal – tungsten; lowest melting metal – mercury; metalloids – B, Si, Ge, As, Sb, Te.
+- Noble gas uses: helium – balloons, airships, deep-sea diving (with oxygen; avoids bends), MRI cooling; neon – advertising signs (red glow); argon – bulbs, welding; krypton & xenon – flash lamps, headlights; radon – radiotherapy (radioactive).
+F: Modern periodic law – Moseley (atomic number) | 18 groups, 7 periods | Most electronegative – F | Liquid metal – Hg | Liquid non-metal – Br | Densest – Os | Highest melting – W
+PYQ-TREND: Father of the periodic table (Mendeleev) and modern periodic law (Moseley). Group names (halogens, alkali, noble gases). Extremes (most electronegative, liquid non-metal, lightest metal, best conductor). Noble gas uses (helium for diving & balloons, neon for signs). Periodic trends.
+
+## 11.3 Chemical Reactions, Acids, Bases and Salts
+- Reaction types: combination, decomposition (thermal, electrolytic, photolytic – silver chloride darkens in light, used in photography), displacement (more reactive metal displaces less reactive; iron nail in copper sulphate turns brown), double displacement (precipitation), redox (oxidation = loss of electrons/gain of oxygen; reduction = gain of electrons/loss of oxygen). Exothermic (respiration, burning, neutralisation, quicklime + water) and endothermic (photosynthesis, dissolving ammonium chloride/nitrate).
+- Corrosion (rusting of iron needs oxygen and water: Fe₂O₃·xH₂O); prevented by galvanisation (zinc coating), painting, oiling, alloying (stainless steel), electroplating, cathodic protection. Rancidity of fats (oxidation) prevented by antioxidants, nitrogen flushing in chip packets, refrigeration.
+- Catalysts: speed up reactions without being consumed – iron (Haber process for ammonia), V₂O₅ (Contact process for H₂SO₄), nickel (hydrogenation of oils to vanaspati ghee), platinum (Ostwald process for nitric acid; catalytic converters), enzymes (biocatalysts).
+- Acids: sour, turn blue litmus red, pH < 7, release H⁺. Bases: bitter, soapy, turn red litmus blue, pH > 7. Indicators: litmus (from lichens), phenolphthalein (colourless in acid, pink in base), methyl orange (red in acid, yellow in base), turmeric (red in base).
+- pH scale (Sørensen): 0–14; pure water 7; human blood ≈ 7.4 (slightly basic); gastric juice ≈ 1.5–2 (HCl); lemon juice ≈ 2.2; vinegar ≈ 3; milk ≈ 6.5; tomato ≈ 4.2; saliva ≈ 6.5–7.5; sea water ≈ 8; milk of magnesia ≈ 10; acid rain pH < 5.6; tooth decay begins below pH 5.5.
+| Natural acid | Source |
+| Citric acid | Lemon, orange |
+| Lactic acid | Curd, sour milk; muscles during exercise (cramps) |
+| Acetic acid | Vinegar |
+| Tartaric acid | Tamarind, grapes |
+| Oxalic acid | Tomato, spinach (kidney stones – calcium oxalate) |
+| Malic acid | Apple |
+| Formic (methanoic) acid | Ant sting, nettle sting |
+| Ascorbic acid | Vitamin C (citrus, amla) |
+| Hydrochloric acid | Stomach (gastric juice) |
+| Uric acid | Urine (gout) |
+| Butyric acid | Rancid butter |
+| Stearic acid | Fats |
+- Neutralisation: acid + base → salt + water. Antacids (milk of magnesia – Mg(OH)₂, baking soda) relieve acidity. Ant sting treated with baking soda; wasp sting (alkaline) with vinegar. Acidic soil treated with quicklime/slaked lime; basic soil with organic matter/gypsum.
+- Aqua regia: 3 parts conc. HCl + 1 part conc. HNO₃ – dissolves gold and platinum. 'King of chemicals' / oil of vitriol: sulphuric acid (H₂SO₄).
+| Common name | Chemical name / formula | Use |
+| Common salt | Sodium chloride, NaCl | Food, chlor-alkali |
+| Baking soda | Sodium bicarbonate, NaHCO₃ | Baking, antacid, fire extinguisher |
+| Washing soda | Sodium carbonate decahydrate, Na₂CO₃·10H₂O | Removing hardness of water, glass |
+| Caustic soda | Sodium hydroxide, NaOH | Soap making |
+| Bleaching powder | Calcium oxychloride, CaOCl₂ | Disinfecting water |
+| Plaster of Paris | Calcium sulphate hemihydrate, CaSO₄·½H₂O | Fractures, statues (sets with water into gypsum) |
+| Gypsum | CaSO₄·2H₂O | Cement (slows setting), fertiliser |
+| Quicklime | Calcium oxide, CaO | Cement, whitewash (with water → slaked lime) |
+| Slaked lime | Calcium hydroxide, Ca(OH)₂ | Whitewash, soil treatment |
+| Limestone / marble / chalk | Calcium carbonate, CaCO₃ | Cement, building |
+| Blue vitriol | Copper sulphate, CuSO₄·5H₂O | Fungicide (Bordeaux mixture) |
+| Green vitriol | Ferrous sulphate, FeSO₄·7H₂O | Ink, iron supplement |
+| White vitriol | Zinc sulphate | Eye lotion |
+| Epsom salt | Magnesium sulphate, MgSO₄·7H₂O | Laxative |
+| Glauber's salt | Sodium sulphate decahydrate | Laxative |
+| Potash alum (fitkari) | K₂SO₄·Al₂(SO₄)₃·24H₂O | Water purification, after-shave (antiseptic) |
+| Laughing gas | Nitrous oxide, N₂O | Anaesthetic |
+| Dry ice | Solid CO₂ | Refrigerant, stage fog |
+| Marsh gas | Methane, CH₄ | Biogas, CNG |
+| Heavy water | Deuterium oxide, D₂O | Moderator in nuclear reactors |
+| Sal ammoniac | Ammonium chloride, NH₄Cl | Dry cells |
+| Muriatic acid | Hydrochloric acid | – |
+| Lunar caustic | Silver nitrate, AgNO₃ | Indelible (election) ink |
+| Calomel | Mercurous chloride | Medicine |
+| Mohr's salt | Ferrous ammonium sulphate | Lab reagent |
+| Chile saltpetre / saltpetre | NaNO₃ / KNO₃ | Fertiliser / gunpowder |
+| Sugar of lead | Lead acetate | – |
+| Rust | Hydrated ferric oxide, Fe₂O₃·xH₂O | – |
+| Hypo | Sodium thiosulphate, Na₂S₂O₃ | Photography (fixer) |
+| Galena / Cinnabar / Bauxite / Haematite / Magnetite | PbS / HgS / Al₂O₃·2H₂O / Fe₂O₃ / Fe₃O₄ | Ores |
+F: Baking soda NaHCO₃ | Washing soda Na₂CO₃·10H₂O | Bleaching powder CaOCl₂ | POP CaSO₄·½H₂O | Gypsum CaSO₄·2H₂O | Laughing gas N₂O | Indelible ink – AgNO₃ | Aqua regia 3 HCl : 1 HNO₃
+PYQ-TREND: Common name–formula matching (very frequent). Natural acids (ant sting – formic, tomato – oxalic, curd – lactic, tamarind – tartaric, vinegar – acetic). pH of blood, gastric juice, pure water. Indicator colours (phenolphthalein pink in base). Aqua regia composition. Rusting conditions and galvanisation. Catalysts in Haber/Contact processes. Hydrogenation with nickel. Antacids.
+TIP: "POP is half-hydrated, gypsum is double-hydrated": CaSO₄·½H₂O vs CaSO₄·2H₂O.
+
+## 11.4 Metals, Non-metals and Alloys
+- Metals: lustrous, malleable (gold most), ductile (gold, silver), good conductors (silver > copper > gold > aluminium), sonorous. Exceptions: mercury liquid; sodium & potassium soft (cut with knife) and stored in kerosene; gallium & caesium melt in the hand; iodine (non-metal) is lustrous; graphite (non-metal) conducts electricity; diamond (non-metal) hardest.
+- Reactivity series: K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu > Hg > Ag > Au > Pt.
+- Extraction: ore → concentration (froth flotation for sulphide ores) → roasting (sulphide ores in air) / calcination (carbonate ores without air) → reduction (carbon; electrolysis for highly reactive metals like Na, Al – Hall–Héroult) → refining (electrolytic). Thermite reaction (Al + Fe₂O₃) – welding rail tracks.
+- Ores: iron – haematite (Fe₂O₃), magnetite (Fe₃O₄ – richest, magnetic), siderite; aluminium – bauxite; copper – chalcopyrite, cuprite; zinc – zinc blende, calamine; lead – galena; mercury – cinnabar; tin – cassiterite; sodium – rock salt; magnesium – magnesite, dolomite, carnallite; calcium – limestone; uranium – pitchblende; thorium – monazite.
+- Iron forms: pig iron/cast iron (≈ 2–4% C, brittle), wrought iron (purest, < 0.25% C), steel (0.1–1.5% C). Stainless steel (Fe + Cr + Ni; chromium prevents rust).
+| Alloy | Composition | Use |
+| Brass | Cu + Zn | Utensils, fittings |
+| Bronze | Cu + Sn | Statues, medals, bells |
+| German silver | Cu + Zn + Ni | Utensils |
+| Gun metal | Cu + Sn + Zn | Gears, guns |
+| Bell metal | Cu + Sn | Bells |
+| Solder | Pb + Sn | Joining electrical wires (low melting point) |
+| Duralumin | Al + Cu + Mg + Mn | Aircraft |
+| Magnalium | Al + Mg | Aircraft parts, scientific instruments |
+| Stainless steel | Fe + Cr + Ni + C | Utensils, surgical tools |
+| Nichrome | Ni + Cr | Heating elements |
+| Amalgam | Mercury + any metal | Dental fillings (silver–tin amalgam) |
+| Invar | Fe + Ni | Clock pendulums, measuring tapes |
+| Alnico | Al + Ni + Co + Fe | Magnets |
+| Type metal | Pb + Sb + Sn | Printing |
+| 22-carat gold | 22 parts gold + 2 parts Cu/Ag | Jewellery (24 carat = pure) |
+- Non-metals: hydrogen (lightest; 'future fuel'; Cavendish), oxygen (Priestley/Scheele; supports combustion), nitrogen (Rutherford; inert; food packaging; liquid N₂ for preservation), carbon allotropes – diamond (each C bonded to 4, hardest, non-conductor; used in cutting & jewellery), graphite (layers, soft, conductor; pencils, lubricant, electrodes; pencil 'lead' is graphite + clay), fullerene (C-60, buckminsterfullerene, football shape), graphene (single layer; Nobel 2010); sulphur (vulcanisation of rubber – Goodyear; gunpowder); phosphorus (white – stored in water, red – safety matches); chlorine (bleaching, water disinfection); iodine (antiseptic tincture; iodised salt prevents goitre).
+F: Most malleable/ductile – gold | Best conductor – silver | Na & K stored in kerosene | White phosphorus in water | Pencil 'lead' = graphite | Diamond hardest | Brass Cu+Zn | Bronze Cu+Sn | Solder Pb+Sn | 24 carat pure gold
+PYQ-TREND: Alloy compositions (brass, bronze, solder, German silver, duralumin, stainless steel). Ores of metals (bauxite – Al, galena – Pb, cinnabar – Hg, haematite – Fe). Allotropes of carbon and their properties. Metals stored in kerosene. Reactivity series. Froth flotation. Pure gold carat. Vulcanisation with sulphur. Thermite welding.
+
+## 11.5 Carbon Compounds and Everyday Chemistry
+- Carbon forms millions of compounds due to catenation and tetravalency. Hydrocarbons: alkanes (single bonds, CₙH₂ₙ₊₂ – methane, ethane, propane, butane), alkenes (double bond – ethene ripens fruits), alkynes (triple – ethyne/acetylene for welding & artificial ripening with calcium carbide – banned).
+- Fuels: LPG – mainly butane + propane (ethyl mercaptan added for smell); CNG – mainly methane; biogas – methane (≈ 55–75%) + CO₂; coal gas – H₂ + CH₄ + CO; water gas – CO + H₂; producer gas – CO + N₂; natural gas – methane. Calorific value highest – hydrogen. Octane number (petrol anti-knock quality), cetane number (diesel). Ethanol blending in petrol (E20 target).
+- Alcohols: ethanol (in beverages, spirit; 'rectified spirit' 95%; 'absolute alcohol' 100%; denatured with methanol – poisonous, causes blindness). Fermentation of sugar by yeast produces ethanol and CO₂.
+- Soaps (sodium/potassium salts of fatty acids; saponification – fat + NaOH) don't lather well in hard water (Ca²⁺/Mg²⁺ form scum). Detergents work in hard water. Temporary hardness (bicarbonates) removed by boiling or Clark's method (lime); permanent hardness (chlorides, sulphates) by washing soda or ion exchange (permutit/zeolite).
+- Polymers: natural (rubber – isoprene, cellulose, starch, proteins, silk, wool), synthetic: polythene (packaging), PVC (pipes), Teflon/PTFE (non-stick; most chemically resistant), Bakelite (thermosetting – switches, handles), nylon (first synthetic fibre – parachutes, ropes; Wallace Carothers), polyester/terylene/dacron (clothes; PET bottles), acrylic (artificial wool), rayon (artificial silk from cellulose), melamine (crockery; thermoset), neoprene (synthetic rubber), Kevlar (bulletproof vests). Thermoplastics soften on heating (polythene, PVC); thermosets don't (Bakelite, melamine).
+- Glass: silica (sand) + soda + lime. Types: soda-lime (windows), Pyrex/borosilicate (heat resistant, lab ware), flint/lead crystal (lenses, prisms), photochromatic (sunglasses – silver halide), coloured glass – cobalt oxide (blue), chromium oxide (green), manganese dioxide (violet), ferrous oxide (green), cuprous oxide (red), gold chloride (ruby red).
+- Cement: Portland cement (Joseph Aspdin, 1824) – limestone + clay; gypsum added to slow setting. Concrete = cement + sand + gravel + water.
+- Fertilisers: urea (46% N – highest), ammonium sulphate, DAP, NPK. Pesticides: DDT (banned in agriculture; biomagnification), BHC.
+- Environmental chemistry: greenhouse gases – CO₂, methane, N₂O, CFCs, water vapour; CFCs deplete ozone (Montreal Protocol); acid rain – SO₂ and NOx (damaged Taj Mahal – 'marble cancer'); photochemical smog (ozone, PAN); Bhopal gas tragedy (1984) – methyl isocyanate (MIC) from Union Carbide; Minamata disease – mercury; Itai-itai – cadmium; blue baby syndrome – nitrates in water; fluorosis – excess fluoride; arsenic poisoning – groundwater in Bengal; carbon monoxide binds haemoglobin (≈ 200× stronger than O₂) – poisonous.
+- Fire extinguishers: CO₂ (electrical fires), soda-acid, foam (oil fires – don't use water on oil/electrical fires).
+- Food chemistry: artificial sweeteners (saccharin, aspartame – unstable when heated, sucralose); preservatives (sodium benzoate, salt, sugar, vinegar); MSG (Ajinomoto, flavour enhancer); baking powder = baking soda + tartaric acid.
+- Medicines: analgesics (aspirin, paracetamol), antipyretics (paracetamol – fever), antibiotics (penicillin – Alexander Fleming, 1928), antiseptics (dettol, savlon, tincture iodine – on living tissue) vs disinfectants (phenol – on non-living objects), tranquilisers, antacids, antihistamines.
+F: LPG – butane + propane | CNG – methane | Urea 46% N | Bhopal 1984 – methyl isocyanate | Minamata – Hg | Itai-itai – Cd | Teflon – non-stick | Nylon – first synthetic fibre | Pyrex – borosilicate
+PYQ-TREND: Main constituents of LPG, CNG, biogas. Bhopal gas (MIC). Diseases from pollutants (Minamata – mercury, Itai-itai – cadmium, blue baby – nitrate). Polymers and uses (Teflon, Bakelite, PVC, nylon, rayon). Hard water and its removal. Saponification. CO poisoning. Ethene ripens fruits; calcium carbide banned. Acid rain & Taj Mahal. Penicillin discovery. Fire extinguisher types. Glass colouring oxides.
