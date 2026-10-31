@@ -1,0 +1,55 @@
+# Open Channel Flow
+
+## 13.1 Basics
+- Open-channel flow has a free surface at atmospheric pressure; it is driven by gravity (bed slope). Examples: rivers, canals, partly full sewers, culverts, flumes.
+| Classification | Meaning |
+| Steady / unsteady | Depth at a section constant / varying with time |
+| Uniform / non-uniform (varied) | Depth constant along the channel / changing |
+| Gradually varied flow (GVF) | Depth changes slowly (backwater curves) |
+| Rapidly varied flow (RVF) | Depth changes abruptly (hydraulic jump, flow over weirs) |
+| Subcritical / critical / supercritical | Fr < 1 / = 1 / > 1 |
+F: Hydraulic radius (hydraulic mean depth) R = A/P;  hydraulic depth D_h = A/T (T = top width)
+F: Froude number Fr = V/√(g D_h)  (rectangular: V/√(gy))
+- In uniform flow the bed slope, water-surface slope and energy-line slope are all equal.
+PYQ-TREND: Hydraulic radius; Froude number classification; uniform flow – all slopes equal; examples of GVF and RVF.
+
+## 13.2 Uniform Flow Formulae
+F: Chezy: V = C √(R S);  Q = A C √(R S)
+F: Manning: V = (1/n) R^(2/3) S^(1/2);  Chezy C related: C = R^(1/6)/n
+F: Bazin: C = 87/(1 + K/√R);  Kutter's formula (older)
+- Manning's n: smooth concrete ≈ 0.012–0.013, brickwork ≈ 0.015, earth channels ≈ 0.02–0.03, natural rivers 0.03–0.05.
+PYQ-TREND: Chezy and Manning formulas; relationship C = R^(1/6)/n; typical n values.
+
+## 13.3 Most Economical (Efficient) Sections
+- The most economical section carries the maximum discharge for a given area (or needs minimum area for a given discharge) – i.e., minimum wetted perimeter.
+| Section | Condition | Hydraulic radius |
+| Rectangular | b = 2y (width = 2 × depth) | R = y/2 |
+| Trapezoidal | Half of a regular hexagon; side slopes 60° with horizontal (1/√3 H : 1 V); top width = 2 × sloping side length; a semicircle of radius y can be inscribed | R = y/2 |
+| Triangular | Vertex angle 90° (sides at 45°) | R = y/(2√2) |
+| Circular (max discharge) | y ≈ 0.938 D (Chezy) / 0.95 D (Manning) | – |
+| Circular (max velocity) | y ≈ 0.81 D | R ≈ 0.304 D |
+PYQ-TREND: Most economical rectangular section b = 2y and R = y/2 (very frequent); trapezoidal as half hexagon; triangular 90° vertex; circular channel depths for max velocity (0.81D) and max discharge (0.95D).
+
+## 13.4 Specific Energy and Critical Flow
+F: Specific energy E = y + V²/(2g) = y + q²/(2gy²)  (q = discharge per unit width)
+F: Critical depth (rectangular): y_c = (q²/g)^(1/3);  E_min = (3/2) y_c;  V_c = √(g y_c)
+F: At critical flow: Fr = 1, specific energy minimum for given q, discharge maximum for given E
+F: General critical condition: Q² T / (g A³) = 1
+- For a given E there are two alternate depths (subcritical deep/slow and supercritical shallow/fast) except at critical depth.
+- Critical slope: slope that maintains uniform flow at critical depth. Mild slope (y_n > y_c), steep slope (y_n < y_c).
+- Uses: critical-depth flumes (Parshall flume, venturi flume) measure discharge; broad-crested weir.
+FIG: specific_energy
+PYQ-TREND: Critical depth (q²/g)^(1/3) and E_min = 1.5 y_c (very frequent); minimum specific energy at critical depth; alternate depths; Parshall flume.
+
+## 13.5 Hydraulic Jump
+- A hydraulic jump is the abrupt rise of the water surface when supercritical flow changes to subcritical flow. It involves intense turbulence and rollers and dissipates large amounts of energy.
+F: Sequent (conjugate) depths: y₂/y₁ = ½ [−1 + √(1 + 8 Fr₁²)]
+F: Energy loss: ΔE = (y₂ − y₁)³ / (4 y₁ y₂)
+F: Length of jump ≈ 5–7 (y₂ − y₁)  (≈ 6.1 y₂ for many designs)
+- Derived from the momentum equation (energy is not conserved across the jump).
+- Uses: energy dissipation below spillways and sluice gates (stilling basins), protecting the channel bed from scour, raising the downstream level for irrigation, mixing chemicals in water treatment, aeration, desalting.
+- Classification by Fr₁: undular (1–1.7), weak (1.7–2.5), oscillating (2.5–4.5), steady (4.5–9, best for design), strong (> 9).
+- Surges (moving hydraulic jumps), tidal bores.
+PYQ-TREND: Jump converts supercritical to subcritical; sequent depth formula; energy loss (y₂ − y₁)³/4y₁y₂; momentum (not energy) is conserved; uses in stilling basins.
+Q: Explain the most economical rectangular channel section and prove that the width is twice the depth.
+For a given area A = by and given slope and roughness, discharge Q = AC√(RS) is maximum when the hydraulic radius R = A/P is maximum, i.e., when the wetted perimeter P is minimum. For a rectangle P = b + 2y = A/y + 2y. Setting dP/dy = −A/y² + 2 = 0 gives A = 2y², so by = 2y², i.e., b = 2y. Then R = A/P = 2y²/(4y) = y/2. Hence the most economical rectangular section has a width twice the depth and a hydraulic radius equal to half the depth.

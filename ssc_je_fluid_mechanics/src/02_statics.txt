@@ -1,0 +1,71 @@
+# Fluid Statics and Pressure Measurement
+
+## 2.1 Pressure at a Point
+- Pressure (intensity of pressure) p = dF/dA, normal compressive force per unit area. Unit Pa (N/m²); 1 bar = 10⁵ Pa; 1 atm = 101.325 kPa = 760 mm Hg = 10.33 m of water; 1 kgf/cm² = 98.1 kPa; 1 psi = 6.895 kPa.
+- Pascal's law: in a fluid at rest, pressure at a point is the same in all directions (px = py = pz). It holds for fluids at rest and in rigid-body motion (no shear).
+- Applications of Pascal's law: hydraulic press, hydraulic jack, hydraulic brakes, hydraulic lift.
+F: Hydraulic press: F/a = W/A → mechanical advantage W/F = A/a = (D/d)²
+PYQ-TREND: Statement and applications of Pascal's law; mechanical advantage of hydraulic press; unit conversions (1 atm = 10.33 m water = 760 mm Hg).
+
+## 2.2 Hydrostatic Law
+F: dp/dz = −ρg  (z upward)  →  p = ρgh (h measured downward from the free surface)
+F: Pressure head h = p/(ρg) = p/w;  converting heads: h₁S₁ = h₂S₂
+- Pressure depends only on depth, density and g, not on the shape of the container (hydrostatic paradox). Dams are thicker at the base because pressure increases linearly with depth.
+- Free surfaces of a liquid at rest are horizontal; points at the same level in a continuous body of the same liquid have equal pressure.
+- In compressible fluids (atmosphere): isothermal atmosphere p = p₀ e^(−gz/RT); troposphere temperature lapse rate ≈ 6.5 K/km (ISA).
+F: Atmospheric pressure variation (linear lapse): p = p₀ (1 − Lz/T₀)^(g/(LR))
+PYQ-TREND: p = ρgh and its independence from container shape; head conversions between fluids (e.g., 10 m of water = 0.735 m of mercury); thick dam base.
+TIP: Head of fluid 2 = head of fluid 1 × S₁/S₂. For water to mercury divide by 13.6; 10.33 m water ÷ 13.6 = 0.76 m Hg.
+
+## 2.3 Absolute, Gauge and Vacuum Pressure
+F: Absolute pressure = atmospheric pressure + gauge pressure
+F: Vacuum (negative gauge) pressure = atmospheric − absolute
+- Absolute zero pressure = perfect vacuum. Gauges (Bourdon, manometers open to air) read gauge pressure. Barometers read atmospheric (absolute) pressure.
+- Local atmospheric pressure varies with altitude and weather; standard value 101.325 kPa.
+FIG: pressure_ref
+PYQ-TREND: Relation among absolute, gauge, vacuum pressure; which instrument measures which (barometer – atmospheric; Bourdon – gauge).
+WARN: In gas law and cavitation problems use absolute pressure. In manometer balances you may use gauge pressure consistently.
+
+## 2.4 Manometers
+- Manometers measure pressure by balancing a column of liquid. They can measure positive and negative (vacuum) gauge pressures and pressure differences.
+| Manometer | Use / feature |
+| Piezometer | Simplest; vertical tube; only liquid gauge pressure; cannot measure negative pressure, gas pressure or high pressure (tube too long) |
+| Simple U-tube | Gauge pressure (positive or negative) with a heavier manometric liquid (mercury) |
+| Single-column (micromanometer) | One limb a large reservoir; read only one limb; area ratio makes it sensitive |
+| Inclined single-column | More sensitive; reading magnified by 1/sinθ; used for low pressures (air ducts) |
+| Differential U-tube | Pressure difference between two points (e.g., venturimeter) using heavier liquid |
+| Inverted U-tube differential | Small pressure differences between two points in a liquid; lighter manometric fluid (air/oil) at the top |
+| Micromanometer (two liquids) | Very small differences |
+F: U-tube (mercury), pipe centre h₁ above mercury in left limb, deflection h₂: p_A + ρ₁gh₁ = ρ₂gh₂ → p_A = ρ₂gh₂ − ρ₁gh₁
+F: Vacuum with U-tube: p_A + ρ₁gh₁ + ρ₂gh₂ = 0 (gauge) → p_A = −(ρ₁gh₁ + ρ₂gh₂)
+F: Differential U-tube, same fluid in both pipes at same level: p_A − p_B = gx(ρ_m − ρ)
+F: Inverted U-tube: p_A − p_B = gx(ρ − ρ_light)
+F: Single column: p_A = ρ₂gh₂ (1 + a/A) − ρ₁gh₁ ≈ ρ₂gh₂ − ρ₁gh₁ when A ≫ a
+F: Inclined manometer: h₂ = L sinθ
+- Method: start from one end, add ρgh going down, subtract going up, equate at the other end.
+- Requirements of manometric liquid: should not mix with the fluid, low vapour pressure, stable density, good visibility, low surface tension effects; mercury is common for large differences, water/alcohol/red oil for small.
+PYQ-TREND: Limitations of piezometer; differential manometer reading p_A − p_B = gx(ρm − ρ) (very frequent for venturimeter); inclined manometer for small pressures; inverted U-tube for small differences between liquids.
+TIP: For a water pipe with a mercury differential manometer, 1 cm of mercury deflection = 12.6 cm of water head difference (13.6 − 1 = 12.6).
+
+## 2.5 Mechanical and Electrical Pressure Gauges
+- Bourdon tube gauge: elliptical-section curved tube straightens under pressure; most common; measures gauge pressure (positive or vacuum types); C-type, spiral, helical.
+- Diaphragm gauge: low pressures, corrosive fluids. Bellows gauge: low pressure and differential pressure.
+- Dead-weight piston gauge: primary standard to calibrate Bourdon gauges.
+- Electrical: strain-gauge transducers, piezoelectric (rapidly fluctuating pressure – engine cylinders), capacitive, LVDT-based.
+- Vacuum gauges: McLeod (reference/calibration), Pirani (thermal conductivity), ionisation (very high vacuum), Knudsen.
+- Barometers: mercury barometer (Torricelli, 1643) and aneroid barometer (no liquid; altimeter in aircraft).
+PYQ-TREND: Bourdon gauge measures gauge pressure; dead-weight tester for calibration; McLeod for vacuum; aneroid barometer has no liquid.
+
+## 2.6 Fluids in Rigid-Body Motion (Relative Equilibrium)
+### Linear acceleration
+F: Tank accelerating horizontally with a: free surface tilts, tanθ = a/g
+F: Vertical acceleration a (upwards): p = ρh(g + a);  downwards: p = ρh(g − a);  free fall: p = 0 (gauge)
+F: General: tanθ = a_x/(g + a_y)
+### Rotation about a vertical axis (forced vortex)
+F: Free surface is a paraboloid: z = ω²r²/(2g);  height rise at rim above vertex h = ω²R²/(2g)
+F: Volume of paraboloid = ½ × volume of circumscribing cylinder → rise at wall = fall at centre = h/2 (from original level)
+F: Pressure: p = ρω²r²/2 − ρgz + C
+- Rotating tank applications: centrifugal pumps (forced vortex in impeller), cream separators.
+PYQ-TREND: Inclination of free surface tanθ = a/g; pressure in an accelerating lift; paraboloid free surface in rotating vessel and h = ω²R²/2g; equal rise and fall about the original level.
+Q: Explain the working of a differential U-tube manometer and derive the expression for pressure difference between two pipes carrying the same liquid.
+A differential U-tube manometer has a U-shaped glass tube containing a heavy manometric liquid (often mercury, density ρm) with each limb connected to one pipe. When pressures differ, the mercury surfaces stand at different levels; let x be the difference in mercury levels, and let pipe A centre be y above the higher mercury surface level reference. Writing pressures at the lower mercury surface (datum) in both limbs: left limb p_A + ρg(y + x); right limb p_B + ρgy + ρm g x. Equating: p_A − p_B = gx(ρm − ρ). If the pipes are at different levels or carry different liquids, the corresponding ρgh terms are added. It is used with venturimeters and orifice meters to measure flow.

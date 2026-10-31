@@ -1,0 +1,74 @@
+# Solved Numericals – Set 3 (Velocity Triangles & Mixed Practice)
+
+## 17E.1 Velocity Triangles
+### Problem 69 – Francis turbine work
+A Francis turbine: inlet whirl velocity V_w1 = 20 m/s, inlet blade speed u₁ = 25 m/s, radial discharge, net head 60 m. Find work per unit weight and hydraulic efficiency.
+F: Work/weight = V_w1 u₁/g = 20 × 25/9.81 = 51.0 m;  η_h = 51/60 = 85%
+### Problem 70 – Francis discharge
+Runner D₁ = 1 m, width B₁ = 0.1 m, flow velocity V_f1 = 4 m/s (neglect vane thickness). Find Q.
+F: Q = π D₁ B₁ V_f1 = π × 1 × 0.1 × 4 = 1.257 m³/s
+### Problem 71 – Pelton hydraulic efficiency
+V₁ = 80 m/s, u = 38 m/s, bucket deflection 165° (φ = 15°), k = 0.9. Find η_h.
+F: η_h = 2(V₁ − u)(1 + k cosφ)u/V₁² = 2 × 42 × (1 + 0.869) × 38/6400 = 5965.7/6400 = 93.2%
+### Problem 72 – Jet on moving curved vane
+A 40 mm jet at 30 m/s strikes a series of semicircular vanes moving at 15 m/s. Find power and efficiency (no friction).
+F: a = 1.257 × 10⁻³ m²;  ρaV = 37.7 kg/s;  work/s = ρaV × 2(V − u) × u = 37.7 × 30 × 15 = 16.97 kW
+F: Jet KE/s = ½ × 37.7 × 900 = 16.97 kW → η = 100% (theoretical at u = V/2 with full reversal)
+### Problem 73 – Centrifugal pump outlet triangle
+D₂ = 0.4 m, N = 1450 rpm, blade outlet angle β₂ = 30°, V_f2 = 2.5 m/s, radial entry. Find V_w2 and Euler head.
+F: u₂ = π × 0.4 × 1450/60 = 30.37 m/s;  V_w2 = u₂ − V_f2/tanβ₂ = 30.37 − 2.5/0.577 = 26.04 m/s
+F: H_e = V_w2 u₂/g = 26.04 × 30.37/9.81 = 80.6 m
+### Problem 74 – Minimum starting speed
+D₂ = 0.5 m, D₁ = 0.25 m, manometric head 20 m. Find the minimum starting speed (centrifugal head = manometric head).
+F: (u₂² − u₁²)/2g = 20 → (π N/60)² (0.25 − 0.0625) = 392.4 → (πN/60)² = 2092.8 → πN/60 = 45.75 → N = 874 rpm
+
+## 17E.2 Mixed Practice
+### Problem 75 – Head of mercury to water
+Convert 380 mm of mercury into kPa and metres of water.
+F: p = 13600 × 9.81 × 0.38 = 50.7 kPa;  water head = 0.38 × 13.6 = 5.17 m
+### Problem 76 – Pressure in a lift
+A tank with water 2 m deep is in a lift accelerating upward at 4.9 m/s². Find pressure at the bottom.
+F: p = ρh(g + a) = 1000 × 2 × 14.71 = 29.4 kPa
+### Problem 77 – Centre of pressure of triangle
+A triangle of base 2 m and height 3 m is immersed vertically with its apex at the free surface (base horizontal at the bottom). Find h̄, F and h*.
+F: h̄ = 2 m (2h/3 from apex);  A = 3 m²;  F = 9810 × 3 × 2 = 58.86 kN
+F: I_G = bh³/36 = 2 × 27/36 = 1.5 m⁴;  h* = 2 + 1.5/(3 × 2) = 2.25 m (= 3h/4)
+### Problem 78 – Stagnation pressure
+Water flows at 5 m/s with static pressure 150 kPa. Find stagnation pressure.
+F: p₀ = p + ρV²/2 = 150 + 12.5 = 162.5 kPa
+### Problem 79 – Jet range
+A water jet leaves a nozzle at 20 m/s at 45°. Find the horizontal range and maximum height.
+F: R = V²/g = 400/9.81 = 40.8 m;  H = V² sin²45°/2g = 10.2 m
+### Problem 80 – Mouthpiece discharge
+A 50 mm external cylindrical mouthpiece works under 4 m head. Find Q (C_d = 0.855).
+F: Q = 0.855 × 1.963 × 10⁻³ × 8.86 = 0.01487 m³/s = 14.9 L/s
+### Problem 81 – Viscous flow between plates
+Oil (μ = 0.2 Pa·s) flows between fixed plates 10 mm apart with a pressure gradient of −2,400 Pa/m. Find u_max and mean velocity.
+F: u_max = (1/8μ)(−dp/dx) t² = (1/1.6) × 2400 × 10⁻⁴ = 0.15 m/s;  V = (2/3) × 0.15 = 0.10 m/s
+### Problem 82 – Pipe diameter for a given loss
+Water at 0.1 m³/s must flow 2 km with h_f ≤ 20 m, f = 0.02. Find minimum D.
+F: D⁵ = fLQ²/(12.1 h_f) = 0.02 × 2000 × 0.01/(242) = 1.653 × 10⁻³ → D = 0.278 m (adopt 300 mm)
+### Problem 83 – Siphon summit
+A siphon's summit is 3 m above the upstream water level; velocity 2 m/s; loss up to summit 0.5 m. Find summit pressure head (atmospheric 10.3 m).
+F: 0 = p/ρg + 3 + 0.204 + 0.5 → p/ρg = −3.70 m (gauge) → absolute 6.6 m of water (above vapour limit)
+### Problem 84 – Parallel pipes
+Two parallel pipes of equal length and f have diameters 0.2 m and 0.3 m. Find the discharge ratio Q₂/Q₁.
+F: Same h_f → Q ∝ D^(5/2) → Q₂/Q₁ = (1.5)^2.5 = 2.76
+### Problem 85 – Model drag
+A 1:20 ship model is tested at 2 m/s. Find the prototype speed and the ratio of wave-resistance forces.
+F: V_p = 2 × √20 = 8.94 m/s;  F_p/F_m = 20³ = 8000
+### Problem 86 – Turbine speed change
+A Pelton wheel runs at 500 rpm under 200 m. At what speed should it run under 50 m for similar conditions?
+F: N ∝ √H → 500 × 0.5 = 250 rpm
+### Problem 87 – Pumps in series
+Two identical pumps each give 30 m head at 0.05 m³/s. Find total head in series and discharge in parallel (ideal).
+F: Series: 60 m at 0.05 m³/s;  parallel: 0.10 m³/s at 30 m (actual depends on system curve)
+### Problem 88 – Double-acting pump
+Bore 150 mm, stroke 300 mm, 50 rpm, rod diameter neglected. Find Q_th.
+F: Q_th = 2ALN/60 = 2 × 0.01767 × 0.3 × 50/60 = 8.84 × 10⁻³ m³/s = 8.84 L/s
+### Problem 89 – Accumulator energy
+An accumulator ram 200 mm diameter, lift 5 m, pressure 6 MPa. Find stored energy.
+F: Energy = pAL = 6 × 10⁶ × 0.03142 × 5 = 942.5 kJ
+### Problem 90 – Hydraulic ram efficiency
+Waste flow 100 L/min under 3 m supply head lifts 20 L/min to 15 m. Find D'Aubuisson and Rankine efficiencies.
+F: D'Aubuisson η = qH/((Q + q)h) = (20 × 15)/(120 × 3) = 83.3%;  Rankine η = q(H − h)/(Qh) = 20 × 12/(100 × 3) = 80%

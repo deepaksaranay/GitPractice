@@ -1,0 +1,92 @@
+# Pumps and Hydraulic Devices
+
+## 16.1 Centrifugal Pumps – Construction and Working
+- A centrifugal pump converts mechanical energy into pressure energy of the liquid by centrifugal action – a forced vortex in the impeller raises pressure. It is the reverse of an inward-flow reaction turbine.
+- Main parts: impeller (vanes; closed/shrouded for clean liquids, semi-open, open for sewage/slurries), casing (volute – gradually increasing area converts velocity to pressure; vortex casing with a whirlpool chamber; casing with diffuser guide blades for multistage high-head pumps), suction pipe with foot valve (non-return) and strainer, delivery pipe with delivery valve.
+- Vanes are backward-curved (outlet angle β₂ < 90°, typically 20°–25°): gives a falling H–Q curve, non-overloading power characteristic, stable operation and higher efficiency. Radial (β₂ = 90°) and forward-curved (β₂ > 90°) vanes give rising power curves – risk of motor overload.
+- Priming: filling the suction pipe, casing and impeller with liquid before starting, to remove air. Needed because the head developed is independent of the fluid, so the pressure developed with air (ρ_air ≈ ρ_water/800) is too small to lift water.
+- Started with the delivery valve closed (zero discharge → minimum power for radial pumps); axial-flow pumps are started with the valve open (their power is maximum at shut-off).
+PYQ-TREND: Priming and why it is needed (very frequent); backward-curved vanes; volute casing converts KE to pressure; foot valve function; starting against closed delivery valve; centrifugal pump = reverse of reaction turbine.
+
+## 16.2 Heads, Work and Efficiencies
+F: Static head H_s = h_s (suction lift) + h_d (delivery head)
+F: Manometric head H_m = H_s + h_fs + h_fd + V_d²/2g  (head imparted to liquid, measured by gauges)
+F: Euler head (work per unit weight, radial entry V_w1 = 0): H_e = V_w2 u₂ / g
+F: Manometric efficiency η_mano = g H_m / (V_w2 u₂)
+F: Mechanical efficiency η_m = (power at impeller) / (shaft power)
+F: Overall efficiency η_o = ρ g Q H_m / shaft power = η_mano × η_m × η_v
+F: Power required P = ρ g Q H_m / η_o
+F: Minimum starting speed (centrifugal head ≥ manometric head): u₂²/2g − u₁²/2g = H_m → N_min = 120 η_mano V_w2 D₂ / (π(D₂² − D₁²))
+F: Slip: actual V_w2 < theoretical (finite number of vanes); slip factor σ = V_w2'/V_w2
+PYQ-TREND: Manometric head definition; manometric efficiency formula (frequent); Euler head with radial entry; minimum starting speed; slip.
+
+## 16.3 Similarity Laws, Specific Speed and Characteristics
+F: Affinity laws (same pump, speed change): Q ∝ N, H ∝ N², P ∝ N³
+F: Same speed, impeller diameter change (trimming): Q ∝ D, H ∝ D², P ∝ D³ (approx.)
+F: Geometrically similar pumps: Q/(ND³) = const, H/(N²D²) = const, P/(N³D⁵) = const
+F: Specific speed of a pump: N_s = N √Q / H^(3/4)  (speed of a similar pump delivering 1 m³/s against 1 m head)
+F: Multistage: N_s uses head per stage;  double-suction: use Q/2
+| Pump type by Ns (SI, rpm, m³/s, m) | Ns range |
+| Radial-flow (centrifugal) | 10–80 (slow/medium/high) |
+| Mixed-flow | 80–160 |
+| Axial-flow (propeller) | 160–500 |
+- Characteristic curves: main (H, P, η vs Q at constant N), operating (at design speed), Muschel (iso-efficiency). The H–Q curve of a backward-curved pump falls with Q; η is maximum at the best efficiency point (BEP); shut-off head at Q = 0.
+- Operating point: intersection of the pump H–Q curve and the system curve (H_static + kQ²).
+- Pumps in series: heads add at the same discharge – used for high head (multistage pumps, deep wells, boiler feed). Pumps in parallel: discharges add at the same head – used for large/variable discharge.
+- Multistage pumps: several impellers in series on one shaft – high head (borewell submersible pumps, boiler feed pumps).
+FIG: pump_curves
+PYQ-TREND: Affinity laws P ∝ N³ (very frequent); pump specific speed formula with √Q and H^(3/4); series for head, parallel for discharge; BEP; multistage pumps; operating point.
+TIP: If speed increases by 10%: Q +10%, H +21%, P +33% (1.1, 1.21, 1.331).
+
+## 16.4 Cavitation and NPSH in Pumps
+- Cavitation in centrifugal pumps occurs at the impeller eye/inlet (lowest pressure). Effects: pitting, noise, vibration, drop in head and efficiency ('break-off').
+F: NPSH available = p_atm/ρg − h_s − h_fs − p_v/ρg  (suction lift case; add h if the liquid is above the pump)
+F: Condition: NPSH_A > NPSH_R (given by manufacturer)
+F: Thoma's cavitation parameter for pumps σ = NPSH / H_m
+F: Maximum suction lift (theoretical) = 10.3 m of water at sea level; practically 6–7 m
+- Prevention: keep suction lift small (or flooded suction), short and large-diameter suction pipe with few bends, cool liquid (lower vapour pressure), avoid excessive speed.
+PYQ-TREND: NPSH definition and NPSH_A > NPSH_R; cavitation at impeller eye; practical suction lift limit ≈ 6–7 m.
+
+## 16.5 Reciprocating Pumps
+- Positive-displacement pump: a piston/plunger moves in a cylinder with suction and delivery valves. Suitable for high head and low discharge (oil drilling, boiler feed in small plants, hydraulic testing, pressure washers). Self-priming in principle.
+F: Theoretical discharge: single-acting Q_th = ALN/60;  double-acting Q_th = 2ALN/60 (neglecting rod area; with rod: (2A − a)LN/60)
+F: Slip = Q_th − Q_act;  % slip = (1 − C_d) × 100;  C_d = Q_act/Q_th (0.95–0.98)
+F: Negative slip occurs when Q_act > Q_th – long suction pipe, short delivery pipe, high speed (inertia of the suction column keeps delivery valve open)
+F: Work done per second (single-acting) = ρ g A L N (h_s + h_d)/60;  double-acting × 2
+F: Acceleration head: h_a = (L_pipe/g)(A/a) ω² r cosθ  (max at start and end of stroke: (L/g)(A/a)ω²r)
+F: Friction head (with SHM): h_f = (4f L/(2gd)) [(A/a) ω r sinθ]² – maximum at mid-stroke
+F: Effect of acceleration head on work: none (positive and negative areas cancel); friction adds area to the indicator diagram
+- Indicator diagram: plot of pressure head in the cylinder vs stroke; its area ∝ work done per cycle. Acceleration head tilts the suction and delivery lines; friction makes them parabolic.
+- Separation: occurs if pressure in the suction pipe at the beginning of the suction stroke falls below about 2.5 m of water (absolute) – limits speed.
+- Air vessels: closed chambers with compressed air fitted on suction and delivery sides close to the cylinder. Functions: obtain nearly uniform flow, reduce acceleration head (allowing higher speed and longer pipes), avoid separation, save work against friction. Saving ≈ 84.8% (single-acting), 39.2% (double-acting).
+| Feature | Centrifugal | Reciprocating |
+| Discharge | Large, continuous, smooth | Small, pulsating |
+| Head | Low to medium (multistage for high) | High |
+| Priming | Needed | Not needed (self-priming) |
+| Viscous liquids/slurries | Can handle | Difficult |
+| Cost, size, maintenance | Low, compact, simple | High, bulky, valves need care |
+| Efficiency | Good at BEP | Higher at high heads |
+PYQ-TREND: Negative slip conditions (very frequent); discharge formulas; air vessel functions and work saved; acceleration head max at stroke ends; indicator diagram; comparison with centrifugal pumps; separation.
+
+## 16.6 Other Pumps and Hydraulic Devices
+| Device | Principle / use |
+| Gear pump | Rotary positive displacement; lubrication systems, hydraulics |
+| Vane pump | Rotary positive displacement; power steering, hydraulics |
+| Screw pump | Positive displacement; viscous liquids, Archimedean screw for lifting water |
+| Lobe pump | Food processing |
+| Jet pump (ejector) | Momentum transfer of a high-velocity jet; no moving parts; deep wells |
+| Air-lift pump | Compressed air mixed with water reduces density in a well pipe |
+| Submersible pump | Multistage centrifugal with motor below water; borewells |
+| Hydraulic ram | Uses water hammer of a large flow from a small head to lift a small quantity to a large height; no external power; D'Aubuisson efficiency η = qH/((Q + q)h); Rankine efficiency η = q(H − h)/(Q h) (Q = waste flow, q = flow lifted to height H, h = supply head) |
+| Hydraulic accumulator | Stores pressure energy (energy = pAL) – supplies peak demand for lifts, cranes, presses |
+| Differential accumulator | Smaller volume, higher pressure |
+| Hydraulic intensifier | Increases liquid pressure: p₂ = p₁ (A/a) |
+| Hydraulic press | Pascal's law; W/F = A/a |
+| Hydraulic crane, lift, jack | Ram-driven lifting (direct-acting or suspended lifts) |
+| Fluid (hydraulic) coupling | Pump impeller + turbine runner in one casing with oil; torque out = torque in; slip 2–3%; efficiency = N₂/N₁ |
+| Torque converter | Coupling + fixed stator (guide vanes); output torque can exceed input (torque multiplication); automatic transmissions |
+F: Hydraulic coupling: efficiency η = N_turbine / N_pump = 1 − slip
+F: Torque converter: T_turbine = T_pump + T_stator
+PYQ-TREND: Hydraulic ram works on water hammer; accumulator stores energy; intensifier raises pressure; torque converter has a stator (torque multiplication) whereas fluid coupling does not; gear and vane pumps are positive displacement.
+Q: Why is priming necessary in a centrifugal pump? What happens if the pump runs without priming?
+A centrifugal pump develops a head H = V_w2 u₂/g that depends only on impeller speed and geometry, not on the fluid. The pressure rise equals ρgH, so it is proportional to the density of the fluid in the impeller. If the impeller contains air (density about 1/800 of water), the pressure developed is only about 1/800 of that with water – far too small to lift water up the suction pipe – and the pump only churns air. Priming fills the suction pipe, casing and impeller with water before starting, removing the air so that the full pressure can be developed. A foot valve (non-return valve) at the bottom of the suction pipe holds the water in after priming. Running dry also damages glands and wear rings through overheating. Self-priming pumps and reciprocating pumps do not need separate priming.

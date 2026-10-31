@@ -1,0 +1,98 @@
+# Hydraulic Turbines
+
+## 15.1 Hydroelectric Plant and Heads
+- Layout: reservoir/dam → intake with trash rack → penstock (with surge tank) → turbine (scroll casing, guide vanes, runner) → draft tube → tail race. The turbine drives a generator.
+F: Gross head H_g = head race level − tail race level
+F: Net (effective) head H = H_g − h_f (penstock losses);  Pelton: H measured at the nozzle base;  reaction: H = (p₁/ρg + V₁²/2g + z₁) − (V₂²/2g at draft tube exit)
+F: Water power (input) = ρ g Q H
+### Efficiencies
+F: Hydraulic efficiency η_h = power developed by runner / water power = (V_w1 u₁ ± V_w2 u₂)/(gH)
+F: Mechanical efficiency η_m = shaft power / runner power
+F: Volumetric efficiency η_v = Q actually striking runner / Q supplied
+F: Overall efficiency η_o = shaft power / (ρgQH) = η_h × η_m (× η_v)
+F: Euler's turbine equation: work per unit mass = V_w1 u₁ ± V_w2 u₂
+- Maximum hydraulic efficiency in reaction turbines occurs with radial discharge (V_w2 = 0): η_h = V_w1 u₁/(gH).
+PYQ-TREND: Gross vs net head; definitions of hydraulic, mechanical, overall efficiency; Euler's equation; radial discharge for max efficiency.
+
+## 15.2 Classification of Turbines
+| Basis | Types |
+| Energy at inlet | Impulse (only kinetic energy; atmospheric pressure throughout) – Pelton, Turgo, cross-flow (Banki). Reaction (kinetic + pressure energy) – Francis, Kaplan, Propeller, Deriaz |
+| Direction of flow through runner | Tangential (Pelton); radial inward (old Francis, Thomson); radial outward (Fourneyron); mixed (modern Francis); axial (Kaplan, Propeller) |
+| Head | High (> 250 m): Pelton; medium (60–250 m): Francis; low (< 60 m): Kaplan/Propeller |
+| Specific speed | Low: Pelton; medium: Francis; high: Kaplan |
+| Disposition of shaft | Horizontal (usually Pelton) / vertical (Francis, Kaplan) |
+
+| Turbine | Head (m) | Ns (SI, kW) | Flow direction | Type |
+| Pelton, single jet | > 250 (up to ~1800) | 8.5–30 | Tangential | Impulse |
+| Pelton, multi-jet | > 250 | 30–51 | Tangential | Impulse |
+| Francis | 60–250 (up to ~300) | 50–340 | Radial inward / mixed | Reaction |
+| Kaplan / Propeller | < 60 (2–70) | 255–860 | Axial | Reaction |
+F: Specific speed of turbine: N_s = N √P / H^(5/4)  (P in kW, H in m, N in rpm)
+PYQ-TREND: Turbine selection by head and specific speed (most frequent hydraulic-machines question); Pelton – tangential impulse; Kaplan – axial reaction; Francis – mixed/radial reaction; Ns formula with H^(5/4).
+TIP: Head and specific speed move in opposite directions: High head → low Ns → Pelton; low head → high Ns → Kaplan.
+
+## 15.3 Pelton Wheel
+- Components: nozzle with spear (needle) valve to regulate flow; runner with buckets (double hemispherical cups with a central splitter that divides the jet into two halves and avoids axial thrust); casing (only prevents splashing – no hydraulic function); breaking jet (stops the runner when the main jet is closed); deflector (diverts the jet during sudden load reduction, avoiding water hammer from rapid spear closure).
+- Jet deflection by buckets ≈ 160°–165° (so the leaving water does not hit the next bucket).
+- Pelton wheel works at atmospheric pressure; it must be placed above the tail race; no draft tube.
+F: Jet velocity V₁ = C_v √(2gH),  C_v ≈ 0.97–0.99
+F: Bucket speed u = φ √(2gH),  speed ratio φ ≈ 0.43–0.48
+F: Work per second = ρ a V₁ (V₁ − u)(1 + k cosφ) u   (k = bucket friction factor, φ = outlet angle)
+F: Hydraulic efficiency η_h = 2(V₁ − u)(1 + k cosφ) u / V₁²;  maximum at u = V₁/2: η_h,max = (1 + k cosφ)/2
+F: Jet ratio m = D/d (pitch circle dia / jet dia) ≈ 12 (range 11–14; minimum ≈ 6)
+F: Number of buckets z = 15 + m/2 = 15 + D/(2d)  (Taygun's formula)
+F: Bucket width ≈ 5d; depth ≈ 1.2d
+F: Number of jets n: Q = n × (π/4)d² V₁
+PYQ-TREND: Spear valve regulates discharge; splitter divides the jet; casing has no hydraulic function; deflector avoids water hammer; jet ratio ≈ 12; number of buckets 15 + m/2; max efficiency at u = V/2; no draft tube for Pelton.
+
+## 15.4 Francis Turbine
+- Components: spiral (scroll) casing – decreasing area to keep velocity uniform around the runner; stay vanes – structural, direct water to guide vanes; guide vanes (wicket gates) – adjustable, regulate flow and direct it at the correct angle; runner – fixed blades; draft tube.
+- Inward radial/mixed-flow reaction turbine; the runner is completely full of water under pressure.
+F: Flow ratio ψ = V_f1/√(2gH) ≈ 0.15–0.30
+F: Speed ratio K_u = u₁/√(2gH) ≈ 0.6–0.9
+F: Discharge Q = π D₁ B₁ V_f1 (× blade thickness factor);  width ratio n = B₁/D₁ ≈ 0.10–0.40
+F: Hydraulic efficiency (radial discharge) η_h = V_w1 u₁/(gH)
+- Advantages of inward flow over outward flow: centrifugal head opposes the flow, making it self-regulating (runaway speed limited).
+PYQ-TREND: Guide vanes (wicket gates) regulate flow; scroll casing gives uniform velocity; flow ratio range; Francis is inward/mixed-flow reaction turbine; runner full of water.
+
+## 15.5 Kaplan and Propeller Turbines
+- Axial-flow reaction turbines for low heads and large discharges. Runner looks like a ship's propeller with few blades (3–8). Hub (boss) diameter D_b ≈ 0.35–0.6 D_o.
+- Kaplan: runner blades adjustable (double regulation – both guide vanes and runner blades) → high efficiency over a wide load range. Propeller: fixed blades → poor part-load efficiency.
+F: Discharge Q = (π/4)(D_o² − D_b²) V_f1
+F: Peripheral velocity at outer diameter u = π D_o N/60
+- Bulb turbine: Kaplan with the generator in a bulb in the flow – tidal and very-low-head plants. Deriaz: diagonal (mixed) flow with adjustable blades; can work as pump-turbine.
+PYQ-TREND: Kaplan has adjustable runner blades (double regulation); propeller has fixed blades; axial flow; flat part-load efficiency curve.
+
+## 15.6 Draft Tube
+- A gradually diverging pipe connecting the runner exit to the tail race, used only with reaction turbines.
+- Functions: (1) creates a negative (suction) head at the runner outlet, so the turbine can be installed above the tail race without loss of head (convenient for inspection); (2) converts a large part of the kinetic energy at the runner exit into pressure energy (regains head), increasing the efficiency.
+| Draft tube | Efficiency (approx.) |
+| Conical (straight divergent), cone angle < 8° | ≈ 90% |
+| Moody spreading tube (bell-mouthed) | ≈ 85% |
+| Simple elbow | ≈ 60% |
+| Elbow with varying cross-section (rectangular outlet) | Used in large Kaplan/Francis plants |
+F: Draft tube efficiency η_d = [(V₂² − V₃²)/2g − h_f] / (V₂²/2g)
+F: Pressure head at draft-tube inlet: p₂/ρg = H_atm − H_s − (V₂² − V₃²)/2g + h_f  (H_s = height of runner exit above tail race)
+- The draft tube outlet must be submerged below the tail race level.
+PYQ-TREND: Draft tube used only in reaction turbines (not Pelton); functions (suction head + KE recovery); conical type most efficient; angle < 8° to avoid separation.
+
+## 15.7 Cavitation in Turbines
+- Occurs where local pressure falls below vapour pressure – typically at the runner exit/draft tube inlet of reaction turbines (lowest pressure point).
+F: Thoma's cavitation factor σ = (H_atm − H_v − H_s)/H;  cavitation avoided if σ > σ_critical
+F: Critical σ increases with specific speed (Kaplan needs higher σ → must be set lower relative to tail race)
+- Prevention: install the turbine lower (reduce H_s), use cavitation-resistant materials (stainless steel, bronze), polished surfaces, avoid operation at part load or overload far from design.
+PYQ-TREND: Location of cavitation in reaction turbines; Thoma's factor; σ_critical increases with Ns.
+
+## 15.8 Performance, Unit Quantities and Governing
+F: Unit speed N_u = N/√H;  unit discharge Q_u = Q/√H;  unit power P_u = P/H^(3/2)
+F: Same turbine at different heads: N ∝ √H, Q ∝ √H, P ∝ H^(3/2)
+F: Model–prototype (geometrically similar): N D/√H = const, Q/(D²√H) = const, P/(D²H^(3/2)) = const
+- Characteristic curves: main (constant head) curves, operating (constant speed) curves, constant-efficiency (Muschel/iso-efficiency) curves. Pelton and Kaplan have flat efficiency curves at part load; Francis is steeper; propeller is the worst.
+- Runaway speed: maximum speed of a turbine at full gate opening under no load (Pelton ≈ 1.8–1.9 N; Francis ≈ 2–2.2 N; Kaplan ≈ 2.5–3 N). Generators are designed to withstand it.
+F: Synchronous speed of generator: N = 120 f / p  (p = number of poles; f = 50 Hz in India)
+- Governing: keeping speed constant (synchronous) under varying load. Oil-pressure governor: centrifugal sensor (or electronic) → relay valve → servomotor → spear (Pelton) or wicket gates (Francis/Kaplan). Pelton uses a deflector to prevent water hammer during rapid load rejection; reaction turbines use a relief valve.
+FIG: turbine_eff
+PYQ-TREND: Unit quantities and N ∝ √H, P ∝ H^1.5 (frequent); runaway speed; synchronous speed 120f/p; governing mechanisms (spear, deflector, wicket gates, servomotor); Muschel curves.
+WARN: Specific speed of a turbine uses √P and H^(5/4); of a pump it uses √Q and H^(3/4). Using the wrong one is a common slip.
+Q: Explain the function of a draft tube and why it is used only in reaction turbines.
+In a reaction turbine water leaves the runner with considerable velocity and the runner works full of water under pressure. A draft tube – a gradually expanding airtight pipe from the runner exit down into the tail race – does two things. First, the water column in it creates a pressure below atmospheric at the runner outlet, so the runner can be placed above the tail-race level (for easy maintenance) without losing the static head between the runner and tail race. Second, by gradually decelerating the flow it converts much of the exit kinetic energy into pressure energy, reducing the exit loss and increasing the efficiency. In an impulse turbine like the Pelton wheel the jet acts at atmospheric pressure in open air and the wheel must stand clear of the tail-race water; a draft tube cannot create suction there or recover energy, so it is not used.

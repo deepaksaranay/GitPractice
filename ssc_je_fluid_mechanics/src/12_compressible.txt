@@ -1,0 +1,45 @@
+# Compressible Flow (Basics)
+
+## 12.1 Speed of Sound and Mach Number
+F: Speed of sound: c = √(dp/dρ) = √(K/ρ);  ideal gas c = √(γRT);  air at 15 °C ≈ 340 m/s, 20 °C ≈ 343 m/s
+F: Mach number M = V/c
+| Regime | Mach number |
+| Incompressible (approx.) | M < 0.3 |
+| Subsonic | M < 1 |
+| Transonic | 0.8 < M < 1.2 |
+| Sonic | M = 1 |
+| Supersonic | 1 < M < 5 |
+| Hypersonic | M > 5 |
+F: Mach angle: sin α = 1/M  (Mach cone exists only for M ≥ 1)
+- The region inside the Mach cone is the 'zone of action'; outside is the 'zone of silence' – an observer hears a supersonic aircraft only after the cone passes.
+- Density changes below about 5% (M < 0.3) are negligible – the flow can be treated as incompressible.
+PYQ-TREND: Speed of sound √(γRT); Mach angle sin α = 1/M; flow regimes by Mach number; zone of silence.
+
+## 12.2 Stagnation Properties and Isentropic Flow
+F: Energy equation (adiabatic): h + V²/2 = h₀ → c_pT + V²/2 = c_pT₀
+F: Stagnation temperature: T₀/T = 1 + ((γ − 1)/2) M²
+F: Stagnation pressure: p₀/p = [1 + ((γ − 1)/2) M²]^(γ/(γ−1))
+F: Stagnation density: ρ₀/ρ = [1 + ((γ − 1)/2) M²]^(1/(γ−1))
+F: Critical (sonic, M = 1) ratios for air (γ = 1.4): T*/T₀ = 0.833, p*/p₀ = 0.528, ρ*/ρ₀ = 0.634
+F: Area–velocity relation: dA/A = (M² − 1) dV/V
+- Subsonic flow (M < 1): velocity increases in a converging duct (nozzle) and decreases in a diverging duct (diffuser). Supersonic flow (M > 1): the opposite – velocity increases in a diverging duct. To accelerate from subsonic to supersonic, a convergent–divergent (de Laval) nozzle is needed, with M = 1 at the throat.
+- Choked flow: when the throat reaches M = 1, mass flow is maximum; reducing the back pressure further does not increase the flow.
+F: Maximum mass flow (choked): ṁ_max = 0.0404 A* p₀/√T₀ (air, SI)
+PYQ-TREND: Stagnation temperature relation; critical pressure ratio 0.528 for air; area–velocity relation and behaviour of nozzles/diffusers in subsonic vs supersonic flow; choking at M = 1; de Laval nozzle.
+
+## 12.3 Normal Shock Waves
+- A normal shock is an abrupt, irreversible compression from supersonic (M₁ > 1) to subsonic (M₂ < 1) flow, across a very thin region.
+| Property across normal shock | Change |
+| Mach number | Decreases (supersonic → subsonic) |
+| Static pressure | Increases |
+| Static temperature | Increases |
+| Density | Increases |
+| Velocity | Decreases |
+| Stagnation temperature | Constant (adiabatic) |
+| Stagnation pressure | Decreases (loss) |
+| Entropy | Increases |
+F: M₂² = (M₁² + 2/(γ − 1)) / ((2γ/(γ − 1)) M₁² − 1)
+- Oblique shocks form at wedges and in supersonic inlets; expansion fans (Prandtl–Meyer) occur at convex corners.
+- Fanno flow: adiabatic flow with friction in a constant-area duct. Rayleigh flow: frictionless flow with heat transfer in a constant-area duct. Both drive the Mach number towards 1.
+PYQ-TREND: Across a normal shock stagnation temperature is constant and stagnation pressure falls; shock converts supersonic to subsonic; entropy increases; Fanno vs Rayleigh lines.
+WARN: A normal shock cannot occur in subsonic flow (it would decrease entropy).

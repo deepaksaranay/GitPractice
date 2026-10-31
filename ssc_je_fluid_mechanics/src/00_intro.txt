@@ -1,0 +1,19 @@
+# How to Use These Notes
+
+## Why Fluid Mechanics Decides Your Rank
+In SSC JE Mechanical, Fluid Mechanics and Hydraulic Machines together give roughly 15–20 of the 100 technical questions in Paper-I, and a full block in Paper-II. Civil candidates get an even larger share (hydraulics, open channels, pipe flow). The subject repeats concepts heavily: viscosity behaviour, manometers, centre of pressure, metacentric height, Bernoulli applications, venturimeter, laminar flow (f = 64/Re), Darcy–Weisbach, minor losses, model laws, specific speed and turbine selection appear almost every year.
+| Area | Typical questions (Mech, Paper-I) | Priority |
+| Fluid properties & statics | 3–4 | Very high |
+| Buoyancy & kinematics | 2–3 | High |
+| Bernoulli, flow measurement, momentum | 3–4 | Very high |
+| Laminar, turbulent & pipe flow | 3–4 | Very high |
+| Boundary layer, dimensional analysis | 1–2 | Medium |
+| Impact of jets & turbines | 2–3 | Very high |
+| Pumps & hydraulic devices | 2–3 | High |
+
+## How Each Chapter Is Built
+- Concept points first, then a yellow formula box, then a blue PYQ-TREND box listing what SSC asks repeatedly, a green TOPPER TRICK, a red COMMON MISTAKE, and a purple descriptive question for Paper-II.
+- Chapter 17 has solved numericals in SSC style (step by step, no options). Chapter 18 is the last-minute sheet. Appendix A collects every formula; Appendix B collects every PYQ-trend box.
+- Use SI units throughout: ρ_water = 1000 kg/m³, g = 9.81 m/s², γ_water = 9810 N/m³, ρ_mercury = 13,600 kg/m³ (S = 13.6).
+TIP: Fluid mechanics numericals in SSC are short (30–60 seconds). Memorise the ratio results (how a quantity changes when D, V or H doubles) – they save the most time.
+WARN: Don't mix up gauge and absolute pressure, dynamic (μ) and kinematic (ν) viscosity, or the turbine and pump specific-speed formulas. These three slips cost the most marks.

@@ -1,0 +1,27 @@
+# Impact of Jets
+
+## 14.1 Force of a Jet on Fixed Plates and Vanes
+F: Fixed flat plate normal to jet: F = ρ a V²
+F: Fixed flat plate inclined at θ to the jet (normal force): F_n = ρ a V² sinθ;  component along jet F_x = ρaV² sin²θ;  across F_y = ρaV² sinθ cosθ
+F: Fixed curved vane, jet striking at centre and deflected through angle (180° − φ): F_x = ρ a V² (1 + cosφ)
+F: Semicircular vane (jet reversed, φ = 0): F = 2ρaV²
+F: Curved plate, jet at one tip (unsymmetrical): F_x = ρaV(V₁cosθ + V₂cosφ)
+- Force = rate of change of momentum (impulse–momentum principle). Friction on vanes reduces the outlet relative velocity: V_r2 = k V_r1.
+PYQ-TREND: F = ρaV² for fixed flat plate; semicircular vane doubles the force (2ρaV²); inclined plate normal force ρaV² sinθ.
+
+## 14.2 Moving Plates and Vanes
+F: Single flat plate moving in the jet direction with u: F = ρ a (V − u)²;  work done per second = ρa(V − u)² u
+F: Efficiency (single moving plate): η = 2u(V − u)²/V³;  maximum at u = V/3, η_max = 8/27 = 29.6%
+F: Series of flat plates (wheel): F = ρ a V (V − u);  η = 2u(V − u)/V²;  maximum at u = V/2, η_max = 50%
+F: Series of radial curved vanes, jet deflected by (180° − φ): η_max = (1 + cosφ)/2 at u = V/2
+F: Semicircular buckets (φ = 0): η_max = 100% (theoretical)
+F: Curved moving vane, velocity triangles: work done per second = ρ a V₁ (V_w1 ± V_w2) u;  per unit weight = (V_w1 ± V_w2) u / g
+- Take '+' when the outlet whirl component V_w2 is opposite in direction to V_w1 (the vane turns the jet back), and '−' when it is in the same direction.
+- For a single moving vane, the mass striking per second is ρa(V − u); for a series of vanes (wheel) the whole jet ρaV is used because successive vanes catch it.
+- Velocity triangles: absolute velocity V = vector sum of blade velocity u and relative velocity V_r. Inlet blade angle chosen so that the jet enters without shock (tangential to blade).
+PYQ-TREND: η_max = 50% at u = V/2 for a series of flat plates (very frequent); single moving plate u = V/3, 8/27; curved vanes give higher efficiency; series vs single plate mass flow.
+TIP: Single plate → V/3; series of plates → V/2. Remember 'series = Pelton style = V/2'.
+
+## 14.3 Hinged Plates
+F: Plate hinged at the top, jet striking at the centre of gravity: sinθ = ρaV²/W  (W = weight of plate)
+PYQ-TREND: Angle of deflection of a hinged plate struck by a jet.

@@ -1,0 +1,79 @@
+# Flow Measurement – Meters, Orifices, Mouthpieces, Notches
+
+## 7.1 Venturimeter
+- Parts: short converging cone (angle ≈ 20–22°), throat, long diverging cone (angle ≈ 5–7°, to avoid flow separation and recover pressure). Pressure difference between inlet and throat is measured with a differential manometer.
+F: Theoretical discharge Q_th = A₁A₂ √(2gh) / √(A₁² − A₂²)
+F: Actual discharge Q = C_d Q_th;  C_d ≈ 0.95–0.98
+F: Differential head (mercury–water): h = x (S_m/S − 1) = 12.6 x (for water)
+F: Inclined venturimeter: h = (p₁/ρg + z₁) − (p₂/ρg + z₂) – same formula; the manometer reading is unaffected by inclination
+- Throat diameter usually D/3 to D/2. Overall head loss is small (≈ 10–15% of differential head).
+- Advantages: low energy loss, high C_d, accurate. Disadvantages: long, costly, not easy to install.
+PYQ-TREND: Divergent cone angle 5–7° to avoid separation; C_d 0.95–0.98; differential manometer reading independent of inclination; why the divergent cone is longer than the convergent cone.
+
+## 7.2 Orificemeter, Flow Nozzle and Others
+F: Orificemeter: Q = C_d a₀a₁ √(2gh)/√(a₁² − a₀²);  C_d ≈ 0.6–0.65
+- Orificemeter: a thin plate with a sharp-edged hole; cheap and compact but high permanent head loss. Vena contracta forms downstream (≈ D/2).
+- Flow nozzle: between venturi and orifice in cost, loss and C_d (≈ 0.93–0.98).
+- Rotameter: variable-area meter; a float rises in a tapered vertical tube; reading proportional to flow; works for liquids and gases.
+- Elbow (bend) meter: uses pressure difference between inner and outer walls of a bend.
+- Pitot tube: measures stagnation pressure; velocity V = C_v √(2gh), C_v ≈ 0.98–1.0. Pitot-static (Prandtl) tube measures both static and total pressure – velocity at a point.
+- Current meter: river velocity. Hot-wire anemometer: rapidly fluctuating (turbulent) velocities in gases. Laser Doppler anemometer: non-intrusive.
+- Other volumetric meters: turbine meter, positive displacement (domestic water meter), electromagnetic (Faraday's law; conductive liquids only, no obstruction), ultrasonic, vortex-shedding, Coriolis (mass flow).
+| Meter | C_d (approx.) | Head loss |
+| Venturimeter | 0.95–0.98 | Lowest |
+| Flow nozzle | 0.93–0.98 | Medium |
+| Orificemeter | 0.60–0.65 | Highest |
+F: Pitot tube: V = √(2gh);  with differential manometer: h = x(S_m/S − 1)
+PYQ-TREND: Order of C_d (venturi > nozzle > orifice) and head loss (reverse). Pitot tube measures point velocity/stagnation pressure. Rotameter is a variable-area meter. Electromagnetic flowmeter needs conductive liquid.
+TIP: Venturi, nozzle and orificemeters all use the same formula; only C_d changes.
+
+## 7.3 Orifices
+- Orifice: an opening in the wall or base of a tank, with a closed perimeter. Classified by size (small/large), shape (circular, rectangular, triangular), edge (sharp/bell-mouthed), discharge condition (free, drowned, partially submerged).
+- Vena contracta: section of the jet where the area is minimum and streamlines are parallel; located about d/2 from the orifice plane; velocity is maximum and pressure is atmospheric there.
+F: Coefficient of contraction C_c = a_c/a ≈ 0.61–0.69 (≈ 0.64)
+F: Coefficient of velocity C_v = V_actual/√(2gH) ≈ 0.95–0.99
+F: Coefficient of discharge C_d = C_c × C_v ≈ 0.62
+F: Coefficient of resistance C_r = (1/C_v²) − 1  (loss of head = C_r × actual velocity head)
+F: Discharge through a small orifice: Q = C_d a √(2gH)
+F: Large rectangular orifice (breadth b, top H₁, bottom H₂): Q = (2/3) C_d b √(2g) (H₂^(3/2) − H₁^(3/2))
+F: Fully drowned orifice: Q = C_d a √(2gH), H = difference of water levels
+F: Time to empty a tank (area A) from H₁ to H₂ through orifice a: T = 2A(√H₁ − √H₂)/(C_d a √(2g))
+F: Time to empty completely: T = 2A√H/(C_d a √(2g))
+F: Hemispherical tank of radius R emptying from full: T = (14π R^(5/2))/(15 C_d a √(2g))
+F: Time to empty a circular horizontal cylinder (length L, radius R) from full: T = (4L/(3C_d a√(2g))) (2R)^(3/2)
+- Hydraulic coefficients are found experimentally – C_v by the jet trajectory method (x, y coordinates), C_c by measuring jet diameter at vena contracta, C_d by measuring actual discharge.
+PYQ-TREND: C_d = C_c × C_v; typical values (0.64, 0.98, 0.62); vena contracta location; time to empty a tank ∝ √H; drowned orifice uses difference of levels.
+
+## 7.4 Mouthpieces
+- Mouthpiece: short tube (length 2–3 times its diameter) fitted to an orifice; increases discharge because the vena contracta forms inside and creates a partial vacuum.
+| Mouthpiece | C_d |
+| External cylindrical | 0.855 |
+| Convergent | ≈ 0.975 |
+| Convergent–divergent | ≈ 1.0 (based on throat area) |
+| Internal (Borda's re-entrant) – running free | 0.5 |
+| Internal (Borda's re-entrant) – running full | 0.707 |
+F: Loss at entrance of external mouthpiece ≈ 0.375 V²/2g;  pressure at vena contracta ≈ 2.5 m below atmospheric (absolute 7.8 m of water)
+F: Maximum head for a convergent–divergent mouthpiece to avoid separation: H ≈ 2.5–8 m depending on area ratio
+PYQ-TREND: C_d values of mouthpieces (external 0.855; Borda's running free 0.5, running full 0.707). Why a mouthpiece discharges more than an orifice.
+
+## 7.5 Notches and Weirs
+- Notch: an opening in the side of a small channel/tank where the liquid surface is below the top edge (usually metal plate). Weir: a notch on a large scale, usually of masonry across a river or channel. Nappe: the sheet of water flowing over; crest/sill: the bottom edge.
+F: Rectangular notch/weir: Q = (2/3) C_d L √(2g) H^(3/2)
+F: Triangular (V) notch: Q = (8/15) C_d √(2g) tan(θ/2) H^(5/2);  for 90° V-notch with C_d = 0.6: Q ≈ 1.417 H^(5/2) (m³/s)
+F: Trapezoidal notch = rectangular + triangular parts
+F: Cipolletti weir (trapezoidal, side slope 1 horizontal : 4 vertical, i.e., ≈ 14°): Q = 1.86 L H^(3/2) (m³/s) – compensates end contractions
+F: Stepped notch = sum of rectangular notches
+F: Francis' formula with end contractions: Q = 1.84 (L − 0.1 n H) H^(3/2)  (n = number of end contractions)
+F: Bazin's formula (velocity of approach included): Q = m √(2g) L H^(3/2), m = 0.405 + 0.003/H
+F: Error in discharge due to error in head: rectangular dQ/Q = (3/2) dH/H;  triangular dQ/Q = (5/2) dH/H
+F: Time to lower water level from H₁ to H₂ over a rectangular weir: T = (3A/(C_d L √(2g))) (1/√H₂ − 1/√H₁)
+- Advantages of a V-notch: more accurate for small discharges (larger head for a small flow), only one parameter (H) to measure, C_d nearly constant, ventilation not needed.
+- Ventilation of weirs: the space under the nappe must be at atmospheric pressure; otherwise the nappe clings (depressed or clinging nappe), increasing discharge and causing error.
+- Broad-crested weir: Q_max = 1.705 C_d L H^(3/2) (critical depth on the crest = 2H/3).
+- Ogee (spillway) weir follows the profile of the lower nappe of a sharp-crested weir.
+- Submerged (drowned) weir: downstream level above the crest – treated as free + drowned parts.
+PYQ-TREND: Q ∝ H^(3/2) (rectangular) and H^(5/2) (triangular) – very frequent. V-notch preferred for low flows. Cipolletti slope 1:4. Error ratios 3/2 and 5/2. Francis' end-contraction correction. Ventilation of weirs.
+TIP: Exponent rule: rectangle → 3/2, triangle → 5/2 (one more power from the widening sides).
+WARN: In the V-notch formula use tan(θ/2), not tanθ. For a 90° notch, tan 45° = 1.
+Q: Explain the construction and working of a venturimeter, and why its divergent cone is longer than its convergent cone.
+A venturimeter has a short convergent section (about 20° included angle), a throat of diameter D/3–D/2, and a long divergent section (5–7°). As fluid accelerates in the convergent cone, its pressure falls (Bernoulli); a differential manometer between the inlet and throat measures the drop h. Continuity and Bernoulli give Q_th = A₁A₂√(2gh)/√(A₁² − A₂²), and the actual discharge is C_d Q_th with C_d ≈ 0.97. The divergent cone is long and gentle because the flow there decelerates against an adverse pressure gradient; a rapid expansion would cause boundary-layer separation, eddies and a large energy loss. A gradual expansion recovers most of the pressure, keeping the overall loss small. The convergent cone can be short because accelerating flow (favourable pressure gradient) does not separate.

@@ -1,0 +1,163 @@
+# Concept Recall Bank
+Short question → crisp answer. Cover the right column and test yourself (active recall, not MCQs).
+
+## R1. Properties and Statics
+| Question | Answer |
+| What defines a fluid? | Continuous deformation under any shear stress |
+| SI unit of dynamic viscosity? | N·s/m² (Pa·s); 1 poise = 0.1 Pa·s |
+| SI unit of kinematic viscosity? | m²/s; 1 stoke = 10⁻⁴ m²/s |
+| Dimensions of μ? | ML⁻¹T⁻¹ |
+| Viscosity of liquids with temperature? | Decreases |
+| Viscosity of gases with temperature? | Increases |
+| Fluid with τ ∝ du/dy through origin? | Newtonian |
+| Blood is which type of fluid? | Pseudoplastic (shear-thinning) |
+| Toothpaste is which type? | Bingham plastic |
+| Printer's ink is which type? | Thixotropic |
+| Quicksand / starch solution? | Dilatant |
+| Ideal fluid has? | Zero viscosity, incompressible |
+| Bulk modulus of water? | ≈ 2.1 GPa |
+| Isothermal bulk modulus of a gas? | Equal to its pressure p |
+| Adiabatic bulk modulus of a gas? | γp |
+| Pressure inside a droplet? | 4σ/d |
+| Pressure inside a soap bubble? | 8σ/d |
+| Pressure inside a liquid jet? | 2σ/d |
+| Capillary rise formula? | 4σ cosθ/(ρgd) |
+| Mercury in glass tube shows? | Capillary depression |
+| Cavitation occurs when? | Local pressure < vapour pressure |
+| Pascal's law? | Pressure at a point in a static fluid is equal in all directions |
+| Hydraulic press works on? | Pascal's law |
+| 1 atm in m of water? | 10.33 m |
+| Absolute pressure? | Atmospheric + gauge |
+| Manometer for small pressures? | Inclined manometer |
+| Manometer for small differences in liquids? | Inverted U-tube |
+| Piezometer cannot measure? | Negative pressure, gas pressure, high pressure |
+| Instrument to calibrate pressure gauges? | Dead-weight tester |
+| Free surface of a rotating liquid? | Paraboloid |
+| Rise at wall of rotating vessel? | ω²R²/4g above original level (half of ω²R²/2g) |
+| Slope of liquid surface in horizontally accelerating tank? | tanθ = a/g |
+
+## R2. Forces, Buoyancy, Kinematics
+| Question | Answer |
+| Total pressure on a plane surface? | ρgAh̄ |
+| Centre of pressure relative to centroid? | Below (except horizontal surfaces) |
+| CP of vertical rectangle with top at surface? | 2d/3 depth |
+| CP of circle touching surface (diameter d)? | 5d/8 |
+| Horizontal force on curved surface? | Force on its vertical projection |
+| Vertical force on curved surface? | Weight of liquid above it |
+| Archimedes' principle? | Buoyant force = weight of fluid displaced |
+| Centre of buoyancy? | Centroid of displaced volume |
+| Stability of a floating body? | M above G |
+| Stability of a submerged body? | B above G |
+| Metacentric height formula? | GM = I/V − BG |
+| Effect of large GM on rolling? | Shorter period (stiff, uncomfortable) |
+| Streamline, pathline, streakline coincide in? | Steady flow |
+| Dye injected continuously gives? | Streakline |
+| Continuity for incompressible flow? | ∂u/∂x + ∂v/∂y + ∂w/∂z = 0 |
+| Acceleration in steady non-uniform flow? | Convective only |
+| Condition for irrotational flow? | ∂v/∂x = ∂u/∂y |
+| Vorticity equals? | Twice the angular velocity |
+| Velocity potential exists for? | Irrotational flow |
+| Stream function exists for? | 2-D incompressible flow |
+| φ and ψ lines intersect at? | Right angles |
+| Discharge between streamlines? | ψ₂ − ψ₁ |
+| Free vortex law? | V × r = constant |
+| Forced vortex law? | V = ωr |
+| Flow in a whirlpool / sink? | Free vortex |
+| Flow in a rotating cylinder? | Forced vortex |
+
+## R3. Dynamics and Measurement
+| Question | Answer |
+| Euler's equation considers? | Gravity and pressure forces |
+| Navier–Stokes adds? | Viscous forces |
+| Bernoulli's equation is based on? | Conservation of energy |
+| Bernoulli assumption on viscosity? | Frictionless (inviscid) |
+| TEL vs HGL gap? | Velocity head V²/2g |
+| Line that can rise along flow? | HGL |
+| α for laminar pipe flow? | 2 |
+| β for laminar pipe flow? | 4/3 |
+| Force on a pipe bend found by? | Momentum equation |
+| Venturimeter divergent angle? | 5–7° |
+| C_d of venturimeter? | 0.95–0.98 |
+| C_d of orificemeter? | ≈ 0.62 |
+| Meter with least head loss? | Venturimeter |
+| Pitot tube measures? | Stagnation pressure (point velocity) |
+| Variable-area flowmeter? | Rotameter |
+| C_d = ? | C_c × C_v |
+| Vena contracta position? | About d/2 from orifice |
+| C_d of external cylindrical mouthpiece? | 0.855 |
+| Borda's mouthpiece running free? | 0.5 |
+| Discharge over rectangular notch ∝? | H^(3/2) |
+| Discharge over V-notch ∝? | H^(5/2) |
+| Cipolletti weir side slope? | 1 H : 4 V |
+| Notch best for small discharge? | V-notch |
+| Time to empty a tank ∝? | √H |
+
+## R4. Laminar, Turbulent, Pipe Flow
+| Question | Answer |
+| Reynolds number = ratio of? | Inertia to viscous force |
+| Laminar limit in pipes? | Re < 2000 |
+| Laminar velocity profile? | Parabolic |
+| Average/max velocity (laminar pipe)? | 1/2 |
+| Average/max velocity (fixed plates)? | 2/3 |
+| Shear stress in laminar pipe flow max at? | Wall |
+| Hagen–Poiseuille head loss? | 32μVL/(ρgD²) |
+| Darcy f for laminar flow? | 64/Re |
+| Stokes' drag? | 3πμDV |
+| Falling-sphere viscometer uses? | Stokes' law |
+| Turbulent velocity profile? | 1/7 power law, flatter |
+| Darcy–Weisbach formula? | h_f = fLV²/(2gD) |
+| h_f in terms of Q? | fLQ²/(12.1D⁵) |
+| Hydraulic mean depth of full pipe? | D/4 |
+| Loss at sudden enlargement? | (V₁ − V₂)²/2g |
+| Exit loss? | V²/2g |
+| Entrance loss (sharp)? | 0.5 V²/2g |
+| Pipes in series – what is same? | Discharge |
+| Pipes in parallel – what is same? | Head loss |
+| Equivalent pipe equation? | Dupuit: L/D⁵ = ΣLᵢ/Dᵢ⁵ |
+| Max power transmission condition? | h_f = H/3 |
+| Max transmission efficiency? | 66.67% |
+| Water hammer (sudden closure)? | ρVc |
+| Critical time of valve closure? | 2L/c |
+| Device to protect penstock? | Surge tank |
+| Network analysis method? | Hardy Cross |
+
+## R5. BL, Models, Channels, Machines
+| Question | Answer |
+| BL thickness defined at u = ? | 0.99U |
+| Laminar BL grows as? | √x |
+| Blasius δ? | 5x/√Re_x |
+| Separation occurs with? | Adverse pressure gradient |
+| At separation point? | (∂u/∂y)wall = 0 |
+| Drag on bluff bodies is mainly? | Pressure (form) drag |
+| Lift on a rotating cylinder? | Magnus effect |
+| Number of π-terms? | n − m |
+| Model law for ships/spillways? | Froude |
+| Model law for pipes/submarines? | Reynolds |
+| Discharge ratio in Froude model? | L_r^2.5 |
+| Mach number significance? | Compressibility |
+| Weber number significance? | Surface tension |
+| Mach angle? | sin⁻¹(1/M) |
+| Across a normal shock, constant? | Stagnation temperature |
+| Most economical rectangle? | b = 2y |
+| Critical depth (rectangular)? | (q²/g)^(1/3) |
+| Minimum specific energy? | 1.5 y_c |
+| Hydraulic jump converts? | Supercritical to subcritical |
+| Max efficiency, series of flat plates? | 50% at u = V/2 |
+| Turbine for high head? | Pelton |
+| Turbine for low head? | Kaplan |
+| Turbine with adjustable runner blades? | Kaplan |
+| Draft tube used in? | Reaction turbines |
+| Pelton jet ratio? | ≈ 12 |
+| Number of buckets? | 15 + m/2 |
+| Turbine specific speed? | N√P/H^(5/4) |
+| Pump specific speed? | N√Q/H^(3/4) |
+| Synchronous speed? | 120f/p |
+| Priming needed in? | Centrifugal pumps |
+| Pump vane shape used? | Backward-curved |
+| Pump power vs speed? | P ∝ N³ |
+| Pumps for high head arranged in? | Series |
+| Negative slip occurs when? | Long suction, short delivery, high speed |
+| Air vessel saves work (single-acting)? | ≈ 84.8% |
+| Device using water hammer to lift water? | Hydraulic ram |
+| Device that stores hydraulic energy? | Accumulator |
+| Device that multiplies torque? | Torque converter |

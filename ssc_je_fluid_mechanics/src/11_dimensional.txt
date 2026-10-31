@@ -1,0 +1,57 @@
+# Dimensional Analysis and Model Similitude
+
+## 11.1 Dimensions of Common Quantities
+| Quantity | Dimensions (MLT) |
+| Velocity | LT⁻¹ |
+| Acceleration | LT⁻² |
+| Discharge | L³T⁻¹ |
+| Force | MLT⁻² |
+| Pressure, stress, bulk modulus | ML⁻¹T⁻² |
+| Energy, work, torque | ML²T⁻² |
+| Power | ML²T⁻³ |
+| Density | ML⁻³ |
+| Specific weight | ML⁻²T⁻² |
+| Dynamic viscosity | ML⁻¹T⁻¹ |
+| Kinematic viscosity | L²T⁻¹ |
+| Surface tension | MT⁻² |
+| Momentum | MLT⁻¹ |
+| Angular velocity | T⁻¹ |
+| Strain, angle, specific gravity | Dimensionless |
+- Dimensional homogeneity: every term in a physically meaningful equation has the same dimensions (Fourier's principle).
+PYQ-TREND: Dimensions of viscosity, surface tension, power, kinematic viscosity (very frequent); principle of dimensional homogeneity.
+
+## 11.2 Methods of Dimensional Analysis
+- Rayleigh's method: express the dependent variable as a product of powers of independent variables; suitable when the number of variables is small (≤ 4).
+- Buckingham π-theorem: if a phenomenon involves n variables with m fundamental dimensions, it can be expressed in terms of (n − m) independent dimensionless π-terms. Repeating variables (m of them) should together contain all fundamental dimensions, should not form a dimensionless group, and should not be the dependent variable; typically choose one geometric (D or L), one kinematic (V) and one dynamic (ρ) property.
+F: Number of π-terms = n − m
+PYQ-TREND: Buckingham π-theorem statement and n − m; choice of repeating variables; Rayleigh method.
+
+## 11.3 Dimensionless Numbers
+| Number | Definition | Ratio | Significant in |
+| Reynolds (Re) | ρVL/μ | Inertia / viscous | Pipe flow, closed conduits, fully submerged bodies (submarines, aircraft at low speed), viscous flows |
+| Froude (Fr) | V/√(gL) | √(Inertia / gravity) | Free-surface flows: open channels, spillways, weirs, ship resistance (waves) |
+| Euler (Eu) | V/√(p/ρ) (or Δp/ρV²) | Inertia / pressure (or reverse) | Cavitation, pressure-dominated flows, pipe flow with pressure drop |
+| Weber (We) | V/√(σ/ρL) | √(Inertia / surface tension) | Capillary flows, droplets, thin films, small waves, atomisation |
+| Mach (M) | V/c = V/√(K/ρ) | √(Inertia / elastic) | Compressible flow, high-speed aircraft, projectiles, water hammer |
+| Cauchy (Ca) | ρV²/K | Inertia / elastic | Compressible flow (Ca = M²) |
+| Strouhal (St) | fL/V | Unsteady/oscillation | Vortex shedding |
+PYQ-TREND: Meaning and application of Re, Fr, We, M, Eu (very frequent). Froude for open channels and ships; Reynolds for pipes and submarines; Mach for compressible flow; Weber for surface tension.
+
+## 11.4 Similitude and Model Laws
+- Geometric similarity: ratios of all corresponding lengths are equal (L_r).
+- Kinematic similarity: ratios of velocities and accelerations at corresponding points are equal.
+- Dynamic similarity: ratios of corresponding forces are equal. Complete similarity requires all three.
+| Model law | Condition | Velocity ratio V_r | Discharge ratio Q_r | Time ratio T_r | Force ratio F_r |
+| Reynolds (same fluid) | Re_m = Re_p | 1/L_r | L_r | L_r² | 1 |
+| Froude | Fr_m = Fr_p | √L_r | L_r^(5/2) | √L_r | L_r³ |
+| Mach | M_m = M_p | c_r | – | – | – |
+| Weber | We_m = We_p | 1/√L_r (same fluid) | – | – | – |
+F: Froude law (same g): power ratio P_r = L_r^(7/2);  pressure ratio p_r = L_r;  acceleration ratio = 1
+F: Reynolds law: V_r L_r / ν_r = 1
+- Distorted models: different horizontal and vertical scales (rivers, harbours, estuaries) – to keep depths measurable and flow turbulent. Undistorted models have the same scale in all directions.
+- Scale effect: differences between model and prototype behaviour because all force ratios cannot be matched simultaneously (e.g., ship models satisfy Froude but not Reynolds; skin friction corrected separately – Froude's hypothesis).
+PYQ-TREND: Froude model ratios (V ∝ √L, Q ∝ L^2.5, T ∝ √L, F ∝ L³, P ∝ L^3.5) – very frequent. Reynolds model V ∝ 1/L for the same fluid. Distorted models for rivers. Types of similarity.
+TIP: For Froude models remember the exponents in steps of ½ on length: velocity ½, time ½, discharge 5/2, force 3, power 7/2.
+WARN: Under the Reynolds law with the same fluid, a smaller model needs a HIGHER velocity (V_m/V_p = L_p/L_m). Under the Froude law the model velocity is LOWER.
+Q: State Buckingham's π-theorem and explain the selection of repeating variables.
+If a physical phenomenon involves n dimensional variables and these contain m fundamental dimensions (M, L, T), the relationship f(X₁, X₂, …, Xₙ) = 0 can be rewritten as F(π₁, π₂, …, πₙ₋ₘ) = 0, where each π is an independent dimensionless product. To form the π-terms, m repeating variables are chosen and each remaining variable is combined with them in turn. Rules for repeating variables: (1) the dependent variable should not be chosen; (2) together they must contain all m fundamental dimensions; (3) they must not form a dimensionless group among themselves; (4) they should not have the same dimensions; (5) preferably one geometric property (diameter, length), one flow property (velocity) and one fluid property (density) are chosen. For example, pipe-friction pressure drop depends on D, V, ρ, μ, L, ε; with D, V, ρ repeating, the π-terms are Δp/ρV², ρVD/μ, L/D and ε/D.

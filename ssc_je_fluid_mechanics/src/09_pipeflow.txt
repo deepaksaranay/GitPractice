@@ -1,0 +1,80 @@
+# Turbulent Flow and Flow Through Pipes
+
+## 9.1 Turbulent Flow Basics
+- Turbulence: random, three-dimensional fluctuations of velocity superimposed on the mean flow. u = ū + u'. Mixing is far stronger than in laminar flow, so the velocity profile is flatter.
+F: Turbulent shear stress: τ = τ_laminar + τ_turbulent = μ dū/dy − ρ u'v'  (Reynolds stress)
+F: Boussinesq eddy viscosity: τ_t = η dū/dy;  Prandtl mixing length: τ_t = ρ l² (dū/dy)²
+F: Power-law profile (smooth pipe, Re ≈ 10⁵): u/u_max = (y/R)^(1/7);  V ≈ 0.817 u_max (often taken ≈ 0.8–0.85 u_max)
+F: Shear (friction) velocity u* = √(τ₀/ρ)
+F: Laminar sub-layer thickness δ' = 11.6 ν/u*
+- Hydrodynamically smooth: roughness height k < δ' (k/δ' < 0.25); rough: k > 6δ'. In between – transition.
+- In rough pipes at high Re, friction factor depends only on relative roughness (ε/D), not on Re (fully rough zone).
+FIG: profiles
+PYQ-TREND: Velocity profile flatter in turbulent flow; 1/7th power law; laminar sub-layer and smooth/rough classification; Reynolds stress; Prandtl mixing length.
+
+## 9.2 Major Losses – Darcy–Weisbach and Others
+F: Darcy–Weisbach: h_f = f L V² / (2gD)  (f = Darcy friction factor)
+F: In terms of discharge: h_f = f L Q² / (12.1 D⁵) = 8fLQ²/(π² g D⁵)
+F: Fanning friction factor f' = f/4 → h_f = 4f' L V²/(2gD)
+F: Wall shear stress τ₀ = (f/8) ρ V²
+F: Blasius (smooth pipes, 4000 < Re < 10⁵): f = 0.316/Re^0.25
+F: Chezy's formula: V = C √(m i);  m = hydraulic mean depth = A/P (= D/4 for full circular pipe);  i = h_f/L;  C = √(8g/f)
+F: Manning's formula: V = (1/n) R^(2/3) S^(1/2)
+F: Hazen–Williams (water supply): V = 0.849 C_HW R^0.63 S^0.54
+F: Colebrook–White: 1/√f = −2 log₁₀(ε/(3.7D) + 2.51/(Re√f))  (basis of the Moody diagram)
+- Moody diagram: f vs Re for various ε/D. Laminar zone (f = 64/Re, independent of roughness), critical zone, transition zone (f depends on both), fully rough zone (f depends on ε/D only).
+- For a given Q and f, h_f ∝ 1/D⁵ – a small increase in diameter greatly reduces friction loss.
+FIG: moody
+PYQ-TREND: Darcy–Weisbach formula; h_f ∝ Q²/D⁵; hydraulic mean depth D/4; Chezy and Manning formulas; Moody diagram zones; Blasius equation.
+TIP: If diameter is doubled at constant Q (and f), head loss becomes 1/32. If Q is doubled, loss becomes 4 times.
+WARN: Some books use 'f' for the Fanning factor (h_f = 4fLV²/2gD). Darcy f = 4 × Fanning f. Check which one the question uses.
+
+## 9.3 Minor Losses
+| Loss | Head loss |
+| Sudden enlargement | (V₁ − V₂)²/2g |
+| Sudden contraction | k V₂²/2g, with k = (1/C_c − 1)² ≈ 0.5 (often taken 0.375–0.5) |
+| Entrance (sharp-edged) | 0.5 V²/2g |
+| Entrance (bell-mouthed) | ≈ 0.04–0.05 V²/2g |
+| Exit (into reservoir) | V²/2g |
+| Bend / elbow / fittings | k V²/2g (90° elbow k ≈ 0.9; gate valve open k ≈ 0.2; globe valve k ≈ 10) |
+| Obstruction in pipe | (A/(C_c(A − a)) − 1)² V²/2g |
+| Gradual enlargement | k (V₁ − V₂)²/2g, k depends on cone angle (minimum near 7–8°) |
+- Equivalent length of a fitting: L_e = k D/f – minor loss expressed as an extra length of straight pipe.
+- Minor losses are 'minor' only in long pipes; in short pipes with many fittings they can dominate.
+- Loss at sudden enlargement is derived using the momentum equation (Borda–Carnot loss).
+F: Sudden enlargement loss as fraction of initial KE: h_L = (1 − A₁/A₂)² V₁²/2g
+PYQ-TREND: Sudden enlargement loss (V₁−V₂)²/2g (very frequent); exit loss = V²/2g; entrance 0.5V²/2g; equivalent length; momentum used to derive enlargement loss.
+
+## 9.4 Pipes in Series, Parallel, Branching, Siphons
+F: Series: Q same; H = Σh_f + minor losses;  equivalent pipe (Dupuit): L/D⁵ = L₁/D₁⁵ + L₂/D₂⁵ + …
+F: Parallel: h_f same in each branch; Q = Q₁ + Q₂ + …
+F: Three-reservoir problem: continuity at the junction + equal piezometric head at the junction for all branches
+- Siphon: a long bent pipe carrying liquid from a higher reservoir over a ridge (summit) to a lower one. The summit is above the HGL, so pressure there is below atmospheric. Practical limit of the summit above the upstream water level ≈ 7.6 m of water (to avoid vapour/air release; theoretical 10.3 m).
+- Applications: emptying tanks, irrigation canals over embankments, water supply over hills.
+PYQ-TREND: Series vs parallel rules; Dupuit's equation; siphon summit pressure negative and practical height limit ≈ 7.6–8 m.
+
+## 9.5 Power Transmission Through Pipes and Nozzles
+F: Power available at outlet: P = ρ g Q (H − h_f)
+F: Efficiency of transmission η = (H − h_f)/H
+F: Condition for maximum power transmitted: h_f = H/3 → η_max = 66.67%
+F: Nozzle at end of pipe: maximum power when the velocity head of the jet = 2H/3, i.e., h_f = H/3
+F: Diameter of nozzle for maximum power: d = (D⁵/(8fL))^(1/4)  (Darcy f)
+PYQ-TREND: Maximum power transmission when h_f = H/3 and η = 66.7% (very frequent); nozzle diameter for maximum power.
+
+## 9.6 Water Hammer and Surge Tanks
+- Water hammer: pressure surge caused by sudden closure of a valve in a pipe carrying liquid; the kinetic energy of the moving column is converted into elastic strain energy of the liquid and pipe.
+F: Pressure wave velocity: c = √(K/ρ) (rigid pipe);  elastic pipe: c = √((K/ρ)/(1 + KD/(Et)))
+F: Critical time of closure t_c = 2L/c
+F: Sudden (instantaneous, t < 2L/c) closure: Δp = ρ V c
+F: Gradual closure (t > 2L/c): Δp = ρ L V / t
+- c for water in a rigid pipe ≈ 1,450 m/s; in elastic pipes 600–1,200 m/s.
+- Protection: slow valve closure, surge tanks (between penstock and turbine in hydro plants – absorb surges and supply water during sudden load increase), relief valves, air vessels.
+PYQ-TREND: Water hammer pressure ρVc for sudden closure; critical time 2L/c; surge tank function; c = √(K/ρ).
+
+## 9.7 Pipe Networks and Other Topics
+- Hardy Cross method: iterative method for pipe networks (loops); Σh_f around a loop = 0 and continuity at nodes.
+- Hydraulic gradient for economic pipe design; commercial pipe roughness: drawn tubing ≈ 0.0015 mm, commercial steel ≈ 0.045 mm, cast iron ≈ 0.26 mm, concrete 0.3–3 mm.
+- Ageing of pipes increases roughness (tuberculation) and reduces carrying capacity.
+PYQ-TREND: Hardy Cross method for networks; effect of ageing on roughness.
+Q: Derive the expression for loss of head due to sudden enlargement of a pipe.
+Let a pipe of area A₁ (velocity V₁, pressure p₁) suddenly enlarge to area A₂ (V₂, p₂). Just after the enlargement, eddies form in the corners, and experiments show the pressure on the annular face is approximately p₁ (call it p'). Applying the momentum equation to the control volume between section 1 (just after enlargement) and section 2 (where flow is re-established): (p₁ − p₂)A₂ = ρQ(V₂ − V₁) = ρA₂V₂(V₂ − V₁). So (p₁ − p₂)/ρg = V₂(V₂ − V₁)/g. Applying the energy equation: p₁/ρg + V₁²/2g = p₂/ρg + V₂²/2g + h_L, so h_L = (p₁ − p₂)/ρg + (V₁² − V₂²)/2g = [2V₂² − 2V₁V₂ + V₁² − V₂²]/2g = (V₁ − V₂)²/2g. This is the Borda–Carnot result.

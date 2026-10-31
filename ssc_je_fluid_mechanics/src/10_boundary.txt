@@ -1,0 +1,49 @@
+# Boundary Layer, Drag and Lift
+
+## 10.1 Boundary Layer Concept
+- Prandtl (1904): when a real fluid flows past a solid surface, the no-slip condition makes the fluid velocity zero at the wall. Velocity rises to the free-stream value U within a thin layer – the boundary layer – where viscous effects are significant. Outside it the flow is nearly inviscid (potential flow).
+- Along a flat plate the boundary layer starts laminar, passes through a transition region and becomes turbulent beyond a critical Reynolds number Re_x = Ux/ν ≈ 5 × 10⁵. Below the turbulent boundary layer a very thin laminar (viscous) sub-layer remains.
+- Boundary-layer thickness grows downstream: laminar δ ∝ √x; turbulent δ ∝ x^(4/5).
+### Thickness definitions
+F: Boundary layer thickness δ: distance where u = 0.99 U
+F: Displacement thickness δ* = ∫₀^δ (1 − u/U) dy  (distance by which the outer flow is displaced)
+F: Momentum thickness θ = ∫₀^δ (u/U)(1 − u/U) dy  (loss of momentum flux)
+F: Energy thickness δ** = ∫₀^δ (u/U)(1 − u²/U²) dy
+F: Shape factor H = δ*/θ  (Blasius laminar ≈ 2.59; turbulent ≈ 1.3–1.4)
+F: Order (Blasius profile): δ > δ* > δ** > θ  (δ* = 1.72, δ** ≈ 1.04, θ = 0.664 in units of x/√Re_x)
+F: Linear profile u/U = y/δ: δ* = δ/2, θ = δ/6, H = 3
+F: Parabolic profile u/U = 2(y/δ) − (y/δ)²: δ* = δ/3, θ = 2δ/15, H = 2.5
+### Flat plate results
+F: Laminar (Blasius): δ = 5x/√Re_x (exact ≈ 4.91);  δ* = 1.72x/√Re_x;  θ = 0.664x/√Re_x
+F: Local skin-friction coefficient (laminar): C_f = 0.664/√Re_x;  average C_D = 1.328/√Re_L
+F: Turbulent (1/7 power law): δ = 0.37x/Re_x^(1/5);  C_D = 0.074/Re_L^(1/5) (5×10⁵ < Re < 10⁷)
+F: Von Kármán momentum integral equation: τ₀/(ρU²) = dθ/dx
+PYQ-TREND: Definitions of δ, δ*, θ; δ ∝ √x for laminar; Blasius result 5x/√Re_x; displacement thickness meaning; critical Re for flat plate 5 × 10⁵; shape factor; momentum integral equation.
+
+## 10.2 Boundary Layer Separation
+- When the pressure increases in the flow direction (adverse pressure gradient, dp/dx > 0), fluid near the wall, already slowed by friction, is further decelerated. At some point (∂u/∂y)_wall = 0 – the separation point – and beyond it reverse flow occurs. The main flow detaches, forming a wake of eddies.
+- Separation occurs behind bluff bodies (cylinders, spheres), in diffusers with large angles, on aerofoils at high angles of attack (stall), at sudden enlargements.
+- Conditions: favourable gradient (dp/dx < 0) – no separation; zero gradient (flat plate) – no separation; adverse (dp/dx > 0) – possible separation.
+- Methods to control/delay separation: streamlining the body, suction of the slow boundary layer, injection of high-energy fluid (blowing), slotted wings/flaps, rotating cylinders at the boundary (Magnus), vortex generators, guide vanes in bends, roughening to trigger turbulence (golf ball dimples).
+- A turbulent boundary layer has more momentum near the wall and resists separation longer than a laminar one.
+PYQ-TREND: Separation occurs with adverse pressure gradient and at (∂u/∂y)_wall = 0 (very frequent). Methods to prevent separation. Why golf balls have dimples. Stall of aerofoils.
+
+## 10.3 Drag and Lift
+F: Drag F_D = C_D (½ ρ U²) A;  Lift F_L = C_L (½ ρ U²) A  (A = projected/frontal area for drag, plan area for aerofoils)
+- Total drag = pressure (form) drag + skin-friction (viscous) drag.
+- Streamlined body (aerofoil, thin plate parallel to flow): mostly skin-friction drag; small wake. Bluff body (sphere, cylinder, plate normal to flow): mostly pressure drag; large wake.
+| Body | Approx. C_D (high Re) |
+| Flat plate normal to flow | 2.0 (2-D), 1.1–1.2 (disc) |
+| Circular cylinder (laminar BL, 10⁴ < Re < 2×10⁵) | 1.2 |
+| Sphere (10³ < Re < 2×10⁵) | 0.4–0.5 |
+| Streamlined body | 0.05–0.1 |
+| Sphere in Stokes regime (Re < 1) | 24/Re |
+- Drag crisis: at Re ≈ 2–3 × 10⁵ for spheres/cylinders the boundary layer turns turbulent before separation, the wake narrows, and C_D drops sharply.
+- Karman vortex street: alternate shedding of vortices behind a cylinder (40 < Re < 10⁵); shedding frequency given by the Strouhal number St = fD/U ≈ 0.2 – causes vibration of chimneys, power lines ('singing wires') and was a factor in the Tacoma Narrows bridge collapse.
+F: Kutta–Joukowski: Lift per unit span L = ρ U Γ
+F: Magnus effect – rotating cylinder/ball in a stream experiences lift: swing of a cricket ball, spin of a tennis ball, Flettner rotor ships
+- Aerofoil terms: chord, camber, angle of attack (lift rises with it until stall at about 12–16°), lift-to-drag ratio (glide ratio).
+- Terminal velocity: weight = buoyancy + drag.
+PYQ-TREND: Form drag dominates bluff bodies and skin friction dominates streamlined bodies; Magnus effect and Kutta–Joukowski theorem; drag crisis; Karman vortex street and Strouhal number; drag formula with ½ρU²A.
+Q: What is boundary layer separation? Explain its causes and methods of control.
+In a boundary layer the velocity rises from zero at the wall to the free-stream value. If the pressure outside increases along the flow (adverse pressure gradient), the slow fluid near the wall cannot overcome both friction and the rising pressure. It decelerates until the wall velocity gradient becomes zero; this is the separation point. Downstream the near-wall flow reverses and the main stream detaches, leaving a low-pressure wake of eddies that greatly increases pressure drag and energy loss. Causes: adverse pressure gradient from body curvature (rear of cylinders and spheres), diverging passages (diffusers, sudden enlargements), high angles of attack on aerofoils. Control: streamlining to reduce the adverse gradient; suction of the retarded fluid through slots; blowing high-velocity fluid into the boundary layer; slotted wings and flaps; vortex generators and surface roughness to make the layer turbulent; moving-wall devices like rotating cylinders.

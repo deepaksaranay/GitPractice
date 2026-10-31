@@ -1,0 +1,40 @@
+# Hydrostatic Forces on Surfaces
+
+## 3.1 Total Pressure and Centre of Pressure
+- Total pressure: the resultant force exerted by a static fluid on a surface, always normal to the surface.
+- Centre of pressure: the point through which the total pressure acts. For any non-horizontal submerged surface it lies below the centroid, because pressure increases with depth.
+F: Total pressure on any plane surface: F = ρ g A h̄  (h̄ = vertical depth of centroid below free surface)
+F: Vertical plane surface: h* = h̄ + I_G/(A h̄)
+F: Inclined plane surface (angle θ with free surface): h* = h̄ + I_G sin²θ / (A h̄)
+F: Horizontal surface: F = ρgAh, acts at the centroid (h* = h̄)
+- As depth of immersion increases, the centre of pressure moves closer to the centroid (I_G/(A h̄) → 0).
+- The total force does not depend on the inclination; only the centre-of-pressure location does.
+| Vertical surface (free surface at top edge unless stated) | Depth of centre of pressure h* |
+| Rectangle of depth d, top edge at surface | 2d/3 |
+| Triangle, apex at surface, base horizontal at depth h | 3h/4 |
+| Triangle, base at surface, apex at depth h | h/2 |
+| Circle of diameter d, touching surface | 5d/8 |
+| Semicircle, diameter at surface (radius R) | 3πR/16 |
+| Rectangle with top at depth a and bottom at depth b | (2/3)(b³ − a³)/(b² − a²) |
+PYQ-TREND: Centre of pressure is below the centroid; h* = 2d/3 for a rectangle with top at the surface; F = ρgAh̄ independent of inclination; formula h* = h̄ + I_G/(Ah̄); CP approaches centroid with depth.
+TIP: Pressure prism: for a rectangle reaching the surface the pressure diagram is a triangle, and a triangle's centroid is at 2/3 of its height from the apex – hence 2d/3.
+
+## 3.2 Curved Surfaces
+F: Horizontal component F_H = force on the vertical projection of the curved surface (ρ g A_proj h̄_proj), acting at its centre of pressure
+F: Vertical component F_V = weight of the liquid (real or imaginary) directly above the curved surface up to the free surface, acting through its centroid
+F: Resultant F = √(F_H² + F_V²);  inclination tanθ = F_V/F_H
+- If the liquid is below the curved surface, F_V equals the weight of the imaginary liquid above and acts upward.
+- For a circular surface, the resultant passes through the centre of the circle (all pressure forces are radial).
+PYQ-TREND: Horizontal component = force on vertical projection; vertical component = weight of liquid above; resultant on a circular arc passes through the centre.
+
+## 3.3 Applications – Dams, Gates, Lock Gates
+F: Force on vertical gate (width b, water depth H): F = ρgbH²/2 acting at H/3 from the bottom
+F: Lock gates: reaction between gates R = force on each gate P, with P = R when gates make 120° (angle with the normal 30°): P = F/(2 sinα)
+F: Gravity dam stability: no tension at heel if the resultant falls within the middle third of the base (e ≤ b/6)
+- Gravity dam checks: overturning (factor of safety against overturning = resisting moment/overturning moment, ≥ 1.5), sliding (μΣV/ΣH ≥ 1–1.5), compressive stress, no tension (middle third).
+- Uplift pressure under the dam reduces stability; drainage galleries reduce it.
+- Sluice gates and Tainter (radial) gates on spillways – radial gates have the pressure resultant passing through the hinge.
+PYQ-TREND: Force on a vertical gate ρgbH²/2 at H/3 above base; middle-third rule for dams; resultant on Tainter gate through the hinge.
+WARN: The centre of pressure is H/3 from the bottom, i.e., 2H/3 from the free surface – check which reference the question asks.
+Q: Derive the expression for the depth of centre of pressure of a vertically immersed plane surface.
+Consider a plane area A immersed vertically, with its centroid at depth h̄. A strip of width b and thickness dh at depth h carries force dF = ρgh b dh. Total force F = ρg ∫h dA = ρgAh̄. Taking moments about the free surface line: F·h* = ∫ρgh² dA = ρg I₀, where I₀ is the second moment of area about the free surface line. By the parallel-axis theorem I₀ = I_G + Ah̄². So h* = ρg(I_G + Ah̄²)/(ρgAh̄) = h̄ + I_G/(Ah̄). Since I_G/(Ah̄) is always positive, the centre of pressure lies below the centroid; the gap shrinks as h̄ increases. For an inclined surface, distances along the plane give h* = h̄ + I_G sin²θ/(Ah̄).

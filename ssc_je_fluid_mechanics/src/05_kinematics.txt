@@ -1,0 +1,81 @@
+# Fluid Kinematics
+
+## 5.1 Description of Flow
+- Lagrangian approach: follow individual fluid particles (like tracking a boat). Eulerian approach: observe properties at fixed points in space (like a fixed gauge on a river bank) – used in most fluid mechanics.
+- Velocity field V = u i + v j + w k, each a function of (x, y, z, t).
+### Types of flow
+| Classification | Meaning |
+| Steady / unsteady | ∂(properties)/∂t = 0 at a point / not zero |
+| Uniform / non-uniform | ∂V/∂s = 0 along a streamline at an instant / not zero |
+| Laminar / turbulent | Smooth layers / random eddying mixing (Re-based) |
+| Compressible / incompressible | Density varies / constant (ρ = const) |
+| Rotational / irrotational | Particles rotate about their own axes / do not (ω = 0) |
+| 1-D, 2-D, 3-D | Number of space coordinates the velocity depends on |
+| Internal / external | Inside pipes, ducts / around bodies |
+- Combinations: steady uniform flow – constant-diameter pipe with constant discharge; steady non-uniform – tapering pipe with constant discharge; unsteady uniform – constant-diameter pipe with changing discharge (valve being closed); unsteady non-uniform – tapering pipe with changing discharge, waves.
+PYQ-TREND: Examples of steady/unsteady and uniform/non-uniform flows (very frequent). Lagrangian vs Eulerian.
+
+## 5.2 Flow Lines
+- Streamline: an imaginary line whose tangent at every point gives the velocity direction at that instant. No flow crosses a streamline; two streamlines never intersect (except at stagnation points/singularities).
+- Pathline: actual path traced by a single fluid particle over time.
+- Streakline: locus of all particles that have passed through a fixed point (seen with continuous dye or smoke injection).
+- Timeline: line formed by a set of adjacent particles marked at the same instant.
+- Stream tube: a tube formed by streamlines through a closed curve; no flow through its walls.
+- In steady flow, streamlines, pathlines and streaklines coincide.
+F: Streamline equation: dx/u = dy/v = dz/w
+PYQ-TREND: Definitions and coincidence of streamline/pathline/streakline in steady flow; smoke from a chimney shows a streakline; no flow across a streamline.
+
+## 5.3 Continuity Equation
+F: General (3-D, compressible): ∂ρ/∂t + ∂(ρu)/∂x + ∂(ρv)/∂y + ∂(ρw)/∂z = 0
+F: Steady compressible: ∇·(ρV) = 0;  1-D: ρ₁A₁V₁ = ρ₂A₂V₂ (mass flow constant)
+F: Incompressible (steady or unsteady): ∂u/∂x + ∂v/∂y + ∂w/∂z = 0;  1-D: A₁V₁ = A₂V₂ = Q
+F: Cylindrical: ∂(r v_r)/(r∂r) + ∂v_θ/(r∂θ) + ∂v_z/∂z = 0
+- The continuity equation expresses conservation of mass. A flow field 'exists' (is possible) only if it satisfies continuity.
+- Branch pipes: Q₁ = Q₂ + Q₃.
+PYQ-TREND: Checking whether a given velocity field satisfies continuity; A₁V₁ = A₂V₂; velocity ∝ 1/D² in pipes.
+TIP: If the diameter halves, velocity becomes 4 times (V ∝ 1/D²).
+
+## 5.4 Acceleration of a Fluid Particle
+F: a_x = ∂u/∂t + u ∂u/∂x + v ∂u/∂y + w ∂u/∂z  (local + convective)
+F: Along a streamline: a_s = ∂V/∂t + V ∂V/∂s;  normal (centripetal): a_n = V²/R + ∂V_n/∂t
+- Local (temporal) acceleration: due to change with time at a point (zero in steady flow).
+- Convective acceleration: due to change of position (zero in uniform flow). A tapering pipe with steady flow has only convective acceleration.
+PYQ-TREND: Local vs convective acceleration; which is zero in steady/uniform flow; computing acceleration from a velocity field.
+
+## 5.5 Rotation, Vorticity and Circulation
+F: Rotation about z: ω_z = ½(∂v/∂x − ∂u/∂y);  similarly ω_x, ω_y
+F: Vorticity Ω = 2ω (curl of velocity)
+F: Circulation Γ = ∮ V·ds = vorticity × enclosed area (Stokes' theorem)
+F: Angular deformation (shear strain rate) γ̇_xy = ∂v/∂x + ∂u/∂y
+- Irrotational flow: ω = 0 everywhere – a velocity potential exists. Flow outside the boundary layer is approximately irrotational. Flow inside the boundary layer and in forced vortices is rotational.
+PYQ-TREND: Condition of irrotational flow (∂v/∂x = ∂u/∂y); vorticity = twice the rotation; circulation definition.
+
+## 5.6 Velocity Potential and Stream Function
+F: Velocity potential φ: u = −∂φ/∂x, v = −∂φ/∂y (some texts use + sign)
+F: Stream function ψ: u = −∂ψ/∂y, v = ∂ψ/∂x (or u = ∂ψ/∂y, v = −∂ψ/∂x – sign convention varies)
+F: Existence: φ exists only for irrotational flow; φ satisfies Laplace's equation ∇²φ = 0 if the flow is also incompressible
+F: ψ exists for any 2-D incompressible flow (rotational or irrotational); ∇²ψ = 0 only if irrotational
+F: Discharge per unit width between two streamlines q = ψ₂ − ψ₁
+F: Lines of constant φ (equipotentials) and constant ψ (streamlines) intersect at right angles: slope product = −1
+- Flow net: grid of streamlines and equipotential lines forming curvilinear squares; used for seepage under dams, flow around bodies. Cannot be drawn near boundaries where viscous effects dominate.
+- Cauchy–Riemann relations: ∂φ/∂x = ∂ψ/∂y and ∂φ/∂y = −∂ψ/∂x.
+PYQ-TREND: Existence of φ (irrotational only) vs ψ (2-D incompressible); orthogonality of φ and ψ lines; discharge = ψ₂ − ψ₁; flow nets and their limitations.
+
+## 5.7 Basic Potential Flows and Vortex Flows
+| Flow | φ | ψ |
+| Uniform flow U along x | −Ux | −Uy |
+| Source (strength q) | −(q/2π) ln r | −(q/2π) θ |
+| Sink | opposite signs | – |
+| Free vortex (circulation Γ) | −(Γ/2π) θ | (Γ/2π) ln r |
+| Doublet | (μ cosθ)/r | −(μ sinθ)/r |
+- Combinations: uniform flow + doublet → flow past a circular cylinder; + free vortex → lift on a rotating cylinder (Magnus effect); source + uniform flow → Rankine half-body.
+### Vortex flows
+F: Free vortex (irrotational): V·r = constant;  pressure rises outward: p + ρV²/2 = const across streamlines
+F: Forced vortex (rotational, rigid-body rotation): V = ωr;  free surface paraboloid, h = ω²R²/(2g)
+F: Rankine combined vortex: forced core (r < R) + free vortex outside
+- Free vortex examples: whirlpool in a river, flow in a sink/bath drain, flow in the casing of a centrifugal pump after the impeller, flow around a bend. Forced vortex examples: liquid in a rotating cylinder, flow inside a centrifugal pump impeller, flow in turbine runners.
+- Bernoulli applies across streamlines in a free vortex (irrotational) but only along a streamline in a forced vortex.
+FIG: vortex
+PYQ-TREND: Free vortex Vr = const vs forced vortex V = ωr; examples of each; which is rotational (forced) and irrotational (free); Rankine vortex; potential-flow combinations (Magnus effect).
+Q: Distinguish between stream function and velocity potential, and prove that streamlines and equipotential lines are orthogonal.
+The stream function ψ is defined so that its derivatives give the velocity components and ψ is constant along a streamline; it exists for every two-dimensional incompressible flow because it automatically satisfies continuity. The velocity potential φ is a scalar whose negative gradient gives velocity; it exists only when the flow is irrotational. Along a streamline dψ = (∂ψ/∂x)dx + (∂ψ/∂y)dy = v dx − u dy = 0, so its slope is dy/dx = v/u. Along an equipotential line dφ = −u dx − v dy = 0, so its slope is dy/dx = −u/v. The product of the two slopes is −1, so the lines cross at right angles, forming the flow net.

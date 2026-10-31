@@ -1,0 +1,38 @@
+# Buoyancy, Floatation and Stability
+
+## 4.1 Archimedes' Principle and Buoyancy
+- Buoyant force: the net upward force exerted by a fluid on a fully or partly immersed body, equal to the weight of fluid displaced (Archimedes' principle).
+- Centre of buoyancy (B): the centroid of the displaced volume, through which the buoyant force acts.
+F: F_B = ρ_fluid g V_displaced
+F: Floating body: weight W = F_B → fraction submerged = ρ_body/ρ_fluid
+F: Apparent weight of a submerged body = W − ρ_fluid g V
+- Ice (ρ ≈ 917 kg/m³) floats in fresh water with about 92% of its volume submerged; in sea water about 89%.
+- A ship rises slightly when it moves from a river into the sea (sea water is denser) – Plimsoll (load) line marks safe draughts.
+- Hydrometer and lactometer work on floatation; a hydrometer sinks deeper in a lighter liquid.
+PYQ-TREND: Archimedes' principle; centre of buoyancy = centroid of displaced volume; fraction submerged = ρ_body/ρ_liquid; ship rises when entering sea; hydrometer principle.
+
+## 4.2 Metacentre and Metacentric Height
+- Metacentre (M): the point where the line of action of the buoyant force in the slightly tilted position meets the original vertical axis of the body.
+- Metacentric height GM: distance between the centre of gravity G and the metacentre M.
+F: BM = I/V  (I = least second moment of area of the water-plane section about the tilt axis; V = displaced volume)
+F: GM = BM − BG = I/V − BG  (BG positive when G above B)
+F: Experimental: GM = w x / (W tanθ)  (moving a load w through distance x across the deck tilts by θ)
+F: Time period of rolling (oscillation): T = 2π √(k² / (g·GM))  (k = radius of gyration about the roll axis)
+### Stability conditions
+| Body | Stable | Neutral | Unstable |
+| Floating | M above G (GM > 0) | M coincides with G | M below G |
+| Fully submerged | B above G | B coincides with G | B below G |
+- For submerged bodies (submarines, balloons) the water-plane area is zero, so BM = 0 and stability depends only on the relative positions of B and G.
+- Typical GM: merchant ships 0.3–1.2 m (comfortable, slow roll); warships 1–1.5 m; river craft up to 3.5 m.
+- Large GM → greater stability but a shorter rolling period (uncomfortable, 'stiff' ship). Small GM → longer, gentler roll ('tender' ship).
+- Weight added high above G lowers GM; ballast added low raises it.
+PYQ-TREND: Stability conditions (M above G for floating; B above G for submerged) – very frequent. Metacentric height formula I/V − BG. Effect of GM on time period of rolling. Experimental determination of GM.
+TIP: For a floating rectangular block of width b (rolling about its long axis), I = Lb³/12 and V = L b d, so BM = b²/(12d). This shortcut solves most block problems in seconds.
+WARN: Use the least moment of inertia (about the longitudinal axis) for BM; rolling about the short axis gives a larger I and is not critical.
+
+## 4.3 Stability of Floating Bodies – Practical Points
+- A body floating with its long side vertical may become unstable; a cylinder of small diameter-to-length ratio floats with its axis horizontal.
+- Liquid cargo with a free surface reduces effective GM (free-surface effect) – tankers use baffles and divided tanks.
+- Hydrostatic stability is also important for floating platforms, pontoons and buoys.
+Q: Define metacentre and metacentric height and state the conditions of equilibrium for floating and submerged bodies.
+When a floating body is tilted through a small angle, the shape of the displaced volume changes and the centre of buoyancy shifts from B to B'. The vertical through B' intersects the original axis of symmetry at the metacentre M. The distance GM between the centre of gravity G and M is the metacentric height. If M lies above G, the weight and buoyancy form a restoring couple and the body is in stable equilibrium; if M coincides with G, neutral; if M is below G, an overturning couple makes it unstable. For a fully submerged body, B does not shift on tilting, so the body is stable if B is above G, neutral if they coincide, and unstable if B is below G. GM is found analytically from GM = I/V − BG or experimentally by shifting a known weight across the deck and measuring the tilt.

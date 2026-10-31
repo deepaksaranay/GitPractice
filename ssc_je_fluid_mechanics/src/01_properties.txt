@@ -1,0 +1,91 @@
+# Properties of Fluids
+
+## 1.1 What Is a Fluid?
+- A fluid is a substance that deforms continuously under the action of a shear stress, however small. A solid resists shear by a static deformation; a fluid cannot.
+- Liquids have a definite volume and form a free surface; gases fill the whole container. Both are fluids.
+- Continuum hypothesis: a fluid is treated as continuous matter, ignoring molecular gaps. Valid when the mean free path is much smaller than the characteristic length (Knudsen number Kn = λ/L ≪ 0.01). Fails in rarefied gas (very high altitude, vacuum systems).
+- Fluid mechanics divides into fluid statics (fluid at rest), kinematics (motion without forces) and dynamics (motion with forces).
+PYQ-TREND: Definition of fluid based on continuous deformation under shear. Continuum assumption and Knudsen number.
+
+## 1.2 Mass and Weight Properties
+F: Mass density ρ = m/V (kg/m³);  water 1000 at 4 °C, mercury 13,600, air ≈ 1.225 at 15 °C sea level
+F: Specific weight w = γ = ρg (N/m³);  water 9810 N/m³ = 9.81 kN/m³
+F: Specific volume v = 1/ρ (m³/kg)
+F: Specific gravity (relative density) S = ρ_fluid/ρ_water  (gases: relative to air or hydrogen)
+- Specific gravity of some fluids: mercury 13.6, sea water 1.025, petrol ≈ 0.7, kerosene ≈ 0.8, oil (typical) 0.8–0.9, glycerine 1.26.
+- Density of liquids changes little with pressure; it decreases slightly with temperature (except water between 0 and 4 °C – anomalous behaviour).
+- Weight density depends on g and therefore on location; mass density does not.
+PYQ-TREND: Specific gravity of mercury (13.6). Unit of specific weight (N/m³). Specific volume is the reciprocal of density. Water has maximum density at 4 °C.
+
+## 1.3 Viscosity
+- Viscosity is the property by which a fluid resists the relative motion (shear) between adjacent layers. It is the 'internal friction' of a fluid.
+F: Newton's law of viscosity: τ = μ (du/dy)
+F: Dynamic viscosity μ – unit N·s/m² = Pa·s;  CGS: poise (1 P = 1 dyne·s/cm² = 0.1 Pa·s);  1 centipoise = 10⁻³ Pa·s
+F: Kinematic viscosity ν = μ/ρ – unit m²/s;  CGS: stoke (1 St = 1 cm²/s = 10⁻⁴ m²/s)
+F: Dimensions: μ = [ML⁻¹T⁻¹];  ν = [L²T⁻¹]
+- Values at 20 °C: water μ ≈ 1.0 × 10⁻³ Pa·s (1 cP), ν ≈ 1.0 × 10⁻⁶ m²/s; air μ ≈ 1.8 × 10⁻⁵ Pa·s, ν ≈ 1.5 × 10⁻⁵ m²/s. Air has lower μ but higher ν than water (because its density is very low).
+- Effect of temperature: in liquids viscosity is due to cohesion between molecules → viscosity decreases as temperature rises. In gases it is due to molecular momentum exchange → viscosity increases with temperature.
+- Effect of pressure: practically independent for liquids and gases at moderate pressures.
+- Viscosity index (lubricants): measure of how little the viscosity changes with temperature; higher VI is better.
+- Velocity gradient du/dy is also called rate of shear strain (angular deformation rate).
+### Rheological classification
+| Fluid | τ – du/dy relation | Examples |
+| Ideal fluid | No viscosity (τ = 0), incompressible | Imaginary; used for analysis |
+| Newtonian | Straight line through origin (constant μ) | Water, air, petrol, kerosene, thin oils, alcohol |
+| Pseudoplastic (shear-thinning) | Curve, slope decreases; n < 1 | Blood, paint, polymer solutions, milk, paper pulp |
+| Dilatant (shear-thickening) | Curve, slope increases; n > 1 | Starch in water, quicksand, sugar in water, rice starch |
+| Bingham plastic | Yield stress, then linear | Toothpaste, drilling mud, sewage sludge, chalk–water |
+| Thixotropic | Viscosity falls with time of shearing | Printer's ink, lipstick, some paints, enamels |
+| Rheopectic | Viscosity rises with time of shearing | Gypsum paste, bentonite clay |
+| Ideal plastic | Yield stress, then constant slope | – |
+| Real fluid | Has viscosity | All actual fluids |
+F: Power law (Ostwald–de Waele): τ = K (du/dy)ⁿ  (n = 1 Newtonian; n < 1 pseudoplastic; n > 1 dilatant)
+F: Bingham plastic: τ = τ_y + μ_p (du/dy)
+FIG: rheology
+PYQ-TREND: Viscosity variation with temperature (liquids ↓, gases ↑) is asked every year. Units/dimensions of μ and ν; poise and stoke conversions. Examples of non-Newtonian fluids (blood – pseudoplastic, toothpaste – Bingham, printer's ink – thixotropic, quicksand – dilatant). Newton's law of viscosity.
+TIP: Kinematic viscosity has no mass in it – it is purely kinematic (L²/T), like a diffusivity. 'Stoke' sounds like 'stroke of area per second' = cm²/s.
+WARN: 1 poise = 0.1 Pa·s, not 10 Pa·s. And 1 stoke = 10⁻⁴ m²/s, not 10⁻⁶ (10⁻⁶ m²/s is one centistoke).
+
+## 1.4 Compressibility and Bulk Modulus
+F: Bulk modulus K = −dp/(dV/V) = dp/(dρ/ρ)  (N/m²);  compressibility β = 1/K
+F: For water K ≈ 2.1–2.2 × 10⁹ Pa (2.1 GPa);  steel ≈ 160 GPa;  air at 1 atm (isothermal) ≈ 1.01 × 10⁵ Pa
+F: Gas: isothermal K = p;  adiabatic (isentropic) K = γp
+F: Speed of sound c = √(K/ρ);  in ideal gas c = √(γRT)
+- Liquids are treated as incompressible in most problems; compressibility matters in water hammer and high-speed gas flow (Mach > 0.3).
+- A higher bulk modulus means a less compressible fluid.
+PYQ-TREND: K of water; K = p (isothermal) and γp (adiabatic) for gases; compressibility as the reciprocal of bulk modulus; speed of sound √(K/ρ).
+
+## 1.5 Surface Tension and Capillarity
+- Surface tension σ: tensile force per unit length acting along the free surface of a liquid, due to unbalanced cohesive forces on surface molecules. Unit N/m (= J/m²). Water–air at 20 °C ≈ 0.073 N/m; mercury–air ≈ 0.48 N/m.
+- Surface tension decreases with increasing temperature (zero at the critical point) and with soaps/detergents (surfactants); dissolved salts slightly increase it.
+F: Pressure excess inside a liquid droplet: Δp = 4σ/d = 2σ/R
+F: Inside a soap bubble (two free surfaces): Δp = 8σ/d = 4σ/R
+F: Inside a liquid jet (cylinder): Δp = 2σ/d = σ/R
+F: Capillary rise/fall: h = 4σ cosθ / (ρgd)  (θ = contact angle)
+F: Rise between two parallel plates (gap t): h = 2σ cosθ / (ρgt)
+- Contact angle: water–clean glass θ ≈ 0° (wets, concave meniscus, capillary rise); mercury–glass θ ≈ 130°–140° (does not wet, convex meniscus, capillary depression).
+- Adhesion > cohesion → liquid wets the surface, rises. Cohesion > adhesion → falls.
+- Capillary rise is inversely proportional to tube diameter (h ∝ 1/d). In a tube of insufficient height, the liquid does not overflow; the meniscus radius simply increases.
+- Applications: rise of water in soil and plant tissues (partly), wick action of lamps, blotting paper, measurement errors in manometers (use tubes > 6 mm diameter to make capillary error negligible).
+PYQ-TREND: Pressure inside a soap bubble 8σ/d vs droplet 4σ/d (very frequent). Capillary rise formula and h ∝ 1/d. Mercury shows capillary depression. Unit of surface tension (N/m). Effect of temperature on surface tension.
+TIP: Count the number of surfaces: droplet – 1 surface → 4σ/d; soap bubble – 2 surfaces → 8σ/d; jet – cylinder with 1 surface → 2σ/d.
+
+## 1.6 Vapour Pressure and Cavitation
+- Vapour pressure: the partial pressure exerted by vapour molecules in equilibrium with the liquid at a given temperature. It rises with temperature; boiling occurs when vapour pressure equals the surrounding pressure (so water boils below 100 °C on mountains).
+- Water vapour pressure ≈ 2.34 kPa at 20 °C, 101.3 kPa at 100 °C. Mercury has extremely low vapour pressure (≈ 0.16 Pa at 20 °C) – one reason it is used in barometers.
+- Cavitation: formation of vapour bubbles in a flowing liquid where local pressure drops below vapour pressure, followed by their violent collapse in higher-pressure regions. Effects: pitting/erosion of metal, noise, vibration, loss of efficiency. Occurs at pump inlets, turbine runner outlets, propellers, valves, venturi throats.
+PYQ-TREND: Cavitation occurs when pressure falls below vapour pressure. Why mercury is used in barometers (high density, low vapour pressure, does not wet glass). Boiling point lower at higher altitude.
+
+## 1.7 Other Properties and Equation of State
+F: Perfect gas: p = ρRT;  R_air = 287 J/kg·K
+F: Isothermal: p/ρ = constant;  adiabatic: p/ρ^γ = constant
+- Cohesion: attraction between molecules of the same liquid. Adhesion: attraction between liquid molecules and solid surface molecules.
+- Real fluid: has viscosity, surface tension and compressibility. Ideal fluid: none of these – a mathematical model used for potential flow and Bernoulli derivations.
+- Newtonian fluid with very low viscosity can still be 'real'; ideal ≠ inviscid real fluid in practice.
+F: Shear force between plates: F = τA = μ A V / h  (linear velocity profile)
+F: Torque on a rotating shaft in a journal bearing (thin oil film t): T = μ (πDN/60)/t × (πDL) × D/2
+F: Power lost P = T ω = 2πNT/60
+PYQ-TREND: Ideal vs real fluid. Shear stress between two plates with oil film (τ = μV/h). Power lost in a journal bearing due to viscous friction.
+
+Q: State Newton's law of viscosity and explain why the viscosity of liquids decreases and that of gases increases with temperature.
+Newton's law states that the shear stress between adjacent fluid layers is proportional to the velocity gradient normal to the layers: τ = μ du/dy, where μ is the coefficient of dynamic viscosity. In liquids, viscosity arises mainly from cohesive forces between closely packed molecules. As temperature rises, molecular kinetic energy increases and cohesion weakens, so the resistance to shear falls – viscosity decreases (by about 2% per °C for water near room temperature). In gases the molecules are far apart, and viscosity arises from the transfer of momentum by molecules moving randomly between layers. A higher temperature increases molecular speed and this momentum exchange, so gas viscosity increases with temperature (roughly ∝ √T by kinetic theory).

@@ -1,0 +1,58 @@
+# Viscous (Laminar) Flow
+
+## 8.1 Reynolds' Experiment
+- Osborne Reynolds (1883) injected dye into water flowing through a glass tube. At low velocity the dye formed a straight thread (laminar); at higher velocity it wavered (transition); at still higher velocity it mixed across the tube (turbulent).
+F: Reynolds number Re = ρVD/μ = VD/ν  (ratio of inertia force to viscous force)
+| Pipe flow regime | Re range |
+| Laminar | Re < 2000 (some texts 2300) |
+| Transitional | 2000 – 4000 |
+| Turbulent | Re > 4000 |
+- Lower critical Re (≈ 2000) is fairly definite; the upper critical value depends on disturbances (can be very high in a carefully controlled experiment).
+- For open channels (using hydraulic radius R): laminar Re < 500, turbulent Re > 2000 (approx.). For flow over a flat plate: transition at Re_x ≈ 5 × 10⁵.
+PYQ-TREND: Reynolds number definition and critical values (2000/4000); Re = inertia/viscous forces; dye experiment.
+
+## 8.2 Flow Through Circular Pipes – Hagen–Poiseuille
+F: Shear stress distribution: τ = (−∂p/∂x)(r/2) → zero at centre, maximum at wall τ₀ = (−∂p/∂x)(R/2)
+F: Velocity profile: u = (1/4μ)(−∂p/∂x)(R² − r²) = u_max (1 − r²/R²)  (parabolic)
+F: Maximum velocity u_max = (1/4μ)(−∂p/∂x) R²;  average velocity V = u_max/2
+F: Discharge Q = (π/8μ)(−∂p/∂x) R⁴ = (π D⁴ Δp)/(128 μ L)
+F: Pressure drop (Hagen–Poiseuille): Δp = 32 μ V L / D²;  head loss h_f = 32 μ V L/(ρ g D²)
+F: Darcy friction factor (laminar): f = 64/Re;  Fanning friction factor f' = 16/Re
+F: Wall shear stress τ₀ = 8μV/D;  power required P = Δp × Q
+F: Radius where local velocity equals the average velocity: r = R/√2 = 0.707R
+- Assumptions: steady, laminar, fully developed, incompressible, Newtonian, horizontal circular pipe of constant diameter.
+- Entrance (development) length for laminar flow: L_e ≈ 0.05 Re D (up to ≈ 120D at Re = 2300); for turbulent flow L_e ≈ 10–60D (≈ 4.4 Re^(1/6) D).
+FIG: profiles
+PYQ-TREND: Parabolic velocity profile; V_avg = u_max/2; shear stress linear (zero at centre, max at wall); h_f = 32μVL/ρgD²; f = 64/Re (most frequent); Q ∝ D⁴ at constant pressure gradient; α = 2, β = 4/3.
+TIP: At the same flow rate in laminar flow, Δp ∝ 1/D⁴; doubling D reduces Δp to 1/16.
+
+## 8.3 Flow Between Parallel Plates
+F: Both plates fixed (gap t): u = (1/2μ)(−∂p/∂x)(t y − y²);  u_max = (1/8μ)(−∂p/∂x) t²;  V_avg = (2/3) u_max
+F: Pressure drop: Δp = 12 μ V L / t²
+F: Shear stress τ = (−∂p/∂x)(t/2 − y) (zero at mid-plane)
+F: One plate moving with velocity U, no pressure gradient (Couette flow): u = U y/t (linear);  τ = μU/t
+F: Couette flow with pressure gradient: u = U y/t − (1/2μ)(∂p/∂x)(t y − y²)
+- Applications: leakage past pistons, flow in thin lubricating films (journal bearings), dashpots, hydraulic shock absorbers.
+PYQ-TREND: V_avg = (2/3)u_max between fixed plates; Δp = 12μVL/t²; Couette flow linear profile; comparison with pipe flow (1/2 vs 2/3).
+
+## 8.4 Lubrication, Dashpot and Stokes' Law
+F: Journal bearing viscous torque: T = μ π² N D³ L / (120 t);  power P = 2πNT/60 = μ π³ N² D³ L/(3600 t)
+F: Footstep bearing: T = μ π² N R⁴/(60 t);  collar bearing: T = μ π² N (R₂⁴ − R₁⁴)/(60 t)
+F: Dashpot (piston of diameter D, length L, clearance t, velocity V): μ = 4 W t³/(3π L D³ V)
+F: Stokes' law (drag on a sphere in creeping flow, Re < 1): F_D = 3πμDV;  C_D = 24/Re
+F: Terminal velocity of a falling sphere: V_t = D²(ρ_s − ρ_f) g / (18μ)
+- Stokes' law is used in falling-sphere viscometers, settling of dust/sediment, Millikan's oil-drop experiment.
+PYQ-TREND: Stokes' drag 3πμDV and C_D = 24/Re; terminal velocity ∝ D²; viscous torque on journal bearing ∝ μND³L/t.
+
+## 8.5 Measurement of Viscosity
+| Viscometer | Principle |
+| Capillary tube | Hagen–Poiseuille (Δp, Q, D, L) |
+| Falling sphere | Stokes' law (terminal velocity) |
+| Rotating cylinder (Couette) | Torque on inner cylinder |
+| Orifice type – Redwood (UK), Saybolt (USA), Engler (Europe) | Time for a fixed volume to flow through an orifice (commercial) |
+| Cone-and-plate | Uniform shear rate (non-Newtonian fluids) |
+| Ostwald | Capillary, relative to a standard liquid |
+PYQ-TREND: Falling-sphere viscometer uses Stokes' law; Redwood/Saybolt are orifice-type; rotating cylinder method.
+
+Q: Derive the Hagen–Poiseuille equation for laminar flow in a circular pipe.
+Consider a coaxial cylindrical fluid element of radius r and length dx in steady, fully developed laminar flow. Pressure force on the ends = (−∂p/∂x) dx πr²; shear force on the curved surface = τ 2πr dx. For equilibrium τ = (−∂p/∂x)(r/2): shear varies linearly from zero at the axis to a maximum at the wall. Using Newton's law τ = −μ du/dr (u decreases with r): du/dr = −(1/2μ)(−∂p/∂x) r. Integrating with u = 0 at r = R: u = (1/4μ)(−∂p/∂x)(R² − r²), a parabola. Discharge Q = ∫₀ᴿ u 2πr dr = (π/8μ)(−∂p/∂x)R⁴, so V = Q/πR² = (1/8μ)(−∂p/∂x)R² = u_max/2. Over length L with D = 2R: Δp = 32μVL/D², i.e., h_f = 32μVL/(ρgD²). Writing h_f in Darcy form fLV²/(2gD) gives f = 64/Re.

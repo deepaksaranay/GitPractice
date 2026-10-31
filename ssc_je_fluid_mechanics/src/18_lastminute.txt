@@ -1,0 +1,67 @@
+# Last-Minute Revision Sheet
+
+## 18.1 Must-Know Values
+| Quantity | Value |
+| ρ water / mercury / sea water | 1000 / 13,600 / 1025 kg/m³ |
+| γ water | 9810 N/m³ |
+| μ water (20 °C) / ν water | 1 × 10⁻³ Pa·s / 1 × 10⁻⁶ m²/s |
+| 1 poise / 1 stoke | 0.1 Pa·s / 10⁻⁴ m²/s |
+| K water | ≈ 2.1 GPa |
+| σ water–air | ≈ 0.073 N/m |
+| 1 atm | 101.325 kPa = 10.33 m water = 760 mm Hg |
+| Speed of sound: water / air | ≈ 1450 / 343 m/s |
+| Critical Re (pipe) | 2000 (laminar), 4000 (turbulent) |
+| Critical Re (flat plate) | 5 × 10⁵ |
+| f laminar (Darcy) | 64/Re |
+| α, β laminar pipe | 2, 4/3 |
+| V/u_max laminar pipe / plates | 1/2 / 2/3 |
+| C_d venturi / orifice / nozzle | 0.95–0.98 / 0.62 / 0.95 |
+| C_c, C_v orifice | 0.64, 0.98 |
+| C_d external mouthpiece; Borda free/full | 0.855; 0.5 / 0.707 |
+| Max power transmission | h_f = H/3, η = 66.7% |
+| Jet on series of plates | η_max 50% at u = V/2 |
+| Pelton speed ratio; jet ratio | 0.46; ≈ 12 |
+| Critical pressure ratio (air) | 0.528 |
+| Practical siphon / suction lift | ≈ 7.5 m / 6–7 m |
+| Most economical rectangle | b = 2y, R = y/2 |
+| Critical depth; E_min | (q²/g)^(1/3); 1.5 y_c |
+| Turbine Ns ranges (SI) | Pelton 8.5–51, Francis 50–340, Kaplan 255–860 |
+| Pump Ns ranges (SI) | Radial 10–80, mixed 80–160, axial 160–500 |
+
+## 18.2 Commonly Confused Pairs
+| A | B |
+| Liquid viscosity ↓ with temperature | Gas viscosity ↑ with temperature |
+| Droplet Δp = 4σ/d | Soap bubble Δp = 8σ/d |
+| Water rises (θ ≈ 0°) | Mercury falls (θ ≈ 130°) |
+| Piezometer – no vacuum/gas | U-tube – vacuum and gases ok |
+| Floating: M above G for stability | Submerged: B above G |
+| Free vortex Vr = const (irrotational) | Forced vortex V = ωr (rotational) |
+| φ – irrotational only | ψ – any 2-D incompressible |
+| Steady: streamline = pathline = streakline | Unsteady: they differ |
+| TEL always falls | HGL may rise |
+| Euler eq – no viscosity | Navier–Stokes – with viscosity |
+| Venturi divergent 5–7° (long) | Convergent ~20° (short) |
+| Rectangular notch Q ∝ H^1.5 | V-notch Q ∝ H^2.5 |
+| Laminar f = 64/Re (no roughness effect) | Fully rough: f = function of ε/D only |
+| Sudden enlargement loss (V₁−V₂)²/2g | Sudden contraction ≈ 0.5V₂²/2g |
+| Water hammer sudden Δp = ρVc | Gradual Δp = ρLV/t |
+| Separation – adverse gradient | No separation – favourable gradient |
+| Reynolds model – pipes, submarines | Froude model – channels, ships, spillways |
+| Impulse turbine – no draft tube | Reaction turbine – draft tube |
+| Kaplan – adjustable blades | Propeller – fixed blades |
+| Turbine Ns = N√P/H^(5/4) | Pump Ns = N√Q/H^(3/4) |
+| Pumps in series – head adds | Pumps in parallel – discharge adds |
+| Centrifugal – priming needed | Reciprocating – self-priming |
+| Fluid coupling – T_out = T_in | Torque converter – torque multiplied (stator) |
+| Cavitation in turbine – runner exit | Cavitation in pump – impeller eye |
+
+## 18.3 Paper-II Quick Answers (5-mark style)
+Q: Distinguish between laminar and turbulent flow.
+Laminar flow: fluid moves in smooth parallel layers with no mixing across them; occurs at low Re (< 2000 in pipes); shear stress is purely viscous (τ = μ du/dy); velocity profile in a pipe is parabolic with V = u_max/2; head loss ∝ V (h_f = 32μVL/ρgD²), f = 64/Re, independent of roughness. Examples: oil in narrow tubes, blood in capillaries, groundwater flow. Turbulent flow: fluid particles move randomly with eddies and strong mixing; occurs at high Re (> 4000); shear stress includes large turbulent (Reynolds) stresses; velocity profile is flatter (≈ 1/7 power law, V ≈ 0.82 u_max); head loss ∝ V^1.75–V²; f depends on Re and relative roughness (Moody chart). Examples: water in town mains, rivers, air around vehicles.
+Q: What is cavitation? State its effects on hydraulic machines and how it is prevented.
+Cavitation is the formation of vapour bubbles in a flowing liquid wherever the local absolute pressure falls to the vapour pressure, followed by the violent collapse of these bubbles when they are carried into regions of higher pressure. The collapse produces very high local pressures (hundreds of MPa) and micro-jets. Effects: pitting and erosion of runner blades, impeller vanes and draft tubes; noise and vibration; sudden drop in head, discharge and efficiency. In turbines it occurs at the runner outlet/draft-tube inlet, in pumps at the impeller eye. Prevention: keep pressure above vapour pressure – limit the suction height of pumps and the setting height of turbines (Thoma's σ above critical; NPSH_A > NPSH_R), avoid high speeds, use cavitation-resistant materials (stainless steel, aluminium bronze), polish surfaces, and avoid operation far from design conditions.
+Q: Compare impulse and reaction turbines.
+Impulse turbine (Pelton): all available head is converted to kinetic energy in the nozzle before the runner; water acts at atmospheric pressure throughout; the casing has no hydraulic function; partial admission (water strikes only a few buckets at a time); can be installed above tail race and needs no draft tube; flow is regulated by a spear valve; suited to high heads and small discharges; low specific speed. Reaction turbine (Francis, Kaplan): part of the head is pressure energy at the runner inlet, and pressure falls as water passes through the runner; the runner is full of water and enclosed in an airtight casing; full admission all round; a draft tube is essential; flow is regulated by guide vanes (and runner blades in Kaplan); suited to medium/low heads and large discharges; higher specific speeds.
+Q: Explain the working of a hydraulic ram.
+A hydraulic ram lifts a small quantity of water to a large height using the energy of a larger quantity of water falling through a small height – without any external power. Water from a supply tank flows down a drive pipe to a valve chamber and escapes through the waste valve. As the velocity rises, the dynamic force closes the waste valve suddenly. The resulting water hammer raises the pressure in the chamber, opening the delivery valve and forcing water into an air vessel and up the delivery pipe. When the pressure falls, the delivery valve closes and the waste valve reopens under its own weight, and the cycle repeats 50–150 times a minute. Efficiency (D'Aubuisson) = q(H − h)/(Qh), where q is the water lifted to height H, Q is the waste discharge and h the supply head. Used to supply water to hilly villages and farms.
+TIP: In the last 24 hours, read only the formula boxes (Appendix A), the PYQ-trend boxes (Appendix B), the ratio-twister table and this chapter. Don't open new books.

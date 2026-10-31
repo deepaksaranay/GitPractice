@@ -1,0 +1,60 @@
+# Fluid Dynamics – Energy and Momentum
+
+## 6.1 Forces and Equations of Motion
+- Forces on a fluid element: gravity (Fg), pressure (Fp), viscous (Fv), turbulence (Ft), compressibility/elastic (Fe), surface tension (Fs).
+| Equation | Forces considered |
+| Euler's equation | Gravity + pressure (ideal fluid) |
+| Navier–Stokes | Gravity + pressure + viscous |
+| Reynolds equations | Gravity + pressure + viscous + turbulent |
+| Newton's law (full) | All forces |
+F: Euler's equation along a streamline: dp/ρ + g dz + V dV = 0
+PYQ-TREND: Which forces are included in Euler's vs Navier–Stokes vs Reynolds equations.
+
+## 6.2 Bernoulli's Equation
+F: p/(ρg) + V²/(2g) + z = constant  (pressure head + velocity (kinetic) head + datum (potential) head = total head)
+F: Energy form per unit mass: p/ρ + V²/2 + gz = const;  per unit volume: p + ρV²/2 + ρgz = const
+F: Real fluid between sections 1 and 2: p₁/ρg + V₁²/2g + z₁ = p₂/ρg + V₂²/2g + z₂ + h_L
+F: With pump (h_p) and turbine (h_t): H₁ + h_p = H₂ + h_t + h_L
+- Assumptions: steady flow; incompressible; inviscid (frictionless); along a streamline (or irrotational flow for any two points); no shaft work or heat transfer.
+- It is a statement of conservation of energy (derived by integrating Euler's equation).
+- Static pressure p, dynamic pressure ρV²/2, stagnation (total) pressure p₀ = p + ρV²/2.
+- Applications: venturimeter, orificemeter, pitot tube, flow nozzle, siphon, aerofoil lift, atomiser/sprayer, carburettor (low pressure at venturi throat draws fuel), chimney draught, roofs lifted in storms, two boats moving side by side drawn together.
+PYQ-TREND: Assumptions of Bernoulli's equation (very frequent). Bernoulli is energy conservation. Terms as heads (m) and their names. Everyday applications (carburettor, aerofoil, atomiser).
+WARN: Bernoulli's equation cannot be applied across a hydraulic jump, through a pump or turbine without adding/subtracting head, or in a region of strong viscous losses without a loss term.
+
+## 6.3 HGL and TEL
+- Hydraulic gradient line (HGL): line joining piezometric heads (p/ρg + z) along the flow.
+- Total energy line (TEL): line joining total heads (p/ρg + V²/2g + z); lies above the HGL by V²/2g.
+- For real fluids, the TEL always falls in the direction of flow (losses). The HGL may rise where velocity decreases (sudden enlargement) – but TEL never rises without a pump.
+- Where the HGL falls below the pipe centreline, pressure is negative (below atmospheric) – risk of air release/cavitation (siphons).
+- For a pipe discharging into a reservoir, HGL meets the reservoir surface at the outlet; TEL is V²/2g above it.
+PYQ-TREND: TEL always slopes down in flow direction; HGL can rise; vertical distance between TEL and HGL = velocity head; HGL below pipe → negative pressure.
+
+## 6.4 Correction Factors
+F: Kinetic energy correction factor α = (1/(AV³)) ∫u³ dA
+F: Momentum correction factor β = (1/(AV²)) ∫u² dA
+| Flow | α | β |
+| Uniform (ideal) | 1 | 1 |
+| Laminar pipe flow | 2 | 4/3 |
+| Laminar flow between parallel plates | 1.543 | 1.2 |
+| Turbulent pipe flow | 1.03–1.10 | 1.01–1.04 |
+PYQ-TREND: α = 2 and β = 4/3 for laminar pipe flow (frequent). α > β > 1 for non-uniform profiles.
+
+## 6.5 Impulse–Momentum Equation and Its Applications
+F: Momentum equation (steady): ΣF = ρQ (V₂ − V₁)  (vector, per direction)
+F: Force on a pipe bend (x-direction): F_x = ρQ(V₁ − V₂ cosθ) + p₁A₁ − p₂A₂ cosθ
+F: y-direction: F_y = ρQ(−V₂ sinθ) − p₂A₂ sinθ (sign depends on the coordinate choice);  resultant F = √(F_x² + F_y²)
+F: Force on a nozzle (water exerts on nozzle): F = p₁A₁ − ρQ(V₂ − V₁)
+F: Moment of momentum (torque): T = ρQ(V₂r₂ − V₁r₁)
+- The momentum equation is used where internal losses are unknown or energy is not conserved: forces on bends, reducers, nozzles, jets on vanes, hydraulic jumps, sudden enlargement loss, jet propulsion, lawn sprinklers (moment of momentum).
+- Jet propulsion: ships (water jet), rockets (no atmospheric air needed), jet aircraft.
+F: Propulsive (Froude) efficiency of a jet: η = 2u/(u + V_j)  (u = vehicle speed, V_j = jet velocity relative to the vehicle) – maximum as V_j → u
+PYQ-TREND: Impulse-momentum equation; force on pipe bends; momentum equation used for sudden enlargement loss and hydraulic jump; lawn sprinkler uses moment of momentum.
+
+## 6.6 Free Liquid Jets
+F: Jet issuing at angle θ with velocity V: max height = V² sin²θ/(2g);  horizontal range = V² sin2θ/g (max at 45°)
+F: Equation of jet path: y = x tanθ − g x²/(2V² cos²θ)
+F: Horizontal jet from an orifice at height y above ground: horizontal distance x = V √(2y/g);  Cv = x/(2√(yH))
+PYQ-TREND: Range of a liquid jet max at 45°; Cv from jet trajectory method.
+Q: State Bernoulli's theorem, derive it from Euler's equation and list its limitations.
+Euler's equation along a streamline for steady flow of an ideal fluid is dp/ρ + g dz + V dV = 0. For an incompressible fluid (ρ constant), integration gives p/ρ + gz + V²/2 = constant; dividing by g, p/ρg + z + V²/2g = constant – Bernoulli's equation, stating that the sum of pressure, potential and kinetic energy per unit weight is constant along a streamline. Limitations: (1) real fluids are viscous, so energy is lost to friction – a loss term h_L must be added; (2) the velocity is not uniform across a section, so kinetic-energy correction factor α is needed; (3) it applies only to steady flow; (4) it does not hold for compressible flow without modification; (5) it applies along a streamline unless the flow is irrotational; (6) it ignores shaft work and heat transfer (pumps, turbines) unless those heads are added explicitly.

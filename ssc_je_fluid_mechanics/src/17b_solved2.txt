@@ -1,0 +1,116 @@
+# Solved Numericals – Set 2 (BL, Models, Channels, Machines) and Ratio Twisters
+
+## 17B.1 Boundary Layer, Drag, Similitude, Compressible
+### Problem 41 – Boundary layer thickness
+Air (ν = 1.5 × 10⁻⁵ m²/s) flows at 3 m/s over a plate. Find δ at x = 1 m (laminar check).
+F: Re_x = 3 × 1/1.5 × 10⁻⁵ = 2 × 10⁵ (< 5 × 10⁵, laminar);  δ = 5x/√Re_x = 5/447 = 0.0112 m = 11.2 mm
+### Problem 42 – Drag force
+A car (frontal area 2 m², C_D = 0.3) moves at 30 m/s in air (ρ = 1.2). Find drag and the power to overcome it.
+F: F_D = 0.3 × 0.5 × 1.2 × 900 × 2 = 324 N;  P = 324 × 30 = 9.72 kW
+### Problem 43 – Stokes' terminal velocity
+A 0.1 mm sand particle (ρ = 2650) settles in water (μ = 10⁻³ Pa·s). Find terminal velocity.
+F: V = D²(ρs − ρ)g/(18μ) = (10⁻⁴)² × 1650 × 9.81/(0.018) = 8.99 × 10⁻³ m/s ≈ 9 mm/s;  Re ≈ 0.9 (Stokes valid)
+### Problem 44 – Froude model
+A 1:36 spillway model discharges 0.05 m³/s. Find the prototype discharge and time scale.
+F: Q_p = Q_m × 36^2.5 = 0.05 × 7776 = 388.8 m³/s;  T_r = √36 = 6
+### Problem 45 – Reynolds model
+Water flows at 2 m/s in a 1 m pipe. A 1:10 model uses the same water. Find model velocity.
+F: V_m = V_p × L_p/L_m = 2 × 10 = 20 m/s
+### Problem 46 – Mach number
+An aircraft flies at 900 km/h where air temperature is −50 °C. Find M (γ = 1.4, R = 287).
+F: c = √(1.4 × 287 × 223) = 299.3 m/s;  V = 250 m/s;  M = 0.835 (subsonic, near transonic)
+### Problem 47 – Stagnation temperature
+Air at 300 K moves at M = 2. Find T₀.
+F: T₀ = T(1 + 0.2M²) = 300 × 1.8 = 540 K
+### Problem 48 – π-terms
+A problem has 7 variables in M, L, T. How many π-terms?
+F: n − m = 7 − 3 = 4
+
+## 17B.2 Open Channels
+### Problem 49 – Economical rectangle
+A rectangular channel must carry 2 m³/s at V = 1 m/s. Find the most economical dimensions.
+F: A = 2 m² = by = 2y² → y = 1 m, b = 2 m;  R = 0.5 m
+### Problem 50 – Manning
+A channel has R = 0.8 m, S = 1/1600, n = 0.015. Find velocity.
+F: V = (1/0.015) × 0.8^(2/3) × (1/40) = 66.7 × 0.862 × 0.025 = 1.44 m/s
+### Problem 51 – Critical depth
+q = 4 m³/s per metre width. Find y_c, E_min and V_c.
+F: y_c = (16/9.81)^(1/3) = 1.177 m;  E_min = 1.765 m;  V_c = q/y_c = 3.40 m/s (= √(g y_c))
+### Problem 52 – Hydraulic jump
+Before a jump y₁ = 0.5 m and V₁ = 8 m/s. Find y₂ and energy loss.
+F: Fr₁ = 8/√(4.905) = 3.61;  y₂ = 0.25(−1 + √(1 + 8 × 13.05)) = 0.25 × 9.27 = 2.32 m
+F: ΔE = (2.32 − 0.5)³/(4 × 0.5 × 2.32) = 6.03/4.64 = 1.30 m
+
+## 17B.3 Jets and Turbines
+### Problem 53 – Jet on fixed plate
+A 50 mm jet at 25 m/s strikes a fixed flat plate normally. Find the force.
+F: a = 1.963 × 10⁻³ m²;  F = ρaV² = 1000 × 1.963 × 10⁻³ × 625 = 1227 N
+### Problem 54 – Series of plates
+Same jet strikes a series of flat plates moving at 10 m/s. Find force, power and efficiency.
+F: F = ρaV(V − u) = 1000 × 1.963 × 10⁻³ × 25 × 15 = 736 N;  P = 736 × 10 = 7.36 kW
+F: η = 2u(V − u)/V² = 2 × 10 × 15/625 = 48%
+### Problem 55 – Pelton wheel
+Net head 400 m, Q = 0.3 m³/s, C_v = 0.98, speed ratio 0.46, η_o = 0.85. Find jet velocity, bucket speed and power.
+F: V = 0.98√(2 × 9.81 × 400) = 0.98 × 88.6 = 86.8 m/s;  u = 0.46 × 88.6 = 40.8 m/s
+F: P = 0.85 × 9810 × 0.3 × 400 = 1.0 MW
+### Problem 56 – Pelton dimensions
+Pitch diameter 1.8 m, jet diameter 0.15 m. Find jet ratio and number of buckets.
+F: m = 12;  z = 15 + 12/2 = 21 buckets
+### Problem 57 – Turbine specific speed
+A turbine gives 5,000 kW under 64 m head at 300 rpm. Find N_s and the turbine type.
+F: H^1.25 = 64^1.25 = 181;  N_s = 300 × 70.7/181 = 117 → Francis
+### Problem 58 – Unit quantities
+A turbine gives 1,000 kW at 100 m head and 500 rpm. Find speed and power at 64 m head.
+F: N ∝ √H → 500 × 0.8 = 400 rpm;  P ∝ H^1.5 → 1000 × 0.512 = 512 kW
+### Problem 59 – Synchronous speed
+A generator with 24 poles runs on 50 Hz. Find its speed.
+F: N = 120f/p = 6000/24 = 250 rpm
+### Problem 60 – Kaplan discharge
+Outer diameter 4 m, hub 1.6 m, flow velocity 8 m/s. Find Q.
+F: Q = (π/4)(16 − 2.56) × 8 = 10.56 × 8 = 84.4 m³/s
+
+## 17B.4 Pumps
+### Problem 61 – Centrifugal pump head
+Impeller D₂ = 0.5 m at 1450 rpm, V_w2 = 30 m/s, radial entry. Manometric head 60 m. Find Euler head and manometric efficiency.
+F: u₂ = π × 0.5 × 1450/60 = 37.96 m/s;  H_e = 30 × 37.96/9.81 = 116 m;  η_mano = 60/116 = 51.7%
+### Problem 62 – Pump power
+A pump delivers 40 L/s against 25 m head with η_o = 0.8. Find shaft power.
+F: P = 9810 × 0.04 × 25/0.8 = 12.26 kW
+### Problem 63 – Affinity laws
+A pump gives 50 L/s, 20 m head, 15 kW at 1200 rpm. Find values at 1800 rpm.
+F: Q = 75 L/s;  H = 20 × 2.25 = 45 m;  P = 15 × 3.375 = 50.6 kW
+### Problem 64 – Pump specific speed
+Pump: 1450 rpm, Q = 0.1 m³/s, H = 25 m. Find N_s and type.
+F: N_s = 1450 × 0.316/25^0.75 = 458.5/11.18 = 41 → radial-flow (centrifugal)
+### Problem 65 – Reciprocating pump
+Single-acting: bore 200 mm, stroke 300 mm, 60 rpm, actual Q = 9 L/s. Find Q_th, C_d and slip.
+F: Q_th = 0.03142 × 0.3 × 60/60 = 9.42 L/s;  C_d = 0.955;  slip = 4.5%
+### Problem 66 – NPSH
+Atmospheric head 10.3 m, suction lift 4 m, suction loss 0.8 m, vapour head 0.24 m. Find NPSH available.
+F: NPSH_A = 10.3 − 4 − 0.8 − 0.24 = 5.26 m
+### Problem 67 – Hydraulic coupling
+Pump runs at 1500 rpm, turbine at 1455 rpm. Find slip and efficiency.
+F: slip = 45/1500 = 3%;  η = 1455/1500 = 97%
+### Problem 68 – Intensifier
+Low-pressure water at 2 MPa acts on a 200 mm ram; the high-pressure plunger is 50 mm. Find output pressure.
+F: p₂ = 2 × (200/50)² = 32 MPa
+
+## 17B.5 Ratio Twisters (Most Time-Saving)
+| If this changes… | Effect |
+| Tube diameter halved (capillary) | Rise doubles (h ∝ 1/d) |
+| Droplet diameter doubled | Excess pressure halves (∝ 1/d) |
+| Depth of water doubled on a vertical gate | Total force × 4 (∝ H²) |
+| Pipe diameter halved (same Q) | Velocity × 4 |
+| Laminar, same Q, D doubled | Δp ÷ 16 (∝ 1/D⁴) |
+| Turbulent, same Q and f, D doubled | h_f ÷ 32 (∝ 1/D⁵) |
+| Turbulent, Q doubled | h_f × 4 |
+| Head over rectangular weir doubled | Q × 2.83 |
+| Head over V-notch doubled | Q × 5.66 |
+| Tank head quartered (time to empty) | Time halves (∝ √H) |
+| Jet velocity doubled (fixed plate) | Force × 4 |
+| Pump speed doubled | Q × 2, H × 4, P × 8 |
+| Turbine head doubled (same turbine) | N × 1.41, Q × 1.41, P × 2.83 |
+| Froude model 1:25 | V ÷ 5, Q ÷ 3125, T ÷ 5, F ÷ 15625 |
+| Speed doubled (drag ∝ V²) | Drag × 4, drag power × 8 |
+| Sphere diameter doubled (Stokes) | Terminal velocity × 4 |
+PYQ-TREND: SSC repeatedly asks these one-step ratio questions; know the power of each variable.
