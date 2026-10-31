@@ -1,0 +1,65 @@
+# Steam Turbines
+
+## 16.1 Principle and Classification
+- A steam turbine converts the enthalpy of steam into kinetic energy in nozzles/fixed blades, and then into shaft work by changing the momentum of the steam on moving blades. It is a rotary, continuous-flow machine – smooth torque, high speed, large unit sizes (up to 1,000+ MW), high efficiency.
+| Basis | Types |
+| Action of steam | Impulse, reaction, impulse–reaction (combination) |
+| Direction of flow | Axial (most), radial (Ljungström), tangential |
+| Number of stages | Single-stage, multi-stage |
+| Exhaust condition | Condensing, back-pressure (non-condensing), pass-out/extraction, mixed-pressure |
+| Steam pressure | Low, medium, high, supercritical |
+| Compounding | Velocity, pressure, pressure–velocity |
+
+| Impulse turbine | Reaction turbine |
+| Complete pressure drop in nozzles only; pressure constant across moving blades | Pressure drops in both fixed blades (acting as nozzles) and moving blades |
+| Blades symmetrical (profile) – equal inlet and outlet angles | Aerofoil-shaped asymmetric blades |
+| Relative velocity unchanged (ideal): V_r2 = V_r1 (or k·V_r1 with friction) | Relative velocity increases across moving blades |
+| Partial admission possible (steam only through some nozzles) | Full admission necessary |
+| Fewer stages for the same pressure drop; small size | More stages; larger size |
+| Lower efficiency; lower blade leakage effect | Higher efficiency at design; tip leakage matters (needs balance piston/dummy piston for axial thrust) |
+| De Laval, Curtis, Rateau, Zoelly | Parsons |
+PYQ-TREND: Impulse vs reaction turbine differences (very frequent); De Laval simple impulse; Parsons reaction; pressure constant on impulse moving blades; partial admission in impulse; axial thrust balanced by dummy piston in reaction turbines.
+
+## 16.2 Velocity Triangles and Work (Impulse Stage)
+- Inlet: nozzle angle α (steam absolute velocity V₁), blade speed u, relative velocity V_r1 at blade inlet angle θ; outlet: blade angle φ, relative velocity V_r2, absolute velocity V₂ at angle β.
+F: Whirl components: V_w1 = V₁ cosα;  V_w2 = V₂ cosβ
+F: Work per kg = u (V_w1 ± V_w2)  (+ when V_w2 is opposite to V_w1 – usual)
+F: Tangential force (driving thrust) per kg/s = V_w1 ± V_w2;  axial thrust per kg/s = V_f1 − V_f2
+F: Blade (diagram) efficiency η_b = 2u(V_w1 ± V_w2)/V₁²
+F: Stage efficiency = blade efficiency × nozzle efficiency = work/(enthalpy drop in stage)
+F: Impulse blade efficiency (symmetrical blades, no friction, k = 1): η_b = 4ρ(cosα − ρ), where ρ = u/V₁
+F: Optimum blade speed ratio (single-stage impulse): u/V₁ = cosα/2;  η_b,max = cos²α
+F: With blade friction (k = V_r2/V_r1) and blade angles: η_b,max = (cos²α/2)(1 + k cosφ/cosθ)
+- Typical nozzle angle α = 15–20°; blade speed limited by stress (≈ 400 m/s).
+PYQ-TREND: Optimum speed ratio cosα/2 and η_max = cos²α for impulse turbine (very frequent); work = u(V_w1 + V_w2); axial thrust from difference in flow components.
+WARN: For an impulse turbine use u/V₁ = cosα/2; for a 50% reaction (Parsons) turbine use u/V₁ = cosα. Mixing them up is the most common error.
+
+## 16.3 Compounding of Impulse Turbines
+- Purpose: in a single-stage impulse (De Laval) turbine the whole pressure drop occurs in one set of nozzles, giving very high steam velocity (≈ 1,000+ m/s) and very high rotor speed (≈ 30,000 rpm) – needs reduction gearing; large leaving loss. Compounding reduces rotor speed by absorbing the energy in several steps.
+| Compounding | How | Example | Remarks |
+| Velocity compounding | One set of nozzles (full pressure drop), then several rows of moving blades with fixed guide blades between them (no pressure drop in guide blades) | Curtis turbine | Velocity absorbed in steps; fewer stages, cheap, but low efficiency; optimum u/V₁ = cosα/(2n) for n rows |
+| Pressure compounding | Several stages, each with nozzles + one row of moving blades; pressure dropped in steps | Rateau turbine (also Zoelly) | Lower steam velocity, higher efficiency, but more stages/longer |
+| Pressure–velocity compounding | Pressure dropped in stages; each stage velocity-compounded | Curtis stages in series | Combines both |
+F: Velocity-compounded (2 rows): optimum u/V₁ = cosα/4;  work in rows ratio 3:1 (first row does 3/4 of total work)
+F: For n rows: optimum u/V₁ = cosα/(2n);  work ratio of rows: (2n−1):(2n−3):…:1
+PYQ-TREND: Curtis = velocity compounding; Rateau = pressure compounding (very frequent); purpose of compounding (reduce rotor speed); work ratio 3:1 in two-row Curtis wheel; De Laval needs gearing.
+
+## 16.4 Reaction Turbines and Degree of Reaction
+F: Degree of reaction R = enthalpy drop in moving blades / enthalpy drop in the stage = Δh_moving/(Δh_fixed + Δh_moving)
+- R = 0 → pure impulse; R = 0.5 (50% reaction) → Parsons turbine: fixed and moving blades are identical in shape (symmetrical velocity triangles), α = φ and θ = β.
+F: Parsons (50% reaction): optimum u/V₁ = cosα;  η_b,max = 2cos²α/(1 + cos²α)
+F: Height of blades from continuity: ṁ v = π D_m h V_f (D_m = mean diameter, h = blade height)
+- Reaction turbines need many stages; blade height increases toward the LP end as specific volume increases (exhaust ends use double-flow LP turbines).
+- Losses in steam turbines: nozzle friction, blade friction, leakage (tip, gland), disc friction, partial admission, residual (leaving) velocity, wetness (moisture), shock (incidence) losses, mechanical friction, radiation.
+PYQ-TREND: Degree of reaction definition; Parsons turbine is 50% reaction with identical fixed and moving blades (very frequent); optimum ratio cosα for Parsons; losses list.
+
+## 16.5 Governing and Other Points
+- Governing (keeping speed constant as load changes): throttle governing (reduce steam pressure by throttling – simple but causes loss), nozzle-control governing (open/close groups of nozzles – efficient at part load, used in impulse turbines), by-pass governing (admit extra steam to later stages at overload), combination. Emergency (overspeed) governor trips the turbine at about 110% speed.
+- Reheat factor (multistage): ratio of the cumulative stage isentropic heat drops to the overall isentropic heat drop (≈ 1.03–1.05) – because friction reheats steam, later stages get a little more available drop.
+F: Reheat factor RF = Σ(Δh_stage,isentropic) / (Δh_overall,isentropic);  internal efficiency η_int = η_stage × RF
+F: Willans line: steam consumption varies linearly with load for throttle-governed turbines
+- Back-pressure turbine: exhausts at above-atmospheric pressure for process heating (cogeneration). Pass-out (extraction) turbine: part of the steam extracted at an intermediate pressure for process use, the rest condensed.
+- Turbine blade materials: stainless steel (12% Cr), Inconel, titanium for last LP blades; stellite shields against erosion.
+PYQ-TREND: Throttle vs nozzle-control governing; Willans line; reheat factor > 1; back-pressure and pass-out turbines for cogeneration; overspeed trip.
+Q: Explain the need for compounding in steam turbines and describe velocity compounding.
+In a simple impulse (De Laval) turbine, steam expands from boiler pressure to condenser pressure in a single set of nozzles, so its velocity becomes very high (1,000 m/s or more). For good blade efficiency the blade speed must be about half the steam velocity, giving rotor speeds near 30,000 rpm. Such speeds need heavy reduction gearing, impose high centrifugal stresses, and leave a large exit velocity loss. Compounding divides the energy absorption into steps so the rotor runs at a practical speed. In velocity compounding (Curtis), the whole pressure drop occurs in one set of nozzles, producing a high-velocity jet. This jet passes through a first row of moving blades, where part of its velocity is absorbed; it then passes through a row of fixed guide blades that only redirect the steam (no pressure drop) onto a second row of moving blades, which absorbs more velocity, and so on. The pressure remains constant across all rows. For two rows the optimum blade speed is a quarter of the jet velocity, and the first row does three-quarters of the work. It is compact and cheap but less efficient because of friction losses at the high velocities in the later rows.

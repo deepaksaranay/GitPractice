@@ -1,0 +1,110 @@
+# Fuels and Combustion
+
+## 26B.1 Classification of Fuels
+| Type | Natural (primary) | Prepared (secondary) |
+| Solid | Wood, peat, lignite, bituminous coal, anthracite | Coke, charcoal, briquettes, pulverised coal |
+| Liquid | Crude petroleum | Petrol, kerosene, diesel, furnace oil, alcohols, biodiesel |
+| Gaseous | Natural gas | LPG, CNG, producer gas, water gas, coal gas, biogas, blast-furnace gas |
+- Rank of coal (increasing age and carbon): wood → peat → lignite (brown coal) → sub-bituminous → bituminous → semi-anthracite → anthracite. With rank, fixed carbon and calorific value generally rise; moisture and volatile matter fall. Anthracite has the highest carbon (≈ 90–95%), burns with a short smokeless flame and is hard to ignite; bituminous coal (most common steam coal) has high volatile matter and burns with a long smoky flame.
+- Indian coals are mostly bituminous/sub-bituminous with high ash (30–45%), which affects boiler design (large ESPs, erosion of tubes).
+- Coking coal: bituminous coal that softens and fuses when heated without air to give strong, porous coke (for blast furnaces). Carbonisation: low temperature (≈ 500–700 °C) gives soft coke with more volatile matter; high temperature (≈ 1000–1200 °C) gives hard metallurgical coke and coal gas.
+PYQ-TREND: Order of coal rank (anthracite highest carbon/CV; peat lowest); coke made by carbonisation; Indian coal high ash.
+
+## 26B.2 Analysis of Coal
+| Analysis | Determines | Method |
+| Proximate | Moisture, volatile matter, ash, fixed carbon (by difference) | Moisture: heat 1 g at 105–110 °C for 1 h; volatile matter: covered crucible at ≈ 950 °C for 7 min; ash: open crucible at ≈ 700–750 °C until constant mass; FC = 100 − (M + VM + A) |
+| Ultimate | C, H, N, S, O (and ash) | Chemical: C and H by combustion (CO₂ absorbed in KOH, H₂O in CaCl₂); N by Kjeldahl; S by Eschka/bomb washings; O by difference |
+- Proximate analysis is simple and used commercially (grading, firing behaviour); ultimate analysis is used for combustion calculations (air required, flue-gas quantity, calorific value).
+- High moisture lowers CV and flame temperature; high volatile matter gives easy ignition but long smoky flame; high ash lowers CV, increases handling and disposal and causes clinkering; sulphur causes corrosion and SO₂ pollution.
+PYQ-TREND: Proximate vs ultimate analysis (very frequent); fixed carbon found by difference; oxygen by difference in ultimate analysis.
+
+## 26B.3 Calorific Value
+- Calorific value: heat released by complete combustion of unit mass (solid/liquid, kJ/kg) or unit volume (gas, kJ/m³ at standard conditions) of fuel.
+- Higher (gross) calorific value HCV: products cooled to the reference temperature so that the water vapour formed is condensed – includes its latent heat. Lower (net) calorific value LCV: water remains as vapour. Engines, boilers and furnaces actually obtain LCV, because exhaust leaves hot.
+F: LCV = HCV − m_w × h_fg;  m_w = 9H (+ moisture M) kg per kg fuel;  h_fg ≈ 2442 kJ/kg (at 25 °C)
+F: Dulong's formula: HCV ≈ 33,800 C + 144,000 (H − O/8) + 9,270 S  kJ/kg (C, H, O, S as mass fractions)
+- (H − O/8) is the 'available hydrogen': oxygen in the fuel is assumed to be already combined with one-eighth of its mass of hydrogen as water.
+| Calorimeter | Fuel | Remarks |
+| Bomb calorimeter | Solid and liquid | Constant volume, burns in pure O₂ at ≈ 25 atm; gives HCV; water equivalent and corrections for fuse wire, acid formation, cooling |
+| Junkers gas calorimeter | Gaseous (and volatile liquids) | Steady-flow, constant pressure; gas burnt continuously, heat absorbed by flowing water; gives HCV, LCV from condensate collected |
+| Boys calorimeter | Gaseous | Similar continuous-flow principle |
+
+| Fuel | HCV (approx.) |
+| Hydrogen | 142 MJ/kg (LCV ≈ 120) – highest per kg |
+| Methane / natural gas | 55.5 MJ/kg (LCV ≈ 50); ≈ 37–39 MJ/m³ |
+| LPG | ≈ 50 MJ/kg |
+| Petrol | ≈ 47 MJ/kg (LCV ≈ 44) |
+| Diesel | ≈ 45.5 MJ/kg (LCV ≈ 42.8) |
+| Carbon (to CO₂) | 33.8 MJ/kg (to CO only 10.2 MJ/kg) |
+| Anthracite / bituminous coal | ≈ 30–35 / 25–33 MJ/kg |
+| Indian non-coking coal | ≈ 13–20 MJ/kg (high ash) |
+| Wood (dry) | ≈ 18–20 MJ/kg |
+| Ethanol / methanol | 29.7 / 22.7 MJ/kg |
+| Biogas (≈ 60% CH₄) | ≈ 20–24 MJ/m³ |
+| Producer gas | ≈ 4–6 MJ/m³ (lowest) |
+PYQ-TREND: HCV vs LCV difference (latent heat of water vapour from hydrogen) – very frequent; bomb calorimeter for solid/liquid, Junkers for gaseous fuels; hydrogen highest CV per kg; Dulong's formula.
+WARN: In LCV correction, water formed is 9 times the mass of hydrogen in the fuel (2 kg H₂ + 16 kg O₂ → 18 kg H₂O), not equal to it.
+
+## 26B.4 Combustion Equations and Air Requirement
+| Reaction | Mass balance (per kg of combustible) |
+| C + O₂ → CO₂ | 1 kg C + 8/3 kg O₂ → 11/3 kg CO₂ |
+| 2C + O₂ → 2CO (incomplete) | 1 kg C + 4/3 kg O₂ → 7/3 kg CO |
+| 2CO + O₂ → 2CO₂ | 1 kg CO + 4/7 kg O₂ → 11/7 kg CO₂ |
+| 2H₂ + O₂ → 2H₂O | 1 kg H₂ + 8 kg O₂ → 9 kg H₂O |
+| S + O₂ → SO₂ | 1 kg S + 1 kg O₂ → 2 kg SO₂ |
+| CH₄ + 2O₂ → CO₂ + 2H₂O | 1 kg CH₄ + 4 kg O₂ → 2.75 kg CO₂ + 2.25 kg H₂O |
+F: Minimum O₂ per kg of fuel = (8/3)C + 8H + S − O  kg
+F: Theoretical (stoichiometric) air = O₂ required/0.232 ≈ 4.31 × O₂ (mass; air has 23.2% O₂ by mass, 21% by volume)
+F: Hydrocarbon CₓH_y: CₓH_y + (x + y/4)(O₂ + 3.76 N₂) → x CO₂ + (y/2) H₂O + 3.76(x + y/4) N₂
+F: Equivalence ratio φ = (F/A)_actual/(F/A)_stoich;  φ > 1 rich, φ < 1 lean;  λ (excess-air ratio) = 1/φ
+F: Excess air % = (actual air − theoretical air)/theoretical air × 100 ≈ O₂%/(21 − O₂%) × 100 (from dry flue gas, complete combustion)
+| Fuel | Stoichiometric A/F (by mass) |
+| Hydrogen | 34.3 |
+| Methane | 17.2 |
+| Petrol (≈ C₈H₁₈) | 14.7–15.1 |
+| Diesel | ≈ 14.5 |
+| Carbon | 11.5 |
+| Ethanol / methanol | 9.0 / 6.4 |
+
+| Typical excess air | Value |
+| Gas burners | 5–10% |
+| Oil burners | 10–20% |
+| Pulverised coal | 15–25% |
+| Stoker-fired coal | 30–50% |
+| Gas turbine combustor (overall) | 200–400% (to limit turbine inlet temperature) |
+- Too little air → incomplete combustion (CO, smoke, unburnt carbon) and wasted fuel; too much air → more heat lost with the large volume of hot flue gas and lower flame temperature. The optimum is the minimum excess air that gives complete combustion.
+- Adiabatic flame temperature: temperature of products when combustion occurs without heat loss and without work; maximum near stoichiometric (slightly rich) mixture, ≈ 2000–2300 °C for hydrocarbons in air; falls with excess air, dissociation and preheating absent. Preheating combustion air raises it.
+PYQ-TREND: 1 kg of carbon needs 8/3 kg O₂ and hydrogen 8 kg O₂ (very frequent); air contains 23% O₂ by mass and 21% by volume; stoichiometric A/F of petrol ≈ 15; excess air effects; adiabatic flame temperature.
+
+## 26B.5 Flue Gas Analysis
+- Orsat apparatus: measures CO₂, O₂ and CO in dry flue gas by volume, by successive absorption: CO₂ in caustic potash (KOH) solution, O₂ in alkaline pyrogallol, CO in ammoniacal cuprous chloride. The order must be CO₂ → O₂ → CO because pyrogallol also absorbs CO₂ and cuprous chloride also absorbs O₂. N₂ is found by difference. Water vapour is not shown, as it condenses at room temperature – hence 'dry' analysis.
+- Modern instruments: NDIR analysers (CO, CO₂), zirconia probe (O₂), electrochemical cells, flame ionisation detector (HC), chemiluminescence (NOx).
+- High CO₂ (≈ 12–15% for coal) with low CO indicates good combustion; CO presence means insufficient air or poor mixing; high O₂ means excess air.
+F: Mass of dry flue gas per kg fuel (from volumetric analysis): m_dfg = [11CO₂ + 8O₂ + 7(CO + N₂)]/[3(CO₂ + CO)] × C  (C = mass of carbon burnt per kg fuel)
+F: Conversion of volumetric (molar) to mass analysis: multiply each volume fraction by molar mass and divide by the total
+PYQ-TREND: Orsat apparatus absorbents and order (KOH – CO₂, pyrogallol – O₂, cuprous chloride – CO) – very frequent; Orsat gives dry analysis; high CO₂ indicates good combustion.
+
+## 26B.6 Gaseous and Liquid Fuels
+| Gaseous fuel | Production | Main constituents |
+| Natural gas | From oil/gas wells | CH₄ 85–95%, C₂H₆ |
+| CNG | Natural gas compressed to 200–250 bar | CH₄ |
+| LPG | By-product of refining / natural gas | Propane + butane (liquefied ≈ 5–8 bar) |
+| Producer gas | Partial combustion of coal/coke with air (and steam) | CO ≈ 25–30%, H₂ ≈ 10–15%, N₂ ≈ 50–55% – low CV |
+| Water gas | Steam over red-hot coke (C + H₂O → CO + H₂) | CO ≈ 40–45%, H₂ ≈ 50% |
+| Coal gas | Carbonisation of coal | H₂ ≈ 50%, CH₄ ≈ 30% |
+| Biogas (gobar gas) | Anaerobic digestion of biomass/dung | CH₄ 55–65%, CO₂ 30–40% |
+| Blast-furnace gas | By-product of iron making | CO ≈ 25%, N₂ ≈ 60% – very low CV |
+
+| Property (liquid fuels) | Meaning |
+| Flash point | Lowest temperature at which vapours ignite momentarily with a flame (safety in storage) |
+| Fire point | Temperature at which vapours burn continuously for at least 5 s (a few degrees above flash point) |
+| Cloud point | Temperature at which wax crystals make the oil cloudy |
+| Pour point | Lowest temperature at which oil still flows (below cloud point) |
+| Viscosity | Affects atomisation and pumping (Redwood, Saybolt viscometers) |
+| Volatility | Ease of vaporisation (distillation curve) – important for SI fuels |
+| Specific gravity / API gravity | API = 141.5/SG − 131.5 |
+- Flash point order: petrol (≈ −43 °C) < kerosene (≈ 38 °C) < diesel (≈ 52–96 °C) < lubricating oil (≈ 200 °C+). Fire point > flash point; pour point < cloud point.
+- Alternative fuels: ethanol (high octane, E20 blending in India), methanol, biodiesel (transesterified vegetable oils – high cetane, more NOx), hydrogen (zero carbon, wide flammability, high flame speed, backfire risk), CNG/LNG (high octane ≈ 120+), DME.
+PYQ-TREND: Producer gas vs water gas composition (frequent); biogas mainly methane; LPG = propane + butane; flash point < fire point; pour point < cloud point; CNG high octane.
+Q: Distinguish between proximate and ultimate analysis of coal and explain their uses.
+Proximate analysis determines, on a mass basis, the moisture, volatile matter, ash and fixed carbon in coal by simple heating tests: moisture by heating a sample at 105–110 °C, volatile matter by heating in a covered crucible at about 950 °C for seven minutes, ash by burning in an open crucible, and fixed carbon by difference. It indicates how the coal will behave in a furnace – ease of ignition (volatile matter), heat content (fixed carbon), clinkering and disposal problems (ash) – and is used for commercial grading and furnace selection. Ultimate analysis determines the elemental composition – carbon, hydrogen, nitrogen, sulphur and oxygen (by difference) – by chemical methods. It is needed for combustion calculations: theoretical air, flue-gas composition and quantity, and calculation of calorific value by Dulong's formula; it also indicates pollution potential through sulphur and nitrogen content. Proximate analysis is quick and cheap; ultimate analysis requires laboratory equipment but is more fundamental.

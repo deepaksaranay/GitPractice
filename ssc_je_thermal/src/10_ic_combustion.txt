@@ -1,0 +1,70 @@
+# IC Engines – Combustion, Knocking and Fuels
+
+## 10.1 Combustion in SI Engines
+- Stages (Ricardo): (1) ignition lag/preparation phase – chemical process, a flame nucleus forms after the spark (≈ 0.0015 s); (2) flame propagation – rapid, turbulent flame front crosses the chamber, sharp pressure rise; (3) after-burning – combustion of remaining charge during expansion.
+- Factors increasing flame speed: turbulence (most important), higher compression ratio, slightly rich mixture (A/F ≈ 12.5–13), higher intake temperature/pressure, higher engine speed (more turbulence).
+- Air–fuel ratio requirements: stoichiometric ≈ 14.7:1 (petrol); maximum power ≈ 12.5:1 (rich); maximum economy ≈ 16–17:1 (lean); cold start and idling need rich mixtures (choke).
+F: Equivalence ratio φ = (F/A)_actual / (F/A)_stoich;  φ > 1 rich, φ < 1 lean;  λ = 1/φ
+PYQ-TREND: Stages of SI combustion; stoichiometric A/F 14.7; rich mixture for maximum power and cold start; turbulence increases flame speed.
+
+## 10.2 Detonation (Knocking) in SI Engines
+- After the spark, the advancing flame compresses and heats the unburnt end gas. If the end gas reaches its self-ignition temperature and the ignition delay elapses before the flame arrives, it auto-ignites spontaneously, producing a sudden pressure rise and pressure waves that hit the cylinder walls – the metallic 'pinking/pinging' sound. This is detonation (knock).
+- Effects: noise, loss of power and efficiency, overheating of piston crown and spark plug, mechanical damage (piston crown erosion, ring breakage), pre-ignition.
+- Pre-ignition: ignition of the charge by a hot spot (glowing carbon deposit, overheated spark plug or exhaust valve) before the spark – different from knock but can be caused by it.
+| Factor | To reduce knock in SI engines |
+| Compression ratio | Decrease |
+| Intake temperature | Decrease |
+| Intake pressure (supercharging) | Decrease |
+| Spark timing | Retard |
+| Engine speed | Increase (more turbulence, less time) |
+| Turbulence | Increase |
+| Cylinder size / flame travel distance | Smaller; central spark plug |
+| Fuel octane number | Increase |
+| Mixture | Very rich or very lean |
+| Coolant temperature / end-gas temperature | Decrease |
+| Combustion chamber | Compact, with squish; end gas in cool region |
+| EGR | Increase (dilutes charge) |
+PYQ-TREND: Detonation due to auto-ignition of end gas (very frequent); factors reducing SI knock (lower r, retard spark, higher octane, more turbulence, higher speed); pre-ignition vs detonation.
+
+## 10.3 Combustion and Knock in CI Engines
+- Stages: (1) ignition delay – physical delay (atomisation, vaporisation, mixing) + chemical delay (pre-flame reactions); (2) rapid (uncontrolled) combustion – fuel accumulated during the delay burns almost at once; (3) controlled combustion – fuel burns as it is injected; (4) after-burning.
+- Diesel knock: if the ignition delay is long, much fuel accumulates and burns suddenly, causing a very high rate of pressure rise and a knocking sound. It occurs at the start of combustion (unlike SI knock, which occurs at the end).
+| Factor | To reduce knock in CI engines |
+| Compression ratio | Increase |
+| Intake temperature | Increase |
+| Intake pressure (supercharging) | Increase |
+| Injection timing | Slightly retard / optimise (inject at higher temperature) |
+| Engine speed | Decrease (in time terms) |
+| Fuel cetane number | Increase |
+| Cylinder size | Increase |
+| Atomisation/turbulence | Improve |
+| Coolant temperature | Increase |
+- Rule: the factors that reduce knock in SI engines (lower temperature, lower r) increase knock in CI engines, because SI knock needs a long delay of the end gas whereas CI knock comes from a long delay at the start.
+PYQ-TREND: Diesel knock due to long ignition delay; CI knock at start vs SI knock at end of combustion; opposite effect of factors in SI and CI engines (very frequent).
+TIP: SI knock is fought with 'cool and slow end gas' (low r, low T, high octane); CI knock is fought with 'hot and quick ignition' (high r, high T, high cetane).
+
+## 10.4 Combustion Chambers
+- SI chambers: T-head (old, knock-prone), L-head/side valve (low r), I-head/overhead valve (most common – compact, high r), F-head; wedge, hemispherical (pent-roof, multi-valve), bath-tub. Good chamber: compact (low surface/volume), central spark plug, squish areas for turbulence, exhaust valve near the plug, cool end-gas region.
+- CI chambers: (1) open/direct injection (quiescent; multi-hole nozzle, high injection pressure; large slow engines; best fuel economy, cold-starts well); (2) swirl chamber (Ricardo Comet); (3) pre-combustion chamber; (4) air-cell/energy cell (Lanova). Indirect-injection (IDI) chambers use single-hole/pintle nozzles at lower pressure, run smoother and quieter but have higher heat loss and need glow plugs for cold starting.
+- Swirl (rotation about cylinder axis) and squish (radial inward motion as piston approaches TDC) improve air–fuel mixing.
+PYQ-TREND: I-head most efficient SI chamber; open chamber vs swirl/pre-combustion chambers; glow plugs in IDI engines; squish and swirl.
+
+## 10.5 Fuels and Their Rating
+- SI fuel (petrol/gasoline): high volatility, high self-ignition temperature (≈ 370 °C+) and high octane number so that it does not auto-ignite. CI fuel (diesel): low volatility, low self-ignition temperature (≈ 250 °C) and high cetane number so that it ignites quickly.
+- Octane number: percentage by volume of iso-octane (2,2,4-trimethylpentane, ON = 100) in a mixture with normal heptane (ON = 0) that gives the same knock intensity as the fuel in a CFR engine. Methods: Research ON (RON, mild) and Motor ON (MON, severe); anti-knock index (RON + MON)/2. Indian petrol: regular ≈ 91 RON; premium 95–100.
+- Performance number for fuels above 100 ON; anti-knock agents: tetraethyl lead (TEL – banned; poisons catalytic converters), MTBE, ethanol, aromatics, MMT.
+- Cetane number: percentage of cetane (n-hexadecane, CN = 100) in a mixture with α-methyl naphthalene (CN = 0) that matches the ignition delay of the fuel. Diesel ≈ 40–55 (BS-VI ≥ 51). Cetane improvers: amyl nitrate, ethyl nitrate, ether. Diesel index = aniline point (°F) × API gravity/100.
+- Hydrocarbon families: paraffins (CₙH₂ₙ₊₂ – straight-chain: good CI, poor SI; iso-paraffins: good SI), olefins, naphthenes, aromatics (high ON – good SI fuels, poor CI fuels). Long straight chains = high CN, low ON; compact/branched/ring molecules = high ON, low CN.
+- Calorific value: higher (HCV) includes latent heat of water vapour formed; lower (LCV) excludes it. LCV ≈ 43–44 MJ/kg for petrol and diesel; LCV = HCV − 9H × 2442 kJ/kg (H = hydrogen mass fraction). Measured with a bomb calorimeter (solids, liquids) or Junkers gas calorimeter (gases).
+| Alternative fuel | Key facts |
+| CNG | Mainly methane; ON ≈ 120–130; SI engines, clean |
+| LPG | Propane + butane; ON ≈ 105–110 |
+| Ethanol | ON ≈ 108; E20 blending; oxygenated fuel |
+| Methanol | ON ≈ 110; toxic |
+| Biodiesel | Methyl/ethyl esters from vegetable oils via transesterification; CN ≈ 50–60; B20 blends |
+| Hydrogen | Highest calorific value per kg (≈ 120 MJ/kg LCV); wide flammability; NOx only |
+| Biogas | 55–70% methane + CO₂ |
+F: Stoichiometric A/F for a hydrocarbon CₓH_y: (A/F)_s = 34.56 (4x + y)/(12x + y)  → octane C₈H₁₈ ≈ 15:1
+PYQ-TREND: Octane and cetane reference fuels (very frequent); good SI fuel = high ON, good CI fuel = high CN; TEL banned; aromatics high ON; paraffins high CN; HCV vs LCV; bomb calorimeter; biodiesel by transesterification; CNG main constituent methane.
+Q: Explain the phenomenon of detonation in SI engines and the factors affecting it.
+In a spark-ignition engine the flame started by the spark travels across the chamber. Ahead of it, the unburnt end gas is compressed and heated by the expanding burnt gases and by radiation. If the end gas reaches its self-ignition temperature and remains there longer than its ignition delay before the flame arrives, it ignites spontaneously at many points. The almost instantaneous release of energy creates a very rapid pressure rise and pressure waves that reflect from the walls, causing the characteristic knocking sound, loss of power, overheating and damage to pistons, rings and plugs. Detonation is favoured by anything that raises the end-gas temperature or density or increases the time available for it to auto-ignite: high compression ratio, supercharging, high intake temperature, advanced spark, low engine speed, large cylinder bore with long flame travel, poor turbulence, low-octane fuel and hot spots. It is controlled by using high-octane fuel, retarding the spark (knock sensors), reducing compression ratio, compact chambers with central plugs and squish, better cooling of the end-gas region and EGR.

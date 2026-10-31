@@ -1,0 +1,82 @@
+# IC Engines – Classification, Working and Components
+
+## 9.1 Heat Engines and Classification of IC Engines
+- External combustion (EC) engines: combustion outside the working cylinder (steam engine, steam turbine, Stirling engine, closed gas turbine). Internal combustion (IC) engines: combustion inside the engine; working fluid is the air–fuel mixture/combustion products.
+- Advantages of IC engines: compact, high power-to-weight ratio, quick starting, high efficiency at small sizes. Disadvantages: need high-quality fuels, vibration (reciprocating), limited sizes compared with steam plants.
+| Basis | Types |
+| Ignition | Spark ignition (SI) / compression ignition (CI) |
+| Cycle of operation | Otto, Diesel, Dual |
+| Strokes per cycle | Four-stroke / two-stroke |
+| Fuel | Petrol, diesel, gas (CNG, LPG, biogas), alcohol, bi-fuel, dual-fuel |
+| Cooling | Air-cooled / water-cooled |
+| Cylinder arrangement | In-line, V, opposed (flat/boxer), radial (aircraft), W, opposed-piston |
+| Valve location | Overhead (I-head), side valve (L-head), T-head, F-head |
+| Speed | Low (< 350 rpm), medium (350–1200), high (> 1200) |
+| Charging | Naturally aspirated, supercharged, turbocharged |
+| Load control (governing) | Quantity (SI), quality (CI), hit-and-miss (gas engines) |
+| Application | Automotive, locomotive, marine, stationary, aircraft |
+PYQ-TREND: EC vs IC engine examples; classification bases; radial engines in aircraft; quantity vs quality governing.
+
+## 9.2 Engine Terminology
+F: Bore D; stroke L = 2 × crank radius;  swept (displacement) volume V_s = (π/4)D²L
+F: Total cylinder volume V = V_s + V_c;  compression ratio r = (V_s + V_c)/V_c
+F: Mean piston speed V_p = 2LN/60 (m/s)
+F: Engine displacement = V_s × number of cylinders
+F: Stroke-to-bore ratio L/D: square engine L = D; over-square (short stroke) L < D – high-speed engines; under-square (long stroke) L > D
+- TDC (top dead centre) / IDC: piston at its top, minimum volume. BDC (bottom dead centre) / ODC: piston at its bottom, maximum volume.
+- Clearance volume: volume above the piston at TDC.
+PYQ-TREND: Swept volume and compression ratio calculations; mean piston speed; definition of TDC/BDC; square and over-square engines.
+
+## 9.3 Four-Stroke Engines
+- Four strokes per cycle = two crankshaft revolutions per cycle: suction (intake), compression, power (expansion), exhaust. One power stroke every two revolutions → heavier flywheel needed.
+- SI four-stroke: air–fuel mixture drawn in; compressed (r ≈ 6–10); ignited by spark near TDC. CI four-stroke: only air drawn in; compressed (r ≈ 14–22) to 500–700 °C; fuel injected near TDC, ignites by itself.
+- Camshaft rotates at half the crankshaft speed in a four-stroke engine (one valve opening per cycle).
+### Valve timing (typical, four-stroke)
+| Event | SI engine | CI engine |
+| Inlet valve opens (IVO) | 10–20° before TDC | 10–25° before TDC |
+| Inlet valve closes (IVC) | 30–50° after BDC | 25–50° after BDC |
+| Exhaust valve opens (EVO) | 40–50° before BDC | 30–50° before BDC |
+| Exhaust valve closes (EVC) | 10–15° after TDC | 10–15° after TDC |
+| Fuel injection / ignition | Spark 10–40° before TDC (advanced with speed) | Injection 10–20° before TDC |
+- Valve overlap: period near TDC when both inlet and exhaust valves are open – uses the inertia of exhaust gases to scavenge and draw in fresh charge; larger in high-speed and CI engines.
+- IVC after BDC uses the ram (inertia) effect of the incoming charge to improve volumetric efficiency. EVO before BDC (blow-down) reduces back pressure during the exhaust stroke.
+FIG: valve_timing
+PYQ-TREND: Valve overlap definition and purpose (very frequent); camshaft speed half of crankshaft; EVO before BDC (blow-down); IVC after BDC (ram effect); spark advance increases with speed.
+
+## 9.4 Two-Stroke Engines
+- Complete cycle in two strokes (one crankshaft revolution). Ports in the cylinder wall (inlet/transfer/exhaust) controlled by the piston; crankcase compression in small engines; no valves (or exhaust valves in large uniflow diesels).
+- Scavenging: removal of exhaust gases by fresh charge. Types: cross-flow (deflector piston), loop (reverse) scavenging (Schnurle), uniflow (most efficient – air enters at one end, exhaust leaves at the other; used in large marine diesels).
+F: Scavenging ratio = mass of delivered air / (swept volume × ambient density);  scavenging efficiency = mass of fresh charge retained / total charge in cylinder
+| Feature | Four-stroke | Two-stroke |
+| Power strokes | One per 2 revolutions | One per revolution |
+| Theoretical power (same size, speed) | 1 | ≈ 2 (actually 1.7–1.8) |
+| Flywheel | Heavier | Lighter (more uniform torque) |
+| Valves | Poppet valves, valve gear | Ports (simple, cheap) |
+| Thermal efficiency | Higher | Lower (charge loss, incomplete scavenging) |
+| Volumetric efficiency | Higher | Lower |
+| Fuel consumption | Lower | Higher (fresh charge short-circuits to exhaust in SI) |
+| Lubricating oil consumption | Lower | Higher (petroil lubrication in small SI) |
+| Emissions (HC) | Lower | Higher |
+| Wear, cooling | Less | More (more frequent heat input) |
+| Uses | Cars, trucks, most engines | Mopeds, scooters (older), chainsaws, outboards, large marine diesels |
+PYQ-TREND: Two-stroke completes cycle in one revolution; uniflow scavenging most efficient; lighter flywheel for two-stroke; higher HC and lube-oil consumption; comparison table points.
+
+## 9.5 Engine Components and Materials
+| Component | Function / material |
+| Cylinder block | Houses cylinders; grey cast iron or aluminium alloy |
+| Cylinder liner (wet/dry) | Replaceable wearing surface; alloy CI |
+| Cylinder head | Closes cylinder; contains valves, combustion chamber; CI/Al alloy |
+| Piston | Transmits gas force to connecting rod; aluminium alloy (light, good conductivity) or CI |
+| Piston rings | Compression rings (seal gas) at top, oil (scraper) ring at bottom; alloy CI |
+| Gudgeon (wrist) pin | Connects piston and small end of connecting rod; case-hardened steel |
+| Connecting rod | Converts reciprocating to rotary motion; I-section forged steel |
+| Crankshaft | Converts reciprocating motion to rotary; forged steel / SG iron |
+| Camshaft | Operates valves; runs at half crank speed (4-stroke); driven by timing chain/belt/gears |
+| Flywheel | Smooths torque fluctuations |
+| Valves | Poppet valves; exhaust valve of heat-resistant steel (sometimes sodium-cooled) |
+| Crankcase / oil sump | Encloses crank; stores oil |
+| Gasket | Seals head and block |
+| Spark plug / injector | Ignition / fuel injection |
+PYQ-TREND: Number and function of piston rings (compression vs oil rings); connecting rod I-section; camshaft speed; materials of piston and liner; sodium-cooled exhaust valves.
+Q: Compare four-stroke and two-stroke engines.
+A four-stroke engine completes its cycle in four piston strokes (two revolutions): suction, compression, power and exhaust, with poppet valves operated by a camshaft. A two-stroke engine completes the cycle in two strokes (one revolution) using ports uncovered by the piston, with crankcase compression and scavenging. For the same size and speed the two-stroke engine theoretically gives double the power (in practice about 1.7–1.8 times), has a more uniform torque and a lighter flywheel, and is simpler, lighter and cheaper because it has no valve gear. However, it has lower thermal and volumetric efficiency because some fresh charge escapes with the exhaust and scavenging is incomplete; fuel and lubricating-oil consumption and HC emissions are higher, and it runs hotter. Four-stroke engines are therefore used in cars, trucks and most stationary engines, while two-stroke engines are used where light weight and simplicity matter (small tools, outboard motors) and in very large uniflow marine diesels where they are highly efficient.

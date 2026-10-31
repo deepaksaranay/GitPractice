@@ -1,0 +1,129 @@
+# Solved Numericals – Set 2 (IC Engines, Steam Plant, Compressors, Gas Turbines)
+SSC-style problems solved step by step (no options).
+
+## 27B.1 IC Engine Performance
+### Problem 1 – Indicated power
+A single-cylinder four-stroke engine has bore 100 mm, stroke 120 mm, imep 6 bar and speed 1500 rpm. Find IP.
+F: A = π/4 × 0.1² = 7.854 × 10⁻³ m²;  n = N/2 = 750 power strokes/min
+F: IP = p_m L A n/60 = 6 × 10⁵ × 0.12 × 7.854 × 10⁻³ × 750/60 = 7069 W ≈ 7.07 kW
+- Two-stroke engine: n = N, so IP would double to 14.1 kW for the same data.
+### Problem 2 – Brake power from a rope brake
+Net brake load 300 N, effective drum radius 0.5 m, speed 1200 rpm. Find BP. If IP = 23 kW, find η_m.
+F: T = 300 × 0.5 = 150 N·m;  BP = 2πNT/60 = 2π × 1200 × 150/60 = 18,850 W = 18.85 kW
+F: η_m = BP/IP = 18.85/23 = 0.82 = 82%;  FP = 23 − 18.85 = 4.15 kW
+### Problem 3 – Thermal efficiency and bsfc
+The engine of Problem 2 uses 5 kg/h of fuel with CV 42,000 kJ/kg. Find brake thermal efficiency and bsfc.
+F: Fuel power = 5 × 42,000/3600 = 58.33 kW;  η_bth = 18.85/58.33 = 32.3%
+F: bsfc = 5/18.85 = 0.265 kg/kWh;  η_ith = 23/58.33 = 39.4%
+### Problem 4 – Volumetric efficiency
+A four-cylinder four-stroke engine has swept volume 0.5 L per cylinder and runs at 3000 rpm. Actual air intake (at ambient conditions) is 0.042 m³/s. Find η_v.
+F: Theoretical = 4 × 0.5 × 10⁻³ × (3000/2)/60 = 0.05 m³/s;  η_v = 0.042/0.05 = 84%
+### Problem 5 – Morse test
+A four-cylinder petrol engine gives 40 kW BP with all cylinders firing. With each cylinder cut out in turn, BP = 28, 29, 28.5 and 29.5 kW. Find IP and η_m.
+F: IP of cylinders = 40 − 28 = 12, 11, 11.5, 10.5 kW → total IP = 45 kW;  η_m = 40/45 = 88.9%
+### Problem 6 – Heat balance
+Fuel energy 60 kW; BP 18 kW; cooling water 16 kW; exhaust 18 kW. Draw up the heat balance.
+| Item | kW | % |
+| Brake power | 18 | 30.0 |
+| Cooling water | 16 | 26.7 |
+| Exhaust gases | 18 | 30.0 |
+| Unaccounted (radiation, friction etc.) | 8 | 13.3 |
+| Total | 60 | 100 |
+### Problem 7 – Mean piston speed and displacement
+Bore 80 mm, stroke 90 mm, clearance volume 50 cc, 1500 rpm. Find swept volume, r and mean piston speed.
+F: V_s = π/4 × 8² × 9 = 452.4 cc;  r = (452.4 + 50)/50 = 10.05;  V_p = 2LN/60 = 2 × 0.09 × 1500/60 = 4.5 m/s
+### Problem 8 – Stoichiometric A/F ratio
+Find the stoichiometric air–fuel ratio of octane C₈H₁₈ (air contains 23.3% O₂ by mass).
+F: C₈H₁₈ + 12.5 O₂ → 8CO₂ + 9H₂O;  O₂ needed = 12.5 × 32 = 400 kg per 114 kg fuel
+F: Air = 400/0.233 = 1717 kg → A/F = 1717/114 ≈ 15.1
+### Problem 9 – Air required for a fuel by mass analysis
+A coal contains C 80%, H 5%, S 1%, O 4% (rest ash). Find the minimum air per kg.
+F: O₂ = 2.67C + 8H + S − O = 2.67 × 0.8 + 8 × 0.05 + 0.01 − 0.04 = 2.136 + 0.4 + 0.01 − 0.04 = 2.506 kg
+F: Air = 2.506/0.233 = 10.76 kg/kg of coal
+### Problem 10 – Excess air from dry flue gas
+If the theoretical air is 10.76 kg/kg and actual air supplied is 15 kg/kg, find the percentage excess air.
+F: Excess air = (15 − 10.76)/10.76 = 39.4%
+
+## 27B.2 Rankine Cycle and Boilers
+### Problem 11 – Simple Rankine cycle
+Turbine inlet h₁ = 3230 kJ/kg; turbine exit h₂ = 2160 kJ/kg; condensate h₃ = 191.8 kJ/kg (v = 0.00101 m³/kg); boiler pressure 40 bar, condenser 0.1 bar. Find net work, η and specific steam consumption.
+F: W_p = v Δp = 0.00101 × (4000 − 10) = 4.03 kJ/kg;  h₄ = 195.8 kJ/kg
+F: W_t = 3230 − 2160 = 1070 kJ/kg;  W_net = 1066 kJ/kg;  Q₁ = 3230 − 195.8 = 3034.2 kJ/kg
+F: η = 1066/3034.2 = 35.1%;  SSC = 3600/1066 = 3.38 kg/kWh;  work ratio = 1066/1070 = 0.996
+- Pump work is tiny (≈ 0.4% of turbine work) – the reason the Rankine work ratio is close to 1.
+### Problem 12 – Turbine isentropic efficiency
+In Problem 11, the actual turbine exit enthalpy is 2320 kJ/kg. Find η_turbine.
+F: η_t = (3230 − 2320)/(3230 − 2160) = 910/1070 = 85%
+### Problem 13 – Equivalent evaporation
+A boiler produces 10 kg of steam per kg of coal at h = 2800 kJ/kg from feed water at 40 °C (h = 167.5 kJ/kg). CV of coal = 30,000 kJ/kg. Find equivalent evaporation and boiler efficiency.
+F: Fe = m_a(h − h_fw)/2257 = 10 × 2632.5/2257 = 11.66 kg per kg coal
+F: η_boiler = 10 × 2632.5/30,000 = 87.8%
+### Problem 14 – Boiler heat input from fuel rate
+A boiler generates 5000 kg/h of steam with h − h_fw = 2600 kJ/kg using 600 kg/h of coal of CV 28,000 kJ/kg. Find efficiency.
+F: η = (5000 × 2600)/(600 × 28,000) = 13 × 10⁶/16.8 × 10⁶ = 77.4%
+### Problem 15 – Chimney draught
+A chimney 40 m high carries flue gas at 300 °C; ambient 27 °C. Find the theoretical draught in mm of water, taking ρ_air = 1.177 kg/m³ at 300 K and gas density ≈ air density scaled by temperature.
+F: ρ_gas ≈ 1.177 × 300/573 = 0.616 kg/m³;  Δp = gH(ρ_a − ρ_g) = 9.81 × 40 × 0.561 = 220 Pa
+F: h_w = 220/9810 = 0.0224 m ≈ 22.4 mm of water
+### Problem 16 – Regenerative heating (mass bled)
+In a regenerative cycle, bled steam (h = 2800 kJ/kg) heats feed water from h = 200 to h = 640 kJ/kg in an open heater. Find the fraction bled per kg of steam leaving the heater.
+F: m(2800) + (1 − m)(200) = 640 → m(2800 − 200) = 440 → m = 0.169 kg
+
+## 27B.3 Nozzles, Turbines, Condensers
+### Problem 17 – Critical pressure
+Find the critical pressure for (a) superheated steam (b) saturated steam (c) air, each entering at 10 bar.
+F: (a) 0.546 × 10 = 5.46 bar;  (b) 0.577 × 10 = 5.77 bar;  (c) 0.528 × 10 = 5.28 bar
+### Problem 18 – Nozzle with friction
+Isentropic enthalpy drop 200 kJ/kg, nozzle efficiency 90%, initial velocity negligible. Find exit velocity.
+F: V = 44.72 √(0.9 × 200) = 44.72 × 13.42 = 600 m/s
+### Problem 19 – Optimum blade speed (impulse)
+Steam leaves the nozzle at 600 m/s at α = 20°. Find the optimum blade speed and maximum blade efficiency (symmetrical blades, no friction).
+F: u_opt = V₁ cosα/2 = 600 × 0.9397/2 = 281.9 m/s;  η_max = cos²α = 0.883 = 88.3%
+### Problem 20 – Parsons reaction turbine
+For α = 20°, find the maximum blade efficiency and optimum blade speed ratio of a 50% reaction stage.
+F: ρ_opt = u/V₁ = cosα = 0.94;  η_max = 2cos²α/(1 + cos²α) = 1.766/1.883 = 93.8%
+### Problem 21 – Velocity compounding
+Why does a two-row Curtis stage use a lower blade speed than a single-row stage for the same nozzle velocity? Find the optimum ratio.
+F: Single row: u/V₁ = cosα/2;  n rows: u/V₁ = cosα/(2n) → two rows: cosα/4 (blade speed halved)
+### Problem 22 – Condenser vacuum efficiency
+Barometer 760 mm Hg; vacuum gauge on condenser 700 mm Hg; condensate temperature 35 °C (p_sat = 0.0563 bar = 42.2 mm Hg). Find the vacuum efficiency and partial pressure of air.
+F: Absolute pressure = 760 − 700 = 60 mm Hg;  ideal vacuum = 760 − 42.2 = 717.8 mm Hg
+F: η_vacuum = 700/717.8 = 97.5%;  p_air = 60 − 42.2 = 17.8 mm Hg
+### Problem 23 – Cooling water quantity
+A condenser condenses 10,000 kg/h of steam, each kg rejecting 2300 kJ. Cooling water rises 10 °C. Find the cooling water flow.
+F: ṁ_w = 10,000 × 2300/(4.187 × 10) = 549,300 kg/h ≈ 152.6 kg/s (≈ 55 kg of water per kg of steam)
+
+## 27B.4 Air Compressors
+### Problem 24 – Single-stage compressor power
+A single-stage compressor takes 1 m³/min of free air at 1 bar and compresses it to 7 bar with n = 1.3. Neglect clearance. Find power and isothermal efficiency.
+F: (p₂/p₁)^((n−1)/n) = 7^0.2308 = 1.567
+F: P = (n/(n−1)) p₁V̇₁[(p₂/p₁)^((n−1)/n) − 1] = 4.333 × 10⁵ × (1/60) × 0.567 = 4094 W = 4.09 kW
+F: P_iso = p₁V̇₁ ln 7 = 1666.7 × 1.946 = 3243 W;  η_iso = 3243/4094 = 79.2%
+### Problem 25 – Volumetric efficiency with clearance
+Clearance ratio 5%, pressure ratio 7, n = 1.3. Find volumetric efficiency.
+F: η_v = 1 + C − C (p₂/p₁)^(1/n) = 1.05 − 0.05 × 7^0.769 = 1.05 − 0.05 × 4.468 = 0.827 = 82.7%
+F: Maximum pressure ratio (η_v = 0): (1 + C)/C = 21 → r_max = 21^1.3 ≈ 52.4
+### Problem 26 – Two-stage compression
+Air is compressed from 1 bar to 16 bar in two stages with perfect intercooling. Find the optimum intermediate pressure and the stage pressure ratio.
+F: p₂ = √(1 × 16) = 4 bar;  each stage ratio = 4;  for three stages to 27 bar: ratio = 3 each (3, 9 bar)
+### Problem 27 – Saving by two-stage compression
+For Problem 26 with n = 1.3, compare specific work (per unit p₁V₁) of single and two-stage compression.
+F: Single: 4.333 × (16^0.2308 − 1) = 4.333 × (1.896 − 1) = 3.882;  two stage: 2 × 4.333 × (4^0.2308 − 1) = 8.667 × 0.377 = 3.268
+F: Saving = (3.882 − 3.268)/3.882 = 15.8%
+
+## 27B.5 Gas Turbines
+### Problem 28 – Actual Brayton cycle
+T₁ = 300 K, r_p = 6, T₃ = 1100 K, η_c = 0.85, η_t = 0.90. Find net work, efficiency and work ratio.
+F: r_p^0.2857 = 1.6685;  T₂s = 500.6 K → T₂ = 300 + 200.6/0.85 = 536.0 K
+F: T₄s = 1100/1.6685 = 659.3 K → T₄ = 1100 − 0.9 × 440.7 = 703.4 K
+F: W_t = 1.005 × 396.6 = 398.6;  W_c = 1.005 × 236 = 237.2;  W_net = 161.4 kJ/kg
+F: Q₁ = 1.005 × (1100 − 536) = 566.8 kJ/kg;  η = 161.4/566.8 = 28.5%;  work ratio = 161.4/398.6 = 0.405
+- Compare ideal η = 1 − 1/1.6685 = 40.1%: component inefficiencies lower it sharply because the work ratio is small.
+### Problem 29 – Effect of regeneration
+In Problem 28, a regenerator with effectiveness 100% is added. Is regeneration useful? Find the new heat input.
+F: T₄ (703.4 K) > T₂ (536 K) → regeneration is useful;  ideal regenerator heats air to 703.4 K
+F: Q₁ = 1.005 × (1100 − 703.4) = 398.6 kJ/kg;  η = 161.4/398.6 = 40.5%
+### Problem 30 – Jet propulsion
+An aircraft flies at 250 m/s and the jet leaves at 600 m/s relative to the aircraft; air flow 50 kg/s (neglect fuel mass). Find thrust, thrust power and propulsive efficiency.
+F: Thrust = ṁ(V_j − V_a) = 50 × 350 = 17,500 N;  thrust power = 17,500 × 250 = 4.375 MW
+F: η_p = 2V_a/(V_j + V_a) = 500/850 = 58.8%

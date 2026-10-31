@@ -1,0 +1,94 @@
+# Last-Minute Revision Sheet
+
+## 30.1 Must-Know Values
+| Quantity | Value |
+| Universal gas constant R̄ | 8.314 kJ/kmol·K |
+| R / c_p / c_v / γ of air | 0.287 / 1.005 / 0.718 kJ/kg·K / 1.4 |
+| 1 atm | 101.325 kPa = 760 mm Hg = 10.33 m water |
+| 1 bar | 10⁵ Pa = 100 kPa |
+| Triple point of water | 0.01 °C, 0.6117 kPa |
+| Critical point of water | 374.14 °C, 22.09 MPa (220.9 bar) |
+| Latent heat of water (1 atm) | 2257 kJ/kg |
+| Latent heat of ice | 335 kJ/kg |
+| Specific heat of water | 4.187 kJ/kg·K |
+| 1 TR | 3.5167 kW = 211 kJ/min = 12,660 kJ/h |
+| Stefan–Boltzmann σ | 5.67 × 10⁻⁸ W/m²·K⁴ |
+| Wien's constant | 2898 μm·K |
+| Critical pressure ratio: superheated / saturated steam / air | 0.546 / 0.577 / 0.528 |
+| Laminar tube Nu (T_w const / q const) | 3.66 / 4.36 |
+| Lumped analysis limit | Bi < 0.1 |
+| Pr of air / water (20 °C) | 0.71 / ≈ 7 |
+| Mechanical equivalent of heat | 4.187 J/cal |
+| Octane / cetane reference fuels | Iso-octane & n-heptane / cetane & α-methyl naphthalene |
+| Stoichiometric A/F petrol / diesel | ≈ 14.7 / ≈ 14.5 |
+| Typical r of SI / CI | 6–11 / 14–22 |
+| Calorific value: petrol / diesel | ≈ 44–47 / ≈ 42–45 MJ/kg |
+| Air composition by mass / volume O₂ | 23.2% / 21% |
+| Comfort condition (summer) | 24–25 °C DBT, 50% RH |
+
+## 30.2 Formula Flash Card
+F: Polytropic work W = (p₁V₁ − p₂V₂)/(n − 1);  isothermal W = p₁V₁ ln(V₂/V₁)
+F: T₂/T₁ = (p₂/p₁)^((n−1)/n) = (V₁/V₂)^(n−1)
+F: Q_polytropic = W(γ − n)/(γ − 1)
+F: Nozzle velocity V = 44.72 √Δh (Δh in kJ/kg)
+F: η_Carnot = 1 − T_L/T_H;  COP_R = T_L/(T_H − T_L);  COP_HP = T_H/(T_H − T_L)
+F: Δs (ideal gas) = c_p ln(T₂/T₁) − R ln(p₂/p₁) = c_v ln(T₂/T₁) + R ln(v₂/v₁)
+F: Available energy = Q(1 − T₀/T);  I = T₀ S_gen
+F: Otto η = 1 − 1/r^(γ−1);  Brayton η = 1 − 1/r_p^((γ−1)/γ)
+F: Diesel η = 1 − (1/r^(γ−1)) (ρ^γ − 1)/(γ(ρ − 1))
+F: IP = p_m L A n k/60 (n = N/2 four-stroke, N two-stroke; k cylinders);  BP = 2πNT/60
+F: Equivalent evaporation = m(h − h_fw)/2257
+F: Impulse turbine: u_opt = V₁cosα/2, η_max = cos²α;  Parsons: u_opt = V₁cosα, η_max = 2cos²α/(1 + cos²α)
+F: Compressor work = (n/(n−1)) p₁V₁[(p₂/p₁)^((n−1)/n) − 1];  η_v = 1 + C − C(p₂/p₁)^(1/n)
+F: Two-stage optimum intermediate pressure p₂ = √(p₁p₃)
+F: Brayton optimum r_p = (T_max/T_min)^(γ/(2(γ−1)));  W_max = c_p(√T_max − √T_min)²
+F: Propulsive efficiency = 2V_a/(V_j + V_a)
+F: VCR COP = (h₁ − h₄)/(h₂ − h₁);  Bell–Coleman COP = 1/(r_p^((γ−1)/γ) − 1)
+F: VAR ideal COP = [(T_G − T_0)/T_G] × [T_E/(T_0 − T_E)]
+F: ω = 0.622 p_v/(p_b − p_v);  h = 1.005t + ω(2500 + 1.88t);  BPF = (t₂ − t_ADP)/(t₁ − t_ADP)
+F: r_c = k/h (cylinder), 2k/h (sphere);  Q_cyl = 2πkL ΔT/ln(r₂/r₁)
+F: Fin: m = √(hP/kA);  long fin Q = √(hPkA) θ₀;  ε = √(kP/hA)
+F: Lumped: θ/θ₀ = exp(−hAt/ρVc);  τ = ρVc/(hA)
+F: LMTD = (ΔT₁ − ΔT₂)/ln(ΔT₁/ΔT₂);  NTU = UA/C_min;  ε (phase change) = 1 − e^(−NTU)
+F: Parallel plates radiation q = σ(T₁⁴ − T₂⁴)/(1/ε₁ + 1/ε₂ − 1);  n shields → 1/(n+1)
+
+## 30.3 Comparison Quick-Hits
+| Topic | Remember |
+| Same r, same heat input | η: Otto > Dual > Diesel |
+| Same max p and T | η: Diesel > Dual > Otto |
+| Minimum compression work | Isothermal (polytropic n smaller = less work) |
+| Carnot vs Rankine (vapour) | Rankine practical: complete condensation, small pump work |
+| Reheat vs regeneration | Reheat → dryness; regeneration → efficiency |
+| Fire-tube vs water-tube | Low p, small vs high p, large; water-tube for power plants |
+| Impulse vs reaction | Pressure drop only in nozzles vs in both fixed and moving blades |
+| SI vs CI knock | Late autoignition of end gas vs long ignition delay at start |
+| Remedies for SI knock | High octane, low r, retard spark – these cause knock in CI |
+| VCR vs VAR | Work-driven, high COP vs heat-driven, low COP |
+| Dropwise vs filmwise | Dropwise higher h; filmwise used for design |
+| Parallel vs counter flow | Counter flow: higher LMTD, smaller area, higher effectiveness |
+| Biot vs Nusselt | k of solid vs k of fluid |
+| Free vs forced convection | Gr vs Re governs |
+
+## 30.4 Traps Toppers Avoid
+- Always convert temperatures to kelvin in efficiency, COP, entropy and radiation formulas.
+- Work done by a system is positive in Q = ΔU + W; work done on it is negative.
+- Steady-flow work uses c_p ΔT; non-flow (closed) adiabatic work uses c_v ΔT.
+- Four-stroke IP uses N/2 power strokes per minute; two-stroke uses N.
+- Equivalent evaporation is referred to 'from and at 100 °C' – divide by 2257, not 2500.
+- COP of a heat pump is one more than COP of a refrigerator between the same temperatures – not double.
+- Clearance reduces volumetric efficiency but does not change the ideal work per kg of air delivered.
+- In LMTD, define ΔT₁ and ΔT₂ according to flow arrangement.
+- Critical radius: insulation increases heat loss until r = r_c – check whether the pipe radius is above or below r_c.
+- Lumped analysis: L_c = V/A (sphere R/3), not the radius itself.
+- In refrigerant numbering, add 90 to get C-H-F atoms; R-7XX = 700 + molecular mass.
+- Wet-bulb temperature lies between DBT and DPT; all three are equal only at 100% RH.
+
+## 30.5 Final 10-Minute Checklist
+- Laws: zeroth (temperature), first (energy), second (direction/quality), third (zero entropy at 0 K).
+- Cycles: Carnot, Otto, Diesel, Dual, Brayton, Stirling, Ericsson, Rankine, Bell–Coleman, VCR – know diagrams and efficiencies.
+- IC engines: valve timing, knock, octane/cetane, Morse test, Willan's line, performance formulae.
+- Steam: boiler types and mountings/accessories, nozzles and critical pressure, turbine compounding and blade efficiency, condensers and cooling towers.
+- Power plants: nuclear components, load curve factors, combined cycle.
+- Compressors: multistage, intercooling, volumetric efficiency; rotary compressors, surging and choking.
+- RAC: TR, VCR cycle and effects, refrigerant numbering, VAR (Electrolux), psychrometric processes, SHF and BPF.
+- Heat transfer: conduction resistances, critical radius, fins, lumped analysis, dimensionless numbers, boiling, radiation laws, LMTD/NTU.

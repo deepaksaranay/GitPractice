@@ -1,0 +1,44 @@
+# First Law for Open Systems (Control Volume)
+
+## 3.1 Flow Work and the SFEE
+- In an open system, mass crossing the boundary carries energy. Flow work (flow energy) is the work needed to push a unit mass into or out of the control volume: pv per unit mass. This is why enthalpy h = u + pv appears in flow processes.
+- Steady flow: properties at any point do not change with time; mass flow in = mass flow out; rates of heat and work are constant.
+F: Mass balance: ṁ = ρ₁A₁V₁ = ρ₂A₂V₂ = A V/v
+F: Steady Flow Energy Equation (per kg): h₁ + V₁²/2 + g z₁ + q = h₂ + V₂²/2 + g z₂ + w
+F: Rate form: ṁ(h₁ + V₁²/2 + gz₁) + Q̇ = ṁ(h₂ + V₂²/2 + gz₂) + Ẇ
+F: Units check: V²/2 in J/kg – divide by 1000 to add to h in kJ/kg
+F: Shaft work (reversible, negligible KE/PE): w = −∫v dp
+- For a steady-flow device the reversible work is −∫v dp (area to the left of the curve on p–v), whereas closed-system work is ∫p dv (area under the curve).
+PYQ-TREND: Flow work = pv; SFEE terms; reversible steady-flow work −∫v dp vs closed-system ∫p dv; enthalpy as the natural property for flow processes.
+
+## 3.2 SFEE Applied to Devices
+| Device | Assumptions | Result |
+| Nozzle | q = 0, w = 0, Δz ≈ 0 | V₂ = √(2(h₁ − h₂) + V₁²) ≈ 44.72 √(Δh in kJ/kg) |
+| Diffuser | q = 0, w = 0 | h₂ − h₁ = (V₁² − V₂²)/2 – velocity converted to pressure |
+| Turbine (adiabatic) | q ≈ 0, ΔKE, ΔPE ≈ 0 | w = h₁ − h₂ (work output) |
+| Compressor (adiabatic) | q ≈ 0 | w = −(h₂ − h₁) (work input) |
+| Pump | Incompressible | w = −v(p₂ − p₁) |
+| Boiler / condenser / evaporator | w = 0, ΔKE ≈ 0 | q = h₂ − h₁ |
+| Heat exchanger (no loss) | Adiabatic overall | ṁ_h(h_h1 − h_h2) = ṁ_c(h_c2 − h_c1) |
+| Throttling valve | q = 0, w = 0, ΔKE ≈ 0 | h₁ = h₂ (isenthalpic) |
+| Mixing chamber | Adiabatic | Σṁh in = Σṁh out |
+F: Nozzle exit velocity (V₁ negligible): V₂ = 44.72 √(h₁ − h₂) m/s with Δh in kJ/kg
+PYQ-TREND: Throttling is isenthalpic (very frequent); nozzle velocity 44.72√Δh; turbine work = h₁ − h₂; boiler heat = h₂ − h₁; diffuser converts KE to pressure.
+TIP: 44.72 = √2000. For Δh = 100 kJ/kg → V = 447 m/s; Δh = 400 → 894 m/s.
+
+## 3.3 Throttling and the Joule–Thomson Effect
+- Throttling: flow through a restriction (partially open valve, porous plug, capillary tube) with a pressure drop and no work or heat transfer. It is irreversible; enthalpy before and after is equal (h₁ = h₂), but enthalpy is not constant in between.
+F: Joule–Thomson coefficient μ_JT = (∂T/∂p)_h
+- μ_JT > 0: gas cools on throttling (below the inversion temperature – most gases at room temperature). μ_JT < 0: heats up (hydrogen, helium at room temperature; above inversion). μ_JT = 0 for an ideal gas (T unchanged since h = f(T)).
+- Inversion temperature: where μ_JT changes sign. Maximum inversion temperature: N₂ ≈ 621 K, H₂ ≈ 202 K, He ≈ 40 K – hence hydrogen and helium must be precooled before Linde liquefaction.
+- Applications: refrigeration expansion valves and capillary tubes, gas liquefaction (Linde–Hampson), throttling calorimeter, pressure control in steam lines.
+PYQ-TREND: Throttling isenthalpic and irreversible; μ_JT = 0 for ideal gas; cooling only below inversion temperature; hydrogen heats on throttling at room temperature.
+
+## 3.4 Unsteady Flow Processes
+F: Filling an evacuated rigid tank from a line at constant h_line (adiabatic): u₂ = h_line → T₂ = γ T_line (ideal gas)
+F: General: m₂u₂ − m₁u₁ = (m₂ − m₁)h_line + Q − W
+- When an empty tank is filled from a supply line, the gas in the tank ends up hotter than the line gas (T₂ = 1.4 T_line for air), because flow work is converted into internal energy.
+- Discharging a tank: the remaining gas cools (approximately isentropic expansion of the gas left behind).
+PYQ-TREND: Final temperature when filling an evacuated tank = γ T_line; filling and emptying processes are unsteady.
+Q: Apply the steady flow energy equation to a steam turbine and a nozzle and obtain the expressions for work and exit velocity.
+For a turbine, heat loss is small (insulated), the inlet and exit velocities and heights differ little, so the SFEE h₁ + V₁²/2 + gz₁ + q = h₂ + V₂²/2 + gz₂ + w reduces to w = h₁ − h₂: the work output equals the drop in enthalpy of the steam; power = ṁ(h₁ − h₂). For a nozzle there is no work and negligible heat transfer and height change, so h₁ + V₁²/2 = h₂ + V₂²/2, giving V₂ = √(2(h₁ − h₂) + V₁²). With Δh in kJ/kg and negligible inlet velocity, V₂ = √(2000 Δh) = 44.72√Δh m/s. The nozzle converts enthalpy into kinetic energy, which the turbine blades then convert into shaft work.

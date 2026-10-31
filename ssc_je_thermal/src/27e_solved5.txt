@@ -1,0 +1,121 @@
+# Solved Numericals – Set 5 (Advanced Mixed Problems)
+Slightly longer problems combining two or three concepts (no options).
+
+## 27E.1 Thermodynamics and Cycles
+### Problem 1 – Reversible engine with three reservoirs
+A reversible engine receives 1200 kJ from a reservoir at 600 K and rejects heat to reservoirs at 400 K and 300 K, producing 400 kJ of work. Find the heat rejected to each.
+F: Energy: Q₂ + Q₃ = 1200 − 400 = 800 kJ;  entropy (reversible): 1200/600 = Q₂/400 + Q₃/300 → 2 = Q₂/400 + Q₃/300
+F: Substituting Q₃ = 800 − Q₂: 2 = Q₂/400 + (800 − Q₂)/300 → 2 = 2.667 − Q₂/1200 → Q₂ = 800 kJ, Q₃ = 0
+### Problem 2 – Maximum work from two bodies
+Two identical blocks (mc = 1 kJ/K) at 600 K and 300 K are used as source and sink for a reversible engine until they reach a common temperature. Find T_f and the work.
+F: Reversible: ΔS = 0 → T_f = √(600 × 300) = 424.3 K
+F: W = mc(T₁ + T₂ − 2T_f) = 1 × (900 − 848.5) = 51.5 kJ  (direct contact would give T_f = 450 K and W = 0)
+### Problem 3 – Air compressed in a cylinder with heat loss
+0.5 kg of air is compressed from 1 bar, 300 K to 8 bar polytropically (n = 1.25). Find the work, the heat transferred and the entropy change.
+F: T₂ = 300 × 8^(0.25/1.25) = 300 × 8^0.2 = 300 × 1.516 = 454.8 K
+F: W = mR(T₁ − T₂)/(n − 1) = 0.5 × 0.287 × (−154.8)/0.25 = −88.9 kJ
+F: Q = W(γ − n)/(γ − 1) = −88.9 × 0.15/0.4 = −33.3 kJ
+F: ΔS = m[c_p ln(T₂/T₁) − R ln(p₂/p₁)] = 0.5 × [1.005 × 0.4160 − 0.287 × 2.0794] = 0.5 × (0.4181 − 0.5968) = −0.0894 kJ/K
+### Problem 4 – Dual cycle efficiency
+A dual cycle has r = 14, pressure ratio in constant-volume heating α = 1.5 and cut-off ratio ρ = 1.6. Find η.
+F: η = 1 − (1/r^(γ−1)) × (αρ^γ − 1)/[(α − 1) + γα(ρ − 1)]
+F: r^0.4 = 14^0.4 = 2.874;  ρ^1.4 = 1.6^1.4 = 1.930;  numerator = 1.5 × 1.930 − 1 = 1.895
+F: denominator = 0.5 + 1.4 × 1.5 × 0.6 = 0.5 + 1.26 = 1.76;  η = 1 − (1/2.874) × 1.077 = 1 − 0.375 = 62.5%
+### Problem 5 – Mean effective pressure of an Otto cycle
+An Otto cycle (r = 8) has swept volume 0.0005 m³ and net work 0.4 kJ per cycle. Find the mep.
+F: mep = W/V_s = 400/0.0005 = 8 × 10⁵ Pa = 8 bar
+### Problem 6 – Stirling engine with ideal regenerator
+A Stirling engine works between 800 K and 300 K. Find its efficiency with a perfect regenerator.
+F: η = 1 − 300/800 = 62.5% (equal to Carnot)
+
+## 27E.2 Steam Plant
+### Problem 7 – Reheat cycle
+Steam enters the HP turbine at h₁ = 3450 kJ/kg and expands to h₂ = 3000 kJ/kg; it is reheated to h₃ = 3550 kJ/kg and expands in the LP turbine to h₄ = 2400 kJ/kg. Feed enthalpy after pump h₆ = 200 kJ/kg; pump work 10 kJ/kg. Find η.
+F: W_t = (3450 − 3000) + (3550 − 2400) = 450 + 1150 = 1600 kJ/kg;  W_net = 1590 kJ/kg
+F: Q = (3450 − 200) + (3550 − 3000) = 3250 + 550 = 3800 kJ/kg;  η = 1590/3800 = 41.8%
+### Problem 8 – Steam rate and plant size
+A 100 MW plant has a net work of 1000 kJ/kg of steam. Find the steam flow rate.
+F: ṁ = 100,000/1000 = 100 kg/s = 360 t/h;  SSC = 3600/1000 = 3.6 kg/kWh
+### Problem 9 – Heat rate
+A power plant has an overall efficiency of 36%. Find its heat rate in kJ/kWh.
+F: Heat rate = 3600/η = 3600/0.36 = 10,000 kJ/kWh
+### Problem 10 – Coal consumption
+For Problem 9, with coal CV 20,000 kJ/kg and output 500 MW, find coal per hour.
+F: Energy input = 500,000 kW × 10,000 kJ/kWh = 5 × 10⁹ kJ/h → coal = 5 × 10⁹/20,000 = 2.5 × 10⁵ kg/h = 250 t/h
+### Problem 11 – Blade work from velocity triangles
+In an impulse stage, V_w1 = 550 m/s and V_w2 = −100 m/s (opposite direction), blade speed u = 250 m/s, steam flow 2 kg/s. Find power and blade efficiency if V₁ = 600 m/s.
+F: Work per kg = u(V_w1 + |V_w2|) = 250 × 650 = 162,500 J/kg;  power = 2 × 162.5 = 325 kW
+F: η_b = 2u(ΣV_w)/V₁² = 2 × 162,500/360,000 = 90.3%
+### Problem 12 – Boiler efficiency with losses
+A boiler's heat losses are: dry flue gas 12%, moisture and hydrogen 5%, unburnt carbon 2%, radiation and others 3%. Find efficiency (indirect method).
+F: η = 100 − (12 + 5 + 2 + 3) = 78%
+
+## 27E.3 Compressors and Gas Turbines
+### Problem 13 – FAD and mass of air
+A compressor delivers 10 m³/min of free air at 1.013 bar and 27 °C. Find the mass flow.
+F: ṁ = pV̇/(RT) = 101.3 × (10/60)/(0.287 × 300) = 16.88/86.1 = 0.196 kg/s
+### Problem 14 – Swept volume from volumetric efficiency
+A single-acting compressor running at 600 rpm must deliver 3 m³/min of free air with η_v = 0.8. Find the swept volume.
+F: V_s = 3/(0.8 × 600) = 6.25 × 10⁻³ m³ = 6.25 litres
+### Problem 15 – Three-stage compression
+Air is compressed from 1 bar to 64 bar in three stages with perfect intercooling. Find the stage pressures.
+F: Stage ratio = 64^(1/3) = 4 → 1 → 4 → 16 → 64 bar
+### Problem 16 – Gas turbine air–fuel ratio
+In a gas turbine, air leaves the compressor at 550 K and gases leave the combustor at 1200 K (c_p = 1.005 for both, combustion efficiency 100%, CV = 42,000 kJ/kg). Find the air–fuel ratio.
+F: (m_a + m_f) c_p T₃ − m_a c_p T₂ = m_f CV → per kg fuel: (A + 1) × 1.005 × 1200 − A × 1.005 × 550 = 42,000
+F: 1206(A + 1) − 552.75 A = 42,000 → 653.25 A = 40,794 → A/F ≈ 62.4
+- Very lean overall (stoichiometric ≈ 15) – excess air limits turbine inlet temperature.
+### Problem 17 – Thrust from a turbojet with fuel
+Air 60 kg/s enters at 200 m/s; fuel 1.2 kg/s; exit jet velocity 700 m/s (pressure thrust zero). Find thrust.
+F: F = (ṁ_a + ṁ_f)V_j − ṁ_a V_a = 61.2 × 700 − 60 × 200 = 42,840 − 12,000 = 30,840 N ≈ 30.8 kN
+
+## 27E.4 Refrigeration and Air Conditioning
+### Problem 18 – VCR with subcooling
+In a VCR plant, h₁ = 1450, h₂ = 1650 kJ/kg; condensate is subcooled so that h₃ = 300 instead of 360 kJ/kg. Find the percentage increase in COP.
+F: Without subcooling: COP = (1450 − 360)/200 = 5.45;  with: (1450 − 300)/200 = 5.75
+F: Increase = (5.75 − 5.45)/5.45 = 5.5%
+### Problem 19 – Compressor displacement
+A 5 TR ammonia plant has RE = 1100 kJ/kg and specific volume at suction 0.5 m³/kg; volumetric efficiency 0.8. Find the compressor swept volume per minute.
+F: ṁ = 5 × 211/1100 = 0.959 kg/min;  actual suction volume = 0.959 × 0.5 = 0.480 m³/min
+F: Swept volume = 0.480/0.8 = 0.60 m³/min
+### Problem 20 – Cooling load from people and lights
+An office has 30 people (sensible 75 W, latent 55 W each), lights 2 kW (fluorescent, factor 1.25) and equipment 3 kW. Find the sensible, latent and total load and the room SHF.
+F: Sensible = 30 × 75 + 2000 × 1.25 + 3000 = 2250 + 2500 + 3000 = 7750 W;  latent = 30 × 55 = 1650 W
+F: Total = 9.4 kW = 2.67 TR;  RSHF = 7750/9400 = 0.82
+### Problem 21 – Supply air quantity
+The room in Problem 20 is kept at 25 °C; supply air enters at 14 °C. Find the supply air mass flow.
+F: ṁ = Q_s/(c_pa ΔT) = 7.75/(1.022 × 11) = 0.689 kg/s (≈ 0.6 m³/s)
+### Problem 22 – Ventilation load
+0.5 kg/s of outdoor air at h = 85 kJ/kg replaces room air at h = 50 kJ/kg. Find the fresh-air load.
+F: Q = 0.5 × (85 − 50) = 17.5 kW ≈ 5 TR
+### Problem 23 – Product load in cold storage
+2000 kg of fish (c above freezing 3.2, below freezing 1.7 kJ/kg·K, latent heat 245 kJ/kg, freezing point −2 °C) is cooled from 18 °C to −18 °C in 24 h. Find the average load in TR.
+F: Q = 2000[3.2 × 20 + 245 + 1.7 × 16] = 2000[64 + 245 + 27.2] = 672,400 kJ
+F: Rate = 672,400/(24 × 60) = 467 kJ/min = 2.21 TR
+
+## 27E.5 Heat Transfer
+### Problem 24 – Interface temperature
+A wall has two layers: A (L = 0.1 m, k = 1) and B (L = 0.05 m, k = 0.05). Inner surface 300 °C, outer 30 °C. Find the heat flux and interface temperature.
+F: R = 0.1/1 + 0.05/0.05 = 0.1 + 1.0 = 1.1 m²K/W;  q = 270/1.1 = 245.5 W/m²
+F: T_interface = 300 − 245.5 × 0.1 = 275.5 °C
+### Problem 25 – Insulated wire (critical radius check)
+A 2 mm diameter wire is insulated with plastic (k = 0.15) in air with h = 10 W/m²K. Does insulation increase or decrease heat loss? What thickness gives maximum heat loss?
+F: r_c = k/h = 0.015 m = 15 mm > wire radius 1 mm → adding insulation up to 15 mm radius increases heat loss
+F: Thickness for maximum loss = 15 − 1 = 14 mm
+### Problem 26 – Fin with insulated tip
+A rectangular aluminium fin (k = 200) has m = 10 m⁻¹ and length 0.1 m. Find fin efficiency.
+F: mL = 1;  η = tanh(1)/1 = 0.762 = 76.2%
+### Problem 27 – Natural convection order of magnitude
+A vertical plate has Gr = 10⁸ and Pr = 0.7. Is the flow laminar or turbulent?
+F: Ra = Gr × Pr = 7 × 10⁷ < 10⁹ → laminar (use Nu ∝ Ra^(1/4))
+### Problem 28 – Grey body exchange in enclosure
+A pipe (D = 0.1 m, ε = 0.8) at 500 K runs in a large room at 300 K. Find radiation loss per metre.
+F: A = π × 0.1 × 1 = 0.3142 m²;  Q = 0.8 × 5.67 × 10⁻⁸ × 0.3142 × (500⁴ − 300⁴)
+F: 500⁴ − 300⁴ = 6.25 × 10¹⁰ − 0.81 × 10¹⁰ = 5.44 × 10¹⁰ → Q = 1.425 × 10⁻⁸ × 5.44 × 10¹⁰ = 775 W/m
+### Problem 29 – Overall U with fouling
+Clean U = 1000 W/m²K; fouling resistance 0.0004 m²K/W is added. Find the dirty U.
+F: 1/U_d = 1/1000 + 0.0004 = 0.0014 → U_d = 714 W/m²K (29% reduction)
+### Problem 30 – NTU and area for a counter-flow exchanger
+Counter-flow exchanger with C_min = C_max = 2 kW/K needs ε = 0.75 and U = 500 W/m²K. Find NTU and area.
+F: C_r = 1: ε = NTU/(1 + NTU) → 0.75 = NTU/(1 + NTU) → NTU = 3
+F: A = NTU × C_min/U = 3 × 2000/500 = 12 m²

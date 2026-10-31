@@ -1,0 +1,90 @@
+# Steam Generators (Boilers)
+
+## 14.1 Introduction and Classification
+- Boiler (steam generator): a closed vessel in which water is heated by combustion (or hot gases/electricity/nuclear heat) to produce steam at the required pressure and temperature. Indian Boilers Act 1923 – a vessel above 22.75 litres capacity used for steam generation is a 'boiler' under the Act; Indian Boiler Regulations (IBR) 1950.
+- Requirements of a good boiler: maximum steam with minimum fuel; quick starting; light, compact; easily accessible for cleaning and inspection; meets fluctuating demand; safe; low maintenance.
+| Basis | Classification |
+| Contents of tubes | Fire-tube (hot gases inside tubes, water outside) / water-tube (water inside tubes, gases outside) |
+| Position of furnace | Internally fired / externally fired |
+| Axis of shell | Vertical / horizontal / inclined |
+| Number of tubes | Single-tube (Cornish, simple vertical) / multi-tubular (Lancashire has two flues; Cochran, locomotive, B&W) |
+| Circulation | Natural (thermosyphon, by density difference) / forced (pump) |
+| Pressure | Low (< 10 bar), medium (10–60), high (> 60), supercritical (> 221.2 bar) |
+| Use | Stationary / mobile (locomotive, marine) |
+| Heat source | Fuel, waste heat, electrical, nuclear, solar |
+
+| Fire-tube boilers | Water-tube boilers |
+| Hot gases in tubes | Water in tubes |
+| Low pressure (up to ≈ 25 bar), small capacity | High pressure (up to 300+ bar), large capacity |
+| Large water volume – slow to raise steam, but steady pressure | Small water volume – rapid steaming, responds to load |
+| Shell bursting is very dangerous (large mass of water at saturation) | Tube failure has only a local effect – safer at high pressure |
+| Cochran, Cornish, Lancashire, locomotive, Scotch marine, simple vertical | Babcock & Wilcox, Stirling, La Mont, Benson, Loeffler, Velox, Schmidt–Hartmann |
+| Used in small industries | Used in power plants |
+PYQ-TREND: Fire-tube vs water-tube classification with examples (very frequent); Lancashire has two flue tubes; Cornish single flue; water-tube for high pressure; Indian Boilers Act.
+
+## 14.2 Important Boilers
+| Boiler | Type & key features |
+| Simple vertical | Fire-tube, vertical, small capacity; cross tubes |
+| Cochran | Vertical, multi-tubular fire-tube, internally fired; hemispherical crown; compact, small floor area |
+| Cornish | Horizontal, single flue tube, internally fired fire-tube |
+| Lancashire | Horizontal, two flue tubes, internally fired fire-tube; ≈ 15–20 bar; uses brickwork flues around shell (side and bottom flues); reliable, large water space |
+| Locomotive | Horizontal, multi-tubular fire-tube, internally fired; high steaming rate per unit size; draught by exhaust steam blast through a blast pipe; mobile |
+| Scotch marine | Horizontal multi-tubular fire-tube; ships |
+| Babcock & Wilcox | Water-tube, horizontal drum with inclined straight tubes (15°), externally fired, natural circulation; power stations (medium) |
+| Stirling | Water-tube with bent tubes and several drums |
+| La Mont | Forced circulation water-tube (centrifugal pump circulates 8–10 times the evaporation) – high pressure |
+| Benson | Supercritical, once-through, drumless (above critical pressure ≈ 225 bar; no distinct evaporation); forced flow |
+| Loeffler | Forced circulation; superheated steam from superheater is used to evaporate feedwater in an evaporating drum – avoids salt deposition in tubes |
+| Velox | Gas velocities above sonic speed (pressurised furnace with gas turbine–driven compressor) – very high heat transfer rates, compact |
+| Schmidt–Hartmann | Two-circuit: primary circuit of distilled water heats secondary water – can use impure feedwater |
+| Once-through (supercritical, ultra-supercritical) | Modern large power stations (> 600 MW): 250–300 bar, 600 °C+ |
+PYQ-TREND: Boiler–feature matching (Benson supercritical drumless; Loeffler avoids salt deposits; Velox supersonic gases; La Mont forced circulation; B&W externally fired water-tube; Cochran vertical fire-tube; locomotive draught by exhaust steam) – very frequent.
+
+## 14.3 Boiler Mountings and Accessories
+- Mountings: fittings mounted on the boiler for safety and complete control of the steam generation process; a boiler cannot be operated safely without them (required by IBR).
+| Mounting | Function |
+| Water level indicator (gauge glass) | Shows water level; two per boiler |
+| Pressure gauge (Bourdon) | Indicates steam pressure |
+| Safety valves (two) | Release steam if pressure exceeds the working limit – dead-weight, lever (deadweight-lever), spring-loaded (Ramsbottom – locomotive, marine), high-steam low-water safety valve |
+| Fusible plug | Melts (lead/tin alloy core) when water level falls too low and the plug is uncovered and overheated; steam/water rushes in and puts out the fire |
+| Steam stop valve (junction valve) | Regulates/shuts off steam flow from boiler to the main |
+| Feed check valve | Non-return valve that admits feedwater and prevents back-flow |
+| Blow-off cock | Removes sludge and sediment from the bottom; empties the boiler |
+| Manhole / mud box | Access for inspection and cleaning |
+- Accessories: auxiliary equipment that increases efficiency and helps operation (boiler can work without them).
+| Accessory | Function |
+| Economiser | Heats feedwater using flue gases before it enters the boiler (Green's economiser) – saves 15–20% fuel |
+| Air preheater | Heats combustion air using flue gases (after economiser) – better combustion, saves fuel |
+| Superheater | Superheats saturated steam (convective, radiant types) |
+| Reheater | Reheats partially expanded steam from HP turbine |
+| Feed pump | Supplies water to the boiler at boiler pressure |
+| Injector | Feeds water using a steam jet (no moving parts) – locomotives, small boilers |
+| Steam separator | Removes water particles from steam |
+| Steam trap | Drains condensate from steam pipes without letting steam escape |
+| Pressure reducing valve | Maintains constant lower pressure |
+| Soot blower | Removes soot from tube surfaces |
+- Typical gas path in a large plant: furnace → superheater → reheater → economiser → air preheater → electrostatic precipitator → ID fan → chimney.
+PYQ-TREND: Mountings vs accessories (economiser is an accessory; safety valve and fusible plug are mountings) – very frequent; function of fusible plug; economiser heats feedwater; air preheater heats air; order of heat-recovery equipment in gas path; injector principle; number of safety valves.
+TIP: If it keeps the boiler safe or controllable, it is a mounting. If it saves fuel or improves performance, it is an accessory.
+
+## 14.4 Draught
+- Draught: pressure difference that causes the flow of air into the furnace and flue gases through the boiler to the chimney. Needed to supply combustion air and remove products. Expressed in mm of water column (typically 10–30 mm).
+- Natural draught: produced by a chimney due to density difference between hot flue gases inside and cold outside air. Free of running cost, but low and weather-dependent; needs a tall chimney.
+F: Natural draught (mm of water): h_w = 353 H [1/T_a − ((m+1)/m)(1/T_g)]  (H = chimney height in m, m = air–fuel ratio by mass, temperatures in K)
+F: Draught as column of hot gas: H₁ = H[(m/(m+1))(T_g/T_a) − 1]
+F: Condition for maximum discharge of gases through a chimney: T_g/T_a = 2(m+1)/m (≈ 2 → flue gases about twice ambient absolute temperature)
+F: Chimney efficiency = (useful work equivalent of draught) / (extra heat carried by flue gases) – very low, ≈ 0.25–0.5%
+- Artificial draught: (1) mechanical – forced draught (FD fan at the base pushes air through the furnace; positive pressure; handles cold air – smaller fan power), induced draught (ID fan at the chimney base sucks gases; negative pressure; handles hot gases – larger fan), balanced draught (FD + ID; furnace pressure slightly below atmospheric – most power stations); (2) steam-jet draught (induced in locomotives; forced in some).
+PYQ-TREND: Natural draught formula and dependence on chimney height and temperature; condition for maximum discharge (T_g ≈ 2T_a); FD vs ID vs balanced draught (very frequent); steam-jet draught in locomotives; chimney efficiency very low.
+
+## 14.5 Boiler Performance
+F: Equivalent evaporation (from and at 100 °C): m_e = m_a (h − h_fw)/2257  kg of steam per kg of fuel
+F: Boiler efficiency η_b = m_a (h − h_fw)/CV  (m_a = actual steam per kg fuel)
+F: Factor of evaporation F_e = (h − h_fw)/2257
+F: Boiler horsepower (old unit) = equivalent evaporation of 15.65 kg/h from and at 100 °C
+- Heat losses in a boiler: dry flue gases (largest), moisture in fuel and from hydrogen combustion, unburnt carbon in ash, incomplete combustion (CO), radiation and convection, blowdown. Typical efficiency: 75–92%.
+- Boiler trial: determines evaporation rate, efficiency and heat balance.
+- Water treatment: hardness causes scale (reduces heat transfer, overheats tubes), corrosion (O₂, CO₂), priming and foaming (carry-over of water with steam), caustic embrittlement. External treatment: softening (lime-soda, zeolite, ion exchange, demineralisation); internal treatment: phosphate dosing, deaeration, sodium sulphite/hydrazine (oxygen scavengers).
+PYQ-TREND: Equivalent evaporation from and at 100 °C with 2257 kJ/kg (very frequent); boiler efficiency formula; largest loss is dry flue gas; scale, priming, foaming, caustic embrittlement; deaeration.
+Q: Distinguish between boiler mountings and accessories with two examples each, and explain the working of a fusible plug.
+Mountings are fittings mounted on the boiler shell for safety and for complete control of steam generation; the boiler cannot be operated without them under the Boiler Regulations. Examples: safety valves (release steam when pressure exceeds the set limit), water level indicator, pressure gauge, fusible plug, steam stop valve, feed check valve, blow-off cock. Accessories are auxiliary devices that improve the efficiency and convenience of the plant; the boiler can work without them. Examples: economiser (preheats feedwater with flue gases), air preheater, superheater, feed pump, injector, steam separator. A fusible plug is fitted on the furnace crown, which is normally covered by water. It is a gun-metal body with a copper plug held in place by a low-melting alloy (lead–tin). If the water level falls dangerously low, the crown and the plug are exposed to fire and overheat; the alloy melts, the copper plug drops, and steam and water rush into the furnace, extinguishing the fire and warning the operator before the shell is damaged.

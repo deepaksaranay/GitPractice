@@ -1,0 +1,72 @@
+# Abridged Property Tables and Data
+Standard textbook values (rounded) for quick numericals. Exam papers supply the data they need – use these for practice only.
+
+## T1. Saturated Water and Steam (Pressure Table)
+| p (bar) | T_sat (°C) | v_g (m³/kg) | h_f (kJ/kg) | h_fg (kJ/kg) | h_g (kJ/kg) | s_f (kJ/kg·K) | s_fg (kJ/kg·K) | s_g (kJ/kg·K) |
+| 0.05 | 32.88 | 28.19 | 137.8 | 2423.7 | 2561.5 | 0.4764 | 7.9187 | 8.3951 |
+| 0.1 | 45.81 | 14.67 | 191.8 | 2392.8 | 2584.6 | 0.6493 | 7.5009 | 8.1502 |
+| 0.5 | 81.33 | 3.240 | 340.5 | 2305.4 | 2645.9 | 1.0910 | 6.5029 | 7.5939 |
+| 1.0 | 99.63 | 1.694 | 417.5 | 2258.0 | 2675.5 | 1.3026 | 6.0568 | 7.3594 |
+| 2.0 | 120.23 | 0.8857 | 504.7 | 2201.9 | 2706.7 | 1.5301 | 5.5970 | 7.1271 |
+| 5.0 | 151.86 | 0.3749 | 640.2 | 2108.5 | 2748.7 | 1.8607 | 4.9606 | 6.8213 |
+| 10 | 179.91 | 0.1944 | 762.8 | 2015.3 | 2778.1 | 2.1387 | 4.4478 | 6.5865 |
+| 20 | 212.42 | 0.0996 | 908.8 | 1890.7 | 2799.5 | 2.4474 | 3.8935 | 6.3409 |
+| 40 | 250.40 | 0.0498 | 1087.3 | 1714.1 | 2801.4 | 2.7964 | 3.2737 | 6.0701 |
+| 60 | 275.64 | 0.0324 | 1213.4 | 1571.0 | 2784.3 | 3.0267 | 2.8625 | 5.8892 |
+| 100 | 311.06 | 0.0180 | 1407.6 | 1317.1 | 2724.7 | 3.3596 | 2.2544 | 5.6141 |
+| 220.9 | 374.14 | 0.00316 | 2099.3 | 0 | 2099.3 | 4.4298 | 0 | 4.4298 |
+- Trends: as pressure rises, T_sat, h_f and s_f rise; h_fg falls to zero at the critical point; h_g peaks at about 30 bar (≈ 2804 kJ/kg) and then falls.
+- Specific volume of saturated liquid v_f ≈ 0.001 m³/kg at low pressures (0.00101 at 0.1 bar, 0.00113 at 10 bar).
+
+## T2. Saturation Pressure of Water (Temperature Table, for Psychrometry)
+| T (°C) | p_sat (kPa) | T (°C) | p_sat (kPa) |
+| 0.01 | 0.6117 | 25 | 3.169 |
+| 5 | 0.8725 | 30 | 4.246 |
+| 10 | 1.228 | 35 | 5.628 |
+| 15 | 1.705 | 40 | 7.384 |
+| 20 | 2.339 | 50 | 12.35 |
+| 21 | 2.487 | 100 | 101.42 |
+
+## T3. Gas Properties (≈ 300 K)
+| Gas | M (kg/kmol) | R (kJ/kg·K) | c_p (kJ/kg·K) | c_v (kJ/kg·K) | γ |
+| Air | 28.97 | 0.287 | 1.005 | 0.718 | 1.40 |
+| Nitrogen | 28.01 | 0.297 | 1.039 | 0.743 | 1.40 |
+| Oxygen | 32.00 | 0.260 | 0.918 | 0.658 | 1.40 |
+| Hydrogen | 2.016 | 4.124 | 14.31 | 10.18 | 1.41 |
+| Helium | 4.003 | 2.077 | 5.193 | 3.116 | 1.67 |
+| Argon | 39.95 | 0.208 | 0.520 | 0.312 | 1.67 |
+| Carbon dioxide | 44.01 | 0.189 | 0.846 | 0.657 | 1.29 |
+| Steam (low pressure) | 18.02 | 0.461 | 1.87 | 1.41 | 1.33 |
+| Methane | 16.04 | 0.518 | 2.25 | 1.73 | 1.30 |
+
+## T4. Thermal Conductivity and Emissivity (≈ room temperature)
+| Material | k (W/m·K) | Typical ε |
+| Silver | 429 | 0.02 (polished) |
+| Copper | 401 | 0.03 polished / 0.78 oxidised |
+| Aluminium | 237 | 0.05 polished / 0.2–0.3 anodised |
+| Carbon steel | 45–60 | 0.8 (oxidised) |
+| Stainless steel | 15 | 0.2–0.6 |
+| Concrete / brick | 1.4 / 0.7 | 0.9 |
+| Glass | 0.8–1.4 | 0.9 |
+| Water | 0.6 | 0.96 |
+| Wood | 0.12–0.17 | 0.9 |
+| Glass wool / mineral wool | 0.04 | – |
+| Polyurethane foam | 0.02–0.03 | – |
+| Air | 0.026 | – |
+| Human skin | – | 0.95 |
+| White paint / black paint | – | 0.9 / 0.97 (infrared) |
+
+## T5. Unit Conversions
+| Conversion | Value |
+| 1 kWh | 3600 kJ |
+| 1 hp (metric) | 735.5 W |
+| 1 kcal | 4.187 kJ |
+| 1 TR | 3.5167 kW = 211 kJ/min |
+| 1 bar | 10⁵ Pa = 0.9869 atm |
+| 1 atm | 1.01325 bar = 760 mm Hg |
+| 1 mm Hg (torr) | 133.32 Pa |
+| 1 mm water | 9.81 Pa |
+| 1 Btu | 1.055 kJ |
+| T (K) | T (°C) + 273.15 |
+| T (°F) | 1.8 T (°C) + 32 |
+| T (°R) | T (°F) + 459.67 |

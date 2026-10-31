@@ -1,0 +1,101 @@
+# High-Yield Topic Map
+A chapter-by-chapter checklist of what SSC JE papers repeatedly test. Tick each line only when you can explain it without notes.
+
+## M1. Thermodynamics (Chapters 1–7)
+| Concept | What is usually asked |
+| Systems and properties | Identify open/closed/isolated systems; intensive vs extensive; point vs path functions |
+| Zeroth law | Basis of thermometry; temperature scale conversions |
+| Work and heat | Work in different processes; sign convention; free expansion work = 0 |
+| First law | Q = ΔU + W; internal energy a property; PMM-1 |
+| Ideal gas processes | n values for processes; work and heat formulas; c_p − c_v = R; γ values |
+| SFEE | Nozzle velocity; turbine/compressor work; throttling isenthalpic |
+| Second law | Kelvin–Planck and Clausius statements; PMM-2; equivalence |
+| Carnot | Efficiency and COP formulas; dependence only on temperatures; engines in series |
+| Entropy | Clausius inequality; entropy change formulas; increase of entropy principle; T–s areas |
+| Availability | AE = Q(1 − T₀/T); irreversibility; second-law efficiency; Gibbs/Helmholtz functions |
+| Pure substances | Triple and critical points; dryness fraction; steam enthalpy; calorimeters; Mollier chart |
+
+## M2. Gas Cycles and IC Engines (Chapters 8–12B)
+| Concept | What is usually asked |
+| Air-standard cycles | Otto, Diesel, Dual, Brayton, Stirling, Ericsson – processes and efficiency formulas |
+| Cycle comparison | Same r & heat input vs same max p & T orderings |
+| Engine terminology | Compression ratio, swept volume, mean piston speed, mep |
+| Four- vs two-stroke | Power strokes per revolution, scavenging, merits and demerits |
+| Valve timing | IVO, IVC, EVO, EVC typical angles; valve overlap |
+| SI combustion | Stages (Ricardo), flame propagation, detonation causes and remedies |
+| CI combustion | Ignition delay, diesel knock, remedies opposite to SI |
+| Fuel ratings | Octane and cetane numbers, reference fuels, additives |
+| Fuel systems | Carburettor and its circuits; MPFI, GDI, CRDI; injectors |
+| Ignition, cooling, lubrication | Battery/magneto/electronic ignition; air vs water cooling; splash/pressure lubrication |
+| Performance | IP, BP, FP, efficiencies, bsfc, volumetric efficiency, heat balance |
+| Testing | Morse test, Willan's line, motoring test, dynamometers |
+| Supercharging | Effect on SI and CI; turbocharger; intercooler |
+| Emissions | CO, HC, NOx, PM sources; catalytic converter, EGR, DPF, SCR; BS-VI |
+| Special engines | Wankel, Stirling, dual-fuel, hybrids |
+
+## M3. Steam Engineering and Power Plants (Chapters 13–18)
+| Concept | What is usually asked |
+| Rankine cycle | Processes, efficiency, work ratio, effect of p, T and condenser pressure |
+| Reheat and regeneration | Purpose of each; open vs closed feed-water heaters; deaerator |
+| Boilers | Fire-tube vs water-tube; named boilers; high-pressure boilers (Benson, La Mont, Loeffler) |
+| Mountings and accessories | Function of each; fusible plug; economiser and air preheater |
+| Draught | Natural vs artificial; chimney height formula; FD, ID, balanced draught |
+| Boiler performance | Equivalent evaporation; boiler efficiency; heat losses |
+| Nozzles | Velocity, critical pressure ratio values, choking, supersaturation |
+| Steam turbines | Impulse vs reaction; velocity triangles; optimum blade speed ratios; compounding types |
+| Turbine governing | Throttle, nozzle, bypass governing |
+| Condensers | Surface vs jet; vacuum efficiency; Dalton's law; air extraction |
+| Cooling towers | Natural vs mechanical draught; range, approach |
+| Power plants | Load curve factors; nuclear reactor components and types; combined cycle; renewable sources |
+
+## M4. Compressors, Gas Turbines, Jet Propulsion (Chapters 19–20)
+| Concept | What is usually asked |
+| Reciprocating compressor | Work for isothermal/polytropic/adiabatic; isothermal efficiency; FAD |
+| Clearance | Volumetric efficiency formula; effect on work and capacity |
+| Multistaging | Optimum intermediate pressure; perfect intercooling; work saved |
+| Rotary compressors | Vane, Roots, screw, centrifugal (slip, power input factor), axial (degree of reaction) |
+| Instabilities | Surging, choking, stalling |
+| Gas turbines | Brayton cycle; optimum pressure ratio; work ratio; regeneration, reheating, intercooling |
+| Jet propulsion | Turbojet, turbofan, turboprop, ramjet, rocket; thrust and propulsive efficiency |
+
+## M5. Refrigeration and Air Conditioning (Chapters 21–23B)
+| Concept | What is usually asked |
+| Basics | TR, COP of refrigerator and heat pump; reversed Carnot cycle |
+| Air refrigeration | Bell–Coleman cycle COP; aircraft refrigeration systems |
+| VCR cycle | p–h and T–s diagrams; RE, work, COP; subcooling and superheating effects |
+| VCR components | Compressor types; condensers; expansion devices (capillary, TEV, AEV); evaporators |
+| Refrigerants | Numbering; properties; ammonia vs halocarbons; ODP/GWP; Montreal and Kigali |
+| VAR | Aqua-ammonia, LiBr–water, Electrolux; ideal COP |
+| Other systems | Steam jet, thermoelectric, vortex tube, cryogenics |
+| Psychrometry | DBT, WBT, DPT, ω, RH, enthalpy; chart processes; SHF; BPF; mixing |
+| AC systems | Comfort conditions; summer/winter AC; cooling load components; split, central AC, VRF |
+| Applications | Cold storage, ice plant, duct design methods, fan laws, filters |
+
+## M6. Heat Transfer (Chapters 24–26D)
+| Concept | What is usually asked |
+| Conduction | Fourier's law; thermal conductivity values and trends; diffusivity |
+| Resistances | Plane, cylinder, sphere formulas; composite walls; overall U |
+| Critical radius | k/h and 2k/h; effect on heat loss |
+| Heat generation | Maximum temperature formulas |
+| Fins | m, efficiency, effectiveness; when fins are useful |
+| Transient | Biot number, lumped analysis, time constant, characteristic length |
+| Convection | Dimensionless numbers and their meanings; laminar/turbulent correlations; Nu = 3.66/4.36 |
+| Boiling/condensation | Boiling curve regimes; CHF; dropwise vs filmwise |
+| Radiation | Black/grey bodies; Stefan–Boltzmann, Wien, Kirchhoff, Planck; view factors; shields |
+| Heat exchangers | Types; LMTD; ε–NTU; fouling; parallel vs counter flow |
+| Others | Mass transfer analogy, heat pipes, insulation |
+
+## M7. Fuels and Measurements (Chapters 26B–26C)
+| Concept | What is usually asked |
+| Coal | Ranks; proximate and ultimate analysis |
+| Calorific value | HCV vs LCV; Dulong's formula; bomb and Junkers calorimeters |
+| Combustion | Oxygen and air requirement; A/F ratios; excess air |
+| Flue gas | Orsat apparatus absorbents and order |
+| Gaseous and liquid fuels | Compositions; flash, fire, cloud and pour points |
+| Instruments | Thermocouples, RTDs, pyrometers; Bourdon gauge; vacuum gauges; dynamometers; gas analysers |
+
+## M8. How to Use This Map in the Last Two Weeks
+- Week 1: for each row above, revise the chapter section, then answer the matching rows of the Concept Recall Bank without looking.
+- Week 2: solve one Solved Numericals set per day under time pressure (about 1 minute per short problem), and write two Paper-II answers per day.
+- Final three days: Formula Appendix, PYQ-Trend Appendix and the Last-Minute Revision Sheet only.
+- Mark any row you cannot explain in 30 seconds and revisit it the next morning – spaced repetition beats re-reading.

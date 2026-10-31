@@ -1,0 +1,59 @@
+# Refrigeration – Fundamentals, Air Refrigeration and VCR
+
+## 21.1 Basics
+- Refrigeration: process of removing heat from a body or space to maintain it at a temperature below that of the surroundings. By the Clausius statement, work (or heat in absorption systems) must be supplied.
+F: 1 tonne of refrigeration (TR) = 211 kJ/min = 3.5167 kW (≈ 3.5 kW) ≈ 50 kcal/min ≈ 12,000 BTU/h
+- Definition: refrigerating effect produced by melting 1 short ton (907 kg / 2000 lb) of ice at 0 °C into water at 0 °C in 24 hours (using latent heat 335 kJ/kg: 907 × 335/1440 ≈ 211 kJ/min).
+F: COP = refrigerating effect / work input;  relative COP = actual COP / theoretical COP
+F: Carnot (reversed) COP_R = T_L/(T_H − T_L);  COP_HP = COP_R + 1
+F: Energy efficiency ratio EER = COP × 3.412 (BTU/Wh)
+- Applications: food preservation, air conditioning, ice making, cold storage, chemical and pharmaceutical industries, cryogenics, medical.
+- Methods of refrigeration: ice, evaporative cooling, dry ice, throttling (Joule–Thomson), vapour compression, vapour absorption, air expansion (Bell–Coleman), steam jet, thermoelectric (Peltier), vortex tube, adiabatic demagnetisation (near 0 K).
+PYQ-TREND: 1 TR = 3.5 kW = 211 kJ/min (very frequent); Carnot COP formula and that COP decreases as the temperature difference increases; COP_HP = COP_R + 1.
+TIP: For a Carnot refrigerator between −23 °C and 27 °C: COP = 250/50 = 5. Halving the temperature lift doubles the COP.
+
+## 21.2 Reversed Carnot Cycle and Its Limits
+- Reversed Carnot cycle with a vapour: isentropic compression, isothermal condensation, isentropic expansion, isothermal evaporation. Impractical: isentropic expansion of liquid in an expander gives very little work for its cost; wet compression causes damage and poor lubrication ('liquid slugging'); isothermal heat transfer needs infinite area/time. The practical VCR cycle replaces the expander by a throttle valve and uses dry compression.
+PYQ-TREND: Why reversed Carnot is not practical; throttle valve replaces expander.
+
+## 21.3 Air Refrigeration (Bell–Coleman / Reversed Brayton)
+- Air (gas) remains a gas throughout – no phase change. Processes: isentropic compression, constant-pressure cooling in a heat exchanger, isentropic expansion in an expander (turbine) to low temperature, constant-pressure heat absorption in the refrigerated space.
+F: COP = T₁/(T₂ − T₁) = 1/(r_p^((γ−1)/γ) − 1)  (r_p = pressure ratio; T₁ = compressor inlet, T₂ = compressor outlet)
+F: Refrigerating effect = cp(T₁ − T₄);  work = cp[(T₂ − T₃) − (T₁ − T₄)]
+- COP is low (≈ 0.5–1) because heat is absorbed and rejected sensibly (not at constant temperature), needing large mass flows. But air is free, safe and non-toxic, and the system is light – used in aircraft cabin cooling (using air bled from the engine compressor).
+- Aircraft refrigeration systems: simple, bootstrap (secondary compressor driven by the cooling turbine – for high-speed aircraft), regenerative, reduced-ambient, simple evaporative.
+PYQ-TREND: Air refrigeration used in aircraft because of low weight per TR (very frequent); Bell–Coleman COP formula; low COP; bootstrap system.
+
+## 21.4 Simple Vapour Compression Refrigeration (VCR) Cycle
+- Components and processes (on p–h and T–s): 1–2 compressor – isentropic compression of saturated (or slightly superheated) vapour to condenser pressure (becomes superheated); 2–3 condenser – desuperheating and condensation at constant pressure (heat rejected to air/water); 3–4 expansion device – throttling at constant enthalpy (h₃ = h₄; part of the liquid flashes to vapour); 4–1 evaporator – evaporation at constant low pressure and temperature, absorbing heat from the refrigerated space.
+F: Refrigerating effect RE = h₁ − h₄ = h₁ − h₃ (kJ/kg)
+F: Compressor work W = h₂ − h₁;  heat rejected Q_c = h₂ − h₃ = RE + W
+F: COP = (h₁ − h₄)/(h₂ − h₁)
+F: Refrigerant mass flow ṁ = 211 × TR / RE (kg/min)  or  3.5167 × TR / RE (kg/s)
+F: Compressor power = ṁ (h₂ − h₁);  power per TR = 3.5167/COP kW
+F: Volumetric efficiency of compressor: η_v = 1 + C − C (p_d/p_s)^(1/n);  piston displacement = ṁ v₁/η_v
+FIG: vcr
+- Dry compression (vapour saturated or superheated at compressor inlet) is used; wet compression risks liquid slugging and valve damage.
+### Effect of operating conditions
+| Change | RE | Work | COP |
+| Lower evaporator pressure/temperature | Decreases | Increases | Decreases |
+| Higher condenser pressure/temperature | Decreases | Increases | Decreases |
+| Subcooling the liquid after condenser | Increases | No change | Increases |
+| Superheating vapour (useful, in evaporator) | Increases | Increases | Depends on refrigerant (increases for R-12/R-134a, decreases for NH₃) |
+| Pressure drop in suction line | – | Increases | Decreases |
+| Liquid–vapour (suction-line) heat exchanger | Subcools liquid, superheats vapour – useful for halocarbons | – | Usually increases |
+PYQ-TREND: Throttling in expansion valve is isenthalpic (very frequent); COP = (h₁ − h₄)/(h₂ − h₁); subcooling increases COP; lowering evaporator temperature decreases COP; mass flow 211×TR/RE; dry vs wet compression; condenser heat = RE + W.
+WARN: In VCR numericals take h₄ = h₃ (throttling). Don't use h₄ = h_f at the evaporator pressure.
+
+## 21.5 Components of VCR Systems
+| Component | Types / facts |
+| Compressor | Reciprocating (small–medium, up to ~100 TR), rotary (vane, rolling piston – small), scroll (domestic AC – quiet, efficient), screw (medium–large, 50–1,000 TR), centrifugal (large, > 200 TR; low-pressure refrigerants); hermetic (motor + compressor sealed in a shell – domestic refrigerators, AC), semi-hermetic, open type (ammonia plants) |
+| Condenser | Air-cooled (natural convection – domestic fridge, wire-and-tube; forced – window/split AC), water-cooled (shell-and-tube, shell-and-coil, double-pipe), evaporative condenser (water sprayed over coil + air – large plants) |
+| Expansion device | Capillary tube (domestic refrigerators, small AC – fixed restriction, no moving parts, pressures equalise at stop so low starting torque motor), automatic (constant-pressure) expansion valve, thermostatic expansion valve (TEV – maintains constant superheat at evaporator outlet; most common in commercial systems), float valves (high-side and low-side – flooded evaporators), electronic expansion valve |
+| Evaporator | Bare-tube, finned-tube, plate (domestic freezer); flooded (evaporator full of liquid – better heat transfer) vs dry-expansion (direct expansion, DX); natural vs forced convection; chillers (shell-and-tube) |
+| Accessories | Receiver, drier (removes moisture – silica gel, activated alumina, molecular sieves), filter, sight glass, solenoid valve, accumulator, oil separator, pressure switches (HP/LP cut-outs), thermostat |
+- Domestic refrigerator: hermetic reciprocating/rotary compressor, wire-and-tube or natural-convection condenser at the back, capillary tube, evaporator in the freezer; refrigerant R-134a or R-600a (isobutane).
+- Moisture in halocarbon systems freezes at the expansion device (choking) and forms acids; driers are essential.
+PYQ-TREND: Capillary tube in domestic refrigerators (very frequent); TEV maintains constant superheat; hermetic compressors; centrifugal compressors for large capacity; evaporative condenser; purpose of drier.
+Q: Explain the working of a simple vapour compression refrigeration system with its p–h diagram and give the expression for COP.
+Low-pressure dry saturated vapour from the evaporator (state 1) is compressed isentropically by the compressor to condenser pressure, leaving superheated at state 2 (work h₂ − h₁). In the condenser it rejects heat to the cooling air or water, first losing superheat and then condensing at constant pressure to saturated (or subcooled) liquid at state 3 (heat h₂ − h₃). The liquid passes through the expansion valve, where it is throttled at constant enthalpy to evaporator pressure (h₄ = h₃); its temperature falls and a part flashes into vapour. In the evaporator the low-temperature wet mixture absorbs heat from the refrigerated space and evaporates at constant pressure back to state 1 (refrigerating effect h₁ − h₄). On the p–h chart the compression is a curve along a constant-entropy line, condensation and evaporation are horizontal lines, and throttling is a vertical line. COP = refrigerating effect/work = (h₁ − h₄)/(h₂ − h₁). For a load of TR tonnes the refrigerant flow is 211 × TR/(h₁ − h₄) kg/min and the compressor power is ṁ(h₂ − h₁).

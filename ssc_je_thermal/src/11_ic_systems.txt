@@ -1,0 +1,52 @@
+# IC Engines – Fuel Supply, Ignition, Cooling, Lubrication
+
+## 11.1 Carburettor and Petrol Injection (SI Engines)
+- Carburettor: prepares a combustible air–fuel mixture of the right ratio and atomises/vaporises the fuel. Simple carburettor parts: float chamber (constant fuel level by float and needle valve), venturi (throat creates suction), fuel nozzle/jet at the throat, throttle valve (butterfly – controls quantity of mixture = load), choke valve (upstream – restricts air for a rich cold-start mixture).
+F: Air velocity at throat: V = √(2 Δp/ρ_a);  fuel flow ṁ_f = C_df A_f √(2ρ_f(Δp − ρ_f g z))
+- A simple carburettor gives a progressively richer mixture as airflow increases (fuel flow rises faster than air flow because air density falls at the throat). Compensating devices: auxiliary air valve/port, air-bleed jet, compensating jet, emulsion tube, back-suction control.
+- Additional circuits: idling (slow-running) system, accelerating pump (extra fuel on sudden throttle opening), economiser/power enrichment, choke for cold start.
+- Petrol injection replaced carburettors: TBI (throttle-body, single point), MPFI (multi-point port injection – one injector per cylinder, ECU-controlled), GDI (gasoline direct injection – into cylinder; allows higher r and stratified charge). Benefits: precise A/F control, better economy, lower emissions (essential for catalytic converters with closed-loop λ-sensor control), better cold starting and response.
+PYQ-TREND: Functions of float chamber, venturi, throttle and choke (very frequent); simple carburettor richens mixture at high speeds; compensating jet; MPFI advantages; choke gives rich mixture.
+
+## 11.2 Fuel Injection in CI Engines
+- Requirements: meter the exact quantity per cycle, inject at the correct time and rate, atomise finely, distribute and penetrate properly, cut off sharply (no dribbling).
+- Systems: air injection (obsolete – fuel blown in by compressed air); solid (airless) injection: individual pump system (one pump per cylinder), unit injector (pump and nozzle combined, cam-driven), distributor (rotary) pump, common-rail direct injection (CRDI – high-pressure pump fills a common rail at 1,500–2,500+ bar; electronically controlled injectors allow multiple injections per cycle; low noise and emissions).
+- Fuel injection pump: Bosch-type jerk pump with helix-grooved plunger; quantity varied by rotating the plunger (rack and pinion) – quality governing.
+- Nozzles: pintle (IDI; self-cleaning), pintaux, single-hole, multi-hole (DI; 3–10 holes). Injection pressure 100–300 bar (older systems).
+- Fuel feed pump lifts fuel from the tank to the injection pump through filters.
+PYQ-TREND: CRDI full form and features; jerk pump with helical plunger; multi-hole nozzle for DI, pintle for IDI; air injection obsolete; unit injector.
+
+## 11.3 Ignition Systems (SI Engines)
+- Battery (coil) ignition: battery (12 V) → ignition switch → primary winding of ignition coil (few turns, thick wire) → contact breaker (cam-operated) → condenser (capacitor) across the breaker. When the breaker opens, primary current collapses rapidly, inducing 10,000–25,000 V in the secondary winding (many turns), which the distributor sends to the correct spark plug.
+- Condenser: prevents arcing across the contact-breaker points (protects them from burning) and speeds up the collapse of the magnetic field for a stronger spark.
+- Magneto ignition: generates its own current (permanent magnets), no battery; spark intensity improves with speed – used in motorcycles, racing cars, aircraft piston engines; poor starting at low speed.
+- Electronic ignition: transistorised coil ignition (TCI), capacitor discharge ignition (CDI – two-wheelers), distributorless/coil-on-plug systems with ECU control.
+- Spark advance: centrifugal advance (with speed) and vacuum advance (with load/manifold vacuum – more advance at part load). Ignition timing is measured with a timing light (stroboscope).
+- Spark plug: centre electrode, ground electrode, ceramic insulator; gap ≈ 0.6–1.0 mm. Hot plug (long insulator nose – retains heat; low-speed, low-compression engines, prevents fouling); cold plug (short nose – dissipates heat; high-speed, high-compression engines, prevents pre-ignition).
+- Firing order: chosen to balance crankshaft loads and avoid adjacent cylinders firing successively. 4-cylinder in-line: 1-3-4-2 (or 1-2-4-3); 6-cylinder in-line: 1-5-3-6-2-4; 8-cylinder V: 1-5-4-8-6-3-7-2 (typical).
+PYQ-TREND: Function of condenser in battery ignition (very frequent); magneto better at high speed; cold plug for high-compression engines; centrifugal and vacuum advance; firing order 1-3-4-2; secondary voltage range.
+
+## 11.4 Cooling Systems
+- Purpose: about 25–35% of fuel energy goes to the coolant; cooling prevents overheating of cylinder walls, pistons, valves; maintains lubricating oil film (oil breaks down above ≈ 200–250 °C); prevents pre-ignition/detonation. Over-cooling reduces efficiency and increases wear and sludge – so a thermostat maintains the optimum temperature (≈ 80–90 °C).
+- Air cooling: fins on cylinder and head, natural (motorcycles) or forced by a fan (aircraft radial engines, some cars). Simple and light; no leakage or freezing; but less uniform cooling, noisier, limited to smaller engines.
+- Water (liquid) cooling: thermosyphon (natural circulation by density difference, no pump – low capacity), pump circulation with radiator and fan (most cars), pressurised system (radiator cap at ≈ 1–1.5 bar raises boiling point to ≈ 110–120 °C), evaporative cooling.
+- Thermostat: wax-pellet or bellows type; stays closed when the engine is cold (coolant bypasses radiator for quick warm-up), opens at ≈ 70–85 °C.
+- Radiator: tube-and-fin cross-flow/down-flow heat exchanger made of copper/brass or aluminium. Coolant: water + ethylene glycol (antifreeze; lowers freezing point, raises boiling point, inhibits corrosion).
+PYQ-TREND: Function of thermostat (very frequent); thermosyphon has no pump; pressurised radiator cap raises boiling point; antifreeze (ethylene glycol); percentage of heat to coolant.
+
+## 11.5 Lubrication Systems
+- Functions of lubricant: reduce friction and wear, cool moving parts, seal piston rings, clean (detergent action), prevent corrosion, cushion shocks.
+- Systems: petroil (mist) lubrication – 2–5% oil mixed with petrol in small two-strokes; splash lubrication – dippers on connecting-rod caps splash oil (small four-strokes); pressure-feed (forced) – gear pump forces oil through drilled passages to main and big-end bearings, camshaft, valve gear (most automotive engines); semi-pressure; dry sump (oil stored in a separate tank, scavenge pumps – racing cars, aircraft) vs wet sump (oil in the crankcase sump).
+- Oil filters (full-flow, by-pass), oil cooler, pressure relief valve, oil pressure gauge.
+- Lubricating oil properties: viscosity, viscosity index (VI – resistance of viscosity change with temperature; higher is better; multigrade oils have high VI using VI improvers), flash and fire points, pour point and cloud point (low-temperature fluidity), oiliness, carbon residue, total base number, detergency.
+- SAE grades: e.g., SAE 20W-40 – 'W' means winter grade (low-temperature viscosity, ≈ SAE 20 cold) and 40 is the viscosity at 100 °C; multigrade oils serve both.
+- Crankcase ventilation: PCV (positive crankcase ventilation) valve routes blow-by gases to the intake – emission control.
+PYQ-TREND: Petroil lubrication in two-strokes; splash vs pressure-feed; dry sump in racing/aircraft; viscosity index; SAE 20W-40 meaning; flash and fire points; PCV valve.
+
+## 11.6 Governing and Starting
+- Quantity governing (SI): throttle varies the quantity of mixture, keeping A/F nearly constant – throttling losses at part load. Quality governing (CI): quantity of fuel injected per cycle varied, air quantity nearly constant – A/F changes with load (lean at part load), no throttling loss. Hit-and-miss governing: fuel cut off for some cycles (small gas engines). Combination governing.
+- Governors: mechanical (centrifugal), pneumatic, hydraulic, electronic (ECU).
+- Starting: electric starter motor (DC series motor – high starting torque) with Bendix drive engaging the flywheel ring gear; kick start (motorcycles); compressed air starting (large diesels); hand cranking (small engines).
+PYQ-TREND: Quantity governing in SI and quality governing in CI (very frequent); starter is a DC series motor; Bendix drive.
+Q: Explain the working of a simple carburettor and its limitations.
+Fuel from the tank is kept at a constant level in the float chamber by a float-operated needle valve; the level is slightly below the tip of the fuel jet to prevent spilling when the engine is stopped. During the suction stroke air flows through the venturi; its velocity rises and pressure falls at the throat. The pressure difference between the float chamber (vented to atmosphere) and the throat forces fuel through the metering jet into the air stream as fine droplets, which partly vaporise. The throttle valve downstream of the venturi controls the quantity of mixture entering the cylinders, and so the engine power, while a choke valve upstream can restrict air to give a rich mixture for cold starting. Limitations: the simple carburettor delivers a progressively richer mixture as speed increases because the fuel flow increases faster than the air flow; it gives a very lean mixture at idling; it cannot provide extra fuel for acceleration; it is affected by altitude and icing. Compensating jets, air-bleed systems, idling circuits and accelerating pumps were added, and modern engines replace carburettors by electronic fuel injection.

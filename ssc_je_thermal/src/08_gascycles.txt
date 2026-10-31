@@ -1,0 +1,85 @@
+# Gas Power Cycles (Air-Standard Cycles)
+
+## 8.1 Air-Standard Assumptions and Terms
+- Working fluid is air, behaving as an ideal gas with constant specific heats; cycle is closed (exhaust and intake replaced by heat rejection); combustion replaced by heat addition from an external source; all processes internally reversible. The 'air-standard efficiency' is an upper limit for real engines.
+F: Compression ratio r = V₁/V₂ = (V_s + V_c)/V_c;  clearance ratio c = V_c/V_s → r = 1 + 1/c
+F: Cut-off ratio ρ = V₃/V₂ (Diesel);  pressure (explosion) ratio α = p₃/p₂ (Otto, Dual)
+F: Mean effective pressure: MEP = net work per cycle / swept volume
+F: Work ratio = net work / gross (positive) work
+- MEP is the constant pressure that, acting over the full stroke, would give the same net work – used to compare engines of different sizes.
+PYQ-TREND: Air-standard assumptions; compression ratio and clearance ratio relation; MEP definition (very frequent).
+
+## 8.2 Otto Cycle (Constant-Volume Cycle) – SI Engines
+- Processes: 1–2 isentropic compression; 2–3 constant-volume heat addition; 3–4 isentropic expansion; 4–1 constant-volume heat rejection.
+F: η_Otto = 1 − 1/r^(γ−1)
+F: Heat added Q₁ = cv(T₃ − T₂);  rejected Q₂ = cv(T₄ − T₁);  T₂/T₁ = T₃/T₄ = r^(γ−1)
+F: MEP_Otto = p₁ r [(α − 1)(r^(γ−1) − 1)] / [(γ − 1)(r − 1)]
+F: For maximum work between T_min and T_max: optimum r^(γ−1) = √(T₃/T₁) → T₂ = T₄ = √(T₁T₃)
+- Efficiency depends only on r (and γ), not on heat added. Increasing r is limited by detonation (knocking) in SI engines; practical r = 6–10 (up to ~12–13 with direct injection).
+| r (γ = 1.4) | η_Otto |
+| 4 | 42.6% |
+| 6 | 51.2% |
+| 8 | 56.5% |
+| 10 | 60.2% |
+| 12 | 63.0% |
+PYQ-TREND: Otto efficiency formula and dependence only on r (very frequent); limit of r by knocking; T₂ = T₄ = √(T₁T₃) for maximum work.
+TIP: Quick values: 2^0.4 = 1.32, 4^0.4 = 1.74, 8^0.4 = 2.30, 16^0.4 = 3.03, 10^0.4 = 2.51.
+
+## 8.3 Diesel Cycle (Constant-Pressure Cycle) – CI Engines
+- Processes: 1–2 isentropic compression; 2–3 constant-pressure heat addition; 3–4 isentropic expansion; 4–1 constant-volume heat rejection.
+F: η_Diesel = 1 − (1/r^(γ−1)) × [(ρ^γ − 1)/(γ(ρ − 1))]
+F: Q₁ = cp(T₃ − T₂);  Q₂ = cv(T₄ − T₁);  T₃/T₂ = ρ;  T₄/T₁ = ρ^γ
+F: MEP_Diesel = p₁ r^γ [γ(ρ − 1) − r^(1−γ)(ρ^γ − 1)] / [(γ − 1)(r − 1)]
+- The bracketed term is > 1, so for the same r, Diesel efficiency < Otto efficiency. Diesel efficiency falls as ρ (load) increases; η_Diesel → η_Otto as ρ → 1.
+- CI engines use r = 14–22, so in practice they are more efficient than SI engines.
+F: Cut-off as % of stroke: (V₃ − V₂)/(V₁ − V₂) = (ρ − 1)/(r − 1)
+PYQ-TREND: Diesel efficiency formula; efficiency decreases with increasing cut-off ratio; Diesel → Otto when ρ = 1; cut-off percentage of stroke.
+
+## 8.4 Dual Cycle (Limited-Pressure / Mixed Cycle)
+- Heat added partly at constant volume (2–3) and partly at constant pressure (3–4); closer to real high-speed CI engines.
+F: η_Dual = 1 − (1/r^(γ−1)) × [(αρ^γ − 1)/((α − 1) + γα(ρ − 1))]
+- Reduces to Otto when ρ = 1, to Diesel when α = 1.
+
+## 8.5 Comparison of Otto, Diesel and Dual Cycles
+| Condition | Order of efficiency |
+| Same r and same heat input | Otto > Dual > Diesel |
+| Same maximum pressure and temperature (same heat rejection) | Diesel > Dual > Otto |
+| Same maximum pressure and same heat input | Diesel > Dual > Otto |
+| Same r and same heat rejection | Otto > Dual > Diesel |
+FIG: otto_diesel
+PYQ-TREND: Comparison orders (asked almost every year). Remember: same r → Otto best; same peak pressure → Diesel best.
+
+## 8.6 Other Gas Cycles
+| Cycle | Processes | Remarks |
+| Stirling | 2 isothermal + 2 constant-volume, with perfect regenerator | η = Carnot; external combustion (Stirling engine) |
+| Ericsson | 2 isothermal + 2 constant-pressure, with regenerator | η = Carnot |
+| Atkinson | 2 isentropic + constant-volume addition + constant-pressure rejection | Expansion ratio > compression ratio; more efficient than Otto; used in hybrid cars (via late intake-valve closing) |
+| Lenoir | Constant-volume heat addition, isentropic expansion, constant-pressure rejection (no compression) | Pulse-jet; low efficiency |
+| Brayton (Joule) | 2 isentropic + 2 constant-pressure | Gas turbines |
+| Reversed Brayton (Bell–Coleman) | – | Air refrigeration |
+- Carnot, Stirling and Ericsson (with ideal regeneration) all have the maximum possible efficiency between two temperatures.
+PYQ-TREND: Stirling and Ericsson efficiencies equal Carnot (with regenerator); Atkinson cycle efficiency higher than Otto; Lenoir cycle has no compression; Bell–Coleman for air refrigeration.
+
+## 8.7 Brayton (Joule) Cycle – Gas Turbines
+- Processes: 1–2 isentropic compression (compressor); 2–3 constant-pressure heat addition (combustion chamber); 3–4 isentropic expansion (turbine); 4–1 constant-pressure heat rejection (exhaust/cooler).
+F: η_Brayton = 1 − 1/r_p^((γ−1)/γ)  (r_p = pressure ratio)
+F: Net work w = cp[(T₃ − T₄) − (T₂ − T₁)]
+F: Optimum pressure ratio for maximum net work: r_p,opt = (T₃/T₁)^(γ/(2(γ−1)))  → T₂ = T₄ = √(T₁T₃)
+F: Maximum net work: w_max = cp(√T₃ − √T₁)²
+F: Back-work ratio = compressor work / turbine work (40–80% in gas turbines – very high)
+F: With actual efficiencies: η_c = (T₂s − T₁)/(T₂ − T₁);  η_t = (T₃ − T₄)/(T₃ − T₄s)
+- Efficiency depends only on pressure ratio; net work depends on both r_p and T₃/T₁ (turbine inlet temperature limited by blade materials ≈ 1100–1600 °C with cooling).
+### Modifications of the gas turbine cycle
+| Modification | Effect |
+| Regeneration (heat exchanger using exhaust to preheat compressed air) | Increases efficiency, same net work; effective only when T₄ > T₂ (low r_p); ideal regenerator: η = 1 − (T₁/T₃) r_p^((γ−1)/γ) |
+| Intercooling (between compressor stages) | Reduces compressor work → increases net work; alone, reduces efficiency (lower T₂ needs more fuel), but with regeneration increases it |
+| Reheating (between turbine stages) | Increases turbine work → net work; alone reduces efficiency; with regeneration increases it |
+| Intercooling + reheating + regeneration | Approaches Ericsson cycle → approaches Carnot efficiency |
+F: Regenerator effectiveness ε = (T_x − T₂)/(T₄ − T₂)
+- Open-cycle gas turbine: air from atmosphere, combustion products exhausted. Closed cycle: working fluid recirculated (air, helium), heat added in a heat exchanger – allows any fuel (nuclear, coal) and higher pressures.
+- Gas turbines: compact, light, quick start, low cooling-water need; used for aircraft propulsion, peak-load power plants, combined cycles (Brayton topping + Rankine bottoming, efficiency 55–62%).
+FIG: brayton
+PYQ-TREND: Brayton efficiency depends only on r_p (very frequent); optimum r_p for maximum work; back-work ratio high; regeneration increases efficiency (not work); intercooling and reheating increase work; closed vs open cycle; combined cycle efficiency.
+WARN: Regeneration helps only if turbine exhaust temperature exceeds compressor delivery temperature. At high pressure ratios (T₂ > T₄) a regenerator would reduce efficiency.
+Q: Derive the expression for the air-standard efficiency of the Diesel cycle.
+Let the compression ratio be r = V₁/V₂ and cut-off ratio ρ = V₃/V₂. Heat added at constant pressure Q₁ = cp(T₃ − T₂); heat rejected at constant volume Q₂ = cv(T₄ − T₁). η = 1 − cv(T₄ − T₁)/(cp(T₃ − T₂)) = 1 − (T₄ − T₁)/(γ(T₃ − T₂)). From isentropic compression T₂ = T₁ r^(γ−1). At constant pressure T₃ = T₂ρ = T₁ρ r^(γ−1). Expansion ratio V₄/V₃ = r/ρ, so T₄ = T₃(ρ/r)^(γ−1) = T₁ρ^γ. Substituting: η = 1 − T₁(ρ^γ − 1)/(γT₁ r^(γ−1)(ρ − 1)) = 1 − (1/r^(γ−1))(ρ^γ − 1)/(γ(ρ − 1)). Since (ρ^γ − 1)/(γ(ρ − 1)) > 1 for ρ > 1, the Diesel efficiency is lower than Otto's for the same compression ratio, and it decreases as the cut-off ratio (load) increases.

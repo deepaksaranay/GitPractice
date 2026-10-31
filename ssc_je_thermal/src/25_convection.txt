@@ -1,0 +1,78 @@
+# Heat Transfer II – Convection, Boiling and Condensation
+
+## 25.1 Convection Fundamentals
+- Forced convection: fluid motion created by external means (fan, pump, wind). Free (natural) convection: motion caused by buoyancy from density differences due to temperature. Mixed convection: both comparable.
+- Thermal boundary layer: region near the surface where temperature changes from T_s to T_∞; velocity boundary layer – velocity changes. Their relative thickness depends on Prandtl number (δ_t/δ ≈ Pr^(−1/3) for laminar flow over a plate).
+- At the wall (no-slip), heat transfer is by conduction through the stagnant fluid layer: h = −k_f (∂T/∂y)_wall/(T_s − T_∞).
+| Situation | Typical h (W/m²·K) |
+| Free convection – gases | 2–25 |
+| Free convection – liquids | 10–1,000 |
+| Forced convection – gases | 25–250 |
+| Forced convection – liquids | 50–20,000 |
+| Boiling and condensation | 2,500–100,000 |
+PYQ-TREND: Forced vs free convection; boiling/condensation give the highest h; h is lowest for free convection in gases.
+
+## 25.2 Dimensionless Numbers
+| Number | Expression | Physical meaning | Used in |
+| Reynolds Re | ρVL/μ = VL/ν | Inertia / viscous forces | Forced convection – laminar/turbulent |
+| Prandtl Pr | μ c_p/k = ν/α | Momentum diffusivity / thermal diffusivity (relative thickness of velocity and thermal BL) | All convection |
+| Nusselt Nu | hL/k_fluid | Convective / conductive heat transfer across the fluid layer (dimensionless h) | All convection |
+| Grashof Gr | gβΔT L³/ν² | Buoyancy / viscous forces | Free convection (role of Re) |
+| Rayleigh Ra | Gr × Pr | Onset/strength of free convection | Free convection |
+| Stanton St | Nu/(Re Pr) = h/(ρVc_p) | Heat transferred / thermal capacity of fluid flow | Forced convection, analogies |
+| Peclet Pe | Re × Pr = VL/α | Advection / diffusion of heat | Liquid metals, forced convection |
+| Biot Bi | hL/k_solid | Internal conduction / external convection resistance | Transient conduction |
+| Fourier Fo | αt/L² | Dimensionless time | Transient conduction |
+| Graetz Gz | Re Pr (D/L) | Entry-length heat transfer | Laminar duct flow |
+| Lewis Le | α/D_AB = Sc/Pr | Heat / mass diffusivity | Simultaneous heat & mass transfer |
+| Schmidt Sc | ν/D_AB | Momentum / mass diffusivity | Mass transfer |
+| Sherwood Sh | h_m L/D_AB | Dimensionless mass-transfer coefficient | Mass transfer |
+| Eckert Ec | V²/(c_p ΔT) | Kinetic energy / enthalpy difference | High-speed flow |
+- Prandtl number values: liquid metals 0.004–0.03 (thermal BL ≫ velocity BL); gases ≈ 0.7–1.0 (air 0.71); water ≈ 7 at 20 °C (1.75 at 100 °C); light oils 100–1,000; heavy oils up to 10⁵.
+- Functional relationships: forced convection Nu = f(Re, Pr); free convection Nu = f(Gr, Pr) = f(Ra).
+PYQ-TREND: Meaning of Nu, Pr, Gr, St, Bi (very frequent); Pr of air ≈ 0.7, liquid metals very low; Nu = f(Re, Pr) for forced and f(Gr, Pr) for free convection; Biot uses k of solid, Nusselt uses k of fluid.
+TIP: Biot vs Nusselt look identical (hL/k) – the difference is whose k: solid → Biot (transient conduction), fluid → Nusselt (convection).
+
+## 25.3 Forced Convection Correlations
+F: Flat plate, laminar (Re_x < 5 × 10⁵): local Nu_x = 0.332 Re_x^0.5 Pr^(1/3);  average Nu_L = 0.664 Re_L^0.5 Pr^(1/3)
+F: Flat plate, turbulent: Nu_x = 0.0296 Re_x^0.8 Pr^(1/3);  average Nu_L = 0.037 Re_L^0.8 Pr^(1/3)
+F: Laminar fully developed tube flow: Nu = 3.66 (constant wall temperature), Nu = 4.36 (constant heat flux)
+F: Turbulent tube flow (Dittus–Boelter): Nu = 0.023 Re^0.8 Pr^n;  n = 0.4 (fluid being heated), 0.3 (cooled)
+F: Sieder–Tate (large viscosity variation): Nu = 0.027 Re^0.8 Pr^(1/3) (μ/μ_s)^0.14
+F: Reynolds analogy (Pr = 1): St = C_f/2;  Colburn analogy: St Pr^(2/3) = C_f/2 (j-factor)
+F: Hydraulic diameter for non-circular ducts: D_h = 4A/P
+F: Bulk (mixing-cup) temperature and LMTD for tubes: q = h A ΔT_lm
+- In fully developed laminar tube flow h is constant (Nu const) – h ∝ 1/D; in turbulent flow h ∝ V^0.8/D^0.2.
+- Laminar entry region has higher h than the fully developed region.
+PYQ-TREND: Nu = 3.66 and 4.36 (very frequent); Dittus–Boelter exponents 0.8 and 0.4/0.3; Reynolds/Colburn analogy; flat plate laminar Nu ∝ Re^0.5; hydraulic diameter 4A/P.
+
+## 25.4 Free (Natural) Convection
+F: Nu = C (Gr Pr)^n = C Ra^n;  laminar (10⁴ < Ra < 10⁹): n = 1/4;  turbulent (Ra > 10⁹): n = 1/3 (h independent of length)
+F: Volume expansion coefficient for ideal gas: β = 1/T (absolute film temperature)
+F: Film temperature T_f = (T_s + T_∞)/2 – properties evaluated at it
+- Transition from laminar to turbulent free convection on a vertical plate at Ra ≈ 10⁹.
+- Examples: cooling of transformers, radiators (domestic heaters), electronic components, hot pipes in still air, room heating, atmospheric and oceanic circulation.
+PYQ-TREND: Grashof number governs free convection; β = 1/T for gases; turbulent free convection exponent 1/3; film temperature for properties.
+
+## 25.5 Boiling
+- Boiling occurs when a surface temperature exceeds the saturation temperature of the liquid (excess temperature ΔT_e = T_s − T_sat). Pool boiling (stagnant liquid) vs flow (forced-convection) boiling; subcooled vs saturated boiling.
+### Pool boiling curve (Nukiyama, water at 1 atm)
+| Regime | ΔT_e (approx.) | Features |
+| Free-convection boiling | < 5 °C | Liquid superheated, evaporates at free surface |
+| Nucleate boiling | 5–30 °C | Bubbles form at nucleation sites; isolated bubbles then jets/columns; very high h; ends at the critical heat flux (CHF, peak heat flux, burnout point ≈ 1 MW/m² for water at 1 atm) |
+| Transition (unstable film) boiling | 30–120 °C | Partial vapour film, unstable; heat flux falls as ΔT rises |
+| Film boiling | > 120 °C | Stable vapour blanket; heat transfer by conduction and radiation through vapour; minimum heat flux at the Leidenfrost point |
+- Burnout: in heat-flux-controlled systems (electric heaters, nuclear fuel), exceeding CHF causes a jump to film boiling with a very large temperature rise that can melt the surface. Systems are designed to operate safely below CHF in nucleate boiling.
+- Leidenfrost effect: water drops dance on a very hot pan because a vapour film insulates them.
+- Factors increasing boiling heat transfer: rough surfaces (more nucleation sites), higher pressure (for nucleate boiling up to a point), agitation.
+FIG: boiling
+PYQ-TREND: Nucleate boiling gives maximum h (very frequent); critical heat flux / burnout point; Leidenfrost point marks film boiling minimum; regimes order; film boiling insulates by vapour.
+
+## 25.6 Condensation
+- Filmwise condensation: condensate wets the surface and forms a continuous film that adds thermal resistance (Nusselt's analysis). Dropwise condensation: condensate forms droplets (non-wetting surfaces, promoters like oleic acid, Teflon, gold coatings); much bare surface exposed – h is 5–10 times higher than filmwise. Because dropwise condensation is hard to sustain, condensers are designed for filmwise condensation.
+F: Nusselt: h_film (vertical plate) = 0.943 [ρ_l(ρ_l − ρ_v)g h_fg k_l³/(μ_l L ΔT)]^(1/4);  horizontal tube uses 0.725 with D in place of L
+- Horizontal tubes give better condensation than vertical tubes of the same size (thinner film); in a bank of tubes, inundation from upper tubes reduces h of lower tubes.
+- Presence of non-condensable gases (air) drastically reduces condensation heat transfer – hence air extraction in steam condensers.
+PYQ-TREND: Dropwise condensation gives higher h but filmwise is used for design (very frequent); effect of non-condensable gases; horizontal tubes better than vertical.
+Q: Explain the physical significance of Nusselt, Prandtl and Grashof numbers.
+The Nusselt number Nu = hL/k_f is the ratio of convective heat transfer to the heat that would be conducted through a stationary fluid layer of thickness L under the same temperature difference; it is the dimensionless heat-transfer coefficient (Nu = 1 means pure conduction). The Prandtl number Pr = ν/α = μc_p/k is a fluid property comparing the diffusion of momentum to the diffusion of heat; it fixes the relative thickness of the velocity and thermal boundary layers (Pr ≈ 1 for gases – similar thicknesses; Pr ≪ 1 for liquid metals – thick thermal layer; Pr ≫ 1 for oils – thin thermal layer). The Grashof number Gr = gβΔTL³/ν² is the ratio of buoyancy forces to viscous forces in natural convection; it plays the role that the Reynolds number plays in forced convection, determining whether free-convection flow is laminar or turbulent (with Ra = Gr Pr ≈ 10⁹ as the transition value on vertical plates).

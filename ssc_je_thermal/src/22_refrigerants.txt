@@ -1,0 +1,58 @@
+# Refrigerants, Vapour Absorption and Other Systems
+
+## 22.1 Refrigerants
+- Primary refrigerants undergo the cycle (ammonia, halocarbons, CO₂, hydrocarbons). Secondary refrigerants (brines – NaCl or CaCl₂ solutions, glycols, water) are cooled by the primary refrigerant and then carry cold to the load without phase change.
+### Numbering (ASHRAE)
+F: Halocarbons CₘHₙF_pCl_q: R-(m−1)(n+1)(p)  – hundreds digit = C − 1, tens = H + 1, units = F
+F: Inorganic: R-7XX where XX = molecular mass (NH₃ = 17 → R-717; H₂O = 18 → R-718; CO₂ = 44 → R-744; air = 29 → R-729)
+F: Blends: zeotropic R-4XX (R-404A, R-407C, R-410A); azeotropic R-5XX (R-502); hydrocarbons R-600 (n-butane), R-600a (isobutane), R-290 (propane)
+| Refrigerant | Chemical | Boiling point (1 atm) | Uses / remarks |
+| R-11 | CCl₃F | 23.8 °C | Centrifugal chillers (old); CFC – banned |
+| R-12 | CCl₂F₂ | −29.8 °C | Old domestic refrigerators, car AC; CFC – banned |
+| R-22 | CHClF₂ | −40.8 °C | Window/split AC, cold storage; HCFC – being phased out |
+| R-134a | CH₂FCF₃ | −26.1 °C | Domestic refrigerators, car AC; HFC; ODP 0, GWP ≈ 1,430 |
+| R-410A | Blend of R-32/R-125 | −48.5 °C | Modern ACs; ODP 0, high GWP |
+| R-32 | CH₂F₂ | −51.7 °C | Modern split ACs; lower GWP (≈ 675) |
+| R-717 (ammonia) | NH₃ | −33.3 °C | Cold storage, ice plants, large industrial plants; highest refrigerating effect per kg; toxic, flammable at certain concentrations; attacks copper – use steel; ODP 0, GWP 0 |
+| R-744 (CO₂) | CO₂ | −78.5 °C (sublimes) | Ships, transcritical systems, supermarkets; very high pressure; ODP 0, GWP 1 |
+| R-718 (water) | H₂O | 100 °C | Absorption (LiBr–water) chillers, steam-jet systems |
+| R-600a (isobutane) | C₄H₁₀ | −11.7 °C | Modern domestic refrigerators; natural, flammable |
+| R-290 (propane) | C₃H₈ | −42 °C | Natural refrigerant in small AC |
+| R-1234yf | HFO | −29 °C | New car AC refrigerant; very low GWP |
+- Desirable properties of a refrigerant: thermodynamic – low boiling point, high latent heat of vaporisation, low specific volume of vapour (small compressor), moderate condensing pressure, high critical temperature (well above condensing temperature), low freezing point, high COP; chemical – non-toxic, non-flammable, non-corrosive, chemically stable, inert with oil and materials; physical – good thermal conductivity, low viscosity, easy leak detection, high dielectric strength (hermetic units); environmental – zero ODP, low GWP; economic – cheap and available.
+- Leak detection: ammonia – sulphur candle (dense white fumes of ammonium sulphite), litmus/phenolphthalein paper, smell; halocarbons – halide torch (flame turns green), electronic detectors; all – soap solution.
+- Environment: CFCs (contain chlorine) deplete stratospheric ozone (Montreal Protocol 1987 – phase-out); HCFCs being phased out; HFCs have zero ODP but high GWP (Kigali Amendment 2016 – phase-down). Trend towards natural refrigerants (NH₃, CO₂, hydrocarbons) and HFOs.
+PYQ-TREND: Refrigerant numbering (R-717 ammonia, R-744 CO₂, R-718 water; R-134a formula) – very frequent; ammonia not used with copper; halide torch for Freon leaks; sulphur candle for ammonia; Montreal (ozone) vs Kigali (HFC) protocols; R-134a has zero ODP; desirable properties; secondary refrigerants (brine).
+TIP: R-134a: '1' (C = 2), '3' (H = 2), '4' (F = 4) → C₂H₂F₄. Add 90 to any halocarbon number to get C-H-F directly: 134 + 90 = 224 → C₂H₂F₄; 12 + 90 = 102 → C₁H₀F₂ (rest chlorine).
+
+## 22.2 Vapour Absorption Refrigeration (VAR)
+- The compressor of a VCR system is replaced by a 'thermal compressor': absorber + pump + generator (+ heat exchanger). Low-pressure refrigerant vapour from the evaporator is absorbed in a weak solution in the absorber (heat removed by cooling water); the strong solution is pumped (small pump work) to the generator, where heat (steam, waste heat, solar, gas flame) drives the refrigerant vapour out; condenser, expansion valve and evaporator work as in VCR.
+| System | Refrigerant | Absorbent | Uses / notes |
+| Aqua-ammonia | NH₃ | Water | Sub-zero temperatures; needs analyser and rectifier to remove water vapour from ammonia leaving the generator |
+| Lithium bromide–water | Water | LiBr | Above 0 °C (water freezes) – large AC chillers (single/double effect); operates under vacuum; crystallisation risk |
+| Electrolux (Platen–Munters, three-fluid) | NH₃ | Water | Hydrogen as third fluid equalises total pressure throughout – no pump, no moving parts; gravity circulation; small domestic/hotel refrigerators, caravans |
+F: Ideal (maximum) COP of VAR: COP = [(T_G − T_0)/T_G] × [T_E/(T_0 − T_E)]  (T_G generator, T_0 ambient/condenser, T_E evaporator)
+F: Practical COP: single-effect LiBr ≈ 0.6–0.8; double-effect ≈ 1.0–1.3; aqua-ammonia ≈ 0.5–0.7
+- Advantages: uses low-grade heat (waste steam, solar), few moving parts, quiet, no compressor wear, capacity control easy, refrigerant is natural. Disadvantages: low COP, bulky, higher initial cost, longer start-up.
+| VCR | VAR |
+| Mechanical work (compressor) | Heat energy (generator) + small pump work |
+| High COP (2–5) | Low COP (0.5–1.3) |
+| Noisy, moving parts | Quiet, few moving parts |
+| Performance drops sharply at low evaporator pressures | Less affected by evaporator pressure |
+| Electricity costly | Can use waste/solar heat |
+PYQ-TREND: Electrolux uses hydrogen as third fluid with no pump (very frequent); LiBr–water: water is the refrigerant (above 0 °C only); aqua-ammonia: ammonia is refrigerant, needs rectifier and analyser; ideal COP of VAR formula; VAR vs VCR comparison.
+
+## 22.3 Other Refrigeration Systems
+| System | Principle / use |
+| Steam-jet (water vapour) refrigeration | High-velocity steam jet (ejector) creates vacuum so water evaporates at low temperature (≈ 4–10 °C); chilled water for AC; no moving parts except pumps |
+| Thermoelectric | Peltier effect – heat absorbed at one junction of dissimilar semiconductors (Bi₂Te₃) when current flows; portable coolers, electronics; low COP |
+| Vortex tube (Ranque–Hilsch) | Compressed air enters tangentially, splits into hot outer and cold inner streams; spot cooling, no moving parts |
+| Evaporative cooling (desert cooler) | Water evaporates into dry air; effective only in hot, dry climates |
+| Adiabatic demagnetisation | Paramagnetic salts – temperatures near 0 K |
+| Cryogenics (< −150 °C) | Linde–Hampson (J–T throttling with regenerative heat exchanger), Claude (expansion engine + throttling), cascade systems; liquefaction of air, N₂, O₂, H₂, He |
+| Cascade refrigeration | Two or more VCR circuits in series, each with a suitable refrigerant – very low temperatures (−60 to −100 °C) |
+| Multi-pressure / multi-evaporator systems | Flash intercooling, flash gas removal for large temperature lifts |
+- Dry ice (solid CO₂) sublimes at −78.5 °C at 1 atm; used for transport of frozen food, stage fog. Liquid nitrogen boils at −196 °C.
+PYQ-TREND: Peltier effect; vortex tube; Linde–Hampson and Claude cycles; desert coolers in dry climates; dry ice −78.5 °C; liquid nitrogen −196 °C; cascade systems for very low temperature.
+Q: Explain the Electrolux refrigerator and why it needs no pump.
+The Electrolux (three-fluid) absorption refrigerator uses ammonia as refrigerant, water as absorbent and hydrogen as an auxiliary inert gas. Hydrogen fills the evaporator and absorber, so that the total pressure is the same everywhere in the system; in the evaporator the partial pressure of ammonia is low (most of the total pressure is due to hydrogen), so liquid ammonia evaporates at a low temperature by diffusing into the hydrogen, absorbing heat from the cabinet. The heavy ammonia–hydrogen mixture sinks to the absorber, where water absorbs the ammonia; the light hydrogen rises back to the evaporator. The strong solution is heated in the generator by a gas flame or electric heater; vapour bubbles lift the solution up a narrow tube (bubble pump) to a separator, where ammonia vapour goes to the air-cooled condenser and the weak water solution returns by gravity to the absorber. Because the total pressure is uniform, no pump or valve is needed – the system has no moving parts, runs silently and can operate from any heat source, though its COP is low.

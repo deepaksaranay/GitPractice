@@ -1,0 +1,18 @@
+# How to Use These Notes
+
+## Why Thermal Engineering Is the Biggest Block
+Thermal engineering is the largest block of SSC JE Mechanical. Across Paper-I it typically contributes 25–30 of the 100 technical questions, and in Paper-II it forms the biggest share of numericals. The same ideas repeat year after year: zeroth/first/second law statements, Carnot efficiency and COP, entropy change, Otto/Diesel/Dual comparison, octane and cetane numbers, Rankine improvements, boiler mountings and accessories, critical pressure ratio of nozzles, Parsons turbine, isothermal compression and intercooling, refrigerant numbering and 1 TR, psychrometric processes, critical radius of insulation, dimensionless numbers and LMTD.
+| Area | Typical questions (Mech Paper-I) | Priority |
+| Basic thermodynamics (laws, entropy, properties) | 6–8 | Very high |
+| Gas power cycles + IC engines | 5–7 | Very high |
+| Steam, boilers, turbines, nozzles, power plants | 4–6 | High |
+| Air compressors, gas turbines | 2–3 | Medium |
+| Refrigeration & air conditioning | 3–5 | Very high |
+| Heat transfer | 3–5 | High |
+
+## How Each Chapter Is Built
+- Concept points → yellow formula box → blue PYQ-TREND box (concepts SSC asks repeatedly, from recurring topics – not copied questions) → green TOPPER TRICK → red COMMON MISTAKE → purple Paper-II question with a model answer.
+- Chapters 24–25 hold solved numericals; Chapter 26 is a concept-recall bank; Chapter 27 has Paper-II answers; Chapter 28 is the last-minute sheet. Appendix A collects every formula; Appendix B collects every PYQ-trend box.
+- Standard data used: air R = 0.287 kJ/kg·K, cp = 1.005, cv = 0.718 kJ/kg·K, γ = 1.4; universal gas constant R̄ = 8.314 kJ/kmol·K; water cp = 4.187 kJ/kg·K; hfg at 1 atm = 2257 kJ/kg; 1 TR = 3.5167 kW.
+TIP: Always convert temperatures to kelvin before using any ratio formula (Carnot, isentropic relations, entropy). This single habit prevents most numerical errors.
+WARN: Sign conventions differ between books. This book uses: heat added to the system positive, work done by the system positive (Q = ΔU + W).

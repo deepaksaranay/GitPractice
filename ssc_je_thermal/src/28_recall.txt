@@ -1,0 +1,294 @@
+# Concept Recall Bank
+Short question → crisp answer. Cover the right column and test yourself (active recall, not MCQs).
+
+## R1. Basic Thermodynamics and First Law
+| Question | Answer |
+| System exchanging neither mass nor energy? | Isolated system |
+| System exchanging energy but not mass? | Closed system (control mass) |
+| Turbine, compressor, nozzle are which systems? | Open systems (control volume) |
+| Intensive property examples? | Pressure, temperature, density, specific volume |
+| Extensive property examples? | Mass, volume, energy, enthalpy, entropy |
+| Is the ratio of two extensive properties intensive? | Yes (e.g. specific volume = V/m) |
+| Basis of temperature measurement? | Zeroth law |
+| Heat and work are path or point functions? | Path functions (inexact differentials) |
+| Thermodynamic properties are? | Point (state) functions – exact differentials |
+| Quasi-static process means? | Infinitely slow, passes through equilibrium states |
+| Work in free expansion? | Zero |
+| Work in a constant-volume process? | Zero (∫p dV = 0) |
+| Area under p–V curve represents? | Work (non-flow) |
+| Area under T–s curve represents? | Heat (reversible) |
+| First law for a cycle? | ∮δQ = ∮δW |
+| First law for a process? | Q = ΔU + W |
+| Internal energy of an ideal gas depends on? | Temperature only (Joule's law) |
+| PMM-1 violates? | First law |
+| Enthalpy definition? | H = U + pV |
+| c_p − c_v for ideal gas? | R (Mayer's relation) |
+| γ for monatomic / diatomic gas? | 1.67 / 1.4 |
+| Universal gas constant? | 8.314 kJ/kmol·K |
+| R for air? | 0.287 kJ/kg·K |
+| c_p and c_v of air? | 1.005 and 0.718 kJ/kg·K |
+| Isothermal process for ideal gas: ΔU? | Zero; Q = W |
+| Adiabatic process: Q? | Zero; W = −ΔU |
+| Polytropic index n = 0, 1, γ, ∞? | Isobaric, isothermal, adiabatic, isochoric |
+| Heat transfer in polytropic process? | Q = W (γ − n)/(γ − 1) |
+| Slope of adiabatic vs isothermal on p–V? | Adiabatic is γ times steeper |
+| Steady-flow energy equation for nozzle? | V₂ = √(2(h₁ − h₂)) = 44.72√Δh (Δh in kJ/kg) |
+| Throttling process? | Isenthalpic (h₁ = h₂), irreversible |
+| Joule–Thomson coefficient? | μ = (∂T/∂p)_h; zero for ideal gas |
+| Inversion temperature? | Above it, throttling heats the gas |
+| Flow work? | pv – energy to push fluid across boundary |
+| Steady-flow work of reversible process? | −∫v dp |
+
+## R2. Second Law, Entropy, Availability
+| Question | Answer |
+| Kelvin–Planck statement? | No engine can produce work while exchanging heat with a single reservoir |
+| Clausius statement? | Heat cannot flow from cold to hot without external work |
+| PMM-2 violates? | Second law (Kelvin–Planck) |
+| Carnot efficiency? | 1 − T_L/T_H |
+| Carnot efficiency depends on? | Only reservoir temperatures, not working fluid |
+| Carnot cycle processes? | Two isothermal + two reversible adiabatic |
+| Why Carnot cycle impractical? | Isothermal heat transfer too slow, adiabatic too fast; low work ratio |
+| COP of Carnot refrigerator? | T_L/(T_H − T_L) |
+| COP of heat pump vs refrigerator? | COP_HP = COP_R + 1 |
+| Clausius inequality? | ∮δQ/T ≤ 0 |
+| Entropy change of reversible adiabatic process? | Zero (isentropic) |
+| Entropy of isolated system? | Never decreases (increase of entropy principle) |
+| Entropy of universe in real process? | Increases |
+| Third law? | Entropy of a perfect crystal at 0 K is zero |
+| Entropy unit? | kJ/K (specific: kJ/kg·K) |
+| Entropy change of ideal gas? | c_p ln(T₂/T₁) − R ln(p₂/p₁) |
+| Δs in isothermal ideal gas expansion? | R ln(v₂/v₁) |
+| Available energy? | Q(1 − T₀/T) |
+| Irreversibility (Gouy–Stodola)? | I = T₀ S_gen |
+| Dead state? | Equilibrium with surroundings (T₀, p₀) |
+| Gibbs function? | G = H − TS |
+| Helmholtz function? | F = U − TS |
+| Exergy of heat at T₀? | Zero |
+| Two engines in series, equal efficiency – T? | √(T₁T₂) |
+| Two engines in series, equal work – T? | (T₁ + T₂)/2 |
+| Maxwell relations derive from? | Exactness of dU, dH, dF, dG |
+| Clausius–Clapeyron equation? | dp/dT = h_fg/(T v_fg) |
+
+## R3. Pure Substances and Steam
+| Question | Answer |
+| Triple point of water? | 0.01 °C, 0.6117 kPa |
+| Critical point of water? | 374.14 °C, 22.09 MPa |
+| Latent heat at critical point? | Zero |
+| Dryness fraction x? | Mass of vapour/total mass |
+| Enthalpy of wet steam? | h_f + x h_fg |
+| Latent heat of water at 1 atm? | 2257 kJ/kg |
+| Best calorimeter for very wet steam? | Combined separating and throttling |
+| Throttling calorimeter requires? | Steam to become superheated after throttling |
+| Mollier diagram axes? | h (y) vs s (x) |
+| Constant pressure lines in wet region on h–s? | Straight lines |
+| Sublimation occurs below? | Triple point pressure |
+| Dry ice sublimation temperature? | −78.5 °C at 1 atm |
+| Degree of superheat? | T_sup − T_sat |
+| Specific heat of superheated steam (approx.)? | ≈ 2.1 kJ/kg·K |
+
+## R4. Gas Cycles and IC Engines
+| Question | Answer |
+| Otto efficiency? | 1 − 1/r^(γ−1) |
+| Otto efficiency depends on? | Only compression ratio (and γ) |
+| Diesel efficiency vs cut-off ratio? | Decreases as cut-off increases |
+| For same r and heat input, efficiency order? | Otto > Dual > Diesel |
+| For same max pressure and temperature? | Diesel > Dual > Otto |
+| Dual cycle also called? | Limited-pressure / mixed cycle |
+| Brayton efficiency? | 1 − 1/r_p^((γ−1)/γ) |
+| Optimum r_p for max Brayton work? | (T_max/T_min)^(γ/2(γ−1)) |
+| Stirling cycle processes? | Two isothermal + two constant volume with regeneration |
+| Ericsson cycle processes? | Two isothermal + two constant pressure with regeneration |
+| Atkinson cycle feature? | Expansion ratio > compression ratio |
+| SI engine works on? | Otto cycle |
+| CI engine works on? | Diesel/dual cycle |
+| Typical compression ratio SI / CI? | 6–11 / 14–22 |
+| Power stroke per cycle in four-stroke? | One per two revolutions |
+| Power stroke in two-stroke? | One per revolution |
+| Scavenging is in? | Two-stroke engines |
+| Port timing in two-stroke uses? | Piston covers/uncovers ports |
+| Inlet valve opens? | ≈ 10–20° before TDC |
+| Exhaust valve opens? | ≈ 35–45° before BDC |
+| Valve overlap? | Both valves open near TDC |
+| Detonation occurs in? | SI engine (end-gas autoignition) |
+| Knock in CI engine due to? | Long ignition delay |
+| Octane number reference fuels? | Iso-octane (100) and n-heptane (0) |
+| Cetane number reference fuels? | Cetane (100) and α-methyl naphthalene (0) |
+| Anti-knock additive (old)? | Tetraethyl lead (TEL) – banned |
+| SI knock reduced by? | Lower r, retarded spark, high octane, cooling, turbulence |
+| CI knock reduced by? | High cetane, high r, high intake temperature, reduced delay |
+| Fuel for SI requires? | High octane (resists autoignition) |
+| Fuel for CI requires? | High cetane (easy autoignition) |
+| Carburettor works on? | Venturi principle |
+| Fuel injection in CI? | Injector/nozzle with high-pressure pump (MPFI/CRDI) |
+| Governing in SI? | Quantity governing (throttle) |
+| Governing in CI? | Quality governing (fuel quantity) |
+| Firing order of 4-cyl engine? | 1-3-4-2 (or 1-2-4-3) |
+| Mean effective pressure? | Net work/swept volume |
+| Mechanical efficiency? | BP/IP |
+| Morse test is for? | Multi-cylinder engines – IP |
+| Willan's line method? | Friction power of CI engine (fuel vs BP extrapolation) |
+| Volumetric efficiency? | Actual air/swept volume air |
+| Supercharging? | Increasing intake air density (more power) |
+| Turbocharger driven by? | Exhaust gas turbine |
+| Catalytic converter reduces? | CO, HC, NOx (three-way) |
+| EGR reduces? | NOx |
+| Rich mixture A/F (petrol)? | Less than 14.7 |
+| bsfc unit? | kg/kWh |
+| Best power mixture? | Slightly rich |
+| Best economy mixture? | Slightly lean |
+
+## R5. Steam Power Plant
+| Question | Answer |
+| Rankine cycle processes? | Pump, boiler, turbine, condenser |
+| Rankine efficiency increased by? | Higher boiler p, superheat, lower condenser p, reheat, regeneration |
+| Reheating mainly increases? | Dryness at turbine exit (and work) |
+| Regeneration mainly increases? | Efficiency (mean temperature of heat addition) |
+| Open feed water heater also called? | Deaerator / direct contact heater |
+| Work ratio of Rankine cycle? | Close to 1 (pump work small) |
+| Fire-tube boilers? | Cochran, Lancashire, Cornish, locomotive, Scotch marine |
+| Water-tube boilers? | Babcock & Wilcox, Stirling, La Mont, Benson, Loeffler |
+| Boiler without drum? | Benson (supercritical) |
+| Loeffler boiler feature? | Steam used to evaporate water |
+| La Mont boiler? | Forced circulation |
+| Fusible plug function? | Melts to put out fire when water level low |
+| Economiser heats? | Feed water (using flue gas) |
+| Air preheater heats? | Combustion air |
+| Superheater? | Converts saturated steam to superheated |
+| Equivalent evaporation reference? | From and at 100 °C (2257 kJ/kg) |
+| Natural draught depends on? | Chimney height and gas/air density difference |
+| Induced draught fan location? | Near chimney base (handles hot gases) |
+| Forced draught fan location? | Before furnace (cold air) |
+| Balanced draught? | FD + ID fans |
+| Critical pressure ratio – superheated steam? | 0.546 |
+| Critical pressure ratio – saturated steam? | 0.577 |
+| Critical pressure ratio – air? | 0.528 |
+| Supersaturated flow in nozzle? | Metastable – steam expands without condensing |
+| Convergent nozzle max exit Mach? | 1 (choked) |
+| De Laval turbine? | Simple single-stage impulse |
+| Curtis turbine? | Velocity compounded impulse |
+| Rateau turbine? | Pressure compounded impulse |
+| Parsons turbine? | 50% reaction |
+| Optimum u/V₁ impulse? | cosα/2 |
+| Optimum u/V₁ Parsons? | cosα |
+| Max blade efficiency – impulse? | cos²α |
+| Degree of reaction? | Enthalpy drop in moving blades/stage drop |
+| Nozzle governing? | Controls number of nozzles open |
+| Throttle governing? | Throttles steam pressure – Willan's line straight |
+| Condenser improves efficiency by? | Lowering back pressure |
+| Dalton's law in condenser? | Total p = p_steam + p_air |
+| Surface condenser advantage? | Condensate reused as feed |
+| Jet condenser? | Cooling water and steam mix |
+| Cooling tower types? | Natural draught (hyperbolic), mechanical draught |
+| Approach of cooling tower? | Outlet water T − WBT of air |
+| Range of cooling tower? | Inlet − outlet water temperature |
+
+## R6. Power Plants
+| Question | Answer |
+| Moderator in thermal reactor? | Heavy water, graphite, light water |
+| Coolant in PWR? | Pressurised light water |
+| Control rods material? | Boron, cadmium, hafnium |
+| Fast breeder reactor coolant? | Liquid sodium |
+| India's three-stage programme fuel ends with? | Thorium |
+| Load factor? | Average load/maximum demand |
+| Plant capacity factor? | Actual energy/(capacity × time) |
+| Diversity factor? | Sum of max demands/simultaneous max demand (>1) |
+| Peak load plants? | Gas turbine, pumped storage, diesel |
+| Base load plants? | Nuclear, large coal |
+| Combined cycle? | Gas turbine exhaust → HRSG → steam turbine |
+| ESP removes? | Fly ash (particulates) |
+| FGD removes? | SO₂ |
+
+## R7. Compressors and Gas Turbines
+| Question | Answer |
+| Minimum work compression? | Isothermal |
+| Effect of clearance on volumetric efficiency? | Decreases it |
+| Clearance effect on work per kg (ideal)? | None |
+| Optimum intermediate pressure (2-stage)? | √(p₁p₃) |
+| Perfect intercooling means? | Air cooled back to initial temperature |
+| Free air delivery (FAD)? | Air delivered referred to intake/ambient conditions |
+| Centrifugal compressor slip? | Whirl at exit less than blade speed |
+| Axial compressor degree of reaction? | Usually 50% |
+| Surging? | Flow instability/reversal at low flow |
+| Choking? | Mass flow maximum (sonic) |
+| Stalling? | Flow separation from blades |
+| Gas turbine regeneration useful when? | Turbine exhaust T > compressor exit T |
+| Turbojet thrust? | ṁ(V_j − V_a) |
+| Propulsive efficiency? | 2V_a/(V_j + V_a) |
+| Rocket carries? | Both fuel and oxidiser |
+| Ramjet needs? | Initial forward speed (no compressor) |
+
+## R8. Refrigeration and Air Conditioning
+| Question | Answer |
+| 1 TR equals? | 3.5167 kW = 211 kJ/min |
+| VCR components? | Compressor, condenser, expansion valve, evaporator |
+| Process in expansion valve? | Isenthalpic throttling |
+| Subcooling effect? | Increases RE and COP |
+| Superheating effect? | Increases RE but may change COP; protects compressor |
+| COP falls when? | Evaporator T decreases or condenser T increases |
+| Bell–Coleman cycle used in? | Aircraft cooling |
+| Aircraft refrigeration type? | Air refrigeration (simple, bootstrap) |
+| Electrolux third fluid? | Hydrogen |
+| LiBr–water refrigerant? | Water |
+| Aqua-ammonia refrigerant? | Ammonia |
+| R-717? | Ammonia |
+| R-744? | CO₂ |
+| R-718? | Water |
+| R-134a formula? | CH₂FCF₃ (C₂H₂F₄) |
+| Refrigerant used in domestic fridge now? | R-134a, R-600a |
+| Ammonia incompatible with? | Copper and its alloys |
+| Leak test for ammonia? | Sulphur candle |
+| Leak test for Freon? | Halide torch (green flame) |
+| Ozone treaty? | Montreal Protocol (1987) |
+| HFC phase-down? | Kigali Amendment (2016) |
+| Capillary tube used in? | Small domestic units |
+| Thermostatic expansion valve maintains? | Constant superheat |
+| Automatic expansion valve maintains? | Constant evaporator pressure |
+| Peltier effect used in? | Thermoelectric refrigeration |
+| DBT, WBT, DPT for saturated air? | All equal |
+| Specific humidity formula? | 0.622 p_v/(p_b − p_v) |
+| Sensible heating on chart? | Horizontal line |
+| Evaporative cooling follows? | Constant WBT line |
+| Chemical dehumidification? | DBT rises, ω falls (constant h) |
+| Winter AC process? | Heating + humidification |
+| Summer AC process? | Cooling + dehumidification |
+| Bypass factor? | (t₂ − t_ADP)/(t₁ − t_ADP) |
+| SHF? | Sensible/(sensible + latent) |
+| Comfort condition (summer)? | ≈ 24–25 °C DBT, 50% RH |
+| Sling psychrometer measures? | DBT and WBT |
+
+## R9. Heat Transfer
+| Question | Answer |
+| Fourier's law? | q = −kA dT/dx |
+| Highest k (metal)? | Silver |
+| k of gases with temperature? | Increases |
+| Thermal diffusivity? | k/(ρc_p) |
+| Critical radius (cylinder)? | k/h |
+| Critical radius (sphere)? | 2k/h |
+| Fins placed on? | Side with lower h |
+| Fin justified if effectiveness? | > 2 |
+| Lumped analysis valid if? | Bi < 0.1 |
+| L_c of sphere? | R/3 |
+| Biot number? | hL/k_solid |
+| Nusselt number? | hL/k_fluid |
+| Prandtl number? | ν/α |
+| Pr of air? | ≈ 0.71 |
+| Pr of liquid metals? | Very low (0.01) |
+| Grashof number significance? | Buoyancy/viscous – free convection |
+| Stanton number? | Nu/(Re Pr) |
+| Laminar tube Nu (const T_w / const q)? | 3.66 / 4.36 |
+| Dittus–Boelter exponent on Pr (heating)? | 0.4 |
+| Maximum h in boiling? | Nucleate boiling |
+| Dropwise vs filmwise h? | Dropwise higher |
+| Burnout point? | Critical heat flux |
+| Stefan–Boltzmann constant? | 5.67 × 10⁻⁸ W/m²K⁴ |
+| Wien's constant? | 2898 μm·K |
+| Kirchhoff's law? | ε = α at equilibrium |
+| Grey body? | ε constant < 1 for all λ |
+| F₁₁ for flat/convex surface? | 0 |
+| Reciprocity theorem? | A₁F₁₂ = A₂F₂₁ |
+| n shields with same ε reduce heat to? | 1/(n + 1) |
+| LMTD formula? | (ΔT₁ − ΔT₂)/ln(ΔT₁/ΔT₂) |
+| Better HX arrangement? | Counter flow |
+| ε of condenser/evaporator? | 1 − e^(−NTU) |
+| NTU? | UA/C_min |
+| Fouling factor? | 1/U_dirty − 1/U_clean |

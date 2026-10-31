@@ -1,0 +1,64 @@
+# Work, Heat and the First Law (Closed Systems)
+
+## 2.1 Work and Heat
+- Work: energy interaction at the boundary that could be reduced to raising a weight. Displacement (p dV) work: W = ∫p dV for a quasi-static process – area under the curve on a p–V diagram.
+- Other work modes: shaft work (T·θ), electrical work (V·I·t), stretching a wire (F dL), surface tension (σ dA), magnetisation.
+- Heat: energy transfer due to temperature difference. Heat and work are both boundary phenomena and path functions.
+- Free expansion (expansion against vacuum): W = 0 because no external resistance; irreversible; not quasi-static.
+- Sign convention used here: heat into the system +, work done by the system +.
+F: Work done in different quasi-static processes (closed system, ideal gas)
+F: Constant volume (isochoric): W = 0
+F: Constant pressure (isobaric): W = p(V₂ − V₁) = mR(T₂ − T₁)
+F: Isothermal (pV = C): W = p₁V₁ ln(V₂/V₁) = mRT ln(p₁/p₂)
+F: Adiabatic reversible (pV^γ = C): W = (p₁V₁ − p₂V₂)/(γ − 1) = mR(T₁ − T₂)/(γ − 1)
+F: Polytropic (pV^n = C): W = (p₁V₁ − p₂V₂)/(n − 1)
+- Polytropic index n: n = 0 → isobaric; n = 1 → isothermal; n = γ → reversible adiabatic (isentropic); n = ∞ → isochoric. On a p–V diagram the curves get steeper as n increases.
+- Slope of adiabatic on p–V = γ × slope of isothermal through the same point (adiabatic is steeper).
+F: Isentropic relations: T₂/T₁ = (V₁/V₂)^(γ−1) = (p₂/p₁)^((γ−1)/γ)
+F: Polytropic: T₂/T₁ = (V₁/V₂)^(n−1) = (p₂/p₁)^((n−1)/n)
+FIG: processes
+PYQ-TREND: Work in free expansion = 0 (very frequent); n values for each process; adiabatic steeper than isothermal on p–V; work formulas; area under p–V = work.
+TIP: For compression from the same state to the same final pressure, work input is least for isothermal and greatest for adiabatic; for expansion, isothermal gives the most work out.
+
+## 2.2 First Law of Thermodynamics
+- Joule's experiment (paddle wheel stirring water in an insulated vessel): for a cycle, net heat equals net work. ∮δQ = ∮δW (with Q and W in the same units; earlier J = 4.186 J/cal).
+- For a process: Q = ΔU + W (energy conservation). Internal energy is a property (a corollary of the first law).
+- Isolated system: Q = W = 0 → ΔU = 0 (energy of an isolated system is constant).
+- PMM-1 (perpetual motion machine of the first kind): a device producing work continuously without any energy input – impossible by the first law.
+F: Cycle: ∮δQ = ∮δW
+F: Process: Q₁₋₂ = (U₂ − U₁) + W₁₋₂;  per unit mass q = Δu + w
+F: Enthalpy H = U + pV;  h = u + pv
+F: Ideal gas: du = cv dT, dh = cp dT, cp − cv = R, γ = cp/cv
+F: cv = R/(γ − 1);  cp = γR/(γ − 1);  molar: C̄p − C̄v = R̄ = 8.314 kJ/kmol·K
+F: Polytropic heat: Q = W (γ − n)/(γ − 1);  polytropic specific heat c_n = cv (n − γ)/(n − 1) (negative for 1 < n < γ)
+- Joule's law: internal energy (and enthalpy) of an ideal gas is a function of temperature only.
+- γ values: monatomic (He, Ar) 1.67; diatomic (air, N₂, O₂, H₂) 1.4; triatomic (CO₂, H₂O vapour) ≈ 1.3.
+- Constant-volume process: Q = ΔU = mcvΔT. Constant-pressure: Q = ΔH = mcpΔT. Isothermal (ideal gas): ΔU = 0, Q = W. Adiabatic: Q = 0, W = −ΔU.
+| Process | Q | W | ΔU |
+| Isochoric | m cv ΔT | 0 | m cv ΔT |
+| Isobaric | m cp ΔT | p ΔV | m cv ΔT |
+| Isothermal | W | p₁V₁ ln(V₂/V₁) | 0 |
+| Adiabatic (reversible) | 0 | (p₁V₁ − p₂V₂)/(γ−1) | −W |
+| Polytropic | W(γ − n)/(γ − 1) | (p₁V₁ − p₂V₂)/(n−1) | m cv ΔT |
+| Free expansion (ideal gas) | 0 | 0 | 0 (T constant) |
+| Throttling | 0 | 0 | h constant |
+PYQ-TREND: First law for cycle and process; internal energy as a property; PMM-1; U of ideal gas depends only on T (Joule's law); cp − cv = R; γ values; heat in each process.
+WARN: In a polytropic expansion with 1 < n < γ, heat is ADDED even though temperature falls – the gas does more work than the heat supplied.
+
+## 2.3 Real Gas Behaviour (Overview)
+F: Ideal gas: pv = RT;  pV = mRT = n R̄ T;  R = R̄/M
+F: Compressibility factor Z = pv/RT (Z = 1 ideal; Z < 1 attractive forces dominate; Z > 1 repulsive)
+F: Van der Waals: (p + a/v̄²)(v̄ − b) = R̄T;  a – intermolecular attraction, b – molecular volume
+F: Critical constants (vdW): a = 27R̄²Tc²/(64pc);  b = R̄Tc/(8pc);  Zc = 3/8 = 0.375 (actual gases ≈ 0.27–0.29)
+- Gases behave ideally at low pressure and high temperature (relative to critical values). Law of corresponding states: all gases have nearly the same Z at the same reduced pressure pr = p/pc and reduced temperature Tr = T/Tc (generalised compressibility chart).
+- Other equations of state: Beattie–Bridgeman, Berthelot, Dieterici, Redlich–Kwong, virial equation.
+- Gas mixtures: Dalton's law – total pressure = sum of partial pressures; Amagat's law – total volume = sum of partial volumes; mole fraction = pressure fraction = volume fraction.
+PYQ-TREND: Ideal behaviour at low p and high T; meaning of vdW constants a and b; Zc = 0.375 from vdW; Dalton's and Amagat's laws; R̄ = 8.314 kJ/kmol·K and R_air = 0.287.
+
+## 2.4 Specific Heats of Solids and Liquids
+F: Incompressible substances: cp ≈ cv = c;  du ≈ dh = c dT
+- Water c ≈ 4.187 kJ/kg·K; ice ≈ 2.1; steel ≈ 0.46; aluminium ≈ 0.9; copper ≈ 0.385.
+- Dulong–Petit law: molar heat capacity of many solids ≈ 3R̄ ≈ 25 kJ/kmol·K at room temperature.
+PYQ-TREND: cp = cv for incompressible substances; specific heat of water.
+Q: State the first law of thermodynamics for a closed system undergoing a cycle and a process, and prove that internal energy is a property.
+For a cycle, the first law states that the net heat transfer equals the net work transfer: ∮δQ = ∮δW. Consider a system taken from state 1 to 2 along path A and returned along path C, and also along path B and back along C. For cycle 1-A-2-C-1: Q_A + Q_C = W_A + W_C, so Q_A − W_A = −(Q_C − W_C). For cycle 1-B-2-C-1: Q_B − W_B = −(Q_C − W_C). Hence Q_A − W_A = Q_B − W_B: the quantity (Q − W) is the same for every path between the two states. It therefore depends only on the end states and is the change of a property – the internal energy: Q − W = ΔU, i.e., Q = ΔU + W for a process. Since dU is an exact differential, U is a point function (property), even though Q and W individually are path functions.

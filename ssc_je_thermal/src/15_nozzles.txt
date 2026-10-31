@@ -1,0 +1,35 @@
+# Steam Nozzles and Diffusers
+
+## 15.1 Flow Through Nozzles
+- Nozzle: a duct of varying cross-section that converts enthalpy (pressure energy) into kinetic energy. Diffuser: converts kinetic energy into pressure (reverse).
+- Types: convergent (exit at most sonic; used when exit pressure ≥ critical pressure), divergent (diffuser for subsonic; nozzle for supersonic), convergent–divergent (de Laval) – accelerates to supersonic when exit pressure < critical pressure.
+F: Exit velocity (adiabatic, inlet velocity negligible): V₂ = √(2(h₁ − h₂)) = 44.72 √(Δh, kJ/kg)
+F: With inlet velocity: V₂ = √(2000 Δh + V₁²)
+F: Isentropic (pv^n = const): V₂ = √[(2n/(n−1)) p₁v₁ (1 − (p₂/p₁)^((n−1)/n))]
+F: Mass flow per unit area: ṁ/A = V/v;  continuity A₁V₁/v₁ = A₂V₂/v₂
+F: Area–velocity relation: dA/A = (M² − 1) dV/V  → subsonic: area decreases as velocity increases; supersonic: area increases
+PYQ-TREND: Nozzle converts enthalpy to KE; exit velocity 44.72√Δh (very frequent); convergent vs convergent–divergent nozzles; area–velocity relation.
+
+## 15.2 Critical Pressure Ratio and Choking
+F: Critical pressure ratio: p_c/p₁ = (2/(n + 1))^(n/(n−1))
+| Fluid | Index n | p_c/p₁ |
+| Superheated steam | 1.3 | 0.546 |
+| Dry saturated steam | 1.135 | 0.577 |
+| Wet steam (Zeuner: n = 1.035 + 0.1x) | ≈ 1.1–1.13 | ≈ 0.58 |
+| Air (γ = 1.4) | 1.4 | 0.528 |
+F: Critical (throat) velocity: V_c = √(2n/(n+1) × p₁v₁) = √(n p_c v_c) = speed of sound at throat
+F: Maximum mass flow (choked): ṁ_max/A_t = √[n (p₁/v₁) (2/(n+1))^((n+1)/(n−1))]
+- When the throat reaches the critical pressure, the flow is choked: Mach number at the throat = 1 and mass flow is maximum; lowering the back pressure further does not increase the mass flow (it only changes the flow downstream of the throat).
+- In a convergent–divergent nozzle with exit pressure higher than design, shocks form in the divergent part (over-expansion / under-expansion cases).
+PYQ-TREND: Critical pressure ratio values (0.546 superheated, 0.577 saturated, 0.528 air) – very frequent; M = 1 at the throat; choked flow and maximum discharge.
+TIP: '546 superheated, 577 saturated, 528 air' – superheated steam behaves closest to air.
+
+## 15.3 Supersaturated (Metastable) Flow and Nozzle Efficiency
+- In a rapidly expanding nozzle, steam does not condense when it crosses the saturation line; it remains as a supersaturated (supercooled) vapour in a metastable state until the Wilson line (≈ 96–97% dryness on the Mollier chart), after which condensation suddenly occurs.
+- Effects of supersaturation: the steam is denser than in equilibrium → mass flow increases by 2–5%; the enthalpy drop is slightly reduced; entropy increases (irreversible condensation); dryness fraction at exit increases slightly.
+F: Nozzle efficiency η_n = actual enthalpy drop / isentropic enthalpy drop (0.90–0.98)
+F: Velocity coefficient C_v = √η_n;  coefficient of discharge = actual mass flow / theoretical mass flow
+- Friction in the divergent portion causes most losses; divergent cone half-angle about 5–7° (too large → separation; too small → long nozzle, more friction).
+PYQ-TREND: Supersaturated flow increases discharge (very frequent); Wilson line; nozzle efficiency definition; friction effect.
+Q: What is supersaturated flow in a steam nozzle? State its effects.
+When steam expands rapidly through a nozzle, it passes through the saturation line so quickly that there is not enough time for condensation nuclei to form. The steam therefore continues to expand as a dry, supercooled vapour – in a metastable, supersaturated state – below the saturation temperature corresponding to its pressure. Condensation occurs suddenly only when the degree of supersaturation reaches a limit, roughly at the Wilson line (about 96–97% dryness), after which the steam returns to equilibrium. Effects: the supersaturated steam has a higher density than equilibrium wet steam, so the discharge through the nozzle increases by about 2–5%; the available enthalpy drop is slightly reduced, so the exit velocity is slightly lower; the sudden condensation is irreversible, increasing entropy; and the exit dryness is slightly higher. The supersaturation ratio is the ratio of the actual pressure to the saturation pressure at the supercooled temperature.

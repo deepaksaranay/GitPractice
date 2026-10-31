@@ -1,0 +1,48 @@
+# Properties of Pure Substances and Steam
+
+## 7.1 Pure Substance and Phase Change
+- Pure substance: homogeneous and invariable in chemical composition throughout (it may exist in more than one phase). Water, steam, ice–water mixture, nitrogen, air (as long as it does not condense partially) are pure substances; a mixture of liquid air and gaseous air is not (different compositions).
+- Heating water at constant pressure: compressed (subcooled) liquid → saturated liquid → wet steam (liquid + vapour) → dry saturated vapour → superheated vapour.
+- Saturation temperature: temperature at which a substance boils at a given pressure (100 °C at 1.01325 bar; ≈ 179.9 °C at 10 bar; ≈ 99.6 °C at 1 bar).
+- Sensible heat: changes temperature. Latent heat: changes phase at constant temperature. Latent heat of vaporisation of water at 1 atm ≈ 2257 kJ/kg; it decreases with pressure and becomes zero at the critical point.
+| Point | Water value |
+| Critical point | 22.064 MPa (≈ 221.2 bar), 373.95 °C (≈ 374.15 °C in older tables), v_c = 0.003106 m³/kg |
+| Triple point | 0.01 °C (273.16 K), 0.6117 kPa |
+- Above the critical point there is no distinct phase change (supercritical fluid); latent heat is zero.
+- At the triple point solid, liquid and vapour coexist. Below the triple-point pressure, solid sublimates directly to vapour (dry ice sublimes at 1 atm because CO₂'s triple point is at 5.1 atm).
+- Water expands on freezing, so its solid–liquid line on a p–T diagram has a negative slope (ice melts under pressure – regelation, ice skating). Most substances have a positive slope.
+F: Gibbs phase rule: F = C − P + 2  (pure substance at triple point: F = 1 − 3 + 2 = 0)
+FIG: phase
+PYQ-TREND: Critical point of water (221.2 bar, 374 °C) and latent heat zero there (very frequent); triple point 0.01 °C, 0.611 kPa; degrees of freedom at triple point = 0; negative slope of fusion curve for water; pure substance definition; sublimation of dry ice.
+
+## 7.2 Properties of Wet and Superheated Steam
+F: Dryness fraction x = m_vapour/(m_vapour + m_liquid)  (0 ≤ x ≤ 1)
+F: Wetness = 1 − x;  quality as percentage = 100x
+F: Wet steam: v = v_f + x v_fg ≈ x v_g;  h = h_f + x h_fg;  s = s_f + x s_fg;  u = u_f + x u_fg
+F: Superheated: h = h_g + c_ps(T_sup − T_sat) (c_ps ≈ 2.1 kJ/kg·K);  degree of superheat = T_sup − T_sat
+F: Internal energy: u = h − pv
+- Steam tables: saturation (temperature-based and pressure-based), superheated, compressed liquid. Reference: u and s of saturated liquid at the triple point = 0.
+- Dry saturated steam: x = 1; on the saturated vapour line. Superheated steam behaves more like a gas the higher the superheat.
+- Advantages of superheated steam: higher work per kg, less condensation and erosion in turbines, higher cycle efficiency.
+PYQ-TREND: Dryness fraction definition; h = h_f + x h_fg; degree of superheat; reference state of steam tables.
+
+## 7.3 Measurement of Dryness Fraction
+| Calorimeter | Principle / suitability |
+| Barrel (bucket) calorimeter | Steam condensed in cold water – heat balance; least accurate |
+| Separating calorimeter | Mechanically separates water droplets; gives x₁ (approximate, for very wet steam) |
+| Throttling calorimeter | Steam throttled to superheated state at low pressure; h before = h after; works only if steam is fairly dry (x > ≈ 0.93–0.95) |
+| Combined separating & throttling | Separator first, then throttling; for very wet steam; x = x₁ × x₂ |
+| Electrical calorimeter | Electric heating to superheat a sample |
+F: Throttling calorimeter: h_f1 + x h_fg1 = h_g2 + c_ps(T₂ − T_sat2) → x
+F: Combined: x = x_separating × x_throttling
+PYQ-TREND: Throttling calorimeter uses isenthalpic throttling and needs the steam to become superheated; combined calorimeter for very wet steam; x = x₁x₂ (very frequent).
+
+## 7.4 Property Diagrams
+- p–v, T–v, T–s, h–s (Mollier) and p–h diagrams. Saturation dome: left side = saturated liquid line, right side = saturated vapour line, meeting at the critical point.
+- On T–s: constant-pressure lines in the wet region are horizontal (coincide with constant temperature); in the superheated region they rise steeply; constant-volume lines are steeper than constant-pressure lines.
+- Mollier chart (h–s): used for steam turbines and nozzles; isentropic process is a vertical line, throttling is a horizontal line; constant-pressure lines diverge upward; constant-dryness lines below the saturation line; constant-temperature lines become nearly horizontal far into the superheated region (ideal-gas behaviour, h = f(T)).
+- p–h chart: used for refrigerants (VCR cycle); throttling is a vertical line.
+PYQ-TREND: Mollier diagram is h–s (very frequent); isentropic = vertical on h–s; throttling = horizontal on h–s, vertical on p–h; isotherms nearly horizontal in superheated region far from saturation.
+TIP: Throttling → 'horizontal on Mollier, vertical on p–h' – because enthalpy is the x-axis of p–h and the y-axis of h–s.
+Q: Explain the throttling calorimeter and its limitation.
+A sample of wet steam from the main is passed through a small orifice (throttle) into a chamber at a lower pressure, close to atmospheric. Throttling is isenthalpic: h₁ = h₂. If the throttled steam becomes superheated, its pressure and temperature fix h₂ = h_g2 + c_ps(T₂ − T_sat2), and the dryness of the original steam follows from h_f1 + x h_fg1 = h₂. The method requires that the steam be superheated after throttling – which happens only if the original steam is fairly dry (dryness above about 0.93–0.95 at moderate pressures). For wetter steam the throttled state remains wet and cannot be fixed by p and T alone. In that case a separating calorimeter is placed ahead to remove most water first, and the overall dryness is x = x_separator × x_throttling.

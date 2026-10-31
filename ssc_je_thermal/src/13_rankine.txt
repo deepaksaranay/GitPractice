@@ -1,0 +1,56 @@
+# Vapour Power Cycles (Rankine and Modifications)
+
+## 13.1 Why Not the Carnot Cycle with Steam?
+- A Carnot cycle using wet steam would need (1) compression of a wet mixture (liquid + vapour) to saturated liquid – difficult to control, needs a large compressor and the two-phase flow damages it; (2) heat addition only in the wet region, limiting the maximum temperature to the saturation temperature (low efficiency); (3) the turbine would handle very wet steam (blade erosion); (4) very low work ratio. If superheat is used, isothermal heat addition at varying pressure is impractical.
+- The Rankine cycle condenses the steam completely, so a small pump handles only liquid; the work ratio is close to 1, and superheating raises the mean temperature of heat addition.
+PYQ-TREND: Reasons the Carnot cycle is not used in steam plants; Rankine work ratio close to 1.
+
+## 13.2 Ideal Rankine Cycle
+- Processes: 1–2 isentropic compression of liquid in the pump; 2–3 constant-pressure heat addition in the boiler (subcooled liquid → saturated → superheated); 3–4 isentropic expansion in the turbine; 4–1 constant-pressure heat rejection in the condenser.
+F: Pump work w_p = v_f (p₂ − p₁) = h₂ − h₁  (≈ 0.001 m³/kg × Δp)
+F: Turbine work w_t = h₃ − h₄
+F: Heat supplied q₁ = h₃ − h₂;  heat rejected q₂ = h₄ − h₁
+F: η_Rankine = (w_t − w_p)/q₁ = [(h₃ − h₄) − (h₂ − h₁)]/(h₃ − h₂)  ≈ (h₃ − h₄)/(h₃ − h₁) if pump work is neglected
+F: Specific steam consumption SSC = 3600/w_net (kg/kWh, w_net in kJ/kg)
+F: Heat rate = 3600/η (kJ/kWh)
+F: Work ratio = w_net/w_t
+F: Mean temperature of heat addition T_m1 = (h₃ − h₂)/(s₃ − s₂);  η = 1 − T₂/T_m1 (T₂ = condenser temperature)
+- Pump work is tiny (≈ 1% of turbine work) because the specific volume of water is very small – so it is often neglected in quick calculations.
+FIG: rankine
+PYQ-TREND: Rankine efficiency expression; pump work small due to low specific volume of water (very frequent); specific steam consumption 3600/w_net; mean temperature of heat addition concept; heat rate.
+
+## 13.3 Improving Rankine Efficiency
+| Method | Effect on efficiency | Other effects |
+| Increase boiler pressure (same max temperature) | Increases (higher T_m1) | Exhaust dryness decreases (more moisture) – needs reheat |
+| Superheating | Increases | Exhaust dryness increases; higher specific work; needs heat-resistant materials |
+| Lower condenser pressure (better vacuum) | Increases (lower T₂) | Exhaust moisture increases; more air leakage; limited by cooling-water temperature |
+| Reheating | Small increase (or none) depending on pressure | Main purpose: increase exhaust dryness; more work per kg |
+| Regeneration (feedwater heating with bled steam) | Increases significantly | Less work per kg of steam, more steam flow, smaller condenser |
+| Supercritical pressures | Increases (40–46%) | Once-through (Benson) boilers |
+- Turbine exhaust dryness should not drop below about 0.88–0.90 to avoid blade erosion.
+PYQ-TREND: Effect of boiler pressure, superheat, condenser pressure, reheat and regeneration (very frequent). Main purpose of reheat = dryness; regeneration raises efficiency by raising feedwater temperature; exhaust dryness ≥ 0.88.
+
+## 13.4 Reheat Cycle
+F: Turbine work = (h₃ − h₄) + (h₅ − h₆)  (HP + LP turbines);  heat supplied = (h₃ − h₂) + (h₅ − h₄)
+F: η_reheat = [(h₃ − h₄) + (h₅ − h₆) − w_p] / [(h₃ − h₂) + (h₅ − h₄)]
+- Steam partly expanded in the HP turbine is returned to the boiler reheater, heated (usually back to the initial temperature) at constant pressure, then expanded in the LP turbine. Optimum reheat pressure ≈ 20–25% of the initial pressure.
+- Modern plants use single or double reheat.
+PYQ-TREND: Reheat mainly improves exhaust dryness; optimum reheat pressure ≈ 1/4 of boiler pressure.
+
+## 13.5 Regenerative Cycle and Feedwater Heaters
+- Ideal regenerative cycle: feedwater passes around the turbine casing and is heated by the expanding steam (impractical). Practical: steam is bled (extracted) from intermediate turbine stages to heat the feedwater in feedwater heaters (FWH).
+- Open (direct-contact) FWH: bled steam mixes with feedwater; exit is saturated liquid at heater pressure; simple, good heat transfer, also removes dissolved gases (deaerator); needs a pump after each heater.
+- Closed (surface/shell-and-tube) FWH: no mixing; drains cascaded backward or pumped forward; more expensive but needs fewer pumps.
+F: Open heater mass balance: m(h_bled) + (1 − m)h_feed = h_sat,out → m = (h_out − h_feed)/(h_bled − h_feed)
+- Effects: raises mean temperature of heat addition → higher efficiency; reduces mass of steam to condenser (smaller condenser, less heat rejected); increases total steam flow per kW; reduces thermal stresses in the boiler (warmer feedwater). Number of heaters in large plants: 6–8.
+PYQ-TREND: Regeneration increases efficiency and reduces condenser size; open heater = deaerator; closed heater = no mixing; bleeding fraction calculation.
+
+## 13.6 Binary, Cogeneration and Combined Cycles
+- Binary vapour cycle: two working fluids – mercury (topping; high temperature at low pressure) and water/steam (bottoming); mercury condenser acts as the steam boiler. Ideal working fluid: high critical temperature with low saturation pressure at high temperature, high latent heat, low specific heat of liquid, saturation vapour line close to vertical, non-toxic, cheap, stable.
+- Cogeneration (combined heat and power, CHP): simultaneous generation of electricity and useful process heat (back-pressure or pass-out/extraction turbines) – overall energy utilisation 70–90%. Used in sugar mills, paper, textile and chemical industries.
+- Combined cycle power plant (CCPP): gas turbine (Brayton – topping) exhaust (≈ 500–600 °C) heats a heat-recovery steam generator (HRSG) feeding a steam turbine (Rankine – bottoming). Efficiency 55–62%.
+F: Combined efficiency (ideal coupling): η_cc = η_GT + η_ST − η_GT η_ST
+F: Utilisation factor (cogeneration) = (net work + process heat)/heat supplied
+PYQ-TREND: Combined cycle uses HRSG and gas turbine as topping cycle; η = η₁ + η₂ − η₁η₂; mercury in binary vapour cycles; cogeneration definition and back-pressure turbines.
+Q: Explain the effect of reheating and regeneration on the Rankine cycle.
+Reheating: after partial expansion in the high-pressure turbine, steam is sent back to the boiler's reheater and heated at constant pressure, normally to the original temperature, then expanded in the low-pressure turbine. The expansion line moves to the right on the T–s diagram, so the turbine exhaust is much drier, reducing blade erosion and allowing higher boiler pressures. The work per kg of steam also increases. The effect on efficiency is small – it increases only if the mean temperature of the additional heat is higher than the cycle's mean temperature of heat addition. Regeneration: steam bled from intermediate stages heats the feedwater in open or closed heaters before it enters the boiler. Heat that would have been added at low temperature in the boiler is now supplied internally, so the mean temperature of external heat addition rises and the cycle efficiency increases appreciably (approaching Carnot in the ideal limit). It also reduces the steam reaching the condenser and the heat rejected, at the cost of slightly less work per kg of steam generated.

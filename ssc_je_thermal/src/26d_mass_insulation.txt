@@ -1,0 +1,62 @@
+# Heat Transfer IV – Mass Transfer, Heat Pipes, Insulation and Enhancement
+
+## 26D.1 Basics of Mass Transfer
+- Mass transfer is the movement of a species from a region of high concentration to low concentration – by molecular diffusion (analogous to conduction) and by convective mass transfer (analogous to convection). Examples: evaporation of water into air, drying, humidification, dissolution of sugar, diffusion of hydrogen through metals, absorption in VAR systems.
+F: Fick's law: J_A = −D_AB dC_A/dx  (kg/m²·s or kmol/m²·s);  D_AB = mass diffusivity (m²/s)
+F: Convective mass transfer: ṁ_A = h_m A (C_A,s − C_A,∞)  (h_m in m/s)
+- Diffusivity order: gases ≈ 10⁻⁵ m²/s; liquids ≈ 10⁻⁹ m²/s; solids ≈ 10⁻¹⁰ to 10⁻¹⁴ m²/s. In gases D increases with temperature (≈ T^1.5) and decreases with pressure (∝ 1/p).
+| Heat transfer | Mass transfer analogue |
+| Temperature T | Concentration C |
+| Thermal conductivity k / diffusivity α | Mass diffusivity D_AB |
+| Fourier's law | Fick's law |
+| h | h_m |
+| Nusselt number Nu = hL/k | Sherwood number Sh = h_m L/D_AB |
+| Prandtl number Pr = ν/α | Schmidt number Sc = ν/D_AB |
+| Nu = f(Re, Pr) | Sh = f(Re, Sc) |
+| Grashof (thermal) | Grashof (concentration) |
+F: Lewis number Le = α/D_AB = Sc/Pr;  Chilton–Colburn analogy: h/h_m = ρ c_p Le^(2/3)
+F: Lewis relation for air–water vapour (Le ≈ 1): h/(h_m ρ c_p) ≈ 1 → wet-bulb temperature ≈ adiabatic saturation temperature
+- Evaporation from a water surface increases with surface temperature, air velocity and dryness of air (lower vapour pressure of air); it cools the surface – basis of evaporative coolers, cooling towers, sweating and wet-bulb thermometers.
+PYQ-TREND: Fick's law analogy to Fourier's law (frequent); Sherwood and Schmidt numbers; Lewis number ≈ 1 for air–water (WBT = adiabatic saturation temperature); diffusivity of gases ∝ T^1.5/p.
+
+## 26D.2 Heat Pipes
+- A heat pipe is a sealed tube containing a small quantity of working fluid and a wick lining the inner wall. At the hot end (evaporator) the liquid evaporates, absorbing latent heat; vapour flows through the core to the cold end (condenser), condenses releasing latent heat, and the liquid returns to the evaporator through the wick by capillary action (or by gravity in a thermosiphon, when the condenser is above the evaporator). Between them lies an adiabatic section.
+- Because heat is transported as latent heat with a very small temperature drop, its effective thermal conductivity can be hundreds of times that of copper.
+| Temperature range | Working fluid |
+| Cryogenic (< −150 °C) | Helium, nitrogen |
+| Low (−70 to 200 °C) | Ammonia, methanol, acetone, water (common: water 30–200 °C) |
+| High (> 400 °C) | Sodium, potassium, lithium |
+- Applications: cooling of laptop and server processors, LED lighting, spacecraft thermal control, evacuated-tube solar water heaters, heat recovery in air-conditioning, stabilisation of permafrost under pipelines.
+- Limits: capillary (wicking) limit, boiling limit, sonic limit, entrainment limit, viscous limit.
+PYQ-TREND: Heat pipe principle – evaporation, condensation, capillary return through wick; very high effective conductivity; uses in electronics cooling.
+
+## 26D.3 Thermal Insulation
+- Insulators have low thermal conductivity, mostly because they trap still air or gas in small cells (convection suppressed). Desirable properties: low k, low density, low moisture absorption (wet insulation conducts well), fire resistance, chemical stability, adequate strength, vermin resistance, low cost and suitable temperature limit.
+| Material | Approx. maximum temperature / use |
+| Polyurethane foam (PUF), expanded polystyrene (EPS, thermocole) | Up to ≈ 80–100 °C; cold storage, refrigerators, buildings (k ≈ 0.02–0.035) |
+| Glass wool | Up to ≈ 250–450 °C; ducts, buildings, ovens |
+| Mineral (rock/slag) wool | Up to ≈ 650–750 °C; pipes, boilers, turbines |
+| Calcium silicate | Up to ≈ 650–1000 °C; high-temperature pipes |
+| Magnesia (85% magnesia) | Up to ≈ 315 °C; steam pipes (older practice) |
+| Ceramic fibre | Up to ≈ 1260–1400 °C; furnaces, kilns |
+| Refractory bricks (fireclay, silica, magnesite) | 1500–1800 °C; furnace linings |
+| Aerogel | Super-insulation, k ≈ 0.015 or less |
+| Multilayer insulation (MLI) / vacuum panels | Cryogenic tanks, spacecraft – radiation shields in vacuum |
+- Cold insulation must have a vapour barrier on the warm (outer) side; otherwise water vapour diffuses into the insulation, condenses or freezes and destroys its insulating value.
+- Economic thickness of insulation: the thickness at which the sum of insulation cost (rises with thickness) and the cost of heat lost (falls with thickness) is minimum.
+- Thermal conductivity of insulation increases with temperature, density beyond an optimum, and moisture content.
+PYQ-TREND: Insulation works by trapping air; vapour barrier on the warm side of cold insulation (frequent); economic thickness; PUF for cold storage; ceramic fibre for furnaces; moisture increases k.
+
+## 26D.4 Heat Transfer Enhancement and Electronics Cooling
+| Passive techniques | Active techniques |
+| Extended surfaces (fins, finned tubes, microfins) | Mechanical stirring, surface scraping |
+| Rough or treated surfaces (promote turbulence or nucleation) | Surface or fluid vibration |
+| Twisted tapes and coil inserts (swirl flow) | Jet impingement, sprays |
+| Corrugated or dimpled tubes, louvered fins | Electrostatic fields |
+| Additives (nanofluids, surfactants in boiling) | Suction/injection |
+- Enhancement increases h or area but also increases pressure drop; the gain must outweigh extra pumping power.
+- Electronics cooling: heat sinks with fins and fans, heat pipes and vapour chambers, thermal interface materials (thermal grease/pads to reduce contact resistance), liquid cold plates, immersion cooling in dielectric fluids for data centres, thermoelectric coolers for spot cooling. Junction temperature limits (≈ 85–125 °C) govern design.
+- Thermal contact resistance falls with higher contact pressure, smoother and softer surfaces, and interstitial materials of high conductivity.
+PYQ-TREND: Twisted tapes and rough surfaces increase h and pressure drop; thermal grease reduces contact resistance; heat sinks with fins.
+Q: Explain the working of a heat pipe and list its applications.
+A heat pipe consists of a sealed, evacuated metal tube whose inner wall is lined with a porous wick saturated with a working fluid such as water, ammonia or methanol. When one end (the evaporator) is heated, the fluid in the wick evaporates and absorbs its latent heat; the vapour pressure rises locally and drives vapour along the hollow core to the cooler end (the condenser). There the vapour condenses on the wick, releasing the latent heat to a heat sink. The condensed liquid is drawn back to the evaporator through the wick by capillary pressure, completing the cycle without any pump; in a gravity-assisted thermosiphon the condensate returns by gravity. Because heat is carried as latent heat and the vapour flows almost isothermally, the heat pipe transfers large amounts of heat with a very small temperature difference – its effective conductivity is many times that of copper – and it is light, silent and has no moving parts. Its capacity is limited by capillary, boiling, sonic and entrainment limits. Applications include CPU cooling in laptops and servers, LED and power-electronics cooling, spacecraft thermal control, heat-recovery units in HVAC, evacuated-tube solar collectors, and keeping permafrost frozen under oil pipelines.

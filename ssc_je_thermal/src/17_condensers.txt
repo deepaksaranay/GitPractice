@@ -1,0 +1,35 @@
+# Condensers and Cooling Towers
+
+## 17.1 Steam Condensers
+- A condenser condenses the exhaust steam from the turbine at a pressure well below atmospheric. Functions: (1) lower back pressure → greater enthalpy drop and more work, higher cycle efficiency; (2) recover pure condensate for reuse as boiler feedwater (saves water treatment).
+- Elements of a condensing plant: condenser, cooling-water pump, condensate (extraction) pump, air extraction pump (or steam-jet air ejector), hot well, cooling tower/pond, make-up water.
+| Type | Description |
+| Jet (mixing) condensers | Steam and cooling water mix directly; condensate is lost (cannot be reused unless cooling water is pure); simpler, cheaper, less cooling water; parallel-flow, counter-flow, ejector, barometric (tall pipe – condensate drains by gravity, ≈ 10.3 m) types |
+| Surface (non-mixing) condensers | Steam condenses on the outside of tubes carrying cooling water; condensate recovered pure; used in all large power plants; shell-and-tube; down-flow, central-flow, evaporative, regenerative types |
+| Evaporative condenser | Cooling water sprayed over tubes, evaporates in air stream – for places with water scarcity |
+- Air leakage into the condenser (through glands and joints, and dissolved in feedwater) raises the total pressure (Dalton's law: p_total = p_steam + p_air), reduces vacuum and the heat transfer coefficient, and causes corrosion. Air is removed by air pumps (Edwards air pump) or steam-jet air ejectors.
+F: Vacuum = barometric reading − absolute condenser pressure (both in mm Hg)
+F: Vacuum efficiency = actual vacuum / ideal vacuum;  ideal vacuum = barometer reading − saturation pressure of steam at condensate temperature
+F: Condenser efficiency = (t_w,out − t_w,in) / (t_sat − t_w,in)  (actual rise of cooling water / maximum possible rise)
+F: Cooling water required: ṁ_w c_pw (t_w,out − t_w,in) = ṁ_s (h_exhaust − h_condensate)
+F: Dalton's law in condenser: p_condenser = p_s + p_a;  mass of air ṁ_a = p_a V/(R T)
+- Typical condenser pressure ≈ 0.05–0.1 bar (vacuum ≈ 710–735 mm Hg); cooling water temperature rise ≈ 8–10 °C; about 50–60% of the heat supplied in a thermal plant is rejected in the condenser.
+PYQ-TREND: Purpose of condenser; jet vs surface condensers (surface used in power plants, condensate reused) – very frequent; effects of air leakage and Dalton's law; vacuum efficiency and condenser efficiency formulas; barometric condenser height ≈ 10.3 m.
+
+## 17.2 Cooling Towers and Ponds
+- Cooling tower: cools the warm condenser water by evaporating a small part of it into air (evaporative cooling – mainly latent heat transfer). Water is sprayed or splashed over fill (packing) while air flows through.
+| Type | Feature |
+| Natural draught (hyperbolic) | Tall reinforced-concrete shell of hyperbolic shape; air flows by density difference (chimney effect); no fan power; large power plants |
+| Mechanical draught – forced | Fan at the base pushes air in |
+| Mechanical draught – induced | Fan at the top draws air out (less recirculation, more common) |
+| Cross-flow / counter-flow | Air horizontal across falling water / air upward against falling water |
+| Dry (closed) cooling tower | No direct contact; water in finned tubes; no evaporation loss – water-scarce areas; less effective |
+| Spray pond / cooling pond | Simple, large area |
+F: Range = water inlet temperature − water outlet temperature
+F: Approach = water outlet temperature − wet bulb temperature of entering air (the outlet water can never be cooled below WBT)
+F: Cooling tower efficiency = range/(range + approach) = (t_in − t_out)/(t_in − t_wb)
+- Losses: evaporation (≈ 1–2% of circulating water per 6–7 °C range), drift (carried-off droplets, ≈ 0.1–0.2%), blowdown (to control dissolved solids). Make-up water replaces all three.
+- Hyperbolic shape: structural strength with less material and good natural draught; the narrowing then widening shape accelerates the air.
+PYQ-TREND: Approach and range definitions (very frequent); water cannot be cooled below WBT; natural draught towers are hyperbolic; induced vs forced draught towers; losses and make-up.
+Q: Compare jet and surface condensers.
+In a jet condenser the exhaust steam and cooling water mix directly; heat transfer is very effective, so less cooling water is needed and the condenser is small, simple and cheap. However, the condensate is mixed with cooling water and cannot be reused as boiler feedwater unless the cooling water itself is pure, more air enters with the cooling water (needing a larger air pump), and a higher power is needed for pumping. In a surface condenser the steam condenses on the outer surface of tubes through which cooling water flows, so the two never mix. The pure condensate is recovered and returned to the boiler, impure cooling water (river, sea) can be used, and a higher vacuum is obtainable. It is, however, larger, costlier, needs more cooling water and more maintenance (tube cleaning, leak prevention). Surface condensers are therefore used in all modern steam power stations, while jet condensers suit small plants where feedwater is plentiful and cheap.

@@ -1,0 +1,115 @@
+# Solved Numericals – Set 4 (Mixed Practice with Steam Tables)
+Short step-by-step problems that test one concept each (no options). Steam data from the abridged table at the end of the book.
+
+## 27D.1 Thermodynamics Quick Problems
+### Problem 1 – New temperature scale
+On a new scale X, ice point = 100 °X and steam point = 300 °X. Find the reading for 50 °C.
+F: X = 100 + (300 − 100) × 50/100 = 200 °X
+### Problem 2 – Heating in a rigid tank
+1 kg of air in a rigid tank is heated from 300 K to 600 K. Find the heat supplied.
+F: Q = m c_v ΔT = 0.718 × 300 = 215.4 kJ (W = 0 because volume is constant)
+### Problem 3 – Paddle work in an insulated tank
+A paddle wheel does 50 kJ of work on gas in a rigid insulated tank. Find ΔU.
+F: Q = 0, W = −50 kJ → ΔU = Q − W = +50 kJ (paddle work is always work input)
+### Problem 4 – Inventor's claim
+An inventor claims an engine with η = 65% between 1000 K and 400 K. Comment.
+F: η_Carnot = 1 − 400/1000 = 60% < 65% → claim violates the second law (impossible)
+### Problem 5 – Refrigerator power
+A refrigerator removes 2 kW from the cold space with COP 4. Find the power and the heat rejected.
+F: W = 2/4 = 0.5 kW;  Q_H = 2 + 0.5 = 2.5 kW
+### Problem 6 – Heat pump vs electric heater
+A heat pump with COP 3 replaces a 6 kW electric heater. Find the electricity saved.
+F: Heat pump input = 6/3 = 2 kW → saving = 4 kW (67%)
+### Problem 7 – Entropy change of a reservoir
+A reservoir at 500 K loses 1000 kJ of heat. Find its entropy change.
+F: ΔS = −1000/500 = −2 kJ/K (reservoirs: ΔS = Q/T)
+
+## 27D.2 Steam and Rankine with Tables
+### Problem 8 – Dryness from specific volume
+Steam at 10 bar has v = 0.15 m³/kg (v_g = 0.1944 m³/kg). Find x.
+F: x ≈ v/v_g = 0.15/0.1944 = 0.772
+### Problem 9 – Entropy of wet steam
+Find s for steam at 10 bar with x = 0.9 (s_f = 2.1387, s_fg = 4.4478 kJ/kg·K).
+F: s = 2.1387 + 0.9 × 4.4478 = 6.1417 kJ/kg·K
+### Problem 10 – Isentropic expansion and Rankine efficiency
+Dry saturated steam at 10 bar (h_g = 2778.1, s_g = 6.5865) expands isentropically to 0.1 bar (s_f = 0.6493, s_fg = 7.5009, h_f = 191.8, h_fg = 2392.8). Find exit dryness, turbine work and Rankine efficiency.
+F: x₂ = (6.5865 − 0.6493)/7.5009 = 0.7915;  h₂ = 191.8 + 0.7915 × 2392.8 = 2085.7 kJ/kg
+F: W_t = 2778.1 − 2085.7 = 692.4 kJ/kg;  W_p ≈ 0.00101 × (1000 − 10) = 1.0 kJ/kg
+F: Q₁ = 2778.1 − (191.8 + 1.0) = 2585.3 kJ/kg;  η = (692.4 − 1.0)/2585.3 = 26.7%
+- Exit dryness 0.79 is too wet for a real turbine – which is why superheat and reheat are used.
+### Problem 11 – Carnot vapour cycle between the same pressures
+Find the Carnot efficiency between 10 bar (179.91 °C) and 0.1 bar (45.81 °C).
+F: η = 1 − 318.96/453.06 = 29.6%  (Rankine 26.7% is lower but practical)
+### Problem 12 – Heat to make steam
+Find the heat needed to convert 1 kg of water at 25 °C (h = 104.9 kJ/kg) into dry saturated steam at 10 bar.
+F: Q = h_g − h_w = 2778.1 − 104.9 = 2673.2 kJ/kg
+
+## 27D.3 IC Engine Quick Problems
+### Problem 13 – bsfc to efficiency
+An engine has bsfc 0.25 kg/kWh with fuel CV 42,000 kJ/kg. Find brake thermal efficiency.
+F: η_bth = 3600/(bsfc × CV) = 3600/(0.25 × 42,000) = 34.3%
+### Problem 14 – Relative efficiency
+An SI engine with r = 7 has indicated thermal efficiency 30%. Find air-standard and relative efficiency.
+F: η_Otto = 1 − 1/7^0.4 = 1 − 1/2.178 = 54.1%;  relative efficiency = 30/54.1 = 55.5%
+### Problem 15 – Fuel consumption from power
+A 100 kW diesel generator runs at 35% brake thermal efficiency with fuel CV 42,500 kJ/kg. Find fuel per hour.
+F: Fuel energy = 100/0.35 = 285.7 kW;  ṁ_f = 285.7 × 3600/42,500 = 24.2 kg/h
+### Problem 16 – Two-stroke vs four-stroke
+Find IP of a two-stroke single-cylinder engine with imep 5 bar, bore 80 mm, stroke 100 mm, 2000 rpm.
+F: A = π/4 × 0.08² = 5.027 × 10⁻³ m²;  IP = 5 × 10⁵ × 0.1 × 5.027 × 10⁻³ × 2000/60 = 8.38 kW
+
+## 27D.4 Fuels and Power Plant
+### Problem 17 – Air for methane
+Find the stoichiometric air–fuel ratio of methane.
+F: CH₄ + 2O₂ → CO₂ + 2H₂O → O₂ = 64/16 = 4 kg/kg;  air = 4/0.232 = 17.2 kg/kg
+### Problem 18 – Dulong HCV and LCV
+Coal: C 80%, H 5%, O 4%, S 1%. Find HCV and LCV (h_fg = 2442 kJ/kg).
+F: HCV = 33,800 × 0.8 + 144,000 × (0.05 − 0.005) + 9,270 × 0.01 = 27,040 + 6,480 + 93 = 33,613 kJ/kg
+F: LCV = 33,613 − 9 × 0.05 × 2442 = 33,613 − 1,099 = 32,514 kJ/kg
+### Problem 19 – Excess air from flue gas
+Dry flue gas contains 6% O₂ (complete combustion). Estimate excess air.
+F: Excess air ≈ O₂/(21 − O₂) = 6/15 = 40%
+### Problem 20 – Load factor and capacity factor
+A plant of 120 MW capacity has maximum demand 100 MW and generates 438,000 MWh in a year. Find load factor and capacity factor.
+F: Average load = 438,000/8760 = 50 MW;  load factor = 50/100 = 50%;  capacity factor = 50/120 = 41.7%
+F: Utilisation factor = 100/120 = 83.3%
+### Problem 21 – Diversity factor
+The sum of individual maximum demands of consumers is 150 MW while the station maximum demand is 100 MW. Find diversity factor.
+F: Diversity factor = 150/100 = 1.5
+### Problem 22 – Cooling tower
+Water is cooled from 40 °C to 30 °C; ambient WBT = 25 °C. Find range, approach and efficiency.
+F: Range = 10 °C;  approach = 30 − 25 = 5 °C;  efficiency = range/(range + approach) = 10/15 = 66.7%
+### Problem 23 – Nozzle exit area
+Steam flows at 1 kg/s through a nozzle with exit velocity 600 m/s and specific volume 1.5 m³/kg. Find the exit area.
+F: A = ṁ v/V = 1 × 1.5/600 = 2.5 × 10⁻³ m² = 25 cm²
+
+## 27D.5 RAC and Heat Transfer Quick Problems
+### Problem 24 – Chiller tonnage
+A chiller cools 0.5 kg/s of water from 12 °C to 7 °C. Find its capacity in TR.
+F: Q = 0.5 × 4.187 × 5 = 10.47 kW = 10.47/3.517 = 2.98 TR
+### Problem 25 – RH from dew point
+DBT 30 °C (p_s = 4.246 kPa); DPT 20 °C (p_s = 2.339 kPa). Find RH and ω at 101.325 kPa.
+F: φ = 2.339/4.246 = 55.1%;  ω = 0.622 × 2.339/(101.325 − 2.339) = 0.0147 kg/kg
+### Problem 26 – Single vs double glazing
+Window area 2 m², inside 20 °C (h = 10), outside 0 °C (h = 25), glass 5 mm (k = 0.8). Find heat loss; then with double glazing having a 10 mm still-air gap (k = 0.026).
+F: Single: R = 1/20 + 0.005/1.6 + 1/50 = 0.05 + 0.0031 + 0.02 = 0.0731 K/W → Q = 20/0.0731 = 274 W
+F: Double: R = 0.0731 + 0.0031 + 0.01/(0.026 × 2) = 0.0731 + 0.0031 + 0.1923 = 0.2686 K/W → Q = 74.5 W
+### Problem 27 – Radiation from a person
+Skin at 34 °C (ε = 0.95, A = 1.6 m²) in a room with walls at 20 °C. Find the radiation loss.
+F: Q = εσA(T₁⁴ − T₂⁴) = 0.95 × 5.67 × 10⁻⁸ × 1.6 × (307.15⁴ − 293.15⁴) = 0.95 × 5.67 × 10⁻⁸ × 1.6 × 1.515 × 10⁹ ≈ 131 W
+### Problem 28 – Thermocouple time constant
+A thermocouple bead (sphere, D = 1 mm, ρ = 8500, c = 400) is exposed to gas with h = 200 W/m²K. Find its time constant.
+F: τ = ρcV/(hA) = ρcD/(6h) = 8500 × 400 × 0.001/1200 = 2.83 s
+### Problem 29 – Laminar flat plate h
+Air (k = 0.026, Pr = 0.7) flows over a 1 m plate with Re_L = 2 × 10⁵. Find average h.
+F: Nu = 0.664 × (2 × 10⁵)^0.5 × 0.7^(1/3) = 0.664 × 447.2 × 0.888 = 263.7;  h = 263.7 × 0.026/1 = 6.9 W/m²K
+### Problem 30 – Heat exchanger effectiveness from temperatures
+Hot fluid (C_h = 2 kW/K) cools from 120 °C to 60 °C; cold fluid (C_c = 4 kW/K) enters at 20 °C. Find the cold outlet temperature and effectiveness.
+F: Q = 2 × 60 = 120 kW;  T_c,out = 20 + 120/4 = 50 °C
+F: Q_max = C_min (120 − 20) = 2 × 100 = 200 kW;  ε = 120/200 = 0.6
+### Problem 31 – Doubling insulation thickness
+A plane wall loses 400 W. If its insulation thickness is doubled (insulation resistance dominant), find the new loss.
+F: Q ∝ 1/L → Q ≈ 200 W (halved)
+### Problem 32 – Shape factor of a long duct
+For a long equilateral triangular duct, find the view factor from one side to another.
+F: By symmetry and summation: F₁₂ + F₁₃ = 1 (F₁₁ = 0) and F₁₂ = F₁₃ → F₁₂ = 0.5

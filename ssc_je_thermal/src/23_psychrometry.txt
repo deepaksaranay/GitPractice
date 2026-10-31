@@ -1,0 +1,72 @@
+# Psychrometry and Air Conditioning
+
+## 23.1 Psychrometric Properties
+- Atmospheric air = dry air + water vapour (moist air). Psychrometry studies its thermodynamic properties. Dry air and vapour are treated as ideal gases (Dalton's law: p_b = p_a + p_v).
+| Property | Definition |
+| Dry bulb temperature (DBT) | Temperature measured by an ordinary thermometer |
+| Wet bulb temperature (WBT) | Temperature indicated by a thermometer with a wetted wick in moving air (≈ adiabatic saturation temperature for air–water) |
+| Dew point temperature (DPT) | Temperature at which vapour starts condensing when air is cooled at constant pressure (= saturation temperature at p_v) |
+| Wet bulb depression | DBT − WBT (zero for saturated air) |
+| Dew point depression | DBT − DPT |
+| Specific humidity (humidity ratio) ω | Mass of water vapour per kg of dry air |
+| Relative humidity φ | Ratio of actual vapour pressure to saturation vapour pressure at the same DBT |
+| Degree of saturation μ | ω/ω_s at the same DBT |
+| Absolute humidity | Mass of vapour per m³ of moist air (vapour density) |
+| Saturated air | Air holding the maximum vapour at its DBT (φ = 100%) |
+F: ω = 0.622 p_v/(p_b − p_v)  kg/kg of dry air
+F: φ = p_v/p_s;  μ = ω/ω_s = φ (p_b − p_s)/(p_b − p_v)  (μ ≈ φ)
+F: Enthalpy of moist air: h = 1.005 t + ω(2500 + 1.88 t)  kJ/kg of dry air (t in °C)
+F: Humid specific heat c_pa = 1.005 + 1.88ω ≈ 1.022 kJ/kg·K
+F: Specific volume v = R_a T/p_a = 0.287 T/(p_b − p_v) m³/kg dry air
+F: Carrier's equation: p_v = p_vs' − (p_b − p_vs')(t_db − t_wb)/(1544 − 1.44 t_wb)  (p_vs' = saturation pressure at WBT)
+- For unsaturated air DBT > WBT > DPT; for saturated air DBT = WBT = DPT.
+- Instruments: sling psychrometer (DBT and WBT, whirled), Assmann aspiration psychrometer, hygrometers (hair, dew-point, electronic).
+PYQ-TREND: Order DBT > WBT > DPT and equality at saturation (very frequent); ω = 0.622 p_v/(p_b − p_v); definitions of RH, specific humidity, degree of saturation, dew point; enthalpy of moist air; sling psychrometer.
+WARN: Relative humidity and specific humidity are different. Sensible heating keeps ω constant but lowers RH.
+
+## 23.2 Psychrometric Chart and Processes
+- Chart: DBT on the x-axis, specific humidity (and vapour pressure) on the y-axis; saturation curve (100% RH) is the upper boundary; RH curves below it; WBT lines (nearly parallel to constant-enthalpy lines) slope downward to the right; specific-volume lines are steeper; dew point read horizontally to the saturation curve.
+FIG: psychro
+| Process | Path on chart | Example |
+| Sensible heating | Horizontal to the right (ω constant, RH falls) | Heating coil, winter AC |
+| Sensible cooling | Horizontal to the left (above dew point) | Cooling coil with surface temperature > DPT |
+| Humidification (pure) | Vertical upward | Steam injection at constant DBT |
+| Dehumidification (pure) | Vertical downward | – (theoretical) |
+| Cooling and dehumidification | Down and to the left towards ADP of the coil | Summer AC, cooling coil below DPT |
+| Heating and humidification | Up and to the right | Winter AC |
+| Evaporative (adiabatic) cooling | Along constant WBT line, up and left (DBT falls, ω rises) | Desert cooler, air washer |
+| Chemical dehumidification (adsorption) | Along constant WBT/enthalpy, down and right (DBT rises, ω falls) | Silica gel, activated alumina |
+| Heating with steam injection / hot water spray | Depends on water temperature | – |
+| Adiabatic mixing of two streams | Point on straight line joining the states, divided inversely as the masses | Mixing fresh and recirculated air |
+F: Sensible heat: Q_s = ṁ_a c_pa ΔT ≈ 1.022 ṁ_a ΔT;  latent heat: Q_L = ṁ_a Δω h_fg ≈ 2500 ṁ_a Δω
+F: Total heat = ṁ_a (h₂ − h₁) = Q_s + Q_L
+F: Sensible heat factor SHF = Q_s/(Q_s + Q_L) (slope of the condition line)
+F: Bypass factor BPF = (t₂ − t_ADP)/(t₁ − t_ADP);  contact (coil) efficiency = 1 − BPF
+F: Mixing: ṁ₁ω₁ + ṁ₂ω₂ = (ṁ₁ + ṁ₂)ω₃;  ṁ₁h₁ + ṁ₂h₂ = (ṁ₁ + ṁ₂)h₃;  t₃ ≈ weighted average
+F: Humidifying efficiency (air washer) = (t₁ − t₂)/(t₁ − t_wb)
+- Apparatus dew point (ADP): effective surface temperature of the cooling coil; leaving air would reach ADP if the coil were 100% effective. Bypass factor accounts for air that does not touch the coil; more rows and lower air velocity reduce BPF.
+PYQ-TREND: Sensible heating is horizontal (very frequent); evaporative cooling follows constant WBT; chemical dehumidification along constant enthalpy with DBT rising; cooling and dehumidification for summer AC; SHF and BPF definitions; adiabatic mixing on a straight line; ADP.
+
+## 23.3 Human Comfort and Air Conditioning Systems
+- Factors of comfort: DBT, RH, air motion, mean radiant temperature, purity of air, activity and clothing. Typical comfort conditions: summer 24–26 °C DBT with 45–55% RH; winter 20–22 °C with 40–50% RH; air velocity 6–9 m/min (0.1–0.15 m/s) in the occupied zone.
+- Effective temperature (ET): index combining DBT, humidity and air movement – temperature of saturated still air that gives the same feeling of comfort. Comfort chart (ASHRAE): optimum ET ≈ 20.6 °C (winter), 21.7 °C (summer) in older charts.
+- Fresh air (ventilation) requirement ≈ 0.3–0.5 m³/min per person; more in smoking or crowded areas.
+- Metabolic heat of an adult seated at rest ≈ 100–120 W total (sensible + latent).
+| System | Description |
+| Window AC | Self-contained unit; all components in one box through the wall |
+| Split AC | Outdoor unit (compressor + condenser), indoor unit (evaporator + blower); quieter; inverter types vary compressor speed |
+| Packaged unit | Factory-assembled larger unit (5–20 TR) with ducting |
+| Central AC | Chillers + air handling units (AHU) + ducts for large buildings |
+| All-air system | Conditioned air only (single duct CAV/VAV, dual duct) |
+| All-water system | Fan-coil units with chilled water |
+| Air–water system | Induction units, fan coils with primary air |
+| Summer AC | Cooling and dehumidification (+ reheat sometimes) |
+| Winter AC | Heating and humidification |
+| Year-round AC | Both, with controls |
+### Cooling load estimation
+- Sensible loads: heat gain through walls, roof, floor (U A ΔT_e – equivalent temperature difference considers solar radiation and time lag), solar radiation through glass (largest in many buildings), occupants (sensible part), lights (incandescent fully sensible; fluorescent ×1.25 for ballast), equipment and appliances, infiltration and ventilation air (sensible), duct heat gain, fan work.
+- Latent loads: occupants (perspiration, respiration), infiltration/ventilation air moisture, cooking, steam from processes.
+- Room sensible heat factor (RSHF), grand SHF (GSHF), effective SHF (ESHF).
+PYQ-TREND: Comfort conditions (24 °C, 50% RH) and effective temperature; sources of sensible and latent load; split AC components; winter AC = heating + humidification; central AC with chillers and AHUs.
+Q: Explain the summer air-conditioning system for hot and humid weather with a psychrometric sketch.
+In hot and humid weather, outdoor air has high DBT and high humidity. Fresh air is mixed with recirculated room air (state on the straight line between them), filtered, and passed over a cooling coil whose surface temperature (apparatus dew point) is below the dew point of the air. The air is cooled sensibly and, once below its dew point, moisture condenses on the coil, so the air is cooled and dehumidified – on the psychrometric chart it moves down and to the left towards the ADP; the bypass factor determines how close it gets. If the leaving air is too cold or the RH too low for the required sensible heat factor, it may be reheated slightly (horizontal process). The fan then supplies the conditioned air to the room, where it absorbs the room sensible and latent loads and returns to the room condition (≈ 25 °C DBT, 50% RH) along the room SHF line. Condensate is drained, and part of the return air is exhausted to make room for fresh ventilation air.

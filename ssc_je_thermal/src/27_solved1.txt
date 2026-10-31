@@ -1,0 +1,123 @@
+# Solved Numericals – Set 1 (Thermodynamics and Gas Cycles)
+SSC-style problems solved step by step (no options). Air: R = 0.287 kJ/kg·K, c_p = 1.005, c_v = 0.718 kJ/kg·K, γ = 1.4 unless stated. Temperatures in kelvin inside formulas.
+
+## 27.1 Ideal Gas and Work Transfer
+### Problem 1 – Mass of air in a tank
+A 2 m³ tank contains air at 5 bar and 27 °C. Find the mass of air.
+F: m = pV/(RT) = (5 × 10⁵ × 2)/(287 × 300) = 10⁶/86,100 = 11.61 kg
+### Problem 2 – Isothermal expansion work
+0.1 m³ of gas at 1 bar expands isothermally to 0.3 m³. Find the work done.
+F: W = p₁V₁ ln(V₂/V₁) = 10⁵ × 0.1 × ln 3 = 10,000 × 1.0986 = 10.99 kJ (done by the gas)
+### Problem 3 – Constant pressure process
+1 kg of air at 1 bar is heated at constant pressure from 300 K to 500 K. Find Q, W and ΔU.
+F: Q = m c_p ΔT = 1.005 × 200 = 201 kJ;  ΔU = m c_v ΔT = 0.718 × 200 = 143.6 kJ;  W = mRΔT = 0.287 × 200 = 57.4 kJ
+- Check: Q = ΔU + W = 143.6 + 57.4 = 201 kJ. Fraction of heat converted to work = W/Q = (γ − 1)/γ = 0.286.
+### Problem 4 – Polytropic compression
+1 kg of air at 1 bar, 27 °C is compressed to 8 bar following pV^1.3 = C. Find the final temperature, work and heat transfer.
+F: T₂ = T₁(p₂/p₁)^((n−1)/n) = 300 × 8^0.2308 = 300 × 1.616 = 484.8 K
+F: W = mR(T₁ − T₂)/(n − 1) = 0.287 × (300 − 484.8)/0.3 = −176.8 kJ (work done on the air)
+F: ΔU = m c_v (T₂ − T₁) = 0.718 × 184.8 = 132.7 kJ;  Q = ΔU + W = 132.7 − 176.8 = −44.1 kJ (heat rejected)
+- Shortcut: Q = W × (γ − n)/(γ − 1) = −176.8 × 0.1/0.4 = −44.2 kJ.
+### Problem 5 – Adiabatic compression
+Air at 1 bar, 300 K is compressed reversibly and adiabatically to 10 bar. Find T₂ and work per kg.
+F: T₂ = 300 × 10^(0.4/1.4) = 300 × 1.931 = 579.2 K
+F: W = c_v (T₂ − T₁) = 0.718 × 279.2 = 200.5 kJ/kg (input);  steady-flow work = c_p ΔT = 280.6 kJ/kg
+- Non-flow work uses c_v ΔT, steady-flow (shaft) work uses c_p ΔT = γ × non-flow work.
+
+## 27.2 First Law – Steady Flow
+### Problem 6 – Gas turbine
+Air enters a turbine at 1000 K with 50 m/s and leaves at 600 K with 150 m/s. The turbine is adiabatic. Find work per kg.
+F: w = c_p(T₁ − T₂) + (V₁² − V₂²)/2000 = 1.005 × 400 + (2500 − 22,500)/2000 = 402 − 10 = 392 kJ/kg
+### Problem 7 – Steam nozzle
+Steam enters a nozzle with negligible velocity and h₁ = 3000 kJ/kg; h₂ = 2762 kJ/kg. Find exit velocity.
+F: V₂ = 44.72 √(h₁ − h₂) = 44.72 × √238 = 44.72 × 15.43 = 690 m/s
+### Problem 8 – Throttling
+Steam at 10 bar (h_f = 762.8, h_fg = 2015.3 kJ/kg) is throttled to 1 bar and 110 °C (h = 2696 kJ/kg). Find the initial dryness fraction.
+F: h₁ = h₂ → 762.8 + x × 2015.3 = 2696 → x = 1933.2/2015.3 = 0.959
+### Problem 9 – Compressor with heat loss
+An air compressor takes in air at 100 kPa, 300 K and delivers it at 420 K. Heat lost to the cooling jacket = 20 kJ/kg. Neglect KE. Find work input per kg.
+F: −w = (h₂ − h₁) + q_loss = 1.005 × 120 + 20 = 120.6 + 20 = 140.6 kJ/kg (input)
+### Problem 10 – Mixing chamber
+Hot water at 80 °C (2 kg/s) mixes with cold water at 20 °C (3 kg/s) adiabatically. Find the outlet temperature.
+F: T₃ = (2 × 80 + 3 × 20)/5 = 220/5 = 44 °C
+
+## 27.3 Second Law, Engines, Refrigerators
+### Problem 11 – Carnot engine
+A Carnot engine works between 527 °C and 27 °C and receives 1000 kJ. Find η, work and heat rejected.
+F: η = 1 − 300/800 = 0.625;  W = 625 kJ;  Q₂ = 375 kJ
+### Problem 12 – Refrigerator and heat pump
+A reversible machine works between −13 °C and 27 °C. Find COP as refrigerator and as heat pump.
+F: COP_R = T_L/(T_H − T_L) = 260/40 = 6.5;  COP_HP = 300/40 = 7.5 = COP_R + 1
+### Problem 13 – Clausius inequality test
+An engine receives 1000 kJ at 500 K and rejects heat at 300 K. Check feasibility if it rejects (a) 700 kJ (b) 500 kJ.
+F: (a) ∮δQ/T = 1000/500 − 700/300 = 2 − 2.333 = −0.333 < 0 → possible (irreversible)
+F: (b) 2 − 500/300 = 2 − 1.667 = +0.333 > 0 → impossible
+- Quick check: Carnot limit = 1 − 300/500 = 40%; (a) η = 30% possible; (b) η = 50% > 40% impossible.
+### Problem 14 – Two engines in series
+Two reversible engines in series work between 1000 K and 300 K. Find the intermediate temperature for (a) equal work (b) equal efficiency.
+F: (a) T = (1000 + 300)/2 = 650 K;  (b) T = √(1000 × 300) = 547.7 K
+### Problem 15 – Engine driving a refrigerator
+A reversible engine (1000 K to 300 K) drives a reversible refrigerator (250 K to 300 K). Find heat taken from the 250 K space per kJ supplied to the engine.
+F: W = 1 × (1 − 0.3) = 0.7 kJ;  COP_R = 250/50 = 5;  Q_L = 5 × 0.7 = 3.5 kJ
+
+## 27.4 Entropy and Availability
+### Problem 16 – Heating water
+2 kg of water is heated from 20 °C to 80 °C. Find the change of entropy (c = 4.187 kJ/kg·K).
+F: ΔS = mc ln(T₂/T₁) = 2 × 4.187 × ln(353/293) = 8.374 × 0.1863 = 1.560 kJ/K
+### Problem 17 – Entropy change of air
+1 kg of air goes from 1 bar, 300 K to 5 bar, 500 K. Find Δs.
+F: Δs = c_p ln(T₂/T₁) − R ln(p₂/p₁) = 1.005 × 0.5108 − 0.287 × 1.6094 = 0.5134 − 0.4619 = 0.0515 kJ/kg·K
+### Problem 18 – Melting of ice
+1 kg of ice at 0 °C melts to water at 0 °C (latent heat 335 kJ/kg). Find ΔS.
+F: ΔS = Q/T = 335/273 = 1.227 kJ/K
+### Problem 19 – Mixing of water (entropy generation)
+1 kg of water at 80 °C is mixed adiabatically with 2 kg at 20 °C. Find the entropy generated.
+F: Final T = (80 + 40)/3 = 40 °C = 313 K
+F: ΔS = 4.187[1 × ln(313/353) + 2 × ln(313/293)] = 4.187[−0.1203 + 0.1321] = 0.0494 kJ/K > 0 (irreversible)
+### Problem 20 – Heat reservoir entropy (universe)
+1000 kJ of heat flows from a reservoir at 800 K to one at 400 K. Find ΔS_universe and the loss of available energy (T₀ = 300 K).
+F: ΔS_univ = −1000/800 + 1000/400 = −1.25 + 2.5 = 1.25 kJ/K
+F: Loss of available energy = T₀ ΔS_univ = 300 × 1.25 = 375 kJ
+### Problem 21 – Available energy
+1000 kJ of heat is available at 600 K; surroundings at 300 K. Find the available and unavailable energy.
+F: AE = Q(1 − T₀/T) = 1000 × 0.5 = 500 kJ;  UE = 500 kJ
+### Problem 22 – Second-law efficiency
+An engine works between 900 K and 300 K with η = 40%. Find the second-law efficiency.
+F: η_Carnot = 1 − 300/900 = 0.667;  η_II = 0.40/0.667 = 0.60 = 60%
+
+## 27.5 Properties of Steam
+### Problem 23 – Wet steam enthalpy
+Find the enthalpy and specific volume of steam at 10 bar, x = 0.9 (h_f = 762.8, h_fg = 2015.3 kJ/kg, v_g = 0.1944 m³/kg).
+F: h = 762.8 + 0.9 × 2015.3 = 762.8 + 1813.8 = 2576.6 kJ/kg;  v ≈ x v_g = 0.175 m³/kg
+### Problem 24 – Superheated steam (approximate)
+Steam at 10 bar (T_sat = 179.9 °C, h_g = 2778.1 kJ/kg) is superheated to 250 °C. Take c_ps = 2.1 kJ/kg·K. Find h and degree of superheat.
+F: Degree of superheat = 250 − 179.9 = 70.1 °C;  h = 2778.1 + 2.1 × 70.1 = 2925.3 kJ/kg (tables: ≈ 2943)
+### Problem 25 – Separating and throttling calorimeter
+In a combined calorimeter, the separator collects 0.2 kg water; 3.0 kg steam condensed after throttling with x₂ = 0.97. Find the overall dryness.
+F: x₁ (separator) = 3.0/3.2 = 0.9375;  x = x₁ × x₂ = 0.9375 × 0.97 = 0.909
+
+## 27.6 Air-Standard Cycles
+### Problem 26 – Otto cycle efficiency
+An Otto cycle has compression ratio 8. Find air-standard efficiency.
+F: η = 1 − 1/r^(γ−1) = 1 − 1/8^0.4 = 1 − 1/2.297 = 0.565 = 56.5%
+### Problem 27 – Otto cycle temperatures and work
+In Problem 26, T₁ = 300 K and heat supplied = 1800 kJ/kg. Find T₂, T₃, T₄ and net work.
+F: T₂ = 300 × 2.297 = 689.2 K;  T₃ = 689.2 + 1800/0.718 = 3196 K;  T₄ = 3196/2.297 = 1391 K
+F: Q_rejected = 0.718 × (1391 − 300) = 783.4 kJ/kg;  W = 1800 − 783.4 = 1016.6 kJ/kg (= 0.565 × 1800 ✓)
+### Problem 28 – Diesel cycle
+A Diesel cycle has r = 16 and cut-off ratio ρ = 2. Find η.
+F: η = 1 − (1/r^(γ−1)) × (ρ^γ − 1)/(γ(ρ − 1)) = 1 − (1/3.031) × (2.639 − 1)/1.4 = 1 − 0.330 × 1.171 = 0.614 = 61.4%
+### Problem 29 – Cut-off from expansion ratio
+A Diesel engine has compression ratio 15 and expansion ratio 7.5. Find the cut-off ratio and percentage cut-off (of stroke).
+F: ρ = r/r_e = 15/7.5 = 2;  % cut-off = (ρ − 1)/(r − 1) = 1/14 = 7.14% of stroke
+### Problem 30 – Brayton cycle
+A Brayton cycle has pressure ratio 10. Find η. For T_min = 300 K, T_max = 1200 K, find the optimum pressure ratio and maximum work.
+F: η = 1 − 1/10^0.2857 = 1 − 1/1.931 = 0.482 = 48.2%
+F: r_p,opt = (T_max/T_min)^(γ/(2(γ−1))) = 4^1.75 = 11.31
+F: W_max = c_p(√T_max − √T_min)² = 1.005 × (34.64 − 17.32)² = 1.005 × 300 = 301.5 kJ/kg
+### Problem 31 – Carnot vs Otto
+A Carnot engine and an Otto engine both work between T_max = 1500 K and T_min = 300 K (Otto r = 8). Compare efficiencies.
+F: η_Carnot = 1 − 300/1500 = 80%;  η_Otto = 56.5%  → Carnot is the upper limit
+### Problem 32 – Compression ratio from clearance
+The swept volume is 450 cc and the clearance volume 50 cc. Find r and Otto efficiency.
+F: r = (450 + 50)/50 = 10;  η = 1 − 1/10^0.4 = 1 − 0.398 = 60.2%

@@ -1,0 +1,59 @@
+# IC Engines – Performance, Testing, Supercharging, Emissions
+
+## 12.1 Performance Parameters
+F: Indicated power IP = p_mi L A n k / 60 (W, with p_mi in Pa)  –  n = N/2 (four-stroke), n = N (two-stroke);  k = number of cylinders
+F: Brake power BP = 2πNT/60 = torque × angular speed
+F: Friction power FP = IP − BP
+F: Mechanical efficiency η_m = BP/IP (typically 75–90%)
+F: Indicated thermal efficiency η_ith = IP/(ṁ_f × CV);  brake thermal efficiency η_bth = BP/(ṁ_f × CV) = η_ith × η_m
+F: Relative efficiency η_rel = η_ith / air-standard efficiency
+F: Brake mean effective pressure: bmep = BP × 60/(L A n k)
+F: Specific fuel consumption: bsfc = ṁ_f/BP (kg/kWh);  bsfc = 3600/(η_bth × CV) with CV in kJ/kg
+F: Volumetric efficiency η_v = actual mass (or volume at intake conditions) of air inducted / swept volume × ρ_air
+F: Air–fuel ratio = ṁ_air/ṁ_fuel
+F: Torque and bmep: T = bmep × V_s × k/(2π × n_R)  (n_R = 2 for four-stroke, 1 for two-stroke)
+- Typical values: η_bth – SI 25–33%, CI 30–40% (large diesels up to ~50%); bsfc – SI 0.25–0.35 kg/kWh, CI 0.20–0.25; η_v – NA SI 75–90%.
+- Indicator diagram (p–V) from an engine indicator gives indicated work: area × spring scale. Imep = area of indicator diagram × spring constant / length of diagram.
+F: Imep from indicator card: p_mi = (area of diagram / length of diagram) × spring stiffness
+PYQ-TREND: IP formula with n = N/2 for four-stroke (very frequent); BP = 2πNT/60; mechanical efficiency; bsfc units; volumetric efficiency definition; relation η_bth = η_ith × η_m.
+TIP: Most IP mistakes come from using N instead of N/2 for a four-stroke engine. Write 'n = power strokes per minute' and decide first.
+
+## 12.2 Measurement and Testing
+- Brake power: dynamometers – absorption (Prony brake, rope brake, hydraulic (Froude), eddy-current, electric swinging-field) and transmission (torsion meter).
+- Friction power measurement:
+| Method | Applicable to | Principle |
+| Willan's line (fuel-rate extrapolation) | CI engines only (at constant speed) | Plot fuel consumption vs BP; extrapolate to zero fuel → FP |
+| Morse test | Multi-cylinder engines (SI mainly) | Cut out each cylinder in turn, restore speed, measure drop in BP; IP of that cylinder = BP_all − BP_(n−1) |
+| Motoring test | Any | Drive the engine with an electric motor at the same speed with ignition/fuel off |
+| Retardation test | Any | Rate of fall of speed after cutting fuel |
+| Indicator diagram | Any | IP − BP |
+- Air consumption: air box with orifice and manometer (with damping), viscous-flow (Alcock) meter, positive-displacement meters. Fuel consumption: burette and stopwatch, gravimetric, flow meters.
+- Exhaust analysis: Orsat apparatus (CO₂, O₂, CO by volume – dry basis), NDIR analysers (CO, CO₂), FID (HC), chemiluminescence (NOx), smoke meters (Bosch, Hartridge) for diesel smoke.
+- Heat balance sheet (per minute or per hour): heat supplied = BP + heat to cooling water + heat to exhaust gases + unaccounted losses (radiation, friction). Typical: BP 25–35%, coolant 25–35%, exhaust 30–40%, unaccounted 5–10%.
+F: Heat to coolant = ṁ_w c_pw (t_out − t_in);  heat to exhaust = ṁ_g c_pg (t_g − t_ambient)
+- Performance curves: at constant speed vs load (bsfc minimum near 75–90% load); at full throttle vs speed (torque maximum at medium speed; BP rises then falls; bsfc minimum at medium speed).
+PYQ-TREND: Willan's line for CI engines, Morse test for multi-cylinder SI engines (very frequent); heat balance components and percentages; Orsat apparatus; Prony brake; motoring test.
+
+## 12.3 Supercharging and Turbocharging
+- Supercharging: supplying air (or mixture) at a pressure above atmospheric to increase the mass of charge per cycle → higher power from the same engine size. Uses: aircraft engines at altitude (compensate thin air), racing cars, high-output diesels.
+- Supercharger types: positive displacement (Roots blower – no internal compression; vane; screw), centrifugal; driven mechanically from the crankshaft (absorbs some power).
+- Turbocharger: an exhaust-gas turbine drives a centrifugal compressor on a common shaft – uses waste exhaust energy, improving overall efficiency. Issue: turbo lag (delayed response at low speed). Waste-gate valve limits boost pressure; variable-geometry turbines reduce lag.
+- Intercooler (charge air cooler): cools the compressed air → higher density, more power, lower knock risk (SI) and lower NOx.
+- Supercharging is more suitable for CI engines – it reduces ignition delay (less knock) and improves combustion; in SI engines it raises knock tendency, so compression ratio must be reduced or higher-octane fuel used.
+PYQ-TREND: Purpose of supercharging; turbocharger driven by exhaust gases (very frequent); Roots blower; intercooler; supercharging better for CI engines; altitude compensation in aircraft.
+
+## 12.4 Emissions and Their Control
+| Pollutant | Source/cause | Main effect |
+| CO | Incomplete combustion, rich mixture (SI idling, deceleration) | Combines with haemoglobin – toxic |
+| HC (unburnt hydrocarbons) | Flame quenching at cold walls, crevice volumes, misfire, scavenging loss in 2-strokes | Smog formation, carcinogenic |
+| NOx (NO + NO₂) | High peak combustion temperature with excess O₂ (CI, lean SI) | Photochemical smog, acid rain |
+| Particulate matter (soot) | Diesel – locally rich zones, incomplete combustion | Respiratory diseases |
+| SOx | Sulphur in fuel | Acid rain |
+| CO₂ | Complete combustion of carbon | Greenhouse gas |
+- Control methods: three-way catalytic converter (SI) – platinum/palladium oxidise CO and HC, rhodium reduces NOx; needs stoichiometric mixture (λ = 1) maintained by an oxygen (λ) sensor in closed loop; poisoned by lead. Oxidation catalyst (DOC) and diesel particulate filter (DPF) for diesels; selective catalytic reduction (SCR) with urea (AdBlue) for NOx; lean NOx traps.
+- In-engine methods: EGR (exhaust gas recirculation – dilutes charge, lowers peak temperature → less NOx), retarded injection/ignition timing, better mixing, high injection pressure (CRDI), combustion chamber design, PCV valve (crankcase HC), evaporative emission control (charcoal canister).
+- Norms in India: Bharat Stage (BS) emission standards based on Euro norms; BS-IV nationwide from 2017; BS-VI from 1 April 2020 (BS-V skipped).
+- There is a trade-off in diesels: measures that reduce NOx (lower temperature) tend to increase soot/PM, and vice versa.
+PYQ-TREND: EGR reduces NOx (very frequent); three-way catalyst metals and λ = 1 requirement; CO from rich mixture; HC from quenching; DPF and SCR for diesels; BS-VI from 2020; NOx–PM trade-off.
+Q: Explain the Morse test and state its limitations.
+The Morse test determines the indicated power, and hence friction power and mechanical efficiency, of a multi-cylinder engine. The engine runs at a fixed speed and load, and its brake power BP is measured with a dynamometer. One cylinder is then cut out (spark shorted in an SI engine or fuel cut off in a CI engine); the speed drops, the dynamometer load is reduced to restore the original speed, and the new brake power BP₁ is recorded. The indicated power of the cut-out cylinder is IP₁ = BP − BP₁, assuming friction power is unchanged. Repeating for every cylinder, total IP = Σ IPᵢ = nBP − ΣBPᵢ; then FP = IP − BP and η_m = BP/IP. Limitations: it applies only to multi-cylinder engines; it assumes the friction and pumping losses stay the same when a cylinder is cut out, which is not strictly true (exhaust pressure and pumping change); cutting out cylinders can alter the mixture distribution in carburetted engines; and readings must be taken quickly to keep conditions steady.

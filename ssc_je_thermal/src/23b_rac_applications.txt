@@ -1,0 +1,79 @@
+# Refrigeration and AC – Applications and Equipment
+
+## 23B.1 Food Preservation and Cold Storage
+- Refrigeration slows bacterial growth, enzyme activity and respiration of fresh produce. Chilling: cooling to just above freezing (0–10 °C) – fruits, vegetables, milk, eggs. Freezing: storage at −18 °C or below – meat, fish, frozen foods; ice cream ≈ −25 °C.
+- Quick (fast) freezing forms small ice crystals that do not rupture cells, preserving texture and taste; slow freezing forms large crystals and causes 'drip loss' on thawing. Methods: air-blast freezing, plate (contact) freezing, immersion in brine, individually quick frozen (IQF) fluidised-bed freezing, cryogenic freezing with liquid N₂ (−196 °C) or CO₂.
+- Chilling injury: some tropical produce (bananas, mangoes) is damaged below about 10–13 °C, so they are stored above that.
+- Controlled-atmosphere (CA) storage: reduced O₂ and raised CO₂ with low temperature slow respiration – used for apples.
+| Load in cold storage | Source |
+| Transmission load | Heat through walls, roof, floor (U A ΔT) – reduced by thick PUF/EPS insulation with vapour barrier |
+| Product load | Sensible heat above freezing + latent heat of freezing + sensible heat below freezing; respiration heat of fruits and vegetables |
+| Air change (infiltration) load | Warm moist air entering through doors – air curtains, strip curtains reduce it |
+| Miscellaneous | Occupants, lights, fork-lifts, fan motors, defrost heaters |
+F: Product load (freezing): Q = m[c₁(T₁ − T_f) + L + c₂(T_f − T₂)]  (c₁ above freezing, c₂ below freezing, L latent heat of product)
+PYQ-TREND: Quick freezing preserves quality (small crystals); frozen food at −18 °C; cold storage load components; chilling vs freezing; cryogenic freezing with liquid nitrogen.
+
+## 23B.2 Ice Plant, Water Coolers and Domestic Appliances
+- Can-ice plant: galvanised cans filled with water are immersed in a tank of brine (NaCl or CaCl₂ solution) cooled to about −10 to −12 °C by an ammonia evaporator coil; an agitator circulates the brine; after freezing (≈ 24–48 h depending on can size) the cans are dipped in warm water to loosen the blocks. Air is blown into the cans to make clear ice. Capacity is expressed in tonnes of ice per day.
+- Water coolers: storage type (large tank, intermittent demand – offices) and instantaneous/pressure type (continuous flow); capacity in litres per hour of water cooled, typically from about 30 °C to 10 °C. Bottled water dispensers use small hermetic compressors or thermoelectric modules.
+- Domestic refrigerators: direct-cool (natural convection, manual defrost) vs frost-free (forced-air circulation with automatic defrost heater and timer); door gaskets with magnets; refrigerant R-134a or R-600a; star rating by BEE.
+- Automobile AC: compressor driven by engine belt via an electromagnetic clutch (swash-plate or variable-displacement types; electric compressors in EVs), condenser in front of the radiator, TXV or orifice tube with accumulator, evaporator in the dashboard; refrigerant R-134a or R-1234yf.
+- Deep freezers (−18 to −30 °C), visi-coolers (display), bottle coolers, ice-cream cabinets, cold chains (reefers – refrigerated trucks and containers).
+
+## 23B.3 Air-Conditioning Equipment
+| Equipment | Facts |
+| Window AC | Single unit; capacity 0.75–2 TR; rotary/reciprocating hermetic compressor; fan with double-shaft motor drives evaporator blower and condenser fan |
+| Split AC | Indoor (evaporator + blower) and outdoor (compressor + condenser) units joined by refrigerant piping; quieter indoors; inverter models use variable-speed BLDC compressors for better part-load efficiency |
+| Packaged unit | 5–20 TR; factory-assembled; ducted air distribution |
+| VRF/VRV system | One outdoor unit serves many indoor units; refrigerant flow varied by inverter compressor and electronic expansion valves; zone control, heat recovery versions |
+| Chillers | Produce chilled water (≈ 7 °C supply, 12 °C return) for AHUs/FCUs; reciprocating, scroll, screw, centrifugal (large) or absorption (waste heat) |
+| Air handling unit (AHU) | Filter, cooling coil, heating coil, humidifier, fan, mixing box; supplies conditioned air through ducts |
+| Fan coil unit (FCU) | Small unit in each room with chilled water coil and fan |
+| Cooling tower | Rejects condenser heat from water-cooled chillers |
+| Thermal (ice) storage | Ice or chilled water made at night (cheaper power) and used during peak hours |
+F: Energy efficiency ratio EER = cooling capacity (W)/power input (W)  (= COP for cooling)
+F: Chiller performance often quoted in kW/TR = 3.517/COP (efficient water-cooled centrifugal ≈ 0.5–0.65 kW/TR)
+- In India, room ACs carry BEE star labels based on ISEER (Indian Seasonal Energy Efficiency Ratio), which weights performance over the range of outdoor temperatures in a year. Inverter ACs score higher because they run at reduced speed most of the time instead of cycling on and off.
+PYQ-TREND: Split AC components (very frequent); inverter AC variable-speed compressor; chillers and AHUs in central AC; EER/COP definitions; VRF systems; thermal storage for peak shaving.
+
+## 23B.4 Air Distribution – Ducts, Fans, Filters
+### Duct design methods
+| Method | Description |
+| Velocity reduction | Velocities chosen arbitrarily, decreasing along the duct – simple systems |
+| Equal friction | Same friction loss per metre in all sections (≈ 0.8–1 Pa/m) – most common for low-velocity supply, return and exhaust ducts |
+| Static regain | Velocity reduced after each branch so the regained static pressure offsets friction losses – large, high-velocity systems; gives balanced static pressure at outlets |
+F: Equivalent diameter of rectangular duct (same friction and flow): D_eq = 1.3(ab)^0.625/(a + b)^0.25;  for same velocity and friction: D_h = 2ab/(a + b)
+- Aspect ratio of rectangular ducts kept below about 4:1 (ideally close to 1) to reduce material and friction. Typical main duct velocity: 5–8 m/s in comfort systems (low noise).
+- Air outlets: grilles (fixed or adjustable vanes), registers (grilles with dampers), diffusers (ceiling – circular, square, slot, linear). Terms: throw (distance the air jet travels before velocity falls to ≈ 0.25 m/s), drop (vertical fall of the jet), spread (divergence), aspiration/induction (room air entrained by the jet).
+### Fans
+| Fan type | Features / uses |
+| Forward-curved centrifugal | Many shallow blades; high flow at low pressure; compact, quiet; overloading power characteristic – AHUs, furnaces, window ACs |
+| Backward-curved centrifugal | Highest efficiency, non-overloading power curve – large HVAC and industrial systems |
+| Radial-blade centrifugal | Self-cleaning, rugged – dusty material handling |
+| Axial (propeller, tube-axial, vane-axial) | High flow at low pressure – exhaust, condenser fans, cooling towers |
+F: Fan laws (same fan, density constant): Q ∝ N;  Δp ∝ N²;  P ∝ N³
+F: Geometrically similar fans: Q ∝ N D³;  Δp ∝ N² D²;  P ∝ N³ D⁵
+### Air filters
+| Filter | Use |
+| Viscous impingement (oil-coated) | Coarse dust, cheap, washable |
+| Dry (fabric, fibreglass, bag) | General HVAC; MERV rated |
+| HEPA | ≥ 99.97% at 0.3 μm – hospitals, clean rooms, pharmaceuticals |
+| Electrostatic precipitator | Charged particles collected on plates – fine particles, smoke |
+| Activated carbon | Odours and gases (adsorption) |
+PYQ-TREND: Equal friction method most common (very frequent); static regain for high-velocity systems; fan laws P ∝ N³; HEPA filter 0.3 μm; throw definition; forward-curved fans overloading.
+
+## 23B.5 Low-Temperature Applications and Cryogenics
+| Fluid | Normal boiling point |
+| Helium | −269 °C (4.2 K) – lowest |
+| Hydrogen | −253 °C (20 K) |
+| Nitrogen | −196 °C (77 K) |
+| Argon | −186 °C |
+| Oxygen | −183 °C (90 K) |
+| Methane (LNG) | −162 °C |
+| CO₂ (sublimation) | −78.5 °C |
+- Air liquefaction: Linde–Hampson process (compression, regenerative heat exchanger, Joule–Thomson throttling); Claude process adds an expansion engine/turbine for higher yield. Liquid air is separated into O₂, N₂ and Ar by fractional distillation (double column) because of their different boiling points.
+- Gases with low inversion temperature (H₂ ≈ 200 K, He ≈ 40 K) must be precooled below the inversion temperature before throttling can cool them.
+- Uses: liquid N₂ for food freezing, cryosurgery, preservation of biological samples; liquid O₂ in rockets, steel making and hospitals; LNG transport; superconducting magnets (MRI) cooled by liquid helium; cryopumps; Dewar flasks with vacuum and silvered walls (multilayer insulation).
+PYQ-TREND: Liquid nitrogen −196 °C, helium lowest boiling point; Linde vs Claude cycle; J–T precooling of hydrogen and helium; Dewar flask.
+Q: Explain the equal-friction method of duct design and state its merits and demerits.
+In the equal-friction method, the duct system is designed so that the pressure loss due to friction per unit length is the same in all sections. The designer first selects a velocity for the main duct leaving the fan – based on noise limits and the type of building – and, from the required air flow, determines the main duct size and its friction loss per metre from a friction chart. This friction rate is then used for every branch and sub-branch: knowing the air flow in each section, its diameter is read from the chart at the same friction rate, and rectangular sizes are chosen with an equivalent diameter. Velocities automatically decrease as the flow decreases along the duct. The total pressure required from the fan is the friction loss of the longest (index) run plus losses in fittings. Merits: simple, quick and widely used for supply, return and exhaust ducts in low-velocity systems; it gives reasonable duct sizes and automatic velocity reduction. Demerits: branches close to the fan have excess pressure and need dampers for balancing; it does not equalise static pressure at outlets, which the static-regain method does for large, high-velocity systems.

@@ -1,0 +1,33 @@
+# Availability, Thermodynamic Relations and Mixtures
+
+## 6.1 Available and Unavailable Energy
+- Available energy (exergy): the maximum useful work obtainable from a system or energy as it is brought into equilibrium with the environment (dead state, T₀, p₀).
+F: Available energy from heat Q at constant T: AE = Q(1 − T₀/T);  unavailable energy UE = T₀ ΔS
+F: Heat from a body cooled from T₁ to T₀ (variable T): AE = Q − T₀ Δs = mc[(T₁ − T₀) − T₀ ln(T₁/T₀)]
+F: Loss of available energy due to heat transfer through finite ΔT: ΔAE = T₀ ΔS_gen
+F: Closed-system availability: φ = (u − u₀) + p₀(v − v₀) − T₀(s − s₀) + V²/2 + gz
+F: Flow availability (exergy): ψ = (h − h₀) − T₀(s − s₀) + V²/2 + gz
+F: Irreversibility (Gouy–Stodola theorem): I = W_rev − W_actual = T₀ S_gen
+F: Second-law efficiency: η_II = η_th/η_rev (engines) = COP/COP_rev (refrigerators)
+- Energy is conserved but exergy is destroyed by irreversibility. High-temperature heat has more available energy per kJ than low-temperature heat ('quality of energy').
+PYQ-TREND: Unavailable energy = T₀ΔS (frequent); Gouy–Stodola theorem; available energy decreases when heat flows to a lower temperature; second-law efficiency.
+
+## 6.2 Thermodynamic Potentials and Maxwell Relations
+F: Helmholtz function F = U − TS;  Gibbs function G = H − TS
+F: dU = T dS − p dV;  dH = T dS + V dp;  dF = −S dT − p dV;  dG = −S dT + V dp
+F: Maxwell: (∂T/∂v)_s = −(∂p/∂s)_v;  (∂T/∂p)_s = (∂v/∂s)_p;  (∂p/∂T)_v = (∂s/∂v)_T;  (∂v/∂T)_p = −(∂s/∂p)_T
+F: Clausius–Clapeyron: dp/dT = h_fg/(T v_fg)  (≈ h_fg p/(R T²) for vapour as ideal gas, v_f ≪ v_g)
+F: cp − cv = −T (∂v/∂T)_p² (∂p/∂v)_T = T v β²/κ_T ≥ 0
+F: Joule–Thomson coefficient: μ = (∂T/∂p)_h = [T(∂v/∂T)_p − v]/cp
+- At constant T and p, a system reaches equilibrium when G is minimum (phase change, chemical equilibrium: dG = 0). At constant T and V, F is minimum.
+- cp = cv for incompressible substances and at the density maximum of water (4 °C, where β = 0).
+- Volume expansivity β = (1/v)(∂v/∂T)_p; isothermal compressibility κ_T = −(1/v)(∂v/∂p)_T.
+PYQ-TREND: Gibbs and Helmholtz definitions; Maxwell relations; Clausius–Clapeyron relates saturation pressure slope to latent heat; cp ≥ cv always; cp = cv for water at 4 °C; G minimum at equilibrium at constant T, p.
+
+## 6.3 Gas Mixtures
+F: Dalton's law: p = Σpᵢ;  pᵢ = yᵢ p (yᵢ = mole fraction)
+F: Amagat's law: V = ΣVᵢ;  volume fraction = mole fraction
+F: Mixture properties: R_mix = R̄/M_mix;  M_mix = ΣyᵢMᵢ;  cp,mix = Σ(mass fraction × cpᵢ)
+F: Entropy of mixing ideal gases: ΔS = −R̄ Σ nᵢ ln yᵢ > 0
+- Air composition (dry, by volume): N₂ 78.08%, O₂ 20.95%, Ar 0.93%, CO₂ ≈ 0.04%; by mass O₂ ≈ 23.2%; molecular mass 28.97 kg/kmol.
+PYQ-TREND: Dalton's law of partial pressures; mole fraction = volume fraction; composition of air; entropy of mixing positive.

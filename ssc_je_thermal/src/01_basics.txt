@@ -1,0 +1,54 @@
+# Basic Concepts of Thermodynamics
+
+## 1.1 System, Surroundings and Boundary
+- Thermodynamics deals with energy, its forms (heat and work) and its interaction with matter. Classical (macroscopic) thermodynamics treats matter as a continuum; statistical (microscopic) thermodynamics works with molecules.
+- System: the quantity of matter or region of space chosen for study. Surroundings: everything outside it. Boundary: real or imaginary surface separating them; it can be fixed or moving.
+| System | Mass transfer | Energy transfer | Examples |
+| Closed (control mass) | No | Yes | Gas in a piston–cylinder, sealed tank, pressure cooker (before whistle) |
+| Open (control volume) | Yes | Yes | Turbine, compressor, nozzle, pump, boiler, IC engine (during intake/exhaust), heat exchanger |
+| Isolated | No | No | Universe, perfectly insulated thermos flask (ideal) |
+- Adiabatic system: no heat transfer across the boundary (work may cross). Diathermic wall: allows heat transfer.
+- Homogeneous system: single phase (water, air). Heterogeneous: more than one phase (ice + water).
+PYQ-TREND: Classification of systems with examples (turbine – open; piston–cylinder – closed; universe – isolated). Adiabatic vs isolated. Control mass vs control volume.
+
+## 1.2 Properties, State, Process, Cycle
+- Property: a measurable characteristic that defines the state (p, V, T, U, H, S). It depends only on the state, not on the path – a point function with an exact differential.
+- Intensive properties do not depend on mass: pressure, temperature, density, specific volume, specific enthalpy, viscosity, velocity, specific heat. Extensive properties depend on mass: volume, mass, energy, enthalpy, entropy, internal energy. Specific (per unit mass) values of extensive properties are intensive. The ratio of two extensive properties is intensive.
+- State postulate: the state of a simple compressible system is fixed by two independent intensive properties.
+- Process: change of state. Path: series of states passed through. Cycle: process(es) returning to the initial state – net change of every property is zero (∮dX = 0).
+- Quasi-static (quasi-equilibrium) process: infinitely slow, so the system is always infinitely close to equilibrium; it can be drawn as a continuous line on a property diagram. Only quasi-static processes have a definable path and work ∫p dV.
+- Thermodynamic equilibrium requires simultaneous mechanical (no unbalanced forces – uniform pressure), thermal (uniform temperature) and chemical (no chemical reaction/mass transfer) equilibrium; phase equilibrium is part of chemical equilibrium.
+- Heat and work are not properties – they are path functions (inexact differentials δQ, δW); they appear only during a process, at the boundary.
+| Point functions (properties) | Path functions |
+| p, V, T, U, H, S, G, F, ρ | Heat Q, Work W |
+F: Property test: ∮dX = 0 for any cycle;  path function: ∮δQ ≠ 0 in general
+PYQ-TREND: Intensive vs extensive identification (very frequent); heat and work as path functions; quasi-static process definition; thermodynamic equilibrium components; state postulate (two independent properties).
+TIP: Divide the system in two equal halves: if the property stays the same in each half it is intensive (T, p, ρ); if it halves it is extensive (V, m, U).
+
+## 1.3 Zeroth Law and Temperature
+- Zeroth law (R.H. Fowler, 1931): if two bodies are each in thermal equilibrium with a third body, they are in thermal equilibrium with each other. It is the basis of temperature measurement – the thermometer is the 'third body'.
+- Temperature: property that determines whether a body is in thermal equilibrium with another.
+F: Kelvin: T(K) = t(°C) + 273.15;  Fahrenheit: t(°F) = 1.8 t(°C) + 32;  Rankine: T(R) = t(°F) + 459.67 = 1.8 T(K)
+F: °C and °F read the same at −40;  °F and K read the same at 574.59
+F: Linear thermometer scale: (t − ice point)/(steam point − ice point) is the same on all linear scales
+- Fixed points: old two-point scale – ice point (0 °C) and steam point (100 °C) at 1 atm. Since 1954 a single fixed point – the triple point of water, 273.16 K (0.01 °C, 0.6117 kPa) – defines the kelvin; ITS-90 uses several fixed points. Since 2019 the kelvin is defined via the Boltzmann constant.
+- Thermometric properties: length of liquid column (mercury-in-glass), pressure at constant volume (constant-volume gas thermometer – most accurate, independent of the gas at low pressures; used as the standard), volume at constant pressure, electrical resistance (RTD, thermistor), thermo-emf (thermocouple – Seebeck effect), radiation intensity (pyrometer).
+| Thermometer | Range / note |
+| Mercury-in-glass | −39 to 357 °C |
+| Alcohol | Low temperatures (to −115 °C) |
+| Constant-volume gas | Standard, very accurate |
+| Platinum resistance (Pt-100) | −200 to 850 °C, accurate, linear |
+| Thermocouple | −200 to 1800 °C (type-dependent), fast response |
+| Optical/radiation pyrometer | > 700 °C, non-contact |
+PYQ-TREND: Zeroth law is the basis of temperature measurement (very frequent); temperature equal on °C and °F (−40); triple point of water 273.16 K; constant-volume gas thermometer as standard; thermocouple works on Seebeck effect.
+WARN: The triple point of water is 0.01 °C (273.16 K), not 0 °C. The ice point (0 °C) is at 1 atm; the triple point is at 0.611 kPa.
+
+## 1.4 Pressure, Energy and Units
+F: 1 bar = 10⁵ Pa;  1 atm = 1.01325 bar = 760 mm Hg = 10.33 m H₂O;  1 torr = 1 mm Hg
+F: p_abs = p_atm + p_gauge;  vacuum = p_atm − p_abs
+F: 1 kJ = 1000 N·m;  1 kWh = 3600 kJ;  1 cal = 4.187 J;  1 hp (metric) = 735.5 W
+- Energy forms: stored (internal, kinetic, potential, chemical, nuclear) and in transit (heat, work). Internal energy U: sum of microscopic energies (molecular translation, rotation, vibration, binding).
+- Specific heat: energy to raise unit mass by one degree. For gases two principal values: cp (constant pressure) > cv (constant volume) because at constant pressure the gas also does expansion work.
+PYQ-TREND: Unit conversions; absolute vs gauge pressure; internal energy is a property; cp > cv for gases.
+Q: Explain the concept of thermodynamic equilibrium and quasi-static process.
+A system is in thermodynamic equilibrium when no spontaneous change occurs in it without an external influence. It requires mechanical equilibrium (no unbalanced forces, so uniform pressure), thermal equilibrium (uniform temperature equal to that of the surroundings across diathermic walls) and chemical equilibrium (no chemical reaction or mass transfer between parts, including phase equilibrium). Only equilibrium states can be described by properties. A quasi-static process is one carried out so slowly that the system passes through a continuous succession of equilibrium states; each intermediate state can be plotted on a p–V diagram, so the path is a continuous line and work can be calculated as ∫p dV. Real processes are not quasi-static, but slow piston motion approximates them; for example, removing tiny weights one at a time from a loaded piston.

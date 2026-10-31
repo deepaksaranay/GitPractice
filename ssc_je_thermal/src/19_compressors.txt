@@ -1,0 +1,74 @@
+# Air Compressors
+
+## 19.1 Uses and Classification
+- Uses: pneumatic tools (drills, hammers, riveters), spray painting, sand blasting, braking of trains and trucks, supercharging, gas turbines, refrigeration, blast furnaces, pneumatic conveying, starting diesel engines, tyre inflation.
+| Basis | Types |
+| Principle | Positive displacement (reciprocating; rotary – Roots blower, vane, screw, scroll) / dynamic (centrifugal, axial) |
+| Stages | Single-stage, multi-stage |
+| Action | Single-acting, double-acting |
+| Pressure | Fans (< 1.1 pressure ratio), blowers (1.1–2.5), compressors (> 2.5) |
+
+| Reciprocating | Rotary/dynamic |
+| Low flow, high pressure (up to 1,000+ bar multistage) | High flow, lower pressure per stage |
+| Pulsating delivery; needs receiver | Continuous, smooth delivery |
+| Slow speed; heavy foundations; more vibration | High speed; compact; balanced |
+| Lubrication contaminates air | Oil-free air possible (centrifugal) |
+| Higher isothermal efficiency at high pressure ratios | Higher efficiency at large flow rates |
+PYQ-TREND: Classification; reciprocating for high pressure/low flow; centrifugal and axial for large flow; uses of compressed air; fan/blower/compressor pressure ratios.
+
+## 19.2 Work of a Single-Stage Reciprocating Compressor
+F: Work per cycle (no clearance), polytropic pV^n = C: W = (n/(n−1)) p₁V₁ [(p₂/p₁)^((n−1)/n) − 1]
+F: Isentropic (n = γ): W = (γ/(γ−1)) p₁V₁ [(p₂/p₁)^((γ−1)/γ) − 1] = ṁ cp (T₂ − T₁)
+F: Isothermal (n = 1): W = p₁V₁ ln(p₂/p₁)  – minimum work
+F: With clearance, the work formula is the same with V₁ replaced by the effective swept (induced) volume V₁ − V₄
+F: Isothermal efficiency η_iso = isothermal work / actual work
+F: Delivery temperature: T₂ = T₁ (p₂/p₁)^((n−1)/n)
+F: Power = W × N_working strokes per second (single-acting: N/60; double-acting: 2N/60)
+- Work input is the area of the p–V diagram enclosed between suction, compression and delivery lines. Isothermal compression needs the least work (smallest area); adiabatic the most. Practical compressors have 1.2 < n < 1.35 with cooling (water jackets, fins); the aim is to approach isothermal compression.
+- Methods to approach isothermal compression: cooling the cylinder (water jackets/fins), spraying water, multistaging with intercooling (most effective).
+FIG: compressor
+PYQ-TREND: Isothermal compression requires minimum work (very frequent); work formulas; isothermal efficiency definition; delivery temperature; methods to reduce work.
+
+## 19.3 Clearance and Volumetric Efficiency
+F: Clearance ratio C = V_c/V_s (typically 4–10%)
+F: Volumetric efficiency η_v = (V₁ − V₄)/V_s = 1 + C − C (p₂/p₁)^(1/n)
+F: Maximum pressure ratio (η_v = 0): (p₂/p₁)_max = ((1 + C)/C)^n
+F: Free air delivery (FAD): volume of air delivered reduced to intake (free-air) conditions – p_a V_a/T_a = p₁V₁/T₁
+F: Overall volumetric efficiency referred to FAD: η_v' = (FAD per cycle)/V_s
+- Clearance air re-expands during the suction stroke, reducing the induced volume. Volumetric efficiency decreases as clearance or pressure ratio increases. Clearance does not change the work per kg of air (ideal) but reduces capacity.
+- Clearance is necessary to prevent the piston from striking the cylinder head and to accommodate valves.
+PYQ-TREND: Volumetric efficiency formula and effect of clearance and pressure ratio (very frequent); FAD definition; maximum pressure ratio for zero delivery; work per kg independent of clearance (ideal).
+
+## 19.4 Multistage Compression and Intercooling
+- Compression in two or more stages with intercoolers between them (air cooled back to intake temperature = perfect intercooling).
+F: Two-stage, perfect intercooling, equal n: optimum intermediate pressure p₂ = √(p₁p₃)
+F: Pressure ratio per stage for z stages: (p_final/p₁)^(1/z) (equal in each stage)
+F: Minimum total work (z stages): W = z (n/(n−1)) p₁V₁ [(p_{z+1}/p₁)^((n−1)/(zn)) − 1]
+F: Under these conditions: work in each stage is equal, delivery temperature from each stage is equal, heat rejected in each intercooler is equal
+F: Heat rejected in intercooler = ṁ cp (T₂ − T₁);  heat rejected during polytropic compression = W (γ − n)/(γ − 1)
+- Advantages of multistaging: less work (closer to isothermal – saving shown as area between the curves), higher volumetric efficiency (lower pressure ratio per stage reduces clearance effect), lower delivery temperatures (better lubrication, no oil decomposition/explosion risk), lighter LP cylinders, better mechanical balance, less leakage.
+- Usual number of stages: up to 5 bar – one; 5–35 bar – two; 35–85 bar – three; above – four or more.
+PYQ-TREND: Optimum intermediate pressure √(p₁p₃) (very frequent); equal work and equal pressure ratio per stage; advantages of multistaging; intercooler heat.
+TIP: For a three-stage compressor from 1 bar to 27 bar, the stage pressures are 3 bar and 9 bar (ratio 3 each).
+
+## 19.5 Rotary Compressors
+- Roots blower: two lobed rotors trap air and carry it from inlet to outlet; no internal compression – compression occurs irreversibly when the pocket opens to the higher-pressure delivery (back-flow). Efficient only at low pressure ratios (≈ 1.2–2); used for supercharging and scavenging two-stroke diesels.
+F: Roots blower work = (p₂ − p₁)V;  Roots efficiency = isentropic work / actual work
+- Vane blower: eccentric rotor with sliding vanes; partial internal compression (then back-flow compression) → more efficient than Roots at the same ratio.
+- Screw (Lysholm) compressor: two meshing helical rotors; internal compression; oil-flooded or oil-free; widely used in industry and refrigeration (medium flows, 7–15 bar).
+- Scroll compressor: orbiting spiral – domestic AC and refrigeration (quiet, efficient).
+### Centrifugal compressor
+- Air enters the eye of the impeller axially, is accelerated radially outward by the rotating vanes (kinetic energy and some pressure rise), then decelerated in a diffuser (vaned or vaneless) and volute casing to raise the pressure. Pressure ratio per stage ≈ 4–5 (up to ≈ 10 in special designs).
+F: Work input per kg (radial vanes, no prewhirl) = σ ψ u₂²  (σ = slip factor ≈ 0.9, ψ = power input factor ≈ 1.03–1.05)
+F: Pressure coefficient = isentropic work / u₂²;  temperature rise of air ΔT = σψu₂²/cp
+- Slip: the air leaves the impeller with less whirl than the blade angle implies (finite blades, relative eddy).
+- Surging: unstable operation at low mass flow when the pressure ratio peak is passed – flow reversal and violent pulsations. Choking (stonewalling): maximum flow when the velocity at some section reaches sonic speed – flow cannot increase further. Stalling: separation of flow from blades (rotating stall).
+### Axial-flow compressor
+- Many stages of rotating (rotor) and stationary (stator) blade rows; each stage gives a small pressure rise (≈ 1.1–1.3), with 50% degree of reaction common; high efficiency (85–90%) and very large flow; used in jet engines and large gas turbines. Inlet guide vanes, variable stators.
+| Centrifugal | Axial |
+| Radial flow; high pressure ratio per stage (4–5) | Axial flow; low pressure ratio per stage (1.1–1.3) |
+| Robust, wider stable range, less sensitive to dirt | Higher efficiency, larger mass flow, smaller frontal area |
+| Larger frontal area – early jet engines, turbochargers | Modern jet engines and large gas turbines |
+PYQ-TREND: Roots blower has no internal compression; surging at low flow and choking at maximum flow (very frequent); slip factor; axial compressors for jet engines (high efficiency, large flow, 50% reaction); centrifugal for turbochargers; screw compressor.
+Q: Explain the advantages of multistage compression with intercooling and derive the condition for minimum work in a two-stage compressor.
+Air compressed in a single stage to a high pressure becomes very hot, needs much more work than isothermal compression, and the large pressure ratio makes clearance air re-expand over most of the suction stroke, lowering volumetric efficiency. Dividing compression into stages with intercooling brings the air back to near intake temperature between stages, so the process approaches isothermal compression. This saves work, gives lower delivery temperatures (safer lubrication), better volumetric efficiency, lighter cylinders and better balance. For two stages with perfect intercooling (T at the start of each stage = T₁) and the same index n, total work W = (n/(n−1))mRT₁[(p₂/p₁)^k + (p₃/p₂)^k − 2], with k = (n−1)/n. Setting dW/dp₂ = 0: k p₂^(k−1)/p₁^k − k p₃^k/p₂^(k+1) = 0, giving p₂² = p₁p₃, i.e., p₂ = √(p₁p₃). Then the pressure ratio and work are equal in both stages, and so are the delivery temperatures.

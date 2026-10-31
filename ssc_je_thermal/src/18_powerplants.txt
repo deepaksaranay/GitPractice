@@ -1,0 +1,72 @@
+# Power Plant Engineering
+
+## 18.1 Load Curves and Economics
+- Load curve: plot of load (MW) vs time; load duration curve: loads arranged in descending order of magnitude.
+F: Load factor = average load / maximum demand (over the period)
+F: Demand factor = maximum demand / connected load (≤ 1)
+F: Diversity factor = sum of individual maximum demands / maximum demand of the whole system (≥ 1)
+F: Plant capacity factor = average load / rated plant capacity = actual energy produced / (capacity × hours)
+F: Plant use factor = actual energy produced / (capacity × hours of actual operation)
+F: Reserve capacity = plant capacity − maximum demand
+- High load factor and diversity factor reduce the cost per kWh. Base-load plants (run continuously): large thermal (coal), nuclear, run-of-river hydro. Peak-load plants (quick start): gas turbines, diesel, pumped-storage hydro, storage hydro.
+- Tariffs: flat-rate, block-rate, two-part (fixed + energy charge), maximum-demand, time-of-day.
+- Cost of power: fixed costs (interest, depreciation, insurance, taxes – depend on capacity) + operating costs (fuel, labour, maintenance – depend on energy). Depreciation methods: straight-line, sinking-fund, diminishing balance.
+PYQ-TREND: Load factor, diversity factor (≥ 1), demand factor, capacity factor definitions (very frequent); base vs peak load plants; two-part tariff.
+
+## 18.2 Thermal (Coal-Fired) Power Plant
+- Circuits: (1) coal and ash circuit; (2) air and flue-gas circuit; (3) feedwater and steam circuit; (4) cooling-water circuit.
+- Coal handling: unloading → crushing → storage → pulverising (ball mill, bowl mill) → burners (pulverised-fuel firing, 70–80% passing 200 mesh) – or stoker firing (travelling grate, spreader) for small units, or fluidised-bed combustion (FBC – burns low-grade coal at 800–900 °C with limestone to capture SO₂; low NOx).
+- Ash handling: hydraulic, pneumatic, mechanical; fly ash collected by electrostatic precipitators (ESP – > 99% efficiency), cyclone separators, bag filters. Flue gas desulphurisation (FGD) with limestone slurry scrubbers removes SO₂.
+- Coal analysis: proximate analysis – moisture, volatile matter, fixed carbon, ash (by heating); ultimate analysis – C, H, O, N, S, ash (elemental). Ranks (increasing carbon and calorific value): peat → lignite → sub-bituminous → bituminous → anthracite (highest fixed carbon, burns with short smokeless flame, hard to ignite).
+- Overall efficiency of thermal plants ≈ 33–40% (subcritical); supercritical/ultra-supercritical ≈ 40–46%. Major losses: condenser (≈ 50%), boiler flue gases.
+- Major Indian thermal plants: Vindhyachal (MP, NTPC – largest in India), Mundra (Gujarat), Talcher, Singrauli, Korba, Ramagundam.
+PYQ-TREND: Four circuits of thermal plant; ESP removes fly ash; proximate vs ultimate analysis; anthracite highest carbon; FBC and limestone; pulverised coal firing; largest loss in condenser.
+
+## 18.3 Hydroelectric Power Plant
+- Components: dam/reservoir, spillway, intake with trash rack, penstock, surge tank (protects penstock from water hammer), turbine, draft tube, tail race, powerhouse.
+F: Power P = η ρ g Q H (W);  energy = P × time
+- Classification by head: low (< 30 m – Kaplan/propeller), medium (30–300 m – Francis), high (> 300 m – Pelton). By storage: run-of-river (with/without pondage), storage, pumped storage (water pumped up at off-peak hours using surplus power, released at peak).
+- Advantages: renewable, no fuel cost, quick start, long life, low running cost, multipurpose (irrigation, flood control). Disadvantages: high capital cost, long construction, site-dependent, transmission distance, ecological and resettlement issues.
+PYQ-TREND: Surge tank function; pumped storage for peak load; turbine selection by head; P = ηρgQH.
+
+## 18.4 Nuclear Power Plant
+- Fission: U-235 (or Pu-239, U-233) nucleus absorbs a slow (thermal) neutron and splits into two fragments, releasing ≈ 200 MeV energy and 2–3 fast neutrons → chain reaction. Mass defect converted to energy (E = mc²). 1 kg of U-235 ≈ 8 × 10¹³ J (≈ 3,000 tonnes of coal).
+- Fertile materials (U-238, Th-232) are converted into fissile Pu-239 and U-233 by neutron capture (breeding).
+| Component | Function / materials |
+| Fuel | Natural uranium (0.7% U-235), enriched uranium (3–5%), plutonium, thorium (via U-233) |
+| Moderator | Slows fast neutrons to thermal speeds by elastic collisions – heavy water (D₂O, best, allows natural U), ordinary water, graphite, beryllium |
+| Control rods | Absorb neutrons to control the reaction rate – cadmium, boron (boron carbide), hafnium |
+| Coolant | Removes heat from the core – ordinary water, heavy water, CO₂, helium, liquid sodium (fast reactors) |
+| Reflector | Reflects escaping neutrons back into the core – graphite, beryllium |
+| Shielding | Concrete, lead, water – protects against radiation |
+| Reactor vessel, containment | Strong pressure vessel; containment building |
+
+| Reactor | Fuel / moderator / coolant |
+| PWR (pressurised water) | Enriched U / light water / light water at ≈ 150 bar (no boiling in core); steam generator |
+| BWR (boiling water) | Enriched U / light water / light water boils in core – direct cycle |
+| PHWR / CANDU | Natural U / heavy water / heavy water – India's mainstay (Kaiga, Kakrapar, Rawatbhata, Narora, Tarapur 3&4) |
+| Gas-cooled (GCR, AGR) | Natural/enriched U / graphite / CO₂ |
+| Fast breeder (FBR) | Pu–U mixed oxide / no moderator / liquid sodium – breeds more fuel; PFBR Kalpakkam |
+- India's three-stage nuclear programme (Homi Bhabha): PHWRs (natural U) → fast breeders (Pu) → thorium-based reactors (U-233).
+- Indian plants: Tarapur (first, 1969, BWR), Rawatbhata, Kalpakkam, Narora, Kakrapar, Kaiga, Kudankulam (VVER – largest, Russian).
+PYQ-TREND: Moderator and control rod materials (very frequent); heavy water allows natural uranium; FBR has no moderator and uses liquid sodium; PHWR in India; fertile vs fissile; Tarapur first; three-stage programme.
+
+## 18.5 Diesel and Gas Turbine Plants
+- Diesel power plant: diesel engine + generator; quick start, compact, simple, small capacity (up to ≈ 50 MW); used for standby, peak load, remote areas, emergency (hospitals). Systems: fuel, air intake, exhaust, cooling, lubrication, starting.
+- Gas turbine plant: compressor + combustion chamber + turbine; quick start (minutes), low water requirement, peak-load duty or combined cycle base load. Efficiency of simple open cycle ≈ 30–40%; combined cycle 55–62%.
+PYQ-TREND: Diesel plants for standby and peak loads; gas turbines quick start; combined cycle efficiency.
+
+## 18.6 Non-Conventional Energy Sources
+| Source | Key facts |
+| Solar | Flat-plate collectors (water heating, < 100 °C), concentrating collectors (parabolic trough, dish, central tower/heliostats – power), photovoltaic cells (silicon; efficiency 15–22%); solar constant ≈ 1,367 W/m² |
+| Wind | Power ∝ V³ (P = ½ρAV³ × Cp); Betz limit Cp,max = 16/27 = 59.3%; HAWT and VAWT (Darrieus, Savonius); Muppandal (TN) wind farm |
+| Geothermal | Heat from the earth's interior; Puga valley (Ladakh), Manikaran (HP) potential sites |
+| Tidal | Gulf of Kutch, Gulf of Khambhat, Sundarbans potential sites |
+| OTEC (ocean thermal) | Uses temperature difference ≈ 20 °C between surface and deep water; Claude (open) and Anderson (closed) cycles |
+| Biomass / biogas | Biogas (55–70% CH₄) from anaerobic digestion; KVIC floating-dome and Janata fixed-dome (Deenbandhu) digesters |
+| Fuel cells | Direct conversion of chemical energy (H₂ + O₂) to electricity; hydrogen–oxygen; efficiency 40–60% |
+| MHD (magnetohydrodynamics) | Hot ionised gas through a magnetic field generates DC directly |
+| Thermoelectric / thermionic | Seebeck effect / electron emission from hot cathode |
+PYQ-TREND: Wind power ∝ V³ and Betz limit 59.3% (very frequent); solar constant; PV cell material; biogas composition; OTEC temperature difference; fuel cell principle; MHD generates DC.
+Q: Explain the working of a nuclear power plant with the functions of the moderator, control rods and coolant.
+In a nuclear power plant heat produced by controlled fission in the reactor core replaces the furnace of a thermal plant. Fuel rods of uranium oxide sit in the core; each fission of a U-235 nucleus by a slow neutron releases about 200 MeV and 2–3 fast neutrons. The moderator (heavy water, light water or graphite) surrounds the fuel and slows these fast neutrons by elastic collisions to thermal speeds, at which they are most likely to cause further fission, sustaining the chain reaction. Control rods of cadmium or boron, inserted to a varying depth, absorb excess neutrons and keep the multiplication factor exactly 1 for steady power; full insertion shuts the reactor down. The coolant (pressurised water, heavy water, CO₂ or liquid sodium) circulates through the core, removes the heat and transfers it in a steam generator to a secondary water circuit. The steam drives a turbine and generator exactly as in a conventional plant, and is condensed and returned. A reflector reduces neutron leakage, and thick concrete and lead shielding with a containment building protect people from radiation.

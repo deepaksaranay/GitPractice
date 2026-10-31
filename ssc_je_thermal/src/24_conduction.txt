@@ -1,0 +1,69 @@
+# Heat Transfer I – Conduction, Fins, Transient Conduction
+
+## 24.1 Modes and Basic Laws
+| Mode | Mechanism | Law |
+| Conduction | Molecular interaction / free electrons within a medium, no bulk motion | Fourier: q = −k A dT/dx |
+| Convection | Conduction + bulk fluid motion at a surface | Newton's law of cooling: q = h A (T_s − T_∞) |
+| Radiation | Electromagnetic waves; no medium needed | Stefan–Boltzmann: q = εσA(T_s⁴ − T_sur⁴) |
+- Thermal conductivity k (W/m·K): diamond ≈ 2,000+ > silver 429 > copper 386–401 > gold 317 > aluminium 205–237 > brass ≈ 110 > iron/carbon steel 45–80 > stainless steel ≈ 15 > concrete ≈ 1 > glass ≈ 0.8–1 > water 0.6 > brick ≈ 0.7 > wood ≈ 0.15 > glass wool ≈ 0.04 > air 0.026.
+- Order: pure metals > alloys > non-metallic solids > liquids > insulators > gases. k of pure metals generally decreases with temperature (impurities/alloys may increase); k of gases increases with temperature (∝ √T); k of most liquids decreases (water increases up to ≈ 150 °C).
+F: Thermal diffusivity α = k/(ρ c_p) (m²/s) – how fast temperature changes propagate in transient conduction
+F: Heat conduction equation (Cartesian): ∂²T/∂x² + ∂²T/∂y² + ∂²T/∂z² + q_g/k = (1/α) ∂T/∂t
+F: Steady 1-D, no generation: d²T/dx² = 0 → linear temperature profile (Laplace equation)
+F: Poisson equation (steady with generation): ∇²T + q_g/k = 0;  Fourier equation (transient, no generation): ∇²T = (1/α)∂T/∂t
+PYQ-TREND: Fourier's law and its sign; order of thermal conductivity (silver highest metal; diamond overall); k of gases increases with temperature; thermal diffusivity definition (very frequent); forms of heat conduction equation.
+
+## 24.2 Steady Conduction – Walls, Cylinders, Spheres
+F: Plane wall: Q = kA(T₁ − T₂)/L;  thermal resistance R = L/(kA)
+F: Convection resistance R = 1/(hA);  radiation resistance R = 1/(h_r A), h_r = εσ(T₁² + T₂²)(T₁ + T₂)
+F: Composite wall (series): Q = (T_∞1 − T_∞2)/(1/(h₁A) + ΣLᵢ/(kᵢA) + 1/(h₂A))
+F: Parallel layers: 1/R_eq = Σ1/Rᵢ
+F: Overall heat transfer coefficient (plane): 1/U = 1/h₁ + ΣL/k + 1/h₂;  Q = U A ΔT
+F: Hollow cylinder: Q = 2πkL(T₁ − T₂)/ln(r₂/r₁);  R = ln(r₂/r₁)/(2πkL)
+F: Logarithmic mean area (cylinder): A_m = (A₂ − A₁)/ln(A₂/A₁) → Q = kA_m ΔT/(r₂ − r₁)
+F: Hollow sphere: Q = 4πk r₁r₂(T₁ − T₂)/(r₂ − r₁);  R = (r₂ − r₁)/(4πk r₁r₂);  geometric mean area A_m = √(A₁A₂)
+F: Variable conductivity k = k₀(1 + βT): use k_m = k₀(1 + β T_mean) in the constant-k formula (plane wall)
+- Temperature profile: linear in a plane wall (constant k), logarithmic in a cylinder, hyperbolic in a sphere. With k increasing with temperature, the profile in a plane wall is convex upward.
+- Contact resistance: imperfect contact at interfaces adds R_c = 1/(h_c A); reduced by pressure, smooth surfaces and thermal grease.
+PYQ-TREND: Electrical analogy of heat flow (series/parallel resistances) – frequent; overall U; cylinder formula with ln(r₂/r₁); log-mean area for cylinders, geometric mean for spheres; temperature distribution shapes.
+TIP: Think of temperature difference as voltage, heat flow as current and L/(kA) as resistance; all Ohm's-law tricks then work.
+
+## 24.3 Critical Radius of Insulation
+F: Cylinder: r_c = k_ins/h_o;  sphere: r_c = 2k_ins/h_o
+- Adding insulation to a small pipe or wire increases the outer surface area. Below r_c, heat loss increases with added insulation (convection resistance falls faster than conduction resistance rises); heat loss is maximum at r = r_c; beyond it, insulation reduces heat loss.
+- Applications: electric cables – keep insulation radius near r_c so that heat is dissipated (prevents overheating); steam pipes – outer radius must be well above r_c for insulation to be useful. For most pipes r_c is a few mm, smaller than the pipe radius, so insulation always helps.
+PYQ-TREND: r_c = k/h (cylinder) and 2k/h (sphere) – very frequent; heat loss maximum at critical radius; electric cables use this.
+WARN: Insulating a small-diameter wire can increase heat loss. Insulation helps only when the outer radius is above r_c.
+
+## 24.4 Conduction with Heat Generation
+F: Plane wall (thickness 2L, both surfaces at T_s): T_max = T_s + q_g L²/(2k) at the centre
+F: Solid cylinder (radius R): T_max = T_s + q_g R²/(4k);  T(r) = T_s + q_g(R² − r²)/(4k)
+F: Solid sphere: T_max = T_s + q_g R²/(6k)
+F: Surface temperature from convection: T_s = T_∞ + q_g V/(hA)  (cylinder: T_∞ + q_g R/(2h))
+- Examples: electric wires and heating elements (I²R), nuclear fuel rods, curing concrete, exothermic chemical reactions.
+PYQ-TREND: Maximum temperature formulas for plane wall, cylinder, sphere with generation; location of maximum temperature at the centre.
+
+## 24.5 Extended Surfaces (Fins)
+- Fins increase the surface area to enhance heat transfer from a surface, most useful where h is low (gas side). Examples: motorcycle cylinder fins, car radiators, transformer fins, electronic heat sinks, air-cooled condensers.
+F: Fin parameter m = √(hP/(kA_c))  (P = perimeter, A_c = cross-section area)
+F: Infinitely long fin: Q = √(hPkA_c) θ₀;  θ/θ₀ = e^(−mx)
+F: Fin with insulated tip: Q = √(hPkA_c) θ₀ tanh(mL);  θ/θ₀ = cosh m(L − x)/cosh mL
+F: Fin with convective tip: Q = √(hPkA_c) θ₀ [sinh mL + (h/mk) cosh mL]/[cosh mL + (h/mk) sinh mL];  approximate with corrected length L_c = L + t/2 (rectangular), L + D/4 (pin)
+F: Fin efficiency η_f = actual heat transfer / heat transfer if the whole fin were at base temperature;  insulated tip: η_f = tanh(mL)/(mL);  long fin η ≈ 1/(mL)
+F: Fin effectiveness ε_f = heat transfer with fin / without fin = Q_fin/(h A_c θ₀) = √(kP/(hA_c)) (long fin)
+- Fins are justified only if effectiveness > 2. Effectiveness is high when k is high (copper, aluminium), h is low (gases, natural convection), and the fin is thin (high P/A_c). Fins should be placed on the side with the lower heat-transfer coefficient.
+- tanh(mL) ≈ 1 when mL > 2.5–3: making a fin longer than this adds almost nothing.
+PYQ-TREND: Fins used where h is low and placed on that side (very frequent); effectiveness formula and > 2 condition; fin efficiency definition; long-fin heat transfer; corrected length; thin closely spaced fins of high-k material.
+
+## 24.6 Transient (Unsteady) Conduction
+F: Biot number Bi = h L_c / k_solid  (ratio of internal conduction resistance to surface convection resistance)
+F: Characteristic length L_c = V/A_s: plane wall (thickness 2L) = L; long cylinder = R/2; sphere = R/3; cube of side a = a/6
+F: Lumped-capacitance analysis (valid if Bi < 0.1): (T − T_∞)/(T_i − T_∞) = exp(−hA_s t/(ρVc)) = exp(−Bi·Fo)
+F: Fourier number Fo = α t/L_c² (dimensionless time)
+F: Time constant τ = ρVc/(hA_s)  – time to reach 63.2% of the total temperature change
+F: Instantaneous heat transfer rate q(t) = hA_s(T_i − T_∞) e^(−t/τ);  total Q = ρVc(T_i − T_∞)(1 − e^(−t/τ))
+- For Bi > 0.1, internal temperature gradients are significant – use Heisler charts (one-term series solutions) or numerical methods. Semi-infinite solids use the error-function solution.
+- Thermocouple response: a small bead with high h has a small time constant (fast response).
+PYQ-TREND: Lumped analysis valid for Bi < 0.1 (very frequent); Biot vs Nusselt (k of solid vs fluid); characteristic lengths (sphere R/3); time constant and 63.2%; Heisler charts; Fourier number.
+Q: What is the critical radius of insulation? Derive its expression for a cylinder.
+Consider a pipe of outer radius r₁ at temperature T₁ covered by insulation of conductivity k to an outer radius r, losing heat to surroundings at T_∞ with coefficient h. Heat loss Q = 2πL(T₁ − T_∞)/[ln(r/r₁)/k + 1/(hr)]. As r increases, the conduction resistance ln(r/r₁)/k increases while the convection resistance 1/(hr) decreases because the outer area grows. Q is maximum when the total resistance is minimum: d/dr[ln(r/r₁)/k + 1/(hr)] = 1/(kr) − 1/(hr²) = 0, giving r = k/h. The second derivative is positive, so the resistance is a minimum and the heat loss a maximum at r_c = k/h. If the pipe's radius is below r_c, adding insulation up to r_c increases heat loss; beyond r_c insulation reduces it. For a sphere the same procedure gives r_c = 2k/h. The concept is used to choose insulation for electric cables (where heat dissipation is desirable) and to check that insulation on small pipes is effective.

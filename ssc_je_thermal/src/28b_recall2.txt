@@ -1,0 +1,122 @@
+# Concept Recall Bank – Part 2
+Quick recall for fuels, instruments, modern engines, RAC applications and numerical shortcuts.
+
+## R10. Fuels and Combustion
+| Question | Answer |
+| Coal with highest carbon content? | Anthracite |
+| Lowest rank coal? | Peat |
+| Proximate analysis gives? | Moisture, VM, ash, fixed carbon |
+| Ultimate analysis gives? | C, H, N, S, O |
+| Fixed carbon found by? | Difference |
+| HCV − LCV equals? | Latent heat of water formed (9H × h_fg) |
+| Calorimeter for coal/oil? | Bomb calorimeter |
+| Calorimeter for gas? | Junkers gas calorimeter |
+| Fuel with highest CV per kg? | Hydrogen |
+| O₂ needed per kg carbon? | 8/3 kg |
+| O₂ needed per kg hydrogen? | 8 kg |
+| Water formed per kg hydrogen? | 9 kg |
+| O₂ in air by mass / volume? | 23.2% / 21% |
+| Stoichiometric A/F of methane? | 17.2 |
+| Orsat absorbent for CO₂? | KOH solution |
+| Orsat absorbent for O₂? | Alkaline pyrogallol |
+| Orsat absorbent for CO? | Ammoniacal cuprous chloride |
+| Producer gas main combustible? | CO |
+| Water gas composition? | CO + H₂ |
+| Biogas main constituent? | Methane |
+| LPG constituents? | Propane and butane |
+| Flash point vs fire point? | Flash point lower |
+| Pour point vs cloud point? | Pour point lower |
+| Excess air for pulverised coal? | 15–25% |
+
+## R11. Measurements
+| Question | Answer |
+| Thermocouple principle? | Seebeck effect |
+| Thermocouple for low temperature? | Type T (copper–constantan) |
+| Most common thermocouple? | Type K (chromel–alumel) |
+| RTD material? | Platinum |
+| Thermistor coefficient? | Mostly negative (NTC) |
+| Optical pyrometer principle? | Brightness matching at one wavelength |
+| Total radiation pyrometer based on? | Stefan–Boltzmann law |
+| Common boiler pressure gauge? | Bourdon tube |
+| Gauge calibration device? | Dead-weight tester |
+| Vacuum gauge standard? | McLeod gauge |
+| Pirani gauge principle? | Thermal conductivity of gas |
+| Dynamic cylinder pressure measured by? | Piezoelectric transducer |
+| Variable-area flow meter? | Rotameter |
+| Brake power of large engines measured by? | Hydraulic (Froude) dynamometer |
+| Dynamometer that can also motor the engine? | Swinging-field DC dynamometer |
+| HC in exhaust measured by? | Flame ionisation detector (FID) |
+| NOx measured by? | Chemiluminescence analyser |
+| CO/CO₂ measured by? | NDIR analyser |
+| Diesel smoke meters? | Bosch, Hartridge |
+| k of insulating material measured by? | Guarded hot-plate apparatus |
+| Flash point apparatus? | Pensky–Martens (closed cup) |
+| Instrument for DBT and WBT? | Sling psychrometer |
+
+## R12. Modern Engines and Emissions
+| Question | Answer |
+| CRDI rail pressure? | ≈ 1,600–2,500 bar |
+| Pilot injection reduces? | Ignition delay, noise and knock |
+| MPFI injects fuel at? | Intake port of each cylinder |
+| GDI injects fuel? | Directly into the cylinder |
+| Lambda sensor material? | Zirconia |
+| Three-way catalyst metals? | Platinum, palladium, rhodium |
+| Three-way catalyst needs? | Stoichiometric mixture (λ ≈ 1) |
+| SCR reductant? | Urea (AdBlue) → ammonia |
+| DPF traps? | Soot (particulate matter) |
+| EGR reduces? | NOx |
+| BS-VI implemented from? | 1 April 2020 |
+| BS-VI fuel sulphur limit? | 10 ppm |
+| Knock sensor type? | Piezoelectric |
+| Wankel engine rotor shape? | Triangular (Reuleaux) |
+| Wankel weakness? | Apex seal leakage, high HC |
+| Stirling engine combustion? | External |
+| Engine fully balanced (in-line)? | Six-cylinder |
+| Heaviest flywheel needed? | Single-cylinder four-stroke |
+| Secondary force frequency? | Twice crank speed |
+| Power-split hybrid uses? | Planetary gear set |
+
+## R13. RAC Applications and Air Distribution
+| Question | Answer |
+| Frozen food storage temperature? | −18 °C or lower |
+| Quick freezing benefit? | Small ice crystals, less drip loss |
+| Brine in ice plant? | NaCl or CaCl₂ solution |
+| Ice plant refrigerant? | Ammonia |
+| Inverter AC compressor? | Variable speed (BLDC) |
+| VRF system? | One outdoor unit, many indoor units |
+| Chilled water supply/return? | ≈ 7 °C / 12 °C |
+| EER? | Cooling output/power input |
+| Indian AC star rating basis? | ISEER |
+| Most common duct design method? | Equal friction |
+| Duct design for high-velocity systems? | Static regain |
+| Fan power vs speed? | P ∝ N³ |
+| Fan pressure vs speed? | Δp ∝ N² |
+| HEPA efficiency? | 99.97% at 0.3 μm |
+| Throw of a grille? | Distance until jet velocity ≈ 0.25 m/s |
+| Liquid nitrogen boiling point? | −196 °C |
+| Lowest boiling point gas? | Helium (4.2 K) |
+| Claude cycle adds? | Expansion engine |
+| Heat pipe liquid return? | Capillary action through wick |
+| Vapour barrier for cold insulation? | On the warm side |
+| Economic insulation thickness? | Minimum total (insulation + heat loss) cost |
+| Fick's law analogue? | Fourier's law |
+| Sherwood number analogue? | Nusselt number |
+| Schmidt number analogue? | Prandtl number |
+
+## R14. Numerical Shortcuts
+| Situation | Shortcut |
+| Nozzle velocity | 44.72√Δh (Δh in kJ/kg) |
+| Brake thermal efficiency from bsfc | 3600/(bsfc × CV) |
+| kW per TR | 3.517/COP |
+| Isothermal work | p₁V₁ ln(p₁/p₂) = mRT ln(V₂/V₁) |
+| Polytropic heat | W(γ − n)/(γ − 1) |
+| Two engines in series, equal η | √(T₁T₂) |
+| Optimum intermediate pressure | √(p₁p₃) |
+| Brayton max work r_p | (T_max/T_min)^(γ/2(γ−1)); for air (T₃/T₁)^1.75 |
+| Radiation doubles T | E becomes 16 times |
+| n equal shields | q/(n + 1) |
+| Counter flow with C_h = C_c | LMTD = constant ΔT |
+| Excess air from O₂% | O₂/(21 − O₂) |
+| Fin effectiveness (long) | √(kP/(hA)) |
+| Lumped sphere L_c | R/3 = D/6 |
+| Cooling tower efficiency | Range/(range + approach) |

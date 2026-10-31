@@ -1,0 +1,36 @@
+# Gas Turbines and Jet Propulsion
+
+## 20.1 Gas Turbine Plants
+- Simple open-cycle gas turbine: atmospheric air → compressor → combustion chamber (fuel burnt at nearly constant pressure) → turbine → exhaust. About half to two-thirds of the turbine work drives the compressor (high back-work ratio). Ideal cycle: Brayton (Chapter 8).
+- Closed cycle: same gas (air, helium, CO₂) circulated; heat added in an external heat exchanger and rejected in a cooler. Advantages: higher pressure (smaller size), clean working fluid (no erosion), any fuel (coal, nuclear), constant efficiency at part load. Disadvantages: large heat exchangers, cooling water needed.
+- Components: axial/centrifugal compressor; combustion chambers (can, annular, can-annular); turbine (axial, cooled blades of nickel superalloys); regenerator; intercooler; reheat combustor.
+- Combustion chamber: primary zone (≈ 20–30% of air, near-stoichiometric burning), secondary/dilution zone (rest of the air to cool gases to turbine inlet temperature); overall A/F ≈ 60–100:1 because the turbine inlet temperature is limited by blade materials.
+- Turbine inlet temperature (TIT): 900–1,100 °C in industrial units; up to ≈ 1,500–1,600 °C in modern aero/advanced units with blade cooling (internal air passages, film cooling) and thermal barrier coatings.
+F: Simple cycle with component efficiencies: w_net = cp[η_t T₃(1 − 1/r_p^k) − T₁(r_p^k − 1)/η_c],  k = (γ−1)/γ
+F: Thermal efficiency η = w_net / [cp(T₃ − T₂)]
+- Advantages of gas turbines: high power-to-weight ratio, compact, quick start, little water, low vibration, multi-fuel. Disadvantages: lower efficiency than diesels at small sizes, high compressor work, expensive high-temperature materials, poor part-load efficiency.
+- Uses: aircraft propulsion, peak-load and combined-cycle power plants, ships, gas pipelines (compressor drives), locomotives (rare), emergency power.
+PYQ-TREND: High back-work ratio; overall air–fuel ratio is very lean because of TIT limit; open vs closed cycle; blade cooling; uses of gas turbines.
+
+## 20.2 Jet Propulsion
+- Jet propulsion works on Newton's third law: a high-velocity jet of gas leaving the engine produces an equal and opposite thrust.
+F: Thrust (air-breathing): F = ṁ_a[(1 + f)V_j − V_a] + (p_e − p_a)A_e  ≈ ṁ_a(V_j − V_a)
+F: Thrust power = F × V_a
+F: Propulsive (Froude) efficiency η_p = thrust power / KE supplied to jet = 2V_a/(V_a + V_j) = 2/(1 + V_j/V_a)
+F: Thermal efficiency = increase in KE of gases / heat supplied by fuel;  overall efficiency = η_p × η_th = F V_a/(ṁ_f CV)
+F: Thrust specific fuel consumption TSFC = ṁ_f / F
+- Propulsive efficiency is highest when the jet speed is close to the flight speed – but then thrust per unit mass flow is small. This is why high-bypass turbofans (large air mass at modest jet velocity) are efficient at subsonic speeds.
+| Engine | Key features |
+| Turbojet | Compressor, combustor, turbine (drives compressor), nozzle; all thrust from the jet; efficient at high (supersonic) speeds; noisy |
+| Turbofan | Fan driven by turbine; bypass air (bypass ratio 5–12 in airliners) gives most thrust; high propulsive efficiency, quiet; modern airliners |
+| Turboprop | Turbine drives a propeller through gearbox (80–90% thrust from propeller); efficient at low speeds (< 700 km/h); transport aircraft |
+| Turboshaft | Shaft power only – helicopters, ships, generators |
+| Ramjet | No compressor or turbine; air compressed by ram effect of high flight speed (needs initial speed, M ≈ 2–4); cannot start from rest; simple; missiles |
+| Scramjet | Supersonic combustion ramjet (M > 5) |
+| Pulse jet | Intermittent combustion with flapper valves; V-1 flying bomb |
+| Afterburner (reheat) | Extra fuel burnt in the jet pipe to boost thrust (military aircraft) |
+| Rocket | Carries its own oxidiser – works in vacuum/space; liquid (LOX + LH₂/kerosene), solid, cryogenic, hybrid propellants |
+F: Rocket thrust F = ṁ V_e + (p_e − p_a)A_e;  specific impulse I_sp = F/(ṁ g) (seconds)
+PYQ-TREND: Propulsive efficiency 2/(1 + V_j/V_a) (very frequent); ramjet cannot start from rest and has no moving parts; rocket carries oxidiser; turbofan most efficient for airliners; turboprop for low speeds; afterburner increases thrust; specific impulse.
+Q: Explain the working of a turbojet engine and why turbofan engines are more efficient for subsonic aircraft.
+In a turbojet, air enters through a diffuser intake where its velocity falls and pressure rises (ram compression). An axial or centrifugal compressor further raises its pressure, and fuel is burnt continuously in the combustion chamber at nearly constant pressure. The hot gases expand partly in the turbine, which drives the compressor, and then in the propelling nozzle to a high velocity, producing thrust F ≈ ṁ(V_j − V_a). Because all the thrust comes from a small mass flow accelerated to a very high jet velocity, the jet carries away a lot of kinetic energy and the propulsive efficiency 2V_a/(V_a + V_j) is low at subsonic flight speeds. A turbofan adds a large fan, driven by an extra turbine stage, which moves a much larger mass of air (bypass air) at a moderate velocity around the core. For the same thrust, accelerating more air by a smaller velocity increment wastes less kinetic energy, so propulsive efficiency and fuel economy improve markedly and noise falls. That is why airliners use high-bypass turbofans, while pure turbojets (often with afterburners) suit supersonic flight.

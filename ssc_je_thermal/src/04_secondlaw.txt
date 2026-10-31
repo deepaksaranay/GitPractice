@@ -1,0 +1,48 @@
+# Second Law of Thermodynamics
+
+## 4.1 Why a Second Law?
+- The first law allows any process that conserves energy, but nature imposes a direction: heat flows by itself only from hot to cold; work can be fully converted to heat, but heat cannot be fully converted to work in a cycle. The second law states these limits and defines entropy and the quality of energy.
+- Thermal energy reservoir: a body with such large heat capacity that its temperature does not change when heat is added or removed (atmosphere, ocean, large furnace). Source – supplies heat; sink – receives heat.
+PYQ-TREND: Direction of heat flow; reservoirs (source and sink).
+
+## 4.2 Heat Engine, Refrigerator, Heat Pump
+F: Heat engine efficiency: η = W/Q₁ = 1 − Q₂/Q₁
+F: Refrigerator: COP_R = Q₂/W = Q₂/(Q₁ − Q₂)
+F: Heat pump: COP_HP = Q₁/W = Q₁/(Q₁ − Q₂)
+F: COP_HP = COP_R + 1 (for the same Q₁, Q₂)
+- A heat engine takes Q₁ from a high-temperature source, converts part into work W and rejects Q₂ to a low-temperature sink. A refrigerator uses work to remove Q₂ from a cold space and rejects Q₁ to the surroundings; a heat pump does the same but its useful output is Q₁ (heating).
+- COP can exceed 1 (it is not an efficiency); COP_HP is always > 1.
+PYQ-TREND: COP_HP − COP_R = 1 (very frequent); COP can exceed unity; definitions of efficiency and COP.
+
+## 4.3 Statements of the Second Law
+- Kelvin–Planck statement: it is impossible to construct a device that, operating in a cycle, produces no effect other than the raising of a weight (work) and the exchange of heat with a single reservoir. ⇒ No heat engine can have 100% efficiency; a sink is always needed. A machine violating it is a PMM-2 (perpetual motion machine of the second kind).
+- Clausius statement: it is impossible to construct a device that, operating in a cycle, produces no effect other than the transfer of heat from a cooler body to a hotter body. ⇒ A refrigerator needs work input.
+- The two statements are equivalent: violation of one implies violation of the other.
+PYQ-TREND: Kelvin–Planck vs Clausius statements (very frequent); PMM-2 violates Kelvin–Planck; equivalence of the two statements.
+
+## 4.4 Reversible and Irreversible Processes
+- Reversible process: one that can be reversed so that both the system and the surroundings return to their original states with no trace left. It is an idealisation: quasi-static and without dissipative effects.
+- Causes of irreversibility: friction (mechanical and fluid), heat transfer across a finite temperature difference, unrestrained (free) expansion, mixing of different substances or fluids at different states, throttling, inelastic deformation, electrical resistance (I²R), hysteresis, chemical reactions, combustion.
+- Internally reversible: no irreversibility inside the system; externally reversible: heat transfer with surroundings across infinitesimal ΔT.
+PYQ-TREND: Causes of irreversibility (friction, finite ΔT heat transfer, free expansion, mixing, throttling) – frequent; reversible process is an idealisation.
+
+## 4.5 Carnot Cycle and Carnot Theorem
+- Carnot cycle (Sadi Carnot, 1824): two reversible isothermal processes and two reversible adiabatic (isentropic) processes. 1–2 isothermal heat addition at T₁, 2–3 adiabatic expansion, 3–4 isothermal heat rejection at T₂, 4–1 adiabatic compression.
+F: Carnot efficiency: η_C = 1 − T₂/T₁ (temperatures in kelvin)
+F: Carnot refrigerator: COP_R = T₂/(T₁ − T₂);  Carnot heat pump: COP_HP = T₁/(T₁ − T₂)
+- Carnot theorem: no heat engine operating between two reservoirs can be more efficient than a reversible engine operating between the same reservoirs. Corollary: all reversible engines operating between the same two reservoirs have the same efficiency, independent of the working substance.
+- Carnot efficiency increases if T₁ increases or T₂ decreases. Lowering T₂ by ΔT increases efficiency more than raising T₁ by the same ΔT (∂η/∂T₂ = −1/T₁ > ∂η/∂T₁ = T₂/T₁² in magnitude). But T₂ cannot practically go below ambient.
+- Carnot cycle is impractical: isothermal heat transfer is extremely slow; adiabatic processes must be very fast; the work ratio is small (for gases); with steam in the wet region, compressing a wet mixture is difficult.
+- 100% efficiency would require T₂ = 0 K, which the third law says is unattainable.
+FIG: carnot
+F: Engines in series (same heat flow through): equal work → T = (T₁ + T₂)/2;  equal efficiency → T = √(T₁T₂)
+PYQ-TREND: Carnot efficiency formula and dependence only on temperatures (very frequent); Carnot cycle processes; Carnot COP formulas; series engines (√T₁T₂ for equal efficiency); impracticality of Carnot cycle.
+TIP: For COP problems, write COP_R = T_L/ΔT and COP_HP = T_H/ΔT – the denominator is always the temperature difference in K.
+WARN: Never use °C in Carnot formulas. η = 1 − 27/327 is wrong; correct is 1 − 300/600 = 0.5.
+
+## 4.6 Thermodynamic Temperature Scale
+- Kelvin showed that for reversible engines Q₁/Q₂ depends only on the reservoir temperatures; choosing Q₁/Q₂ = T₁/T₂ defines the absolute (Kelvin) thermodynamic scale, independent of any substance. It coincides with the ideal-gas temperature scale.
+F: Q₁/Q₂ = T₁/T₂ (reversible engine)
+PYQ-TREND: Thermodynamic temperature scale is independent of the working substance.
+Q: Prove that the efficiency of a reversible engine is greater than that of an irreversible engine working between the same reservoirs (Carnot's theorem).
+Assume an irreversible engine I is more efficient than a reversible engine R between the same source and sink. Let both receive Q₁ from the source; I produces W_I > W_R and rejects less heat. Since R is reversible, run it backward as a heat pump driven by part of W_I: it takes W_R, extracts heat from the sink and delivers Q₁ back to the source. The source then has no net exchange; the combined device takes net heat (W_I − W_R) from the sink alone and converts it entirely into work W_I − W_R. This is a PMM-2, violating the Kelvin–Planck statement. Hence the assumption is false: η_I ≤ η_R. By similar reasoning, two reversible engines between the same reservoirs must have equal efficiency, so the reversible efficiency depends only on the reservoir temperatures: η = 1 − T₂/T₁.

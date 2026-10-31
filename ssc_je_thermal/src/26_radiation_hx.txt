@@ -1,0 +1,71 @@
+# Heat Transfer III – Radiation and Heat Exchangers
+
+## 26.1 Radiation Fundamentals
+- Thermal radiation: electromagnetic waves emitted by all bodies above 0 K because of their temperature; wavelengths ≈ 0.1–100 μm (part of UV, visible and infrared). Travels at the speed of light, needs no medium – fastest mode; it is most significant at high temperatures and in vacuum (space).
+F: Absorptivity α + reflectivity ρ + transmissivity τ = 1;  opaque body τ = 0 → α + ρ = 1
+| Body | Property |
+| Black body | α = 1 (absorbs all radiation); ideal emitter (ε = 1); perfectly diffuse |
+| White body | ρ = 1 (reflects all) |
+| Transparent (diathermanous) body | τ = 1 |
+| Grey body | ε (= α) < 1 and constant over all wavelengths |
+| Opaque body | τ = 0 |
+| Specular reflection | Angle of reflection = angle of incidence (polished surfaces) |
+| Diffuse reflection | Reflected equally in all directions (rough surfaces) |
+- Real surfaces: polished metals have low emissivity (0.02–0.1), oxidised metals higher; non-metals (paint, brick, skin, water) high (0.8–0.95). Snow is nearly black to long-wave (infrared) radiation though white to visible light. Emissivity of most non-metals is high regardless of colour at infrared wavelengths.
+F: Stefan–Boltzmann: E_b = σT⁴;  σ = 5.67 × 10⁻⁸ W/m²·K⁴;  real surface E = εσT⁴
+F: Wien's displacement law: λ_max T = 2898 μm·K (≈ 2900)
+F: Planck's law: E_bλ = C₁λ⁻⁵/(e^(C₂/λT) − 1);  C₁ = 3.742 × 10⁸ W·μm⁴/m², C₂ = 1.4388 × 10⁴ μm·K
+F: Kirchhoff's law: at thermal equilibrium ε = α (for a grey body at all temperatures)
+F: Lambert's cosine law: intensity of a diffuse emitter I is independent of direction; emissive power E = πI
+- Sun (≈ 5,800 K): λ_max ≈ 0.5 μm (visible). Bodies at room temperature (≈ 300 K): λ_max ≈ 10 μm (infrared). Glass transmits short-wave solar radiation but is opaque to long-wave radiation from objects inside – greenhouse effect.
+- Gases: monatomic and symmetric diatomic gases (N₂, O₂, H₂, dry air) are transparent to thermal radiation; CO₂, H₂O vapour, CO, SO₂, NH₃, CH₄ absorb and emit in bands (important in furnaces and the atmosphere).
+FIG: planck
+PYQ-TREND: Black body α = ε = 1 (very frequent); Kirchhoff's law α = ε; Wien's law constant 2898 μm·K; Stefan–Boltzmann constant; grey body definition; greenhouse effect; N₂/O₂ transparent, CO₂/H₂O participating; α + ρ + τ = 1.
+
+## 26.2 Radiation Exchange Between Surfaces
+F: Shape (view/configuration) factor F₁₂: fraction of radiation leaving surface 1 that reaches surface 2 directly
+F: Reciprocity: A₁F₁₂ = A₂F₂₁;  summation: Σⱼ F₁ⱼ = 1 (enclosure)
+F: Flat or convex surface: F₁₁ = 0;  concave surface: F₁₁ > 0
+F: Small body (1) completely enclosed by a large enclosure (2): F₁₂ = 1;  F₂₁ = A₁/A₂
+F: Two large parallel plates: q = σ(T₁⁴ − T₂⁴)/(1/ε₁ + 1/ε₂ − 1) per unit area
+F: Concentric cylinders/spheres: Q = σA₁(T₁⁴ − T₂⁴)/[1/ε₁ + (A₁/A₂)(1/ε₂ − 1)]
+F: Small body in large enclosure: Q = ε₁σA₁(T₁⁴ − T₂⁴)
+F: Black surfaces: Q₁₂ = A₁F₁₂σ(T₁⁴ − T₂⁴)
+F: Surface resistance (1 − ε)/(εA);  space (geometric) resistance 1/(A₁F₁₂)  – radiation network
+F: Hemisphere over its base: F(base → hemisphere) = 1;  F(hemisphere → base) = 0.5;  F(hemisphere → itself) = 0.5
+### Radiation shields
+F: n shields between two parallel plates (all emissivities equal): heat transfer reduced to 1/(n + 1) of the unshielded value
+F: One shield with ε_s between plates with ε₁, ε₂: resistance = (1/ε₁ + 1/ε₂ − 1) + (2/ε_s − 1) per unit area
+- Shields of low-emissivity (polished) material are used in thermos flasks, cryogenic storage (multi-layer insulation), thermocouple shields (to reduce radiation error) and furnace walls.
+PYQ-TREND: Shape factor reciprocity and summation rules (very frequent); F₁₁ = 0 for flat/convex surfaces; small body in large enclosure; parallel plates formula; n shields → 1/(n+1); hemisphere view factors.
+TIP: Radiation shields: 1 shield halves the heat flow, 2 shields reduce it to one-third, 3 to one-fourth (equal emissivities).
+
+## 26.3 Heat Exchangers
+| Classification | Types |
+| Nature of contact | Direct contact (cooling towers, jet condensers), indirect – recuperators (separated by wall: shell-and-tube, plate), regenerators (matrix alternately heated and cooled: rotary air preheater, Cowper stoves) |
+| Flow arrangement | Parallel flow, counter flow, cross flow (mixed/unmixed), multi-pass |
+| Construction | Double pipe, shell-and-tube, plate, plate-fin, finned-tube, spiral |
+| Phase | Condensers, evaporators, boilers, radiators |
+| Compactness | Compact HX: area density > 700 m²/m³ (car radiator ≈ 1,000; human lung ≈ 20,000) |
+F: Heat transfer: Q = U A ΔT_lm
+F: LMTD = (ΔT₁ − ΔT₂)/ln(ΔT₁/ΔT₂)
+F: Parallel flow: ΔT₁ = T_h,in − T_c,in, ΔT₂ = T_h,out − T_c,out;  counter flow: ΔT₁ = T_h,in − T_c,out, ΔT₂ = T_h,out − T_c,in
+F: When ΔT₁ = ΔT₂ (counter flow, equal capacity rates): LMTD = ΔT (constant along length)
+F: Cross-flow and multipass: Q = U A F ΔT_lm,counter (F = correction factor ≤ 1)
+F: Overall U (tube, based on outer area): 1/U_o = 1/h_o + R_fo + (r_o ln(r_o/r_i))/k + (r_o/r_i) R_fi + r_o/(r_i h_i)
+F: Fouling factor (scale resistance) R_f = 1/U_dirty − 1/U_clean
+### Effectiveness–NTU method
+F: Capacity rate C = ṁ c_p;  C_min, C_max;  capacity ratio C_r = C_min/C_max
+F: Effectiveness ε = Q_actual/Q_max;  Q_max = C_min (T_h,in − T_c,in)
+F: Number of transfer units NTU = U A / C_min
+F: Parallel flow: ε = [1 − exp(−NTU(1 + C_r))]/(1 + C_r)
+F: Counter flow: ε = [1 − exp(−NTU(1 − C_r))]/[1 − C_r exp(−NTU(1 − C_r))];  C_r = 1: ε = NTU/(1 + NTU)
+F: Phase change (condenser/evaporator, C_r = 0): ε = 1 − exp(−NTU) (same for all arrangements)
+- Counter flow gives the larger LMTD and therefore needs less area for the same duty; in counter flow the cold-fluid outlet temperature can exceed the hot-fluid outlet temperature, which is impossible in parallel flow. Maximum effectiveness of parallel flow (C_r = 1) is 50%.
+- When one fluid changes phase (condenser, evaporator), its temperature is constant and the LMTD is the same for parallel and counter flow.
+- LMTD method is convenient when all inlet and outlet temperatures are known (sizing); ε–NTU when outlet temperatures are unknown (rating).
+FIG: hx
+PYQ-TREND: Counter flow more effective than parallel flow (very frequent); LMTD formula; ε = 1 − e^(−NTU) for condensers/evaporators; NTU definition; fouling factor; car radiator is cross-flow compact HX; regenerators vs recuperators; LMTD = ΔT when ΔT₁ = ΔT₂.
+WARN: In LMTD, ΔT₁ and ΔT₂ are the end temperature differences, defined differently for parallel and counter flow. Using the parallel-flow definitions for a counter-flow exchanger is the most common error.
+Q: Compare parallel-flow and counter-flow heat exchangers.
+In a parallel-flow exchanger both fluids enter at the same end and flow in the same direction. The temperature difference is large at the inlet and falls steadily along the length, so the LMTD is relatively small; the outlet temperature of the cold fluid always remains below the outlet temperature of the hot fluid, and the maximum effectiveness (for equal capacity rates) is only 50%. In a counter-flow exchanger the fluids enter at opposite ends and flow in opposite directions; the temperature difference is more uniform along the length, the LMTD is higher for the same terminal temperatures, so a smaller area is needed for the same heat duty, and the cold-fluid outlet can be heated above the hot-fluid outlet temperature; effectiveness can approach 100% with large area. Counter flow also gives lower thermal stresses because the temperature difference across the wall is more uniform. Parallel flow is used when a rapid initial heating/cooling is needed or when the wall temperature must be limited. When one fluid changes phase at constant temperature, both arrangements give the same LMTD and effectiveness.

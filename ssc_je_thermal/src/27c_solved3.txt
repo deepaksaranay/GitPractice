@@ -1,0 +1,122 @@
+# Solved Numericals – Set 3 (Refrigeration, Psychrometry, Heat Transfer)
+SSC-style problems solved step by step (no options). 1 TR = 3.5167 kW = 211 kJ/min.
+
+## 27C.1 Refrigeration
+### Problem 1 – Tonnage
+A refrigerator extracts 63,300 kJ/h from a cold store. Find its capacity in TR.
+F: 63,300/60 = 1055 kJ/min;  TR = 1055/211 = 5 TR
+### Problem 2 – Simple VCR cycle
+Enthalpies: evaporator exit (compressor inlet) 1440, compressor exit 1650, condenser exit 320 kJ/kg. Find refrigerating effect, COP, mass flow and power for 10 TR.
+F: RE = 1440 − 320 = 1120 kJ/kg;  W = 1650 − 1440 = 210 kJ/kg;  COP = 1120/210 = 5.33
+F: ṁ = 35.17/1120 = 0.0314 kg/s;  P = 0.0314 × 210 = 6.59 kW;  heat rejected = 0.0314 × 1330 = 41.8 kW
+### Problem 3 – Carnot COP and relative COP
+A refrigerator works between −10 °C and 40 °C with an actual COP of 3.5. Find the Carnot COP and relative COP.
+F: COP_Carnot = 263/50 = 5.26;  relative COP = 3.5/5.26 = 0.665
+### Problem 4 – Power per TR
+A plant has COP 4. Find power per TR.
+F: P = 3.5167/4 = 0.879 kW/TR (≈ 1.18 hp/TR)
+### Problem 5 – Bell–Coleman (reversed Brayton) cycle
+Find the COP of an ideal air refrigeration cycle with pressure ratio 5.
+F: COP = 1/(r_p^((γ−1)/γ) − 1) = 1/(5^0.2857 − 1) = 1/(1.584 − 1) = 1.71
+### Problem 6 – Ideal COP of vapour absorption system
+Generator 100 °C, condenser/ambient 30 °C, evaporator −10 °C. Find the maximum COP.
+F: COP = [(T_G − T_0)/T_G] × [T_E/(T_0 − T_E)] = (70/373) × (263/40) = 0.1877 × 6.575 = 1.23
+### Problem 7 – Ice plant
+Find the ice produced per day by a 10 TR plant making ice at 0 °C from water at 25 °C (c = 4.187, latent heat 335 kJ/kg). Neglect losses.
+F: Heat per kg = 4.187 × 25 + 335 = 104.7 + 335 = 439.7 kJ/kg
+F: Capacity = 10 × 211 × 1440 = 3,038,400 kJ/day → ice = 3,038,400/439.7 ≈ 6910 kg/day ≈ 6.9 tonnes
+### Problem 8 – Heat pump heating
+A heat pump with COP 3.5 supplies 14 kW to a house. Find the power input and heat taken from outside.
+F: W = 14/3.5 = 4 kW;  Q_L = 14 − 4 = 10 kW
+
+## 27C.2 Psychrometry
+### Problem 9 – Specific humidity and RH
+Air at 30 °C, 1.01325 bar has vapour pressure 0.025 bar (p_s at 30 °C = 0.04246 bar). Find RH, ω and enthalpy.
+F: φ = 0.025/0.04246 = 58.9%
+F: ω = 0.622 × 0.025/(1.01325 − 0.025) = 0.01555/0.98825 = 0.01574 kg/kg dry air
+F: h = 1.005 × 30 + 0.01574 (2500 + 1.88 × 30) = 30.15 + 40.24 = 70.4 kJ/kg dry air
+### Problem 10 – Dew point
+In Problem 9, find the dew point (p_sat = 0.025 bar at about 21 °C).
+F: DPT = T_sat at p_v = 0.025 bar ≈ 21 °C
+### Problem 11 – Bypass factor
+Air at 30 °C passes over a cooling coil with ADP 10 °C and leaves at 15 °C. Find BPF and coil efficiency.
+F: BPF = (15 − 10)/(30 − 10) = 0.25;  contact factor = 0.75
+### Problem 12 – Adiabatic mixing
+2 kg/s of air at 35 °C, ω = 0.020 mixes with 6 kg/s at 25 °C, ω = 0.010. Find the mixed state.
+F: ω₃ = (2 × 0.020 + 6 × 0.010)/8 = 0.0125 kg/kg;  t₃ ≈ (2 × 35 + 6 × 25)/8 = 27.5 °C
+### Problem 13 – Sensible heating load
+1 kg/s of air is heated from 15 °C to 35 °C with no moisture change. Find the heating load.
+F: Q = ṁ c_pa ΔT = 1 × 1.022 × 20 = 20.4 kW
+### Problem 14 – Sensible heat factor
+A room has sensible heat gain 30 kW and latent heat gain 10 kW. Find SHF.
+F: SHF = 30/(30 + 10) = 0.75
+### Problem 15 – Dehumidification load
+2 kg/s of air is cooled from h = 75 to h = 45 kJ/kg while its humidity falls from 0.018 to 0.010 kg/kg. Find total cooling load in TR and condensate rate.
+F: Q = 2 × (75 − 45) = 60 kW = 60/3.517 = 17.1 TR;  condensate = 2 × 0.008 = 0.016 kg/s = 57.6 kg/h
+### Problem 16 – Evaporative cooler
+Air at 40 °C DBT, 22 °C WBT passes through an evaporative cooler with humidifying efficiency 80%. Find the exit DBT.
+F: t₂ = t₁ − η(t₁ − t_wb) = 40 − 0.8 × 18 = 25.6 °C (WBT stays ≈ 22 °C)
+
+## 27C.3 Conduction
+### Problem 17 – Plane wall
+A brick wall 0.2 m thick (k = 0.7 W/m·K), area 10 m², has faces at 30 °C and 0 °C. Find heat flow.
+F: Q = kAΔT/L = 0.7 × 10 × 30/0.2 = 1050 W
+### Problem 18 – Composite wall with convection
+Inside air 25 °C (h₁ = 10), brick 0.2 m (k = 0.7), insulation 0.05 m (k = 0.04), outside air −15 °C (h₂ = 25). Find U and heat flux.
+F: 1/U = 1/10 + 0.2/0.7 + 0.05/0.04 + 1/25 = 0.1 + 0.286 + 1.25 + 0.04 = 1.676 m²K/W → U = 0.597 W/m²K
+F: q = U ΔT = 0.597 × 40 = 23.9 W/m²
+F: Inner surface temperature = 25 − 23.9 × 0.1 = 22.6 °C
+### Problem 19 – Insulated pipe
+A steel pipe (r₁ = 50 mm, r₂ = 55 mm, k = 50) carries steam; it is insulated to r₃ = 105 mm (k = 0.06). Inner surface 200 °C, outer insulation surface 40 °C. Find the heat loss per metre.
+F: R_steel = ln(1.1)/(2π × 50) = 0.0953/314.2 = 3.03 × 10⁻⁴ K/W
+F: R_ins = ln(105/55)/(2π × 0.06) = 0.6466/0.377 = 1.715 K/W
+F: Q = 160/1.7155 = 93.3 W/m  (steel resistance is negligible)
+### Problem 20 – Critical radius
+Insulation with k = 0.2 W/m·K is exposed to air with h = 10 W/m²·K. Find the critical radius for a cylinder and a sphere.
+F: r_c (cylinder) = k/h = 0.02 m = 20 mm;  r_c (sphere) = 2k/h = 40 mm
+### Problem 21 – Heat generation in a wire
+A wire of radius 1 mm (k = 20) generates 10⁸ W/m³; surface temperature 100 °C. Find centre temperature.
+F: T_max = T_s + q_g R²/(4k) = 100 + 10⁸ × 10⁻⁶/80 = 100 + 1.25 = 101.25 °C
+### Problem 22 – Lumped cooling of a steel ball
+A steel ball (D = 10 mm, k = 40, ρ = 7800, c = 460) at 400 °C is cooled in air at 30 °C with h = 100 W/m²K. Find the time to reach 100 °C.
+F: L_c = R/3 = 1.667 × 10⁻³ m;  Bi = 100 × 1.667 × 10⁻³/40 = 0.0042 < 0.1 → lumped valid
+F: τ = ρcL_c/h = 7800 × 460 × 1.667 × 10⁻³/100 = 59.8 s
+F: (100 − 30)/(400 − 30) = 0.189 = e^(−t/59.8) → t = 59.8 × 1.665 = 99.6 s ≈ 100 s
+### Problem 23 – Long pin fin
+A long aluminium pin fin (D = 10 mm, k = 200) with base excess temperature 80 °C is exposed to h = 20. Find m, heat loss and effectiveness.
+F: P = πD = 0.03142 m;  A_c = 7.854 × 10⁻⁵ m²;  m = √(hP/(kA_c)) = √(0.6283/0.01571) = √40 = 6.32 m⁻¹
+F: Q = √(hPkA_c) θ₀ = √(9.87 × 10⁻³) × 80 = 0.0994 × 80 = 7.95 W
+F: ε = √(kP/(hA_c)) = √4000 = 63.2  (fin is highly worthwhile)
+
+## 27C.4 Convection, Radiation, Heat Exchangers
+### Problem 24 – Dittus–Boelter
+Water is heated in a 25 mm tube with Re = 20,000, Pr = 5, k = 0.6 W/m·K. Find h.
+F: Nu = 0.023 × 20,000^0.8 × 5^0.4 = 0.023 × 2760 × 1.904 = 120.8
+F: h = Nu k/D = 120.8 × 0.6/0.025 = 2900 W/m²K
+### Problem 25 – Laminar tube flow
+Oil flows in a 20 mm tube in fully developed laminar flow with constant wall temperature (k = 0.14). Find h.
+F: Nu = 3.66 → h = 3.66 × 0.14/0.02 = 25.6 W/m²K
+### Problem 26 – Black body emission
+Find the total emissive power and the wavelength of maximum emission of a black body at 1000 K.
+F: E_b = 5.67 × 10⁻⁸ × 1000⁴ = 56.7 kW/m²;  λ_max = 2898/1000 = 2.898 μm
+### Problem 27 – Effect of doubling temperature
+If the absolute temperature of a black body is doubled, by what factor does its emissive power increase?
+F: E ∝ T⁴ → 2⁴ = 16 times
+### Problem 28 – Parallel plates and a shield
+Two large parallel plates at 800 K and 500 K have ε = 0.8 each. Find the net radiation, and the value with one shield of ε = 0.8.
+F: σ(T₁⁴ − T₂⁴) = 5.67 × 10⁻⁸ × (4.096 × 10¹¹ − 6.25 × 10¹⁰) = 19,680 W/m²
+F: q = 19,680/(1/0.8 + 1/0.8 − 1) = 19,680/1.5 = 13.1 kW/m²;  with one shield: 13.1/2 = 6.56 kW/m²
+### Problem 29 – View factors
+A sphere of diameter 1 m is inside a cubical box of side 2 m. Find F₁₂, F₂₁ and F₂₂ (1 = sphere, 2 = box).
+F: F₁₂ = 1;  F₂₁ = A₁/A₂ = π/24 = 0.131;  F₂₂ = 1 − 0.131 = 0.869
+### Problem 30 – LMTD: parallel vs counter flow
+Hot fluid 150 → 100 °C; cold fluid 30 → 80 °C. Find LMTD for parallel and counter flow and compare the areas.
+F: Counter: ΔT₁ = 150 − 80 = 70, ΔT₂ = 100 − 30 = 70 → LMTD = 70 °C
+F: Parallel: ΔT₁ = 150 − 30 = 120, ΔT₂ = 100 − 80 = 20 → LMTD = 100/ln 6 = 55.8 °C
+F: A_counter/A_parallel = 55.8/70 = 0.80  (counter flow needs 20% less area)
+### Problem 31 – NTU of a condenser
+A steam condenser has NTU = 2. Find the effectiveness.
+F: ε = 1 − e^(−NTU) = 1 − e^(−2) = 1 − 0.135 = 0.865
+### Problem 32 – Heat exchanger area
+A cooler transfers 50 kW with U = 500 W/m²K and LMTD = 25 °C. Find the area.
+F: A = Q/(U ΔT_lm) = 50,000/(500 × 25) = 4 m²
