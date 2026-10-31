@@ -1,0 +1,70 @@
+# Metrology – Limits, Fits, Gauges and Measuring Instruments
+
+## 21.1 Limits, Fits and Tolerances
+- Nominal (basic) size: size from which limits are derived. Actual size: measured size. Limits: maximum and minimum permissible sizes. Tolerance: difference between upper and lower limits (always positive). Deviation: algebraic difference between a limit and basic size – upper deviation (ES for holes, es for shafts), lower deviation (EI, ei); fundamental deviation is the one nearer the zero line. Allowance: intentional difference between maximum material limits of mating parts (minimum clearance or maximum interference).
+- Unilateral tolerance: variation on one side of basic size (e.g. 25 +0.02/+0.00) – preferred for fits; bilateral: on both sides (25 ± 0.02) – used for locational dimensions.
+| Fit | Condition | Examples |
+| Clearance | Hole always larger than shaft (minimum clearance > 0) | H7/g6 (sliding, close running), H8/f7 (running), H11/c11 (loose) |
+| Transition | May give clearance or interference | H7/k6, H7/n6 – locational; gears, pulleys on shafts with keys |
+| Interference | Shaft always larger than hole | H7/p6 (press fit), H7/s6 (drive/heavy press), H7/u6 (force/shrink fit) |
+- Hole-basis system: hole lower deviation zero (H hole); shaft varied – preferred because holes are made with standard fixed-size tools (drills, reamers) and checked with fixed plug gauges. Shaft-basis system: shaft upper deviation zero (h shaft) – used when one shaft carries several parts with different fits (e.g. bright drawn bars, line shafts).
+- IS 919 / ISO system: 18 grades of tolerance IT01, IT0, IT1 … IT16 (now IT18); 25–28 fundamental deviations designated by letters – capital for holes (A to ZC), small for shafts (a to zc). H hole and h shaft have zero fundamental deviation. Letters a–h give clearance shafts, j–n transition, p–zc interference.
+F: Standard tolerance unit i (μm) = 0.45 ∛D + 0.001D  (D = geometric mean of diameter step, mm)
+F: IT grades: IT5 = 7i, IT6 = 10i, IT7 = 16i, IT8 = 25i, IT9 = 40i, IT10 = 64i, IT11 = 100i (multiplying by ≈ 1.6 each grade from IT6)
+F: Maximum clearance = upper limit of hole − lower limit of shaft;  minimum clearance (allowance) = lower limit of hole − upper limit of shaft
+- Typical IT grades by process: lapping/honing IT4–IT5; grinding IT5–IT7; reaming/fine turning IT6–IT8; turning/boring IT7–IT10; milling/shaping IT9–IT11; drilling IT10–IT13; casting/forging IT14–IT16.
+- Selective assembly: parts sorted into groups and matched to obtain closer fits economically.
+- Geometric dimensioning and tolerancing (GD&T): form (straightness, flatness, circularity, cylindricity), orientation (parallelism, perpendicularity, angularity), location (position, concentricity, symmetry), runout (circular, total), profile. Maximum material condition (MMC) – hole at its smallest, shaft at its largest.
+PYQ-TREND: Hole-basis system preferred and why (very frequent); clearance/transition/interference fit examples (H7/g6, H7/k6, H7/p6); tolerance vs allowance; 18 IT grades; tolerance unit 0.45∛D + 0.001D; fundamental deviation letters; unilateral vs bilateral tolerances; MMC.
+WARN: Allowance is the minimum clearance (or maximum interference) between mating parts – it is not the same as tolerance, which belongs to one part.
+
+## 21.2 Gauges
+- Limit gauges (go/no-go): check whether a part is within limits, not its actual size – fast inspection in mass production. Plug gauge – holes (GO end checks the lower limit, NO-GO the upper limit; NO-GO end is shorter). Ring and snap (gap) gauges – shafts (GO checks upper limit, NO-GO lower limit).
+- Taylor's principle of gauging: the GO gauge should check all related dimensions (form and size) simultaneously – full form and length of the mating part; the NO-GO gauge should check one dimension at a time (point contact).
+- Gauge tolerance ≈ 10% of work tolerance; wear allowance (≈ 5–10% of work tolerance) is provided on GO gauges only, since they wear in use.
+| Gauge | Use |
+| Slip (gauge) blocks (Johansson) | Length standards; wrung together; grades 00, 0, I, II; sets of 103/112 pieces; made of hardened steel/carbide/ceramic; lapped |
+| Feeler gauge | Thin strips to measure small gaps (valve clearance) |
+| Radius / fillet gauge | Check radii |
+| Screw pitch gauge | Thread pitch |
+| Wire gauge (SWG) | Diameter of wires, thickness of sheets |
+| Ring, plug, snap, taper, thread gauges | Limit gauging |
+| Sine bar | Angles, with slip gauges: sin θ = h/L (accurate up to ≈ 45°; L = 100, 200 or 250 mm between roller centres) |
+| Angle gauges | 13 blocks combined to build any angle to 3″ |
+| Combination set | Square head, protractor head, centre head with rule |
+| Bevel protractor | Angles to 5′ with vernier |
+| Autocollimator | Small angular deviations, straightness, flatness |
+PYQ-TREND: Taylor's principle of gauging (very frequent); GO gauge checks maximum material limit and gets wear allowance; plug gauge for holes, snap gauge for shafts; slip gauges wringing; sine bar for angles below 45°; feeler gauge for gaps.
+
+## 21.3 Linear and Angular Measuring Instruments
+| Instrument | Least count (typical) | Remarks |
+| Steel rule | 0.5 mm | Line measurement |
+| Vernier caliper | 0.02 mm (50 divisions) | Outside, inside, depth; LC = 1 MSD − 1 VSD |
+| Micrometer (outside) | 0.01 mm (pitch 0.5 mm, 50 divisions) | Ratchet for constant pressure; Abbe's principle satisfied |
+| Vernier height gauge, depth gauge | 0.02 mm | Marking, heights |
+| Dial indicator (dial gauge) | 0.01 mm | Comparative measurement, runout, alignment |
+| Bore gauge, telescopic gauge | – | Internal diameters |
+| Comparators (mechanical, optical, pneumatic, electrical) | Up to 0.001 mm | Compare with standard (slip gauges) |
+| Optical flat (interferometry) | Half wavelength per fringe (≈ 0.3 μm with He/monochromatic light) | Flatness |
+| Tool maker's microscope, profile projector | – | Thread profiles, small parts, angles |
+| Coordinate measuring machine (CMM) | ≈ 1 μm | 3-D measurement, touch-trigger probes |
+| Laser interferometer | Nanometre | Machine tool calibration |
+F: Vernier least count = value of 1 main scale division/number of vernier divisions;  micrometer LC = pitch/number of thimble divisions
+F: Optical flat: height difference = n λ/2 (n = number of fringes)
+- Abbe's principle: the measuring axis should be in line with the axis of the scale; the micrometer obeys it, the vernier caliper does not (hence more error).
+- Errors: systematic (instrument, environmental – temperature: standard 20 °C; parallax; zero error) and random. Accuracy: closeness to true value; precision (repeatability): closeness among repeated readings; sensitivity: output change per input change; resolution: smallest detectable change; calibration traceable to national standards.
+- Screw thread measurement: effective (pitch) diameter by the two-wire or three-wire method using best-size wire d = (p/2) sec(θ/2) (= 0.577p for metric 60° threads); major diameter by micrometer; pitch by pitch gauge/microscope.
+F: Best wire size d_w = (p/2) sec(θ/2);  for 60° thread d_w = 0.577p
+- Gear measurement: tooth thickness by gear tooth vernier caliper; base tangent method; Parkinson gear tester for composite errors.
+PYQ-TREND: Vernier and micrometer least counts (very frequent); micrometer obeys Abbe's principle; optical flat for flatness λ/2 per fringe; three-wire method and best wire size 0.577p; CMM; accuracy vs precision; standard temperature 20 °C; comparators; gear tooth vernier.
+
+## 21.4 Surface Roughness
+- Surface texture: roughness (fine irregularities from the process), waviness (larger spacing – vibration, deflection), lay (direction of dominant pattern), flaws.
+F: Ra (centre-line average, CLA) = (1/L)∫|y| dx – most commonly used (μm)
+F: Rq (RMS) = √((1/L)∫y² dx) ≈ 1.11 Ra for sinusoidal profile;  Rz = average of five highest peaks and five deepest valleys (ten-point height);  Rt / Rmax = peak-to-valley height
+- Measured by stylus instruments (Talysurf – diamond stylus, electronic amplification; profilometer), optical methods, comparison specimens. Sampling (cut-off) length typically 0.8 mm.
+- Roughness grade numbers N1 (0.025 μm) to N12 (50 μm); each step doubles Ra (N6 = 0.8, N7 = 1.6, N8 = 3.2 μm).
+- Lay symbols: = parallel, ⊥ perpendicular, X crossed, M multidirectional, C circular, R radial.
+PYQ-TREND: Ra (CLA) definition and unit μm (very frequent); Talysurf stylus instrument; roughness vs waviness vs lay; N-grade numbers; Rq ≈ 1.11 Ra.
+Q: Explain the hole-basis and shaft-basis systems of fits and state why the hole-basis system is preferred.
+In a system of fits, the variety of fits needed between mating parts is obtained by keeping the limits of one member fixed and varying the other. In the hole-basis system the hole is the basic member: its lower deviation is zero (H hole, e.g. H7), so its minimum size equals the basic size, and different clearance, transition or interference fits are obtained by choosing shafts with different fundamental deviations (e.g. H7/g6 clearance, H7/k6 transition, H7/p6 interference). In the shaft-basis system the shaft is fixed with zero upper deviation (h shaft), and holes of different deviations are used (e.g. G7/h6, K7/h6, P7/h6). The hole-basis system is generally preferred because holes are produced with fixed-size tools such as drills, reamers and broaches and checked with fixed plug gauges, whereas shafts can be turned or ground to any size with the same tool and measured with adjustable instruments; fewer standard tools and gauges are therefore needed. The shaft-basis system is used where a single shaft of uniform diameter (bright drawn bar, line shaft, piston pin) must carry several components with different fits, or when standard bought-out shafts are used.

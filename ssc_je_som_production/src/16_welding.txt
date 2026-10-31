@@ -1,0 +1,88 @@
+# Welding, Brazing and Soldering
+
+## 16.1 Classification
+- Welding: joining metals by heat and/or pressure, with or without filler, producing coalescence. Fusion welding melts the joint edges (gas, arc, thermit, electron beam, laser). Solid-state (pressure) welding joins without melting (forge, friction, ultrasonic, explosive, diffusion, cold, resistance welding partly).
+- Welding positions: flat (easiest, 1G/1F), horizontal, vertical, overhead (most difficult). Joints: butt, lap, T, corner, edge; edge preparations: square, single-V, double-V, U, J, bevel.
+
+## 16.2 Gas Welding
+
+| Flame | Oxygen : acetylene | Temperature | Use |
+| Neutral | ≈ 1 : 1 | ≈ 3100–3200 °C (hottest inner cone tip) | Most metals – mild steel, cast iron, copper, aluminium |
+| Carburising (reducing) | Excess acetylene | Lower (≈ 3000 °C) | High-carbon steel, hardfacing, non-ferrous like nickel/Monel; three zones visible (feather) |
+| Oxidising | Excess oxygen | Highest (≈ 3300–3500 °C) | Brass, bronze (zinc fumes reduced by oxide film) |
+- Oxy-acetylene: acetylene (C₂H₂) stored dissolved in acetone in a cylinder filled with porous mass (maroon colour cylinder in India); oxygen cylinder black. Acetylene pressure should not exceed 1 bar (15 psi) free gas – explosive. Combustion: primary (inner cone) C₂H₂ + O₂ → 2CO + H₂; secondary (outer envelope) with atmospheric O₂ → CO₂ + H₂O.
+- Leftward (forehand) welding: thin plates (< 5 mm); rightward (backhand): thicker plates, faster, better view of weld pool, less filler.
+- Other fuel gases: oxy-hydrogen (lower temperature, Al/Pb), oxy-LPG/propane (cutting, heating).
+- Oxy-fuel cutting (gas cutting): steel is preheated to ignition temperature (≈ 870 °C) and burnt in a jet of pure oxygen (Fe → Fe₃O₄); works for ferrous metals whose oxide melts below the metal and which burns exothermically. Not suitable for stainless steel, cast iron, aluminium, copper (use plasma or powder cutting).
+PYQ-TREND: Neutral flame for most metals, oxidising for brass, carburising for high-carbon steel (very frequent); neutral flame temperature ≈ 3200 °C; acetylene dissolved in acetone; cylinder colours (oxygen black, acetylene maroon); oxy-fuel cutting only for ferrous; leftward vs rightward welding.
+
+## 16.3 Arc Welding
+
+| Process | Electrode / shielding | Features / uses |
+| Shielded metal arc (SMAW, MMA, stick) | Consumable flux-coated electrode | Most versatile, field work, all positions; slag protection |
+| Submerged arc (SAW) | Bare wire under a blanket of granular flux | Very high deposition rate, deep penetration, no visible arc; flat position only; thick plates, ships, pipes, pressure vessels |
+| Gas tungsten arc (GTAW, TIG) | Non-consumable tungsten electrode, inert gas (Ar/He), separate filler | High quality, thin sheets, Al, Mg, stainless, Ti; AC for Al (cleaning action) |
+| Gas metal arc (GMAW, MIG/MAG) | Consumable wire fed continuously, inert (MIG) or active CO₂ (MAG) gas | Fast, semi-automatic; aluminium (MIG), steels (CO₂) |
+| Flux-cored arc (FCAW) | Tubular wire with flux core | Outdoor, high deposition |
+| Plasma arc (PAW) | Constricted arc through nozzle – very high temperature (up to ≈ 30,000 °C) | Precision welding, keyhole mode; plasma cutting of all metals |
+| Electroslag (ESW) | Heat from resistance of molten slag; vertical position | Very thick plates in one pass |
+| Atomic hydrogen | Arc between two tungsten electrodes in hydrogen; H₂ dissociates and recombines | Very hot, thin and special alloys |
+| Stud welding | Arc between stud and plate, then pressed | Fixing studs |
+- Polarity (DC): straight polarity DCEN/DCSP – electrode negative, work positive; about two-thirds of heat at the work (anode) → deeper penetration, thick plates, TIG on steel. Reverse polarity DCEP/DCRP – electrode positive; more heat at electrode, shallow penetration, faster melting of electrode – thin sheets, MIG, and cleaning action (removes oxide) useful for aluminium. AC: balanced heat, used in TIG for Al and Mg.
+- Electrode coating (flux) functions: stabilise the arc (ionising elements – K, Na), form slag to protect and slow cooling, provide shielding gas (cellulose), add alloying elements and deoxidisers, control bead shape. Electrode coding IS 815/AWS E6013: E = electrode, 60 = 60 ksi UTS, 1 = all positions, 3 = coating/current type.
+- Arc length ≈ electrode diameter; open-circuit voltage 50–100 V; arc voltage 20–40 V; current 50–500 A. Power sources: transformer (AC), rectifier and generator (DC). Constant-current (drooping) characteristic for SMAW/TIG; constant-voltage for MIG/SAW (self-adjusting arc).
+F: Heat input per unit length H = η V I/v  (v = welding speed);  arc power = V × I
+F: Arc characteristic (Ayrton): V = A + B·l (voltage increases linearly with arc length)
+PYQ-TREND: DCSP gives deeper penetration – two-thirds heat at the work; DCRP for thin sheets and aluminium (cleaning action) (very frequent); TIG uses non-consumable tungsten; MIG consumable wire; SAW flat position, thick plates; functions of electrode coating; plasma arc highest temperature; heat input VI/v.
+WARN: In TIG welding the tungsten electrode is not consumed – filler is added separately; in MIG the wire itself is the filler.
+
+## 16.4 Resistance and Solid-State Welding
+F: Heat generated in resistance welding H = I² R t  (current most influential – heat ∝ I²)
+
+| Process | Description / use |
+| Spot welding | Overlapping sheets pressed between copper electrodes, current passed – car bodies, sheet metal |
+| Seam welding | Rotating wheel electrodes produce overlapping spots – leak-tight seams in fuel tanks, cans |
+| Projection welding | Current concentrated at projections – several welds at once; nuts, studs |
+| Flash butt welding | Ends brought together, flashing, then upset – rails, chains, pipes |
+| Upset butt welding | Ends pressed and heated by resistance without flashing – wires, rods |
+| Percussion welding | Rapid discharge of stored energy |
+| Friction welding | One part rotated against another under pressure; heat by friction; then forging pressure – dissimilar metals, shafts, axles |
+| Friction stir welding | Rotating non-consumable tool stirs plasticised material – aluminium alloys, aerospace |
+| Ultrasonic welding | High-frequency vibration under light pressure – foils, wires, plastics |
+| Explosive welding | Controlled detonation – cladding dissimilar plates |
+| Diffusion bonding | Pressure and temperature over time – aerospace, titanium |
+| Forge welding | Heating and hammering – oldest method (blacksmith) |
+| Thermit welding | Exothermic reaction of Al powder with iron oxide (≈ 2500–3000 °C) – rails, heavy sections, repair of castings |
+| Electron beam welding | Focused electron beam in vacuum – deep narrow welds, reactive metals |
+| Laser beam welding | Focused laser – precise, small HAZ, no vacuum needed |
+- Electrodes in resistance welding: copper alloys (Cu–Cr, Cu–Be) of high conductivity and hardness. Spot welding cycle: squeeze, weld, hold, off.
+PYQ-TREND: Resistance welding heat I²Rt (very frequent); spot welding for car bodies; seam welding for leak-tight tanks; thermit welding for rails (aluminium + iron oxide); friction welding for dissimilar metals; electron beam welding in vacuum; flash butt welding for rails.
+
+## 16.5 Welding Metallurgy, Defects and Inspection
+- Weld zones: fusion zone (melted and solidified, cast structure), heat-affected zone (HAZ – not melted but microstructure changed: grain growth, hardening in high-carbon/alloy steels), unaffected base metal. Preheating and post-weld heat treatment (stress relieving) reduce cracking in medium/high-carbon and alloy steels. Carbon equivalent CE = C + Mn/6 + (Cr + Mo + V)/5 + (Ni + Cu)/15 – CE < 0.4 indicates good weldability.
+
+| Defect | Cause |
+| Porosity / blowholes | Gas entrapment – moisture, contamination, poor shielding |
+| Slag inclusion | Incomplete slag removal between passes |
+| Lack of fusion | Low current, fast travel, poor manipulation |
+| Incomplete penetration | Low current, improper joint preparation, fast speed |
+| Undercut | Groove along weld toe – excessive current, long arc, wrong angle |
+| Overlap | Weld metal flows over surface without fusing – low current, slow speed |
+| Cracks (hot/cold) | Hot: high sulphur, restraint; cold (hydrogen-induced): hydrogen + hard HAZ + stress – use low-hydrogen electrodes and preheat |
+| Spatter | High current, long arc |
+| Distortion | Non-uniform heating and contraction |
+| Arc blow | Magnetic deflection of arc in DC welding – use AC or change earth position |
+- Inspection: visual, dye penetrant, magnetic particle, radiography, ultrasonic; destructive – tensile, bend, nick-break, macro-etch tests.
+
+## 16.6 Brazing, Soldering and Adhesive Bonding
+
+| Process | Filler melting point | Base metal melts? | Examples |
+| Welding | Same as base | Yes | – |
+| Brazing | Above 450 °C (below base metal) | No | Brass (spelter), silver alloys, copper; capillary action; carbide tool tips, pipes, radiators |
+| Braze welding | Above 450 °C | No | Filler deposited like welding (no capillary) – cast iron repair |
+| Soldering | Below 450 °C | No | Sn–Pb (60/40 eutectic 183 °C), lead-free Sn–Ag–Cu; electronics, plumbing |
+- Fluxes: borax for brazing; zinc chloride/ammonium chloride (acid flux) or rosin (non-corrosive, for electronics) for soldering.
+- Adhesive bonding: epoxies, cyanoacrylates, structural adhesives; joins dissimilar materials, distributes stress, no heat damage.
+PYQ-TREND: Brazing above 450 °C, soldering below 450 °C, base metal not melted (very frequent); brazing uses capillary action; soft solder Sn–Pb; borax flux; HAZ; arc blow in DC; undercut from excess current; carbon equivalent and weldability.
+Q: Compare TIG and MIG welding.
+Both are gas-shielded arc welding processes in which an inert or active gas protects the arc and weld pool from the atmosphere, so no flux or slag is involved. In TIG (gas tungsten arc) welding the arc is struck between a non-consumable tungsten electrode and the workpiece in a shield of argon or helium; filler, when required, is added separately by hand as a rod. It gives very high quality, clean, precise welds with excellent control, is suitable for thin sheets and for aluminium, magnesium, stainless steel, titanium and root passes in pipes; AC is used for aluminium for the oxide-cleaning action, DCEN for steels. It is slow and needs skilled operators. In MIG (gas metal arc) welding, a consumable bare wire electrode is fed continuously from a spool through the torch, acting both as electrode and filler, using reverse polarity DC and argon (MIG) or CO₂ and mixtures (MAG). It has a much higher deposition rate and welding speed, is easily semi-automated or robotised, and suits medium and thick sections of steel and aluminium in fabrication and automobile industries. MIG has more spatter and somewhat lower precision than TIG, and its equipment (wire feeder) is more complex, but it is more productive.

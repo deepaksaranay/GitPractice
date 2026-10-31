@@ -1,0 +1,102 @@
+# Solved Numericals – Set 1 (Stress, Strain, Principal Stresses, Columns, Cylinders)
+SSC-style problems solved step by step (no options). E = 200 GPa = 2 × 10⁵ N/mm² for steel unless stated; 1 MPa = 1 N/mm².
+
+## 25.1 Simple Stress and Strain
+### Problem 1 – Axial stress and elongation
+A steel rod of 20 mm diameter and 2 m length carries 50 kN tension. Find stress and elongation.
+F: A = π/4 × 20² = 314.16 mm²;  σ = 50,000/314.16 = 159.2 MPa
+F: δL = PL/(AE) = 50,000 × 2000/(314.16 × 2 × 10⁵) = 1.59 mm
+### Problem 2 – Stepped bar
+A bar has two portions: A₁ = 400 mm², L₁ = 300 mm and A₂ = 200 mm², L₂ = 500 mm. It carries 40 kN. Find total elongation.
+F: δ = (P/E)(L₁/A₁ + L₂/A₂) = (40,000/2 × 10⁵)(0.75 + 2.5) = 0.2 × 3.25 = 0.65 mm
+### Problem 3 – Tapering circular bar
+A bar tapers from 40 mm to 20 mm diameter over 1 m and carries 60 kN. Find elongation.
+F: δ = 4PL/(πEd₁d₂) = 4 × 60,000 × 1000/(π × 2 × 10⁵ × 40 × 20) = 2.4 × 10⁸/5.027 × 10⁸ = 0.477 mm
+### Problem 4 – Self-weight elongation
+A steel bar 100 m long hangs vertically (ρ = 7850 kg/m³). Find elongation due to self-weight.
+F: δ = ρgL²/(2E) = 7850 × 9.81 × 100²/(2 × 2 × 10¹¹) = 7.70 × 10⁸/4 × 10¹¹ = 1.93 × 10⁻³ m = 1.93 mm
+### Problem 5 – Poisson's ratio from a test
+A 30 mm rod under 100 kN extends 0.212 mm on 300 mm gauge length and its diameter decreases by 0.0064 mm. Find E and μ.
+F: σ = 100,000/706.86 = 141.5 MPa;  e = 0.212/300 = 7.07 × 10⁻⁴ → E = 141.5/7.07 × 10⁻⁴ = 200 GPa
+F: Lateral strain = 0.0064/30 = 2.13 × 10⁻⁴;  μ = 2.13/7.07 = 0.30
+### Problem 6 – Elastic constants
+For a material E = 200 GPa and μ = 0.25. Find G and K.
+F: G = E/(2(1 + μ)) = 200/2.5 = 80 GPa;  K = E/(3(1 − 2μ)) = 200/1.5 = 133.3 GPa
+### Problem 7 – Poisson's ratio from E and G
+E = 210 GPa and G = 84 GPa. Find μ and K.
+F: μ = E/(2G) − 1 = 1.25 − 1 = 0.25;  K = 210/(3 × 0.5) = 140 GPa
+### Problem 8 – Volume change under hydrostatic pressure
+A 100 mm steel cube is subjected to hydrostatic pressure 50 MPa (K = 166.7 GPa). Find the change in volume.
+F: e_v = p/K = 50/166,700 = 3 × 10⁻⁴;  ΔV = 3 × 10⁻⁴ × 10⁶ = 300 mm³ (decrease)
+
+## 25.2 Thermal, Composite and Impact Problems
+### Problem 9 – Thermal stress in a rail
+Steel rails (α = 12 × 10⁻⁶ /°C) are laid 12 m long. Find the stress for a 40 °C rise if (a) fully restrained (b) a 3 mm gap is left.
+F: (a) σ = EαΔT = 2 × 10⁵ × 12 × 10⁻⁶ × 40 = 96 MPa (compressive)
+F: (b) free expansion = 12 × 10⁻⁶ × 12,000 × 40 = 5.76 mm;  σ = E(5.76 − 3)/L = 2 × 10⁵ × 2.76/12,000 = 46 MPa
+### Problem 10 – Composite bar
+A steel rod (A = 314.16 mm², E = 200 GPa) inside a copper tube (A = 600 mm², E = 100 GPa) shares a load of 100 kN. Find stresses.
+F: Equal strain: σ_s = (E_s/E_c)σ_c = 2σ_c;  2σ_c × 314.16 + σ_c × 600 = 100,000 → σ_c = 81.4 MPa, σ_s = 162.8 MPa
+### Problem 11 – Suddenly applied load
+A load of 50 kN is applied suddenly to a bar of area 500 mm². Find the maximum stress.
+F: σ = 2P/A = 2 × 50,000/500 = 200 MPa (gradual load gives 100 MPa)
+### Problem 12 – Impact load
+A 1 kN weight falls 100 mm onto a collar at the end of a bar (A = 1000 mm², L = 2 m). Find the maximum stress and extension.
+F: σ = (W/A)[1 + √(1 + 2AEh/(WL))] = 1 × [1 + √(1 + 2 × 1000 × 2 × 10⁵ × 100/(1000 × 2000))] = 1 + √20,001 = 142.4 MPa
+F: δ = σL/E = 142.4 × 2000/2 × 10⁵ = 1.42 mm
+### Problem 13 – Strain energy
+A steel bar 25 mm diameter and 1.5 m long is stressed to 150 MPa. Find the strain energy stored.
+F: V = 490.9 × 1500 = 7.36 × 10⁵ mm³;  U = σ²V/(2E) = 150² × 7.36 × 10⁵/(4 × 10⁵) = 41,420 N·mm = 41.4 J
+
+## 25.3 Principal Stresses and Failure Theories
+### Problem 14 – Principal stresses
+σx = 80 MPa, σy = −40 MPa, τxy = 30 MPa. Find principal stresses, maximum shear and principal plane.
+F: Centre = (80 − 40)/2 = 20;  R = √(60² + 30²) = 67.08 MPa
+F: σ₁ = 87.08 MPa;  σ₂ = −47.08 MPa;  τ_max = 67.08 MPa
+F: tan2θ = 2 × 30/(80 + 40) = 0.5 → θ = 13.3°
+### Problem 15 – Stresses on an oblique plane
+A bar carries 100 MPa axial stress. Find σ_n and τ on a plane whose normal makes 30° with the axis.
+F: σ_n = 100 cos²30° = 75 MPa;  τ = 50 sin60° = 43.3 MPa
+### Problem 16 – Combined bending and torsion
+A 60 mm shaft carries M = 1.5 kN·m and T = 2 kN·m. Find maximum shear and maximum normal stress.
+F: T_e = √(1.5² + 2²) = 2.5 kN·m → τ_max = 16 × 2.5 × 10⁶/(π × 60³) = 58.9 MPa
+F: M_e = ½(1.5 + 2.5) = 2 kN·m → σ_max = 32 × 2 × 10⁶/(π × 60³) = 94.3 MPa
+### Problem 17 – Factor of safety by two theories
+At a critical point σ₁ = 100 MPa, σ₂ = −50 MPa; σ_y = 250 MPa. Find FS by Tresca and von Mises.
+F: Tresca: σ₁ − σ₂ = 150 → FS = 250/150 = 1.67
+F: von Mises: √(100² + 50² + 100 × 50) = √17,500 = 132.3 → FS = 250/132.3 = 1.89
+
+## 25.4 Columns
+### Problem 18 – Euler load for different ends
+A 50 mm solid steel column is 2.5 m long. Find the Euler load for both ends hinged, fixed–free and fixed–fixed.
+F: I = π × 50⁴/64 = 3.068 × 10⁵ mm⁴;  P_e = π²EI/L² = 9.87 × 2 × 10⁵ × 3.068 × 10⁵/2500² = 96.9 kN (hinged)
+F: Fixed–free (L_e = 2L): 96.9/4 = 24.2 kN;  fixed–fixed (L_e = L/2): 96.9 × 4 = 387.6 kN
+### Problem 19 – Slenderness ratio
+For the column in Problem 18 (hinged), find k and λ.
+F: k = d/4 = 12.5 mm;  λ = 2500/12.5 = 200 (long column – Euler valid)
+### Problem 20 – Rankine load
+For the same column take σ_c = 320 MPa. Find the Rankine load.
+F: P_c = 320 × 1963.5 = 628.3 kN;  1/P_R = 1/628.3 + 1/96.9 → P_R = 83.9 kN
+- Check with a = σ_c/(π²E) = 1/6168: P_R = 628.3/(1 + 200²/6168) = 628.3/7.485 = 83.9 kN ✓
+### Problem 21 – Effect of doubling dimensions
+What happens to the Euler load if (a) length is doubled (b) diameter is doubled?
+F: (a) P ∝ 1/L² → one-fourth;  (b) P ∝ I ∝ d⁴ → 16 times
+
+## 25.5 Cylinders
+### Problem 22 – Thin cylinder stresses
+A cylinder of 1 m diameter and 10 mm thickness carries internal pressure 2 MPa. Find hoop and longitudinal stresses and maximum in-plane shear.
+F: σ_c = pd/2t = 2 × 1000/20 = 100 MPa;  σ_l = 50 MPa;  τ = (100 − 50)/2 = 25 MPa
+### Problem 23 – Thickness with joint efficiency
+A boiler shell 1.5 m diameter works at 1.5 MPa; allowable stress 120 MPa; longitudinal joint efficiency 80%. Find thickness.
+F: t = pd/(2σ η_l) = 1.5 × 1500/(2 × 120 × 0.8) = 11.7 mm → 12 mm
+### Problem 24 – Thin sphere
+A spherical vessel of 1 m diameter holds gas at 1.2 MPa; allowable stress 60 MPa. Find thickness.
+F: t = pd/(4σ) = 1.2 × 1000/240 = 5 mm
+### Problem 25 – Volume change of thin cylinder
+For Problem 22 (L = 3 m, μ = 0.3), find the change in volume.
+F: e_v = (pd/4tE)(5 − 4μ) = (2 × 1000/(40 × 2 × 10⁵))(3.8) = 2.5 × 10⁻⁴ × 3.8 = 9.5 × 10⁻⁴
+F: V = π/4 × 1² × 3 = 2.356 m³ → ΔV = 2.24 × 10⁻³ m³ = 2.24 litres
+### Problem 26 – Thick cylinder
+A thick cylinder (r₁ = 100 mm, r₂ = 150 mm) has internal pressure 30 MPa. Find hoop stresses at inner and outer surfaces.
+F: σ_c,inner = p(r₂² + r₁²)/(r₂² − r₁²) = 30 × 32,500/12,500 = 78 MPa
+F: σ_c,outer = 2pr₁²/(r₂² − r₁²) = 60 × 10,000/12,500 = 48 MPa

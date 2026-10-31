@@ -1,0 +1,88 @@
+# Concept Recall Bank – Part C (Special Topics)
+Quick recall for NDT, composites, special stresses, presses, welding practice, corrosion, maintenance and safety.
+
+## R11. NDT, Composites and Polymers
+| Question | Answer |
+| NDT only for ferromagnetic materials? | Magnetic particle test |
+| NDT for surface cracks in any non-porous material? | Dye penetrant test |
+| Internal porosity in castings/welds? | Radiography |
+| Thickness measurement from one side? | Ultrasonic testing |
+| Gamma-ray sources? | Co-60, Ir-192 |
+| Conductive tubes inspection? | Eddy current testing |
+| Bullet-proof vests fibre? | Kevlar (aramid) |
+| Cemented carbide is which composite? | Particulate (cermet) |
+| Rule of mixtures (longitudinal)? | E_c = E_f V_f + E_m V_m |
+| Natural composite examples? | Wood, bone |
+| Aircraft brake discs? | Carbon–carbon composite |
+| Polymer with lowest friction? | PTFE (Teflon) |
+| Bakelite is? | Thermoset (phenol-formaldehyde) |
+| Rubber vulcanised with? | Sulphur |
+| Plasticiser used in? | PVC |
+| Nylon formed by? | Condensation polymerisation |
+| Polyethylene formed by? | Addition polymerisation |
+| Glass structure? | Amorphous |
+| Refractory for basic slag? | Basic (magnesite, dolomite) |
+
+## R12. Special Stresses and Presses
+| Question | Answer |
+| Hoop stress in rotating ring? | ρv² |
+| Effect of small hole in rotating disc? | Doubles max stress |
+| Water thrust on vertical face? | ρgh²/2 at h/3 |
+| No tension in dam base? | Resultant within middle third |
+| Rankine k_a? | (1 − sinφ)/(1 + sinφ) |
+| Max stress in curved beam? | Inner fibre |
+| Fatigue notch factor? | 1 + q(K_t − 1) |
+| Subsurface maximum shear causes? | Pitting (contact fatigue) |
+| Press for deep drawing? | Hydraulic (double action) |
+| Press for coining? | Knuckle-joint |
+| Shut height? | Bed to slide at BDC (adjustment up) |
+| Die doing blanking + piercing at one station? | Compound die |
+| Die doing operations at successive stations? | Progressive die |
+| Cutting + forming at one station? | Combination die |
+| Pilots used in? | Progressive dies |
+| Stripper function? | Removes strip from punch |
+| Large dish ends in small numbers? | Explosive forming |
+| Crimping tubes with magnetic field? | Electromagnetic forming |
+| Long channel sections? | Roll forming |
+
+## R13. Welding Practice and Corrosion
+| Question | Answer |
+| Fillet weld symbol? | Triangle |
+| Symbol below reference line means? | Weld on arrow side |
+| Field weld symbol? | Flag |
+| Edge preparation for thick plates? | Double-V, U or J |
+| Residual stress in weld metal? | Tensile |
+| Distortion control sequence? | Back-step / skip welding |
+| Aluminium welding current (TIG)? | AC |
+| Cast iron welding electrode? | Nickel-based |
+| Cold cracking prevented by? | Preheat + low-hydrogen electrodes |
+| Gas cutting unsuitable for? | Stainless steel, aluminium, cast iron |
+| Back gouging process? | Air-carbon arc gouging |
+| Most active metal in galvanic series? | Magnesium |
+| Sacrificial anodes? | Zinc, magnesium, aluminium |
+| Season cracking of brass? | SCC in ammonia |
+| Zinc lost from brass? | Dezincification |
+| Caustic embrittlement occurs in? | Boilers |
+| Worst galvanic area ratio? | Small anode, large cathode |
+| Rusting requires? | Oxygen and moisture |
+| Age hardening steps? | Solution treat → quench → age |
+| Machine tool bed material? | Grey cast iron (damping) |
+| Ball bearing steel? | High-carbon chromium (52100) |
+| Turbine blade material? | Nickel superalloy |
+
+## R14. Maintenance, Safety and Costing
+| Question | Answer |
+| Maintenance based on condition monitoring? | Predictive |
+| Fixed-interval maintenance? | Preventive |
+| OEE? | Availability × performance × quality |
+| Main cause of accidents (Heinrich)? | Unsafe acts |
+| Heinrich ratio? | 1 : 29 : 300 |
+| Fire on oil – avoid? | Water jet |
+| Electrical fire extinguisher? | CO₂ / dry powder |
+| Class D fire? | Metals |
+| Value? | Function/cost |
+| Value engineering pioneer? | L. D. Miles |
+| Prime cost? | Direct material + labour + expenses |
+| Halsey bonus share? | 50% of time saved |
+| Straight-line depreciation? | (P − S)/n |
+| Noise limit for 8 h (India)? | 90 dB(A) |

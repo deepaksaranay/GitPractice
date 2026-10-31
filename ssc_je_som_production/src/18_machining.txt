@@ -1,0 +1,75 @@
+# Theory of Metal Cutting
+
+## 18.1 Cutting Tools and Geometry
+- Single-point tools (lathe, shaper, planer, boring) and multi-point tools (milling cutters, drills, broaches, grinding wheels).
+- Orthogonal cutting: cutting edge perpendicular to the cutting velocity (2-D, two force components; e.g. parting-off, tube end turning). Oblique cutting: edge inclined at an inclination angle (3-D, three forces; most practical turning) – chip flows sideways, longer tool life.
+- Tool signature (ASA/ANSI system) of a single-point tool, in order: back rake – side rake – end relief – side relief – end cutting edge angle – side cutting edge angle – nose radius, e.g. 8-14-6-6-6-15-1 (angles in degrees, nose radius in mm or inch). ORS (orthogonal rake system, ISO): inclination angle – orthogonal rake – orthogonal clearance – auxiliary clearance – auxiliary cutting edge angle – approach angle – nose radius.
+| Angle | Function |
+| Rake angle (positive/negative) | Positive rake: lower cutting force, better finish, weaker edge – soft/ductile materials, HSS. Negative rake: strong edge, higher force – carbide/ceramic tools, hard materials, interrupted cuts |
+| Clearance (relief) angle | Prevents rubbing of flank on work (≈ 5–8°) |
+| Side cutting edge (approach) angle | Spreads the cut over a longer edge, thinner chip; increases radial force |
+| End cutting edge angle | Clearance between end edge and machined surface |
+| Nose radius | Strengthens tip and improves surface finish; too large causes chatter |
+F: Ideal surface roughness (sharp tool): h = f/(tan ψ + cot κ);  with nose radius: h_max = f²/(8R)
+PYQ-TREND: Tool signature order (very frequent); positive rake for soft materials and negative rake for carbides/hard materials; orthogonal vs oblique cutting; roughness f²/8R – larger nose radius and smaller feed improve finish.
+
+## 18.2 Chip Formation
+| Chip type | Conditions | Remarks |
+| Continuous | Ductile materials, high speed, large positive rake, small feed, sharp tool, good cutting fluid | Best finish; long ribbons need chip breakers |
+| Continuous with built-up edge (BUE) | Ductile materials at low speed, high friction, small rake | Welded work material on tool tip – poor finish, changes geometry; reduced by higher speed, larger rake, coolant |
+| Discontinuous (segmental) | Brittle materials (cast iron, brass), very low speed, small rake, large feed | Easy disposal, acceptable finish in brittle materials |
+| Serrated (non-homogeneous, saw-tooth) | Low-thermal-conductivity metals (titanium, hardened steel) at high speed | Cyclic shear localisation |
+- Chip breakers (groove or step on rake face, or clamped obstruction) curl and break continuous chips for safety and disposal.
+- Shear zones: primary (shear plane – deformation), secondary (chip–tool interface – friction), tertiary (flank–work interface).
+PYQ-TREND: Continuous chips from ductile materials at high speed; discontinuous chips in cast iron; BUE at low speed (very frequent); chip breakers; BUE reduced by higher speed and rake.
+
+## 18.3 Mechanics of Orthogonal Cutting (Merchant)
+F: Chip thickness ratio r = t/t_c = L_c/L = V_c/V (< 1);  cutting ratio 1/r = chip reduction coefficient ζ
+F: Shear angle: tan φ = r cos α/(1 − r sin α)
+F: Shear strain γ = cot φ + tan(φ − α);  shear strain rate = V cos α/(cos(φ − α) Δy)
+F: Velocities: chip velocity V_c = V sinφ/cos(φ − α) = rV;  shear velocity V_s = V cosα/cos(φ − α)
+F: Merchant's circle: F = F_c sin α + F_t cos α (friction force);  N = F_c cos α − F_t sin α;  μ = tan β = F/N = (F_t + F_c tan α)/(F_c − F_t tan α)
+F: Shear force F_s = F_c cos φ − F_t sin φ;  normal on shear plane N_s = F_c sin φ + F_t cos φ;  shear stress τ_s = F_s sin φ/(b t)
+F: Merchant's first solution (minimum energy): 2φ + β − α = 90°  → φ = 45° + α/2 − β/2
+F: Lee–Shaffer: φ = 45° + α − β
+F: Cutting power P = F_c V;  specific cutting energy u = F_c/(b t) (J/mm³);  material removal rate MRR = V f d (turning)
+- Merchant's circle diagram represents the cutting force system: the resultant R is the diameter; components F_c (cutting/tangential, along velocity), F_t (thrust/feed), F_s and N_s (on shear plane), F and N (on rake face). Assumptions: tool sharp, no side flow (plane strain), continuous chip without BUE, shear on a single plane, uniform stresses, constant speed, orthogonal cutting.
+- Cutting force components in turning (dynamometer): tangential (cutting) force F_c (largest, determines power), axial (feed) force, radial (thrust) force. Measured by strain-gauge or piezoelectric dynamometers.
+- Heat in metal cutting: shear zone (≈ 60–80%), tool–chip interface (≈ 15–35%), flank–work (≈ 5%). Most heat (≈ 80%) is carried away by the chip; temperature is maximum on the rake face a little away from the cutting edge (where crater wear forms).
+FIG: merchant
+PYQ-TREND: Chip thickness ratio and shear angle formula (very frequent); Merchant's relation 2φ + β − α = 90°; Merchant circle force components; F_c largest force; most heat goes into the chip; specific energy; MRR = V f d; assumptions of Merchant theory.
+TIP: Chip thickness ratio r is always less than 1 (chip is thicker than uncut layer); higher r means thinner chip, larger shear angle, lower force – better machining.
+
+## 18.4 Tool Wear, Tool Life and Machinability
+- Tool wear mechanisms: abrasion (hard particles), adhesion (welding and tearing), diffusion (atoms migrate at high temperature – crater wear on carbides), oxidation, chemical, plastic deformation of the edge, chipping/fracture.
+| Wear type | Location / cause |
+| Flank wear (wear land VB) | On flank due to rubbing on machined surface; abrasion; used as tool-life criterion (VB ≈ 0.3 mm uniform or 0.6 mm max for carbide, ISO) |
+| Crater wear | On rake face, slightly away from edge; high temperature diffusion; at high speeds |
+| Notch wear | At depth-of-cut line – work-hardened surface, scale |
+| Nose wear, edge chipping | Interrupted cuts, brittle tools |
+F: Taylor's tool life equation: V Tⁿ = C  (V in m/min, T in min)
+F: Extended Taylor: V Tⁿ f^a d^b = K (feed has more effect than depth on tool life)
+- Typical Taylor exponent n: HSS ≈ 0.08–0.2 (0.125), carbide ≈ 0.2–0.5 (0.25), ceramics ≈ 0.5–0.7. Larger n means tool life is less sensitive to speed.
+- Speed affects tool life most, then feed, then depth of cut.
+F: Speed for minimum cost: T_opt = (1/n − 1)(C_t/C_m + t_c) (C_t = tool cost per edge, C_m = machine + labour cost per minute, t_c = tool change time);  maximum production rate: T_opt = (1/n − 1) t_c
+- Tool life for maximum production rate is shorter (higher speed) than for minimum cost.
+- Machinability: ease of machining measured by tool life, surface finish, cutting forces/power, chip form; machinability index = (cutting speed for 20 min tool life of material/that of free-cutting steel AISI 1112) × 100. Improved by adding S, Pb (free-cutting steels and brasses), annealing/spheroidising; reduced by hardness, work hardening (austenitic stainless), abrasive inclusions.
+FIG: tool_life
+PYQ-TREND: Taylor's equation VTⁿ = C and typical n values (very frequent); flank wear criterion and crater wear on rake face; speed most influential on tool life; diffusion wear in carbides; machinability index base AISI 1112; tool life for minimum cost vs maximum production.
+
+## 18.5 Tool Materials and Cutting Fluids
+| Tool material | Hot hardness (approx. max temp.) | Remarks |
+| Carbon tool steel | ≈ 200–250 °C | Cheap; hand tools, low speeds |
+| High-speed steel (HSS) | ≈ 600 °C | Tough; drills, taps, milling cutters, form tools; can be reground |
+| Cast cobalt alloys (Stellite) | ≈ 800 °C | Co–Cr–W; between HSS and carbides |
+| Cemented carbides (WC + Co binder) | ≈ 1000 °C | Sintered inserts; P (steel, blue), M (stainless, yellow), K (cast iron, red) grades; WC-Co for cast iron; TiC/TaC added for steel to resist cratering |
+| Coated carbides (TiN, TiC, Al₂O₃, TiCN) | ≈ 1000+ °C | Longer life; CVD/PVD coatings; TiN gold colour |
+| Cermets (TiC/TiN + Ni/Mo) | ≈ 1100 °C | Finishing of steels |
+| Ceramics (Al₂O₃, Si₃N₄, SiAlON) | ≈ 1200 °C | Very hard, brittle; high-speed finishing of cast iron and hardened steels; negative rake |
+| Cubic boron nitride (CBN) | ≈ 1400 °C | Second hardest; hardened steels, superalloys (does not react with iron) |
+| Diamond (PCD, natural) | ≈ 700–800 °C in air (reacts with iron) | Hardest; non-ferrous metals, plastics, composites, ceramics; not for steel |
+- Order of hardness: diamond > CBN > ceramics > cermets > carbides > cast alloys > HSS > carbon steel. Order of toughness is the reverse.
+- Cutting fluids: functions – cooling, lubrication, flushing chips, preventing BUE and corrosion, improving finish and tool life. Types – water-based soluble oils (emulsions, mainly cooling, high-speed cutting), straight cutting oils (mineral/fatty oils, lubrication at low speed – threading, broaching, gear cutting), synthetic/semi-synthetic fluids, extreme-pressure (EP) additives (S, Cl, P) for heavy cuts. Cast iron and brass are usually machined dry (or with air blast); minimum quantity lubrication (MQL) and cryogenic cooling are modern methods.
+PYQ-TREND: Order of hot hardness of tool materials (very frequent); diamond not used for ferrous metals (graphitisation/reaction with iron); CBN for hardened steels; HSS 18-4-1; carbide grades P, M, K; ceramics need negative rake; cast iron machined dry; soluble oils for cooling.
+Q: Explain Merchant's circle diagram and state its assumptions.
+In orthogonal cutting with a continuous chip, the chip is in equilibrium under two equal and opposite resultant forces: one from the tool along the rake face and one from the workpiece along the shear plane. Merchant represented these forces on a circle whose diameter is the resultant force R. The resultant can be resolved into three pairs of components, all of which can be shown in the same circle: (1) the cutting force F_c (along the cutting velocity) and the thrust force F_t (perpendicular to it), which are measured with a dynamometer; (2) the friction force F along the rake face and the normal force N perpendicular to it, giving the coefficient of friction μ = F/N = tan β; and (3) the shear force F_s along the shear plane and the normal force N_s on it, from which the shear stress τ = F_s/A_s is obtained. The angles involved are the rake angle α, the shear angle φ and the friction angle β. Using the minimum-energy principle, Merchant derived 2φ + β − α = 90°, which predicts that a larger rake angle and lower friction increase the shear angle, giving thinner chips and lower forces. Assumptions: sharp tool with no flank contact, plane-strain (no side flow), continuous chip without built-up edge, shear occurring on a single thin plane, uniform stress distribution on the shear plane, constant cutting velocity and a perfectly plastic work material.

@@ -1,0 +1,44 @@
+# Riveted, Welded and Bolted Joints (Strength Basics)
+
+## 11.1 Riveted Joints
+- Rivet: a short cylindrical bar with a head, inserted through holes and the second head formed by hammering (hot riveting for steel structures, cold for small rivets). Permanent joint; used in boilers (older), bridges, aircraft (aluminium rivets), ship hulls.
+| Type | Description |
+| Lap joint | Plates overlap; single or double riveted; eccentric load path |
+| Butt joint | Plates butt end to end with one (single strap) or two cover plates (double strap); rivets in double shear with two straps |
+| Chain riveting | Rivets of adjacent rows directly opposite |
+| Zig-zag riveting | Rivets staggered |
+| Diamond riveting | Number of rivets increases from outer row inward – used in structural butt joints for high efficiency |
+- Terminology: pitch p (distance between centres of adjacent rivets in a row), back pitch (between rows), margin m (centre of rivet to plate edge, usually 1.5d), diagonal pitch. Unwin's formula for rivet diameter: d = 6√t (mm).
+F: Tearing strength of plate (per pitch) P_t = (p − d) t σ_t
+F: Shearing strength of rivets P_s = n (π/4) d² τ (single shear);  = n × 2 × (π/4)d² τ (double shear; IS/boiler practice may use 1.75 or 1.875 instead of 2)
+F: Crushing (bearing) strength P_c = n d t σ_c
+F: Efficiency η = least of (P_t, P_s, P_c)/strength of solid plate (p t σ_t)
+F: Efficiency of joint (tearing criterion) = (p − d)/p
+- Failure modes: tearing of plate between rivets, tearing at the margin, shearing of rivets, crushing of rivets or plate. Rivets are designed so that shearing and crushing strengths roughly equal tearing strength.
+- Caulking and fullering make riveted joints in boilers leak-proof (fullering uses a tool as wide as the plate edge – better).
+PYQ-TREND: Joint efficiency = least strength/solid plate strength (very frequent); Unwin's formula d = 6√t; double cover butt joint – rivets in double shear; caulking and fullering; diamond riveting most efficient for structures; margin 1.5d.
+
+## 11.2 Welded Joints
+| Weld | Strength formula |
+| Butt weld (tension) | P = σ_t × throat (= plate thickness t) × length L |
+| Fillet weld | Throat thickness = leg size s × cos45° = 0.707s; strength P = 0.707 s L τ |
+| Double transverse fillet | P = 1.414 s L σ_t |
+| Parallel (longitudinal) fillet | P = 1.414 s L τ (two welds) |
+| Circular fillet weld around a shaft under torsion | τ = 2T/(π t d²) (t = throat) |
+F: Throat of fillet weld t = 0.707 s;  weld strength = τ × 0.707 s × L
+- Parallel fillet welds are loaded mainly in shear; transverse fillets are stronger by about 30% but are usually designed on the same shear basis.
+- Welded joints compared with riveted: lighter (no cover plates/heads), leak-proof, faster, can join complex shapes, nearly 100% efficiency possible; but residual stresses, distortion, heat-affected zone, difficult inspection, brittle failures under fatigue if poorly made.
+PYQ-TREND: Throat thickness 0.707 × leg (very frequent); fillet weld strength 0.707 s L τ; welded vs riveted joints; butt weld strength uses plate thickness.
+
+## 11.3 Bolted Joints, Keys and Couplings (Quick Facts)
+- Bolt designated by nominal (major) diameter, e.g. M12 × 1.75 (pitch). Tensile stress area based on mean of pitch and minor diameters. Initial tightening load (empirical) P_i = 2840d N (d in mm) for fluid-tight joints.
+F: Bolt in tension: P = (π/4) d_c² σ_t (d_c = core/minor diameter);  bolt in shear: P = (π/4) d² τ
+F: Eccentrically loaded bolted bracket: direct shear P/n + torsional shear P e r_i/Σr²
+- Keys transmit torque between shaft and hub: sunk keys (rectangular – width d/4, square), saddle keys (friction only, light duty), feather keys (axial movement), Woodruff key (semicircular, self-aligning, automotive), splines (many teeth, large torque). Kennedy key (two square keys).
+F: Rectangular sunk key: width w = d/4, thickness = 2w/3;  shear: T = w l τ d/2;  crushing: T = (t/2) l σ_c d/2
+F: Key equally strong in shear and crushing (square key): σ_c = 2τ
+- Couplings: rigid (sleeve/muff, split-muff, flange) for aligned shafts; flexible (bushed-pin, Oldham's for parallel offset shafts, universal/Hooke's joint for intersecting shafts) to allow misalignment.
+- Cotter joint (tapered cotter, taper ≈ 1 in 30) and knuckle joint (pin; tie rods of roof trusses, valve rods) connect rods under axial load.
+PYQ-TREND: Woodruff key is semicircular and self-aligning; saddle key works by friction; Oldham coupling for parallel shafts with lateral offset; Hooke's joint for intersecting shafts; key width d/4; cotter taper 1 in 30; knuckle joint uses a pin.
+Q: Explain the different modes of failure of a riveted joint and define its efficiency.
+A riveted joint can fail in several ways. (1) Tearing of the plate between rivet holes along a row: resisted area per pitch is (p − d)t, so strength P_t = (p − d)tσ_t. (2) Tearing of the plate at the edge (margin) in front of the rivet, prevented by keeping the margin at least 1.5 times the rivet diameter. (3) Shearing of the rivets: in a lap joint or single-cover butt joint each rivet is in single shear, P_s = n(π/4)d²τ; in a double-cover butt joint each rivet is in double shear, approximately doubling the strength. (4) Crushing of the rivet or the plate around the hole (bearing failure), with resisting area d × t per rivet, P_c = n d t σ_c. The efficiency of the joint is the ratio of the least of these strengths to the strength of the unpunched (solid) plate over the same pitch, p t σ_t. Typical efficiencies are 50–60% for single-riveted lap joints and 75–90% for double-riveted double-strap butt joints. A good design makes the tearing, shearing and crushing strengths nearly equal.

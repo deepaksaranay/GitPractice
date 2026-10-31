@@ -1,0 +1,64 @@
+# Iron–Carbon Diagram and Heat Treatment
+
+## 13.1 Iron–Iron Carbide Diagram
+| Phase / constituent | Description |
+| Ferrite (α) | Interstitial solid solution of C in BCC iron; max 0.022% C at 727 °C (≈ 0.008% at room temperature); soft, ductile, magnetic |
+| Austenite (γ) | Solution of C in FCC iron; max 2.14% C at 1147 °C; non-magnetic, ductile; not stable below 727 °C in plain carbon steel |
+| Cementite (Fe₃C) | Iron carbide, 6.67% C; very hard and brittle |
+| Pearlite | Eutectoid mixture (lamellae) of ferrite and cementite, 0.8% C (0.76–0.8%); forms at 727 °C |
+| Ledeburite | Eutectic mixture of austenite and cementite, 4.3% C, forms at 1147 °C |
+| δ-ferrite | BCC at high temperature (1394–1539 °C) |
+| Martensite | Supersaturated BCT solution of C in iron from rapid quenching; very hard, brittle (not on equilibrium diagram) |
+| Bainite | Fine ferrite + carbide from isothermal transformation between pearlite and martensite ranges |
+
+| Invariant reaction | Temperature | Composition | Reaction |
+| Peritectic | 1493–1495 °C | 0.16–0.18% C | δ + liquid → γ |
+| Eutectic | 1147 °C | 4.3% C | Liquid → γ + Fe₃C (ledeburite) |
+| Eutectoid | 727 °C | 0.8% C | γ → α + Fe₃C (pearlite) |
+- Critical lines: A₁ (727 °C, eutectoid line, lower critical temperature), A₃ (upper critical line for hypo-eutectoid steels – γ/γ + α boundary), A_cm (γ/γ + Fe₃C boundary for hyper-eutectoid steels). Steels: up to 2.14% C; cast irons: 2.14–6.67% C.
+- Lever rule gives phase fractions: e.g. for a 0.4% C steel just below 727 °C, pearlite ≈ (0.4 − 0.02)/(0.8 − 0.02) ≈ 49%, rest pro-eutectoid ferrite.
+FIG: fe_c
+PYQ-TREND: Eutectoid 727 °C, 0.8% C – pearlite; eutectic 1147 °C, 4.3% C – ledeburite; peritectic 1495 °C (very frequent); cementite 6.67% C; max solubility of C in austenite 2.14% and in ferrite 0.022%; martensite BCT not on diagram; lever rule.
+TIP: Remember the three invariant reactions by temperature: 'PEE' – Peritectic 1495, Eutectic 1147, Eutectoid 727 (high to low).
+
+## 13.2 TTT Diagram and Hardenability
+- Time–temperature–transformation (TTT, isothermal transformation) diagram: C-shaped curves showing start and finish of transformation of austenite at constant temperature. The 'nose' (≈ 550 °C for eutectoid steel) is where transformation is fastest. Above the nose: coarse/fine pearlite; below the nose: upper and lower bainite; below M_s (≈ 220 °C for eutectoid steel): martensite (athermal, diffusionless, depends only on temperature, ends at M_f).
+- Critical cooling rate: minimum rate that avoids the nose and gives fully martensitic structure. Alloying elements (except Co) shift the C-curves to the right, lowering the critical cooling rate and increasing hardenability.
+- Continuous cooling transformation (CCT) diagram is used for practical continuous cooling.
+- Hardenability: depth to which a steel can be hardened (not the maximum hardness, which depends mainly on carbon). Measured by the Jominy end-quench test (water jet on one end of a 25 mm × 100 mm bar; hardness measured along the length). Grossmann's ideal critical diameter.
+- Retained austenite: occurs with high carbon/alloy when M_f is below room temperature; removed by sub-zero (cryogenic) treatment.
+PYQ-TREND: TTT diagram nose and critical cooling rate; martensite diffusionless BCT; Jominy end-quench test for hardenability (very frequent); hardness depends on carbon, hardenability on alloying; sub-zero treatment for retained austenite.
+
+## 13.3 Heat Treatment Processes
+| Process | Procedure | Purpose / result |
+| Full annealing | Heat 30–50 °C above A₃ (hypo) or A₁ (hyper), hold, furnace cool | Softens, coarse pearlite, relieves stresses, improves machinability and ductility |
+| Process (sub-critical) annealing | Heat below A₁ (550–650 °C), cool | Restores ductility of cold-worked low-carbon steel between cold-working stages (recrystallisation) |
+| Spheroidising | Prolonged heating just below A₁ (or cycling) | Spheroidal cementite – maximum softness and machinability of high-carbon steels |
+| Stress relieving | Heat to ≈ 500–650 °C, slow cool | Removes residual stresses (after welding, casting, machining) without changing structure |
+| Normalising | Heat 30–50 °C above A₃/A_cm, cool in still air | Fine pearlite, refined grains; stronger and harder than annealed; uniform structure in forgings and castings |
+| Hardening | Heat above A₃ (hypo) or A₁ (hyper), quench in water/brine/oil | Martensite – maximum hardness; brittle, internal stresses |
+| Tempering | Reheat hardened steel below A₁ and cool | Reduces brittleness, relieves stresses, increases toughness; low (150–250 °C, tools), medium (350–450 °C, springs), high (500–650 °C, shafts – 'sorbite') |
+| Austempering | Quench into bath above M_s, hold until bainite forms | Bainite – toughness with less distortion and cracking |
+| Martempering (marquenching) | Quench to just above M_s, equalise, then air cool through martensite range | Martensite with minimal distortion and cracking; then temper |
+| Patenting | Austenitise and cool in lead bath (≈ 500 °C) | Fine pearlite for cold drawing of high-carbon wire |
+- Quenching media in decreasing severity: brine > water > oil > molten salt > air. Severe quenching gives greater hardness but more distortion and quench cracks.
+- Hardening + high-temperature tempering = 'quenching and tempering' (Q&T) – best combination of strength and toughness for shafts, gears and bolts.
+- Temper brittleness: loss of toughness on tempering in 250–400 °C or slow cooling through 450–600 °C (Ni–Cr steels) – reduced by Mo.
+PYQ-TREND: Annealing (furnace cool) vs normalising (air cool) (very frequent); hardening by quenching gives martensite; tempering reduces brittleness; spheroidising for machinability of high-carbon steel; austempering gives bainite; martempering reduces distortion; quenching media severity order.
+WARN: Normalising does not make steel softer than annealing – normalised steel is slightly harder and stronger because air cooling is faster and gives finer pearlite.
+
+## 13.4 Surface Hardening (Case Hardening)
+- Purpose: hard, wear-resistant surface with a tough, ductile core – gears, cams, camshafts, crankshaft journals, piston pins.
+| Process | Medium / temperature | Case depth / remarks |
+| Pack carburising | Low-carbon steel packed in charcoal + BaCO₃ energiser, 900–950 °C | 0.5–2 mm; followed by hardening; slow |
+| Gas carburising | CH₄/propane/endothermic gas, ≈ 925 °C | Controllable, mass production |
+| Liquid carburising / cyaniding | Molten NaCN salt bath (adds C and N), 800–870 °C | Thin case 0.1–0.3 mm; toxic salts |
+| Carbonitriding | Gas with NH₃ + hydrocarbon, 800–870 °C | Thin case; less distortion |
+| Nitriding | NH₃ gas at 500–550 °C (below A₁); steels with Al, Cr, Mo (Nitralloy) | Very hard (≈ 1000 HV) thin case; no quenching needed – minimum distortion; long time (up to 100 h) |
+| Flame hardening | Oxy-acetylene flame heating of surface, then water spray | Medium-carbon steel (0.4–0.6% C); large parts |
+| Induction hardening | High-frequency induced current heats surface, then quench | Fast, localised; case depth ∝ 1/√frequency (skin effect); crankshafts, gears |
+| Laser / electron-beam hardening | Focused beam | Precise, very thin case |
+- Carburising, cyaniding, carbonitriding and nitriding change surface chemistry (thermochemical); flame and induction hardening do not – they require steels with enough carbon (≥ 0.35–0.4%).
+PYQ-TREND: Nitriding needs no quenching and is done below A₁ (very frequent); carburising for low-carbon steels; flame and induction hardening for medium-carbon steels; cyaniding adds C and N; induction case depth decreases with frequency; pack carburising energiser BaCO₃.
+Q: Distinguish between annealing, normalising, hardening and tempering.
+All four are heat-treatment processes involving heating, holding and cooling, but they differ in temperature and cooling rate and therefore in the structure produced. In full annealing the steel is heated about 30–50 °C above the upper critical temperature, held to form uniform austenite and cooled very slowly in the furnace; it gives coarse pearlite and ferrite, maximum softness and ductility, relieves stresses and improves machinability. Normalising uses a similar or slightly higher temperature but the steel is cooled in still air; the faster cooling gives fine pearlite and refined grain size, so normalised steel is somewhat harder and stronger than annealed steel and has a more uniform structure – it is used for forgings, castings and before hardening. Hardening heats the steel into the austenite range and quenches it in water or oil so that austenite transforms to martensite, giving maximum hardness and wear resistance but high brittleness and internal stresses. Tempering always follows hardening: the steel is reheated to a temperature below the lower critical (150–650 °C depending on the required properties) and cooled; it relieves stresses and converts martensite partly into tempered martensite, trading some hardness for much greater toughness.

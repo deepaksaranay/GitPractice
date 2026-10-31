@@ -1,0 +1,65 @@
+# Bending Stresses in Beams
+
+## 6.1 Theory of Simple Bending
+- Assumptions (Euler–Bernoulli): material homogeneous, isotropic and linearly elastic with the same E in tension and compression; beam initially straight with uniform cross-section symmetric about the plane of bending; plane sections remain plane after bending; radius of curvature large compared with depth; stresses within the elastic limit; no resultant axial force; each layer free to expand or contract independently.
+- In sagging, fibres above the neutral axis are in compression and below are in tension; the neutral surface has zero stress and zero strain; the neutral axis passes through the centroid of the section (for pure bending with no axial force).
+F: Bending equation: M/I = σ/y = E/R
+F: Bending stress σ = M y/I;  maximum σ = M/Z;  section modulus Z = I/y_max
+F: Moment of resistance M = σ_allow Z;  flexural rigidity = EI;  curvature 1/R = M/(EI)
+- Bending stress varies linearly with distance from the neutral axis – zero at the NA, maximum at the extreme fibres.
+| Section | Section modulus Z |
+| Rectangle b × d | bd²/6 |
+| Square side a (side horizontal) | a³/6 |
+| Square with diagonal vertical | a³/(6√2) = 0.118a³ |
+| Solid circle diameter d | πd³/32 |
+| Hollow circle D, d | π(D⁴ − d⁴)/(32D) |
+| Triangle (about centroidal axis, base b, height h) | bh²/24 (top fibre) and bh²/12 (bottom fibre) |
+| I-section (approx.) | [BD³ − bd³]/(6D) (b = B − web thickness) |
+- For the same area, the I-section is most efficient, then hollow sections, then rectangle placed with depth vertical, then square, then circle (material near the NA is poorly used).
+- Strongest rectangular beam cut from a circular log of diameter D: b = D/√3, d = √(2/3)D (d/b = √2). Stiffest beam (maximum I): d/b = √3.
+- Square vs circle of equal area: Z_square/Z_circle ≈ 1.18 – square is stronger. A square beam with its side horizontal is √2 times stronger than with its diagonal vertical.
+- Doubling the depth of a rectangular beam increases its strength four times (Z ∝ d²) and stiffness eight times (I ∝ d³); doubling the width only doubles both.
+FIG: bending
+PYQ-TREND: M/I = σ/y = E/R (very frequent); section modulus of rectangle bd²/6 and circle πd³/32; NA passes through centroid; bending stress zero at NA; strongest beam from log d/b = √2; I-section most economical; effect of doubling depth.
+
+## 6.2 Beams of Uniform Strength and Composite Beams
+- Beam of uniform strength: section varies so that σ_max is the same at every section (σ = M/Z constant). Examples: leaf springs, tapered cantilevers, girders with cover plates.
+F: Cantilever with point load, constant depth: width b ∝ x (triangular plan);  constant width: depth d ∝ √x
+F: SSB central load, constant width: d ∝ √x from each support
+- Flitched (composite) beam: two materials (e.g. timber with steel plates) bonded so that they bend together – strain is continuous; stresses at the same distance from NA are in the ratio of moduli: σ_s/σ_w = E_s/E_w = m (modular ratio). Use the equivalent (transformed) section: replace steel by m times its width in timber.
+F: Composite beam: M = M₁ + M₂ = σ₁Z₁ + σ₂Z₂ with σ₁/σ₂ = E₁/E₂ at equal distance from NA
+PYQ-TREND: Beam of uniform strength (leaf spring example); flitched beams and modular ratio; equivalent section method.
+
+## 6.3 Combined Direct and Bending Stresses
+F: Eccentric axial load P at eccentricity e: σ = P/A ± M/Z = P/A ± P e/Z
+F: No tension condition (rectangle b × d, eccentricity along d): e ≤ d/6 – middle-third rule
+F: Circular section: e ≤ d/8 – load within a central circle of diameter d/4 (middle-quarter rule)
+F: Hollow circle: e ≤ (D² + d²)/(8D)
+F: Core (kern) of rectangular section: a rhombus with diagonals b/3 and d/3
+- Applications: columns with eccentric loads, chimneys under wind pressure, dams and retaining walls (no tension in masonry requires the resultant to lie within the middle third of the base).
+F: Chimney/dam base stresses: σ_max,min = W/A (1 ± 6e/b)
+PYQ-TREND: Middle-third rule e ≤ d/6 (very frequent); middle-quarter rule for circular sections d/8; kern of rectangle is a rhombus; σ = P/A ± M/Z; masonry dams no tension.
+TIP: Kern widths: rectangle d/3 (middle third); circle d/4 (diameter of core) – the core radius is d/8.
+
+## 6.4 Plastic Bending and Shape Factor
+- When the extreme fibres reach yield and loading continues, yielding spreads inward until the whole section is plastic (plastic hinge). In fully plastic state, the neutral axis divides the area into two equal halves (equal-area axis).
+F: Plastic moment M_p = σ_y Z_p;  plastic section modulus Z_p = (A/2)(ȳ₁ + ȳ₂)
+F: Shape factor S = Z_p/Z = M_p/M_y
+| Section | Shape factor |
+| Rectangle | 1.5 |
+| Solid circle | 16/(3π) = 1.70 |
+| Thin hollow circular tube | ≈ 1.27 |
+| I-section (about major axis) | ≈ 1.12–1.15 |
+| Triangle | 2.34 |
+| Diamond (square with diagonal vertical) | 2.0 |
+- Load factor = collapse load/working load = shape factor × factor of safety.
+PYQ-TREND: Shape factor of rectangle 1.5, circle 1.7, I-section ≈ 1.14, diamond 2 (very frequent); plastic neutral axis divides area equally; plastic hinge.
+
+## 6.5 Curved Beams and Unsymmetrical Bending (Basics)
+- In a curved beam (crane hooks, chain links, C-frames), the stress distribution is hyperbolic, not linear; the neutral axis shifts from the centroidal axis towards the centre of curvature; maximum stress occurs at the inner (concave) fibre. Analysis by Winkler–Bach theory.
+F: Curved beam: σ = (M/(A e)) × (y/(R_n − y)) where e = R̄ − R_n (shift of NA)
+- Unsymmetrical bending: load not in a plane of symmetry or section without an axis of symmetry (angles, Z-sections); bending about both principal axes; σ = M_u v/I_u + M_v u/I_v.
+- Shear centre: point through which the load must pass to produce bending without twisting. For doubly symmetric sections it coincides with the centroid; for a channel it lies outside the web on the side opposite the flanges; for an angle section it is at the intersection of the leg centre-lines; for a T-section at the junction of flange and web centre-lines.
+PYQ-TREND: Crane hook – curved beam, maximum stress at inner fibre, NA shifts towards centre of curvature (frequent); shear centre of channel outside the web; shear centre of angle at junction of legs.
+Q: State the assumptions of the theory of simple bending and derive the bending equation.
+Assumptions: the beam is initially straight and of uniform section with a plane of symmetry in which the loads act; the material is homogeneous, isotropic and obeys Hooke's law with equal moduli in tension and compression; plane transverse sections remain plane after bending; the radius of curvature is large compared with the depth; each layer expands or contracts freely; and there is no resultant axial force. Consider a small length dx bent to radius R about the neutral surface, subtending angle dθ, so dx = R dθ. A layer at distance y from the neutral surface has length (R + y)dθ; its strain is [(R + y)dθ − R dθ]/(R dθ) = y/R. By Hooke's law, σ = Ey/R, so stress varies linearly with y. For no resultant axial force, ∫σ dA = (E/R)∫y dA = 0, so ∫y dA = 0: the neutral axis passes through the centroid. The moment of the internal forces about the NA must equal the applied moment: M = ∫σ y dA = (E/R)∫y² dA = EI/R. Combining, M/I = σ/y = E/R. The maximum stress is σ = M y_max/I = M/Z.

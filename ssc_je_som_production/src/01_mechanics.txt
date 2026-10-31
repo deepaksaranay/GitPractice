@@ -1,0 +1,93 @@
+# Engineering Mechanics – Forces, Equilibrium and Friction
+
+## 1.1 Force Systems and Resultants
+- Force: a vector with magnitude, direction, point of application. Units: newton (N); 1 kgf = 9.81 N.
+- Principle of transmissibility: a force can be moved along its line of action without changing its external effect on a rigid body (not valid for internal effects or deformable bodies).
+| System | Description | Resultant |
+| Coplanar concurrent | Lines of action meet at a point, in one plane | Single force through the point |
+| Coplanar parallel | Lines parallel | Single force or a couple |
+| Coplanar non-concurrent | General plane system | Force + couple, or single force |
+| Collinear | Same line of action | Algebraic sum |
+| Non-coplanar | Space forces | Force + couple (wrench) |
+F: Parallelogram law: R = √(P² + Q² + 2PQ cosθ);  tanα = Q sinθ/(P + Q cosθ)
+F: Resolution: R = √((ΣFx)² + (ΣFy)²);  tanα = ΣFy/ΣFx
+F: Moment of a force M = F × perpendicular distance;  Varignon's theorem: moment of resultant = sum of moments of components
+F: Couple: two equal, opposite, parallel non-collinear forces; moment = F × arm, same about every point (free vector)
+- A force can be replaced by an equal force at another point plus a couple (force–couple system).
+- R is maximum (P + Q) when θ = 0 and minimum (|P − Q|) when θ = 180°; when P = Q, R = 2P cos(θ/2).
+PYQ-TREND: Parallelogram law and resultant of two equal forces (2P cos θ/2) – frequent; Varignon's theorem; couple is a free vector; principle of transmissibility.
+
+## 1.2 Equilibrium
+F: Coplanar equilibrium: ΣFx = 0, ΣFy = 0, ΣM = 0 (three equations)
+F: Lami's theorem (three concurrent forces in equilibrium): P/sinα = Q/sinβ = R/sinγ (α, β, γ = angles opposite each force)
+- Triangle law: if three concurrent forces are in equilibrium they can be represented by the sides of a triangle taken in order. Polygon law for more forces.
+- Two-force member: forces are equal, opposite and collinear. Three-force member: forces must be concurrent or parallel.
+- Free-body diagram (FBD): isolate the body and show all external forces and reactions.
+| Support | Reactions |
+| Roller / smooth surface | 1 (normal to surface) |
+| Hinge / pin | 2 (two components) |
+| Fixed (built-in) | 3 (two forces + moment) |
+| Link / cable | 1 (along its axis; cable only tension) |
+- Statically determinate: unknown reactions can be found from equilibrium alone (simply supported, cantilever, overhanging beams). Indeterminate: more unknowns (fixed and propped beams, continuous beams) – need compatibility of deformation.
+PYQ-TREND: Lami's theorem (very frequent); number of reactions at hinge/roller/fixed support; conditions of equilibrium; two-force member.
+
+## 1.3 Friction
+- Friction resists relative motion between surfaces in contact. Static friction is self-adjusting up to limiting friction; kinetic (dynamic) friction during motion is slightly less than limiting friction; rolling friction is much smaller still.
+F: Limiting friction F = μN;  angle of friction φ: tanφ = μ
+F: Angle of repose α = angle of friction φ (for a body on an inclined plane just on the point of sliding)
+F: Cone of friction: semi-vertex angle = φ
+F: Force to pull up an incline (force parallel to plane): P = W(sinα + μcosα);  to just prevent sliding down: P = W(sinα − μcosα)
+F: Least force to drag a body on a horizontal plane: P_min = W sinφ, applied at angle φ to the horizontal
+F: Ladder problems: ΣFx = 0, ΣFy = 0, ΣM about foot = 0
+F: Belt friction: T₁/T₂ = e^(μθ) (flat belt);  V-belt: T₁/T₂ = e^(μθ cosec β) (β = half groove angle)
+F: Screw jack: effort P = W tan(α + φ);  efficiency η = tanα/tan(α + φ);  max efficiency = (1 − sinφ)/(1 + sinφ);  self-locking if φ > α (η < 50%)
+- Laws of dry (Coulomb) friction: friction is proportional to normal reaction, independent of apparent contact area, independent of sliding speed (approximately), depends on the nature of surfaces; acts opposite to the direction of impending motion.
+- Wedge, screw and self-locking: a self-locking screw jack has efficiency less than 50%.
+PYQ-TREND: Angle of repose = angle of friction (very frequent); μ = tanφ; least pull on horizontal plane at angle φ; belt tension ratio e^(μθ); self-locking screw efficiency < 50%; laws of friction.
+WARN: Rolling friction is much less than sliding friction; kinetic friction is less than static friction – not equal to it.
+
+## 1.4 Trusses
+- Truss: framework of members joined at ends by pins, loaded at joints; members are two-force members carrying axial tension or compression.
+F: Perfect (just rigid) truss: m = 2j − 3;  deficient: m < 2j − 3;  redundant: m > 2j − 3  (m = members, j = joints)
+- Method of joints: equilibrium of each joint (ΣFx = ΣFy = 0) – start at a joint with only two unknowns. Method of sections: cut through not more than three members of unknown force and use ΣM = 0 – quick for a particular member.
+- Zero-force members: at a joint with two non-collinear members and no external load, both are zero; at a joint with three members, two collinear and no load, the third is zero.
+PYQ-TREND: m = 2j − 3 condition (very frequent); zero-force member rules; method of sections uses at most three unknown members.
+
+## 1.5 Centroid and Moment of Inertia
+| Shape | Centroid location |
+| Rectangle | At mid-height h/2 |
+| Triangle | h/3 from base (2h/3 from apex) |
+| Semicircle | 4r/(3π) from diameter |
+| Quarter circle | 4r/(3π) from each straight edge |
+| Hemisphere (solid) | 3r/8 from flat face |
+| Hollow hemisphere (shell) | r/2 from flat face |
+| Right circular cone (solid) | h/4 from base |
+| Semicircular arc (wire) | 2r/π from diameter |
+F: Parallel axis theorem: I = I_G + A h²;  perpendicular axis theorem (plane areas): I_z = I_x + I_y
+F: Radius of gyration k = √(I/A)
+| Section | I about centroidal axis |
+| Rectangle b × d (about axis parallel to b) | bd³/12 (about base: bd³/3) |
+| Square side a | a⁴/12 |
+| Circle diameter d | πd⁴/64 (polar πd⁴/32) |
+| Hollow circle | π(D⁴ − d⁴)/64 |
+| Triangle (base b, height h) | bh³/36 (about base: bh³/12) |
+| Semicircle (about diameter) | πd⁴/128 |
+| Semicircle (centroidal, parallel to diameter) | 0.11 r⁴ |
+| Mass MOI: solid sphere / hollow sphere | (2/5)MR² / (2/3)MR² |
+| Mass MOI: solid disc / ring | MR²/2 / MR² |
+| Mass MOI: rod about centre / about end | ML²/12 / ML²/3 |
+PYQ-TREND: Centroid of triangle h/3, semicircle 4r/3π, cone h/4, hemisphere 3r/8 (very frequent); I of rectangle bd³/12 and about base bd³/3; triangle bh³/36; parallel and perpendicular axis theorems; polar MOI of circle πd⁴/32.
+TIP: Square: same I = a⁴/12 about any centroidal axis in its plane (including the diagonal).
+
+## 1.6 Dynamics Essentials
+F: Equations of motion: v = u + at;  s = ut + ½at²;  v² = u² + 2as
+F: Projectile: range R = u² sin2θ/g (max at 45°: u²/g);  max height H = u² sin²θ/(2g);  time of flight T = 2u sinθ/g
+F: Work–energy: W = ΔKE;  impulse–momentum: F·t = mΔv
+F: Coefficient of restitution e = (v₂ − v₁)/(u₁ − u₂);  e = 1 perfectly elastic, e = 0 perfectly plastic
+F: Circular motion: centripetal acceleration v²/r = ω²r;  banking angle tanθ = v²/(rg)
+F: Simple pendulum T = 2π√(L/g);  spring–mass T = 2π√(m/k)
+- D'Alembert's principle: adding the inertia force (−ma) converts a dynamics problem into a static equilibrium problem.
+- Conservation of momentum holds in all collisions; kinetic energy is conserved only in perfectly elastic collisions.
+PYQ-TREND: Maximum range at 45°; coefficient of restitution limits; D'Alembert's principle; banking of roads; conservation of momentum vs energy.
+Q: State and prove Lami's theorem.
+Lami's theorem states that if three coplanar concurrent forces acting on a body keep it in equilibrium, each force is proportional to the sine of the angle between the other two. Let forces P, Q and R act at a point O in equilibrium, with α the angle between Q and R, β between R and P, and γ between P and Q. Since the forces are in equilibrium they can be represented by the sides of a triangle taken in order (triangle law). In this triangle the interior angles are (180° − α), (180° − β) and (180° − γ), opposite the sides representing P, Q and R respectively. Applying the sine rule: P/sin(180° − α) = Q/sin(180° − β) = R/sin(180° − γ). Since sin(180° − θ) = sinθ, P/sinα = Q/sinβ = R/sinγ. The theorem is used to find tensions in strings and reactions in problems of a body suspended by two strings or resting against smooth surfaces.

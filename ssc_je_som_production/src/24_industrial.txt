@@ -1,0 +1,118 @@
+# Industrial Engineering – Work Study, PPC, Inventory and Quality
+
+## 24.1 Productivity and Work Study
+F: Productivity = output/input;  labour productivity = output/man-hours
+- Work study = method study + work measurement. Its aim is to improve productivity by better methods and to set time standards.
+### Method study
+- Steps (SREDIM): Select – Record – Examine – Develop – Install – Maintain (Define and Evaluate are added in some texts).
+| Recording technique | Use |
+| Outline process chart | Only operations and inspections |
+| Flow process chart (man/material/equipment type) | All five activities with symbols |
+| Two-handed (operator) chart | Movements of left and right hands |
+| Multiple activity (man–machine) chart | Simultaneous activities on a common time scale – idle time |
+| SIMO chart | Simultaneous motion cycle chart from micromotion (therbligs) film analysis |
+| Flow diagram | Movement plotted on a layout plan |
+| String diagram | Thread on a scale layout – distance travelled for irregular movements |
+| Travel chart | Movements between departments (tabular) |
+| Cyclegraph / chronocyclegraph | Light on hand photographed – path / direction and speed |
+
+| Symbol (ASME) | Activity |
+| ○ (circle) | Operation |
+| ⇨ (arrow) | Transport |
+| □ (square) | Inspection |
+| D | Delay (temporary storage) |
+| ▽ (triangle) | Permanent storage |
+- Therbligs (Gilbreth): 17–18 elementary motions (search, select, grasp, transport empty, transport loaded, hold, release load, position, pre-position, inspect, assemble, disassemble, use, unavoidable delay, avoidable delay, plan, rest to overcome fatigue, find). Principles of motion economy relate to use of the human body, workplace arrangement and design of tools.
+- Critical examination questions: purpose, place, sequence, person, means (what, why, where, when, who, how) – leading to eliminate, combine, rearrange, simplify.
+PYQ-TREND: Work study = method study + work measurement (very frequent); flow process chart symbols; therbligs by Gilbreth; string diagram for distance; man–machine chart; SIMO chart uses micromotion study; SREDIM steps.
+
+### Work measurement
+F: Normal time = observed time × rating factor (%/100)
+F: Standard time = normal time + allowances = normal time × (1 + allowance fraction)
+F: Number of cycles for stop-watch study (95% confidence, ±5% accuracy): N = [40√(NΣx² − (Σx)²)/Σx]²
+F: Work sampling: number of observations N = 4p(1 − p)/L² (95% confidence, L = accuracy as a fraction)
+| Technique | Use |
+| Stop-watch time study (Taylor) | Repetitive short-cycle jobs; rating and allowances |
+| Work sampling (activity/ratio delay, Tippett) | Long or non-repetitive jobs, machine utilisation, based on random observations and probability |
+| Predetermined motion time systems (PMTS) – MTM, Work Factor, MOST | Standard times from basic motion data (MTM unit TMU = 0.00001 h = 0.036 s) |
+| Synthesis from standard data | Times built from element data |
+| Analytical estimating | Non-repetitive maintenance work |
+- Allowances: personal, fatigue, delay (contingency), special (policy). Rating systems: speed rating, Westinghouse (skill, effort, conditions, consistency), synthetic, objective rating. Normal performance = 100 (British Standard scale 0–100).
+- Ergonomics (human engineering): designing work to fit the worker – anthropometry, workplace layout, lighting, noise, climate.
+PYQ-TREND: Standard time = normal time + allowances (very frequent); normal time = observed × rating; work sampling for non-repetitive jobs (Tippett); MTM and TMU = 0.036 s; Westinghouse rating; work sampling sample size 4p(1 − p)/L².
+
+## 24.2 Plant Location and Layout
+| Layout | Features | Suitable for |
+| Product (line) layout | Machines arranged in sequence of operations | Mass production of standard products – low handling, low WIP, but inflexible; breakdown stops line |
+| Process (functional) layout | Similar machines grouped together | Job-shop/batch production, variety – flexible but more handling and WIP |
+| Fixed-position layout | Product stays, men and machines move to it | Ships, aircraft, locomotives, large turbines, construction |
+| Cellular (group technology) layout | Machine cells for part families | Medium variety and volume |
+| Combination (hybrid) | Mix | – |
+- Line balancing: assigning tasks to stations so that idle time is minimum. Cycle time C = available time/required output; minimum number of stations = Σt/C; balance efficiency (line efficiency) = Σt/(n × C) × 100; balance delay = 100 − efficiency. Methods: largest candidate rule, Kilbridge–Wester, ranked positional weight (Helgeson–Birnie).
+- Layout tools: travel chart, CRAFT, ALDEP, CORELAP (computerised layout).
+F: Line efficiency = Σtᵢ/(n × C);  smoothness index = √(Σ(C − tᵢ)²)
+- Plant location factors: raw materials, market, labour, power, water, transport, climate, government policies; methods – factor rating, break-even (locational cost–volume) analysis, centre of gravity method.
+PYQ-TREND: Product layout for mass production, process layout for job shop, fixed-position for ships/aircraft (very frequent); line balancing efficiency Σt/(nC); cycle time = available time/output; CRAFT.
+
+## 24.3 Production Planning and Control, Forecasting
+- PPC functions: planning (forecasting, routing, estimating, loading), scheduling (when), dispatching (issue of orders – release of work), expediting/follow-up (progress chasing), inspection, corrective action. Routing determines the path (sequence of operations); scheduling fixes the time; dispatching gives the go-ahead.
+- Production types: job (unit) production, batch production, mass (flow) production, continuous (process) production.
+| Forecasting method | Description |
+| Qualitative | Delphi method (panel of experts, anonymous rounds), market survey, executive opinion, sales-force composite |
+| Simple moving average | Average of last n periods |
+| Weighted moving average | Recent data given more weight |
+| Exponential smoothing | F_t+1 = F_t + α(D_t − F_t) (α = smoothing constant 0–1; larger α responds faster) |
+| Regression / least squares | Trend line y = a + bx |
+| Errors | MAD (mean absolute deviation), MSE, MAPE, tracking signal = running sum of forecast errors/MAD |
+- Scheduling rules for n jobs on one machine: SPT (shortest processing time) minimises mean flow time and average number of jobs in system; EDD (earliest due date) minimises maximum lateness; FCFS; critical ratio. Johnson's rule: n jobs on two machines (same order) minimises makespan – select smallest time; if on machine 1 schedule first, if on machine 2 schedule last.
+- Gantt chart: bar chart for scheduling and progress. Master production schedule (MPS), MRP (material requirements planning – uses BOM, MPS, inventory status; dependent demand), MRP-II, ERP, JIT (just-in-time – Toyota, kanban, zero inventory), lean manufacturing, Six Sigma (3.4 defects per million opportunities), TQM, Kaizen (continuous improvement), 5S (Sort, Set in order, Shine, Standardise, Sustain), Poka-yoke (mistake proofing), SMED.
+PYQ-TREND: Routing vs scheduling vs dispatching (very frequent); exponential smoothing formula; Delphi method; Johnson's rule for two machines; SPT minimises mean flow time; MRP uses BOM; JIT and kanban; Six Sigma 3.4 DPMO; 5S; Gantt chart.
+
+## 24.4 Inventory Control
+F: EOQ (Wilson/Harris): Q* = √(2DS/H)  (D = annual demand, S = ordering cost per order, H = holding cost per unit per year)
+F: At EOQ: annual ordering cost = annual holding cost;  total cost = √(2DSH);  number of orders = D/Q*;  cycle time = Q*/D
+F: Economic production (batch) quantity with production rate p and usage d: Q* = √(2DS/(H(1 − d/p)))
+F: Reorder point ROP = demand during lead time + safety stock = d × L + SS
+F: Safety stock = z σ_L (z for desired service level)
+F: Quantity discount: compare total cost at EOQ and at price-break quantities
+- ABC analysis (Pareto, always-better control): A items ≈ 10–20% of items, 70–80% of annual value – tight control; B ≈ 30% items, 15–25% value; C ≈ 50–60% items, 5–10% value – loose control. VED (vital, essential, desirable – spares), FSN (fast, slow, non-moving), XYZ (value of stock), HML (unit price), SDE (availability).
+- Inventory systems: fixed-order-quantity (Q system, continuous review, reorder point) and fixed-period (P system, periodic review); two-bin system (C items).
+- Doubling demand increases EOQ by √2 (≈ 41%).
+PYQ-TREND: EOQ formula and ordering cost = holding cost at EOQ (very frequent); ABC analysis based on annual consumption value; VED for spare parts; reorder point; safety stock; EBQ with production rate; EOQ ∝ √D.
+TIP: If both ordering cost and demand double, EOQ doubles (√4); if holding cost doubles, EOQ falls to 1/√2.
+
+## 24.5 Quality Control and Reliability
+| Control chart | Type of data | Use |
+| X̄ chart (mean) | Variables | Central tendency of process |
+| R chart (range) / s chart | Variables | Dispersion/variability |
+| p chart | Attributes – fraction defective | Variable sample size possible |
+| np chart | Attributes – number defective | Constant sample size |
+| c chart | Attributes – number of defects per unit (Poisson) | Defects on a unit – castings, cloth, painted surface |
+| u chart | Defects per unit, variable unit size | – |
+F: X̄ chart limits: X̿ ± A₂ R̄;  R chart: UCL = D₄ R̄, LCL = D₃ R̄;  control limits normally ±3σ (99.73% of points within)
+F: p chart: p̄ ± 3√(p̄(1 − p̄)/n);  c chart: c̄ ± 3√c̄
+F: Process capability: C_p = (USL − LSL)/(6σ);  C_pk = min[(USL − μ)/3σ, (μ − LSL)/3σ];  C_p ≥ 1.33 usually required
+- Chance (common, random) causes vs assignable (special) causes of variation; a process is in statistical control when only chance causes act. Run of seven points on one side of the centre line or trends signal assignable causes.
+- Acceptance sampling: single, double, multiple, sequential sampling plans; operating characteristic (OC) curve shows probability of acceptance vs lot quality; AQL (acceptable quality level), LTPD (lot tolerance percent defective), producer's risk α (good lot rejected, type I error ≈ 5%), consumer's risk β (bad lot accepted, type II error ≈ 10%); AOQ and AOQL (average outgoing quality limit).
+- Reliability: R(t) = e^(−λt) for constant failure rate; MTBF = 1/λ; series system R = R₁R₂…; parallel system R = 1 − (1 − R₁)(1 − R₂)…; bath-tub curve – infant mortality (decreasing failure rate), useful life (constant, random failures), wear-out (increasing). Availability = MTBF/(MTBF + MTTR).
+- Quality gurus: Deming (PDCA cycle, 14 points), Juran (quality trilogy, fitness for use), Crosby (zero defects, cost of quality), Ishikawa (fishbone/cause-and-effect diagram, quality circles), Taguchi (loss function, robust design), Shewhart (control charts). Seven QC tools: check sheet, histogram, Pareto chart, cause-and-effect diagram, scatter diagram, control chart, stratification/flow chart. ISO 9001 – quality management systems.
+PYQ-TREND: X̄ and R charts for variables, p and c charts for attributes (very frequent); c chart for defects per unit (Poisson); ±3σ limits; producer's risk vs consumer's risk; OC curve; C_p formula; bath-tub curve; series vs parallel reliability; Ishikawa diagram; Deming PDCA; Pareto principle.
+
+## 24.6 Project Management (PERT/CPM) and Operations Research Basics
+| Feature | CPM | PERT |
+| Nature | Deterministic (one time estimate) | Probabilistic (three time estimates) |
+| Orientation | Activity-oriented | Event-oriented |
+| Use | Repetitive construction/maintenance projects – time–cost trade-off (crashing) | Research and development, new projects with uncertain times |
+| Distribution | – | Beta distribution for activity time; normal for project time |
+F: PERT expected time t_e = (t_o + 4t_m + t_p)/6;  variance σ² = ((t_p − t_o)/6)²
+F: Project duration variance = sum of variances of critical activities;  Z = (T_s − T_e)/σ_project
+F: Total float = LS − ES = LF − EF;  free float = ES of successor − EF of activity;  independent float = ES(succ) − LF(pred) − duration
+F: Critical path: longest path through the network; activities with zero total float
+F: Crash cost slope = (crash cost − normal cost)/(normal time − crash time)
+- Network rules: dummy activities (zero time, dashed) show dependency or avoid duplicate numbering; no loops; one start and one end event (Fulkerson's rule for numbering).
+- Operations research: linear programming (graphical and simplex methods; feasible region; slack/surplus/artificial variables; duality), transportation problem (NWCR, least-cost, Vogel's approximation for initial solution; MODI/stepping-stone for optimality; m + n − 1 allocations for non-degenerate solution), assignment problem (Hungarian method), queuing (M/M/1: utilisation ρ = λ/μ, L_q = ρ²/(1 − ρ), L_s = ρ/(1 − ρ), W_s = 1/(μ − λ)), sequencing, simulation (Monte Carlo), game theory (saddle point), break-even analysis (BEP = fixed cost/(price − variable cost per unit)).
+F: Break-even quantity Q_BE = F/(p − v);  margin of safety = (actual sales − BEP sales)/actual sales
+F: M/M/1 queue: L_s = λ/(μ − λ);  W_q = λ/(μ(μ − λ))
+PYQ-TREND: PERT three time estimates and beta distribution, CPM deterministic (very frequent); t_e = (t_o + 4t_m + t_p)/6; critical path has zero float; crashing in CPM; Vogel's approximation; Hungarian method for assignment; m + n − 1 allocations; break-even point; M/M/1 formulas; dummy activity.
+Q: Explain ABC analysis in inventory control.
+ABC analysis classifies inventory items according to their annual consumption value (annual usage × unit cost), applying the Pareto principle that a small proportion of items accounts for most of the money spent. All items are listed in descending order of annual consumption value and cumulative percentages of items and value are calculated. Class A items are typically 10–20% of the number of items but account for 70–80% of the total consumption value; class B items are about 30% of items and 15–25% of value; class C items are about 50–60% of items but only 5–10% of value. Different degrees of control are then applied: A items receive strict control – accurate records, frequent review, small and frequent orders, low safety stocks, attention of senior staff and close follow-up with suppliers; B items receive moderate control with periodic review; C items receive simple control – bulk ordering, larger safety stocks and methods like the two-bin system. ABC analysis concentrates management effort where it gives the greatest saving, reduces capital locked in inventory and clerical work. Its limitation is that it considers only value, not criticality – so it is often combined with VED analysis for spare parts.

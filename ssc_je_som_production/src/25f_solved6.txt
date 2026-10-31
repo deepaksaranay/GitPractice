@@ -1,0 +1,96 @@
+# Solved Numericals – Set 6 (Advanced Production and Industrial Engineering)
+Longer production problems combining two or three concepts (no options).
+
+## 25F.1 Casting and Welding
+### Problem 1 – Riser size by Chvorinov
+A casting 200 × 100 × 50 mm needs a cylindrical riser with H = D whose solidification time is 1.25 times that of the casting. Find D.
+F: Casting: V = 10⁶ mm³, A = 2(200 × 100 + 200 × 50 + 100 × 50) = 70,000 mm² → M_c = 14.29 mm
+F: Riser (H = D): V/A = (πD³/4)/(1.5πD²) = D/6;  t ∝ M² → M_r = √1.25 × 14.29 = 15.97 mm → D = 95.8 mm
+### Problem 2 – Pouring time with bottom gating
+A mould 300 mm high is filled through a bottom gate of area 400 mm² from a sprue with 300 mm effective head; mould plan area 40,000 mm². Find the filling time.
+F: t = (A_m/A_g) × (2/√(2g)) × (√H − √(H − h)) = (40,000/400) × (2/√19,620) × (√300 − 0)
+F: = 100 × 0.01428 × 17.32 = 24.7 s
+### Problem 3 – Weld bead and electrode consumption
+A butt weld 1 m long has a cross-section of 60 mm². Find the mass of weld metal (steel density 7.85 g/cm³) and the electrode needed if deposition efficiency is 65%.
+F: Volume = 60 × 1000 = 60,000 mm³ = 60 cm³ → mass = 471 g;  electrode = 471/0.65 = 725 g
+### Problem 4 – Melting efficiency
+An arc of 30 V, 250 A with heat transfer efficiency 0.8 welds at 6 mm/s, depositing 50 mm³ of metal per second requiring 10 J/mm³ to melt. Find melting efficiency.
+F: Heat to work = 0.8 × 30 × 250 = 6000 W;  heat used for melting = 50 × 10 = 500 W → η_melt = 8.3%
+
+## 25F.2 Forming and Press Work
+### Problem 5 – Rolling load
+A strip 300 mm wide is rolled from 25 mm to 20 mm with rolls of 250 mm radius; mean flow stress 200 MPa. Estimate the roll force (no friction correction) and torque per roll.
+F: L = √(RΔh) = √(250 × 5) = 35.4 mm;  F = σ̄ w L = 200 × 300 × 35.4 = 2.12 MN
+F: Torque per roll ≈ F × L/2 = 2.12 × 10⁶ × 0.0177 = 37.5 kN·m
+### Problem 6 – Number of passes
+A 40 mm slab is to be reduced to 25 mm with μ = 0.12 and R = 300 mm. Find the minimum number of passes.
+F: Δh_max = μ²R = 0.0144 × 300 = 4.32 mm → passes ≥ 15/4.32 = 3.5 → 4 passes
+### Problem 7 – Blanking with shear on punch
+A 100 mm blank is cut from 4 mm sheet (τ = 400 MPa); penetration at fracture 40%; shear on punch 2 mm. Find the maximum force without and with shear.
+F: F = π × 100 × 4 × 400 = 502.7 kN;  with shear: F' = F × (p t)/S = 502.7 × (0.4 × 4)/2 = 402 kN
+### Problem 8 – Work done in blanking
+For Problem 7 (no shear), estimate the work done per stroke.
+F: W = F × p t = 502.7 × 10³ × 0.4 × 4 × 10⁻³ = 804 J
+### Problem 9 – Bend allowance
+A 3 mm sheet is bent through 90° with inside radius 6 mm (k = 0.5). Find the bend allowance.
+F: BA = α(R + kt) = (π/2)(6 + 1.5) = 11.8 mm
+### Problem 10 – Forging load (open die)
+A cylinder 100 mm diameter and 50 mm high is upset to 25 mm height (flow stress at the end 300 MPa, μ = 0.2). Estimate the final forging load.
+F: Final d = 100√2 = 141.4 mm (volume constant), r = 70.7 mm, h = 25 mm
+F: F = σ_f πr²(1 + 2μr/(3h)) = 300 × 15,708 × (1 + 2 × 0.2 × 70.7/75) = 4.71 MN × 1.377 = 6.49 MN
+
+## 25F.3 Machining Economics
+### Problem 11 – Optimum tool life for minimum cost
+Taylor: VT^0.25 = 250. Machine + labour cost ₹2/min, tool cost per edge ₹40, tool change time 4 min. Find the tool life and speed for minimum cost.
+F: T_opt = (1/n − 1)(C_t/C_m + t_c) = 3 × (40/2 + 4) = 72 min
+F: V_opt = 250/72^0.25 = 250/2.913 = 85.8 m/min
+### Problem 12 – Tool life for maximum production
+For Problem 11, find the tool life and speed for maximum production rate.
+F: T = (1/n − 1) t_c = 3 × 4 = 12 min;  V = 250/12^0.25 = 250/1.861 = 134.3 m/min
+### Problem 13 – Cutting power and specific energy
+In turning, F_c = 1500 N at V = 120 m/min with feed 0.25 mm/rev and depth 3 mm. Find power and specific cutting energy.
+F: P = 1500 × 2 = 3 kW;  MRR = 120,000 × 0.25 × 3/60 = 1500 mm³/s
+F: u = 3000/1500 = 2 J/mm³
+### Problem 14 – Shaper quick return
+In a crank and slotted lever mechanism, the crank rotates 220° during cutting and 140° during return. Find the quick return ratio.
+F: Ratio = 220/140 = 1.57
+### Problem 15 – Taper turning by tailstock set-over
+A job 300 mm long has a 150 mm long taper from 50 mm to 40 mm diameter. Find the set-over.
+F: S = (D − d)L/(2l) = 10 × 300/(2 × 150) = 10 mm
+### Problem 16 – Change gears for thread cutting
+Lead screw pitch 6 mm; required pitch 1.5 mm. Find the gear ratio.
+F: Driver/driven = 1.5/6 = 1/4 → e.g. 20 T driver and 80 T driven
+
+## 25F.4 Industrial Engineering
+### Problem 17 – EBQ
+Annual demand 24,000; production rate 48,000 per year; set-up cost ₹500; holding cost ₹4/unit/year. Find the economic batch quantity.
+F: Q = √(2DS/(H(1 − d/p))) = √(2 × 24,000 × 500/(4 × 0.5)) = √12,000,000 = 3464 units
+### Problem 18 – Quantity discount decision
+D = 10,000 units/year, S = ₹100, H = 20% of price. Price ₹10 for Q < 1000, ₹9.5 for Q ≥ 1000. Find the best order quantity.
+F: At ₹10: EOQ = √(2 × 10,000 × 100/2) = 1000 → not valid (falls in discount range); at ₹9.5: EOQ = √(2 × 10⁶/1.9) = 1026 (valid)
+F: Total cost at Q = 1026: 95,000 + 10,000 × 100/1026 + 1026 × 1.9/2 = 95,000 + 975 + 975 = ₹96,950 → order 1026 units
+### Problem 19 – Halsey and Rowan bonus
+Time allowed 10 h, time taken 8 h, rate ₹50/h. Find earnings under Halsey (50%) and Rowan plans.
+F: Halsey: 8 × 50 + 0.5 × 2 × 50 = 400 + 50 = ₹450
+F: Rowan: 400 + (2/10) × 8 × 50 = 400 + 80 = ₹480
+### Problem 20 – Depreciation
+A machine costs ₹1,00,000, salvage ₹10,000 after 9 years. Find annual straight-line depreciation.
+F: D = (1,00,000 − 10,000)/9 = ₹10,000 per year
+### Problem 21 – OEE
+Availability 90%, performance 95%, quality 98%. Find OEE.
+F: OEE = 0.90 × 0.95 × 0.98 = 83.8%
+### Problem 22 – CPM floats
+Activity duration 5 days; ES = 4, LF = 15. Find total float. Successor ES = 10; find free float.
+F: EF = 9;  LS = 10;  total float = 10 − 4 = 6 days;  free float = 10 − 9 = 1 day
+### Problem 23 – Crashing cost slope
+Normal: 10 days, ₹5000; crash: 7 days, ₹6500. Find the cost slope.
+F: Slope = (6500 − 5000)/(10 − 7) = ₹500 per day
+### Problem 24 – p chart limits
+Average fraction defective 0.04 with sample size 100. Find control limits.
+F: σ = √(0.04 × 0.96/100) = 0.0196;  UCL = 0.04 + 0.0588 = 0.0988;  LCL = 0.04 − 0.0588 < 0 → 0
+### Problem 25 – c chart limits
+Average 9 defects per casting. Find control limits.
+F: UCL = 9 + 3 × 3 = 18;  LCL = 9 − 9 = 0
+### Problem 26 – Reliability with exponential law
+A component has constant failure rate 0.0002 per hour. Find reliability for 1000 h and MTBF.
+F: R = e^(−0.2) = 0.819;  MTBF = 1/λ = 5000 h

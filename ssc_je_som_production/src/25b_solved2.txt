@@ -1,0 +1,89 @@
+# Solved Numericals – Set 2 (SFD/BMD, Bending, Shear, Deflection, Torsion, Springs)
+SSC-style problems solved step by step (no options).
+
+## 25B.1 Shear Force and Bending Moment
+### Problem 1 – SSB with UDL
+A simply supported beam of 6 m span carries 10 kN/m over the whole span. Find reactions and maximum BM.
+F: R_A = R_B = 30 kN;  M_max = wL²/8 = 10 × 36/8 = 45 kN·m at mid-span
+### Problem 2 – SSB with eccentric point load
+A 6 m SSB carries 30 kN at 2 m from A. Find reactions and maximum BM.
+F: R_A = 30 × 4/6 = 20 kN;  R_B = 10 kN;  M_max = Wab/L = 30 × 2 × 4/6 = 40 kN·m under the load
+### Problem 3 – Cantilever with UDL and end load
+A 3 m cantilever carries 5 kN/m over its length and 10 kN at the free end. Find SF and BM at the fixed end.
+F: SF = 5 × 3 + 10 = 25 kN;  BM = 5 × 3²/2 + 10 × 3 = 22.5 + 30 = 52.5 kN·m (hogging)
+### Problem 4 – UDL on part of the span
+An 8 m SSB carries 4 kN/m over the left 4 m. Find the maximum BM and its location.
+F: Load = 16 kN at 2 m from A → R_A = 16 × 6/8 = 12 kN, R_B = 4 kN
+F: SF = 12 − 4x = 0 → x = 3 m;  M_max = 12 × 3 − 4 × 3²/2 = 36 − 18 = 18 kN·m
+### Problem 5 – Overhanging beam
+A beam is supported at A and B (6 m apart) and overhangs 2 m beyond B, carrying 10 kN at the free end. Find reactions and BM at B.
+F: ΣM_A = 0: R_B × 6 = 10 × 8 → R_B = 13.33 kN;  R_A = 10 − 13.33 = −3.33 kN (downward – A must be held down)
+F: M_B = −10 × 2 = −20 kN·m (hogging); BM varies linearly from 0 at A to −20 at B
+### Problem 6 – Fixed beam and propped cantilever
+(a) A fixed beam 6 m long carries 12 kN/m. Find end and centre moments. (b) A propped cantilever 5 m long carries 8 kN/m. Find the prop reaction.
+F: (a) M_end = wL²/12 = 36 kN·m (hogging);  M_centre = wL²/24 = 18 kN·m (sagging)
+F: (b) R_prop = 3wL/8 = 3 × 8 × 5/8 = 15 kN;  fixed-end reaction = 25 kN
+
+## 25B.2 Bending and Shear Stresses
+### Problem 7 – Bending stress in a rectangular beam
+A beam 100 mm wide and 200 mm deep carries M = 20 kN·m. Find the maximum bending stress.
+F: Z = bd²/6 = 100 × 200²/6 = 6.667 × 10⁵ mm³;  σ = M/Z = 2 × 10⁷/6.667 × 10⁵ = 30 MPa
+### Problem 8 – Moment of resistance of a circular section
+Find the moment of resistance of a 100 mm diameter beam with σ = 120 MPa.
+F: M = σ πd³/32 = 120 × 98,175 = 11.78 × 10⁶ N·mm = 11.78 kN·m
+### Problem 9 – Radius of curvature
+For the beam of Problem 7 (E = 200 GPa), find the radius of curvature.
+F: I = bd³/12 = 6.667 × 10⁷ mm⁴;  R = EI/M = 2 × 10⁵ × 6.667 × 10⁷/2 × 10⁷ = 6.67 × 10⁵ mm = 667 m
+### Problem 10 – Shear stress in a rectangular section
+The beam of Problem 7 carries a shear force of 40 kN. Find average and maximum shear stress.
+F: τ_avg = 40,000/(100 × 200) = 2 MPa;  τ_max = 1.5 × 2 = 3 MPa at the neutral axis
+### Problem 11 – Shear stress in a circular section
+A 100 mm diameter beam carries a shear force of 50 kN. Find maximum shear stress.
+F: τ_avg = 50,000/7854 = 6.37 MPa;  τ_max = (4/3) × 6.37 = 8.49 MPa
+### Problem 12 – Strongest beam from a log
+Find the dimensions of the strongest rectangular beam that can be cut from a log of 300 mm diameter.
+F: b = D/√3 = 173.2 mm;  d = √(2/3) D = 244.9 mm (d/b = √2)
+### Problem 13 – Eccentric load on a short column
+A 300 mm × 200 mm column carries 600 kN at 40 mm eccentricity along the 300 mm side. Find extreme stresses.
+F: σ = (P/A)(1 ± 6e/d) = (600,000/60,000)(1 ± 6 × 40/300) = 10 × (1 ± 0.8) = 18 MPa and 2 MPa (both compressive; e < d/6 = 50 mm)
+
+## 25B.3 Deflection
+### Problem 14 – Cantilever end load
+A cantilever 2 m long (EI = 1.6 × 10¹² N·mm²) carries 10 kN at the free end. Find the deflection and slope at the free end.
+F: δ = WL³/(3EI) = 10⁴ × 8 × 10⁹/(4.8 × 10¹²) = 16.7 mm;  θ = WL²/(2EI) = 10⁴ × 4 × 10⁶/(3.2 × 10¹²) = 0.0125 rad
+### Problem 15 – SSB with UDL
+A 4 m SSB (EI = 1.6 × 10¹² N·mm²) carries 10 kN/m. Find the central deflection.
+F: δ = 5wL⁴/(384EI) = 5 × 10 × 4000⁴/(384 × 1.6 × 10¹²) = 1.28 × 10¹⁶/6.144 × 10¹⁴ = 20.8 mm
+### Problem 16 – SSB with central load (same total load)
+The same beam carries the total load 40 kN at the centre instead. Find the deflection and compare.
+F: δ = WL³/(48EI) = 4 × 10⁴ × 6.4 × 10¹⁰/(7.68 × 10¹³) = 33.3 mm;  ratio = 20.8/33.3 = 0.625 = 5/8
+### Problem 17 – Effect of depth on deflection
+How does the deflection change if the depth of a rectangular beam is doubled, other things remaining same?
+F: I ∝ d³ → I becomes 8 times → deflection becomes 1/8; bending stress becomes 1/4 (Z ∝ d²)
+### Problem 18 – Fixed vs simply supported
+Compare central deflections of fixed and SSB under UDL.
+F: Fixed: wL⁴/(384EI);  SSB: 5wL⁴/(384EI) → fixed beam deflects 1/5 as much
+
+## 25B.4 Torsion and Springs
+### Problem 19 – Shaft diameter for power
+A solid shaft transmits 100 kW at 300 rpm; allowable shear stress 60 MPa. Find the diameter.
+F: T = 60P/(2πN) = 60 × 10⁵/(2π × 300) = 3183 N·m
+F: d³ = 16T/(πτ) = 16 × 3.183 × 10⁶/(π × 60) = 2.70 × 10⁵ → d = 64.6 mm, say 65 mm
+### Problem 20 – Angle of twist
+For the 65 mm shaft of Problem 19 (L = 2 m, G = 80 GPa) find the angle of twist.
+F: J = π × 65⁴/32 = 1.752 × 10⁶ mm⁴;  θ = TL/(GJ) = 3.183 × 10⁶ × 2000/(8 × 10⁴ × 1.752 × 10⁶) = 0.0454 rad = 2.6°
+### Problem 21 – Hollow vs solid of equal weight
+Compare the strength of a hollow shaft (d = D/2) with a solid shaft of 100 mm diameter having the same cross-sectional area.
+F: Area: 0.75 D² = 100² → D = 115.5 mm, d = 57.7 mm
+F: Strength ratio = [(D⁴ − d⁴)/D]/d_s³ = 0.9375 × 115.5³/10⁶ = 1.44 → hollow is 44% stronger
+### Problem 22 – Close-coiled helical spring
+A spring has d = 10 mm, D = 80 mm, n = 10 active turns, G = 80 GPa, load 500 N. Find deflection, stiffness and shear stress (with Wahl factor).
+F: δ = 8WD³n/(Gd⁴) = 8 × 500 × 512,000 × 10/(8 × 10⁴ × 10⁴) = 25.6 mm;  k = 500/25.6 = 19.5 N/mm
+F: τ = 8WD/(πd³) = 8 × 500 × 80/(π × 1000) = 101.9 MPa;  C = 8 → K = (31/28) + 0.615/8 = 1.184 → τ = 120.6 MPa
+### Problem 23 – Springs in series and parallel
+Two springs of stiffness 20 and 30 N/mm are combined. Find the equivalent stiffness in series and in parallel.
+F: Series: k = 20 × 30/50 = 12 N/mm;  parallel: k = 50 N/mm
+### Problem 24 – Leaf spring
+A semi-elliptic leaf spring (span 1 m, 8 leaves, 60 mm wide, 8 mm thick) carries 5 kN at the centre. Find the maximum stress and deflection.
+F: σ = 3WL/(2nbt²) = 3 × 5000 × 1000/(2 × 8 × 60 × 64) = 244 MPa
+F: δ = 3WL³/(8Enbt³) = 3 × 5000 × 10⁹/(8 × 2 × 10⁵ × 8 × 60 × 512) = 38.1 mm

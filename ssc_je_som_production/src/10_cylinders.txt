@@ -1,0 +1,34 @@
+# Thin and Thick Cylinders and Spheres
+
+## 10.1 Thin Cylinders (t < d/20)
+- In a thin shell the hoop (circumferential) stress is assumed uniform across the thickness; radial stress is neglected. Failure may occur along a longitudinal joint (by hoop stress) or a circumferential joint (by longitudinal stress).
+F: Hoop (circumferential) stress σ_c = pd/(2t)
+F: Longitudinal stress σ_l = pd/(4t) = σ_c/2
+F: Maximum in-plane shear τ = (σ_c − σ_l)/2 = pd/(8t);  absolute maximum shear (including radial ≈ 0) = σ_c/2 = pd/(4t)
+F: With joint efficiencies: σ_c = pd/(2tη_l) (longitudinal joint);  σ_l = pd/(4tη_c) (circumferential joint)
+F: Hoop strain e_c = (σ_c − μσ_l)/E = (pd/(4tE))(2 − μ);  longitudinal strain e_l = (pd/(4tE))(1 − 2μ)
+F: Volumetric strain e_v = 2e_c + e_l = (pd/(4tE))(5 − 4μ);  change in volume δV = e_v V
+F: Wire-wound cylinders: initial wire tension puts the cylinder in compression, increasing its pressure capacity
+- Since σ_c = 2σ_l, longitudinal (seam) joints must be stronger; thickness is designed from hoop stress. Hoop stress is the larger, so a pipe bursting under pressure splits lengthwise.
+- Ratio of hoop to longitudinal strain (μ = 0.3): (2 − μ)/(1 − 2μ) = 1.7/0.4 = 4.25.
+PYQ-TREND: σ_c = pd/2t and σ_l = pd/4t (very frequent); hoop stress twice longitudinal; volumetric strain (pd/4tE)(5 − 4μ); thin cylinder bursts along longitudinal seam; joint efficiencies.
+WARN: Hoop stress uses the longitudinal joint efficiency and longitudinal stress uses the circumferential joint efficiency – students often swap them.
+
+## 10.2 Thin Spheres
+F: Stress (all directions in the wall) σ = pd/(4t)
+F: Strain e = (pd/(4tE))(1 − μ);  volumetric strain e_v = 3e = (3pd/(4tE))(1 − μ)
+- For the same diameter, pressure and allowable stress, a sphere needs half the thickness of a cylinder – spheres are used for large gas holders and LPG storage (Horton spheres).
+PYQ-TREND: Thin sphere stress pd/4t (same as longitudinal stress of cylinder); volumetric strain 3pd(1 − μ)/4tE; sphere needs half the thickness.
+
+## 10.3 Thick Cylinders (Lamé's Theory)
+- When t > d/20, hoop stress varies across the thickness and radial stress is significant.
+F: Lamé's equations: σ_r = a/r² − b (compressive radial stress, taken positive);  σ_c = a/r² + b (hoop tensile)
+F: Internal pressure p only (radii r₁ inner, r₂ outer): σ_c,max (at inner surface) = p(r₂² + r₁²)/(r₂² − r₁²)
+F: Hoop stress at outer surface = 2p r₁²/(r₂² − r₁²);  σ_r = p at inner surface, 0 at outer surface
+F: Maximum shear stress (inner surface) = p r₂²/(r₂² − r₁²)
+- Hoop stress is maximum at the inner surface and decreases towards the outside (hyperbolic distribution); increasing thickness gives diminishing returns – the maximum hoop stress cannot fall below p no matter how thick the wall.
+- Compound cylinders: a jacket shrunk onto an inner tube creates initial compressive hoop stress in the inner tube, making the stress distribution more uniform under working pressure (gun barrels, high-pressure vessels). Autofrettage achieves a similar effect by over-pressurising to cause partial yielding.
+- Thick spheres: σ_r = 2a/r³ − b form (Lamé for spheres).
+PYQ-TREND: Lamé's theory for thick cylinders; maximum hoop stress at inner surface (very frequent); compound cylinders by shrink fit; autofrettage; thick cylinder criterion t > d/20.
+Q: Derive the expressions for hoop and longitudinal stresses in a thin cylinder.
+Consider a thin cylinder of internal diameter d, length L and wall thickness t subjected to internal pressure p. Hoop stress: imagine the cylinder cut along a diametral plane. The bursting force acting on one half is p multiplied by the projected area, p × d × L. This is resisted by the hoop stress σ_c acting on the two cut walls of area 2tL. Equilibrium gives σ_c × 2tL = p d L, so σ_c = pd/(2t). Longitudinal stress: imagine the cylinder cut by a plane perpendicular to its axis. The force tending to separate the two parts is p × πd²/4, resisted by the longitudinal stress σ_l on the wall area πdt (approximately). Hence σ_l × πdt = p πd²/4, giving σ_l = pd/(4t). Thus the hoop stress is twice the longitudinal stress, so a thin cylinder tends to fail along a longitudinal line, and the thickness is determined by hoop stress: t = pd/(2σ_allow η_l). Radial stress, varying from p at the inner surface to zero at the outer surface, is small compared with these and is neglected.

@@ -1,0 +1,50 @@
+# Presses, Press Tools and High-Energy-Rate Forming
+
+## 17B.1 Presses
+| Classification | Types / remarks |
+| Source of power | Manual (fly press), mechanical (crank, eccentric, toggle, knuckle joint, screw/friction), hydraulic (slow, full force throughout stroke – deep drawing, large forging), pneumatic, servo-electric |
+| Frame | C-frame / gap-frame (open on three sides, easy access; deflects under load), straight-side (high rigidity), open-back inclinable (OBI – scrap falls behind), arch, horn |
+| Number of slides | Single action (one slide), double action (blank holder + punch – deep drawing), triple action |
+| Drive | Flywheel-driven crank presses (fast, force maximum near bottom of stroke); toggle and knuckle-joint presses (very high force near the bottom – coining, embossing) |
+- Press specification: capacity (tonnage at specified distance above bottom dead centre), stroke length, strokes per minute, shut height (distance between bed and slide at bottom of stroke with stroke down and adjustment up), bed size, throat depth.
+- Mechanical crank presses are faster and suited to blanking and piercing; hydraulic presses give controllable speed and full force over the whole stroke, suited to deep drawing and forming.
+F: Flywheel energy released: E = ½I(ω₁² − ω₂²) = I ω² C_s (energy for one stroke = F × t × penetration)
+PYQ-TREND: Hydraulic press for deep drawing (full force over stroke); knuckle-joint press for coining; shut height definition; C-frame vs straight-side presses; double-action press for deep drawing.
+
+## 17B.2 Die Elements and Die Types
+| Element | Function |
+| Punch and die | Cutting/forming members (tool steel, carbide) |
+| Stripper | Strips the sheet off the punch on the return stroke (fixed or spring-loaded) |
+| Stock guide and stop | Locate and position the strip |
+| Pilots | Locate the strip precisely in progressive dies using pierced holes |
+| Die set (punch holder, die shoe, guide posts and bushes) | Maintains alignment |
+| Knock-out / ejector | Removes the blank from the die |
+| Blank holder (pressure pad) | Controls metal flow and prevents wrinkling in drawing |
+| Die type | Description |
+| Simple die | One operation per stroke |
+| Progressive (follow-on) die | Several operations at successive stations as the strip advances; part completed at the last station each stroke; pilots for accuracy; high production |
+| Compound die | Two or more cutting operations at one station in one stroke (e.g. blanking + piercing of a washer) – high accuracy and flatness |
+| Combination die | Cutting and non-cutting (e.g. blanking + drawing) at one station in one stroke |
+| Transfer die | Separate stations; part transferred mechanically between them |
+| Inverted die | Die on the ram and punch on the bed |
+- Strip layout: arrange blanks to minimise scrap; scrap bridge ≈ 1–1.5 t; material utilisation = blank area × number/strip area.
+- Centre of pressure: the point where the resultant cutting force acts; the press ram axis should pass through it to avoid tilting (found like a centroid of cut perimeters).
+F: Strip utilisation η = (area of blanks)/(area of strip consumed) × 100
+PYQ-TREND: Progressive vs compound vs combination dies (very frequent); stripper function; pilots in progressive dies; centre of pressure; compound die for washers; strip layout to reduce scrap.
+
+## 17B.3 High-Energy-Rate Forming (HERF) and Other Processes
+| Process | Principle | Uses |
+| Explosive forming | Shock wave from explosive (in water) forces sheet into die – standoff or contact method | Large parts in small quantities – dish ends, aerospace panels |
+| Electrohydraulic forming | Spark discharge between electrodes in water creates shock wave | Small parts, tubes |
+| Electromagnetic (magnetic pulse) forming | Capacitor discharge through coil induces eddy currents in conductive workpiece; repulsive magnetic force deforms it | Crimping, swaging of tubes onto fittings, joining (Al, Cu) |
+| Rubber-pad (Guerin) forming | Rubber pad acts as female die | Shallow aircraft parts, low tooling cost |
+| Hydroforming (sheet and tube) | High-pressure fluid forms sheet/tube into die | Automobile frames, exhaust parts, bicycle frames |
+| Stretch forming | Sheet gripped and stretched over form block | Aircraft skins, curved panels |
+| Spinning and flow forming | Rotating blank pressed over mandrel | Utensils, reflectors, rocket nose cones |
+| Roll forming (cold roll forming) | Strip passed through successive roll stands | Long profiles – channels, gutters, door frames |
+| Incremental sheet forming | CNC tool locally deforms sheet | Prototypes |
+| Superplastic forming | Fine-grained alloys at elevated temperature elongate > 200% | Complex aerospace parts (Ti, Al alloys) |
+- Advantages of HERF: very high deformation velocities (up to ≈ 300 m/s), forming of difficult or large parts with low-cost single dies, reduced springback; limitations: safety, skilled handling, low production rates.
+PYQ-TREND: Explosive forming for large parts; electromagnetic forming for conductive tubes (crimping); hydroforming for auto frames; roll forming for long profiles; superplastic forming; Guerin process uses rubber pad.
+Q: Distinguish between progressive, compound and combination dies.
+A progressive die has a series of stations arranged along the strip; at each stroke of the press the strip advances by one pitch and a different operation – piercing, notching, bending, blanking – is performed at each station simultaneously, so a finished part is produced every stroke after the first few. Pilots entering pre-pierced holes register the strip accurately. It suits high-volume production of small parts, but accumulated pitch errors can affect accuracy and the die is long and costly. A compound die performs two or more cutting operations, such as blanking the outer profile and piercing the holes of a washer, at a single station in one stroke; because all features are cut simultaneously, concentricity and flatness are excellent, but the die is complex and the part must be ejected from within the die. A combination die also works at a single station in one stroke but combines a cutting operation with a non-cutting operation, typically blanking followed immediately by drawing or bending (e.g. a shallow cup). In short, progressive dies spread operations over several stations; compound dies combine cutting operations at one station; combination dies combine cutting and forming at one station.

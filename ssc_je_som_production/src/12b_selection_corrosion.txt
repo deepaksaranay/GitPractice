@@ -1,0 +1,57 @@
+# Material Selection, Corrosion and Strengthening Mechanisms
+
+## 12B.1 Strengthening Mechanisms
+| Mechanism | How it works | Example |
+| Strain (work) hardening | Cold working multiplies dislocations that hinder each other | Cold-drawn wire, cold-rolled sheet |
+| Grain refinement | Grain boundaries block dislocation motion (Hall–Petch) | Normalising, controlled rolling, microalloying with Nb/V/Ti |
+| Solid-solution strengthening | Solute atoms distort the lattice | Brass (Zn in Cu), Mn and Si in ferrite |
+| Precipitation (age) hardening | Fine coherent precipitates from supersaturated solution | Duralumin, maraging steel, 17-4 PH stainless |
+| Dispersion strengthening | Stable insoluble particles | Oxide-dispersion strengthened alloys, SAP (Al–Al₂O₃) |
+| Martensitic transformation | Supersaturated BCT structure | Hardened steels |
+| Second-phase strengthening | Hard phase in soft matrix | Pearlite in ferrite |
+- Recovery, recrystallisation and grain growth occur on annealing cold-worked metal: recovery relieves internal stress (properties little changed), recrystallisation forms new strain-free grains (strength falls, ductility restored), and grain growth coarsens grains if heating continues.
+- Precipitation hardening steps: solution treatment (single phase) → quenching (supersaturated solid solution) → ageing (natural at room temperature or artificial at elevated temperature); over-ageing coarsens precipitates and reduces strength.
+PYQ-TREND: Age hardening steps for duralumin (very frequent); Hall–Petch grain-size strengthening; recrystallisation restores ductility; strain hardening by cold work; over-ageing reduces strength.
+
+## 12B.2 Corrosion
+- Corrosion: electrochemical deterioration of metals with their environment. Anode corrodes (oxidation); cathode is protected. Rusting of iron requires both oxygen and moisture (Fe → Fe²⁺; ultimately Fe₂O₃·xH₂O).
+- Galvanic series in sea water (more noble/cathodic to more active/anodic): platinum, gold, graphite, titanium, silver, stainless steel (passive), nickel, copper, brass, tin, lead, stainless steel (active), cast iron, mild steel, aluminium, cadmium, zinc, magnesium. When two metals are coupled, the more active one corrodes – e.g. zinc protects steel, steel bolts in copper plates corrode.
+| Type | Description / example |
+| Uniform (general) | Even attack over surface – rusting of unprotected steel |
+| Galvanic | Dissimilar metals in electrolyte – steel fasteners on copper; worse with small anode/large cathode |
+| Pitting | Localised deep pits – stainless steel in chlorides |
+| Crevice | In gaps where stagnant solution forms – under gaskets, washers |
+| Intergranular | Along grain boundaries – sensitised stainless steel (weld decay) |
+| Stress-corrosion cracking | Tensile stress + specific environment – brass in ammonia ('season cracking'), austenitic stainless in chlorides, caustic embrittlement of boiler steel |
+| Erosion–corrosion | Fluid velocity removes protective film – pump impellers, pipe bends |
+| Fretting | Small oscillatory slip between contacting surfaces |
+| Dezincification (selective leaching) | Zinc removed from brass leaving porous copper – prevented by adding As/Sb/Sn (admiralty brass) |
+| Hydrogen embrittlement | Atomic hydrogen diffuses into high-strength steel – from pickling, plating, welding |
+- Prevention: proper material selection (stainless, Cu–Ni, titanium), design (avoid crevices, dissimilar contact, ensure drainage; large anode area), protective coatings (paint, galvanising, plating, anodising), cathodic protection (sacrificial Zn/Mg/Al anodes or impressed current), inhibitors (chromates, phosphates, amines in boiler water), environment control (deaeration, pH control, dehumidification).
+PYQ-TREND: Galvanic series – zinc/magnesium most active, used as sacrificial anodes (very frequent); rusting needs O₂ and water; season cracking of brass in ammonia; dezincification of brass; caustic embrittlement in boilers; pitting of stainless steel by chlorides; small anode–large cathode is worst.
+TIP: In a galvanic couple the metal lower in the series (more active) is sacrificed – 'galvanised' iron stays protected even when the zinc coating is scratched.
+
+## 12B.3 Material Selection for Typical Components
+| Component | Typical material and reason |
+| Machine tool beds, engine blocks | Grey cast iron – damping, castability, compressive strength, machinability |
+| Crankshafts | Forged medium-carbon/alloy steel (40C8, 40Cr1) or SG iron – fatigue strength |
+| Connecting rods | Forged medium-carbon or alloy steel; aluminium in small engines |
+| Pistons | Aluminium alloy (Y-alloy, Lo-Ex Al–Si) – light, good conductivity |
+| Cylinder liners | Alloy cast iron – wear resistance |
+| Gears | Case-hardened alloy steel (carburised), cast iron for low duty, nylon/phenolic for quiet light duty |
+| Springs | High-carbon or Si–Mn/Cr–V spring steel, phosphor bronze for corrosion |
+| Bearings (plain) | White metal (babbitt), bronze, PTFE, porous sintered bronze |
+| Ball/roller bearings | High-carbon chromium steel (52100 / 103Cr1) |
+| Cutting tools | HSS, carbides, ceramics, CBN, diamond |
+| Dies (cold work) | High-carbon high-chromium steel (D2) |
+| Turbine blades | Nickel superalloys (Inconel, Nimonic), single-crystal castings |
+| Boiler tubes | Low-carbon/Cr–Mo steels (creep resistance) |
+| Aircraft structures | Duralumin, Al–Li alloys, titanium, CFRP |
+| Electrical conductors | Copper, aluminium |
+| Heating elements | Nichrome |
+| Surgical implants | Titanium alloys, 316L stainless steel, Co–Cr alloys |
+| Chemical plant / marine | Stainless steel, Monel, Cu–Ni, titanium |
+| Rails | Medium/high-carbon (≈ 0.6–0.8% C) pearlitic steel; Hadfield Mn steel at crossings |
+| Files, razors, drills (hand) | High-carbon tool steel (≈ 1–1.3% C) |
+- Selection criteria: required mechanical properties (strength, stiffness, toughness, fatigue, creep), physical properties (density, conductivity, expansion), environmental resistance, manufacturability (castability, formability, weldability, machinability), availability and cost; material indices such as specific strength (σ/ρ) and specific stiffness (E/ρ) guide lightweight design (Ashby charts).
+PYQ-TREND: Machine bed of grey CI because of damping (very frequent); pistons of aluminium alloy; bearings of babbitt/bronze; ball bearings of high-carbon chromium steel; turbine blades of nickel superalloys; rails high-carbon steel; heating elements nichrome; specific strength for aerospace.

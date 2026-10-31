@@ -1,0 +1,48 @@
+# Maintenance, Safety, Value Engineering and Costing
+
+## 24B.1 Maintenance
+| Type | Description |
+| Breakdown (corrective) maintenance | Repair after failure – suitable for cheap, non-critical items |
+| Preventive (time-based) maintenance | Scheduled inspection, lubrication, replacement at fixed intervals – reduces breakdowns |
+| Predictive (condition-based) maintenance | Monitoring condition – vibration analysis, oil analysis, thermography, ultrasonic, motor current – repair when indicators show deterioration |
+| Proactive / reliability-centred maintenance (RCM) | Analyses failure modes and selects best maintenance for each function |
+| Total productive maintenance (TPM) | Operators involved in routine maintenance; aims at zero breakdowns, zero defects; overall equipment effectiveness (OEE) |
+| Opportunistic, shutdown, design-out maintenance | Work during planned stops; redesign to eliminate recurring failure |
+F: OEE = availability × performance rate × quality rate (world class ≈ 85%)
+F: Availability = MTBF/(MTBF + MTTR)
+- Replacement analysis: items that deteriorate (machines) are replaced when the average annual cost (capital + running) is minimum; items that fail suddenly (bulbs) – group vs individual replacement.
+- Depreciation methods: straight-line (D = (P − S)/n), declining balance (fixed percentage of book value), sum-of-years' digits, sinking fund.
+PYQ-TREND: Preventive vs predictive maintenance (frequent); vibration analysis for condition monitoring; TPM and OEE; straight-line depreciation formula; replacement when average annual cost is minimum.
+
+## 24B.2 Industrial Safety
+- Causes of accidents: unsafe acts (about 85–88% per Heinrich – carelessness, not using guards or PPE, improper lifting) and unsafe conditions (unguarded machines, poor lighting, slippery floors, defective tools). Heinrich's ratio 1 : 29 : 300 (major injury : minor injuries : no-injury accidents).
+F: Frequency rate = (number of lost-time injuries × 10⁶)/man-hours worked
+F: Severity rate = (man-days lost × 10⁶)/man-hours worked (in India per IS 3786; some texts use 1000 man-hours)
+- Personal protective equipment (PPE): helmets, safety goggles and face shields (welding filters), ear plugs/muffs, gloves, safety shoes, aprons, respirators, safety belts/harness.
+- Machine guarding: fixed, interlocked, automatic, adjustable guards; emergency stops; lock-out/tag-out during maintenance.
+| Fire class | Fuel | Extinguisher |
+| A | Ordinary solids – wood, paper, cloth | Water, foam, ABC powder |
+| B | Flammable liquids – oil, petrol | Foam, CO₂, dry chemical powder (never water jet) |
+| C | Flammable gases | Dry chemical powder; isolate supply |
+| D | Metals – Mg, Na, K | Special dry powder (graphite, sand) |
+| Electrical (E in some standards) | Live electrical equipment | CO₂, dry chemical powder (non-conducting) |
+| F/K | Cooking oils/fats | Wet chemical |
+- Colour codes (IS 9457 typical): red – stop/fire/danger; yellow – caution; green – safety/first aid; blue – mandatory instruction.
+- Statutes in India: Factories Act 1948 (now consolidated in the Occupational Safety, Health and Working Conditions Code 2020), Indian Boilers Act 1923 (a new Boilers Act was passed in 2025), Workmen's Compensation Act.
+PYQ-TREND: Fire classes and extinguishers (water not for oil and electrical fires) (very frequent); unsafe acts cause most accidents; Heinrich's ratio; frequency and severity rates; PPE for welding; Factories Act 1948; colour codes.
+
+## 24B.3 Value Engineering, Costing and Ergonomics
+- Value = function/cost (or worth/cost). Value engineering/analysis (L. D. Miles, General Electric) systematically identifies unnecessary cost without reducing function. Phases: information, function analysis, creative (brainstorming), evaluation, development/recommendation, implementation. Types of value: use, esteem, cost, exchange.
+| Cost element | Meaning |
+| Prime cost | Direct material + direct labour + direct expenses |
+| Factory (works) cost | Prime cost + factory overheads |
+| Cost of production | Factory cost + administrative overheads |
+| Total cost (cost of sales) | Cost of production + selling and distribution overheads |
+| Selling price | Total cost + profit |
+- Fixed costs (rent, depreciation, salaries) do not vary with output; variable costs (material, direct labour) vary proportionally. Contribution = selling price − variable cost per unit. Profit–volume ratio = contribution/sales.
+- Overhead allocation methods: percentage of direct labour cost, direct material cost, prime cost, labour-hour rate, machine-hour rate (most accurate for machine-intensive shops).
+- Ergonomics: fitting the job to the worker – anthropometric data (5th to 95th percentile design), workplace and display/control design, environmental factors (illumination ≈ 300–500 lux for general work, noise limit 90 dB(A) for 8 h in India, thermal comfort), reduction of fatigue.
+- Wage incentive plans: Halsey (50% of time saved paid), Rowan (bonus = time saved/time allowed × time taken × rate), Taylor's differential piece rate, Gantt task and bonus, Emerson efficiency plan, Bedaux point system.
+F: Halsey bonus = (time saved × rate)/2;  Rowan bonus = (time saved/time allowed) × time taken × rate
+PYQ-TREND: Value = function/cost (very frequent); prime cost = direct material + labour + expenses; machine-hour rate; Halsey and Rowan plans; fixed vs variable cost; noise limit 90 dB; anthropometry 5th–95th percentile.
+TIP: Cost ladder: Prime → +Factory OH → Works cost → +Admin OH → Cost of production → +Selling OH → Total cost → +Profit → Selling price.

@@ -1,0 +1,87 @@
+# Metal Forming – Rolling, Forging, Extrusion, Drawing and Sheet Metal
+
+## 17.1 Fundamentals
+- Metal forming changes shape by plastic deformation without removing material. Advantages: no material waste, improved mechanical properties (grain flow, work hardening), high production rates.
+- Hot working: deformation above the recrystallisation temperature (≈ 0.4–0.6 T_m in kelvin; for steel ≈ 1000–1200 °C working range) – low forces, large deformation, refined grains, no strain hardening, but oxidation/scale, poorer finish and dimensional accuracy. Cold working: below recrystallisation temperature (usually room temperature) – strain hardening increases strength and hardness, better finish and accuracy, but higher forces, lower ductility, residual stresses; may need intermediate annealing.
+- Recrystallisation temperature of some metals: lead and tin below room temperature (so working them at room temperature is hot working), zinc ≈ room temperature, aluminium ≈ 150 °C, copper ≈ 200 °C, iron ≈ 450 °C, tungsten ≈ 1200 °C.
+- Warm working: intermediate temperatures (≈ 0.3–0.5 T_m).
+F: True strain ε = ln(L/L₀) = ln(A₀/A);  flow stress σ_f = K εⁿ;  average flow stress = K εⁿ/(n + 1)
+PYQ-TREND: Hot vs cold working defined by recrystallisation temperature (very frequent); lead worked at room temperature is hot working; cold working improves finish and strength by strain hardening; recrystallisation temperature ≈ 0.4 T_m.
+
+## 17.2 Rolling
+- Metal passed between rotating rolls; friction draws it into the gap. Primary rolling: ingots/continuous-cast slabs into blooms, billets, slabs; then plates, sheets, strips, structural shapes, rails.
+| Rolling mill | Use |
+| Two-high (reversing or non-reversing) | Blooming, slabbing mills |
+| Three-high | Reversal by lifting/lowering stock, no roll reversal |
+| Four-high | Small work rolls backed by large backup rolls – reduces deflection; plates, sheets |
+| Cluster (Sendzimir, 12- or 20-high) | Very thin, hard strips (stainless) with tiny work rolls |
+| Tandem (continuous) | Several stands in series – high production of strip |
+| Planetary | Large reduction in single pass |
+F: Draft Δh = h₀ − h_f;  maximum draft Δh_max = μ² R (R = roll radius)
+F: Angle of bite (contact angle) α: cosα = 1 − Δh/(2R);  condition for bite: μ ≥ tanα
+F: Projected contact length L ≈ √(R Δh);  roll force F ≈ σ_avg × w × √(RΔh);  power per roll P = F (L/2) ω (approx.)
+F: Volume constancy: h₀w₀v₀ = h_f w_f v_f → exit speed greater than entry speed
+- Neutral (no-slip) point: where the roll surface speed equals strip speed; before it the strip moves slower than the rolls, after it faster. Forward slip = (v_f − v_r)/v_r.
+- Rolling defects: edge cracks, alligatoring (splitting of slab ends), wavy edges (roll bending), centre cracks, laminations, scale pits. Thread rolling and ring rolling are other rolling processes – thread rolling gives stronger threads (unbroken grain flow) than cutting.
+PYQ-TREND: Maximum draft μ²R and angle of bite (very frequent); neutral point; four-high mill uses backup rolls; cluster mill for thin hard strips; thread rolling stronger than cut threads; volume constancy.
+
+## 17.3 Forging
+| Type | Description |
+| Open-die (smith/hand) forging | Flat dies, simple shapes; upsetting, drawing out, fullering, edging, punching |
+| Closed-die (impression-die) forging | Shaped dies; flash forms in gutter; good accuracy |
+| Flashless (precision) forging | Closed die, no flash; exact volume of billet |
+| Drop forging | Hammer dropped by gravity on die (closed die) – gear blanks, crankshafts, connecting rods, spanners |
+| Press forging | Slow squeezing action by hydraulic/mechanical press – deep, uniform deformation; large parts |
+| Upset forging (heading) | Increasing diameter by pressing end – bolt heads, rivets, valves (on headers) |
+| Roll forging | Shaped rolls reduce cross-section – axles, tapered levers |
+| Swaging | Rotating dies hammer a rod or tube to reduce diameter – tapering, pointing |
+| Coining | Closed-die cold forging giving fine surface detail – coins, medals |
+| Hobbing / isothermal forging | Die cavities / superalloys at uniform temperature |
+- Smith forging operations: drawing down (reducing cross-section, increasing length), upsetting (increasing cross-section, reducing length), fullering (reducing section between, with fullers), edging, swaging, bending, punching, cutting, welding.
+- Forging advantages: directional grain flow following part contour gives high strength, toughness and fatigue resistance (crankshafts, connecting rods, gears).
+F: Forging load (open-die, cylinder): F = σ_f π r²(1 + 2μr/(3h))
+- Defects: cold shut (lap/fold), unfilled sections, scale pits, die shift, flakes (internal cracks due to hydrogen), surface cracks, improper grain flow, burnt metal.
+PYQ-TREND: Drop forging for crankshafts and connecting rods; upsetting increases cross-section; fullering; coining is closed-die cold forming (very frequent); flash in closed-die forging; forging gives favourable grain flow; swaging.
+
+## 17.4 Extrusion and Drawing
+| Process | Description |
+| Direct (forward) extrusion | Ram pushes billet through die in the same direction; friction between billet and container – higher force |
+| Indirect (backward/inverted) extrusion | Die moves with hollow ram, billet stationary relative to container – less friction and force |
+| Impact extrusion | Punch strikes a slug in a die – metal flows back around punch; collapsible tubes (toothpaste), cans, cartridge cases (soft metals: Al, Pb, Sn, Zn) |
+| Hydrostatic extrusion | Billet pressurised by fluid – no container friction; brittle materials |
+| Tube extrusion | Mandrel used to form hollow sections |
+| Wire drawing | Pulling rod through progressively smaller dies (tungsten carbide/diamond) – cold process; force applied at exit (tensile) |
+| Tube drawing | With or without mandrel/plug |
+F: Extrusion ratio R = A₀/A_f;  extrusion pressure p = σ_f ln R (ideal) or k(a + b ln R) (Johnson)
+F: Drawing stress (ideal) σ_d = σ_f ln(A₀/A_f);  maximum reduction per pass (ideal, perfect plasticity) = 1 − 1/e ≈ 63%
+- In drawing the force is tensile at the exit, so the drawing stress must remain below the yield strength of the drawn product, which limits reduction per pass; in extrusion the force is compressive, allowing larger reductions.
+- Extrusion defects: centre burst (chevron cracking) at low extrusion ratios and high die angles, piping (tailpipe/fishtailing) from surface oxides drawn inward, surface cracking (speed/temperature too high – 'fir-tree' cracking).
+- Products: extrusion – aluminium window sections, tubes, rods, complex constant cross-sections; drawing – wires, rods, seamless tubes of accurate size.
+PYQ-TREND: Impact extrusion for collapsible toothpaste tubes (very frequent); indirect extrusion needs less force; wire drawing is a tensile process with maximum reduction 63% (ideal); centre burst in extrusion; aluminium sections by extrusion; extrusion ratio.
+
+## 17.5 Sheet Metal Working (Press Work)
+| Operation | Description |
+| Blanking | Cutting a piece of desired shape – removed piece is the product |
+| Punching (piercing) | Making a hole – removed piece is scrap |
+| Notching, lancing, nibbling, slitting, trimming, shaving | Cutting variants |
+| Bending (V, U, edge, roll) | Plastic deformation about a straight axis; springback |
+| Deep drawing (cupping) | Flat blank drawn into cup by punch through die with blank holder |
+| Spinning | Sheet pressed over rotating mandrel by tool – cones, reflectors, utensils |
+| Stretch forming | Sheet stretched over a form block – aircraft skins |
+| Embossing | Raised/depressed design, thickness nearly unchanged |
+| Coining | Squeezing with different patterns on each side – thickness changes |
+| Hydroforming, rubber-pad forming (Guerin), explosive forming, electromagnetic forming | High-energy-rate or flexible-die processes |
+F: Blanking/punching force F = L t τ_s  (L = perimeter, t = thickness, τ_s = shear strength)
+F: Clearance c ≈ (0.03 to 0.1) t per side (≈ 0.0032 t √τ for steel by empirical rule)
+F: Blanking: die size = blank size, punch = blank size − 2c;  punching: punch size = hole size, die = hole size + 2c
+F: Shear on punch or die reduces peak force: F' = F_max × (p t)/S  (p = fractional penetration at fracture, S = amount of shear, valid for S ≥ p t)
+F: Deep drawing blank diameter (cup without flange): D = √(d² + 4dh);  drawing ratio D/d ≤ ≈ 2 (limiting drawing ratio); percentage reduction (D − d)/D ≤ ≈ 50%
+F: Bend allowance BA = α(R + k t) (α in radians; k ≈ 0.33 for R < 2t, 0.5 for R ≥ 2t);  minimum bend radius ∝ t
+F: Press tonnage = cutting force × factor of safety;  work done = F × t × penetration fraction
+- Springback: elastic recovery after bending – compensated by overbending, bottoming or coining. Greater for high yield strength, low E and larger R/t.
+- Deep-drawing defects: wrinkling in flange (insufficient blank-holder force), tearing/fracture at the cup bottom (excessive blank-holder force, small die radius), earing (planar anisotropy), surface scratches.
+- Dies: progressive die (several operations at successive stations as strip advances), compound die (several cutting operations at one station in one stroke, e.g. blanking and punching), combination die (cutting and forming at one station), transfer die.
+PYQ-TREND: Blanking vs punching – which part is the product (very frequent); clearance applied on punch for blanking and on die for punching; punching force L t τ; deep drawing blank diameter √(d² + 4dh); limiting drawing ratio ≈ 2; springback; wrinkling and earing; progressive vs compound dies; spinning for utensils.
+TIP: 'Blank = Die' (die gets the exact blank size); 'Punch = Hole' (punch gets the exact hole size). Clearance always goes to the other tool.
+Q: Distinguish between hot working and cold working of metals.
+Hot working is plastic deformation carried out above the recrystallisation temperature, so that new strain-free grains form continuously during deformation; cold working is carried out below it, usually at room temperature, so the deformed grains remain and the metal strain-hardens. In hot working the flow stress is low, so large deformations are possible with smaller forces and equipment, porosity is closed up, coarse cast grains are refined and directional grain flow is obtained; however, surface oxidation (scale) occurs, finish and dimensional accuracy are poor, and handling of hot metal is difficult. Cold working requires greater forces and gives limited deformation before the metal must be annealed, but it produces good surface finish, close tolerances and higher strength and hardness through strain hardening, at the expense of ductility; residual stresses and anisotropy may result. Examples: hot rolling of billets and hot forging of crankshafts versus cold rolling of sheets, wire drawing, cold heading of bolts and coining. Note that whether a process is hot or cold depends on the material – working lead at room temperature is hot working because its recrystallisation temperature is below room temperature.

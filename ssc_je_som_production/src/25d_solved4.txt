@@ -1,0 +1,102 @@
+# Solved Numericals – Set 4 (Metrology, Industrial Engineering, Mechanics)
+Short problems testing one concept each (no options).
+
+## 25D.1 Metrology
+### Problem 1 – Clearance from limits
+Hole 50 +0.025/+0.000 mm; shaft 50 −0.009/−0.025 mm. Find maximum and minimum clearance and the type of fit.
+F: Max clearance = 50.025 − 49.975 = 0.050 mm;  min clearance (allowance) = 50.000 − 49.991 = 0.009 mm → clearance fit
+F: Hole tolerance = 0.025 mm;  shaft tolerance = 0.016 mm
+### Problem 2 – Interference fit
+Hole 30 +0.021/0; shaft 30 +0.035/+0.022. Classify the fit.
+F: Max interference = 30.035 − 30.000 = 0.035 mm;  min interference = 30.022 − 30.021 = 0.001 mm → interference fit
+### Problem 3 – Standard tolerance
+Find IT7 for a 40 mm shaft (diameter step 30–50 mm).
+F: D = √(30 × 50) = 38.73 mm;  i = 0.45 ∛38.73 + 0.001 × 38.73 = 1.522 + 0.039 = 1.561 μm
+F: IT7 = 16i = 25 μm
+### Problem 4 – Vernier least count
+A vernier has 50 divisions coinciding with 49 main scale divisions of 1 mm. Find the least count.
+F: LC = 1 MSD − 1 VSD = 1 − 49/50 = 0.02 mm
+### Problem 5 – Micrometer reading
+A micrometer (pitch 0.5 mm, 50 thimble divisions) shows 12.5 mm on the sleeve and 28 on the thimble. Find the reading.
+F: LC = 0.5/50 = 0.01 mm;  reading = 12.5 + 28 × 0.01 = 12.78 mm
+### Problem 6 – Sine bar
+A 200 mm sine bar is used to set 30°. Find the slip gauge height.
+F: h = L sinθ = 200 × 0.5 = 100 mm
+### Problem 7 – Best wire size
+Find the best wire size for an M20 × 2.5 thread (60°).
+F: d_w = (p/2) sec30° = 0.577 × 2.5 = 1.443 mm
+### Problem 8 – Optical flat
+Five fringes are seen across a surface under light of wavelength 0.6 μm. Find the height difference.
+F: h = nλ/2 = 5 × 0.3 = 1.5 μm
+
+## 25D.2 Industrial Engineering
+### Problem 9 – Standard time
+Observed time 2 min, rating 110%, allowances 15% of normal time. Find standard time.
+F: Normal time = 2 × 1.1 = 2.2 min;  standard time = 2.2 × 1.15 = 2.53 min
+### Problem 10 – Work sampling observations
+A machine is idle 20% of the time (p = 0.2). How many observations are needed for ±5% absolute accuracy at 95% confidence?
+F: N = 4p(1 − p)/L² = 4 × 0.2 × 0.8/0.05² = 256
+### Problem 11 – EOQ
+Annual demand 12,000 units, ordering cost ₹200 per order, holding cost ₹12 per unit per year. Find EOQ, number of orders and minimum total variable cost.
+F: Q* = √(2 × 12,000 × 200/12) = √400,000 = 632 units;  orders = 12,000/632 ≈ 19 per year
+F: Total cost = √(2DSH) = √(2 × 12,000 × 200 × 12) = ₹7,589
+### Problem 12 – Reorder point
+Daily demand 40 units, lead time 5 days, safety stock 60 units. Find ROP.
+F: ROP = 40 × 5 + 60 = 260 units
+### Problem 13 – Exponential smoothing
+Last forecast 100, actual demand 120, α = 0.2. Find the next forecast.
+F: F = 100 + 0.2 × (120 − 100) = 104
+### Problem 14 – Break-even
+Fixed cost ₹1,00,000; selling price ₹50; variable cost ₹30 per unit. Find the break-even quantity.
+F: Q_BE = 1,00,000/(50 − 30) = 5,000 units
+### Problem 15 – Line balancing
+Task times total 40 s; cycle time 10 s; 5 stations used. Find minimum stations and line efficiency.
+F: Minimum stations = 40/10 = 4;  efficiency = 40/(5 × 10) = 80%;  balance delay = 20%
+### Problem 16 – PERT
+An activity has t_o = 4, t_m = 6, t_p = 14 days. Find expected time and variance.
+F: t_e = (4 + 24 + 14)/6 = 7 days;  σ² = ((14 − 4)/6)² = 2.78
+### Problem 17 – Probability of completion
+Critical path expected time 40 days, σ = 3 days. Find the probability of completion in 43 days.
+F: Z = (43 − 40)/3 = 1 → probability ≈ 84%
+### Problem 18 – Control chart limits
+20 samples of size 5 give X̿ = 50, R̄ = 4 (A₂ = 0.577, D₃ = 0, D₄ = 2.114). Find limits.
+F: X̄ chart: 50 ± 0.577 × 4 = 52.31 / 47.69;  R chart: UCL = 8.46, LCL = 0
+### Problem 19 – Process capability
+Specification 50 ± 0.06 mm; process σ = 0.015 mm. Find C_p.
+F: C_p = 0.12/(6 × 0.015) = 1.33 (capable)
+### Problem 20 – Reliability
+Three components each with reliability 0.9 are connected (a) in series (b) two in parallel. Find system reliability.
+F: (a) 0.9³ = 0.729;  (b) 1 − 0.1² = 0.99
+### Problem 21 – Johnson's rule
+Jobs (M1, M2 times): A (5, 2), B (1, 6), C (9, 7), D (3, 8). Find the optimal sequence.
+F: Smallest = B on M1 (1) → first; A on M2 (2) → last; D on M1 (3) → second; C → third → sequence B–D–C–A
+### Problem 22 – M/M/1 queue
+Arrivals 8 per hour, service 10 per hour. Find utilisation, average number in system and time in system.
+F: ρ = 0.8;  L_s = λ/(μ − λ) = 4;  W_s = 1/(μ − λ) = 0.5 h
+
+## 25D.3 Engineering Mechanics
+### Problem 23 – Resultant of two forces
+Two forces of 30 N and 40 N act at 90°. Find the resultant.
+F: R = √(30² + 40²) = 50 N at tan⁻¹(40/30) = 53.1° to the 30 N force
+### Problem 24 – Lami's theorem
+A 100 N weight hangs from two strings making 30° and 60° with the horizontal. Find the tensions.
+F: Angles between forces: T₁ (30° string) and W: 120°;  T₂ and W: 150°;  T₁ and T₂: 90°
+F: T₁/sin150° = T₂/sin120° = 100/sin90° → T₁ = 50 N, T₂ = 86.6 N
+### Problem 25 – Inclined plane
+A 500 N block rests on a 30° incline with μ = 0.2. Find the force parallel to the plane to just move it up.
+F: P = W(sin30° + μ cos30°) = 500(0.5 + 0.173) = 336.6 N
+### Problem 26 – Belt tension ratio
+A flat belt has μ = 0.3 and angle of lap 180°. Find T₁/T₂.
+F: T₁/T₂ = e^(0.3π) = e^0.942 = 2.57
+### Problem 27 – Truss check
+A truss has 9 members and 6 joints. Is it perfect?
+F: 2j − 3 = 9 = m → perfect truss
+### Problem 28 – Projectile
+A ball is projected at 20 m/s at 30°. Find range and maximum height (g = 9.81).
+F: R = u² sin60°/g = 400 × 0.866/9.81 = 35.3 m;  H = u² sin²30°/(2g) = 400 × 0.25/19.62 = 5.10 m
+### Problem 29 – Moment of inertia using parallel axis
+Find I of a 100 × 200 mm rectangle about its base.
+F: I = bd³/3 = 100 × 200³/3 = 2.667 × 10⁸ mm⁴ (= bd³/12 + A(d/2)²)
+### Problem 30 – Screw jack efficiency
+A screw jack has helix angle 6° and friction angle 8°. Find efficiency; is it self-locking?
+F: η = tan6°/tan14° = 0.1051/0.2493 = 42.2% < 50% → self-locking (φ > α)

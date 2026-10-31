@@ -1,0 +1,50 @@
+# High-Yield Topic Map
+A chapter-by-chapter checklist of what SSC JE papers repeatedly test. Tick each line only when you can explain it without notes.
+
+## M1. Engineering Mechanics and SOM
+| Concept | What is usually asked |
+| Force systems | Resultant of two forces, Lami's theorem, Varignon's theorem, couples |
+| Friction | Angle of repose, inclined plane forces, belt tension ratio, screw jack efficiency |
+| Trusses | m = 2j − 3, zero-force members, method of sections |
+| Centroid and MOI | Standard centroids; I of rectangle, circle, triangle; parallel/perpendicular axis theorems |
+| Stress–strain | Hooke's law, elastic constants relations, Poisson's ratio values, stress–strain curve points |
+| Bars | Stepped, tapering, self-weight, composite bars, thermal stress |
+| Strain energy | Gradual, sudden and impact loads; resilience; Castigliano |
+| Material testing | Hardness tests (BHN, VHN, Rockwell), Izod/Charpy, fatigue, creep |
+| Principal stresses | Formulae, Mohr's circle centre/radius, special cases |
+| Failure theories | Which theory for which material, loci shapes, shear yield values |
+| SFD/BMD | Relations dM/dx = F, standard maximum BMs, shapes, contraflexure |
+| Bending | M/I = σ/y = E/R, section moduli, strongest beam, shape factor, middle third |
+| Shear stress | τ_max/τ_avg ratios, distribution shapes, shear centre |
+| Deflection | Standard slope/deflection table, methods (Macaulay, moment area, conjugate beam) |
+| Torsion | T/J = τ/r = Gθ/L, power, hollow vs solid, series/parallel shafts, equivalent torque |
+| Springs | Stiffness, series/parallel, Wahl factor, leaf springs |
+| Columns | Euler loads and effective lengths, slenderness, Rankine formula |
+| Cylinders | Hoop/longitudinal stresses, volumetric strain, spheres, Lamé's theory |
+| Joints | Riveted joint efficiency, fillet weld throat, keys and couplings |
+
+## M2. Production Engineering
+| Concept | What is usually asked |
+| Crystal structures | APF, coordination numbers, allotropy of iron |
+| Steels | Carbon ranges and uses, designations, alloying element effects, stainless and tool steels |
+| Cast irons and non-ferrous alloys | Grey, white, malleable, SG; brass, bronze, duralumin, babbitt |
+| Fe–C diagram | Invariant reactions, phases, critical temperatures |
+| Heat treatment | Annealing vs normalising, hardening, tempering, austempering, case hardening methods |
+| Casting | Pattern types and allowances, sand properties, gating and risering, Chvorinov's rule |
+| Special casting | Investment, die (hot/cold chamber), centrifugal, shell, continuous |
+| Casting defects | Causes and remedies of blowholes, misrun, cold shut, hot tear, shift |
+| Welding | Flames, arc processes, polarity, resistance welding heat, thermit, brazing/soldering, defects |
+| Forming | Hot vs cold working, rolling draft, forging types, extrusion and drawing, sheet-metal operations and forces |
+| Metal cutting | Tool signature, chip types, Merchant's circle, Taylor's equation, tool materials |
+| Machine tools | Lathe parts and tapers, drilling operations, shaper quick return, milling (up/down, indexing), gear cutting |
+| Finishing and NTM | Grinding wheel marking, honing/lapping, EDM, ECM, USM, AJM, LBM, EBM |
+| Metrology | Limits and fits, IT grades, gauges and Taylor's principle, vernier/micrometer, surface roughness |
+| CNC and jigs | G and M codes, axes, point-to-point vs contouring, 3-2-1 principle, jig vs fixture |
+| P/M and plastics | P/M steps and products, moulding processes for thermoplastics and thermosets |
+| Industrial engineering | Work study, standard time, layouts, EOQ, ABC, control charts, PERT/CPM, forecasting |
+
+## M3. How to Use This Map in the Last Two Weeks
+- Week 1: for each row above, revise the chapter section, then answer the matching rows of the Concept Recall Banks without looking.
+- Week 2: solve one Solved Numericals set per day under time pressure (about 1 minute per short problem), and write two Paper-II answers per day.
+- Final three days: Formula Appendix, PYQ-Trend Appendix and the Last-Minute Revision Sheet only.
+- Mark any row you cannot explain in 30 seconds and revisit it the next morning – spaced repetition beats re-reading.

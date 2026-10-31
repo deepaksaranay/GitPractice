@@ -1,0 +1,135 @@
+# Concept Recall Bank – Part A (Mechanics and SOM)
+Short question → crisp answer. Cover the right column and test yourself (active recall, not MCQs).
+
+## R1. Engineering Mechanics
+| Question | Answer |
+| Lami's theorem applies to? | Three concurrent coplanar forces in equilibrium |
+| Resultant of two equal forces P at angle θ? | 2P cos(θ/2) |
+| Couple is what kind of vector? | Free vector |
+| Varignon's theorem? | Moment of resultant = sum of moments of components |
+| Reactions at a hinge / roller / fixed end? | 2 / 1 / 3 |
+| Angle of repose equals? | Angle of friction |
+| μ in terms of friction angle? | tanφ |
+| Least force on horizontal plane applied at? | Angle φ to horizontal (P = W sinφ) |
+| Belt tension ratio? | e^(μθ) |
+| Self-locking screw efficiency? | Less than 50% |
+| Perfect truss condition? | m = 2j − 3 |
+| Centroid of triangle from base? | h/3 |
+| Centroid of semicircle from diameter? | 4r/3π |
+| Centroid of solid hemisphere? | 3r/8 from flat face |
+| Centroid of solid cone? | h/4 from base |
+| I of rectangle about centroid / base? | bd³/12 / bd³/3 |
+| I of triangle about centroid / base? | bh³/36 / bh³/12 |
+| I of circle / polar? | πd⁴/64 / πd⁴/32 |
+| Mass MOI of solid sphere? | (2/5)MR² |
+| Mass MOI of rod about end? | ML²/3 |
+| Maximum range of projectile at? | 45° |
+| e for perfectly plastic impact? | 0 |
+| D'Alembert's principle? | Inertia force makes dynamics a statics problem |
+
+## R2. Stress, Strain and Properties
+| Question | Answer |
+| Hooke's law? | σ = Ee within proportional limit |
+| Poisson's ratio range? | 0 to 0.5 |
+| μ of steel / rubber / cork? | ≈ 0.3 / ≈ 0.5 / ≈ 0 |
+| E–G relation? | E = 2G(1 + μ) |
+| E–K relation? | E = 3K(1 − 2μ) |
+| E in terms of K and G? | 9KG/(3K + G) |
+| Independent elastic constants (isotropic)? | 2 |
+| Elongation of bar? | PL/AE |
+| Elongation under self-weight? | ρgL²/2E (= WL/2AE) |
+| Tapering circular bar elongation? | 4PL/(πEd₁d₂) |
+| Thermal stress (fully restrained)? | EαΔT – independent of length |
+| Composite bar condition? | Equal strains |
+| Suddenly applied load stress? | 2P/A |
+| Strain energy per unit volume? | σ²/2E |
+| Proof resilience? | Max strain energy up to elastic limit |
+| Modulus of toughness? | Area under σ–ε curve up to fracture |
+| Necking begins at? | Ultimate tensile strength |
+| Proof stress for non-ferrous? | 0.2% offset |
+| Most ductile and malleable metal? | Gold |
+| Creep stage used for design? | Secondary (steady state) |
+| Endurance limit of steel ≈? | 0.5 × UTS |
+| Izod specimen supported as? | Cantilever |
+| Charpy specimen supported as? | Simply supported beam |
+| Vickers indenter? | Diamond pyramid 136° |
+| Rockwell C indenter? | Diamond cone 120° |
+| Brinell indenter? | 10 mm steel/carbide ball |
+| Stress concentration at small circular hole? | 3 |
+| Shot peening improves? | Fatigue strength |
+| Castigliano's theorem? | δ = ∂U/∂P |
+
+## R3. Principal Stresses and Failure
+| Question | Answer |
+| Max shear in uniaxial tension? | σ/2 on 45° planes |
+| Shear on principal planes? | Zero |
+| Angle between principal and max shear planes? | 45° |
+| Mohr's circle radius? | τ_max = √(((σx − σy)/2)² + τ²) |
+| Mohr's circle for equal biaxial stress? | A point |
+| Mohr's circle for pure shear? | Centred at origin |
+| Theory for ductile materials (conservative)? | Maximum shear stress (Tresca) |
+| Most accurate theory for ductile materials? | Distortion energy (von Mises) |
+| Theory for brittle materials? | Maximum principal stress (Rankine) |
+| Shear yield by von Mises? | 0.577σ_y |
+| Shear yield by Tresca? | 0.5σ_y |
+| Tresca locus shape? | Hexagon |
+| von Mises locus shape? | Ellipse |
+| Equivalent torque? | √(M² + T²) |
+| Equivalent bending moment? | ½[M + √(M² + T²)] |
+
+## R4. Beams
+| Question | Answer |
+| dM/dx equals? | Shear force |
+| BM maximum where? | SF = 0 or changes sign |
+| BMD for UDL? | Parabola |
+| BMD for UVL? | Cubic |
+| SFD for UDL? | Linear |
+| Point of contraflexure? | BM changes sign |
+| Max BM SSB UDL / central load? | wL²/8 / WL/4 |
+| Max BM cantilever UDL / end load? | wL²/2 / WL |
+| Fixed beam UDL end moment? | wL²/12 |
+| Propped cantilever UDL prop reaction? | 3wL/8 |
+| Bending equation? | M/I = σ/y = E/R |
+| Neutral axis passes through? | Centroid |
+| Z of rectangle / circle? | bd²/6 / πd³/32 |
+| Strongest beam from log d/b? | √2 |
+| Stiffest beam from log d/b? | √3 |
+| Shape factor rectangle / circle / I? | 1.5 / 1.7 / ≈ 1.14 |
+| Middle-third rule? | e ≤ d/6 for no tension |
+| Core of circular section? | Diameter d/4 |
+| τ_max/τ_avg rectangle / circle? | 1.5 / 4/3 |
+| Max shear stress location in triangle? | Mid-height |
+| Shear centre of channel? | Outside web |
+| Max stress in crane hook? | Inner fibre |
+| Cantilever end deflection (point / UDL)? | WL³/3EI / wL⁴/8EI |
+| SSB central deflection (point / UDL)? | WL³/48EI / 5wL⁴/384EI |
+| Fixed beam central deflection (point / UDL)? | WL³/192EI / wL⁴/384EI |
+| Conjugate beam: fixed end becomes? | Free end |
+| Moment-area: change of slope? | Area of M/EI diagram |
+
+## R5. Torsion, Springs, Columns, Cylinders
+| Question | Answer |
+| Torsion equation? | T/J = τ/r = Gθ/L |
+| Max shear in solid shaft? | 16T/πd³ |
+| Power from torque? | 2πNT/60 |
+| Shafts in series share? | Same torque |
+| Shafts in parallel share? | Same angle of twist |
+| Strain energy in solid shaft? | τ²V/4G |
+| Spring stiffness? | Gd⁴/(8D³n) |
+| Springs in series? | 1/k = 1/k₁ + 1/k₂ |
+| Wahl factor accounts for? | Direct shear and curvature |
+| Leaf spring is a? | Beam of uniform strength |
+| Euler load? | π²EI/L_e² |
+| L_e fixed–free / fixed–fixed / fixed–hinged? | 2L / L/2 / L/√2 |
+| Ratio of Euler loads (F–F : H–H : F–H : Fx–Fx)? | 1 : 4 : 8 : 16 |
+| Slenderness ratio? | L_e/k_min |
+| Rankine constant? | σ_c/π²E |
+| Hoop stress in thin cylinder? | pd/2t |
+| Longitudinal stress? | pd/4t |
+| Thin sphere stress? | pd/4t |
+| Volumetric strain of thin cylinder? | (pd/4tE)(5 − 4μ) |
+| Max hoop stress in thick cylinder at? | Inner surface |
+| Theory for thick cylinders? | Lamé's theory |
+| Fillet weld throat? | 0.707 × leg size |
+| Joint efficiency? | Least strength/solid plate strength |
+| Unwin's formula? | d = 6√t |

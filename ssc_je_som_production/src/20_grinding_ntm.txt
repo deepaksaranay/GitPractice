@@ -1,0 +1,66 @@
+# Grinding, Finishing and Non-Traditional Machining
+
+## 20.1 Grinding
+- Grinding: material removal by abrasive grains bonded in a wheel; each grain acts as a tiny cutting tool with large negative rake. Gives high accuracy and fine finish; can machine hardened materials; specific energy is very high (most energy goes into heat) – risk of burns and residual stress.
+| Abrasive | Symbol | Use |
+| Aluminium oxide (alundum) | A | Tough – steels and high-tensile materials |
+| Silicon carbide (carborundum) | C | Harder, brittle – cast iron, brass, aluminium, ceramics, carbides (green SiC) |
+| Cubic boron nitride (CBN) | B | Hardened steels, HSS |
+| Diamond | D | Cemented carbides, glass, stone, ceramics |
+### Wheel specification (IS 551 / ANSI marking order)
+| Position | Symbol | Meaning |
+| 1 (optional) | Prefix number | Manufacturer's abrasive type |
+| 2 | A / C | Abrasive type |
+| 3 | 8–24 coarse, 30–60 medium, 70–180 fine, 220–600 very fine | Grain (grit) size – mesh number |
+| 4 | A (softest) to Z (hardest); soft E–G, medium H–P, hard Q–Z | Grade – strength of bond holding grains |
+| 5 | 1 (dense) to 15+ (open) | Structure – spacing of grains |
+| 6 | V vitrified, B resinoid, R rubber, E shellac, S silicate, M metal | Bond type |
+| 7 (optional) | Manufacturer's code | – |
+- Example: 51 A 46 K 5 V 23 = aluminium oxide, grit 46 (medium), grade K (medium), structure 5, vitrified bond.
+- Selection rules: hard material → soft grade wheel (blunt grains drop off and fresh ones appear – self-sharpening); soft material → hard grade wheel. Fine grit for finishing and hard brittle materials; coarse grit for fast removal and soft ductile materials. Large contact area → softer wheel and more open structure. Vitrified bond most common (rigid, porous, unaffected by water); resinoid and rubber for high-speed, cut-off and thin wheels.
+- Dressing: restores sharpness (removes glazed/loaded layer) with a diamond dresser or star dresser. Truing: restores the correct geometry/concentricity. Glazing: blunt grains not released (wheel too hard, speed too high) – shiny surface. Loading: pores clogged by metal chips (soft ductile work, wheel too fine/dense).
+| Grinding process | Use |
+| Surface grinding | Flat surfaces (horizontal/vertical spindle, reciprocating/rotary table) |
+| Cylindrical grinding (between centres) | External cylindrical surfaces, traverse or plunge |
+| Internal grinding | Bores |
+| Centreless grinding | No centres – work supported on a work-rest blade between grinding wheel and regulating wheel (rubber-bonded, inclined 0–8° for through-feed); pins, rollers, valve stems in mass production; through-feed, in-feed and end-feed methods |
+| Tool and cutter grinding | Sharpening cutters |
+| Creep-feed grinding | Very deep cut with slow feed |
+F: Wheel speed (surface) ≈ 30–35 m/s (vitrified);  centreless through-feed rate f = π d_r N_r sin α
+F: Grinding ratio G = volume of work removed/volume of wheel wear;  specific energy much higher than turning
+PYQ-TREND: Wheel marking order (very frequent); hard material needs soft wheel; SiC for cast iron and non-ferrous, Al₂O₃ for steels; vitrified bond most common; dressing vs truing; glazing vs loading; centreless grinding with regulating wheel; diamond for carbides.
+TIP: 'Hard – Soft, Soft – Hard': grind hard work with a soft-grade wheel, soft work with a hard-grade wheel.
+
+## 20.2 Fine Finishing Processes
+| Process | Description | Typical roughness Ra (μm) |
+| Honing | Bonded abrasive stones expand and rotate–reciprocate inside a bore – cross-hatch pattern; corrects geometry (roundness, taper); engine cylinder bores | 0.1–0.8 |
+| Lapping | Loose fine abrasive in a vehicle between work and soft lap (cast iron) – very flat surfaces; gauge blocks, optical flats, valve seats | 0.05–0.4 |
+| Superfinishing | Fine abrasive stone with short oscillatory strokes under light pressure – removes amorphous surface layer; bearing races | 0.01–0.2 |
+| Polishing / buffing | Flexible wheels with abrasive (polishing) or fine compound (buffing) – lustre, not accuracy | 0.05–0.4 |
+| Burnishing | Hard rollers/balls plastically smooth surface – no material removal, improves fatigue strength | 0.05–0.4 |
+| Electropolishing | Reverse electroplating smooths surfaces | – |
+- Approximate Ra values: sand casting 12.5–25; forging 3.2–12.5; turning/milling 0.8–6.3; grinding 0.1–1.6; lapping 0.05–0.4.
+PYQ-TREND: Honing for cylinder bores (cross-hatch) (very frequent); lapping uses loose abrasive and gives best flatness (gauge blocks); superfinishing for bearing races; burnishing removes no material; order of finish casting < machining < grinding < honing < lapping.
+
+## 20.3 Non-Traditional (Unconventional) Machining
+- Used when the material is very hard/brittle, the shape complex, the hole very small or deep, or when stress-free, burr-free machining is required. Energy used: mechanical, electrical/thermal, chemical/electrochemical.
+| Process | Energy / principle | Tool / medium | Materials and applications |
+| Abrasive jet machining (AJM) | Mechanical – high-velocity (150–300 m/s) jet of fine abrasive (Al₂O₃, SiC, 10–50 μm) in gas (air, N₂, CO₂) | Nozzle (tungsten carbide/sapphire) | Hard brittle materials – glass, ceramics; deburring, frosting, cutting thin sections; not for ductile metals |
+| Water jet / abrasive water jet (WJM/AWJM) | Very high-pressure water (≈ 200–400 MPa), abrasive (garnet) added for metals | Sapphire/diamond orifice | Cutting soft materials (paper, food, rubber, plastics, composites), with abrasive – metals, stone; no heat-affected zone |
+| Ultrasonic machining (USM) | Mechanical – tool vibrates at 15–30 kHz with amplitude 10–50 μm; abrasive slurry (B₄C, SiC) hammers the work | Soft, tough tool (mild steel, brass) shaped as cavity; magnetostrictive/piezoelectric transducer | Hard brittle non-conductive – glass, ceramics, gems, carbides; cavities, holes of any shape |
+| Electro-discharge machining (EDM, spark erosion) | Thermal – repetitive sparks between tool and work in dielectric (kerosene, paraffin, deionised water); material melted and vaporised | Tool electrode – graphite, copper, brass, Cu–W; tool usually negative (−) | Any electrically conductive material regardless of hardness – dies, moulds, small holes; produces recast layer and HAZ; tool wears (wear ratio) |
+| Wire EDM (WEDM) | EDM with travelling thin wire (brass, 0.05–0.3 mm), deionised water | Wire | Through-cutting complex profiles in dies, punches, extrusion dies |
+| Electrochemical machining (ECM) | Electrolysis (reverse electroplating, Faraday's laws); work is anode (+), tool cathode (−); electrolyte NaCl/NaNO₃ flows at high speed | Copper/brass/stainless tool – no wear | Conductive hard materials – turbine blades, complex cavities, deburring; high MRR, stress-free, no tool wear; expensive, electrolyte disposal |
+| Electrochemical grinding (ECG) | ECM + abrasive grinding (≈ 90% material by electrolysis) | Metal-bonded conductive wheel | Carbide tools, burr-free grinding |
+| Chemical machining / chemical milling, photochemical | Chemical etching through mask (maskant) with etchant (acids/alkalis) | No tool | Aircraft panels (weight reduction), printed circuit boards, thin parts |
+| Laser beam machining (LBM) | Thermal – focused coherent light (CO₂, Nd:YAG, fibre) melts/vaporises | No tool, no vacuum needed | Very small holes, cutting sheets, any material including non-metals; marking, welding; poor efficiency; reflective materials difficult |
+| Electron beam machining (EBM) | Thermal – high-velocity electrons (≈ 0.5–0.8 c) focused in vacuum | Electron gun; needs vacuum | Very small holes (25–100 μm) in any material, high aspect ratio; welding; X-ray hazard |
+| Plasma arc machining (PAM) | Thermal – plasma at 10,000–30,000 °C | Plasma torch | Cutting thick metal plates including stainless steel and aluminium; rough finish |
+| Ion beam machining | Ion sputtering | – | Atomic-level finishing |
+- Material removal mechanism in ECM: anodic dissolution (Faraday's law: m = A I t/(nF)); in EDM: melting and vaporisation by sparks; in USM: brittle fracture by abrasive impact; in AJM: erosion.
+F: ECM MRR (volume/time) = A I/(ρ n F) per unit (F = 96,500 C) – depends on current, not on hardness
+F: EDM: spark energy E = ½CV² (RC relaxation circuit);  MRR ∝ energy × frequency; surface finish improves with lower energy per spark
+PYQ-TREND: EDM tool materials (graphite, copper) and dielectric (kerosene) (very frequent); ECM based on Faraday's laws, work is anode, no tool wear; USM for hard brittle non-conductors with 20 kHz vibration; AJM for glass/ceramics; LBM and EBM for micro-holes – EBM needs vacuum; PAM for cutting thick plates; chemical milling for aircraft panels; ECM MRR independent of hardness; wire EDM for dies.
+WARN: EDM and ECM need an electrically conductive workpiece; USM and AJM are preferred for non-conductive brittle materials such as glass and ceramics.
+Q: Explain the working principle of electric discharge machining (EDM) with its advantages and limitations.
+In EDM, the workpiece and a shaped tool electrode, both electrically conductive, are submerged in a dielectric fluid (kerosene, paraffin oil or deionised water) and separated by a small gap of about 0.01–0.5 mm. A pulsed DC power supply (RC relaxation circuit or transistorised pulse generator) applies a voltage across the gap; when the voltage exceeds the breakdown strength of the dielectric, a spark discharges through an ionised channel, producing a local temperature of about 8,000–12,000 °C. A tiny amount of work material melts and vaporises, the plasma channel collapses when the pulse ends, and the dielectric flushes away the debris and re-insulates the gap. Thousands of sparks per second gradually erode a cavity that is a mirror image of the tool, which is fed by a servo mechanism to maintain a constant gap. The tool also wears, so tool materials with high melting point and conductivity – graphite, copper, copper–tungsten – are used. Advantages: any conductive material can be machined regardless of hardness (hardened steels, carbides); complex shapes, small and deep holes and thin sections can be produced with no mechanical forces, burrs or cutting stresses. Limitations: only conductive materials; low MRR; tool wear and need to make shaped electrodes; recast (white) layer and heat-affected zone with micro-cracks on the surface; slight taper and overcut; fire hazard with oil dielectric. Typical uses are press tool dies, forging dies, injection moulds, cooling holes and wire-EDM cutting of punches and dies.

@@ -1,0 +1,103 @@
+# Engineering Materials and Classification of Steels
+
+## 12.1 Classification of Materials and Crystal Structure
+| Class | Examples | Typical features |
+| Ferrous metals | Steels, cast irons, wrought iron | Iron-based; strong, cheap, magnetic (mostly) |
+| Non-ferrous metals | Al, Cu, Zn, Pb, Sn, Ni, Ti, Mg and alloys | Light or corrosion resistant, good conductors |
+| Ceramics | Alumina, SiC, glass, cement | Hard, brittle, refractory, insulating |
+| Polymers | Thermoplastics, thermosets, elastomers | Light, corrosion resistant, low strength and temperature |
+| Composites | GFRP, CFRP, concrete, cermets, wood | Tailored properties |
+
+| Crystal structure | Atoms per unit cell | Coordination number | Packing factor | Examples |
+| Simple cubic | 1 | 6 | 0.52 | Polonium |
+| BCC | 2 | 8 | 0.68 | α-iron (ferrite), Cr, Mo, W, V, Na |
+| FCC | 4 | 12 | 0.74 | γ-iron (austenite), Al, Cu, Ni, Ag, Au, Pb |
+| HCP | 6 | 12 | 0.74 | Zn, Mg, Ti (α), Cd, Co |
+- FCC metals are the most ductile (many slip systems, close-packed planes); HCP metals have limited ductility at room temperature; BCC metals show a ductile–brittle transition.
+- Allotropy (polymorphism): iron – α (BCC, up to 912 °C), γ (FCC, 912–1394 °C), δ (BCC, 1394–1539 °C). Iron is magnetic below the Curie temperature 768 °C (β-iron is the old name for non-magnetic BCC between 768 and 912 °C).
+- Defects: point (vacancies, interstitials, substitutional), line (dislocations – edge and screw; plastic deformation occurs by dislocation motion), surface (grain boundaries, twin boundaries), volume (voids, inclusions). Grain refinement increases strength and toughness (Hall–Petch: σ_y = σ₀ + k d^(−1/2)).
+PYQ-TREND: APF of BCC 0.68 and FCC/HCP 0.74; coordination numbers 8 and 12 (very frequent); allotropic forms of iron and temperatures 912 °C and 1394 °C; Curie temperature 768 °C; plastic deformation by dislocation movement; fine grains increase strength (Hall–Petch).
+
+## 12.2 Classification of Steels (Paper-I Topic)
+| Basis | Classes |
+| Carbon content | Low-carbon (mild) steel < 0.3% C; medium-carbon 0.3–0.6% C; high-carbon 0.6–1.5% C (tool steels ≈ 0.8–1.5%) |
+| Alloy content | Plain carbon steel; low-alloy (< 5% total alloying); high-alloy (> 5–10%, e.g. stainless, HSS) |
+| Use | Structural, tool and die steels, spring steels, bearing steels, stainless, heat-resisting, free-cutting |
+| Deoxidation | Killed (fully deoxidised by Si/Al – no gas, used for forging, sound), semi-killed, rimmed (not deoxidised – good surface, for sheets), capped |
+| Microstructure | Hypo-eutectoid (< 0.8% C: ferrite + pearlite), eutectoid (0.8% C: pearlite), hyper-eutectoid (> 0.8% C: pearlite + cementite) |
+
+| Plain carbon steel | % C | Uses |
+| Dead mild steel | 0.05–0.15 | Wires, sheets, rivets, nails, chains, tubes |
+| Mild steel | 0.15–0.3 | Structural sections, bolts, shafts, boiler plates, machine parts |
+| Medium carbon steel | 0.3–0.6 | Axles, crankshafts, connecting rods, rails, gears, forgings |
+| High carbon steel | 0.6–0.8 | Springs, hammers, wire ropes, die blocks |
+| Tool steel | 0.8–1.5 | Chisels, drills, files, razors, taps, dies, cutting tools |
+- Effect of carbon: as C increases, hardness and tensile strength increase (UTS maximum near 0.8–1.0% C), while ductility, toughness, weldability and machinability decrease. Steels with more than about 0.3% C need preheating for welding.
+### Designations
+| System | Example | Meaning |
+| IS (old) | C40 / 40C8 | Plain carbon steel with 0.40% C (40C8: 0.8% Mn) |
+| IS alloy | 40Cr1, 35Mn6Mo3 | 0.40% C, 1% Cr; numbers after alloy symbols are multiplied factors |
+| IS cast iron | FG 200, SG 500/7 | Grey CI with UTS 200 MPa; SG iron 500 MPa, 7% elongation |
+| AISI–SAE | 1040 | 10 = plain carbon, 40 = 0.40% C |
+| AISI–SAE | 4140 | 41 = Cr–Mo steel, 0.40% C |
+| AISI | 304, 316 | Austenitic stainless steels (18-8 type) |
+| SAE prefix | 2xxx Ni, 3xxx Ni–Cr, 4xxx Mo, 5xxx Cr, 6xxx Cr–V, 9xxx Si–Mn | Main alloying element |
+PYQ-TREND: Carbon ranges of low/medium/high carbon steel (very frequent); uses of each grade (rails, springs, tools); 40C8 designation; AISI 1040; killed vs rimmed steel; effect of carbon on properties; eutectoid 0.8% C.
+
+## 12.3 Alloying Elements
+| Element | Main effects |
+| Nickel | Increases toughness, strength, corrosion resistance; austenite stabiliser; low-temperature toughness |
+| Chromium | Hardenability, wear and corrosion resistance (> 12% stainless); carbide former |
+| Molybdenum | Hardenability, high-temperature strength, reduces temper brittleness, creep resistance |
+| Tungsten | Hot hardness (red hardness) – high-speed steels; carbide former |
+| Vanadium | Grain refinement, hardness, wear resistance, fatigue strength; strong carbide former |
+| Manganese | Deoxidiser, combines with S (MnS) to prevent hot shortness, hardenability; Hadfield steel (12–14% Mn) – work-hardening, wear-resistant |
+| Silicon | Deoxidiser; electrical (transformer) steels – reduces hysteresis loss; spring steels (Si–Mn) |
+| Cobalt | Increases red hardness of HSS; only element that reduces hardenability (increases critical cooling rate) |
+| Titanium, niobium | Stabilise stainless steels against intergranular corrosion (carbide formers) |
+| Sulphur | Free-cutting (machinability) as MnS; otherwise causes hot shortness (FeS) |
+| Phosphorus | Increases strength but causes cold shortness (brittleness at low temperature) |
+| Lead | Free-machining steels and brasses |
+| Boron | Very small amounts greatly increase hardenability |
+| Aluminium | Deoxidiser, grain refiner; nitriding steels (Nitralloy) |
+- Special steels: stainless – ferritic (Cr 12–27%, magnetic), martensitic (Cr 12–18% + higher C, hardenable – cutlery, surgical tools), austenitic (18% Cr–8% Ni, non-magnetic, best corrosion resistance – 304); duplex; precipitation hardening. Weld decay (sensitisation): chromium carbide precipitation at grain boundaries at 450–850 °C – prevented by low carbon (304L) or stabilising with Ti/Nb.
+- High-speed steel (HSS): 18-4-1 (18% W, 4% Cr, 1% V, ≈ 0.7% C); molybdenum HSS (M2: 6% W, 5% Mo, 4% Cr, 2% V); cobalt HSS (super HSS). Retains hardness up to about 600 °C.
+- Hadfield manganese steel: 12–14% Mn, 1–1.4% C; austenitic, work-hardens under impact – rock crushers, railway crossings, excavator teeth.
+- Maraging steel (18% Ni, Co, Mo, very low C) – ultra-high strength by age hardening. Invar (36% Ni) – near-zero thermal expansion (measuring tapes, clock pendulums).
+PYQ-TREND: Element effects – Ni toughness, Cr corrosion, W red hardness, Mn prevents hot shortness, S free cutting, P cold shortness, Co reduces hardenability (very frequent); 18-4-1 HSS composition; 18-8 stainless; Hadfield steel; invar; weld decay in stainless steel.
+TIP: 'Sulphur – hot short; Phosphorus – cold short' (S for 'scorching', P for 'polar').
+
+## 12.4 Cast Irons
+| Type | Carbon form | Properties / uses |
+| Grey CI | Graphite flakes | Fracture grey; good castability, machinability, damping, compressive strength; brittle in tension – machine beds, engine blocks, pipes |
+| White CI | Cementite (Fe₃C), no free graphite | Very hard, brittle, white fracture; wear parts, raw material for malleable iron |
+| Malleable CI | Temper carbon (rosettes) | Made by annealing white CI (blackheart/whiteheart); ductile – pipe fittings, brackets, small parts |
+| Nodular (SG, ductile) CI | Spheroidal graphite nodules (Mg or Ce added) | High strength and ductility – crankshafts, gears, pipes |
+| Chilled CI | White surface, grey core (rapid surface cooling) | Rolls, wheels of railway wagons |
+| Mottled CI | Mixed grey and white | – |
+| Alloy CI (Ni-hard, Ni-resist) | – | Wear/corrosion/heat resistance |
+| Compacted graphite iron | Vermicular graphite | Engine blocks (between grey and SG) |
+- Cast irons contain 2–4 (up to 6.67) % C. Silicon promotes graphite formation (grey); manganese and rapid cooling promote cementite (white).
+- Wrought iron: almost pure iron (< 0.1% C) with slag fibres; tough, ductile, corrosion resistant; chains, hooks.
+PYQ-TREND: Grey CI flakes and good damping/machine beds; SG iron by Mg/Ce; malleable iron from white CI by annealing (very frequent); white CI hardest; chilled CI for rolls; carbon range 2–4%.
+
+## 12.5 Non-Ferrous Metals and Alloys
+| Alloy | Composition | Uses |
+| Brass | Cu + Zn (cartridge 70/30, Muntz 60/40, admiralty brass with Sn) | Cartridges, radiators, condenser tubes, fittings |
+| Bronze | Cu + Sn (phosphor bronze adds P; aluminium bronze; gun metal Cu–Sn–Zn 88-10-2) | Bearings, gears, springs, valves, statues |
+| Monel | Ni ≈ 67% + Cu ≈ 30% | Corrosion-resistant – marine, chemical, pumps |
+| Inconel | Ni–Cr–Fe | High-temperature parts – jet engines, furnaces |
+| Nichrome | Ni 80% + Cr 20% | Heating elements |
+| Duralumin | Al + 4% Cu + Mg + Mn | Aircraft structures (age-hardenable) |
+| Y-alloy | Al + Cu + Ni + Mg | Pistons, cylinder heads (high-temperature strength) |
+| Babbitt (white metal) | Sn + Sb + Cu (or Pb base) | Bearing linings |
+| German silver | Cu + Zn + Ni (no silver) | Utensils, decorative items |
+| Solder (soft) | Pb + Sn (now lead-free Sn–Ag–Cu) | Electrical joints |
+| Constantan | Cu 55% + Ni 45% | Thermocouples, resistors |
+| Magnalium | Al + Mg | Light instruments |
+| Stellite | Co + Cr + W + C | Cutting tools, valve seats, hardfacing |
+- Aluminium: low density (2.7), high conductivity, corrosion resistance by oxide film; precipitation (age) hardening of Al–Cu alloys: solution treatment, quenching, ageing (natural or artificial) forming GP zones.
+- Copper: highest conductivity after silver; used for electrical wires; hardened only by cold working (no heat treatment hardening except alloys like beryllium copper).
+- Titanium: high strength-to-weight ratio, corrosion resistance; aerospace, implants. Magnesium: lightest structural metal (1.74).
+- Polymers: thermoplastics (soften on heating, recyclable – PE, PP, PVC, PS, nylon, PTFE, acrylic) vs thermosets (cross-linked, set permanently – bakelite, epoxy, urea- and melamine-formaldehyde, polyester); elastomers (rubber – vulcanised with sulphur).
+PYQ-TREND: Brass = Cu + Zn, bronze = Cu + Sn (very frequent); gun metal composition; duralumin for aircraft; Monel Ni–Cu; babbitt for bearings; German silver has no silver; age hardening of duralumin; thermoplastic vs thermoset; bakelite thermoset; vulcanisation with sulphur.

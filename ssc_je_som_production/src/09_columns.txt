@@ -1,0 +1,38 @@
+# Columns and Struts
+
+## 9.1 Basics
+- Column: vertical compression member; strut: compression member in any position (e.g. in trusses). Short columns fail by crushing (σ = P/A reaches crushing strength); long columns fail by buckling (lateral instability) at stresses well below the crushing stress; intermediate columns fail by a combination.
+F: Slenderness ratio λ = L_e/k_min  (k_min = least radius of gyration = √(I_min/A))
+- Classification (mild steel, roughly): short λ < 30–32; medium 32–120; long λ > 120. Euler's formula is valid only when the Euler stress is below the proportional limit – for mild steel λ > about 80–100.
+- Buckling always occurs about the axis of least moment of inertia (least radius of gyration).
+PYQ-TREND: Slenderness ratio uses least radius of gyration (very frequent); short columns crush, long columns buckle; buckling about axis of minimum I.
+
+## 9.2 Euler's Theory
+- Assumptions: column initially perfectly straight, load exactly axial, material homogeneous, isotropic and elastic, self-weight neglected, column fails by buckling only, cross-section uniform, length large compared with cross-section.
+F: Euler crippling load P_e = π² E I_min/L_e²
+F: Euler critical stress σ_e = π²E/λ²
+| End conditions | Effective length L_e | P_e (in terms of π²EI/L²) |
+| Both ends hinged (pinned) | L | 1 |
+| One end fixed, other free | 2L | 1/4 |
+| Both ends fixed | L/2 | 4 |
+| One end fixed, other hinged | L/√2 ≈ 0.707L | 2 |
+- Ratio of crippling loads (fixed-free : hinged-hinged : fixed-hinged : fixed-fixed) = 1/4 : 1 : 2 : 4 = 1 : 4 : 8 : 16.
+- IS 800 practical effective lengths differ slightly (e.g. fixed–fixed 0.65L, fixed–hinged 0.8L, fixed–free 2L) to allow for imperfect fixity.
+- Limitations: ignores direct (crushing) stress, initial crookedness and eccentricity; overestimates the load for short and medium columns.
+FIG: euler
+PYQ-TREND: Euler load π²EI/L_e² and effective lengths for four end conditions (very frequent); ratio 1 : 4 : 8 : 16; Euler valid for long columns only; critical stress π²E/λ²; P ∝ 1/L².
+TIP: Doubling the length of a column reduces the Euler load to one-fourth; doubling the diameter of a solid circular column increases it 16 times (I ∝ d⁴).
+
+## 9.3 Rankine–Gordon and Other Formulae
+F: Rankine: 1/P_R = 1/P_c + 1/P_e → P_R = σ_c A/(1 + a λ²)
+F: Rankine constant a = σ_c/(π²E) (a ≈ 1/7500 for mild steel, 1/1600 for cast iron, 1/750 for timber, for hinged ends)
+F: Johnson's parabolic formula: σ = σ_y[1 − σ_y λ²/(4π²E)] (intermediate columns)
+F: Straight-line formula: P = σ_c A(1 − n λ)
+F: Secant formula (eccentric load e): σ_max = (P/A)[1 + (e y_c/k²) sec((L_e/2k)√(P/(EA)))]
+F: Perry–Robertson formula: allows for initial curvature; basis of IS code curves
+- Rankine's formula is empirical and valid for all slenderness ratios: for short columns P_e is very large and P_R ≈ P_c; for long columns P_c is large relative to P_e and P_R ≈ P_e.
+- Column with eccentric load: maximum stress = P/A + P e/Z (short column); long columns use secant formula.
+- Beam-columns: members with both axial load and lateral load.
+PYQ-TREND: Rankine formula combines crushing and buckling (very frequent); Rankine constant σ_c/π²E; Johnson formula for intermediate columns; secant formula for eccentric loads.
+Q: Derive Euler's formula for a column with both ends hinged.
+Consider a long column AB of length L hinged at both ends and subjected to an axial compressive load P. Let it buckle into a curve, with lateral deflection y at a distance x from end A. The bending moment at the section is M = −Py (it tends to reduce curvature). Using EI d²y/dx² = M: EI d²y/dx² + Py = 0, or d²y/dx² + α²y = 0 with α² = P/(EI). The general solution is y = C₁ cos αx + C₂ sin αx. At x = 0, y = 0, so C₁ = 0. At x = L, y = 0, so C₂ sin αL = 0. Since C₂ ≠ 0 for a buckled shape, sin αL = 0, giving αL = nπ. The smallest non-zero value (n = 1) gives the crippling load: √(P/EI) L = π, i.e. P_e = π²EI/L². The column buckles in a half sine wave, y = C₂ sin(πx/L), about the axis of least moment of inertia. For other end conditions the same analysis gives P_e = π²EI/L_e² with the appropriate effective length.

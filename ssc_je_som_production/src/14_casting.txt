@@ -1,0 +1,67 @@
+# Metal Casting – Patterns, Moulds and Gating
+
+## 14.1 Casting Basics
+- Casting: pouring molten metal into a mould cavity of the desired shape and allowing it to solidify. Suitable for complex shapes, internal cavities, very large parts and materials difficult to work (cast iron). Sand casting is the most widely used and versatile process.
+- Steps in sand casting: pattern making → mould and core making → melting → pouring → solidification and cooling → shakeout → fettling/cleaning → inspection.
+
+## 14.2 Patterns
+| Pattern type | Use |
+| Single-piece (solid) | Simple shapes, small quantities |
+| Split (two-piece) | Complex shapes – parting at the split line (e.g. pipes, spindles) |
+| Loose-piece | Projections that would prevent withdrawal |
+| Match-plate | Cope and drag halves mounted on a plate – machine moulding, mass production of small castings |
+| Cope and drag | Large castings – separate patterns |
+| Gated | Several patterns joined with gating – mass production of small parts |
+| Sweep | Symmetrical shapes (bells, large wheels) – template rotated about a spindle |
+| Skeleton | Very large castings – frame filled with loam |
+| Segmental | Circular parts made section by section |
+| Follow-board | Supports thin/weak patterns during moulding |
+- Pattern materials: wood (teak, pine, mahogany – cheap, easy, for few castings), metal (aluminium, cast iron, brass – long life, mass production), plaster, plastics (epoxy), wax (investment casting), expanded polystyrene (lost foam / full-mould).
+| Allowance | Purpose / typical value |
+| Shrinkage (contraction) | Pattern made larger to compensate solid contraction: cast iron ≈ 10 mm/m (1%), steel ≈ 20 mm/m (2%), aluminium ≈ 13 mm/m, brass ≈ 15 mm/m |
+| Machining (finish) | Extra metal on surfaces to be machined; more for cast iron/steel and large parts |
+| Draft (taper) | Taper on vertical faces (≈ 1–3° external; more on internal) for easy withdrawal |
+| Distortion (camber) | Shape deliberately distorted opposite to expected warping (U- and V-shapes, long thin parts) |
+| Shake (rapping) | Negative allowance – pattern made slightly smaller as rapping enlarges the cavity |
+- Only shrinkage of the solid (patternmaker's contraction) is compensated by the pattern allowance; liquid and solidification shrinkage are fed by risers. Grey cast iron has low shrinkage because graphite expansion offsets contraction.
+- Core prints: projections on the pattern that make seats in the mould to locate and support cores.
+- Colour coding of patterns (common practice): red/orange – surfaces to be machined; black – surfaces left unmachined; yellow – core prints; red stripes on yellow – loose pieces.
+PYQ-TREND: Pattern allowances – shake allowance is negative (very frequent); shrinkage allowance for cast iron 1% and steel 2%; match-plate patterns for mass production; sweep pattern for symmetrical shapes; draft for withdrawal; core prints.
+WARN: Shake (rapping) allowance is the only negative allowance – the pattern is made smaller, not larger.
+
+## 14.3 Moulding Sand and Cores
+- Green sand: silica sand (SiO₂, 85–91%) + clay binder (bentonite/fireclay, 5–20%) + water (2–8%) + additives; 'green' means moist, not baked. Dry sand moulds are baked for better strength and finish (larger castings). Loam sand: high clay content (≈ 50%) for large castings with sweeps.
+| Sand property | Meaning |
+| Permeability (porosity) | Allows gases and steam to escape – measured by permeability number (air flow through standard specimen) |
+| Green strength | Strength of moist sand to hold shape |
+| Dry strength | Strength after drying – resist metal erosion |
+| Refractoriness | Ability to withstand high temperatures without fusing |
+| Collapsibility | Ability to break down as casting contracts – avoids hot tears |
+| Flowability / plasticity | Ability to fill pattern details under ramming |
+| Cohesiveness / adhesiveness | Sand grains sticking to each other / to the flask |
+- Additives: sea coal/coal dust (better surface finish, prevents metal penetration in cast iron), cereal binders, wood flour (collapsibility), silica flour (hot strength), molasses, dextrin.
+- Facing sand: fine sand next to the pattern; backing (floor) sand fills the rest; parting sand (dry, clay-free) prevents cope and drag sticking.
+- Sand testing: grain fineness number (AFS sieve test), clay content, moisture content, permeability test, strength tests (universal sand testing machine), mould hardness tester.
+- Cores form internal cavities: made of sand with binders (oil, sodium silicate–CO₂ process, resin shell cores, cold-box process); baked to give strength. Requirements: strength, permeability (vent), collapsibility, refractoriness. Chaplets are metal supports that hold cores in position and fuse into the casting. Core boxes produce cores.
+- Moulding methods: hand moulding (bench, floor, pit), machine moulding (jolt, squeeze, jolt-squeeze, sand slinger – for large moulds).
+- CO₂ process: sand mixed with sodium silicate is hardened by passing CO₂ gas – quick, strong moulds and cores without baking.
+PYQ-TREND: Moulding sand properties – permeability, collapsibility, refractoriness (very frequent); bentonite clay binder; CO₂ process uses sodium silicate; chaplets support cores; sea coal for cast iron finish; grain fineness number; parting sand clay-free.
+
+## 14.4 Gating and Risering
+- Gating system: pouring basin (cup) → sprue (tapered downward to avoid aspiration) → sprue well (base) → runner → ingates (gates) → mould cavity. Skim bob and strainer/filter trap slag and dross.
+| Gate | Feature |
+| Top gate | Metal falls directly into cavity – fast filling, favourable temperature gradient, but erosion and turbulence; simple shapes, ferrous metals |
+| Bottom gate | Fills from below – minimal turbulence and erosion, but unfavourable thermal gradient (hottest metal at bottom); non-ferrous, tall castings |
+| Parting-line (side) gate | Metal enters at parting plane – most common; compromise |
+| Step gate | Several ingates at different heights – large, tall castings |
+F: Gating ratio = sprue area : runner area : ingate area – pressurised (e.g. 1 : 0.75 : 0.5, choke at gates; ferrous) or unpressurised (e.g. 1 : 2 : 2 to 1 : 4 : 4, choke at sprue; aluminium, magnesium)
+F: Sprue taper (avoid aspiration): A₁/A₂ = √(h₂/h₁)  (continuity + Bernoulli; velocity at bottom V = √(2gh))
+F: Filling time (top gate): t = V/(A_g √(2gH));  bottom gate: t = (A_m/A_g)(2/√(2g))(√H − √(H − h_m))
+- Riser (feeder): reservoir of molten metal that feeds the casting as it shrinks during solidification. It must solidify after the casting and be placed at the heaviest section (last to freeze). Open riser (top open to atmosphere) and blind riser (enclosed); exothermic or insulating sleeves keep riser liquid longer.
+F: Chvorinov's rule: solidification time t_s = B (V/A)ⁿ  (n ≈ 2) – modulus M = V/A
+F: Riser design: riser modulus ≥ 1.2 × casting modulus (solidification time of riser ≈ 1.2–1.44 × casting)
+F: Caine's method: freezing ratio X = (A/V)_casting/(A/V)_riser;  most efficient riser shape is a sphere, cylinder with H = D commonly used
+- Directional solidification: solidification should progress from the farthest point towards the riser; achieved by chills (metal inserts that speed cooling locally), padding, riser placement, insulating sleeves.
+- Shrinkage stages: liquid contraction (fed by riser), solidification shrinkage (fed by riser – causes shrinkage cavities/porosity if not fed), solid contraction (compensated by pattern allowance).
+PYQ-TREND: Chvorinov's rule t ∝ (V/A)² (very frequent); riser should freeze last – placed at thickest section; sprue tapered to prevent aspiration; chills promote directional solidification; pressurised vs unpressurised gating; bottom gating minimises turbulence; spherical riser most efficient; three stages of shrinkage.
+TIP: For the same volume, a sphere has the least surface area, so a spherical riser stays liquid the longest. Among a sphere, cylinder and cube of equal volume, the cube solidifies fastest.

@@ -1,0 +1,90 @@
+# Machine Tools – Lathe, Drilling, Shaper, Planer, Milling and Others
+
+## 19.1 Lathe
+- Main parts: bed (cast iron, with V and flat guideways), headstock (spindle, speed gearbox, live centre), tailstock (dead centre, drilling, reaming; set over for taper turning), carriage (saddle, cross-slide, compound rest, tool post, apron), feed rod (turning feeds), lead screw (thread cutting only, Acme thread, engaged by half-nut/split nut), quick-change gearbox.
+- Specification: swing over bed (maximum diameter that can be turned), distance between centres (maximum length), bed length, spindle bore, power, speed range.
+- Lathe types: engine (centre) lathe, bench lathe, speed lathe (wood/polishing), tool-room lathe (precision), capstan and turret lathes (semi-automatic – multiple tools, batch production), automatic lathes (single and multi-spindle; Swiss-type for small precise parts), CNC lathe (turning centre).
+- Capstan vs turret: capstan has a ram-type tool head moving on a saddle that is clamped – light, bar work, smaller jobs; turret head mounted directly on a saddle that moves on the bed – heavy, chuck work, longer travel.
+- Work-holding: three-jaw self-centring chuck (round/hexagonal), four-jaw independent chuck (irregular/eccentric), collet (bar stock, accurate), face plate (irregular shapes), between centres with lathe dog/carrier, mandrel (hollow parts on centres), steady rest (fixed to bed – long slender jobs) and follower rest (moves with carriage).
+| Operation | Remarks |
+| Facing | Tool moved across the end (cross feed) |
+| Plain/step turning | Tool moved parallel to axis |
+| Taper turning | Compound rest swivel (short steep tapers), tailstock set-over (long gentle tapers, between centres), taper-turning attachment, form tool, combined feeds |
+| Thread cutting | Lead screw with change gears; single-point tool ground to thread form |
+| Knurling | Diamond/straight pattern rolled (not cut) on handles – low speed |
+| Chamfering, grooving, parting-off, drilling, boring, reaming, tapping, spinning, eccentric turning | – |
+F: Cutting speed V = πDN/1000 (m/min, D in mm, N in rpm)
+F: Machining time (turning) t = L/(f N) per pass (L = length including approach and overtravel)
+F: MRR (turning) = π D_avg d f N ≈ V f d
+F: Taper: tan(α/2) = (D − d)/(2L);  tailstock set-over S = (D − d) L_total/(2L_taper)  (whole job length L_total)
+F: Thread cutting: (driver teeth/driven teeth) = pitch of work/pitch of lead screw
+F: Depth of cut in turning d = (D₁ − D₂)/2
+PYQ-TREND: Lead screw used only for thread cutting (very frequent); lathe specification (swing, distance between centres); tailstock set-over for long tapers; compound rest for short steep tapers; capstan vs turret; steady rest vs follower rest; four-jaw chuck for irregular work; knurling is forming not cutting; change gear ratio = work pitch/lead screw pitch.
+WARN: Feed in turning is in mm per revolution, while feed in milling is usually expressed per tooth or per minute – do not mix them in time calculations.
+
+## 19.2 Drilling, Boring and Reaming
+- Drilling machines: portable, sensitive (bench – hand feed, small holes), upright (pillar/column), radial (arm swings and head moves – large heavy work, holes at different locations without moving the job), gang (several spindles in a row – sequence of operations), multi-spindle (many holes simultaneously), deep-hole (gun drilling).
+- Twist drill: point angle 118° for general work (larger for hard materials, ≈ 90° or smaller for soft materials/plastics); helix angle ≈ 24–30°; lip clearance 8–12°; chisel edge (zero/negative rake, does not cut but extrudes – responsible for most thrust); web thickness increases towards shank; flutes remove chips. Tapered shank (Morse taper) or straight shank.
+| Operation | Purpose |
+| Drilling | Producing a hole |
+| Reaming | Finishing and sizing a drilled hole accurately (small stock removal ≈ 0.1–0.4 mm) |
+| Boring | Enlarging and correcting hole location/straightness with a single-point tool |
+| Counterboring | Enlarging the end of a hole cylindrically for bolt heads |
+| Countersinking | Conical enlargement for flat-head screws |
+| Spot facing | Smoothing the surface around a hole for seating |
+| Tapping | Internal threads with a tap (taper, plug, bottoming taps) |
+| Trepanning | Cutting an annular groove to produce a large hole leaving a core |
+F: Drilling time t = (L + 0.3D)/(f N);  MRR = (πD²/4) f N;  cutting speed at periphery V = πDN/1000
+F: Tap drill size ≈ major diameter − pitch (metric threads)
+- Boring machines: horizontal, vertical (vertical turret lathe for large heavy parts), jig boring (precise hole location for jigs and dies).
+PYQ-TREND: Point angle of twist drill 118° (very frequent); radial drilling machine for large jobs; reaming finishes holes; counterboring vs countersinking; chisel edge produces thrust; trepanning; drilling time formula; tap drill size.
+
+## 19.3 Shaper, Planer and Slotter
+| Machine | Motion | Use |
+| Shaper | Tool reciprocates (ram), work fed intermittently | Small flat surfaces, slots, keyways; quick-return mechanism (crank and slotted lever, Whitworth, hydraulic) |
+| Planer | Work (table) reciprocates, tool fed | Large heavy flat surfaces – machine beds, guideways; double-housing and open-side planers |
+| Slotter | Vertical shaper – ram moves vertically | Internal keyways, splines, internal profiles |
+F: Quick return ratio = time of cutting stroke/time of return stroke = (360° − θ)/θ (θ = crank angle for return) – typically 3 : 2
+F: Average cutting speed (shaper) V = L N (1 + m)/1000 m/min  (m = return/cutting time ratio, N = strokes/min)
+F: Machining time = B/(f N) (B = width of job, f = feed per stroke)
+- Shaper is specified by maximum stroke length; planer by table size (length × width) and height under the cross-rail.
+- Clapper box on the shaper tool head allows the tool to lift on the return stroke to avoid rubbing.
+PYQ-TREND: Quick return mechanism in shaper (crank and slotted lever) (very frequent); planer for large work – work reciprocates; slotter for internal keyways; clapper box; shaper specified by stroke length; quick return ratio.
+
+## 19.4 Milling
+- Milling: multi-point rotating cutter removes material while the work is fed. Machines: column-and-knee (horizontal, vertical, universal – table swivels for helical milling), bed-type (production), planer-type (plano-miller, large work), special (thread, gear, profile), CNC machining centres.
+- Up (conventional) milling: cutter rotation opposes feed direction – chip thickness starts at zero and increases; tends to lift the work; rubbing at start causes more tool wear; safer on machines with backlash; preferred for castings/forgings with hard scale. Down (climb) milling: cutter rotation in the feed direction – chip starts thick; presses work down onto the table; better finish and tool life, less power; requires backlash eliminator; preferred on CNC machines.
+| Cutter | Use |
+| Plain (slab) | Flat horizontal surfaces |
+| Side and face; straddle and gang milling | Steps, slots; two/multiple surfaces at once |
+| End mill, slot drill | Slots, pockets, profiles (vertical milling) |
+| Face mill | Large flat surfaces |
+| Form cutters (convex, concave, gear) | Profiles; involute gear cutters |
+| T-slot, dovetail, Woodruff key cutter | Special slots |
+| Slitting saw | Cutting off, narrow slots |
+| Fly cutter | Single-point cutter in an arbour – economical |
+F: Cutting speed V = πDN/1000;  table feed f_m = f_z × Z × N (mm/min)
+F: Milling time t = (L + approach)/f_m;  approach (slab milling) = √(d(D − d));  face milling (centred) = D/2 approx.
+F: MRR = w d f_m;  maximum uncut chip thickness (slab) t_max = 2 f_z √(d/D)
+### Indexing (dividing head, 40 : 1 worm ratio)
+F: Simple indexing: crank turns = 40/N (N = number of divisions);  fractional turns using holes in index plate circles (Brown & Sharpe/Cincinnati plates)
+F: Direct (rapid) indexing: 24-hole plate on spindle – divisions that are factors of 24
+F: Angular indexing: crank turns = θ°/9 (one crank turn = 9°)
+F: Differential indexing for numbers not possible by simple indexing (e.g. 61, 127): gear train between spindle and index plate
+PYQ-TREND: Up vs down (climb) milling (very frequent); simple indexing 40/N; angular indexing θ/9; straddle and gang milling; universal milling machine for helical gears; table feed = f_z Z N; T-slot and Woodruff cutters; down milling needs backlash eliminator.
+TIP: Indexing example: N = 24 → 40/24 = 1 2/3 turns = 1 full turn + 12 holes on an 18-hole circle.
+
+## 19.5 Broaching, Gear Cutting and Other Processes
+- Broaching: multi-tooth tool (broach) with progressively increasing tooth height (rise per tooth) pulled or pushed through or over the work; roughing, semi-finishing and finishing teeth in one pass. Internal (keyways, splines, polygonal holes) and surface broaching. Very fast and accurate for mass production; broach costly and specific to one shape.
+| Gear manufacturing | Method / remarks |
+| Form milling (gear milling) | Form cutter on milling machine with indexing; set of 8 cutters for each module; low accuracy, jobbing |
+| Gear shaping (generating) | Pinion-shaped cutter reciprocates and rotates with blank; internal gears, cluster gears |
+| Gear hobbing (generating) | Hob (worm-like cutter) rotates in mesh with rotating blank – fastest and most accurate generating method for spur and helical gears, worm wheels; cannot cut internal gears |
+| Gear planing (rack cutter) | Sunderland/Maag process |
+| Bevel gear generators | Gleason machines |
+| Gear finishing | Shaving (before hardening), grinding and lapping/honing (after hardening), burnishing |
+| Gear forming without cutting | Rolling, casting, sintering, extrusion, stamping |
+- Thread production: single-point turning, die-head chasers, taps and dies, thread milling, thread rolling (strongest, mass production, no chip), thread grinding (precise, hardened).
+PYQ-TREND: Hobbing is the fastest generating process and cannot cut internal gears (very frequent); gear shaper cuts internal gears; form milling uses 8 cutters per module; broaching for internal keyways and splines – mass production; gear shaving before hardening, grinding after; thread rolling strongest threads.
+Q: Compare up milling and down milling.
+In up (conventional) milling the cutter rotates against the direction of the table feed. Each tooth begins cutting at zero chip thickness, rubs and slides before it bites, and the chip thickness increases to a maximum at exit. The cutting force tends to lift the workpiece off the table, so stronger clamping is needed; the rubbing causes more tool wear and a poorer finish, and chips are carried into the cutting zone. However, because the feed force opposes the table motion, backlash in the feed screw is taken up, making it safe on conventional machines, and it is preferred for work with hard scale (castings, forgings) since the tooth starts under the surface. In down (climb) milling the cutter rotates in the direction of the feed. Each tooth starts with maximum chip thickness and leaves at zero, so there is no rubbing, giving longer tool life, better finish and lower power; the cutting force presses the work down onto the table, simplifying fixtures, and chips are thrown behind the cutter. But the cutter tends to pull the work into itself, so any backlash in the lead screw causes jerky feed and possible damage – a backlash eliminator (or ball screw as on CNC machines) is essential. Down milling is unsuitable for work with hard surface scale.

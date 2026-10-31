@@ -1,0 +1,57 @@
+# CNC Machines, Automation, Jigs and Fixtures
+
+## 22.1 NC and CNC Fundamentals
+- Numerical control (NC): machine controlled by coded instructions (originally punched tape). CNC: dedicated computer stores and edits part programs. DNC: direct/distributed numerical control – several CNC machines linked to a central computer. Adaptive control: parameters adjusted automatically in response to measured conditions (forces, temperature).
+| Classification | Types |
+| Motion control | Point-to-point (positioning – drilling, spot welding, punching), straight-cut, contouring/continuous path (milling, turning of profiles – interpolation) |
+| Control loop | Open loop (stepper motors, no feedback) and closed loop (servo motors with feedback from encoders/linear scales) |
+| Programming dimension | Absolute (G90 – from program zero) and incremental (G91 – from previous point) |
+| Axes | Z-axis along the main spindle; X horizontal (longest travel, perpendicular to Z); Y completes right-hand system; A, B, C rotations about X, Y, Z |
+- Machine elements: recirculating ball screws (low friction, no backlash, high efficiency ≈ 90%+), linear motion guideways, servo/stepper drives, encoders (rotary, linear scales), automatic tool changer (ATC), automatic pallet changer (APC), tool magazines (drum/chain).
+- Machining centre: CNC milling-based machine with ATC performing milling, drilling, boring, tapping in one set-up; turning centre: CNC lathe with turret and live tools.
+- Interpolation: linear (G01), circular (G02 clockwise, G03 counter-clockwise), helical, parabolic.
+### Common G and M codes (ISO 6983 / RS-274)
+| Code | Function | Code | Function |
+| G00 | Rapid positioning | M00 | Program stop |
+| G01 | Linear interpolation (feed) | M01 | Optional stop |
+| G02 | Circular interpolation CW | M02 | End of program |
+| G03 | Circular interpolation CCW | M03 | Spindle on CW |
+| G04 | Dwell | M04 | Spindle on CCW |
+| G17/G18/G19 | XY / ZX / YZ plane selection | M05 | Spindle stop |
+| G20/G21 | Inch / metric input | M06 | Tool change |
+| G28 | Return to reference point | M07/M08 | Coolant on (mist/flood) |
+| G40/G41/G42 | Cutter radius compensation cancel/left/right | M09 | Coolant off |
+| G43/G49 | Tool length compensation +/cancel | M30 | End of program and rewind |
+| G90/G91 | Absolute / incremental | M98/M99 | Subprogram call / return |
+| G94/G95 | Feed per minute / per revolution | – | – |
+- Program words: N (sequence number), G (preparatory), X/Y/Z (coordinates), I/J/K (arc centre offsets), F (feed), S (spindle speed), T (tool), M (miscellaneous). Canned cycles (G81 drilling, G83 peck drilling, G84 tapping) simplify repetitive operations.
+- CAD/CAM: part programs generated automatically from CAD models; APT (Automatically Programmed Tools) was an early high-level NC language.
+F: Stepper motor: step angle = 360°/steps per revolution;  table movement per pulse (BLU) = lead of screw × step angle/360° (with gear ratio)
+F: Number of pulses = distance/BLU;  feed rate = pulse frequency × BLU
+PYQ-TREND: G00 rapid, G01 linear, G02 CW, G03 CCW (very frequent); M03 spindle CW, M06 tool change, M30 end and rewind; Z-axis along spindle; point-to-point vs contouring; open vs closed loop; ball screws in CNC; G90/G91; DNC; machining centre with ATC.
+TIP: Spindle codes in order: M03 (on, CW) → M04 (on, CCW) → M05 (stop). Coolant: M08 on → M09 off.
+
+## 22.2 Automation and Flexible Manufacturing
+| Concept | Description |
+| Fixed (hard) automation | Dedicated equipment for very high volumes – transfer lines (automobile engine blocks) |
+| Programmable automation | Batch production with reprogramming – CNC machines, robots |
+| Flexible manufacturing system (FMS) | CNC machines + automated material handling (AGVs, conveyors) + central computer – variety of parts in mid-volume |
+| Computer-integrated manufacturing (CIM) | Integration of design, planning, manufacturing and business by computers |
+| Group technology (GT) | Grouping parts with similar design/process features into families (Opitz, MICLASS coding); cellular manufacturing |
+| CAPP | Computer-aided process planning – variant (retrieval) and generative |
+| Industrial robots | Configurations: Cartesian, cylindrical, polar (spherical), articulated (jointed-arm, most common), SCARA (assembly); end effectors – grippers and tools; degrees of freedom (6 for full positioning and orientation) |
+| Additive manufacturing (3-D printing) | Layer-by-layer building: stereolithography (SLA – photopolymer resin, UV laser), fused deposition modelling (FDM – thermoplastic filament), selective laser sintering (SLS – powder), direct metal laser sintering/melting (DMLS/SLM), laminated object manufacturing (LOM), 3DP (binder jetting) |
+| Industry 4.0 | IoT, cyber-physical systems, digital twins, big data in manufacturing |
+PYQ-TREND: FMS components; group technology and Opitz coding; robot configurations – SCARA for assembly; SLA uses photopolymer, FDM uses thermoplastic filament (very frequent); transfer lines for mass production; CAPP types; CIM.
+
+## 22.3 Jigs and Fixtures
+- Jig: holds and locates the work and guides the cutting tool (through hardened drill bushes) – used mainly for drilling, reaming, tapping. Fixture: holds and locates the work but does not guide the tool; tool is set by setting blocks/feeler gauges – milling, turning, grinding, welding, assembly, inspection.
+- 3-2-1 principle of location: a block has 12 degrees of freedom (6 translations ±X, ±Y, ±Z and 6 rotations); three locating points on the primary face, two on the secondary and one on the tertiary restrict 9 degrees of freedom, and clamping restricts the remaining 3.
+- Locators: flat/plane locators, pins (cylindrical, diamond/relieved pins to avoid redundant location), V-blocks (cylindrical work, centres the work), nesting locators, adjustable locators (for rough castings). Locating surfaces should be machined surfaces where possible; avoid redundant location; allow for burrs and chip clearance (relief grooves).
+- Clamps: strap clamps, screw clamps, cam clamps (quick action), toggle clamps, hinged, equalising, pneumatic/hydraulic power clamping. Clamping force should act against locators/solid support, not on unsupported areas, and must not distort the work.
+- Drill bushes: press-fit (fixed), renewable, slip (quick change for drilling and reaming in sequence), liner bushes.
+- Drill jig types: template, plate, leaf (latch), channel, box (tumble – several faces), indexing, pot jig, sandwich, angle-plate.
+- Fixture types: milling (with setting block and tenons/keys), turning (on face plate/chuck), welding, assembly, inspection fixtures.
+PYQ-TREND: Jig guides the tool, fixture only holds (very frequent); 3-2-1 principle restricts 9 DOF by locators and 3 by clamps; 12 degrees of freedom; diamond pin avoids redundant location; slip bushes for successive operations; V-block for cylindrical work; setting block in milling fixtures.
+Q: Explain the 3-2-1 principle of location used in jig and fixture design.
+A workpiece free in space can move in twelve ways – translation in the positive and negative directions along the X, Y and Z axes (6) and rotation clockwise and counter-clockwise about each axis (6). To machine it accurately and repeatedly these freedoms must be removed. In the 3-2-1 principle, the largest machined face (primary datum) rests on three locating points that are as far apart as possible and not in a straight line; they define a plane and restrict five freedoms – downward translation along Z and rotations about the X and Y axes in both directions. Next, the work is pushed against two locators on an adjacent side (secondary datum), which restrict translation in one direction along X (or Y) and the remaining rotations about Z – three more. Finally, one locator on the third face (tertiary datum) restricts translation in one direction along the third axis. Together the six locating points restrict nine degrees of freedom; the remaining three (translations away from the locators) are restricted by clamping forces that press the work against the locators. Using more points than required (redundant location) on the same surface can cause rocking or distortion and should be avoided, while locators should be positioned on accurate, machined surfaces and placed to resist cutting forces.

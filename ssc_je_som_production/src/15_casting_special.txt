@@ -1,0 +1,67 @@
+# Special Casting Processes, Melting and Casting Defects
+
+## 15.1 Special Casting Processes
+
+| Process | Principle | Typical products / features |
+| Shell moulding (Croning) | Heated metal pattern (≈ 200–250 °C) covered with sand + thermosetting resin (phenol-formaldehyde) – thin shell forms; two shells clamped | Good finish and accuracy, thin sections; crankshafts, cylinder heads, small parts in mass production |
+| Investment (lost-wax) casting | Wax pattern coated with refractory slurry (ceramic), wax melted out, metal poured into hot shell | Very complex, precise parts; excellent finish; turbine blades, jewellery, dental, surgical, small intricate parts |
+| Gravity die (permanent mould) casting | Metal poured by gravity into reusable metal mould | Non-ferrous: pistons, gear blanks; better finish and properties than sand |
+| Pressure die casting – hot chamber | Injection mechanism immersed in molten metal; plunger forces metal into die | Low-melting alloys (Zn, Sn, Pb, Mg) – fast cycle |
+| Pressure die casting – cold chamber | Metal ladled into a cold chamber, then injected at high pressure | Higher-melting alloys (Al, Cu/brass, Mg) |
+| Centrifugal casting (true) | Mould rotated about its axis; metal forced outward; no core needed | Hollow cylindrical parts – pipes, liners, bushes; dense, impurity-free outer layer (impurities to the inner surface) |
+| Semi-centrifugal | Rotation about vertical axis, central core may be used | Symmetrical solids – wheels, pulleys, gear blanks |
+| Centrifuging (centrifuge casting) | Several moulds around a central sprue, rotated | Small irregular parts (not symmetrical) |
+| Continuous casting | Molten metal poured into water-cooled open-ended mould and withdrawn continuously | Billets, blooms, slabs – steel plants |
+| Slush casting | Metal poured and dumped after a thin shell solidifies | Hollow ornamental items, toys (low-melting alloys) |
+| Squeeze casting | Metal solidifies under high pressure | Near-net shape, fine grain |
+| Plaster mould casting | Gypsum mould | Non-ferrous, good finish |
+| Ceramic mould casting | Ceramic slurry mould | High-temperature alloys, precise |
+| Full-mould / lost-foam (evaporative pattern) casting | Expanded polystyrene pattern left in sand; vaporises when metal is poured | No parting line, no cores for complex shapes; engine blocks |
+| Vacuum (V-process) moulding | Dry sand held by vacuum with plastic film | Good finish, no binders |
+- Die casting advantages: high production rate, thin sections, excellent finish and accuracy, minimal machining. Limitations: high die cost (economic only for large quantities), limited to non-ferrous alloys of lower melting point, porosity from entrapped air, size limits.
+- Centrifugal force in true centrifugal casting: speed chosen so that G-factor (centrifugal/gravity) ≈ 60–80 for horizontal moulds.
+F: Rotational speed for G-factor GF: N = (30/π)√(2 g GF/D)  (D = inside diameter)
+PYQ-TREND: Investment casting for turbine blades and jewellery (very frequent); hot chamber die casting for zinc and cold chamber for aluminium; true centrifugal casting for pipes without core; shell moulding uses thermosetting resin; slush casting for hollow toys; continuous casting for billets; lost-foam uses polystyrene; die casting suits large quantities of non-ferrous parts.
+TIP: Hot chamber → low melting point metals (Zn, Sn, Pb); cold chamber → aluminium and brass (they would attack the immersed hot-chamber parts).
+
+## 15.2 Melting Furnaces
+
+| Furnace | Use |
+| Cupola | Melting cast iron (most common in foundries); vertical shaft charged with coke, pig iron, scrap and limestone flux; air through tuyeres; continuous operation |
+| Crucible furnace (pit, tilting, lift-out) | Small quantities of non-ferrous metals (Al, brass, bronze) |
+| Electric arc furnace (direct arc) | Steel melting from scrap; large capacity |
+| Induction furnace (coreless, channel) | Steel, cast iron, non-ferrous; clean, good temperature control, stirring action |
+| Reverberatory furnace | Large quantities of non-ferrous metals (Cu, Al); flame reflected from roof |
+| Open hearth / converters (Bessemer, LD/BOF) | Steel making from pig iron (LD uses pure oxygen) |
+| Blast furnace | Iron ore to pig iron (coke, limestone, hot blast) |
+- Cupola zones (bottom to top): well (crucible), combustion (oxidising) zone, reducing zone, melting zone, preheating zone, stack. Coke-to-iron ratio ≈ 1:8 to 1:10. Limestone forms slag with impurities and ash.
+PYQ-TREND: Cupola for cast iron (very frequent); cupola zones; limestone as flux; induction furnace clean melting; crucible furnace for non-ferrous; LD converter uses oxygen.
+
+## 15.3 Casting Defects
+
+| Defect | Description | Main causes | Remedies |
+| Blowholes | Smooth rounded cavities at or below the surface | Gas from moist sand, low permeability, excess moisture, hard ramming | Control moisture, improve permeability and venting, moderate ramming |
+| Pin holes | Many tiny gas holes | Hydrogen dissolved in metal, wet charge/sand | Degassing, dry materials |
+| Shrinkage cavity | Irregular cavity in heavy section | Inadequate feeding, poor riser design | Proper risers, chills, directional solidification |
+| Porosity (gas/shrinkage) | Fine voids throughout | Dissolved gases or interdendritic shrinkage | Degassing, better feeding |
+| Misrun | Mould not completely filled | Low pouring temperature, slow pouring, thin sections, low fluidity | Raise pouring temperature and speed, better gating |
+| Cold shut | Two metal streams meet without fusing – visible line | Low temperature, interrupted pouring, poor gating | Higher temperature, continuous pouring, better gating |
+| Hot tear (hot crack) | Ragged crack while metal is hot and weak | Hindered contraction, poor collapsibility of mould/core, abrupt section changes | Improve collapsibility, uniform sections, fillets |
+| Mould shift (shift) | Mismatch at parting line | Misaligned cope and drag, worn pins | Proper alignment, dowel pins |
+| Core shift | Internal cavity displaced | Core not secured, buoyancy, wrong core prints | Chaplets, proper core prints |
+| Swell | Enlargement of casting | Soft ramming, metallostatic pressure | Firm ramming |
+| Fin / flash | Thin projection at parting line | Poor fit of mould halves, insufficient weighting | Proper clamping |
+| Scab | Rough patches where sand layer broke and metal flowed behind | Sand expansion, low hot strength, uneven ramming | Additives (wood flour), uniform ramming |
+| Rat tail / buckle | Thin lines/depressions from sand expansion | Expansion of silica sand | Additives, lower pouring temperature |
+| Drop | Sand falls from cope into cavity | Low green strength, soft ramming | Better sand strength and ramming |
+| Metal penetration | Metal enters sand pores – rough surface | Coarse sand, high temperature/pressure | Fine facing sand, sea coal, coatings |
+| Fusion | Sand fused to casting | Low refractoriness, high pouring temperature | Better sand refractoriness |
+| Wash / cut | Sand eroded by metal flow | Low sand strength, high metal velocity | Stronger sand, better gating |
+| Slag inclusion | Slag particles inside casting | Poor skimming, no strainer | Skimming, strainers, skim bobs |
+| Hard spots | Local chilled areas in cast iron | Rapid cooling, composition | Uniform cooling |
+| Warpage | Distortion | Uneven cooling, residual stress | Uniform sections, stress relief |
+- Inspection: visual, dimensional, pressure tests, dye penetrant (surface cracks), magnetic particle (ferromagnetic, surface/near-surface), radiography (X-ray/γ-ray – internal porosity, shrinkage), ultrasonic testing (internal flaws, thickness), eddy current.
+PYQ-TREND: Blowholes from moisture and low permeability; misrun vs cold shut (very frequent); hot tear from poor collapsibility; swell from soft ramming; scab and rat tail from sand expansion; core shift prevented by chaplets; radiography for internal porosity; dye penetrant for surface cracks.
+WARN: Misrun – metal freezes before filling the mould; cold shut – the mould fills but two streams fail to fuse. Both come from low fluidity or low temperature, but the result is different.
+Q: Explain investment casting with its advantages and applications.
+Investment (lost-wax) casting begins with making a wax (or plastic) pattern for each casting, usually by injecting wax into a metal die. Several patterns are attached to a wax sprue to form a 'tree'. The assembly is dipped repeatedly in a fine refractory slurry (silica or zircon flour with a binder such as ethyl silicate) and coated with stucco sand, building a ceramic shell; alternatively it is placed in a flask and surrounded by investment slurry. After drying, the mould is heated so that the wax melts and runs out (hence 'lost wax'), and then fired at high temperature to harden it and burn out residues. Molten metal is poured into the hot mould, often by gravity, vacuum or centrifugal force. After solidification the ceramic is broken away and the castings are cut from the tree. Advantages: very intricate shapes and thin sections, no parting line, excellent surface finish and dimensional accuracy, little or no machining, and any metal including high-temperature alloys can be cast. Limitations: expensive, size limited (usually below a few kilograms, though larger is possible), long process cycle. Applications: gas-turbine blades and vanes, jewellery, dental crowns, surgical implants, small precision machine parts, firearm components and golf-club heads.

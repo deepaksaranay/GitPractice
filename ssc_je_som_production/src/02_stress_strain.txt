@@ -1,0 +1,59 @@
+# Simple Stresses and Strains
+
+## 2.1 Stress and Strain
+- Stress: internal resisting force per unit area, σ = P/A (N/m² = Pa; 1 MPa = 1 N/mm²). Normal stress (tensile or compressive) acts perpendicular to the section; shear stress τ acts parallel to it.
+- Strain: deformation per unit original dimension (dimensionless). Linear strain e = δL/L; shear strain φ = change in a right angle (radians); volumetric strain e_v = δV/V.
+F: σ = P/A;  e = δL/L;  τ = P/A (shear);  bearing stress σ_b = P/(d t)
+F: Hooke's law: σ = E e (within proportional limit);  τ = G φ;  σ_v = K e_v
+F: Elongation of a bar: δL = PL/(AE)
+F: Poisson's ratio μ = − lateral strain/longitudinal strain (0 ≤ μ ≤ 0.5)
+- Typical Poisson's ratio: steel 0.25–0.33 (≈ 0.3), cast iron 0.21–0.26, aluminium 0.33, concrete 0.1–0.2, rubber ≈ 0.5, cork ≈ 0, auxetic materials negative.
+- Typical E: steel 200–210 GPa, cast iron ≈ 100–150 GPa, copper ≈ 110–120 GPa, aluminium ≈ 70 GPa, brass ≈ 100 GPa, concrete ≈ 25–30 GPa, rubber ≈ 0.01–0.1 GPa; G of steel ≈ 80 GPa.
+- Saint-Venant's principle: away from the point of load application (about one width), the stress distribution depends only on the resultant, not on the way the load is applied.
+- Principle of superposition: for linear-elastic small deformations, effects of several loads can be added.
+PYQ-TREND: Hooke's law, units of stress; Poisson's ratio range 0–0.5 and value for steel/rubber/cork (very frequent); δL = PL/AE; Saint-Venant's principle.
+
+## 2.2 Elastic Constants
+F: E = 2G(1 + μ);  E = 3K(1 − 2μ);  E = 9KG/(3K + G);  μ = (3K − 2G)/(6K + 2G)
+F: Volumetric strain of a rectangular bar under axial load: e_v = e(1 − 2μ);  for three-dimensional stresses: e_v = (σx + σy + σz)(1 − 2μ)/E
+F: Volumetric strain of a cylindrical rod: e_v = e_L − 2e_d (e_d = magnitude of diametral strain);  of a sphere: e_v = 3 × diametral strain
+- Number of independent elastic constants: isotropic material 2 (any two of E, G, K, μ); orthotropic 9; general anisotropic 21.
+- When μ = 0.5 (incompressible), K → ∞ and E = 3G. When μ = 0, E = 2G = 3K.
+- For steel, G ≈ 0.4E and K ≈ 0.83E (with μ = 0.3: K = E/1.2).
+PYQ-TREND: E = 2G(1 + μ) and E = 3K(1 − 2μ) (very frequent); E = 9KG/(3K + G); number of independent constants for isotropic material = 2; incompressible material μ = 0.5.
+TIP: For μ = 0.25: E = 2.5G, K = E/1.5 → E : G : K = 1 : 0.4 : 0.67.
+
+## 2.3 Bars of Varying Section and Compound Bars
+F: Stepped bar: δL = (P/E) Σ(Lᵢ/Aᵢ)
+F: Uniformly tapering circular bar (diameters d₁, d₂): δL = 4PL/(π E d₁d₂)
+F: Tapering rectangular bar (thickness t, widths a, b): δL = PL ln(a/b)/(E t (a − b))
+F: Bar hanging under self-weight: δL = ρgL²/(2E) = WL/(2AE) (half that of the same weight applied at the end)
+F: Bar of uniform strength (constant stress σ under self weight + load): A₂ = A₁ e^(ρgL/σ)
+F: Conical bar under self-weight: δL = ρgL²/(6E)
+- Composite (compound) bar of two materials sharing a load in parallel: equal strains (compatibility) and sum of loads (equilibrium).
+F: Composite bar: P = σ₁A₁ + σ₂A₂;  σ₁/E₁ = σ₂/E₂ → σ₁ = (E₁/E₂) σ₂ (modular ratio m = E₁/E₂)
+- Statically indeterminate bar fixed at both ends with a load in between: reactions share the load inversely as the lengths on either side: R_A = P b/L, R_B = P a/L.
+PYQ-TREND: Elongation due to self-weight ρgL²/2E (very frequent); tapering bar 4PL/(πEd₁d₂); composite bar equal strain; modular ratio; bar of uniform strength exponential profile.
+WARN: Self-weight elongation is half of the elongation produced by the same total weight applied at the free end.
+
+## 2.4 Thermal Stresses
+F: Free thermal expansion δ = αLΔT (no stress)
+F: Fully restrained bar: thermal stress σ = EαΔT (compressive on heating, tensile on cooling) – independent of length and area
+F: Partially restrained (gap δ allowed): σ = E(αLΔT − δ)/L
+F: Composite bar of two materials heated (α₁ > α₂): σ₁A₁ = σ₂A₂ (equilibrium);  σ₁/E₁ + σ₂/E₂ = (α₁ − α₂)ΔT (compatibility) → material with higher α in compression
+F: Tapered circular bar (d₁ > d₂) fixed at both ends and heated: P = EαΔT π d₁d₂/4;  σ_max (at small end) = EαΔT d₁/d₂
+- Typical α: steel 12 × 10⁻⁶ /°C, copper 17 × 10⁻⁶, aluminium 23 × 10⁻⁶, brass 19 × 10⁻⁶, concrete ≈ 10–12 × 10⁻⁶ (nearly same as steel – hence RCC works), invar ≈ 1 × 10⁻⁶.
+PYQ-TREND: Thermal stress EαΔT independent of length (very frequent); compound bar – higher-α material in compression on heating; steel and concrete have similar α; gap allowance.
+
+## 2.5 Strain Energy and Impact Loading
+F: Strain energy (axial) U = σ²V/(2E) = P²L/(2AE);  strain energy density = σ²/(2E)
+F: Proof resilience = σ_p²V/(2E) (σ_p = proof/elastic limit stress);  modulus of resilience = σ_p²/(2E)
+F: Gradually applied load: σ = P/A;  suddenly applied load: σ = 2P/A (twice);  impact (falling weight W from height h): σ = (W/A)[1 + √(1 + 2AEh/(WL))]
+F: If h ≫ δ: σ ≈ √(2WhE/(AL))
+F: Shear strain energy U = τ²V/(2G);  torsion of solid shaft U = (τ²/(4G)) V;  hollow shaft U = (τ²/(4G)) (D² + d²)/D² × V
+F: Bending: U = ∫M² dx/(2EI);  beam of uniform strength stores more energy
+- Modulus of toughness: total area under the stress–strain curve up to fracture (energy absorbed per unit volume before fracture).
+- Castigliano's first theorem: ∂U/∂P = δ (deflection in the direction of load P). Maxwell's reciprocal theorem: deflection at A due to load at B = deflection at B due to the same load at A.
+PYQ-TREND: Suddenly applied load gives double stress (very frequent); strain energy formula σ²V/2E; proof resilience vs modulus of resilience; impact stress; Castigliano's theorem; Maxwell's reciprocal theorem; strain energy of solid shaft τ²V/4G.
+Q: Derive the expression for stress produced by a suddenly applied load.
+Let a load P be applied suddenly to a bar of area A and length L (at zero height). The load does work P·δL as it moves through the full extension δL, since its magnitude is constant throughout. The bar stores strain energy U = σ²AL/(2E). Equating, P δL = σ²AL/(2E). With δL = σL/E: P σL/E = σ²AL/(2E), giving σ = 2P/A. Thus the stress under a suddenly applied load is twice the stress under the same load applied gradually (where the work done is ½PδL because the load increases from zero). The maximum extension is also twice; the bar then oscillates about the static equilibrium position and, with damping, settles at σ = P/A. For a load falling from a height h, the work done is P(h + δL), and solving the resulting quadratic gives σ = (P/A)[1 + √(1 + 2AEh/(PL))], which reduces to 2P/A when h = 0.

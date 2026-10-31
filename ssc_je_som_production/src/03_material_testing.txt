@@ -1,0 +1,75 @@
+# Mechanical Properties and Material Testing
+
+## 3.1 Stress–Strain Diagram (Mild Steel)
+- Tensile test on a standard specimen (gauge length L₀ = 5.65√A₀ in IS/ISO proportional specimens) on a universal testing machine (UTM) gives load–extension data converted to the engineering stress–strain curve.
+| Point / region | Meaning |
+| Proportional limit (A) | Stress ∝ strain up to here (Hooke's law); slope = E |
+| Elastic limit (B) | Maximum stress without permanent set; slightly above A |
+| Upper yield point (C) | Stress at which yielding starts; depends on loading rate and specimen |
+| Lower yield point (D) | Stress stays nearly constant while strain increases (Lüders bands) – taken as yield strength |
+| Strain hardening (D–E) | Stress rises again as dislocations multiply |
+| Ultimate tensile strength (E) | Maximum engineering stress; necking begins |
+| Fracture point (F) | Breaking stress (engineering) is lower than UTS because area reduces in the neck; true fracture stress is higher |
+- Materials without a clear yield point (aluminium, high-strength steel, copper) use 0.2% offset (proof) stress.
+- True stress σ_t = σ(1 + e); true strain ε = ln(1 + e). The true stress–strain curve keeps rising up to fracture.
+F: Percentage elongation = (L_f − L₀)/L₀ × 100;  percentage reduction in area = (A₀ − A_f)/A₀ × 100
+F: Factor of safety = ultimate (or yield) stress/working (allowable) stress
+F: True stress σ_t = σ(1 + e);  true strain ε = ln(1 + e);  Hollomon: σ_t = K εⁿ (n = strain-hardening exponent = true strain at UTS)
+- Ductile materials (mild steel, copper, aluminium): large plastic deformation, cup-and-cone fracture at 45° shear; brittle materials (cast iron, glass, concrete): little deformation, flat fracture normal to the load in tension; in compression cast iron fails by shear along an inclined plane (≈ 45–55°).
+- Ductility criterion: elongation > 5% → ductile; < 5% → brittle.
+- Fracture of a ductile bar in torsion occurs on a plane perpendicular to the axis (maximum shear); brittle (cast iron) bar in torsion breaks along a 45° helix (maximum tensile stress).
+FIG: stress_strain
+PYQ-TREND: Sequence proportional limit → elastic limit → yield → UTS → fracture (very frequent); necking starts at UTS; 0.2% proof stress; cup-and-cone fracture of ductile materials; percentage elongation and reduction in area; factor of safety; torsion fracture planes of ductile vs brittle materials.
+WARN: The breaking (fracture) stress on the engineering curve is less than the ultimate stress only because original area is used; the true fracture stress is the highest.
+
+## 3.2 Mechanical Properties
+| Property | Meaning | Example |
+| Elasticity | Regains shape after load removal | Steel, rubber |
+| Plasticity | Permanent deformation without fracture | Lead, clay |
+| Ductility | Can be drawn into wires (tensile plastic deformation) | Gold (most ductile), silver, platinum, copper, aluminium, mild steel |
+| Malleability | Can be hammered/rolled into sheets (compressive plastic deformation) | Gold (most malleable), silver, aluminium, copper, tin, lead |
+| Brittleness | Fractures with little deformation | Cast iron, glass, concrete |
+| Toughness | Ability to absorb energy up to fracture (area under σ–ε curve) | Mild steel, wrought iron |
+| Resilience | Energy absorbed within elastic limit | Spring steel |
+| Hardness | Resistance to indentation, scratching, abrasion | Diamond, tool steel |
+| Stiffness | Resistance to elastic deformation (E) | Steel > aluminium |
+| Fatigue | Failure under repeated/fluctuating stress below UTS | Shafts, springs, aircraft parts |
+| Creep | Slow, time-dependent plastic deformation under constant load (high temperature) | Turbine blades, boiler tubes, lead pipes at room temperature |
+| Machinability | Ease of machining | Free-cutting steel, brass |
+| Weldability / castability | Ease of welding/casting | Low-carbon steel / cast iron |
+PYQ-TREND: Ductility vs malleability (very frequent); gold most ductile and malleable; toughness = area under curve up to fracture; resilience within elastic limit; creep at high temperature; fatigue below UTS.
+
+## 3.3 Hardness Tests
+| Test | Indenter | Hardness number | Remarks |
+| Brinell (BHN) | Hardened steel or tungsten-carbide ball, 10 mm, 3000 kgf for steel | Load/curved area of indentation | Not for very hard or thin materials; large impression – good for castings |
+| Vickers (VHN/HV) | Diamond square pyramid, 136° between faces | Load/surface area of impression (1.854 P/d²) | All materials, thin sections; same scale over wide range |
+| Rockwell (HR) | Diamond cone 120° (scale C, hard steels) or 1/16 in steel ball (scale B, soft) | From depth of penetration (minor load 10 kgf + major load) | Quick, direct reading; most used in production |
+| Knoop | Elongated diamond pyramid | Microhardness | Thin coatings, brittle materials |
+| Shore scleroscope | Diamond-tipped hammer dropped | Rebound height | Portable, non-destructive; large parts, rolls |
+| Mohs scale | Scratch test | 1 (talc) to 10 (diamond) | Minerals |
+| Poldi / Moore | Portable impact tests | – | Field testing |
+F: BHN = 2P/[πD(D − √(D² − d²))]  (P in kgf, D ball diameter, d impression diameter, mm)
+F: VHN = 1.854 P/d²  (d = mean diagonal);  approximate: UTS (MPa) ≈ 3.45 × BHN for steels
+- Mohs scale order: talc, gypsum, calcite, fluorite, apatite, orthoclase, quartz, topaz, corundum, diamond.
+PYQ-TREND: Vickers indenter 136° diamond pyramid (very frequent); Rockwell C uses 120° diamond cone and measures depth; Brinell uses ball and area; Shore scleroscope rebound; Mohs scale; UTS ≈ 3.45 BHN.
+
+## 3.4 Impact, Fatigue and Creep Tests
+| Test | Description |
+| Izod | Cantilever specimen (75 mm × 10 mm square, V-notch 45°, 2 mm deep) struck by pendulum; notch faces the striker; energy absorbed in joules |
+| Charpy | Simply supported specimen (55 mm × 10 × 10, V or U notch) struck at the centre opposite the notch; also used for ductile–brittle transition temperature |
+| Fatigue (rotating beam, R.R. Moore) | Specimen rotated under bending so stress reverses each cycle; S–N curve plotted |
+| Creep test | Constant load at constant high temperature; strain vs time |
+| Torsion test | Gives G and shear strength |
+| Compression test | Brittle materials (cast iron, concrete) |
+| Bend test | Ductility of welds and bars |
+- Ductile-to-brittle transition: BCC metals (steels) become brittle at low temperature (Titanic hull, Liberty ships); FCC metals (aluminium, copper, austenitic stainless) do not show it.
+- Fatigue: S–N (Wöhler) curve; steels show an endurance limit (≈ 0.5 × UTS for polished specimens, at about 10⁶–10⁷ cycles) below which life is infinite; non-ferrous alloys (aluminium) have no true endurance limit – fatigue strength quoted at a given number of cycles.
+- Factors reducing fatigue strength: stress concentration (notches, holes, keyways), poor surface finish, corrosion, size, residual tensile stress, high temperature. Improved by shot peening (compressive residual stress), surface hardening, polishing, fillets.
+- Fatigue fracture surface: smooth beach marks (progression zone) and a rough instantaneous fracture zone.
+F: Soderberg: σ_a/σ_e + σ_m/σ_y = 1/N;  Goodman: σ_a/σ_e + σ_m/σ_u = 1/N;  Gerber: σ_a/σ_e + N(σ_m/σ_u)² = 1/N
+F: Stress concentration factor K_t = σ_max/σ_nominal;  for a small circular hole in a wide plate K_t = 3;  elliptical hole K_t = 1 + 2a/b
+- Creep curve: primary (decreasing rate – strain hardening), secondary (steady-state, minimum rate – design region), tertiary (accelerating, necking, rupture). Creep becomes significant above ≈ 0.4 T_m (absolute melting temperature). Stress relaxation: stress falls with time at constant strain (bolts, springs at high temperature).
+PYQ-TREND: Izod (cantilever) vs Charpy (simply supported) (very frequent); endurance limit ≈ 0.5 UTS and S–N curve; Goodman/Soderberg lines; stress concentration factor 3 for a circular hole; creep stages – secondary used for design; shot peening improves fatigue; BCC metals ductile–brittle transition.
+TIP: Izod – 'I' stands upright: specimen held vertically like a cantilever. Charpy – lies like a beam.
+Q: Explain the stress–strain diagram for mild steel in tension, indicating all salient points.
+When a mild-steel specimen is loaded in tension, stress is at first proportional to strain up to the limit of proportionality, the slope being Young's modulus. Slightly beyond lies the elastic limit, up to which the specimen regains its original length when unloaded. Further loading brings it to the upper yield point, where the stress drops suddenly to the lower yield point; the material then elongates considerably at nearly constant stress (yielding), forming Lüders bands, as dislocations break free from carbon atoms. After yielding, strain hardening raises the stress again with increasing strain until the ultimate tensile strength is reached, the maximum engineering stress. At this point a local neck forms; the load-carrying area decreases rapidly, so the engineering stress (based on original area) falls until fracture at the breaking point, giving a cup-and-cone fracture. Total elongation of about 25–30% and reduction in area of about 60% indicate high ductility. The true stress–strain curve, based on instantaneous area, continues to rise up to fracture. Materials without a distinct yield point use the 0.2% proof stress.

@@ -1,0 +1,15 @@
+# How to Use These Notes
+
+## Why SOM and Production Matter
+- Strength of Materials (SOM) with Engineering Mechanics is one of the highest-scoring blocks of SSC JE Mechanical Paper-I, and it is the backbone of the numerical questions in Paper-II. Most questions test a formula, a standard result (deflection of a cantilever, Euler load for an end condition, Mohr's circle radius) or a definition.
+- Production Engineering appears in Paper-I through 'classification of steels' and engineering materials, and in Paper-II and many state/PSU JE papers through casting, welding, forming, machining, metrology and industrial engineering. The questions are largely factual – the process that suits a job, the defect and its cause, the tool or gauge used – so tables and comparison lists are the fastest way to learn it.
+- Part A (Chapters 1–11) covers Engineering Mechanics and SOM. Part B (Chapters 12–24) covers Production Engineering. Solved numericals, recall banks, Paper-II answers and revision sheets follow.
+
+## How Each Chapter Is Built
+- Concept lines and tables give the theory in exam language.
+- Yellow formula boxes collect every formula; they are also gathered automatically in the Formula Appendix at the end.
+- ★ PYQ-TREND boxes list the concepts that SSC JE papers have repeatedly tested (based on recurring topics, not copied questions). They are gathered in the PYQ-Trend Appendix for final revision.
+- ✔ TOPPER TRICK boxes give shortcuts; ✖ COMMON MISTAKE boxes warn about traps.
+- ✎ DESCRIPTIVE Q boxes give model answers for Paper-II.
+- Sign conventions used: tensile stress positive; sagging bending moment positive; shear force positive when the left portion tends to move up relative to the right.
+TIP: For SOM, memorise the 'standard cases' tables (deflection, BM, Euler loads) – most numericals are a direct substitution into one of them.

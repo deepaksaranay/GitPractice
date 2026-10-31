@@ -1,0 +1,96 @@
+# Solved Numericals – Set 7 (Quick One-Concept Drills)
+Very short problems for speed practice – aim for 30–45 seconds each (no options).
+
+## 25G.1 Mechanics and SOM Drills
+### Problem 1 – Equal forces
+Two forces of 10 N each act at 120°. Find the resultant.
+F: R = 2P cos(θ/2) = 2 × 10 × cos60° = 10 N
+### Problem 2 – Friction angle
+μ = 0.577. Find the angle of repose.
+F: tanφ = 0.577 → φ = 30°
+### Problem 3 – Centroid of composite area
+A T-section has flange 100 × 20 mm and web 20 × 80 mm (web below flange). Find ȳ from the bottom of the web.
+F: ȳ = (2000 × 90 + 1600 × 40)/3600 = (180,000 + 64,000)/3600 = 67.8 mm
+### Problem 4 – Polar MOI of square
+Find I_z of a 100 mm square about its centroid.
+F: I_x = I_y = 100⁴/12 = 8.33 × 10⁶ mm⁴ → I_z = 1.67 × 10⁷ mm⁴
+### Problem 5 – Strain from stress
+Steel is stressed to 100 MPa. Find the strain.
+F: e = 100/2 × 10⁵ = 5 × 10⁻⁴
+### Problem 6 – Bulk modulus from E and μ
+E = 120 GPa, μ = 0.3. Find K.
+F: K = 120/(3 × 0.4) = 100 GPa
+### Problem 7 – Max shear from principal stresses
+σ₁ = 60 MPa, σ₂ = 20 MPa (plane stress). Find in-plane and absolute maximum shear.
+F: In-plane = 20 MPa;  absolute (σ₃ = 0) = 60/2 = 30 MPa
+### Problem 8 – Mohr's circle radius
+σx = 50, σy = 10, τ = 15 MPa. Find R.
+F: R = √(20² + 15²) = 25 MPa
+### Problem 9 – Max BM of SSB with two loads
+A 6 m SSB carries 10 kN at 2 m and 4 m. Find maximum BM.
+F: R = 10 kN each → M under loads = 10 × 2 = 20 kN·m (constant between loads)
+### Problem 10 – Section modulus ratio
+Compare Z of a 100 × 200 beam placed with depth 200 vs depth 100.
+F: Z₁ = 100 × 200²/6, Z₂ = 200 × 100²/6 → ratio 2:1
+### Problem 11 – Shape factor use
+A rectangular beam yields at M_y = 20 kN·m. Find the plastic moment.
+F: M_p = 1.5 × 20 = 30 kN·m
+### Problem 12 – Deflection ratio
+A cantilever's length is doubled under the same end load. Deflection becomes?
+F: δ ∝ L³ → 8 times
+### Problem 13 – Torque from power
+A shaft transmits 20 kW at 1000 rpm. Find torque.
+F: T = 60 × 20,000/(2π × 1000) = 191 N·m
+### Problem 14 – Shear stress in shaft
+Find the shear stress in a 40 mm shaft carrying 191 N·m.
+F: τ = 16 × 191,000/(π × 64,000) = 15.2 MPa
+### Problem 15 – Spring cut in half
+A spring of stiffness 10 N/mm is cut into two equal halves. Stiffness of each? Both in parallel?
+F: Each 20 N/mm;  parallel 40 N/mm
+### Problem 16 – Euler ratio
+Ratio of Euler loads: both ends fixed vs one end fixed other free.
+F: 4 : 1/4 = 16 : 1
+### Problem 17 – Thin cylinder hoop stress
+d = 500 mm, t = 5 mm, p = 1 MPa. Find σ_c and σ_l.
+F: σ_c = 50 MPa;  σ_l = 25 MPa
+### Problem 18 – Rotating ring
+A steel ring (ρ = 7800) has rim speed 50 m/s. Find hoop stress.
+F: σ = ρv² = 7800 × 2500 = 19.5 MPa
+### Problem 19 – Water thrust on dam
+Find the water thrust per metre on a vertical face 10 m deep.
+F: P = ρgh²/2 = 1000 × 9.81 × 100/2 = 490.5 kN/m acting at 3.33 m above base
+### Problem 20 – Riveted joint efficiency
+Pitch 60 mm, rivet hole 20 mm (tearing governs). Find efficiency.
+F: η = (60 − 20)/60 = 66.7%
+
+## 25G.2 Production Drills
+### Problem 21 – Lever rule
+Find the percentage of pearlite in a 0.4% C steel at room temperature (ferrite ≈ 0% C).
+F: Pearlite = 0.4/0.8 = 50%
+### Problem 22 – Draft allowance
+A 200 mm deep pattern face needs 1° draft. Find the taper per side.
+F: 200 × tan1° = 3.5 mm
+### Problem 23 – Cutting speed
+A 100 mm workpiece is turned at 300 rpm. Find V.
+F: V = π × 100 × 300/1000 = 94.2 m/min
+### Problem 24 – Spindle speed
+Required V = 30 m/min with a 20 mm drill. Find N.
+F: N = 1000V/(πD) = 30,000/62.83 = 477 rpm
+### Problem 25 – Chip thickness ratio
+Uncut thickness 0.25 mm, chip 0.75 mm. Find r and chip reduction coefficient.
+F: r = 0.333;  ζ = 3
+### Problem 26 – Taylor with n = 0.5
+If speed is halved (n = 0.5), tool life becomes?
+F: T ∝ V^(−1/n) = V^(−2) → 4 times
+### Problem 27 – Angular indexing
+Index 27°.
+F: 27/9 = 3 full turns
+### Problem 28 – Vernier least count
+1 MSD = 0.5 mm; 25 vernier divisions equal 24 main scale divisions. Find LC.
+F: LC = 1 MSD − 1 VSD = 0.5 − (24 × 0.5/25) = 0.5 − 0.48 = 0.02 mm
+### Problem 29 – Number of IT grade steps
+How does tolerance change from IT7 to IT9?
+F: 16i → 40i → 2.5 times
+### Problem 30 – Standard time with allowance on standard time
+Normal time 5 min; allowance 20% of standard time. Find standard time.
+F: ST = 5/(1 − 0.2) = 6.25 min (note: if allowance is 20% of normal time, ST = 6 min)

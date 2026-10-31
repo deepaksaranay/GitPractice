@@ -1,0 +1,43 @@
+# Non-Destructive Testing, Composites, Ceramics and Polymers
+
+## 3B.1 Non-Destructive Testing (NDT)
+| Method | Principle | Detects / remarks |
+| Visual inspection (with borescopes, magnifiers) | Direct observation | Surface defects; first and cheapest step |
+| Dye (liquid) penetrant test (DPT) | Coloured/fluorescent dye drawn into surface-open cracks by capillary action; developer draws it out | Surface-breaking cracks, porosity in any non-porous material (metals, ceramics, plastics); cannot find subsurface defects |
+| Magnetic particle test (MPT) | Magnetised part; flux leaks at defects attract iron particles | Surface and near-surface cracks in ferromagnetic materials only (not aluminium, austenitic stainless); best when crack perpendicular to field |
+| Radiography (X-ray, γ-ray: Co-60, Ir-192) | Differential absorption of penetrating radiation recorded on film/digital detector | Internal volumetric defects – porosity, blowholes, inclusions, shrinkage in castings and welds; permanent record; radiation hazard; planar cracks parallel to beam hard to see |
+| Ultrasonic testing (UT) | High-frequency sound (0.5–25 MHz) pulses reflected from interfaces (pulse-echo) or transmitted | Internal cracks, laminations, thickness measurement; deep penetration; needs couplant; skilled operator; good for planar defects |
+| Eddy current testing (ECT) | Induced eddy currents change near defects (coil impedance) | Surface/near-surface cracks in conductive materials, coating thickness, sorting alloys, tube inspection |
+| Acoustic emission | Stress waves released by growing cracks | Monitoring pressure vessels during loading |
+| Thermography (infrared) | Temperature patterns | Delaminations, electrical hot spots |
+| Leak testing (bubble, helium, pressure decay) | Fluid escape | Leaks in vessels and piping |
+- Destructive tests: tensile, compression, hardness (slightly destructive), impact, fatigue, creep, bend, torsion, metallography (macro/micro-etch).
+PYQ-TREND: Magnetic particle test only for ferromagnetic materials (very frequent); dye penetrant for surface cracks only; radiography for internal porosity in castings and welds; ultrasonic for internal cracks and thickness; eddy current for conductive materials; Co-60 and Ir-192 gamma sources.
+TIP: Surface only → DPT; surface + just below, ferrous → MPT; deep inside → UT or radiography.
+
+## 3B.2 Composite Materials
+- Composite: two or more distinct phases combined to obtain properties not possible individually – matrix (continuous, binds and protects, transfers load) and reinforcement (fibres, particles, flakes – carries load).
+| Classification | Examples |
+| Polymer matrix composites (PMC) | GFRP (glass fibre + polyester/epoxy – boats, tanks, car bodies), CFRP (carbon fibre + epoxy – aircraft, sports goods), aramid (Kevlar) – bullet-proof vests |
+| Metal matrix composites (MMC) | Al–SiC, Al–B; brake rotors, engine parts – high stiffness and wear resistance |
+| Ceramic matrix composites (CMC) | SiC–SiC, C–C (carbon–carbon) – brake discs of aircraft, rocket nozzles, heat shields |
+| Particulate composites | Concrete (aggregate in cement), cermets (WC–Co cemented carbides), filled polymers |
+| Laminated / structural | Plywood, sandwich panels (honeycomb core), clad metals, bimetal strips |
+| Natural composites | Wood (cellulose fibres in lignin), bone |
+F: Rule of mixtures (longitudinal, iso-strain): E_c = E_f V_f + E_m V_m;  σ_c = σ_f V_f + σ_m V_m
+F: Transverse (iso-stress): 1/E_c = V_f/E_f + V_m/E_m
+- Advantages: high specific strength and stiffness, corrosion resistance, fatigue resistance, tailored directional properties, low thermal expansion; disadvantages: anisotropy, high cost, delamination, difficult repair and recycling.
+- Manufacturing: hand lay-up, spray-up, filament winding, pultrusion, resin transfer moulding, autoclave curing of prepregs, compression moulding (SMC/BMC).
+PYQ-TREND: GFRP and CFRP uses; Kevlar for bullet-proof vests; cermets as particulate composites; rule of mixtures (frequent); wood and bone as natural composites; C–C composites for brake discs and rocket nozzles.
+
+## 3B.3 Ceramics and Polymers
+- Ceramics: compounds of metals and non-metals (oxides – alumina Al₂O₃, zirconia ZrO₂; carbides – SiC, WC; nitrides – Si₃N₄, CBN; silicates – glass, porcelain, cement). Ionic/covalent bonds give high hardness, high melting point, chemical inertness, electrical and thermal insulation, high compressive strength; but brittleness and low tensile strength, poor thermal-shock resistance (except some). Uses: refractories, cutting tools, abrasives, spark-plug insulators, bearings, armour, turbine coatings, electronics substrates.
+- Refractories: acid (silica, fireclay), basic (magnesite, dolomite), neutral (chromite, alumina, graphite, SiC). Use acid refractories with acid slags and basic with basic slags.
+- Glass: amorphous (non-crystalline) silicate – soda-lime (windows, bottles), borosilicate/Pyrex (low expansion, lab ware), lead glass (optical, crystal), fused silica; tempered (toughened) glass has compressive surface stress.
+- Polymers: thermoplastics (linear/branched chains, soften on heating, recyclable – polyethylene, polypropylene, PVC, polystyrene, nylon, PTFE (Teflon – lowest friction, chemical inertness), PMMA (acrylic, Perspex), polycarbonate, PET, ABS); thermosets (cross-linked, rigid, cannot be remelted – phenol-formaldehyde (Bakelite), urea- and melamine-formaldehyde, epoxy, polyester, polyurethane (both types)); elastomers (natural rubber – polyisoprene, vulcanised with sulphur; synthetic – neoprene, nitrile, silicone, SBR).
+- Polymerisation: addition (chain-growth – polyethylene from ethylene) and condensation (step-growth with by-product – nylon, polyester, Bakelite). Degree of polymerisation = molecular weight of polymer/molecular weight of mer.
+- Glass-transition temperature T_g: below it an amorphous polymer is glassy and brittle; above it rubbery.
+- Additives: plasticisers (flexibility – PVC), fillers, stabilisers, colourants, flame retardants, lubricants.
+PYQ-TREND: Bakelite is a thermoset; PTFE lowest coefficient of friction; vulcanisation of rubber with sulphur (very frequent); addition vs condensation polymerisation; glass is amorphous; acid/basic/neutral refractories; plasticisers in PVC; T_g.
+Q: Compare magnetic particle testing and dye penetrant testing.
+Both are surface inspection methods. In dye penetrant testing the cleaned surface is coated with a low-viscosity coloured or fluorescent penetrant that enters surface-breaking cracks by capillary action; after a dwell time, the excess is removed and a developer (white powder) draws the penetrant back out, revealing the defects as coloured or glowing lines (under UV light). It can be applied to any non-porous material – ferrous and non-ferrous metals, ceramics and plastics – is portable and cheap, but detects only defects open to the surface and requires careful cleaning. In magnetic particle testing the part is magnetised by a yoke, coil or direct current; at a crack the magnetic flux leaks out of the surface, and fine iron particles (dry or in a liquid, often fluorescent) sprinkled on the surface gather at the leakage field, outlining the defect. It detects surface and slightly subsurface defects (a few millimetres), is fast and sensitive, but works only on ferromagnetic materials (carbon and low-alloy steels, cast iron, nickel), needs the field roughly perpendicular to the crack (so two directions are tested), and the part may need demagnetising afterwards.

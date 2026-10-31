@@ -1,0 +1,35 @@
+# Special Topics – Rotating Rings and Discs, Dams, Curved Bars and Contact Stresses
+
+## 11B.1 Rotating Rings and Discs
+- A thin ring (e.g. flywheel rim, pulley rim) rotating about its axis develops hoop tension due to centrifugal force.
+F: Thin rotating ring: hoop stress σ = ρ v² = ρ ω² r²  (independent of cross-sectional area)
+F: Maximum peripheral speed for allowable stress: v_max = √(σ/ρ)  (steel σ = 100 MPa → v ≈ 113 m/s)
+F: Solid disc of uniform thickness: σ_r = σ_θ = (3 + μ)ρω²R²/8 at the centre (maximum)
+F: Disc with central hole (inner radius small): σ_θ,max at hole ≈ (3 + μ)ρω²R²/4 – twice the solid-disc value
+F: Rotating long cylinder (μ effects similar) and disc of uniform strength: thickness t = t₀ e^(−ρω²r²/(2σ))
+- Because a small central hole doubles the maximum stress, turbine discs are made solid or with thick hubs, and discs of uniform strength are used for high-speed turbines (profile thinning outward).
+PYQ-TREND: Hoop stress in rotating ring ρv² (frequent); limiting rim speed of flywheels; small hole doubles the stress in a rotating disc; disc of uniform strength.
+
+## 11B.2 Dams and Retaining Walls (Masonry Structures)
+- A masonry dam is checked for no tension at the base: the resultant of self-weight and water thrust must cut the base within the middle third. Other stability checks: against overturning (factor of safety = restoring moment/overturning moment, usually ≥ 1.5), sliding (μΣV ≥ ΣH), and crushing (maximum compressive stress ≤ allowable).
+F: Water pressure on vertical face of height h: P = ρgh²/2 per unit length, acting at h/3 above the base
+F: Base stresses (width b, total vertical load W, eccentricity e): σ_max,min = (W/b)(1 ± 6e/b)
+F: Earth pressure (Rankine, active, dry cohesionless soil): p = k_a w h with k_a = (1 − sinφ)/(1 + sinφ);  total P = k_a w h²/2 at h/3
+- Chimneys: wind pressure P = k p A (k = 0.6–0.7 for circular sections, 1 for square) causes bending at the base combined with self-weight: σ = W/A ± M/Z.
+PYQ-TREND: Water thrust ρgh²/2 acting at h/3 (very frequent); no tension in dam base requires e ≤ b/6; Rankine active earth pressure coefficient; chimney wind load coefficient for circular sections.
+
+## 11B.3 Curved Bars, Springs and Thin Rings
+- Curved beam (Winkler–Bach): stress distribution hyperbolic; neutral axis shifted towards the centre of curvature by e = R̄ − R_n; maximum stress at the inner fibre. For a rectangular section R_n = h/ln(R_o/R_i); for a circular section R_n = (√R_o + √R_i)²/4.
+- Crane hooks are designed with trapezoidal or T sections, thicker on the inner side, to balance inner tensile and outer compressive stresses.
+- Chain links and rings: a closed circular ring under diametral load W has maximum BM 0.182WR at the load points (by strain energy/Castigliano) – used to design chain links.
+F: Closed ring under diametral pull W: M at load = 0.182WR (= WR(1/2 − 1/π));  M at 90° = −0.137WR... (sign opposite)
+F: Curved bar with small curvature (R/h > 10): use straight-beam formula with little error
+PYQ-TREND: Maximum stress in crane hook at inner fibre; neutral axis shifts towards centre of curvature; Winkler–Bach theory; curved-beam correction negligible for large R/h.
+
+## 11B.4 Contact (Hertz) Stresses and Stress Concentration
+- When two curved elastic bodies (ball on race, gear teeth, cam and follower, wheel on rail) are pressed together, contact occurs over a small area with very high compressive stress (Hertzian). Maximum shear stress occurs slightly below the surface (≈ 0.47–0.78 of contact half-width), which is why pitting (surface fatigue) starts as subsurface cracks.
+F: Two spheres: contact radius a ∝ (F R)^(1/3);  maximum pressure p_max = 1.5F/(πa²)
+F: Two cylinders (line contact): half-width b = √(2F/(πL) × [(1 − μ₁²)/E₁ + (1 − μ₂²)/E₂]/(1/d₁ + 1/d₂));  p_max = 2F/(πbL)
+- Stress concentration: abrupt changes of section (holes, notches, keyways, fillets, threads) raise local stress. Theoretical factor K_t (from elasticity/photoelasticity) and fatigue notch factor K_f = 1 + q(K_t − 1), where q is notch sensitivity (0 to 1; ductile materials under static load are notch-insensitive, brittle materials and fatigue loading are sensitive). Remedies: generous fillets, relief grooves, gradual transitions, removing material near notches, smooth finish, shot peening.
+F: Fatigue stress concentration K_f = 1 + q(K_t − 1)
+PYQ-TREND: Hertz contact stress in bearings and gears; subsurface maximum shear causes pitting; K_f = 1 + q(K_t − 1); notch sensitivity; reducing stress concentration with fillets and relief grooves; photoelasticity to find K_t.

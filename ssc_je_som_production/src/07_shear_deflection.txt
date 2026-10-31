@@ -1,0 +1,52 @@
+# Shear Stresses in Beams and Deflection of Beams
+
+## 7.1 Shear Stress Distribution
+F: τ = V A ȳ/(I b)  (V = shear force, Aȳ = first moment of area above the layer about NA, b = width at the layer)
+| Section | Distribution | τ_max/τ_avg | Location of τ_max |
+| Rectangle | Parabolic | 1.5 | Neutral axis |
+| Solid circle | Parabolic | 4/3 = 1.33 | Neutral axis |
+| Thin circular tube | – | 2.0 | Neutral axis |
+| Triangle | Parabolic | 1.5 (at h/2); at NA (h/3 from base) 4/3 | Mid-height |
+| Square with diagonal vertical (diamond) | – | 9/8 = 1.125 | d/8 above and below NA |
+| I-section | Parabolic in flanges and web, sudden jump at the flange–web junction | Web carries ≈ 90–95% of shear | Neutral axis (web) |
+- Shear stress is zero at the top and bottom fibres (where bending stress is maximum) and maximum near the NA (where bending stress is zero).
+- In an I-section, flanges resist most of the bending moment while the web resists most of the shear force; for approximate design, τ ≈ V/(web area).
+FIG: shear_dist
+PYQ-TREND: τ_max = 1.5τ_avg for rectangle and 4/3 for circle (very frequent); maximum shear at NA (except triangle at h/2); I-section web carries shear and flanges carry bending; jump at web–flange junction; diamond 9/8.
+WARN: For a triangular section, the maximum shear stress is at mid-height, not at the neutral axis (which lies at h/3 from the base).
+
+## 7.2 Deflection – Differential Equation and Methods
+F: Differential equation of the elastic curve: EI d²y/dx² = M;  EI d³y/dx³ = F;  EI d⁴y/dx⁴ = −w
+| Method | Feature |
+| Double integration | Integrate M twice; constants from boundary conditions |
+| Macaulay's method | Single equation for the whole beam with discontinuous loads using brackets ⟨x − a⟩ (ignored when negative) |
+| Moment-area method (Mohr's theorems) | Change in slope between two points = area of M/EI diagram; deflection of one point relative to tangent at other = moment of M/EI area about that point – convenient for cantilevers and symmetric beams |
+| Conjugate beam method | Slope and deflection of real beam = shear and BM of conjugate beam loaded with M/EI; a fixed end becomes free and a free end becomes fixed; simple supports stay simple supports |
+| Strain energy / Castigliano | δ = ∂U/∂P; useful for curved members and frames |
+| Unit load method | Virtual work: δ = ∫Mm dx/EI |
+- Boundary conditions: fixed end – y = 0 and dy/dx = 0; simple support – y = 0 (and M = 0); free end – M = 0 and F = 0.
+PYQ-TREND: EI d²y/dx² = M (very frequent); Macaulay's method for discontinuous loads; Mohr's moment-area theorems; conjugate beam supports conversion; boundary conditions.
+
+## 7.3 Standard Slopes and Deflections
+| Beam and load | Maximum slope | Maximum deflection |
+| Cantilever, point load W at free end | WL²/(2EI) | WL³/(3EI) |
+| Cantilever, UDL w | wL³/(6EI) | wL⁴/(8EI) |
+| Cantilever, couple M at free end | ML/(EI) | ML²/(2EI) |
+| Cantilever, UVL (zero at free end, w at fixed end) | wL³/(24EI) | wL⁴/(30EI) |
+| Cantilever, point load W at distance a from fixed end | Wa²/(2EI) | Under load Wa³/(3EI); free end Wa³/(3EI) + Wa²(L − a)/(2EI) |
+| SSB, central point load W | WL²/(16EI) at supports | WL³/(48EI) at centre |
+| SSB, UDL w | wL³/(24EI) at supports | 5wL⁴/(384EI) at centre |
+| SSB, eccentric point load (a, b) | – | Under load Wa²b²/(3EIL) |
+| SSB, couple M at one end | ML/(3EI) at that end, ML/(6EI) at the other | ML²/(9√3 EI) |
+| SSB, UVL (zero to w) | – | ≈ 0.00652wL⁴/EI |
+| Fixed beam, central point load | 0 at ends | WL³/(192EI) |
+| Fixed beam, UDL | 0 at ends | wL⁴/(384EI) |
+| Propped cantilever, UDL | – | wL⁴/(185EI) ≈ 0.0054wL⁴/EI |
+- Same total load W on a SSB: deflection with UDL (5WL³/384EI) is 5/8 of that with a central point load (WL³/48EI).
+- Fixed beam with UDL deflects one-fifth as much as a simply supported beam; with central load, one-fourth.
+- Deflection ∝ L³ for point loads and L⁴ for UDL; ∝ 1/E and 1/I. For a rectangle I ∝ bd³, so doubling the depth reduces deflection to 1/8.
+- Ratio of free-end deflection to slope: cantilever with end load δ/θ = 2L/3; with UDL δ/θ = 3L/4.
+PYQ-TREND: Cantilever WL³/3EI and wL⁴/8EI; SSB WL³/48EI and 5wL⁴/384EI (very frequent); fixed beam WL³/192EI and wL⁴/384EI; ratio of deflections UDL vs point load; effect of length and depth on deflection; slope at supports wL³/24EI.
+TIP: Memory chain for SSB central load: BM WL/4, slope WL²/16EI, deflection WL³/48EI (denominators 4, 16, 48). Cantilever end load: WL, WL²/2EI, WL³/3EI (1, 2, 3).
+Q: State Mohr's theorems (moment-area method) and use them to find the deflection of a cantilever with a point load at the free end.
+Mohr's first theorem: the change in slope between any two points A and B on the elastic curve equals the area of the M/EI diagram between them. Mohr's second theorem: the deflection of point B measured from the tangent drawn at point A equals the moment of the M/EI diagram between A and B taken about B. For a cantilever of length L with load W at the free end, the bending moment varies linearly from zero at the free end to WL at the fixed end, so the M/EI diagram is a triangle of height WL/EI and base L. At the fixed end the slope is zero and the tangent is horizontal, so the slope at the free end = area of the M/EI diagram = ½ × L × WL/EI = WL²/(2EI). The deflection of the free end relative to the horizontal tangent at the fixed end = moment of this area about the free end = (WL²/2EI) × (2L/3) = WL³/(3EI), since the centroid of the triangle is 2L/3 from the free end. The method is especially convenient for cantilevers and symmetrically loaded beams where the tangent at one point is known.

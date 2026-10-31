@@ -1,0 +1,175 @@
+# Concept Recall Bank – Part B (Production Engineering)
+Quick recall for materials, processes, machining, metrology and industrial engineering.
+
+## R6. Materials and Heat Treatment
+| Question | Answer |
+| APF of BCC / FCC? | 0.68 / 0.74 |
+| Coordination number BCC / FCC? | 8 / 12 |
+| Austenite structure? | FCC |
+| Ferrite structure? | BCC |
+| Martensite structure? | BCT |
+| Eutectoid point? | 727 °C, 0.8% C – pearlite |
+| Eutectic point? | 1147 °C, 4.3% C – ledeburite |
+| Peritectic temperature? | ≈ 1495 °C |
+| Max C in austenite? | 2.14% |
+| Carbon in cementite? | 6.67% |
+| Mild steel carbon? | 0.15–0.3% |
+| Tool steel carbon? | 0.8–1.5% |
+| 40C8 means? | 0.40% C, 0.8% Mn |
+| AISI 1040 means? | Plain carbon steel with 0.40% C |
+| Element for red hardness? | Tungsten |
+| Element causing hot shortness? | Sulphur |
+| Element causing cold shortness? | Phosphorus |
+| Element reducing hardenability? | Cobalt |
+| 18-4-1 HSS? | W 18%, Cr 4%, V 1% |
+| 18-8 stainless? | Cr 18%, Ni 8% (austenitic) |
+| Hadfield steel? | 12–14% Mn, work-hardening |
+| Graphite form in grey CI? | Flakes |
+| SG iron made by adding? | Mg or Ce |
+| Malleable iron from? | Annealing white CI |
+| Brass / bronze? | Cu–Zn / Cu–Sn |
+| Duralumin used in? | Aircraft |
+| Annealing cooling? | Furnace |
+| Normalising cooling? | Still air |
+| Tempering purpose? | Reduce brittleness, increase toughness |
+| Austempering gives? | Bainite |
+| Hardenability test? | Jominy end-quench |
+| Nitriding temperature? | 500–550 °C, no quench |
+| Case depth in induction hardening vs frequency? | Decreases as frequency increases |
+
+## R7. Casting and Welding
+| Question | Answer |
+| Negative pattern allowance? | Shake (rapping) |
+| Shrinkage allowance CI / steel? | ≈ 1% / ≈ 2% |
+| Pattern for symmetrical large castings? | Sweep |
+| Pattern for mass production of small castings? | Match-plate |
+| Binder in green sand? | Clay (bentonite) |
+| CO₂ process binder? | Sodium silicate |
+| Support for cores? | Chaplets |
+| Chvorinov's rule? | t = B(V/A)² |
+| Riser should solidify? | Last |
+| Most efficient riser shape? | Sphere |
+| Why is sprue tapered? | Prevent aspiration |
+| Turbine blades / jewellery cast by? | Investment casting |
+| Pipes without cores? | True centrifugal casting |
+| Hot chamber die casting metals? | Zn, Sn, Pb (low melting) |
+| Cold chamber die casting metals? | Al, brass |
+| Furnace for cast iron? | Cupola |
+| Defect from moisture and low permeability? | Blowholes |
+| Two streams not fused? | Cold shut |
+| Hot tear due to? | Poor collapsibility |
+| Flame for brass? | Oxidising |
+| Flame for most metals? | Neutral |
+| Acetylene dissolved in? | Acetone |
+| Deeper penetration polarity? | DCSP (electrode negative) |
+| TIG electrode? | Non-consumable tungsten |
+| SAW position? | Flat only |
+| Heat in resistance welding? | I²Rt |
+| Rail welding? | Thermit / flash butt |
+| Brazing vs soldering temperature? | Above / below 450 °C |
+| Welding in vacuum? | Electron beam |
+
+## R8. Forming
+| Question | Answer |
+| Hot vs cold working decided by? | Recrystallisation temperature |
+| Lead at room temperature is? | Hot worked |
+| Maximum draft in rolling? | μ²R |
+| Mill for thin hard strips? | Cluster (Sendzimir) |
+| Coining is? | Closed-die cold forging |
+| Upsetting does? | Increases cross-section |
+| Toothpaste tubes made by? | Impact extrusion |
+| Less force extrusion? | Indirect (backward) |
+| Max reduction in wire drawing (ideal)? | ≈ 63% |
+| Chevron cracks in? | Extrusion/drawing (centre burst) |
+| Blanking – product is? | Removed piece |
+| Punching – product is? | Sheet with hole |
+| Clearance in blanking applied to? | Punch |
+| Clearance in punching applied to? | Die |
+| Punching force? | L t τ |
+| Deep-drawn blank diameter? | √(d² + 4dh) |
+| Limiting drawing ratio? | ≈ 2 |
+| Wrinkling cause? | Low blank-holder force |
+| Several operations at successive stations? | Progressive die |
+| Thread rolling advantage? | Stronger threads (grain flow) |
+
+## R9. Machining and Machine Tools
+| Question | Answer |
+| Tool signature first term (ASA)? | Back rake |
+| Rake for carbides? | Negative |
+| Continuous chip conditions? | Ductile, high speed, positive rake |
+| Chip in cast iron? | Discontinuous |
+| BUE occurs at? | Low speed, ductile material |
+| Chip thickness ratio? | t/t_c < 1 |
+| Merchant's relation? | 2φ + β − α = 90° |
+| Largest cutting force? | Tangential (cutting) force |
+| Most heat goes to? | Chip |
+| Taylor's equation? | VTⁿ = C |
+| n for HSS / carbide? | ≈ 0.125 / ≈ 0.25 |
+| Crater wear location? | Rake face |
+| Tool-life criterion? | Flank wear land (VB) |
+| Hardest tool material? | Diamond |
+| Tool for hardened steel? | CBN |
+| Diamond unsuitable for? | Ferrous metals |
+| Lead screw used for? | Thread cutting only |
+| Long tapers on lathe? | Tailstock set-over |
+| Short steep tapers? | Compound rest |
+| Twist drill point angle? | 118° |
+| Hole finishing with fixed tool? | Reaming |
+| Shaper mechanism? | Quick return (crank and slotted lever) |
+| Planer: what reciprocates? | Work table |
+| Simple indexing? | 40/N |
+| Climb milling needs? | Backlash eliminator |
+| Fastest gear generating? | Hobbing |
+| Internal gears cut by? | Gear shaper |
+| Hard work needs wheel grade? | Soft |
+| Abrasive for cast iron? | Silicon carbide |
+| Centreless grinding uses? | Regulating wheel |
+| Cylinder bore finishing? | Honing |
+| Gauge blocks finished by? | Lapping |
+| EDM dielectric? | Kerosene / deionised water |
+| ECM principle? | Faraday's laws (anodic dissolution) |
+| USM frequency? | ≈ 20 kHz |
+| Machining glass/ceramics? | USM, AJM |
+| EBM needs? | Vacuum |
+| Aircraft panel thinning? | Chemical milling |
+
+## R10. Metrology, CNC and Industrial Engineering
+| Question | Answer |
+| Preferred fit system? | Hole basis |
+| H7/g6 fit? | Clearance |
+| H7/k6 fit? | Transition |
+| H7/p6 fit? | Interference |
+| Number of IT grades? | 18 (IT01 to IT16) |
+| Tolerance unit? | 0.45∛D + 0.001D μm |
+| Taylor's principle – GO gauge checks? | All features (maximum material) |
+| Wear allowance on? | GO gauge |
+| Vernier least count (50 div)? | 0.02 mm |
+| Micrometer least count? | 0.01 mm |
+| Instrument obeying Abbe's principle? | Micrometer |
+| Sine bar used up to? | ≈ 45° |
+| Best wire size (60° thread)? | 0.577p |
+| Optical flat fringe? | λ/2 |
+| Ra definition? | Arithmetic mean deviation (CLA) |
+| G02 / G03? | Circular CW / CCW |
+| M03 / M06 / M30? | Spindle CW / tool change / end and rewind |
+| Z-axis in CNC? | Along spindle |
+| Jig vs fixture? | Jig guides tool; fixture only holds |
+| 3-2-1 principle restricts? | 9 DOF by locators |
+| Standard time? | Normal time + allowances |
+| Therbligs by? | Gilbreth |
+| Work sampling by? | Tippett |
+| MTM unit TMU? | 0.036 s |
+| EOQ? | √(2DS/H) |
+| ABC analysis basis? | Annual consumption value |
+| VED analysis for? | Spare parts (criticality) |
+| Chart for defects per unit? | c chart |
+| Chart for fraction defective? | p chart |
+| PERT time estimates? | Three (beta distribution) |
+| CPM nature? | Deterministic |
+| Critical path float? | Zero |
+| Johnson's rule? | n jobs, 2 machines |
+| SPT rule minimises? | Mean flow time |
+| Product layout for? | Mass production |
+| Fixed-position layout for? | Ships, aircraft |
+| Six Sigma defect level? | 3.4 per million |
+| Fishbone diagram by? | Ishikawa |

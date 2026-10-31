@@ -1,0 +1,50 @@
+# Welding Practice – Symbols, Joint Design, Metals and Residual Stresses
+
+## 16B.1 Weld Symbols and Joint Design
+- Welding symbol (IS 813 / AWS A2.4): reference line, arrow pointing to the joint, basic weld symbol placed below the line for the arrow side and above for the other side; supplementary symbols – weld-all-round (circle at the bend), field weld (flag), flush/convex/concave contour; dimensions – size on the left, length and pitch on the right of the symbol; tail for process reference.
+| Basic symbol | Weld |
+| Triangle | Fillet weld |
+| Two parallel lines (‖) | Square butt weld |
+| V | Single-V butt weld |
+| Half V (bevel) | Single-bevel butt weld |
+| U / J | Single-U / single-J butt weld |
+| Circle | Spot / seam weld |
+| Rectangle (slot) | Plug or slot weld |
+- Edge preparation by thickness (manual arc welding of steel, typical): up to ≈ 5 mm – square butt; 5–20 mm – single-V (included angle 60–70°, root face and gap ≈ 1.5–3 mm); above ≈ 20 mm – double-V, U or J (less weld metal and distortion). Backing strips and root runs ensure full penetration.
+- Fillet weld size: leg length s; throat 0.707s; minimum size depends on the thicker plate (to ensure fusion), maximum ≈ plate thickness − 1.5 mm at square edges. Intermittent (chain/staggered) welds for light loads.
+PYQ-TREND: Weld symbol placement – below reference line for arrow side (frequent); triangle symbol for fillet weld; edge preparation by plate thickness; double-V reduces distortion and filler; field-weld flag.
+
+## 16B.2 Distortion and Residual Stresses
+- Non-uniform heating and cooling cause the weld and HAZ to contract while restrained by cooler metal, leaving tensile residual stresses (up to yield) in the weld and compressive stresses in the surrounding plate, and producing distortion.
+| Distortion | Description |
+| Longitudinal shrinkage | Shortening along the weld |
+| Transverse shrinkage | Shrinkage across the weld |
+| Angular distortion | Rotation about the weld line (V-welds) |
+| Bowing / buckling | Thin plates under compressive residual stress |
+- Control: minimise weld metal (correct joint design, avoid over-welding), balanced welding about the neutral axis (double-V, alternating sides), back-step and skip welding sequences, presetting parts opposite to expected distortion, clamping/jigs, tack welds, intermittent welds, preheating, peening of weld layers.
+- Relief of residual stresses: post-weld heat treatment (stress relieving at ≈ 600–650 °C for steels), vibratory stress relief, peening.
+PYQ-TREND: Weld region left in residual tension (frequent); back-step and skip welding reduce distortion; presetting; stress-relieving heat treatment after welding; angular distortion in single-V welds.
+
+## 16B.3 Welding of Different Metals
+| Material | Key points |
+| Low-carbon steel | Excellent weldability; any process |
+| Medium/high-carbon and alloy steels | Hardenable HAZ – risk of cold (hydrogen) cracking; preheat, low-hydrogen electrodes, controlled cooling, PWHT; carbon equivalent CE > 0.45 needs preheat |
+| Austenitic stainless steel | Low thermal conductivity, high expansion – distortion; sensitisation (weld decay) – use low-carbon (L) or stabilised grades; TIG/MIG/SMAW |
+| Cast iron | Brittle, high carbon – preheat (≈ 500–600 °C) and slow cool, nickel-based electrodes, or braze welding; cold welding with short beads and peening |
+| Aluminium | Tenacious oxide (Al₂O₃ melts ≈ 2050 °C vs Al 660 °C), high conductivity, hydrogen porosity – AC TIG or DCEP MIG with argon, thorough cleaning; no colour change before melting |
+| Copper | High conductivity needs preheat and high heat input; TIG/MIG |
+| Titanium | Very reactive – inert gas shielding including trailing shield or chamber; TIG, EBW, LBW |
+| Dissimilar metals | Friction welding, explosive welding, diffusion bonding, brazing |
+- Weldability factors: chemical composition (C, S, P), thermal conductivity and expansion, oxide formation, hardenability, melting point, and susceptibility to cracking.
+PYQ-TREND: Aluminium welded with AC TIG due to oxide film (very frequent); preheating for high-carbon steel and cast iron; nickel electrodes for cast iron; low-hydrogen electrodes prevent cold cracking; stainless steel weld decay; titanium needs full inert shielding.
+
+## 16B.4 Cutting Processes
+| Process | Suitable materials / features |
+| Oxy-fuel cutting | Carbon and low-alloy steels only; thick sections, cheap |
+| Powder (flux) cutting | Iron powder/flux added to oxygen stream – stainless steel, cast iron |
+| Oxygen lance cutting | Very thick sections, concrete |
+| Plasma arc cutting | All conductive metals (stainless, Al, Cu); fast, narrow kerf |
+| Air-carbon arc gouging | Removing defective welds, back gouging – carbon electrode + compressed air jet |
+| Laser cutting | Sheet metals and non-metals; precise, small HAZ |
+| Abrasive water jet | Any material, no HAZ |
+PYQ-TREND: Gas cutting not suitable for stainless steel and aluminium; plasma cutting for non-ferrous; air-carbon arc gouging for back gouging; kerf.

@@ -1,0 +1,52 @@
+# Powder Metallurgy, Plastics Processing and Surface Treatments
+
+## 23.1 Powder Metallurgy (P/M)
+- Process sequence: powder production → blending/mixing (with lubricants like zinc stearate) → compaction (pressing in a die to form a 'green' compact) → sintering (heating below melting point of the main constituent in a protective atmosphere, ≈ 0.7–0.9 T_m, to bond particles by diffusion) → secondary operations (sizing, coining, repressing, infiltration, impregnation with oil, heat treatment, machining).
+| Powder production method | Feature |
+| Atomisation (gas/water) | Molten metal stream broken by high-pressure jets – most common; spherical/irregular particles |
+| Reduction | Metal oxides reduced by H₂ or CO – iron, tungsten, copper powders (spongy) |
+| Electrolytic deposition | High-purity powders (copper, iron) |
+| Carbonyl process | Ni and Fe carbonyls decomposed – very fine, pure powders |
+| Mechanical comminution (milling, crushing) | Brittle materials |
+| Chemical precipitation, condensation | Fine powders |
+- Powder characteristics: particle size and distribution, shape, flowability, apparent density, compressibility, purity.
+- Compaction: uniaxial die pressing (density varies along height due to wall friction – double-action pressing improves uniformity), isostatic pressing (cold CIP and hot HIP – uniform density), powder rolling, powder injection moulding (MIM), powder forging.
+- Products and advantages: self-lubricating porous bronze/iron bearings (oil-impregnated), cemented carbide tools (WC–Co), tungsten filaments, metal filters, magnets, gears, cams and small structural parts, friction materials (brake linings combining metals and non-metals), diamond tools, electrical contacts (Cu–W, Ag–W). Advantages: near-net shape, little waste, controlled porosity, combining materials that cannot be alloyed by melting, high-melting metals (W, Mo); limitations: high powder and die cost, size and shape limits (no undercuts), lower strength and ductility due to porosity, uniform density difficult.
+PYQ-TREND: P/M steps compaction → sintering below melting point (very frequent); atomisation most common for powder production; self-lubricating bearings and cemented carbides by P/M; tungsten filaments; HIP gives full density; green compact; infiltration and impregnation.
+
+## 23.2 Processing of Plastics
+| Process | Materials / products |
+| Injection moulding | Thermoplastics (also thermosets) – screw plasticises and injects into closed mould; buckets, housings, toys, bottle caps; most widely used for complex parts in mass production |
+| Extrusion | Continuous profiles – pipes, rods, sheets, films (blown film), wire coating |
+| Blow moulding | Hollow thin-walled containers – bottles (PET, HDPE); extrusion and injection-blow, stretch-blow |
+| Compression moulding | Thermosets (bakelite, melamine) – charge placed in heated open mould and compressed; electrical fittings, dinnerware |
+| Transfer moulding | Thermosets – material heated in chamber, forced into closed mould; parts with inserts, electronic encapsulation |
+| Rotational moulding | Large hollow parts – water tanks, kayaks; powder in rotating heated mould |
+| Thermoforming (vacuum/pressure forming) | Heated sheet formed over mould – packaging, trays, refrigerator liners |
+| Calendering | Thick sheets/films through heated rolls – PVC sheets, flooring |
+| Casting, foam moulding | Acrylic sheets; expanded polystyrene, polyurethane foam |
+| Composite processing | Hand lay-up, spray-up, filament winding (pipes, pressure vessels), pultrusion (constant-section profiles), resin transfer moulding |
+- Thermoplastics can be remelted (injection moulding, extrusion, blow moulding); thermosets cure irreversibly (compression and transfer moulding).
+- Injection-moulding defects: short shot (incomplete filling), flash, sink marks (thick sections shrink), warpage, weld lines, voids, burn marks.
+PYQ-TREND: Compression moulding for thermosets (bakelite) and injection moulding for thermoplastics (very frequent); blow moulding for bottles; rotational moulding for water tanks; calendering for sheets; filament winding for pressure vessels; pultrusion; sink marks.
+
+## 23.3 Surface Treatments and Coatings
+| Process | Purpose |
+| Electroplating | Thin metal coating (Cr, Ni, Zn, Cu, Sn, Au) by electrolysis – corrosion protection, appearance, wear; work is the cathode |
+| Galvanising (hot-dip) | Zinc coating on steel by dipping in molten zinc – sacrificial protection; buckets, sheets, wires |
+| Electro-galvanising | Zinc by electroplating |
+| Sherardising | Zinc diffused into steel by heating in zinc dust |
+| Tinning | Tin coating – food cans (tin plate) |
+| Anodising | Thick oxide layer on aluminium by electrolysis (work is anode) – corrosion resistance, dyeable |
+| Phosphating (Parkerising), chromating | Conversion coatings – base for paint |
+| Metal spraying (thermal spray – flame, arc, plasma, HVOF) | Coating worn parts, wear/heat resistant layers |
+| Hardfacing | Deposit hard wear-resistant alloy (Stellite) by welding |
+| CVD / PVD | Thin hard coatings (TiN, TiC, Al₂O₃) on tools |
+| Calorising | Aluminium diffusion – oxidation resistance at high temperature |
+| Chromising | Chromium diffusion |
+| Shot peening | Compressive residual stress – fatigue strength |
+| Painting, powder coating, enamelling (vitreous) | Protection and appearance |
+- Corrosion protection principles: barrier coatings, sacrificial (cathodic) protection (zinc, magnesium anodes for pipelines and ships), impressed-current cathodic protection, inhibitors, proper material selection and design.
+PYQ-TREND: Galvanising is zinc coating; anodising for aluminium (work is anode) (very frequent); tin plate for food cans; sherardising zinc diffusion; calorising aluminium diffusion; sacrificial anodes of zinc/magnesium; PVD/CVD TiN coatings on tools.
+Q: Describe the powder metallurgy process and state its advantages and applications.
+Powder metallurgy produces parts from metal powders instead of molten metal. First, powders are produced, most commonly by atomisation of molten metal by gas or water jets, or by reduction of oxides, electrolysis or the carbonyl process. The powders are blended with alloying additions and a lubricant to give a uniform mix. The mix is then compacted in a precision die by punches at high pressure (100–800 MPa) to form a green compact that has enough strength for handling. The compact is sintered in a furnace with a protective atmosphere at a temperature below the melting point of the main constituent (about 70–90% of the melting temperature), when diffusion bonds the particles together, increasing strength and density. Secondary operations such as sizing or coining (for accuracy), repressing, infiltration with a lower-melting metal, oil impregnation, heat treatment or machining may follow. Advantages: near-net shapes with minimal waste and machining; controlled porosity (self-lubricating bearings, filters); production of parts from refractory metals and from combinations of metals and non-metals that cannot be made by melting (cemented carbides, electrical contacts, friction materials); good dimensional accuracy and high production rate for small parts. Limitations include costly powders and dies, limits on size and shape, and lower strength because of porosity. Typical applications are oil-impregnated bronze bushes, carbide tool inserts, tungsten filaments, gears and cams for automobiles, magnets and brake linings.

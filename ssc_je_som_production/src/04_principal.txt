@@ -1,0 +1,55 @@
+# Principal Stresses, Mohr's Circle and Theories of Failure
+
+## 4.1 Stresses on an Inclined Plane
+- Uniaxial stress σ on a plane inclined at θ to the cross-section (normal of plane at θ to the axis):
+F: σ_n = σ cos²θ;  τ = (σ/2) sin2θ;  τ_max = σ/2 at θ = 45°
+F: Two perpendicular direct stresses σx, σy: σ_n = (σx + σy)/2 + ((σx − σy)/2) cos2θ;  τ = ((σx − σy)/2) sin2θ
+F: General plane stress (σx, σy, τxy): σ_n = (σx + σy)/2 + ((σx − σy)/2) cos2θ + τxy sin2θ;  τ = ((σx − σy)/2) sin2θ − τxy cos2θ
+- Complementary shear stresses: a shear stress on one plane is always accompanied by an equal shear stress on the perpendicular plane (for moment equilibrium of an element).
+- Pure shear state (τ only) is equivalent to equal tensile and compressive stresses of magnitude τ on planes at 45°.
+- Sum of normal stresses on any two perpendicular planes is constant: σx + σy = σ₁ + σ₂ (stress invariant).
+PYQ-TREND: Maximum shear in uniaxial tension = σ/2 at 45° (very frequent); complementary shear stresses; pure shear equivalent to ±τ at 45°; invariance of σx + σy.
+
+## 4.2 Principal Stresses and Planes
+- Principal planes: planes on which shear stress is zero; the normal stresses on them (principal stresses) are the maximum and minimum normal stresses. Principal planes are 90° apart; planes of maximum shear are at 45° to them.
+F: σ₁,₂ = (σx + σy)/2 ± √[((σx − σy)/2)² + τxy²]
+F: Principal plane: tan2θ_p = 2τxy/(σx − σy)
+F: Maximum in-plane shear τ_max = √[((σx − σy)/2)² + τxy²] = (σ₁ − σ₂)/2;  normal stress on that plane = (σx + σy)/2
+F: Absolute maximum shear (3-D): τ_abs = (σ_max − σ_min)/2 – if σ₁ and σ₂ have the same sign, τ_abs = σ₁/2 (taking σ₃ = 0)
+F: Principal strains: ε₁ = (σ₁ − μσ₂)/E;  ε₂ = (σ₂ − μσ₁)/E (plane stress)
+- Combined bending and torsion of a shaft: σ = 32M/(πd³), τ = 16T/(πd³) → σ₁ = (16/πd³)[M + √(M² + T²)], τ_max = (16/πd³)√(M² + T²).
+F: Equivalent bending moment M_e = ½[M + √(M² + T²)];  equivalent torque T_e = √(M² + T²)
+- Strain rosettes (rectangular 0–45–90° and delta 0–60–120°) measure strains in three directions to find principal strains on a surface.
+PYQ-TREND: Principal stress formula and shear zero on principal planes (very frequent); principal and maximum shear planes 45° apart; τ_max = (σ₁ − σ₂)/2; equivalent bending moment and torque; strain rosette.
+
+## 4.3 Mohr's Circle
+- Graphical representation of the state of stress at a point: normal stress on the x-axis, shear stress on the y-axis.
+F: Centre C = ((σx + σy)/2, 0);  radius R = √[((σx − σy)/2)² + τxy²] = τ_max
+F: σ₁ = C + R;  σ₂ = C − R;  angle on circle = 2 × angle on element
+| Stress state | Mohr's circle |
+| Uniaxial tension σ | Circle through origin, centre σ/2, radius σ/2 |
+| Equal biaxial tension (σx = σy = σ, τ = 0) | A point (radius zero) – no shear on any plane (hydrostatic in plane) |
+| Pure shear τ | Centre at origin, radius τ (σ₁ = τ, σ₂ = −τ) |
+| σx = −σy (equal and opposite) | Centre at origin, radius σx – equivalent to pure shear |
+| Hydrostatic stress (3-D) | Point |
+- Mohr's circle for strain: ε on the x-axis, γ/2 on the y-axis; centre (εx + εy)/2, radius √[((εx − εy)/2)² + (γxy/2)²].
+FIG: mohr
+PYQ-TREND: Mohr's circle centre and radius (very frequent); circle reduces to a point for equal biaxial stresses; pure shear circle centred at origin; angle doubling; radius equals maximum shear stress.
+TIP: Mohr's circle radius = τ_max; its diameter = σ₁ − σ₂. If the circle touches the origin, one principal stress is zero.
+
+## 4.4 Theories of Failure
+| Theory | Failure criterion | Equivalent design equation | Suitable for |
+| Maximum principal stress (Rankine) | σ₁ = σ_yt (or σ_u) | σ₁ ≤ σ_y/N | Brittle materials |
+| Maximum shear stress (Guest–Tresca) | τ_max = σ_y/2 | σ₁ − σ₂ ≤ σ_y (when signs differ); largest of abs(σ₁), abs(σ₂), abs(σ₁ − σ₂) ≤ σ_y | Ductile materials – conservative; hexagon locus |
+| Maximum principal strain (St. Venant) | ε₁ = σ_y/E | σ₁ − μσ₂ ≤ σ_y | Rarely; brittle under some conditions; rhombus locus |
+| Total strain energy (Haigh) | U = σ_y²/(2E) | σ₁² + σ₂² − 2μσ₁σ₂ ≤ σ_y² | Ductile (ellipse depending on μ) |
+| Distortion energy / shear strain energy (von Mises–Hencky) | U_d = (1+μ)σ_y²/(3E) | σ₁² + σ₂² − σ₁σ₂ ≤ σ_y² | Ductile materials – best agreement with tests; ellipse locus |
+- Shear yield strength: Tresca τ_y = 0.5σ_y; von Mises τ_y = σ_y/√3 = 0.577σ_y.
+- Under hydrostatic stress, theories based on shear or distortion predict no failure (no shear and no distortion).
+- Shaft design: Tresca → T_e = √(M² + T²); Rankine → M_e = ½[M + √(M² + T²)]; von Mises → √(M² + ¾T²).
+- In pure shear the Tresca hexagon lies inside the von Mises ellipse, so Tresca is safer (more conservative).
+FIG: failure
+PYQ-TREND: Maximum shear stress theory for ductile and principal stress theory for brittle materials (very frequent); von Mises gives τ_y = 0.577σ_y; shapes of failure loci (hexagon, ellipse, square, rhombus); Tresca conservative; hydrostatic stress causes no distortion.
+WARN: Distortion energy theory is the most accurate for ductile metals, but Tresca (maximum shear) is often preferred in design because it is simpler and conservative.
+Q: Explain the maximum shear stress theory and the distortion energy theory, and compare them.
+The maximum shear stress theory (Guest–Tresca) states that yielding begins when the maximum shear stress at a point reaches the maximum shear stress at yield in a simple tension test, i.e. τ_max = σ_y/2. For a biaxial stress state with principal stresses σ₁ and σ₂ the condition is: if they are of like sign, the larger one equals σ_y; if of opposite sign, σ₁ − σ₂ = σ_y. On a σ₁–σ₂ plot the safe region is an irregular hexagon. The distortion energy theory (von Mises–Hencky) states that yielding occurs when the strain energy of distortion per unit volume (the part that changes shape, excluding volume change) equals that at yield in simple tension, leading to σ₁² + σ₂² − σ₁σ₂ = σ_y² in two dimensions, an ellipse inscribed around the Tresca hexagon. Both theories are suitable for ductile materials and both predict no yielding under hydrostatic stress. The distortion energy theory agrees best with experiments; it gives shear yield strength 0.577σ_y, while Tresca gives 0.5σ_y, so Tresca is more conservative and simpler, giving up to about 15% heavier designs. For brittle materials, the maximum principal stress theory is used instead.

@@ -1,0 +1,86 @@
+# Solved Numericals – Set 5 (Advanced SOM)
+Slightly longer problems combining two or three concepts (no options).
+
+## 25E.1 Bars and Energy
+### Problem 1 – Bar fixed at both ends with intermediate load
+A bar of length 600 mm fixed at both ends carries an axial load of 60 kN at 200 mm from end A. Find reactions.
+F: R_A = Pb/L = 60 × 400/600 = 40 kN (tension portion AC);  R_B = Pa/L = 20 kN (compression portion CB)
+### Problem 2 – Composite bar heated
+A steel rod (A = 500 mm², α = 12 × 10⁻⁶, E = 200 GPa) and a brass tube (A = 1000 mm², α = 19 × 10⁻⁶, E = 100 GPa) of equal length are rigidly joined and heated by 50 °C. Find stresses.
+F: Equilibrium: σ_s × 500 = σ_b × 1000 → σ_s = 2σ_b (steel in tension, brass in compression)
+F: Compatibility: σ_s/E_s + σ_b/E_b = (α_b − α_s)ΔT = 7 × 10⁻⁶ × 50 = 3.5 × 10⁻⁴
+F: 2σ_b/2 × 10⁵ + σ_b/10⁵ = 3.5 × 10⁻⁴ → σ_b = 17.5 MPa (comp.), σ_s = 35 MPa (tension)
+### Problem 3 – Bolt and sleeve
+A steel bolt (A = 300 mm²) passes through a copper sleeve (A = 600 mm²); the nut is tightened by 1/4 turn with pitch 2 mm, length 400 mm. E_s = 200, E_c = 100 GPa. Find stresses.
+F: Total deformation = 0.5 mm = δ_s + δ_c;  force equal: σ_s × 300 = σ_c × 600 → σ_s = 2σ_c
+F: 0.5 = (2σ_c × 400/2 × 10⁵) + (σ_c × 400/10⁵) = σ_c(0.004 + 0.004) → σ_c = 62.5 MPa (comp.), σ_s = 125 MPa (tension)
+### Problem 4 – Strain energy comparison
+Compare the strain energy stored in two bars of equal length under the same load P: bar A uniform area A, bar B area A for half length and 2A for the other half.
+F: U_A = P²L/(2AE);  U_B = (P²/2E)(L/2A + L/4A) = (3/4) × P²L/(2AE) → U_B = 0.75 U_A
+### Problem 5 – Proof resilience
+Find the proof resilience of a 50 mm × 50 mm × 1 m bar with elastic limit 250 MPa (E = 200 GPa) and the modulus of resilience.
+F: Modulus of resilience = σ²/2E = 250²/(4 × 10⁵) = 0.156 N·mm/mm³
+F: Proof resilience = 0.156 × 2.5 × 10⁶ = 3.9 × 10⁵ N·mm = 390 J
+
+## 25E.2 Stress Transformation
+### Problem 6 – Normal and shear on inclined plane (biaxial)
+σx = 100 MPa (tension), σy = 50 MPa (compression). Find stresses on a plane at 30° to the y-axis (normal at 30° to x).
+F: σ_n = (100 − 50)/2 + (150/2) cos60° = 25 + 37.5 = 62.5 MPa;  τ = 75 sin60° = 65 MPa
+### Problem 7 – Principal strains
+At a point σ₁ = 120 MPa, σ₂ = 40 MPa (E = 200 GPa, μ = 0.3). Find principal strains.
+F: ε₁ = (120 − 0.3 × 40)/2 × 10⁵ = 5.4 × 10⁻⁴;  ε₂ = (40 − 36)/2 × 10⁵ = 2 × 10⁻⁵
+### Problem 8 – Shaft with axial load and torque
+A 50 mm shaft carries 100 kN axial tension and 1 kN·m torque. Find principal stresses and maximum shear.
+F: σ = 100,000/1963.5 = 50.9 MPa;  τ = 16 × 10⁶/(π × 125,000) = 40.7 MPa
+F: σ₁,₂ = 25.5 ± √(25.5² + 40.7²) = 25.5 ± 48.0 → 73.5 MPa, −22.5 MPa;  τ_max = 48.0 MPa
+### Problem 9 – Shaft diameter by two theories
+A shaft carries M = 3 kN·m and T = 4 kN·m; allowable τ = 50 MPa (Tresca) and σ = 100 MPa (Rankine). Find diameter.
+F: Tresca: T_e = 5 kN·m → d³ = 16 × 5 × 10⁶/(π × 50) = 5.09 × 10⁵ → d = 79.9 mm
+F: Rankine: M_e = ½(3 + 5) = 4 kN·m → d³ = 32 × 4 × 10⁶/(π × 100) = 4.07 × 10⁵ → d = 74.1 mm → choose 80 mm
+
+## 25E.3 Beams
+### Problem 10 – Overhanging beam with UDL
+A beam 8 m long rests on supports 6 m apart with 1 m overhang on each side and carries UDL 10 kN/m over its whole length. Find BM at supports and at centre.
+F: Reactions = 40 kN each;  M_support = −10 × 1²/2 = −5 kN·m
+F: M_centre = 40 × 3 − 10 × 4²/2 = 120 − 80 = 40 kN·m (sagging) → two points of contraflexure
+### Problem 11 – Section modulus of I-section
+An I-section has flanges 150 × 20 mm and web 260 × 10 mm (overall depth 300 mm). Find I and Z.
+F: I = [150 × 300³ − 140 × 260³]/12 = [4.050 × 10⁹ − 2.461 × 10⁹]/12 = 1.325 × 10⁸ mm⁴
+F: Z = I/150 = 8.83 × 10⁵ mm³
+### Problem 12 – Moment capacity of the I-section
+With σ = 150 MPa, find the safe BM for Problem 11, and compare with a rectangle of the same area (100 mm wide).
+F: M = 150 × 8.83 × 10⁵ = 132.5 kN·m
+F: Area = 2 × 3000 + 2600 = 8600 mm² → rectangle 100 × 86 mm: Z = 100 × 86²/6 = 1.233 × 10⁵ mm³ → M = 18.5 kN·m (I-section ≈ 7 times stronger)
+### Problem 13 – Shear stress in I-section web
+The I-section of Problem 11 carries V = 200 kN. Find the maximum shear stress (at the neutral axis) and compare with the average web shear.
+F: Aȳ (above NA) = 150 × 20 × 140 + 130 × 10 × 65 = 420,000 + 84,500 = 504,500 mm³
+F: τ_max = VAȳ/(Ib) = 2 × 10⁵ × 504,500/(1.325 × 10⁸ × 10) = 76.2 MPa
+F: Approximate (V/overall depth × web thickness) = 2 × 10⁵/3000 = 66.7 MPa – the web carries nearly all the shear
+### Problem 14 – Macaulay's method
+A 6 m SSB carries 30 kN at 2 m from A. Find the deflection under the load (EI = 2 × 10⁴ kN·m²).
+F: δ = Wa²b²/(3EIL) = 30 × 4 × 16/(3 × 2 × 10⁴ × 6) = 1920/3.6 × 10⁵ = 5.33 × 10⁻³ m = 5.33 mm
+### Problem 15 – Cantilever with partial load
+A 3 m cantilever carries 20 kN at 2 m from the fixed end (EI = 10⁴ kN·m²). Find deflection at the free end.
+F: δ_load = Wa³/(3EI) = 20 × 8/(3 × 10⁴) = 5.33 mm;  θ = Wa²/(2EI) = 20 × 4/(2 × 10⁴) = 0.004 rad
+F: δ_free = 5.33 + 0.004 × 1000 = 9.33 mm
+
+## 25E.4 Torsion, Columns, Cylinders
+### Problem 16 – Stepped shaft twist
+A shaft has 1 m of 60 mm diameter and 1 m of 40 mm diameter (G = 80 GPa) and carries 1 kN·m. Find total twist.
+F: J₁ = π × 60⁴/32 = 1.272 × 10⁶;  J₂ = π × 40⁴/32 = 2.513 × 10⁵ mm⁴
+F: θ = (T/G)(L₁/J₁ + L₂/J₂) = (10⁶/8 × 10⁴)(1000/1.272 × 10⁶ + 1000/2.513 × 10⁵) = 12.5 × (7.86 × 10⁻⁴ + 3.98 × 10⁻³) = 0.0596 rad = 3.4°
+### Problem 17 – Shaft fixed at both ends
+A shaft fixed at both ends carries a torque of 900 N·m at 1 m from end A; total length 3 m (uniform). Find end torques.
+F: T_A = T × b/L = 900 × 2/3 = 600 N·m;  T_B = 300 N·m
+### Problem 18 – Column with rectangular section
+A 2 m long column, both ends fixed, has section 40 × 60 mm (E = 200 GPa). Find the Euler load.
+F: I_min = 60 × 40³/12 = 3.2 × 10⁵ mm⁴;  L_e = 1 m
+F: P = π² × 2 × 10⁵ × 3.2 × 10⁵/10⁶ = 631.6 kN (check crushing: σ = 263 MPa – near yield, so Euler may not govern)
+### Problem 19 – Hollow column
+A hollow cast-iron column (D = 200 mm, d = 160 mm), 5 m long, hinged ends. E = 100 GPa. Find the Euler load and slenderness ratio.
+F: I = π(200⁴ − 160⁴)/64 = 4.637 × 10⁷ mm⁴;  A = 11,310 mm²;  k = √(I/A) = 64.0 mm;  λ = 5000/64 = 78
+F: P = π² × 10⁵ × 4.637 × 10⁷/25 × 10⁶ = 1.83 MN
+### Problem 20 – Change in diameter of thin cylinder
+A cylinder (d = 800 mm, t = 10 mm) is under 2 MPa (E = 200 GPa, μ = 0.3). Find the change in diameter.
+F: e_c = (pd/4tE)(2 − μ) = (2 × 800/(40 × 2 × 10⁵))(1.7) = 2 × 10⁻⁴ × 1.7 = 3.4 × 10⁻⁴
+F: Δd = 3.4 × 10⁻⁴ × 800 = 0.272 mm

@@ -1,0 +1,53 @@
+# Shear Force and Bending Moment Diagrams
+
+## 5.1 Beams, Supports and Loads
+| Beam | Description | Determinacy |
+| Cantilever | Fixed at one end, free at the other | Determinate |
+| Simply supported | Hinge at one end, roller at the other | Determinate |
+| Overhanging | Simply supported with one or both ends extending beyond supports | Determinate |
+| Fixed (built-in) | Both ends fixed | Indeterminate (degree 3; 2 for vertical loads) |
+| Propped cantilever | Fixed at one end, simply supported at the other | Indeterminate (degree 1) |
+| Continuous | More than two supports | Indeterminate |
+- Loads: point (concentrated) load, uniformly distributed load (UDL, w per unit length), uniformly varying load (UVL – triangular), applied couple (moment).
+- Shear force (SF) at a section: algebraic sum of vertical forces on either side of the section. Bending moment (BM): algebraic sum of moments of forces on either side about the section.
+- Sign convention: SF positive when the left portion tends to move up relative to right (clockwise shear); BM positive when sagging (concave upward), negative when hogging.
+
+## 5.2 Relations Between Load, SF and BM
+F: dF/dx = −w (rate of change of SF = intensity of load);  dM/dx = F (rate of change of BM = SF)
+F: BM is maximum (or minimum) where SF = 0 or changes sign
+F: Change in BM between two sections = area of SFD between them;  change in SF = area of load diagram
+| Loading on a span | Shape of SFD | Shape of BMD |
+| No load | Horizontal (constant) | Inclined straight line (linear) |
+| Point load | Vertical jump equal to load | Change in slope (kink) |
+| UDL | Inclined straight line (linear) | Parabola (second degree) |
+| Uniformly varying load (triangular) | Parabola (second degree) | Cubic (third degree) |
+| Applied couple | No change | Vertical jump equal to couple |
+- Point of contraflexure (inflection): where BM changes sign (zero BM inside the span); occurs in overhanging, fixed and propped beams but not in a simply supported beam with downward loads or a cantilever.
+FIG: sfd_bmd
+PYQ-TREND: dM/dx = F and max BM where SF = 0 (very frequent); SFD/BMD shapes for UDL (linear/parabolic) and UVL (parabolic/cubic); point of contraflexure definition; couple causes jump in BMD only.
+
+## 5.3 Standard Results
+| Beam and load | Reactions / max SF | Maximum BM |
+| Cantilever, point load W at free end | W (constant) | WL at fixed end (hogging) |
+| Cantilever, UDL w over length L | wL at fixed end | wL²/2 at fixed end |
+| Cantilever, UVL zero at free end to w at fixed end | wL/2 | wL²/6 at fixed end |
+| Cantilever, UVL w at free end to zero at fixed end | wL/2 | wL²/3 at fixed end |
+| Cantilever, couple M at free end | 0 | M (constant along length) |
+| SSB, central point load W | W/2 each | WL/4 at centre |
+| SSB, point load W at a from A (b from B) | R_A = Wb/L, R_B = Wa/L | Wab/L under the load |
+| SSB, UDL w over span | wL/2 each | wL²/8 at centre |
+| SSB, UVL zero at one end to w at the other | wL/6 and wL/3 | wL²/(9√3) ≈ 0.064wL² at L/√3 from zero end |
+| SSB, symmetric triangular load (peak w at centre) | wL/4 each | wL²/12 at centre |
+| SSB, couple M at a point | ±M/L (equal and opposite) | Jump of M at the point |
+| Fixed beam, UDL | wL/2 each | Fixed-end moments wL²/12 (hogging); centre wL²/24 (sagging) |
+| Fixed beam, central point load | W/2 each | WL/8 at ends and centre |
+| Fixed beam, point load at a, b | – | Fixed-end moments Wab²/L² and Wa²b/L² |
+| Propped cantilever, UDL | Prop reaction 3wL/8; fixed end 5wL/8 | wL²/8 at fixed end; 9wL²/128 sagging at 3L/8 from prop |
+| Propped cantilever, central point load | Prop reaction 5W/16 | 3WL/16 at fixed end; 5WL/32 under load |
+- Overhanging beam of total length L with equal overhangs a and UDL w throughout: BM at supports = −wa²/2; BM at centre = w(L − 2a)²/8 − wa²/2. Equal magnitudes of hogging and sagging BM (most economical section) when a = 0.207L.
+- Points of contraflexure: fixed beam with UDL at 0.211L from each end (L/2 − L/(2√3)); fixed beam with central point load at L/4 from each end; propped cantilever with UDL at L/4 from the fixed end.
+PYQ-TREND: Max BM: SSB UDL wL²/8, central load WL/4, cantilever wL²/2 (very frequent); fixed beam UDL wL²/12 and wL²/24; propped cantilever reaction 3wL/8 and 5W/16; UVL results wL²/(9√3) and wL²/6; contraflexure locations; SSB with couple has constant SF.
+TIP: For a SSB carrying total load W as UDL, max BM = WL/8 – half the BM of the same W as a central point load (WL/4).
+WARN: In a cantilever, the maximum BM is at the fixed end and is hogging (negative), not at the free end.
+Q: Draw the SFD and BMD for a simply supported beam carrying a UDL w over its whole span L and locate the maximum bending moment.
+By symmetry each reaction is wL/2. At a section x from the left support, SF F = wL/2 − wx, which varies linearly from +wL/2 at the left support to −wL/2 at the right support, passing through zero at mid-span (x = L/2). The BM M = (wL/2)x − wx²/2, a parabola that is zero at both supports. Since dM/dx = F, the BM is maximum where F = 0, i.e. at mid-span, giving M_max = (wL/2)(L/2) − (w/2)(L/2)² = wL²/8 (sagging). The SFD is therefore a straight inclined line crossing the axis at the centre, and the BMD a symmetrical parabola with its peak wL²/8 at the centre. There is no point of contraflexure since the BM is sagging throughout. If the same total load W = wL were concentrated at the centre, the maximum BM would be WL/4, twice as large, which shows the advantage of spreading loads.

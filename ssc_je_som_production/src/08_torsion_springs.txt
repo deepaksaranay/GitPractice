@@ -1,0 +1,50 @@
+# Torsion of Shafts and Springs
+
+## 8.1 Torsion of Circular Shafts
+- Assumptions: material homogeneous, isotropic, elastic; plane cross-sections remain plane and radii remain straight; shaft circular and uniform; twist uniform along the length; stresses within the elastic limit.
+F: Torsion equation: T/J = τ/r = Gθ/L
+F: Polar moment of inertia: solid J = πd⁴/32;  hollow J = π(D⁴ − d⁴)/32
+F: Maximum shear stress: solid τ = 16T/(πd³);  hollow τ = 16TD/[π(D⁴ − d⁴)]
+F: Polar modulus Z_p = J/r_max: solid πd³/16;  hollow π(D⁴ − d⁴)/(16D)
+F: Power transmitted P = 2πNT/60 (W, with T in N·m, N in rpm)
+F: Torsional rigidity = GJ;  torsional stiffness k_t = GJ/L;  angle of twist θ = TL/(GJ)
+- Shear stress varies linearly from zero at the centre to maximum at the surface. Because the core carries little torque, hollow shafts are stronger and stiffer per unit weight.
+- Hollow vs solid of the same weight (material) and length: hollow shaft transmits more torque and is stiffer. Hollow vs solid of the same strength: hollow is lighter.
+- For a hollow shaft with d = D/2: J_hollow = (15/16) J_solid of the same outer diameter, while material is only 3/4 – a weight saving of 25% for only 6.25% loss of strength.
+- Shafts in series (different segments): same torque, angles add: θ = ΣTLᵢ/(GᵢJᵢ). Shafts in parallel (composite or fixed at both ends): same angle, torques add.
+- Shaft fixed at both ends with torque T at a point: reactions T_A = T b/L, T_B = T a/L.
+- Non-circular shafts: sections warp; maximum shear stress in a rectangle occurs at the middle of the longer side.
+PYQ-TREND: T/J = τ/r = Gθ/L (very frequent); τ = 16T/πd³; P = 2πNT/60; hollow shaft advantages; series vs parallel shafts; angle of twist TL/GJ; shear stress zero at centre.
+TIP: For equal strength, torque ∝ d³; for equal stiffness, torque ∝ d⁴ (per unit twist). Doubling the diameter → 8× strength, 16× stiffness.
+
+## 8.2 Combined Bending and Torsion; Shaft Design
+F: Equivalent torque (Tresca): T_e = √(M² + T²) → τ_max = 16T_e/(πd³)
+F: Equivalent bending moment (Rankine): M_e = ½[M + √(M² + T²)] → σ_max = 32M_e/(πd³)
+F: With shock and fatigue factors (ASME code): T_e = √((K_m M)² + (K_t T)²)
+F: Shaft under axial load + torque: σ = P/A, τ = 16T/πd³ → principal stresses from formula
+- Strain energy in torsion: solid shaft U = (τ²/4G) × V; hollow shaft U = (τ²/4G) × [(D² + d²)/D²] × V.
+- Critical speed (whirling) of shafts – resonance when rotational speed equals natural frequency of transverse vibration (covered in Theory of Machines).
+PYQ-TREND: Equivalent torque √(M² + T²) and equivalent BM ½(M + √(M² + T²)) (very frequent); ASME code factors; strain energy in torsion.
+
+## 8.3 Close-Coiled Helical Springs
+- Wire diameter d, mean coil diameter D, number of active turns n, spring index C = D/d (typically 4–12), helix angle small (< 10°) for close-coiled springs; wire is mainly under torsion.
+F: Shear stress τ = 8WD/(πd³) (pure torsion);  with Wahl factor K = (4C − 1)/(4C − 4) + 0.615/C: τ = K × 8WD/(πd³)
+F: Deflection δ = 8WD³n/(Gd⁴) = 64WR³n/(Gd⁴)
+F: Stiffness k = W/δ = Gd⁴/(8D³n)
+F: Strain energy U = ½Wδ;  springs in series: 1/k = 1/k₁ + 1/k₂ (same load);  springs in parallel: k = k₁ + k₂ (same deflection)
+F: Cutting a spring into two halves doubles the stiffness of each half
+- Wahl factor accounts for direct shear and curvature effects; stress is maximum at the inner side of the coil.
+- Open-coiled helical springs: larger helix angle; wire under both bending and torsion.
+- Spring materials: high-carbon steel, oil-tempered wire, music wire, chrome-vanadium, silicon-manganese steel, phosphor bronze, stainless steel.
+PYQ-TREND: Spring stiffness Gd⁴/(8D³n) and deflection 8WD³n/Gd⁴ (very frequent); series and parallel springs; Wahl factor; spring index; cutting spring in half doubles stiffness.
+WARN: Springs in series behave like resistances in parallel (reciprocals add) – the combination is softer, not stiffer.
+
+## 8.4 Leaf (Laminated) Springs
+- Built of plates of equal width and thickness but decreasing lengths, behaving approximately like a beam of uniform strength. Used in vehicle suspensions (semi-elliptic), the central band clamping the leaves. The leaves are given an initial curvature (camber) so that they straighten under proof load. Nipping: giving the full-length leaves a greater radius of curvature than graduated leaves to equalise stresses.
+F: Semi-elliptic leaf spring (span L, n leaves, width b, thickness t, central load W): σ = 3WL/(2nbt²);  δ = 3WL³/(8Enbt³)
+F: Quarter-elliptic (cantilever) leaf spring: σ = 6WL/(nbt²);  δ = 6WL³/(Enbt³)
+F: Proof load: load that straightens the spring; camber = δ at proof load
+- Torsion bar springs and spiral springs (clocks) are other types; flat spiral spring stores energy by bending.
+PYQ-TREND: Leaf spring is a beam of uniform strength; nipping; stress 3WL/2nbt² and deflection 3WL³/8Enbt³; semi-elliptic springs in vehicles.
+Q: Derive the torsion equation for a solid circular shaft.
+Consider a shaft of length L and radius R fixed at one end, subjected to torque T at the other. A line AB on the surface parallel to the axis moves to AB' after twisting; the angle of twist of the end section is θ, and the shear strain at the surface is φ = BB'/L = Rθ/L. At radius r, the shear strain is rθ/L, so, by Hooke's law, the shear stress τ_r = Gθr/L, i.e. τ/r = Gθ/L – shear stress varies linearly with radius. The torque resisted by an elemental ring of radius r and thickness dr is dT = τ_r × 2πr dr × r = (Gθ/L) r² dA. Integrating over the section: T = (Gθ/L)∫r² dA = (Gθ/L) J, where J = πd⁴/32 is the polar moment of inertia. Combining, T/J = τ/r = Gθ/L. The maximum shear stress at the surface is τ_max = TR/J = 16T/(πd³), and the angle of twist θ = TL/(GJ). For a hollow shaft J = π(D⁴ − d⁴)/32.

@@ -1,0 +1,90 @@
+# Last-Minute Revision Sheet
+
+## 29.1 Must-Know Values
+| Quantity | Value |
+| E of steel / CI / Al / Cu | 200–210 / 100–150 / 70 / 110–120 GPa |
+| G of steel | ≈ 80 GPa |
+| μ of steel / rubber / cork / concrete | ≈ 0.3 / 0.5 / 0 / 0.1–0.2 |
+| α of steel / Al / Cu | 12 / 23 / 17 × 10⁻⁶ per °C |
+| Density of steel | 7850 kg/m³ |
+| Stress concentration (small hole) | 3 |
+| Endurance limit of steel | ≈ 0.5 UTS |
+| Shape factor rectangle / circle / I | 1.5 / 1.7 / 1.12–1.15 |
+| Eutectoid / eutectic / peritectic | 727 °C (0.8% C) / 1147 °C (4.3% C) / ≈ 1495 °C |
+| α → γ / γ → δ / Curie | 912 °C / 1394 °C / 768 °C |
+| APF BCC / FCC / HCP | 0.68 / 0.74 / 0.74 |
+| Shrinkage allowance CI / steel | 1% / 2% |
+| Neutral flame temperature | ≈ 3200 °C |
+| Brazing / soldering | > 450 °C / < 450 °C |
+| Twist drill point angle | 118° |
+| Indexing ratio | 40 : 1 |
+| Taylor n: HSS / carbide / ceramic | 0.125 / 0.25 / 0.5–0.7 |
+| Vernier / micrometer LC | 0.02 / 0.01 mm |
+| Best wire size (60°) | 0.577p |
+| TMU | 0.036 s |
+| Control limits | ±3σ (99.73%) |
+| Six Sigma | 3.4 DPMO |
+
+## 29.2 Formula Flash Card
+F: E = 2G(1 + μ) = 3K(1 − 2μ) = 9KG/(3K + G)
+F: δ = PL/AE;  self-weight ρgL²/2E;  taper 4PL/(πEd₁d₂);  thermal σ = EαΔT
+F: Sudden load σ = 2P/A;  impact σ = (W/A)[1 + √(1 + 2AEh/WL)];  U = σ²V/2E
+F: σ₁,₂ = (σx + σy)/2 ± √(((σx − σy)/2)² + τ²);  τ_max = (σ₁ − σ₂)/2
+F: T_e = √(M² + T²);  M_e = ½[M + √(M² + T²)]
+F: M/I = σ/y = E/R;  Z rect = bd²/6;  Z circle = πd³/32
+F: τ = VAȳ/(Ib);  τ_max = 1.5τ_avg (rect), 4/3 τ_avg (circle)
+F: Deflections: WL³/3EI, wL⁴/8EI (cantilever);  WL³/48EI, 5wL⁴/384EI (SSB);  WL³/192EI, wL⁴/384EI (fixed)
+F: T/J = τ/r = Gθ/L;  τ = 16T/πd³;  P = 2πNT/60
+F: Spring: δ = 8WD³n/(Gd⁴);  k = Gd⁴/(8D³n)
+F: Euler P = π²EI/L_e²;  Rankine P = σ_cA/(1 + aλ²)
+F: Thin cylinder σ_c = pd/2t, σ_l = pd/4t;  sphere pd/4t;  e_v = (pd/4tE)(5 − 4μ)
+F: Chvorinov t = B(V/A)²;  sprue A₁/A₂ = √(h₂/h₁)
+F: Resistance welding H = I²Rt;  arc heat input ηVI/v
+F: Rolling Δh_max = μ²R;  blanking F = πDtτ;  deep-draw blank D = √(d² + 4dh)
+F: tanφ = r cosα/(1 − r sinα);  2φ + β − α = 90°;  VTⁿ = C
+F: V = πDN/1000;  t_turning = L/(fN);  roughness f²/8R
+F: Indexing 40/N;  angular θ/9
+F: i = 0.45∛D + 0.001D;  sine bar sinθ = h/L
+F: EOQ = √(2DS/H);  standard time = normal time × (1 + allowance)
+F: PERT t_e = (t_o + 4t_m + t_p)/6;  σ² = ((t_p − t_o)/6)²
+
+## 29.3 Comparison Quick-Hits
+| Topic | Remember |
+| Ductility vs malleability | Tension (wires) vs compression (sheets) |
+| Tresca vs von Mises | Hexagon, conservative vs ellipse, accurate |
+| Izod vs Charpy | Cantilever vs simply supported |
+| Annealing vs normalising | Furnace cool (softer) vs air cool (finer, stronger) |
+| Hot vs cold chamber die casting | Zn/Pb/Sn vs Al/brass |
+| Misrun vs cold shut | Not filled vs not fused |
+| DCSP vs DCRP | Deep penetration vs thin sheets/Al cleaning |
+| TIG vs MIG | Non-consumable W vs consumable wire |
+| Blanking vs punching | Piece is product vs hole is product |
+| Direct vs indirect extrusion | More vs less friction |
+| Up vs down milling | Lifts work, backlash-safe vs presses work, better finish |
+| Hobbing vs gear shaping | Fastest, no internal gears vs internal gears possible |
+| EDM vs ECM | Sparks, tool wears vs electrolysis, no tool wear |
+| Jig vs fixture | Guides tool vs only holds |
+| PERT vs CPM | Probabilistic, event vs deterministic, activity |
+| Product vs process layout | Mass vs job/batch production |
+
+## 29.4 Traps Toppers Avoid
+- Use effective length (not actual length) and least radius of gyration in column formulas.
+- In thin cylinders, hoop stress uses longitudinal joint efficiency and longitudinal stress uses circumferential joint efficiency.
+- Maximum shear stress in a triangle section is at mid-height, not at the neutral axis.
+- Springs in series: reciprocals of stiffness add (softer combination).
+- Shake allowance is negative; all other pattern allowances are positive.
+- Normalised steel is harder than annealed steel – not softer.
+- Clearance goes on the punch in blanking and on the die in punching.
+- Chip thickness ratio is less than 1; the chip is thicker than the uncut layer.
+- Lead screw is used only for thread cutting; feed rod for ordinary turning.
+- Hard materials need soft-grade grinding wheels.
+- GO gauge gets wear allowance; NO-GO gauge does not.
+- EOQ varies as square root of demand – doubling demand raises EOQ by 41%, not 100%.
+
+## 29.5 Final 10-Minute Checklist
+- Mechanics: Lami, friction angle, truss condition, centroids and MOI.
+- SOM: elastic constants, bars, thermal and impact stresses, Mohr's circle, failure theories, BM/deflection tables, bending/shear stress, torsion, springs, Euler, cylinders.
+- Materials: steels, alloying effects, cast irons, Fe–C diagram, heat treatments, case hardening.
+- Processes: casting allowances and defects, special casting, welding processes and polarity, forming calculations, press work.
+- Machining: Merchant, Taylor, tool materials, lathe/milling/drilling facts, grinding wheel marking, NTM processes.
+- Metrology and IE: fits and tolerances, gauges, instruments, CNC codes, jigs, work study, EOQ, control charts, PERT/CPM.
